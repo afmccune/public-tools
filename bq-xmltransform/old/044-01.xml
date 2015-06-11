@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+  <teiHeader type="BQ_Documents, vols. 1-44" status="new">
+ <idno>044-01</idno>
+    <fileDesc>
+      <titleStmt>
+        <title><hi rend="b">BLAKE</hi> AN ILLUSTRATED QUARTERLY</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Summer 2010</edition>
+      </editionStmt>
+      <publicationStmt>
+        <date>2010</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Blake/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">44.1</biblScope>
+                        <biblScope unit="volume">44</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+            <respStmt>
+              <resp>Editors</resp>
+              <name>Morris Eaves</name>
+              <name>Morton D. Paley</name>
+              <resp>Managing Editor</resp>
+              <name>Sarah Jones</name>
+              <resp>Bibliographer</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <resp>Review Editor</resp>
+              <name>Alexander S. Gourlay</name>
+              <resp>Associate Editor for Great Britain</resp>
+              <name>David Worrall</name>
+              <resp>Advisory Board</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <name>Martin Butlin</name>
+              <name>D.W. Börrbecker</name>
+              <name>Robert N. Essick</name>
+              <name>Angela Esterhammer</name>
+              <name>Nelson Hilton</name>
+              <name>Anne K. Mellor</name>
+              <name>Joseph Viscomi</name>
+              <name>David Worrall</name>
+              <resp>Contributor</resp>
+              <name>G.E. Bentley, Jr.</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Department of English, University of Rochester</publisher>
+            <pubPlace>Rochester, NY, USA</pubPlace>
+            <date value="2010"/>
+            <authority>William Blake Archive</authority>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text id="volume_44">
+    <front id="issue_01">
+      <pb id="p44-1-2" n="1-2"/>
+      <div1 id="cover">
+        <figure n="cover.044.01.bqscan" rend="file">
+          <figTranscr>BLAKE<lb/>
+          AN ILLUSTRATED QUARTERLY<lb/>
+            Blake and His Circle:<lb/>
+            A Checklist of Publications and Discoveries in 2009<lb/>
+          VOLUME 44<lb/>
+          NUMBER 1<lb/>
+          SUMMER 2010</figTranscr>
+        </figure>
+      </div1>
+      <div1 id="BQ-44-1-0001">
+        <head>
+          <title>CONTENTS</title>
+        </head>
+        <table id="contents" rows="2" cols="2">
+          <row>
+            <cell>
+              <hi rend="b">Article</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>William Blake and His Circle: A Checklist of Publications and Discoveries in 2009<lb/>
+              <hi rend="i">By G. E. Bentley, Jr., with the assistance of Hikari Sato for Japanese publications</hi></cell>
+            <cell>
+              <hi rend="i">4</hi>
+            </cell>
+          </row>
+        </table>
+      </div1>
+      <div1 id="BQ-44-1-0002">
+        <head>
+          <title>ADVISORY BOARD</title>
+        </head>
+        <p>G. E. Bentley, Jr., University of Toronto, retired</p>
+        <p>Martin Butlin, London</p>
+        <p>Detlef W. Dörrbecker, University of Trier</p>
+        <p>Robert N. Essick, University of California, Riverside</p>
+        <p>Angela Esterhammer, University of Zürich</p>
+        <p>Nelson Hilton, University of Georgia</p>
+        <p>Anne K. Mellor, University of California, Los Angeles</p>
+        <p>Joseph Viscomi, University of North Carolina at Chapel Hill</p>
+        <p>David Worrall, The Nottingham Trent University</p>
+      </div1>
+      <pb id="p44-3" n="3"/>
+      <div1 id="BQ-44-1-0003">
+        <head>
+          <title>CONTRIBUTORS</title>
+        </head>
+        <p>G. E. BENTLEY, JR., is attempting, thus far in vain, to persuade Blake scholars that he has identified Blake's most seen, least known picture.</p>
+      </div1>
+      <div1 id="BQ-44-1-0004">
+        <head>
+          <title>EDITORS</title>
+        </head>
+        <p>EDITORS: Morris Eaves and Morton D. Paley</p>
+        <p>BIBLIOGRAPHER: G. E. Bentley, Jr.</p>
+        <p>REVIEW EDITOR: Alexander S. Gourlay</p>
+        <p>ASSOCIATE EDITOR FOR GREAT BRITAIN: David Worrall</p>
+        <p>PRODUCTION OFFICE: Department of English, Morey 410, University of Rochester, Rochester NY 14627-0451</p>
+        <p>MANAGING EDITOR: Sarah Jones sarah.jones@rochester.edu<lb/> TELEPHONE: 585/275-3820 FAX: 585/442-5769</p>
+        <p>Morris Eaves, Department of English, University of Rochester, Rochester NY 14627-0451<lb/>
+Email: meav@mail.rochester.edu</p>
+        <p>Morton D. Paley, Department of English, University of California, Berkeley CA 94720-1030<lb/>
+Email: mpaley@berkeley.edu</p>
+        <p>G. E. Bentley, Jr., 246 MacPherson Avenue, Toronto, Ontario M4V 1A2 Canada</p>
+        <p>Alexander S. Gourlay, Department of English, Rhode Island School of Design, 2 College Street, Providence RI 02903-2717<lb/>
+Email: agourlay@risd.edu</p>
+        <p>David Worrall, Faculty of Humanities, The Nottingham Trent University, Clifton Lane, Nottingham NG11 8NS UK<lb/>
+Email: david.worrall@ntu.ac.uk</p>
+      </div1>
+      <div1 id="BQ-44-1-0005">
+        <head>
+          <title>INFORMATION</title>
+        </head>
+        <p><hi rend="i">BLAKE/AN ILLUSTRATED QUARTERLY</hi> is published under the sponsorship of the Department of English, University of Rochester. Subscriptions are $66 for institutions, $33 for individuals. All subscriptions are by the volume (1 year, 4 issues) and begin with the summer issue. Subscription payments received after the summer issue will be applied to the current volume. Addresses outside the US, Canada, and Mexico require a $20 per volume postal surcharge for airmail delivery. Credit card payment is available. Make checks payable to <hi rend="i">Blake/An Illustrated Quarterly.</hi> Address all subscription orders and related communications to Sarah Jones, <hi rend="i">Blake</hi>, Department of English, University of Rochester, Rochester NY 14627-0451. Back issues are available; address Sarah Jones for information on issues and prices, or consult the web site.</p>
+        <p>MANUSCRIPTS are welcome in either hard copy or electronic form. Send two copies, typed and documented according to forms suggested in the <hi rend="i">MLA Style Manual</hi>, and with pages numbered, to either of the editors. No articles will be returned unless accompanied by a stamped self-addressed envelope. For electronic submissions, you may send a disk, or send your article as an attachment to an email message; please number the pages of electronic submissions.</p>
+        <p>INTERNATIONAL STANDARD SERIAL NUMBER: 0160-628x.<lb/>
+        <hi rend="i">Blake/An Illustrated Quarterly</hi> is indexed in the Modern Language Association's International Bibliography, the Modern Humanities Research Association's Annual Bibliography of English Language and Literature, Humanities International Complete, Arts and Humanities Citation Index, Current Contents, Scopus, and the Bibliography of the History of Art.</p>
+        <p>© 2010 Copyright Morris Eaves and Morton D. Paley</p>
+        <p>Cover: An engraving, improbably attributed to William Blake, after a drawing ascribed to Samuel Collings. 23.5 x 15.9 cm. City of London, London Metropolitan Archives, main print collection, record 26963. See "Red Herring" in the introductory essay.</p>
+      </div1>
+    </front>
+    <pb id="p44-4" n="4"/>
+    <body>
+      <div1 id="BQ-44-1-0006">
+        <head>
+          <title>ARTICLE</title>
+        </head>
+        <div2>
+          <head>
+            <title>William Blake and His Circle: A Checklist of Publications and Discoveries in 2009</title>
+          </head>
+          <byline>BY <docAuthor>G. E. <name>BENTLEY</name>, JR.</docAuthor><lb/>
+            WITH THE ASSISTANCE OF HIKARI SATO FOR JAPANESE PUBLICATIONS<ref target="n0" type="note">*</ref></byline> 
+          <note id="n0">* <hi rend="i">Editor's note: Addenda and corrigenda to</hi> Blake Records, <hi rend="i">2nd ed. (2004), which have traditionally formed an appendix to this article, now appear on the journal's web site &lt;http://www.blakequarterly.org&gt;. They will be updated yearly.</hi></note>
+          <p><hi rend="b">Blake Publications and Discoveries in 2009</hi></p>
+          <p>Perhaps the most remarkable discovery of 2009 was that Blake took an apprentice named Thomas Owen in 1788 (see illus. 1).<ref target="n1" type="note">1</ref> Scarcely anything more is known about Owen or his apprenticeship.</p>
+          <note id="n1">1. David Alexander, "William Blake, graveur d'interprétation" (see <hi rend="i">William Blake [1757-1827]: Le Génie visionnaire du romantisme anglais</hi> under 2009 in Part IV) 80. See also the addenda to <hi rend="i">BR</hi>(2), online.</note>
+          <p>The term of the apprenticeship (1788-95) coincides with a period of enormous productivity for Blake. How much of this fecundity was fostered by the assistance of an apprentice able to take on some of the drudgery of polishing plates, sharpening gravers, mixing colors, and laying in outlines, not to mention casual carrying and fetching, which would otherwise have fallen upon Blake and Catherine?</p>
+          <p><hi rend="b">Blake's Writings</hi></p>
+          <p>Blake's letter of 7 August 1804, which disappeared a century and a quarter ago, reappeared in 2009 and, happily for us all, was acquired by Robert N. Essick. Essick will publish a transcription which will supersede the fragments quoted in catalogues of 1878, 1885, and 2009.</p>
+          <p><hi rend="i">Thel</hi> pl. 7, <hi rend="i">Urizen</hi> pls. 7, 11-12, 17, 19, 23, and <hi rend="i">Marriage</hi> pl. 16 from Small Book of Designs (B), which were displayed at the Tate in 2007-08, have now been sold by their still-anonymous owner to the Tate.</p>
+          <p><hi rend="i">Songs</hi> pl. 30 was acquired by Victoria University in the University of Toronto.</p>
+          <p>New printings of Blake's work (mainly poems from <hi rend="i">Songs</hi>) were discovered in publications predating Gilchrist's <hi rend="i">Life</hi>.</p>
+          <p><hi rend="b">Commercial Engravings</hi></p>
+          <p>Previously unknown works with engravings after Blake's designs were first recorded in 2009: the <hi rend="i">Diamond Bible</hi> (1832-34, 1836-37, 1840) with a copy of Blake's engraving of "Job and His Family"; <hi rend="i">Diario de los niños</hi>, only the second time designs by Blake were lithographed (the first was "Enoch" [1807]) and the first printing--by almost a century--of anything concerned with Blake in Mexico.</p>
+          <p><hi rend="b">Catalogues and Bibliographies</hi></p>
+          <p>A marvelous new resource is J. R. de J. Jackson, <hi rend="i">Bibliography of Romantic Poetry</hi> 1770-1835, which is online at the University of Toronto Library &lt;http://jacksonbibliography.library.utoronto.ca&gt;. Phase 1, which is up and running, presents 17,160 entries for 1798-1835. Phase 2, "in an advanced state of preparation," will add 5,359 entries for 1770-97. The Blake entries in phase 1 (<hi rend="i">Milton</hi> and <hi rend="i">Jerusalem</hi>) are derivative, but the thousands of other entries are de visu and wonderfully useful.</p>
+          <p><hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt; searches by artist's name to provide links to images at institutional web sites (e.g., 41 Blake images at the Art Gallery of New South Wales, Sydney).</p>
+          <p>The major discovery of 2009 for me has been <hi rend="i">Google Books</hi> &lt;http://books.google.com&gt;. Despite all the hype, this is a wonderfully useful resource. Of course I had heard of it as one of those grandiose cyber-vauntings and its challenge to copyright, but I had no conception of how far the project has advanced or the sophistication of the means of access. <hi rend="i">Google Books</hi> has made possible the discovery of scores of previously unreported references to Blake in publications of 1780-1862, a surprising number of them in French and German.</p>
+          <p>The volume accompanying the Blake exhibition at the Petit Palais in Paris is a handsome quarto. It consists of three streams of information: the first and smallest is the catalogue of the works exhibited, the second is 31 short essays, and the third is the 173 striking reproductions.</p>
+          <p>The essays, mostly by distinguished Blake scholars, are carefully organized to encompass Blake's whole career from his apprenticeship to his reputation in England, the United States, and France. The scholars, like the loaning institutions, are mostly British and French.</p>
+          <p>There has been far too little coordination of the text with the reproductions, which are often scarcely related to the essays. The surprising rewards of the most original of the essays here--those by David Alexander, Robin Simon, and Jon Stallworthy--are not significantly reinforced by the many illustrations.<ref target="n2" type="note">2</ref></p>
+          <note id="n2">2. The most important visual feature referred to in the text (96)--the cricket bat in the second plate of "Pré tintant" ("The Ecchoing Green")--is not reproduced at all, although there are many other plates from the <hi rend="i">Songs</hi>.</note>
+          <pb id="p44-5" n="5"/>
+          <figure>
+            <figDesc>1. Record of the apprenticeship of Thomas Owen to William Blake, from the Apprenticeship Books 1710-1811 (ref. IR1/33 [pp. 218-19]) in the National Archives.
+            <p>The record is in a large folio volume. On the verso of one leaf (above) are the date (Thursday 10 July [17]88), the name of the master (W<hi rend="s">m</hi>. Blake), his parish (St. James's, Westminster, County of Middlesex), his trade (engraver), and the name of the apprentice (Tho<hi rend="s">s</hi>. Owen).</p>
+            <p>On the recto of the facing leaf (below) are the date on which the apprenticeship began (23 June [17]88), the length of the apprenticeship (7 years), the fee paid for the apprentice (£52.10.0 or 50 guineas), and the duty paid on the fee (£2.12.6).</p>
+            <p>The book is for apprenticeships outside the City of London, where Blake was apprenticed. The record was first cited by David Alexander (see note 1). The only previous record of a Blake apprentice known to me is in the fiction by Peter Carter, <hi rend="i">The Gates of Paradise</hi> &lt;<hi rend="i">BBS</hi> p. 433&gt;.</p>
+            <p>Images reproduced by courtesy of the National Archives of the UK.</p></figDesc>
+          </figure>
+          <p>The contents of the modest volume, <hi rend="i">Seen in My Visions</hi>, that accompanied the Blake exhibition at the Tate are useful but not exciting.<ref target="n3" type="note">3</ref> It is a pity that no attempt was made in either the exhibition or the catalogue to reproduce the layout of the 1809 exhibition on the floor above the haberdashery shop at 28 Broad Street.<ref target="n4" type="note">4</ref> This would have allowed current viewers to experience the pictures as the few original patrons did.</p>
+          <note id="n3">3. The Tate exhibition included paintings exhibited in 1809 by Blake's contemporaries which are not referred to in the catalogue.</note>
+          <note id="n4">4. See Troy R. C. Patenaude, "'The glory of a Nation': Recovering William Blake's 1809 Exhibition," <hi rend="i">British Art Journal</hi> 4 (2003): 52-63 &lt;<hi rend="i">Blake</hi> (2004)&gt;.</note>
+          <p>John Windle's handsome and enormous catalogue 46 ([November] 2009) of books by and about Blake and his circle is perhaps the largest bookseller's catalogue ever devoted to Blake. It is valuable to scholars and critics as well as to hopeful collectors for what it brings to light.</p>
+          <p><hi rend="b">Criticism, Biography, and Scholarly Studies</hi></p>
+          <p><hi rend="i">Google Books</hi> has made possible the discovery of references to Blake by such notable contemporaries as Lady Charlotte Bury (1830), Leigh Hunt (1810), and John Landseer (1834).</p>
+          <p>Mei-Ying Sung's <hi rend="i">William Blake and the Art of Engraving</hi> (2009) is rather more narrowly focused than its title suggests. It concentrates very rewardingly upon Blake's engraving materials, his copperplates and woodblocks, particularly their unengraved versos with evidence of repoussage or hammering the copper to alter a feature of the engraved recto.<ref target="n5" type="note">5</ref> She finds that Blake used repoussage a good deal more than did other engravers, such as Schiavonetti. "This either means that Blake made many more mistakes in handling his burin than others (and so was not a very skillful engraver), or that he had a freer attitude towards engraving and did not mind making mistakes and subsequently correcting or revising them on the copper plate" (57).</p>
+          <note id="n5">5. Almost all the evidence is from Blake's engravings of his own designs; the copperplates engraved from the designs of others do not survive, except for the Hogarth plate.</note>
+          <p>Would she draw similar conclusions about the alterations in Blake's manuscripts such as his <hi rend="i">Notebook</hi> and <hi rend="i">Vala</hi>? Might such alterations not indicate meticulousness in improving his earlier version?</p>
+          <p>Her argument is vitally supported by reproductions, but there are only 8 figures; her dissertation (2005) with 99 photographs, including recto and verso of all the <hi rend="i">Job</hi> plates, is far more generous in this respect.</p>
+          <p><hi rend="b">Red Herring</hi></p>
+          <p>A print in the London Metropolitan Archives bears the imprint "THE ITALIAN PUPPET SHOW.", "Printed for &amp; Sold by Bowles &amp; Carver", "N<hi rend="s">o</hi>. 69 in S<hi rend="s">t</hi>. Pauls Church Yard London", and "Published as the Act directs" (see cover illus.). The pencil
+          <pb id="p44-6" n="6"/>
+          drawing for it in the same collection is labeled "S. Collings" in a twentieth-century hand, and the catalogue said<ref target="n6" type="note">6</ref> that it was engraved by William Blake for the <hi rend="i">Wit's Magazine</hi>.</p>
+          <note id="n6">6. By May 2010 the online catalogue still attributed the engraving to Blake, but made no reference to the <hi rend="i">Wit's Magazine</hi>.</note>
+          <p>No such print is recorded in the obvious sources, for the very good reason that it almost certainly has nothing to do with Blake. He certainly signed six prints in the <hi rend="i">Wit's Magazine</hi> (1784), four of them designed by Samuel Collings, and the size of the Italian Puppet Show print (23.5 x 15.9 cm.) is commensurate with those Blake engraved (c. 23 x 18 cm.). However, no such print appears in the <hi rend="i">Wit's Magazine</hi> (Printed for Harrison and Co. N<hi rend="s">o</hi> 18, Paternoster-Row, 1784-85), and there is no story which would justify its insertion. Furthermore, the firm of Bowles &amp; Carver was not founded until 1793, when Henry Carington Bowles (1763-1830) took over the business of his father Carington Bowles (1724-93). The firm flourished from 1793-1830, publishing satirical prints voluminously,<ref target="n7" type="note">7</ref> but its imprint has not previously been associated with the <hi rend="i">Wit's Magazine</hi> or elsewhere, though the speculative association with Samuel Collings is not implausible.</p>
+          <note id="n7">7. Ian Maxted, <hi rend="i">The London Book Trades 1775-1800: A Preliminary Checklist of Members</hi> (Folkestone: Dawson, 1977) 25.</note>
+          <p>* * * * * * * * *</p>
+          <p>I am deeply grateful for various kinds of assistance generously proffered by Sarah Bentley, Professor Robert Brandeis, Professor Robert N. Essick (for the draft of his "Blake in the Marketplace, 2009" and his essay on etched variants in <hi rend="i">Europe</hi>, and for endless patience and generosity), Professor Heather Jackson (for details of the <hi rend="i">Diamond Bible</hi> in the British Library), Alan Kahan (for a reproduction of the apprenticeship record of Thomas Owen), Jeffrey Barclay Mertz, Agnieszka Osińska, Professor Morton D. Paley, Pickering &amp; Chatto, Susanne Sklar, Tate Publishing, Professor Angus Whitehead, and John Windle.</p>
+          <p>Research for this checklist was carried out particularly in the libraries of the University of Toronto and Victoria University in the University of Toronto, Toronto Public Library, <hi rend="i">Google Books</hi>, and, for Japanese publications, <hi rend="i">CiNii</hi> (Scholarly and Academic Information Navigator) online, the National Diet Library online catalogue, and the Komaba Library and the General Library of the University of Tokyo.</p>
+          <p>I have made no systematic attempt to record audio books and magazines, broadcasts on radio and television, calendars, CD-ROMs, chinaware, coffee mugs, comic books, computer print-outs (unpublished), conferences, e-mails, festivals and lecture series, furniture, jewelry, lectures on audiocassettes, lipstick, manuscripts, microforms, mosaics, movies, murals, music, notebooks (blank), pageants, performances, pillows, playing cards, podcasts, poems about Blake, portraits, postcards, posters, recorded readings and singings, refrigerator magnets, stained-glass windows, stamps (postage and rubber), stickers, sweatshirts, T-shirts, tattoos, tiles, typescripts (unpublished), video recordings, and web sites. The most comprehensive source of frivolities is CafePress &lt;http://www.cafepress.com&gt;.</p>
+          <p>The annual checklist of scholarship and discoveries concerning William Blake and his circle records publications and discoveries for the current year (say, 2009) and those for previous years which are not recorded in <hi rend="i">Blake Books</hi>, <hi rend="i">Blake Books Supplement</hi>, and "William Blake and His Circle." Installments of "William Blake and His Circle" are continuations of <hi rend="i">Blake Books</hi> and <hi rend="i">Blake Books Supplement</hi>, with similar principles and conventions.</p>
+          <p>I take <hi rend="i">Blake Books</hi> and <hi rend="i">Blake Books Supplement</hi>, faute de mieux, to be the standard bibliographical books on Blake,<ref target="n8" type="note">8</ref> and have noted significant differences from them.</p>
+          <note id="n8">8. Except for the states of the prints for Blake's commercial book engravings, where the standard authority is Robert N. Essick, <hi rend="i">William Blake's Commercial Book Illustrations</hi> (Oxford: Clarendon Press, 1991). Significant further details, especially about collations, are given in Roger R. Easson and Robert N. Essick, <hi rend="i">William Blake Book Illustrator: A Bibliography and Catalogue of the Commercial Engravings</hi>, vol. 1: Plates Designed and Engraved by Blake (Normal: American Blake Foundation, 1972); vol. 2: Plates Designed or Engraved by Blake 1774-1796 (Memphis: American Blake Foundation, 1979); vol. 3 never appeared. The standard authority for prints issued separately is Essick, <hi rend="i">The Separate Plates of William Blake: A Catalogue</hi> (Princeton: Princeton University Press, 1983).</note>
+          <p>The organization of Division I of the checklist is as in <hi rend="i">Blake Books</hi>:</p>
+          <p><hi rend="b">Division I: William Blake</hi></p>
+            <p>
+            <table>
+              <row>
+                <cell>Part I:</cell>
+                <cell>Editions, Translations, and Facsimiles of Blake's Writings<lb/>
+                Section A: Original Editions, Facsimiles, Reprints, and Translations<lb/>
+                Section B: Collections and Selections<lb/>
+                Appendix: Writings Improbably Alleged to Be by Blake</cell>
+              </row>
+              <row>
+                <cell>Part II:</cell>
+                <cell>Reproductions of Drawings and Paintings<lb/>
+                Section A: Illustrations of Individual Authors<lb/>
+                Section B: Collections and Selections</cell>
+              </row>
+              <row>
+                <cell>Part III:</cell>
+                <cell>Commercial Book Engravings<lb/>
+                Appendix: Books Improbably Alleged to Have Blake Engravings</cell>
+              </row>
+              <row>
+                <cell>Part IV:</cell>
+                <cell>Catalogues and Bibliographies</cell>
+              </row>
+              <row>
+                <cell>Part V:</cell>
+                <cell>Books Owned by William Blake the Poet<lb/>
+                Appendix: Books Owned by the Wrong William Blake in the Years 1770-1827</cell>
+              </row>
+              <row>
+                <cell>Part VI:</cell>
+                <cell>Criticism, Biography, and Scholarly Studies<lb/>
+                Note: Collections of essays on Blake are listed under the names of the editors, and issues of periodicals devoted entirely to him are listed under the titles.</cell>
+              </row>
+            </table>
+          </p>
+          <p><hi rend="b">Division I: William Blake</hi></p>
+            <p>This division is organized by individual (say, William Hayley or John Flaxman), with works by and about Blake's friends
+              <pb id="p44-7" n="7"/>
+              and patrons, living individuals with whom he had significant direct and demonstrable contact. It does not include important contemporaries with whom Blake's contact was negligible or non-existent, such as John Constable and William Wordsworth and Edmund Burke.</p>
+          <p>Reviews, listed here under the book reviewed, are only for works which are substantially about Blake, not for those with only, say, a chapter on Blake. Note that <hi rend="i">Blake Books</hi> and <hi rend="i">Blake Books Supplement</hi> do not include reviews.</p>
+          <p>I should be most grateful to anyone who can help me to better information about the unseen (§) items reported here, and I undertake to thank them prettily in person and in print.</p>
+          <p><hi rend="b">Symbols</hi></p>
+          <p>* Works prefixed by an asterisk include one or more illustrations by Blake or depicting him. If there are more than 19 illustrations, the number is specified. If the illustrations include all those for a work by Blake, say <hi rend="i">Thel</hi> or his illustrations to <hi rend="i">L'Allegro</hi>, the work is identified.</p>
+          <p>§ Works preceded by a section mark are reported on second-hand authority.</p>
+          <p><hi rend="b">Abbreviations</hi></p>
+          <p><table>
+            <row>
+              <cell><hi rend="i">BB</hi></cell>
+              <cell>G. E. Bentley, Jr., <hi rend="i">Blake Books</hi> (1977)</cell>
+            </row>
+            <row>
+              <cell><hi rend="i">BBS</hi></cell>
+              <cell>G. E. Bentley, Jr., <hi rend="i">Blake Books Supplement</hi> (1995)</cell>
+            </row>
+            <row>
+              <cell><hi rend="i">Blake</hi></cell>
+              <cell><hi rend="i">Blake/An Illustrated Quarterly</hi></cell>
+            </row>
+            <row>
+              <cell><hi rend="i">BR</hi>(2)</cell>
+              <cell>G. E. Bentley, Jr., <hi rend="i">Blake Records</hi>, 2nd ed. (2004)</cell>
+            </row>
+            <row>
+              <cell>Butlin</cell>
+              <cell>Martin Butlin, <hi rend="i">The Paintings and Drawings of William Blake</hi> (1981)</cell>
+            </row>
+          </table>
+          </p>
+          <div3>
+            <head>
+              <title>Division I: William Blake</title>
+              <title>Part I: Blake's Writings</title>
+              <title>Section A: Original Editions, Facsimiles, Reprints, and Translations</title>
+            </head>
+            <table>
+              <head>
+                <title>Collections of Originals of Blake's Writings<lb/>
+                Addenda</title>
+              </head>
+              <row>
+                <cell>VICTORIA UNIVERSITY in the University of Toronto</cell>
+                <cell>ILLUMINATED PRINTING: <hi rend="i">Songs</hi> pl. 30</cell>
+              </row>
+            </table>
+            <table>
+              <head>
+                <title>Collections Which Have Disposed of Originals of Blake's Writings<lb/>
+                Addenda</title>
+              </head>
+              <row>
+                <cell><hi rend="i">Lipman, Roger</hi></cell>
+                <cell>ILLUMINATED PRINTING: <hi rend="i">Songs</hi> pl. 30</cell>
+              </row>
+            </table>
+            <p>
+              <head>
+                <title>Table of Watermarks<lb/>
+                Addenda</title>
+              </head>
+            EDMEADS &amp; PINE<lb/>
+            Blair watercolors nos. 3, 5, ?6, 7, 11</p>
+            <p>PRO PATRIA with Britannia and a lion<lb/>
+              <hi rend="i">The Resurrection of the Dead</hi>, pencil sketch (watermark and drawing reproduced in Windle's catalogue 46 [see under 2009 in Part IV] p. 2)
+            </p>
+            <p>J RUSE | 1800<lb/>
+            Blair watercolor no. 2 (backing mat)</p>
+            <p>J WHATMAN<lb/>
+            Blair watercolors nos. 16 (backing mat), 18 (backing mat, in smaller letters)</p>
+            <p>J WHATMAN | 1800<ref target="n9" type="note">9</ref><lb/>
+            Blair watercolor no. 11 (backing mat)</p>
+            <note id="n9">9. J WHATMAN | 1800 has not been recorded in another work by Blake.</note>
+            <div4><head><title><hi rend="i">America</hi> (1793)</title></head>
+            <table><head><title>Table</title></head>
+              <row>
+                <cell>Copy</cell>
+                <cell>Plates</cell>
+                <cell>Leaves</cell>
+              </row>
+              <row>
+                <cell>S</cell>
+                <cell>1-18</cell>
+                <cell>18</cell>
+              </row>
+              <row>
+                <cell><hi rend="i">UNTRACED</hi></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </table>
+            <p>Copy C<lb/>
+            History: Offered by Henry G. Bohn in 1848 (see Part IV).</p>
+            <p>Newly Recorded Copy</p>
+            <p>Copy S<lb/>
+            Binding: Bound with <hi rend="i">Thel</hi> (S), <hi rend="i">Europe</hi> (N), <hi rend="i">Urizen</hi> (K), and <hi rend="i">Visions</hi> (S) in half calf with the autograph of John Flaxman.<lb/>
+             Most copies of <hi rend="i">America</hi> (B-M, R), <hi rend="i">Europe</hi> (A-G), and <hi rend="i">Visions</hi> (B-D, F, H-M, R) are printed on leaves c. 26 x 37 cm. Often <hi rend="i">America</hi> (A-B, F-H, N-Q) was bound with <hi rend="i">Europe</hi> (A-D, I, K-M), twice (C, F) it was bound with <hi rend="i">Visions</hi> (B-C), twice (A, F) with <hi rend="i">The Song of Los</hi> (B, D), and once each (G-H) with <hi rend="i">Jerusalem</hi> (B) and the Large Book of Designs (A). Once <hi rend="i">Europe</hi> (G) was bound with <hi rend="i">The Song of Los</hi> (C) and <hi rend="i">Visions</hi> (H).<lb/>
+            History: Acquired by Flaxman after his return in 1794 from seven years in Italy--perhap this is the work for which he paid Blake £2.2.0 in Oct. 1797;<ref target="n10" type="note">10</ref> at Flaxman's death in 1826 the collective volume was probably inherited by his sister-in-law and adopted daughter Maria Denman; on her death in 1861 the volume probably passed to her family; offered in Willis and Sotheran's catalogues of 25 June 1862, lot 116, and 25 Dec. 1862, lot 91 (see Part IV); untraced.</p>
+            <note id="n10">10. <hi rend="i">BR</hi>(2) 758.</note>
+            <div4><head><title><hi rend="i">The Book of Thel</hi> (1789)</title></head>
+            <table><head><title>Table</title></head>
+              <row>
+                <cell>Copy</cell>
+                <cell>Plates</cell>
+                <cell>Leaves</cell>
+              </row>
+              <row>
+                <cell>S</cell>
+                <cell>?2-8<ref target="n11" type="note">11</ref></cell>
+                <cell>7</cell>
+              </row>
+              <row>
+                <cell><hi rend="i">UNTRACED</hi></cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </table>
+            <note id="n11">11. The print missing may be pl. 1, "Thel's Motto," also omitted from copy E.</note>
+            <pb id="p44-8" n="8"/>
+            <p>Copy O<lb/>
+            History: Offered by Henry G. Bohn in 1848 (see Part IV).</p>
+            <p>Newly Recorded Copy</p>
+            <p>Copy S<lb/>
+            For the binding and history, see <hi rend="i">America</hi> (S), above. No other copy of the quarto <hi rend="i">Thel</hi> was bound with the folios <hi rend="i">America</hi> and <hi rend="i">Europe</hi>, but two copies (J, N) were bound with copies of the folio <hi rend="i">Visions</hi> (G, P).</p>
+              </div4>
+            <div4><head><title><hi rend="i">A Descriptive Catalogue</hi> (1809)</title></head>
+            <p>Transcribed, without Blake's index, in Martin Myrone, ed., <hi rend="i">Seen in My Visions</hi> (see under 2009 in Part IV).</p>
+            </div4>
+            <div4>
+            <head><title><hi rend="i">Europe</hi> (1794)</title></head>
+              <table><head><title>Table</title></head>
+                <row>
+                  <cell>Copy</cell>
+                  <cell>Plates</cell>
+                  <cell>Leaves</cell>
+                  <cell>Watermark</cell>
+                  <cell>Blake nos.</cell>
+                  <cell>Leaf size in cm.</cell>
+                  <cell>Printing color</cell>
+                </row>
+                <row>
+                  <cell>N<lb/>
+                  <hi rend="i">UNTRACED</hi></cell>
+                  <cell>?1-2, 4-8, 11-18</cell>
+                  <cell>15</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>c<lb/>
+                  HARVARD</cell>
+                  <cell>15<hi rend="s">b</hi></cell>
+                  <cell>1</cell>
+                  <cell>--</cell>
+                  <cell>--<ref target="n12" type="note">12</ref></cell>
+                  <cell>22.6 x 31.3</cell>
+                  <cell>brown<ref target="n13" type="note">13</ref></cell>
+                </row>
+              </table>
+            </div4>
+            <note id="n12">12. Pl. 15<hi rend="s">b</hi> is numbered "36" in ink at the top right (see the "Order" of the <hi rend="i">Songs</hi>, below) and "24" in pencil at the top left.</note>
+            <note id="n13">13. Pl. 15<hi rend="s">b</hi> has rough green color printing at the bottom. The plate is poorly inked, and the text and parts of the design are gone over in black ink. There are two framing lines round the print and stabholes in the left margin.</note>
+            <p>Etched Variants<ref target="n14" type="note">14</ref></p>
+            <p>Pl. 1<lb/>
+            State 1 (copy a): The white-line hatching in the clouds to the left of the figure's right leg does not extend to the left margin. At the top of this cloud, the gap between the margin and the left end of the white-line hatching is c. 1.6 cm.<lb/>
+            State 2 (all other copies): The white-line hatching in the clouds to the left of the figure's right leg has been extended to within 0.2 cm. of the left margin.</p>
+            <note id="n14">14. The modifications here of <hi rend="i">BB</hi> and <hi rend="i">BBS</hi> derive, mostly word for word, from an unpublished essay by Robert N. Essick, "Miscellaneous Plates from <hi rend="i">Europe a Prophecy</hi>," generously sent me in 2009. Some of the variants noted in <hi rend="i">BB</hi> are due to differences in inking and coloring rather than to etched changes to the plate.</note>
+            <p>
+              Pl. 4<lb/>
+              State 1 (copy b, pl. 4<hi rend="s">a-b</hi>: There are no white lines in the road-ruts to the left of the walking figure's foot or on the walking figure or on the plants to the right of his foot.<lb/>
+              State 2 (copy a; copy c, pl. 4<hi rend="s">c</hi>: White-line work has been added to the ruts, to the strip across the right side of the walker's chest, to the plants to the right of the walker's foot, to his right knee and inner right thigh, to his left thigh, to his lower torso, and to his upper right arm.<lb/>
+              State 3 (all other copies): White-line hatching has been added to the bundle on the walker's back, to the locks of hair below his hat, to he small area of the bundle visible above and to the left of his right shoulder, now defined with a line that clearly separates the shoulder from the bundle.
+            </p>
+            <p>
+              Pl. 5<lb/>
+              State 1 (copy b): Lacks the white-line work added in state 2.<lb/>
+              State 2 (all other copies): Extensive white-line hatching and cross-hatching have been added to the clouds above, below, and to the right of the three struggling figures, to the clouds above the final two lines of text, and to the sky right, left, and above the man at upper right. White lines have been added to the lines defining the interior modeling of his back and hips and to the head of the struggling figure on the left in the group of three.
+            </p>
+            <p>
+              Pl. 7<lb/>
+              State 1 (copy a): The prone young man has a halo of three concentric lines round his head.<lb/>
+              State 2 (all other copies): The halo has been removed.
+            </p>
+            <p>
+              Pl. 9<lb/>
+              State 1 (copy b, pl. 9<hi rend="s">b</hi>: Lacks the white lines added in state 2.<lb/>
+              State 2 (copy a): Curving white lines have been added to the smoke above and on both sides of the pot. White lines have been added to the three lines defining the neck of the woman on the left and to the folds of her garment where it falls over her lower back, hip, and below her hip, to the supine child's right shoulder, torso, and hip, and to the cloth surrounding his body. White-line hatching has been added to the garment worn by the woman on the right where it covers her legs and right knee and to the part of her garment below her right leg.<lb/>
+              State 3 (all other copies): White-line hatching has been added to the garment of the woman on the right where it falls to the left of her ankle and foot. Two small patches of white-line hatching (not printed or poorly printed in some copies) have been added to the left foot of the woman on the right. Two white lines (not printed or poorly printed in some copies) have been added to her garment where it falls below her lower left leg. The relief lines extending from the supine child's right shoulder towards his chest and a few of the relief hatching lines just above his biceps have been cut away.
+            </p>
+            <p>Pl. 10<lb/>
+            State 1 (copy a): Lacks the white-line work added in state 2.<lb/>
+            State 2 (all other copies): Considerable white-line hatching has been added to the bellman's hat (upper left crown and brim above his hair), to his coat over his chest, upper stomach, and the left side of his arm, to the relief line just above the lower edge of his bell, to the chest, back, shoulder, and arm of the man lower left, to the hair and gown of the woman lower left (particularly evident below her legs), to the gown of the woman on the right where it falls to the left and below her left leg and right of her left foot, and to the lines extending upward from her waist.</p>
+            <pb id="p44-9" n="9"/>
+            <p>Pl. 11<lb/>
+            State 1<ref target="n15" type="note">15</ref> (coyp a): There is no white-line work in the relief area below the woman's right foot and ankle, lower left.<lb/>
+            State 2 (all other copies): A few white-line strokes have been added to the relief area below the woman's right foot and ankle, lower left.</p>
+            <note id="n15">15. Not recorded in <hi rend="i">BB</hi> or <hi rend="i">BBS</hi>.</note>
+            <p>Pl. 17<lb/>
+            State 1 (copy a; copy b, pl. 17<hi rend="s">a-b</hi>; copy c [all three copies], and Essick copy): Line 6 from the bottom reads "She ceas'd, and all went forth to sport beneath the solemn moon", and line 3 from the bottom reads "Till morning ope'd the eastern gate, and the angel trumpet blew."<lb/>
+            State 2 (all other copies): Line 6 from the bottom has been altered to read "She ceas'd, for All were forth at sport beneath the solemn moon",<ref target="n16" type="note">16</ref> and line 3 from the bottom reads "Till morning ope'd the eastern gate."</p>
+            <note id="n16">16. Copy b, pl. 17<hi rend="s">c</hi>, line 6 from the bottom has been altered in ink (not on the etched copperplate) to read "She ceas'd. All were forth in sport beneath the solemn moon".</note>
+            <p>Pl. 18<lb/>
+            State 1 (copy a): Line 1 reads "Shot from the heights of Enitharmon, before the trumpet blew;".<lb/>
+            State 2 (copy c, pl. 18<hi rend="s">a</hi>): The small areas of relief lines on the woman's back, just above her neck, and on her left shoulder have been modified with white-line work. The relief areas on the back of the child's raised right hand have been cut away and the middle finger divided into two fingers with white-line work. An "S"-shaped relief line below "all" in the penultimate line of text left of the final line ("FINIS") has been cut away.<lb/>
+            State 3 (all other copies): The final four words in the first line of text and the terminal punctuation have been cut away, so that the line reads "Shot from the heights of Enitharmon,". White lines have been added to the woman's dangling hair, just left of her elbow, and the next lock to the left has been narrowed. A few white lines have been cut into the relief areas right and left of the top of the man's penis.</p>
+            <p>Copy B<lb/>
+            It was reproduced in the Petit Palais exhibition catalogue (see under 2009 in Part IV).</p>
+            <p>Newly Recorded Copy</p>
+            <p>Copy N<lb/>
+            For the binding and history, see <hi rend="i">America</hi> (S), above. In the 1862 catalogues, <hi rend="i">Europe</hi> (N) is said to have "15 <hi rend="i">engravings</hi>," but all other copies have 17 (pls. 1-2, 4-18 in A-G, I, L-M) or 18 prints (H, K). The prints omitted in <hi rend="i">Europe</hi> (N) may be pl. 3 (lacking in most copies) and pls. 9-10, which are full-page prints without text.</p>
+              <p>Edition</p>
+              <p><hi rend="i">Europe</hi>, copy G. <hi rend="i">William Blake Archive</hi>. Ed. Morris Eaves, Robert N. Essick, and Joseph Viscomi. 2009. &lt;http://www.blakearchive.org&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">The First Book of Urizen</hi> (1794-1818)</title>
+              </head>
+              <table>
+                <head><title>Table</title></head>
+                <row>
+                  <cell>Copy</cell>
+                  <cell>Plates</cell>
+                  <cell>Leaves</cell>
+                </row>
+                <row>
+                  <cell>K</cell>
+                  <cell>?1-15,</cell>
+                  <cell>27</cell>
+                </row>
+                <row>
+                  <cell><hi rend="i">UNTRACED</hi></cell>
+                  <cell>17-28</cell>
+                  <cell></cell>
+                </row>
+              </table>
+              <p>Newly Recorded Copy</p>
+              <p>Copy K<lb/>
+              For the binding and history, see <hi rend="i">America</hi> (S), above. Among previously recorded copies, only <hi rend="i">Urizen</hi> (F) was bound with other works--<hi rend="i">Thel</hi> (A) and <hi rend="i">Marriage</hi> (A). In the 1862 catalogues, <hi rend="i">Urizen</hi> (K) is reported as having 27 prints, probably pls. 1-15, 17-28.<ref target="n17" type="note">17</ref></p>
+              <note id="n17">17. Two previously recorded copies (A-B) have 28 prints; one (G [1818]) has 27; two (D, F) have 26; two (C, J) have 25 (not counting the duplicate pl. 2 in copy C); and one (E) has 24. All but copy G with fewer than 28 prints lack pl. 16, which is probably the print omitted from copy K.</note>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">For Children: The Gates of Paradise</hi> (1793)</title>
+              </head>
+              <table><head><title>Table</title></head>
+                <row>
+                  <cell>Copy</cell>
+                  <cell>Plates</cell>
+                  <cell>Leaves</cell>
+                </row>
+                <row>
+                  <cell>F</cell>
+                  <cell>1-18, plus</cell>
+                  <cell>19</cell>
+                </row>
+                <row>
+                  <cell><hi rend="i">UNTRACED</hi></cell>
+                  <cell>another pl.</cell>
+                  <cell></cell>
+                </row>
+              </table>
+              <p>Newly Recorded Copy</p>
+              <p>Copy F<lb/>
+              Binding: A small square octavo with 19 prints. If it was acquired about 1797, the work must be <hi rend="i">For Children</hi> with 18 prints, rather than <hi rend="i">For the Sexes</hi> (1826 and later) with 21 prints. The nineteenth print may have been a duplicate.<lb/>
+              History: Acquired by John Flaxman, probably about 1797 when he bought <hi rend="i">America</hi> (S), <hi rend="i">Thel</hi> (S), <hi rend="i">Europe</hi> (N), <hi rend="i">Urizen</hi> (K), and <hi rend="i">Visions</hi> (S) bound together; offered "From Flaxman's library" in the Willis and Sotheran catalogue of 25 June 1862, lot 117 (see Part IV); untraced.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">For the Sexes: The Gates of Paradise</hi> ([1826])</title>
+              </head>
+              <p>Copy H<lb/>
+              History: After its sale at Sotheby's, 29 July 1925 [for £31 to Parsons], it was sold anonymously at the American Art Association, 14 Jan. 1926, lot 40 (title page reproduced) [for $400 to Phenix, according to the Essick copy of the catalogue].</p>
+            </div4>
+            <div4>
+              <head><title><hi rend="i">The Ghost of Abel</hi> (1822)</title></head>
+              <p>Copy B<lb/>
+              It was reproduced in the Petit Palais exhibition catalogue (see under 2009 in Part IV).</p>
+            </div4>
+            <pb id="p44-10" n="10"/>
+            <div4>
+              <head>
+                <title><hi rend="i">Jerusalem</hi> (1804[-20])</title>
+              </head>
+              <p>Copy A<lb/>
+              History: Offered by A. E. Evans &amp; Son in [1845] (see Part IV).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>Letters<ref target="n18" type="note">18</ref></title>
+              </head>
+              <note id="n18">18. A letter of Wednesday 24 Apr. [1811] from "W.B." declining to buy "the little picture of the Pope" is reproduced and attributed to the poet in the American Art Association catalogue of 13-14 Mar. 1928, lot 37 (said to have been sent to Blake's "old friend John Thomas Smith"). I am confident that the letter is not by the poet and suspect that it is by William Beckford.</note>
+              <p>1804 7 AUGUST<lb/>
+              History: As in <hi rend="i">BB</hi> p. 279 to 1885; thereafter it passed to Robert Griffin (c. 1840-1921) of Court Garden, Marlow, Buckinghamshire, and "thence by descent" to an anonymous owner, for whom it was sold at Sotheby's (London), 17 Dec. 2009, lot 72 (partially quoted and reproduced) (estimate £25,000-£35,000) for £46,850 to John Windle for Robert N. Essick.</p>
+              <p>1807 MAY (from R. H. Cromek)<lb/>
+              History: See <hi rend="i">BB</hi> p. 280 (simplistic), <hi rend="i">Blake</hi> (1999, 2009). T. H. Cromek transcribed the letter, extensively normalized, in his manuscript "Memorials" (c. 1865) in Princeton; the source of the letter is obscure, since R. H. Cromek's transcription of his original and Allan Cunningham's transcription of Cromek's transcription were not accessible to him. Another copy of the manuscript "Memorials" made by T. H. Cromek passed to his descendant Wilfred Warrington (<hi rend="i">BR</hi>[2] 262fn); presumably this too has a transcription of Cromek's letter to Blake of the same authority.<lb/>
+              T. H. Cromek's transcription differs in many minor ways from that in the <hi rend="i">Gentleman's Magazine</hi> (1852) &lt;<hi rend="i">BB</hi> #969&gt;; abbreviations (e.g., "w<hi rend="s">d</hi>", "exclus<hi rend="s">y</hi>") are expanded, layout is altered (e.g., the first paragraph in the <hi rend="i">Gentleman's Magazine</hi> is divided into three). I take it that his source was the <hi rend="i">Gentleman's Magazine</hi> version and that his version consequently has no authority.</p>
+              <p>1819 11 OCTOBER<lb/>
+              History: It was sold anonymously at the American Art Association auction of 14 Jan. 1926, lot 39 [for $100, according to the marked copy of the catalogue in the Essick collection].</p>
+            </div4>
+            <div4>
+              <head><title><hi rend="i">The Marriage of Heaven and Hell</hi> ([1790])</title></head>
+              <p>Copy B<lb/>
+              History: Perhaps acquired by Charles George Dyer<ref target="n19" type="note">19</ref> (see <hi rend="i">BB</hi> p. 298, "[?George] Dyer").</p>
+              <note id="n19">19. C. G. Dyer's intimate friend, the engraver and painter Richard Bean (1792-1817), profoundly admired "the sublime conceptions of Blake" (<hi rend="i">Gentleman's Magazine</hi> 87, part 2 [Oct. 1817]: 369), and Dyer dedicated to Bean his <hi rend="i">Biographical Sketches of ... Eminent Men</hi> (1819). Perhaps Bean was the first owner of <hi rend="i">Marriage</hi> (B).</note>
+              <p>Copy E<lb/>
+              It is reproduced online &lt;http://www.fitzmuseum.cam.ac.uk&gt; (also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+              <p>Copy M<lb/>
+              It was reproduced in the Petit Palais exhibition catalogue (see under 2009 in Part IV).</p>
+              <p>Edition</p>
+              <p>§* <hi rend="i">Ægteskabet mellem Himmel og Helvede.</hi> Trans. Niels Brunse. Afterword by Marianne Lindgren. Roskilde: Batzer &amp; Co., 1995. 72 pp., facsimile; ISBN: 8798218840. In Danish.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Milton</hi> (1804[-10])</title>
+              </head>
+              <p>Copy D<lb/>
+              History: Offered by Henry G. Bohn in 1848 (see Part IV).</p>
+              <p>Edition</p>
+              <p><hi rend="i">Milton</hi>, copy B. <hi rend="i">William Blake Archive</hi>. Ed. Morris Eaves, Robert N. Essick, and Joseph Viscomi. 2009. &lt;http://www.blakearchive.org&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>"The Order in which the Songs of Innocence and Experience ought to be paged" &lt;see <hi rend="i">BB</hi> #125&gt;</title>
+              </head>
+              <p>(27) [?<hi rend="i">Europe</hi> (c) pl. (4<hi rend="s">c</hi>, 9<hi rend="s">c</hi>)]<lb/>
+              (*36) <hi rend="i">Europe</hi> (c) pl. 15<hi rend="s">b</hi> (Harvard)<ref target="n20" type="note">20</ref><lb/>
+              (*38) <hi rend="i">Europe</hi> (c) pl. (11<hi rend="s">c</hi>, 17<hi rend="s">c</hi>)<lb/>
+              History: <hi rend="i">Europe</hi> (c) pl. 15<hi rend="s">b</hi> was acquired by Mr. and Mrs. Philip Hofer and given by Mrs. Frances Hofer in 1979 to Houghton Library, Harvard University.<ref target="n21" type="note">21</ref></p>
+              <note id="n20">20. <hi rend="i">Europe</hi> (c) pl. 15<hi rend="s">b</hi>, newly recorded here, is numbered "36"; the leaf with <hi rend="i">Europe</hi> (c) pl. (11<hi rend="s">c</hi>, 17<hi rend="s">c</hi>) is numbered "38" &lt;<hi rend="i">BBS</hi> p. 104&gt;; <hi rend="i">Europe</hi> (c) pl. (4<hi rend="s">c</hi>, 9<hi rend="s">c</hi>), listed under 36 in <hi rend="i">BB</hi> p. 338, should perhaps be listed under 27, where (11<hi rend="s">c</hi>, 17<hi rend="s">c</hi>) were.</note>
+              <note id="n21">21. All the information about pl. 15<hi rend="s">b</hi> was recorded by Essick, "New Information on Blake's Illuminated Books," <hi rend="i">Blake</hi> 15.1 (summer 1981): 8 and illus. 5, scandalously overlooked by GEB until 2009.</note>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Poetical Sketches</hi> (1783)</title>
+              </head>
+              <p>Table of Corrections</p>
+              <p>Copy M (see <hi rend="i">BB</hi> p. 344n2)<lb/>
+              The situation is further confused by the claim of the anonymous owner to William Wyer of Ursus Books that <hi rend="i">Poetical Sketches</hi> (M) has corrections on pp. 4, 9, 12, and 15 (according to Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 [spring 2010]: 120).</p>
+              <p>Receipt</p>
+              <p>1805 5 JULY<lb/>
+              History: It was sold in Mar. 2009 to a "museum" (according to Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 [spring 2010]: 120).</p>
+            </div4>
+            <pb id="p44-11" n="11"/>
+            <div4>
+              <head>
+                <title>Small Book of Designs (1796)</title>
+              </head>
+              <p>Copy B<lb/>
+              History: The prints of <hi rend="i">Thel</hi> pl. 7, <hi rend="i">Urizen</hi> pls. 7, 11-12, 17, 19, 23, and <hi rend="i">Marriage</hi> pl. 16, newly discovered in 2007, were sold by the anonymous owner in 2009 for £441,000 to the Tate.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">The Song of Los</hi> (1795)</title>
+              </head>
+              <p>Editions</p>
+              <p><hi rend="i">The Song of Los</hi>, copy C. <hi rend="i">William Blake Archive</hi>. Ed. Morris Eaves, Robert N. Essick, and Joseph Viscomi. 2009. &lt;http://www.blakearchive.org&gt;.</p>
+              <p><hi rend="i">The Song of Los</hi>, copy E. <hi rend="i">William Blake Archive</hi>. Ed. Morris Eaves, Robert N. Essick, and Joseph Viscomi. 2009. &lt;http://www.blakearchive.org&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Songs of Innocence</hi> (1789[-?1831])</title>
+              </head>
+              <p>Copy Y<hi rend="s">2</hi><lb/>
+              It was lent anonymously by Alan Parker to the Petit Palais exhibition (see under 2009 in Part IV).</p>
+              <p>Edition</p>
+              <p>§<hi rend="i">Songs of Innocence</hi>. London: Robert Scott, [c. 1900-10]. The Gem Booklets, ed. Oliphant Smeaton, 5.6 x 8.5 cm., 22 pp. "Introduction" (2 pp.).</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Songs of Innocence and of Experience</hi> (1794[-?1831])</title>
+              </head>
+              <table><head><title>Table</title></head>
+                <row>
+                  <cell>Copy</cell>
+                  <cell>Leaves</cell>
+                  <cell>Watermark</cell>
+                  <cell>Blake no.</cell>
+                  <cell>Leaf size in cm.</cell>
+                  <cell>Printing color</cell>
+                </row>
+                <row>
+                  <cell>Pl. 30<lb/>
+                  Victoria University (Toronto)</cell>
+                  <cell>1</cell>
+                  <cell>--</cell>
+                  <cell>--</cell>
+                  <cell>11.0 x 17.9</cell>
+                  <cell>gray</cell>
+                </row>
+              </table>
+              <p>Copy P<lb/>
+              It was lent by the Wormsley Library to the Petit Palais exhibition (see under 2009 in Part IV).</p>
+              <p>Copy V<lb/>
+              History: Perhaps this is the copy offered by John Bohn in 1843 (see Part IV).</p>
+              <p>Pl. 30<lb/>
+              Binding: Rebound by 1857 in 3/4 calf over cloth boards, the spine elaborately gilt with "SONGS | OF | INNOCENCE | ETC.", with red marbled paste-downs and endpapers, all edges marbled, with pl. 30 tipped in as the frontispiece in the Pickering edition of <hi rend="i">Songs of Innocence and of Experience</hi> (1839);<ref target="n22" type="note">22</ref> the preface (xxi) is signed by the editor "J. J. G. Wilkinson" "Finchley Road &amp; | 76 Wimpole St." (<hi rend="i">DNB</hi> says he lived at 4 Finchley Road from about 1848. F. 1<hi rend="s">v</hi> is inscribed in pencil:
+              <q>Poet, Artist &amp; Musician<lb/>
+              Roger Langois died 10<hi rend="s">th</hi> Decr 1859 exactly 100 y<hi rend="s">rs</hi> old to an hour; leaving his wife Kate, a son 75, and a Grandson 50. He was a pupil of Flaxman's--He left 49 Portraits of his wife<lb/>
+              "Times 15 Dec 1859"</q>
+              History: To Feb. 2006, see <hi rend="i">Blake</hi> (2007); sold through John Windle in Jan. 2009 to the library of Victoria University in the University of Toronto (listed in Windle's catalogue 46 [see under 2009 in Part IV], lot 6, "sold").</p>
+              <note id="n22">22. It is inscribed in pencil "See P. 37", where the poem is printed.</note>
+              <p>Editions</p>
+              <p><hi rend="i">Chants d'innocence et d'expérience</hi>. Trans. M. L. Soupault and Philippe Soupault. 1927, 1947. &lt;<hi rend="i">BB</hi> #192&gt;<lb/>
+              An extract was published in <hi rend="i">Nouvelle revue française</hi> 26, no. 152 (May 1926): 537-42.</p>
+              <p>*<hi rend="i">Songs of Innocence and of Experience</hi>. Ed. Robert N. Essick. 2008. &lt;<hi rend="i">Blake</hi> (2009)&gt;</p>
+              <p>Review</p>
+              <p>*Shirley Dent, "Bruised without Mercy," <hi rend="i">Times Literary Supplement</hi> 15 May 2009: 22 (with <hi rend="i">Complete Poetry and Prose</hi>, ed. Erdman [2008])("These are essential books in the study of an always fascinating author").</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Visions of the Daughters of Albion</hi> (1793)</title>
+              </head>
+              <table>
+                <head><title>Table</title></head>
+                <row>
+                  <cell>Copy</cell>
+                  <cell>Plates</cell>
+                  <cell>Leaves</cell>
+                </row>
+                <row>
+                  <cell>S</cell>
+                  <cell>1-11</cell>
+                  <cell>11</cell>
+                </row>
+                <row>
+                  <cell><hi rend="i">UNTRACED</hi></cell>
+                </row>
+              </table>
+              <p>Copy A<lb/>
+              History: Offered by A. E. Evans &amp; Son in [1845] (see Part IV).</p>
+              <p>Copy E<lb/>
+              History: Perhaps this is the copy offered by John Bohn in 1843 (see Part IV).<ref target="n23" type="note">23</ref></p>
+              <note id="n23">23. Or copies A, C-D, I-N.</note>
+              <p>Newly Recorded Copy</p>
+              <p>Copy S<lb/>
+              For the binding and history, see <hi rend="i">America</hi> (S), above.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title><hi rend="b">Section B: Collections and Selections</hi></title>
+            </head>
+            <div4>
+              <head><title>Reprints of Blake's Works before 1863</title></head>
+              <p>Addenda</p>
+              <p>1811<lb/>
+              "The Tyger"/"Der Tyger" in English/German (see Ariel in Part VI).</p>
+              <p>1831<lb/>
+              "The Tiger," <hi rend="i">Pictures, Scriptural and Historical</hi>, ed. Mrs. [Rose] Lawrence (Liverpool: Evans, Chegwin and Hall; London: Longman, Rees and Co., 1831) 102.</p>
+              <pb id="p44-12" n="12"/>
+              <p>1832<lb/>
+              "Introduction" (<hi rend="i">Innocence</hi>) (see J. B. S. in Part VI).</p>
+              <p>1833<lb/>
+              "Edward III," "The Chimney Sweeper" (<hi rend="i">Innocence</hi>), "Holy Thursday" (<hi rend="i">Innocence</hi>), "The Lamb," "Der Tiger," and Blake's letter of 21 Sept. 1800 in prose translations into German (see Anon., "William Blake, ein ausgezeichneter Künstler," in Part VI).</p>
+              <p>1837<lb/>
+              "Holy Thursday" (<hi rend="i">Innocence</hi>) (see Anon., "Educational Charities," in Part VI).</p>
+              <p>1846<lb/>
+              "The Chimney-Sweeper" (<hi rend="i">Innocence</hi>) and "On Another's Sorrow," <hi rend="i">Voices of the True-Hearted</hi> (Philadelphia: J. Miller M'Kim, 1846) 135, 192.</p>
+              <p>1847<lb/>
+              "Mad Song" (see review of [Southey], <hi rend="i">The Doctor</hi>, in Part VI).<lb/>
+              "To the Muses" (first stanza) (see Goethe in Part VI).</p>
+              <p>1848<lb/>
+              "The Little Black Boy," <hi rend="i">Literary Gleanings. By an Invalid</hi>, [ed. Fanny H. Henslowe] (London: W. Newbery, 1848) 128.</p>
+              <p>1849<lb/>
+              "To the Muses" (called "The Poet Complains to the Muses of the Decline of Poetry"), <hi rend="i">Cameos from the Antique</hi>, ed. Mrs. [Rose] Lawrence, 2nd ed., rev. (Liverpool: Deighton and Laughton; London: Whittaker and Co., 1849) 75-76.<ref target="n24" type="note">24</ref></p>
+              <note id="n24">24. I have not seen the first edition.</note>
+              <p>1851<lb/>
+              "Holy Thursday" (<hi rend="i">Innocence</hi>) (see Platt in Part VI).</p>
+              <p>1852<lb/>
+              "The Tiger" (minus the last stanza) (see J. H. F. in Part VI).</p>
+              <p>1854<lb/>
+              "The Lamb" (p. 228 of <hi rend="i">BB</hi> #248).</p>
+              <p>1857<lb/>
+              "My Silks," "The Tiger," "The Little Black Boy," "The Chimney Sweeper" (<hi rend="i">Innocence</hi>), "The Garden of Love," and "On Another's Sorrow" &lt;see <hi rend="i">BBS</hi> p. 166&gt;.</p>
+              <p>1861<lb/>
+              "The Piper" (i.e., "Introduction" to <hi rend="i">Innocence</hi>), <hi rend="i">Folk Songs</hi>, ed. John Williamson Palmer (New York: Charles Scribner; London: Sampson Low, Son and Company, 1861) &lt;correction of <hi rend="i">BB</hi> #281&gt;.</p>
+              <p>* * * * * * * * *</p>
+              <p>*<hi rend="i">Blake's Poetry and Designs</hi>. Ed. Mary Lynn Johnson and John E. Grant. 1979, 2008. &lt;<hi rend="i">BBS</hi> pp. 149-50, <hi rend="i">Blake</hi> (2008)&gt;</p>
+              <p>Review</p>
+              <p>§James Rovira, <hi rend="i">College Literature</hi> 36.4 (2009): 229-31.</p>
+              <p>*<hi rend="i">The Complete Illuminated Books</hi>. Ed. David Bindman. 2000, 2001, 2005. &lt;<hi rend="i">Blake</hi> (2001, 2008)&gt; D. §London: Thames &amp; Hudson, 2009. Paperback; ISBN: 9780500600252.</p>
+              <p>*<hi rend="i">The Lyrical Poems of William Blake</hi>. Ed. John Sampson. 1905 .... &lt;<hi rend="i">BB</hi> #275&gt; F. BiblioLife, 2009. ISBN: 9781103979561.</p>
+              <p><hi rend="i">The Poems of William Blake</hi>. Ed. W. B. Yeats. 1893 .... &lt;<hi rend="i">BB</hi> #293, <hi rend="i">BBS</hi> p. 161, <hi rend="i">Blake</hi> (2003, 2009)&gt; K. §Echo Library, 2009. ISBN: 9781406880625.</p>
+              <p>*<hi rend="i">Poetry and Prose of William Blake</hi>. Ed. Geoffrey Keynes. 1927 .... &lt;<hi rend="i">BB</hi> #303, <hi rend="i">BBS</hi> p. 162&gt; N. [Philadelphia]: Wharton Press, 2008. ISBN: 9781409792253.</p>
+              <p>*<hi rend="i">The Poetry and Prose of William Blake</hi>. Ed. David V. Erdman. 1965 .... &lt;<hi rend="i">BB</hi> #304A-D&gt; ... F-I. *<hi rend="i">The Complete Poetry and Prose of William Blake</hi>. 1982, 1988, 2008. &lt;<hi rend="i">BBS</hi> p. 162F-H, <hi rend="i">Blake</hi> (2009)&gt;</p>
+              <p>Review</p>
+              <p>*Shirley Dent (see <hi rend="i">Songs</hi>, ed. Essick, in Part I, Section A).</p>
+              <p><hi rend="i">Songs of Innocence and [of] Experience with Other Poems</hi>. [Ed. R. H. Shepherd]. 1866, 1868. &lt;<hi rend="i">BB</hi> #335&gt; C. §BiblioLife, 2009. 126 pp.; ISBN: 9781143261688.</p>
+              <p>§<hi rend="i">Walking round Cambridge with William Blake: Auguries of Innocence Illustrated by Rose Harries</hi>. Oldham: Incline Press, [2008]. 27 cm., 160 copies.<lb/>
+              The illustrations are scenes of modern street life in Cambridge correlated to "Auguries of Innocence."</p>
+              <p>§<hi>William Blake</hi>. Trans. George Bataille, illus. André Masson. Saint-Clément-de-Rivière: Fata Morgana, 2008. 71 pp.; ISBN: 9782851947178. In French.</p>
+              <p><hi rend="i">William Blake Archive</hi> &lt;http://www.blakearchive.org&gt;<lb/>
+              In 2009 the archive added <hi rend="i">The Song of Los</hi> (C, E), <hi rend="i">Europe</hi> (G), <hi rend="i">Milton</hi> (B), the 14 prints for Hayley's <hi rend="i">Designs to a Series of Ballads</hi> (1802) and the 5 for his <hi rend="i">Ballads</hi> (1805), the 10 monochrome washes for Wollstonecraft, <hi rend="i">Original Stories from Real Life</hi>, and 1791 and 1796 editions of the book, and republished with extra features the sketchbook of drawings for the <hi rend="i">Job</hi> engravings and the watercolors from the Butts and Linnell sets.</p>
+              <p>§*<hi rend="i">William Blake: Songs of Innocence and of Experience</hi>. A Portfolio of Eighteen Facsimile Impressions. Orlando: Flying Horse Editions, University of Central Florida, 2009. 33 copies; $1950 (see &lt;http://www.flyinghorse.cah.ucf.edu/blake&gt;).<lb/>
+                It consists of pls. 1, 3, 8, 12, 16-19, 24, 29, 33, 37-38, 42-43, 46-47 in ochre, and b in black, printed "on handmade paper, specially produced for this edition," "from relief etched copper plates made by Michael Phillips ... using exact-size photo negatives of original monochrome impressions ... modified to eliminate printing flaws in the original." The ink was "hand mixed for each plate from the same historic dry pigments that we know Blake used."<lb/>
+              It is accompanied by *<hi rend="i">William Blake: Songs of Innocence and of Experience 1794</hi>, 40 pp., with *Michael Phillips, "A Note on
+              <pb id="p44-13" n="13"/>
+              Production" (9-35), with many quotations from John Jackson [and William A. Chatto], <hi rend="i">A Treatise on Wood Engraving, Historical and Practical</hi> (1839) &lt;<hi rend="i">BB</hi> #1932&gt;.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>Appendix: Writings Improbably Alleged to Be by Blake</title>
+            </head>
+            <div4>
+              <p>"Directions for 'Landscape Painting'"<lb/>
+              An undated 8-pp. 12<hi rend="s">o</hi> set of "Directions for 'Landscape Painting,'" on preparing a palette, reproducing the effects of shadows, bark, etc., signed "W B", is attributed to the poet and partly reproduced in the Anderson Galleries auction catalogue of 3 Apr. 1928, lot 13 (see Windle's catalogue 46 [under 2009 in Part IV], lot 539). The handwriting is quite unlike that of the poet, and I see no plausible connection besides the initials.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>Part II: Reproductions of Drawings and Paintings</title>
+              <title>Section A: Illustrations of Individual Authors</title>
+            </head>
+            <div4>
+              <head>
+                <title>Bible: Job (1821--Linnell set)</title>
+                </head>
+                <p>The drawings at the Fogg Museum (Harvard) are reproduced online &lt;http://www.artmuseums.harvard.edu/collection&gt; (also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>BLAIR, Robert, <hi rend="i">The Grave</hi> (1805)</title>
+              </head>
+              <p>T. H. Cromek wrote of the watercolors:
+              <q>The original design for the frontispiece, still in my possession, was suppressed, and one much finer substituted. It is a pen outline, slightly shaded with Indian ink, and blue, &amp; represents a soul rising from the tomb, on which Blake has written, very neatly, [the] title.<ref target="n25" type="note">25</ref></q>
+              This is clearly the drawing called by Butlin "A Spirit Rising from the Tomb" (#616, 20.5 x 24.0 cm., now in the Huntington), on which Blake wrote: "A Series of Designs: Illustrative of The Grave. a Poem by Robert Blair. Invented &amp; Drawn by William Blake".<ref target="n26" type="note">26</ref></p>
+              <note id="n25">25. "Memorials of the Life of R. H. Cromek, Engraver" (?1865), now in Princeton University Library.</note>
+              <note id="n26">26. Butlin does not connect this title-page design with T. H. Cromek. The correct provenance is given in Essick, <hi rend="i">The Works of William Blake in the Huntington Collections</hi> (San Marino: Huntington Library and Art Gallery, 1985) 122-23.</note>
+              <p>Edition</p>
+              <p>*<hi rend="i">William Blake's Watercolour Inventions in Illustration of</hi> The Grave <hi rend="i">by Robert Blair</hi>. Edited with Essays and Commentary by Martin Butlin and an Essay on the Poem by Morton D. Paley. Lavenham, Suffolk: William Blake Trust, 2009. Folio, 96 pp. 186 copies, 36 with replica portfolio.<lb/>
+              In the de luxe edition, the watercolors are reproduced, loose, backed with stiff pasteboard, in a red leather portfolio like that in which they were found in 2001. They are enclosed with the bound text in a handsome black shot-silk-covered box.<lb/>
+              The text volume consists of:<lb/>
+              John Commander. "Foreword." 6. (This is "possibly [the] last major publication" of the William Blake Trust.)<lb/>
+              Martin Butlin. "Editor's Acknowledgments." 7.<lb/>
+              Morton D. Paley. "William Blake and Robert Blair's <hi rend="i">The Grave</hi>." 8-12. (About the evolution of Blair's poem.)<lb/>
+              Martin Butlin. "The History of Blake's Illustrations to <hi rend="i">The Grave</hi>." 13-19.<lb/>
+              [Martin Butlin]. "The Newly Discovered Watercolours." 21-28.<lb/>
+              [Martin Butlin]. "The Watercolours: Catalogue and Commentary." 29-69. (It reproduces all 19 new watercolors, plus another.)<lb/>
+              Bibliography. 70.<lb/>
+              Appendix 1: "<hi rend="i">The Grave</hi> [facsimile] with Blake's Dedicatory Verses from Cromek's 1809 [<hi rend="i">sic</hi>] Edition (Reduced to sixty-seven per cent)." 71-80.<lb/>
+              Appendix 2: "Schiavonetti's Engravings for Cromek's Edition 1808." 81-94.<lb/>
+              Appendix 3: "Blake's Rejected Engraving for 'Death's Door' Reproduced Same Size as the Original Proof in the Possession of Robert N. Essick." 95.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>BUNYAN, John, <hi rend="i">Pilgrim's Progress</hi> (1826-27)</title>
+              </head>
+              <p>They were lent anonymously by Alan Parker to the Petit Palais exhibition (see under 2009 in Part IV).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>DANTE, <hi rend="i">Divine Comedy</hi> (1824-27)</title>
+              </head>
+              <p>The drawings at the Fogg Museum (Harvard) and Tate are reproduced online &lt;http://www.artmuseums.harvard.edu/collection&gt;, &lt;http://www.tate.org.uk/collection&gt; (also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>Heads of the Poets (1800-03)</title>
+              </head>
+              <p>They are reproduced at &lt;http://www.manchestergalleries.org/the-collections&gt; (also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>MILTON, John,</title>
+              </head>
+              <p>"On the Morning of Christ's Nativity" (1809--Thomas set)<lb/>
+              They were reproduced in the Petit Palais exhibition catalogue (see under 2009 in Part IV) and online &lt;http://www.whitworth.manchester.ac.uk/collection&gt; (also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>MILTON, John, <hi rend="i">Paradise Lost</hi></title>
+              </head>
+              <p>§*<hi rend="i">Das verlorene Paradies</hi>. Trans. Hans Heinrich Meier. Stuttgart: Reclam Philipp, 2008. 20 cm.; ISBN: 9783150106709.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>WOLLSTONECRAFT, Mary,<lb/>
+                <hi rend="i">Original Stories from Real Life</hi> (1791)</title>
+              </head>
+              <p>In 2009, the 10 monochrome wash drawings in the Library of Congress were reproduced in the <hi rend="i">William Blake Archive</hi>.</p>
+            </div4>
+            <pb id="p44-14" n="14"/>
+            <div4>
+              <head>
+                <title>YOUNG, Edward, <hi rend="i">Night Thoughts</hi> (1794-97)</title>
+              </head>
+              <p>Edition</p>
+              <p>*Young, Edward. <hi rend="i">Night Thoughts: The Poem Illustrated with Water Colours by William Blake</hi>. 2005. &lt;<hi rend="i">Blake</hi> (2006)&gt;</p>
+              <p>Review</p>
+              <p>Jason Snart, <hi rend="i">Romanticism on the Net</hi> 45 (2007) &lt;http://www.ravon.umontreal.ca&gt; (it is "incomparable," but the colors are not true, it omits borders and margins ...).</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>Section B: Collections and Selections</title>
+            </head>
+            <div4>
+              <head>
+                <title>Blake-Varley Sketchbook (Large)</title>
+              </head>
+              <p>It was lent anonymously by Alan Parker to the Petit Palais exhibition (see under 2009 in Part IV).</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>Part III: Commercial Engravings<ref target="n27" type="note">27</ref></title>
+            </head>
+            <note id="n27">27. For the first time I record contemporary references to separately issued prints by Blake.</note>
+            <div4>
+              <head>
+                <title>ALLEN, Charles, <hi rend="i">History of England</hi> (1798)</title>
+              </head>
+              <p>New Locations: Cambridge, Mitchell Library (Glasgow), National Library of Scotland, West Sussex Record Office.</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Bellamy's Picturesque Magazine</hi> (1793)</title>
+              </head>
+              <p>New Location: Northwestern.
+              </p>
+            </div4>
+            <div4>
+              <head>
+                <title>Bible</title>
+              </head>
+              <p>Newly Recorded Engraving</p>
+              <p><hi rend="i">Diamond Bible</hi> (1832-34, 1836-37, 1840)</p>
+              <p>Engraved title page: DIAMOND | BIBLE | WITH | NOTES, | BY THE | REV. H. STEBBING | M.A.M.R.S.L. &amp;c | London: | ALLAN BELL &amp; CO. WARWICK SQUARE: | AND SIMPKIN &amp; MARSHALL, STATIONERS COURT. 1833. [An elaborate wide border with Egyptian motifs separates the title from the imprint. The New Testament has a separate engraved title page with the same imprint but different lineation.]<lb/>
+              Typeset title page: THE | HOLY BIBLE, | CONTAINING | THE OLD AND NEW TESTAMENTS, | ACCORDING TO THE AUTHORIZED VERSION. | -- | WITH NOTES, | PRACTICAL AND EXPLANATORY, BY THE | REV. HENRY STEBBING, A.M. | MEMBER OF THE ROYAL SOCIETY OF LITERATURE. | IN TWO VOLUMES. | VOL. I. | LONDON: | ALLAN BELL &amp; CO. WARWICK SQUARE, | AND SIMPKIN &amp; MARSHALL, STATIONERS' COURT; | W. CURRY, JUN. &amp; CO. DUBLIN; AND OLIVER | AND BOYD, EDINBURGH. | MDCCCXXXIV [1834].<lb/>
+              Vol. 1 consists of the Old Testament plus the New Testament. There are separate title pages for Psalms (vol. 1) and the New Testament (vol. 2).<lb/>
+              B. §London: Allan Bell &amp; Co., and Shepherd &amp; Sutton; Edinburgh: Fraser &amp; Co., 1836, 1837.<lb/>
+              C. §Glasgow: D. A. Borrenstein, 1840.<ref target="n28" type="note">28</ref><lb/>
+              1832-34 Locations: British Library (1066.b.7-8 [reported here] and C.150.b.3 [lacks New Testament]).<lb/>
+              1836-37 Locations: Cambridge, Glasgow, National Library of Scotland, St. Andrews.<lb/>
+              1840 Locations: British Library, Glasgow.<lb/>
+              Date: An advertisement in <hi rend="i">Leigh Hunt's London Journal</hi> for 30 Apr. 1834 (see below) says that the Diamond Bible was being reissued in monthly numbers with two steel engravings each. Since it identifies 56 prints (there were eventually 60), this implies that the first number appeared in Jan. 1832 and the last in June 1834, if they were issued regularly. If the prints appeared in the order in which they are numbered, Blake's <hi rend="i">Job</hi> print was published with the fifteenth monthly number in Mar. 1833.<lb/>
+              Plates: There are 60 steel-plate illustrations 11.5 x 6.5 cm. engraved by W. H. Lizars after great masters. No. 30 is Blake's "Job and His Family."<lb/>
+              At vol. 1, p. 632 is an engraving with "BLAKE." at the top, "JOB AND HIS FAMILY." below the design within a framing line and, below the framing line: "Lizars sc. | Drawn &amp; Engraved for Allan Bell &amp; C.<hi rend="s">o</hi> Warwick Square, London, 1833." Lizars altered the shape of Blake's <hi rend="i">Job</hi> pl. "1" from portrait to landscape, shortening it vertically (replacing sheep at the bottom with a little foliage) and extending it horizontally (with additional sleeping sheep). The sky at the right has been altered from black to daylight, with the consequent loss of a star.<lb/>
+              This is the first time that any of Blake's <hi rend="i">Job</hi> plates was copied by another engraver. Lizars's engraving is copied in <hi rend="i">The English Version of the Polyglott Bible</hi> (1836) (see the reproduction in <hi rend="i">Blake</hi> 38.4 [spring 2005]: 137).<lb/>
+              William Home Lizars of Edinburgh subscribed for sets of <hi rend="i">Job</hi> in June 1831 and Aug. 1832, the latter "for a friend" (<hi rend="i">BR</hi>[2] 545, 551, 793, 801, 804).</p>
+              <note id="n28">28. The details for 1836-37 and 1840 come from T. H. Darlow and H. F. Moule, <hi rend="i">Historical Catalogue of Printed Editions of the English Bible 1525-1961</hi>, rev. A. S. Herbert (London: British and Foreign Bible Society; New York: American Bible Society, 1968) no. 1801.</note>
+              <p>Reviews, puffs, etc.
+              </p>
+              <p>Sir William Jardine, <hi rend="i">The Naturalist's Library. Mammalia. Vol. I. Monkeys</hi> (Edinburgh: W. H. Lizars, and Stirling and Kenney; London: Longman ...; Dublin: W. Curry, Jun. and Co., 1833) &lt;Ghent University&gt; (at the end is an advertisement for "Allan, Bell, and Co.'s Books," including "The Diamond Bible ... each Number comprising 48 pages letterpress, and two beautiful Steel Plates, from Drawings of the <hi rend="i">Great Masters</hi>"; also advertised are a Diamond New Testament, Diamond Book of Common Prayer, and an Illustrated Family Bible, ed. Henry Stebbing, with "Plates ... coloured in a very superior manner, by Mr Lizars," folio).<lb/>
+              <hi rend="i">London Literary Gazette</hi> no. 892 (22 Feb. 1834): 136 (vol. 1 is "an extremely neat volume; appropriately illustrated by engravings after celebrated pictures ...").<lb/>
+              <hi rend="i">Leigh Hunt's London Journal</hi> 1, no. 5 (30 Apr. 1834): 40 &lt;Stanford&gt; (an advertisement for "Re-Issue, In Monthly Parts at
+              <pb id="p44-15" n="15"/>
+              One Shilling, and in Numbers at Six Pence, of the Diamond Bible and Book of Common Prayer ... [ed.] Rev. H. Stebbing .... Each Number to comprise Forty-eight pages letter-press and Two Steel Engravings." The list of illustrations includes "30 Job and his Family <hi rend="i">Blake</hi>." It quotes reviews in the <hi rend="i">Weekly Times</hi>, <hi rend="i">Literary Gazette</hi> [see above], and <hi rend="i">Evangelical Register</hi>. The prayer book has seven designs after Stothard).<lb/>
+              <hi rend="i">Analyst; A Monthly Journal of Science, Literature, and the Fine Arts</hi> [London] 1 (Aug. 1834): 70 &lt;Michigan&gt; (under "New Publications, From June 7 to July 15, 1834" is "Stebbing's Diamond Bible, 12mo. 16<hi rend="i">s</hi>. 6<hi rend="i">d</hi>.").<lb/>
+              Sir William Jardine, <hi rend="i">The Naturalist's Library. Ornithology. Vol. III. Gallinaceous Birds</hi> (Edinburgh: W. H. Lizars ..., 1834) &lt;Bodleian&gt; (an advertisement recommends "The Diamond Pocket Bible," ed. Stebbing, with "Sixty Illustrations).</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">The English Version of the Polyglott Bible</hi> (1836)</title>
+              </head>
+              <p>The anonymous engraving for "Job and His Family" derives from the engraving by Lizars in the <hi rend="i">Diamond Bible</hi> (1832-34).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>&#1489;&#1493;&#1497;&#1488; &#1512;&#1508;&#1501; <hi rend="i">Illustrations of the Book of Job</hi> (1826, 1874)</title>
+              </head>
+              <p>1826 New Location: California Palace of the Legion of Honor ("Proof," reproduced online &lt;http://www.famsf.org/fam/about/imagebase&gt;).<lb/>
+              Copies of Unrecorded Date New Locations: Albertina Museum (Vienna), Art Gallery of New South Wales (Sydney) (reproduced at &lt;http://www.artgallery.nsw.gov.au/collection/browse&gt;), Fogg Museum (Harvard) &lt;http://www.artmuseums.harvard.edu/collection&gt;, Indianapolis Museum of Art &lt;http://www.imamuseum.org&gt;, Royal Academy (London). (All the online reproductions here are also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;.)<lb/>
+              The previously recorded copies in the Cleveland Museum of Art and the Tate are reproduced at &lt;http://www.clevelandart.org/explore&gt;, &lt;http://www.tate.org.uk/collection&gt; (also accessible through <hi rend="i">Artcyclopedia</hi>).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>BLAIR, Robert, <hi rend="i">The Grave</hi><lb/>
+                (1808, 1813, 1813 [1870])</title>
+              </head>
+              <p>1808 Quarto New Location: North Carolina (Chapel Hill).<lb/>
+              1808 Copy of Unrecorded Format New Location: Trevelyan Library (Wallington Hall, Northumberland, property of the National Trust).<lb/>
+              1813 Copies of Unrecorded Format New Locations: Kent (Canterbury), Rijksmuseum (Amsterdam).<lb/>
+              An 1808 quarto copy in "original drab gray boards, printed paper label on upper cover," is offered in Windle's catalogue 46 (see under 2009 in Part IV), lot 48.<lb/>
+              For six lithographs after Schiavonetti's copperplates (via Mora's <hi rend="i">Meditaciones poeticas</hi> [1826]), see <hi rend="i">Diario de los niños</hi>, below.</p>
+              <p>Reviews, puffs, etc.</p>
+              <p>Anon., "Modern Discoveries, and Improvements in Arts, Sciences, and Literature; with Notices Respecting Men of Letters,Artists, and Works in Hand, &amp;c. &amp;c.," <hi rend="i">Universal Magazine</hi> ns 6, no. 32 (July 1806): 46-52 &lt;California (Berkeley)&gt;
+              <q>Mr. Cromek intends to publish in the course of the ensuing winter a series of 12 Engravings, etched in a very superior style of excellence by Louis Schiavonetti, from the original inventions of William Blake, illustrative of Blair's popular Poem "The Grave." In consequence of the originality of the designs and their vigorous expression, the work has been honoured with the patronage of the principal members of the Royal Academy, and the first professors of art in the metropolis, and by the subscriptions of upwards of 300 of the most distinguished amateurs. (47-48)</q>
+              Anon., "Monthly Retrospect of the Fine Arts," <hi rend="i">Monthly Magazine</hi> 22, no. 146 (1 Aug. 1806): 58-61 &lt;Harvard&gt; (notice on p. 61 as in the &lt;Universal Magazine&gt; but with 250 instead of 300, the phrase about the patronage of Royal Academy members omitted, and other small changes, as detailed in Wayne C. Ripley, "The Early Marketing of <hi rend="i">The Grave</hi> in London and Boston," <hi rend="i">Blake</hi> 43.3 [winter 2009-10]: 109-10. The similarity of the wording in these 1806 puffs and in particular the information about the changing numbers of subscribers indicate that the source of the information is Cromek).<lb/>
+              Anon., "Intelligence. Great-Britain," <hi rend="i">Monthly Anthology, and Boston Review</hi> [Boston] 3, no. 10 (Oct. 1806): 558-59 &lt;Michigan&gt; (notice on p. 559 exactly as in the <hi rend="i">Monthly Magazine</hi>).<lb/>
+              <hi rend="i">Leeds Mercury</hi> 4 June 1808 &lt;Leeds Central Library&gt;:
+              <q>BLAIR's GRAVE
+              <p>MR. CROMEK begs to inform the Subscribers at Wakefield and its Vicinity to the New and Splendid Edition of this POEM, that it will be published in London, on the First Day of July next, and that it will be delivered to them with all possible Speed.</p>
+              <p>Gentlemen who wish to possess this valuable Work, are respectfully apprised that on the Day of its Publication, its Price will be advanced from 2l 2s to 2l 12s 6d. MR. CROMEK will receive Names till the First of July at the Original Subscription Price. No. 64, Newman-street, Oxford-row, London.</p>
+              <p>The Work is printing in the most elegant Style by BENSLEY, in Imperial Quarto, and illustrated by 13 Engravings, executed from the original Designs of WILLIAM BLAKE.</p></q></p>
+            </div4>
+            <div4>
+              <head>
+                <title>BONNYCASTLE, John, <hi rend="i">An Introduction to Mensuration</hi><lb/>
+                (1782, 1787, 1791, 1794)</title>
+              </head>
+              <p>1782 New Locations: British Library, Huntington, Trinity College (Cambridge).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>BROWN, John, <hi rend="i">Elements of Medicine</hi> (1795)</title>
+              </head>
+              <p>New Location: Northwestern.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>BÜRGER, Gottfried Augustus, <hi rend="i">Leonora</hi> (1796)</title>
+              </head>
+              <p>New Location: Northwestern.</p>
+              <p>Review</p>
+              <p>[Johann Joachim Eschenburg, ed.], <hi rend="i">Lenore Ballade von Bürger in drei englischen Übersetzungen</hi> (Göttingen: Johann Christian Dieterich, 1797) 5-6 (in German) (describes Blake's designs).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>Carfax Conduit, Oxford (1810)</title>
+              </head>
+              <p>A large print inscribed "<hi rend="i">CARFAX CONDUIT, OXFORD</hi>." and "<hi rend="i">Blake sc</hi>.", with no sign of the designer or imprint, was discovered, acquired, and described by Robert N. Essick.<ref target="n29" type="note">29</ref></p>
+              <note id="n29">29. "A 'New' William Blake Engraving?" <hi rend="i">Print Quarterly</hi> 2 (1985): 42-47. The print is reproduced also in <hi rend="i">Blake</hi> 19.1 (summer 1985): 30 (pl. 7), where Essick suggests that it may have been etched about 1780. The only previously recorded reference to Blake and the Carfax Conduit is in Thomas Dodd's manuscript biography of Blake (c. 1832) (<hi rend="i">BR</hi>[2] 255fn).</note>
+              <p>The listings below indicate that it was both drawn and engraved by Blake and that it published at 1s. 6d. in 1810. Can it have been published by Blake as well? In some respects, the topographical engraver William Staden Blake seems more plausible than the poet-engraver William Blake.</p>
+              <p>Reviews, puffs, etc.</p>
+              <p>Anon., "Quarterly List of New Publications. From February to May, 1810. Arts (Fine)," <hi rend="i">Edinburgh Review</hi> 16, no. 31 (Apr. 1810): 253-54 &lt;Harvard&gt; ("A View of Carfax Conduits, Oxford. Drawn and engraved by Blake. 1s. 6d." [253]; very similar notices appear in lists of new publications in the <hi rend="i">Quarterly Review</hi> 3 [May 1810]: 518 and <hi rend="i">Edinburgh Annual Register</hi> [for 1810] 3, part 2 [1812]: cviii &lt;California (Berkeley)&gt;).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>CUMBERLAND, George, <hi rend="i">Thoughts on Outline</hi> (1796)</title>
+              </head>
+              <p>New Locations: Belfast Central Library, Birmingham Central Libraries, Chetham's Library (Manchester), Clark Art Institute (Williamstown), Exeter, Longleat House (England), Morgan Library and Museum, National Gallery (London), North Texas, Northwestern, Oxford (Department of History of Art), Pennsylvania (2; <hi rend="i">BB</hi> #447 gives 1), Royal Academy (London), State Library of South Australia (Adelaide).</p>
+              <p>A copy in "original blue boards," inscribed at front "From the Author," was offered in Windle's catalogue 46 (see under 2009 in Part IV), lot 64.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>DANTE, <hi rend="i">Blake's Illustrations of Dante</hi><lb/>
+                (1838, 1892, 1955, 1968)</title>
+              </head>
+              <p>1838 New Locations: Fogg Museum (Harvard) (reproduced online &lt;http://www.artmuseums.harvard.edu/collection&gt;), Northwestern (1838 or 1892).<lb/>
+              1968 New Location: Tate (reproduced online &lt;http://www.tate.org.uk/collection&gt;).</p>
+              <p>The online reproductions here are also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>Newly Recorded Title<lb/>
+                <hi rend="i">Diario de los niños</hi> (1839-40)</title>
+              </head>
+              <p>Vol. 1, no. 1 engraved title page: DIARIO | DE LOS | NIÑOS | LITERATURA, ENTRETENIMIENTO | é | INSTRUCCION. | N<hi rend="s">o</hi>.. 1 | MEJICO 1839. | IMPRESO POR MIGUEL GONZALEZ. [in an elaborate floral border] &lt;New York Public Library&gt;<lb/>
+              Typeset title pages for vols. 1-2: DIARIO | DE | LOS NIÑOS.<ref target="n30" type="note">30</ref>| | -- | [<hi rend="i">Gothic</hi>:] Literatura, Entretenimiento e Instruccion. | TOMO PRIMERO [SEGUNDO]. | -- | MEJICO. | IMPRENTA DE MIGUEL GONZALEZ, | TERCERA CALLE REAL N. 3. | -- | [vol. 1] 1839 [vol. 2 1840]. &lt;Essick&gt;<lb/>
+              Typeset title page for vol. 3: DIARIO | DE LOS NIÑOS. | -- | [<hi rend="i">Gothic</hi>:] Literature, entretenimiento e instruccion. | TOMO TERCERO. | -- | <hi rend="i">MEXICO</hi>. | IMPRENTA DE VICENTE G. TORRES. | -- | 1840. &lt;Essick, Harvard&gt;<lb/>
+              Locations: Biblioteca Nacional (Madrid), California State Library, Essick (leaf size 15.8 x 24.9 cm.), Harvard, Metropolitan Museum of Art (New York), Nebraska, New York Public Library, Pennsylvania, Stanford, Texas, Victoria University in the University of Toronto,<ref target="n31" type="note">31</ref> Washington State.<lb/>
+              Description: <hi rend="i">Diario de los niños</hi> is a tall quarto anthology for children in Spanish printed on deplorable paper (in the Victoria copy). The editor is identified as Wenceslao Sánchez de la Barquera by Claudia Agostoni, "Divertir e instruir: revistas infantiles del siglo xix mexicano," <hi rend="i">La república de las letras asomos a la cultura escrita del México decimonónico</hi>, ed. Belem Clark de Lara and Elisa Speckman Guerra (Mexico [City]: Universidad Nacional Autónoma de México, 2005) 2: 175.<lb/>
+              Plates: There are 54 excellent engravings and 12 woodcut vignettes. The larger prints include six lithographs<ref target="n32" type="note">32</ref> (the first after Blake since his design of "Enoch" [1807]) closely copying the prints in Mora, <hi rend="i">Meditaciones poeticas</hi> (1826),<ref target="n33" type="note">33</ref> which were made from Schiavonetti's copperplates for Blair's <hi rend="i">Grave</hi>. They are also the first prints after Blake made outside Britain, France, and the United States. Each print is on a verso facing a recto on which is a poem by Mora, usually with the same title as the print.</p>
+              <note id="n30">30. In vols. 1-2 the second "N" of "NINOS" is surmounted by the top quarter of a circle. In vol. 3 the symbol looks like a hard-candy wrapper, oval in the middle and twisted at each end.</note>
+              <note id="n31">31. The Victoria copy of vol. 2 has in the spine a leaf with text and decorations printed in Spanish, including the date "1843," indicating that it was not first bound until that date or later.</note>
+              <note id="n32">32. There is a "Historia de la litografia" in 3: 114-17.</note>
+              <note id="n33">33. <hi rend="i">Meditaciones poeticas</hi> was published by Ackermann in London and "su establecimiento en Megico."</note>
+              <p>Each Blake print is inscribed "<hi rend="i">Diario de los Niños</hi>" (above the design), "<hi rend="i">lito. frente al correo, n.<hi rend="s">o</hi> 5</hi>" ("lithographer opposite the post office, no. 5") on pls. 1-2 or "<hi rend="i">lit. Portal de las flores n.<hi rend="s">o</hi> 5</hi>" ("lithographer Gate of the Flowers [street in Mexico City] no. 5")<ref target="n34" type="note">34</ref> on pls. 3-6 (at lower left), and the title as below (beneath the design). The sizes are for the images; the lithographs left no platemark.<lb/>
+              1. "La Eternidad y el Espacio" at 1: 457 (design size 12.2 x 22.8 cm.) (caption on the engraving for Blair's <hi rend="i">Grave</hi> [1808]: "Christ Descending into the Grave").<lb/>
+              <note id="n34">34. Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 (spring 2010): 133, points out that "these two addresses may be alternative ways of locating the same establishment. The 'frente al correo' address is associated with the Estampería de Julio Michaud y Thomas."</note>
+              <pb id="p44-17" n="17"/>
+              2. Untitled at 2: 49 (design size 22.4 x 14.0 cm.); the facing poem is "El sepulcro" ("The Counsellor, King, Warrior, Mother &amp; Child in the Tomb").<lb/>
+              3. "La Puerta de la muerte" at 2: 193 (design size 13.7 x 22.7 cm.);<ref target="n35" type="note">35</ref> the facing poem is "La puerta del sepulcro" ("Death's Door").<lb/>
+              4. "El valle de la muerte" at 2: 289 (design size 13.0 x 22.1 cm.) ("The descent of Man into the Vale of Death").<lb/>
+              5. "La Caverna" at 2: 361 (design size 11.6 x 21.8 cm.) ("The Soul exploring the recesses of the Grave").<lb/>
+              6. "La Resurreccion" at 2: 409 (design size 13.7 x 21.7 cm.) ("The Reunion of the Soul &amp; the Body").</p>
+              <p>The titles follow those in Mora pls. 2-3, 7-10 (pls. 2, 4, 11, 7, 9, 12 in the 1808 <hi rend="i">Grave</hi>) (except for no. 2, which is untitled). "The lithographs are very accurate reproductions of Schiavonetti's etchings/engravings" and are "close in size to the engravings," "except for the elimination of small areas of the designs along the top and bottom margins of 'La Puerta de la muerte' and 'La Caverna,' and on all 4 sides of 'La Resurreccion,'" a faithfulness perhaps achieved by tracing, according to Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 (spring 2010): 132. Essick is the source of all the information about his copy; John Windle was the discoverer of Blake's connection with the work.</p>
+              <p>Five of Mora's poems illustrated in the <hi rend="i">Meditaciones poeticas</hi> are included here without prints: "La muerte del impio" ("Death of the Strong Wicked Man") (2: 119-20), "La muerte del justo" ("The Death of The Good Old Man") (2: 167-68), "La separacion" ("The Soul hovering over the Body reluctantly parting with Life") (2: 190-92), "El juicio" ("The Day of Judgment") (2: 390-92), and "La reunion" ("The Reunion of the Soul &amp; the Body") (2: 475-76). One other print from <hi rend="i">Meditaciones poeticas</hi> is omitted: the title page (it has no poem by Mora).</p>
+              <note id="n35">35. For a reproduction, see Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 (spring 2010): 132.</note>
+            </div4>
+            <div4>
+              <head>
+                <title>EMLYN, Henry, <hi rend="i">A Proposition for<lb/>
+                a New Order in Architecture</hi> (1781, 1784, 1797)</title>
+              </head>
+              <p>1781 and 1784 New Location: Royal Academy (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>ENFIELD, William,<lb/>
+                <hi rend="i">The Speaker</hi> (1774 [1780], 1781, 1785, 1795, 1797)</title>
+              </head>
+              <p>1781 New Locations: California (Santa Barbara), Chicago, Illinois, Library Company of Philadelphia, Louisiana State (Shreveport), Morrab Library (Penzance), Paxton House (Scotland), Trinity College (Cambridge).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>"Evening Amusement" (Watteau-Blake) (1782)<lb/>
+                Notice</title>
+              </head>
+              <p>Anon., "Vermischte Nachrichten," <hi rend="i">Neue Bibliothek der schönen Wissenschaften und der freyen Künste</hi> [Leipzig] 28, no. 1 (1783): 123-88 (in German) &lt;Harvard&gt;:
+              <q>Zwey angenehme Blätter, nach Watteau, aus der Sammlung des Hrn. A. Maskins [i.e., Macklin]; Morning Amusement und Evening Amusement, von W. Blake in Röthel, Ovale, zu 9 Zoll 4 Linien Höhe, und 11 Zoll 3 Linien Breite, kosten zusammen 15 Schillinge. (162)</q></p>
+            </div4>
+            <div4>
+              <head>
+                <title>"The Fall of Rosamond" (Stothard-Blake (1783)<lb/>
+                Notice</title>
+              </head>
+              <p>Anon., "Vermischte Nachrichten," <hi rend="i">Neue Bibliothek der schönen Wissenschaften und der freyen Künste [Leipzig] 30, no. 2 (1785): 317-68 (in German) &lt;Harvard&gt; ("The Fall of Rosamond ... von Blake, in eben der Manier, gleicher Maasse und Preises" [as "Ophelia" (Stothard-Ogborne)] [342]).</hi></p>
+            </div4>
+            <div4>
+              <head>
+                <title>FLAXMAN, John, <hi rend="i">Compositions from ... Hesiod</hi> (1817)</title>
+              </head>
+              <p>New Locations: Guildhall Library (London, 2 copies), Indianapolis Museum of Art (reproduced online &lt;http://www.imamuseum.org&gt; and also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;), Melbourne Public Library, Northwestern.</p>
+              <p>In Windle's catalogue 46 (see under 2009 in Part IV), lot 1048 is 37 drawings for Flaxman's <hi rend="i">Hesiod</hi> (see <hi rend="i">BB</hi> #456). These are neither the preliminary sketches (which are in the British Museum Dept. of Prints and Drawings) nor tracings from the prints. They are bound in blue morocco of the "1860s" by M. M. Holloway. "We feel safe in concluding ... that the drawings are not copied by a third party" (from the description by Edward Maggs). They are offered for Maggs Bros., price on request.</p>
+              <p>Reviews, puffs, etc.<ref target="n36" type="note">36</ref></p>
+              <note id="n36">36. I report advertisements only when they specify (as most do) that it was "engraved by J. Blake." See <hi rend="i">BB</hi> p. 560.</note>
+              <p>Anon., "Literary Intelligence," <hi rend="i">Gentleman's Magazine</hi> 84, part 2 (Dec. 1814): 550-52 (notice on 551).<lb/>
+              Anon., "Literary Intelligence," <hi rend="i">European Magazine</hi> 68 (Nov. 1815): 469-70 &lt;Bodleian&gt; (notice on 470).<lb/>
+              Anon., "Select Literary Information," <hi rend="i">Eclectic Review</hi> ns 4 (Dec. 1815): 622-26 ("Messrs. Longman and Co. will shortly publish" Flaxman's <hi rend="i">Hesiod</hi> [623-24]).<lb/>
+              "Messrs. Longman and Co. are about to Publish" Flaxman's <hi rend="i">Hesiod</hi> (at the end of <hi rend="i">The Remains of Hesiod ...</hi>, ed. Charles Abraham Elton, 2nd ed. [London: Baldwin, Cradock, and Joy, 1815]). &lt;Harvard&gt;<lb/>
+              "New Works Preparing for Publication, by Longman, Hurst, Rees, Orme, and Brown" (July 1816) 2 (bound with <hi rend="i">Demosthenis Orationes de Republica Duodecim</hi>, ed. William Allen [Oxford, 1810]). &lt;Bodleian&gt;<lb/>
+              Anon., "New Publications, from March 1816, to March 1817," <hi rend="i">Edinburgh Annual Register</hi> [for 1816] 9, part 2 (1820): cccccxxvii-cccccl (notice on cccccxxxiv).<lb/>
+              Anon., "Literary Register," <hi rend="i">Literary Panorama, and National Register</hi> ns 5, no. 30 (Mar. 1817): cols. 951-60 &lt;Harvard&gt; (notice in col. 953).<lb/>
+              <pb id="p44-18" n="18"/>
+              Anon., "Monthly List of New Publications," <hi rend="i">Blackwood's Edinburgh Magazine</hi> 1, no. 1 (Apr. 1817): 90-95 (notice on 90).<lb/>
+              Anon., "New London Publications," <hi rend="i">Asiatic Journal and Monthly Register</hi> 3, no. 16 (Apr. 1817): 393-94 (notice on 394).<lb/>
+              "Recently Published, by Longman, Hurst, Rees, Orme, and Brown, Paternoster-Row" (Apr. 1817) 3 (bound at the end of G[eorge] Dyer, <hi rend="i">Four Lectures on the English Constitution</hi>, 3rd ed. [London: Longman, 1817]). &lt;Princeton&gt;</p>
+            </div4>
+            <div4>
+              <head>
+                <title>FLAXMAN, John, <hi rend="i">The Iliad of Homer</hi> (1805)</title>
+              </head>
+              <p>New Locations: Guildhall Library (London), Melbourne Public Library, Rijksmuseum (Amsterdam), St. Bride Library (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>FLAXMAN, John,<lb/>
+                <hi rend="i">Letter to the Committee for Raising the Naval Pillar</hi> (1799)</title>
+              </head>
+              <p>New Location: Royal Academy (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>FUSELI, John Henry, <hi rend="i">Lectures on Painting</hi> (1801)</title>
+              </head>
+              <p>New Locations: Northwestern, Royal Academy (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>GAY, John, <hi rend="i">Fables</hi> (1793, [1811])</title>
+              </head>
+              <p>[1811] New Location: Northwestern.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HAYLEY, William, <hi rend="i">Ballads</hi> (1805)</title>
+              </head>
+              <p>New Location: California Palace of the Legion of Honor (Achenbach Foundation for Graphic Arts; reproduced online &lt;http://www.famsf.org/fam/about/imagebase&gt;).</p>
+              <p>A copy in "original drab gray boards, printed paper label" is listed in Windle's catalogue 46 (see under 2009 in Part IV), lot 34.</p>
+              <p>In 2009, a copy from the Huntington was reproduced in the <hi rend="i">William Blake Archive</hi>.</p>
+              <p>The text of Hayley's ballad of the horse was apparently omitted by Phillips in the proofs, and Blake, in ignorance of this, made an engraving for it. He discovered his mistake when Phillips happened to send him in London a proof of "the last sheet" to be forwarded to the printer Joseph Seagrave in Chichester. In his letter of 4 June 1805, Blake wrote to Hayley: "I write to entreat that you would contrive so as that my plate may come into the work" (presumably including the text of "The Horse" in the <hi rend="i">Ballads</hi>), so that Blake would not have to omit "ten guineas from my next demand on Phillips."<ref target="n37" type="note">37</ref></p>
+              <note id="n37">37. The problem was pointed out to me by Morton Paley, from his article "William Blake, Richard Phillips, and the <hi rend="i">Monthly Magazine</hi>," forthcoming in <hi rend="i">Studies in Romanticism</hi>.</note>
+              <p>Sales</p>
+              <p>Anon. ["An English Gentleman"], <hi rend="i">Sketch of the Present State of France</hi> (London: Richard Phillips, 1805) (an advertisement at the end, <hi rend="i">Useful and Valuable Books Recently Published by Richard Phillips</hi>, p. 11: "Ballads, chiefly intended to illustrate certain facts in the history of animals. By William Hayley, Esq. With engravings by Mr. Blake, price 6<hi rend="i">s</hi>. in boards" [the printed title page reads: "Founded on Anecdotes Relating to Animals"]).<lb/>
+              Miss Owenson, <hi rend="i">Patriotic Sketches of Ireland, Written in Connaught</hi>, vol. 2 (London: Richard Phillips, 1807) &lt;New York Public Library&gt; (an advertisement at the end, <hi rend="i">Useful and Valuable Books Recently Published, or in Course of Publication, by Richard Phillips</hi>, n. pag., contains an almost identical notice).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HAYLEY, William, <hi rend="i">Designs to a Series of Ballads</hi> (1802)</title>
+              </head>
+              <p>Ballad 1 New Location: Northwestern (Windle's catalogue 46 [see under 2009 in Part IV], lot 33).</p>
+              <p>In 2009, a copy from the Huntington was reproduced in the <hi rend="i">William Blake Archive</hi>.</p>
+              <p>Sales</p>
+              <p><hi rend="i">Bibliotheca Reediana</hi>, auction by King and Lochee, Nov.-Dec. 1807 &lt;<hi rend="i">BB</hi> #529&gt; (lot 8936 includes <hi rend="i">Designs</hi> "2 No. 1802").</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HAYLEY, William, <hi rend="i">The Life of George Romney</hi> (1809)</title>
+              </head>
+              <p>New Location: Royal Academy (London).</p>
+              <p>Large-paper copies are on heavy paper watermarked "1807" and include an advertisement for "Epistles to Romney," while small-paper copies are watermarked "Rye Mill 1807" and lack the advertisement (Windle's catalogue 46 [see under 2009 in Part IV], lot 79).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HAYLEY, William, <hi rend="i">Little Tom the Sailor</hi> (1800)</title>
+              </head>
+              <p>New Location: Hunterian Museum and Art Gallery (University of Glasgow).</p>
+              <p><hi rend="i">Little Tom the Sailor</hi>, colored, was offered in the Willis and Sotheran catalogue of 25 June 1862, lot 118 (see Part IV).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HENRY, Thomas, <hi rend="i">Memoirs of Albert de Haller</hi> (1783)</title>
+              </head>
+              <p>New Locations: Cheshire Libraries Arts and Archives, McGill (2; <hi rend="i">BBS</hi> gives 1), Medical Society of London, Royal College of Physicians (London), Science Museum (London), Dr. Williams's Library (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>HOARE, Prince, <hi rend="i">An Inquiry into the ... State of the Arts of Design in England</hi> (1806)</title>
+              </head>
+              <p>New Location: Royal Academy (London).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>LAVATER, J. C., <hi rend="i">Aphorisms on Man</hi> (1788, 1789, 1794)<lb/>
+                Sales</title>
+              </head>
+              <p><hi rend="i">Catalogue of Biblical Classical and Historical Manuscripts and of Rare and Curious Books ... on Sale by William Pickering</hi> (London, 1834) &lt;Bodleian&gt; ("1941 Lavater's [J. C.] Aphorisms on Man, frontispiece by Blake" [1794], 4s. 6d.).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>MORA, Jose Joaquin de, <hi rend="i">Meditaciones poeticas</hi> (1826)</title>
+              </head>
+              <p>For lithographs after Schiavonetti's copperplates (via Mora), see <hi rend="i">Diario de los niños</hi>, above.</p>
+              <p>Sales</p>
+              <p>[J. de A.], <hi rend="i">El Mentor</hi> (London: Ackermann, 1836) (in Spanish) &lt;New York Public Library&gt; (a list at the end, "Catalogo de
+              <pb id="p44-19" n="19"/>
+              libros españoles. Publicados por los SS. Ackermann y Comp<hi rend="s">a</hi>. en su repositorio de artes, 96, Strand, Londres," includes "Meditaciones Poéticas, por J. J. de Mora, con estampas").</p>
+            </div4>
+            <div4>
+              <head>
+                <title>"Morning Amusement" (Watteau-Blake) (1782)<lb/>
+                Notice</title>
+              </head>
+              <p>See "Evening Amusement," above.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>"Robin Hood &amp; Clorinda" (Meheux-Blake) (1783)<lb/>
+                Notice</title>
+              </head>
+              <p>Anon., "Vermischte Nachrichten," <hi rend="i">Neue Bibliothek der schönen Wissenschaften und der freyen Künste</hi> [Leipzig] 30, no. 2 (1785): 317-68 (in German) ("Robin Hood and Clorinda" after J. Meheux, engraved by "W. Blake, in punktirter Manier," in the round, 8" in diameter, "4 Schillinge im Preise" [337]).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>SALZMANN, C. G.,<lb/>
+                <hi rend="i">Elements of Morality</hi> (1791, 1792, 1799, 1805, ?1815)</title>
+              </head>
+              <p>1791 New Location: Victoria University in the University of Toronto (with Pamela Lister's bookplate).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>STEDMAN, John Gabriel,<lb/>
+              <hi rend="i">Narrative, of a Five Years' Expedition ...</hi> (1796, 1806, 1813)</title>
+              </head>
+              <p>Plates with fine contemporary coloring from an 1806 copy in the University of Glasgow Library are reproduced in the Petit Palais exhibition catalogue (see under 2009 in Part IV). The "second edition ... 4l. 4s. or with coloured plates, 6l. 6s." is listed in the <hi rend="i">Eclectic Review</hi> 3, part 1 (May 1807): 460. In 2009 booksellers conventionally assume that the coloring in the second edition is modern.</p>
+              <p>Review referring to Blake's work</p>
+              <p>R. R., <hi rend="i">European Magazine</hi> 31 (Jan., Feb., Mar., Apr. 1797): 20-25, 116-18, 175-80, 253-56 (the picture of the Aboma snake is "a very good print" [118]).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>STUART, James, and Nicholas REVETT<lb/>
+                <hi rend="i">The Antiquities of Athens</hi>, vol. 3 (1794)</title>
+              </head>
+              <p>New Locations: Northwestern, Royal Academy (London).</p>
+              <p>A "re-issue" of Stuart and Revett's <hi rend="i">Antiquities of Athens</hi>, four volumes, folio, with over 400 prints issued in 80 folio parts at 5s. each, was "now in course of Publication" in Sept. 1835. I have not seen this edition<ref target="n38" type="note">38</ref> and do not know if it included Blake's four prints for the Temple of Theseus.</p>
+              <note id="n38">38. In the library of the University of California (Berkeley) is a collection of 50 miscellaneous prints 39 cm. high; according to Morton Paley, seven engravings are by James Basire, two by William Sharp, but none by Blake. The volume has no title page or indication of place or date of publication, but the spine of the library binding is lettered "Grecian Sculptures."</note>
+              <p>Notices, etc.</p>
+              <p>James Hakewill, <hi rend="i">An Attempt to Determine the Exact Character of Elizabethan Architecture ...</hi> (London: John Weale, 1835) &lt;Harvard&gt; (at the end, "Works Recently Published ... by John Weale" contains the information that a reissue of <hi rend="i">The Antiquities of Athens</hi> with 384 prints engraved by "Aliamet, Basire, Baxter, Blake ..." will begin on 1 May [13]).<lb/>
+              Anon., "Literary Intelligence," <hi rend="i">Eclectic Review</hi> 3rd ser., 14 (Sept. 1835): 254-56 &lt;Harvard&gt; (a "re-issue" of Stuart and Revett's <hi rend="i">Antiquities of Athens</hi> in four folio volumes "is now in course of Publication," with "upwards of Four Hundred Plates, [many engraved expressly for this Edition]" in "Eighty Parts" at 5s. each).</p>
+              <p>Another version<ref target="n39" type="note">39</ref> of Stuart and Revett was advertised as "Grecian Sculpture; a Series of Engravings of the most celebrated specimens of ancient Art .... Originally published in Stuart and Revett's Antiquities of Athens, with numerous important additions. ... With historical, descriptive, and explanatory remarks"<ref target="n40" type="note">40</ref> (London: John Weale and Sherwood, Gilbert, and Piper, 1835-36).</p>
+              <note id="n39">39. Notice that the "re-issue" in folio and the separate publication of <hi rend="i">Grecian Sculpture</hi> in quarto are listed discretely (but successively) in the <hi rend="i">Eclectic Review</hi> (Sept. 1835), indicating that they were two distinct publications.</note>
+              <note id="n40">40. See the <hi rend="i">Eclectic Review</hi> 3rd ser., 14 (Sept. 1835): 255.</note>
+              <p>It was in imperial quarto, issued in parts at 2s. 6d. each, with "nearly Two Hundred and Fifty Plates" (Nov. 1835) or "upwards of two hundred and fifty plates," "engraved by Aliamet, Basire, Baxter, Blake ..." for, inter alia, "the Temple of Theseus, at Athens" (Sept. 1835). In addition, there were "a small number of Copies on Superfine Paper, in Columbier Quarto, price Four Shillings" (Feb. 1836). Blake's four prints are not named in the lists in the <hi rend="i">Eclectic Review</hi> and <hi rend="i">Bent's Monthly Literary Advertiser</hi>. It is possible that only parts 1-5 (the only ones of which I have evidence) were issued.</p>
+              <p>Notices, etc.</p>
+              <p>Anon., "Literary Intelligence," <hi rend="i">Eclectic Review</hi> 3rd ser., 14 (Sept. 1835): 254-56. &lt;Harvard&gt;<lb/>
+              Anon., <hi rend="i">Eclectic Review</hi> 3rd ser., 14 (Nov. 1835): 432-34 &lt;Harvard&gt; (lists engravings in parts 1-2).<lb/>
+              <hi rend="i">Bent's Monthly Literary Advertiser</hi> no. 372 (10 Feb. 1836): 19 (announces the publication of <hi rend="i">Grecian Sculpture</hi>, parts 3-5, in imperial quarto, at 2s. 6d. per part).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>VARLEY, John, <hi rend="i">Zodiacal Physiognomy</hi> (Part 1, 1828)</title>
+              </head>
+              <p><hi rend="i">Zodiacal Physiognomy</hi> was to be "completed in four parts" (according to its cover); according to Anon., "Literary and Miscellaneous Intelligence," <hi rend="i">Monthly Review</hi> ns 10, no. 42 (Feb. 1829): 313-14, "Mr. Varley['s] ... Zodiacal-physiognomical investigation ... exemplified by plates, now preparing for the second number of his Zodiacal Physiognomy, ... will shortly issue from the press" (314). However, no other part was ever issued.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>VIRGIL, <hi rend="i">Pastorals</hi> (1821)</title>
+              </head>
+              <p>New Locations: Art Gallery of New South Wales (Sydney) (reproduced online &lt;http://www.artgallery.nsw.gov.au&gt;), California Palace of the Legion of Honor (Achenbach Foundation
+              <pb id="p44-20" n="20"/>
+              for Graphic Arts; reproduced online &lt;http://www.famsf.org/fam/about/imagebase&gt;), Tate (1830 reprints; reproduced online &lt;http://www.tate.org.uk/collection&gt;) (the New South Wales and Tate images are also accessible through <hi rend="i">Artcyclopedia</hi> &lt;http://www.artcyclopedia.com&gt;).</p>
+              <p>In at least one set, a printed slip reading "At the French and English Juvenile Library, No. 195, (St. Clement's), Strand,"<ref target="n41" type="note">41</ref> is pasted over the price at the foot of the vol. 1 title page, and in vol. 2 the "15s" price is scratched out (Windle's catalogue 46 [see under 2009 in Part IV], lot 39).</p>
+              <note id="n41">41. The French and English Juvenile Library was "an imprint of M. J. Godwin &amp; Co., founded by William Godwin (1756-1836) and his second wife, Mary Jane Clairmont Godwin (1768-1841)," as Essick, "Blake in the Marketplace, 2009," <hi rend="i">Blake</hi> 43.4 (spring 2010): 128, points out.</note>
+              <p>Review</p>
+              <p>Anon., <hi rend="i">European Magazine</hi> 79 (Mar. 1821): 341-43 (the prints are "executed in a very superior manner," and the masters of St. Paul's and Mercers' Schools will adopt it for their students).</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Wit's Magazine</hi> (1784)</title>
+              </head>
+              <p>New Locations: Kansas, Morgan Library and Museum (2), National Trust (Swindon), Victoria University in the University of Toronto,<ref target="n42" type="note">42</ref> Yale (Walpole Library).</p>
+              <note id="n42">42. The original (Bentley) copy in Victoria has Blake's print of "The Temple of Mirth" in the first version; the new (2009) copy has the second version.</note>
+              <p>Pl. 6, "May-Day in London": A proof before letters is in the London Metropolitan Archives.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>WOLLSTONECRAFT, Mary,<lb/>
+                <hi rend="i">Original Stories from Real Life</hi> (1791, 1796)</title>
+              </head>
+              <p>1791 New Locations: California Palace of the Legion of Honor (Achenbach Foundation for Graphic Arts; reproduced online &lt;http://www.famsf.org/fam/about/imagebase&gt;), North Carolina (Chapel Hill), Northwestern, Royal Academy (London).</p>
+              <p>In 2009, copies from the Huntington (1791) and Essick (1796) were reproduced in the <hi rend="i">William Blake Archive</hi>.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>YOUNG, Edward, <hi rend="i">Night Thoughts</hi> (1797)</title>
+              </head>
+              <p>New Locations: Alberta (3), British Library (2; <hi rend="i">BB</hi> reports 1), Bryn Mawr, Cambridge (2), California Palace of the Legion of Honor (reproduced online &lt;http://www.famsf.org/fam/about/imagebase&gt;), Kansas (3; <hi rend="i">BBS</hi> lists 2), Rijksmuseum (Amsterdam), Royal Academy (London), Trinity College (Cambridge), Witwatersrand (Johannesburg).</p>
+              <p>Notice</p>
+              <p>Anon., "Varieties, Literary and Philosophical; Including Notices of Works in Hand. From the Same [<hi rend="i">Monthly Magazine</hi>]," <hi rend="i">Edinburgh Magazine</hi> ns 8 (Dec. 1796): 447-50 &lt;Bodleian&gt; (notice on p. 450 as in the <hi rend="i">Monthly Magazine</hi> [Nov. 1796] &lt;<hi rend="i">BBS</hi> p. 270&gt;).</p>
+            </div4>
+            <head>
+              <title><hi rend="b">Appendix: Books Improbably Alleged to Have Blake Engravings</hi></title>
+            </head>
+            <div4>
+              <head>
+                <title>HUME, David, <hi rend="i">The History of England</hi> (1793-1806)<lb/>
+                Prospectuses</title></head>
+              <p><hi rend="i">Algemene Konst- en Letter-Bode</hi> [Haarlem] no. 195 (23 Mar. 1792) &lt;Ghent University&gt; (at the end of the issue is <hi rend="i">Bericht-Blad</hi> no. 64, with the prospectus in English naming Blake as an engraver &lt;<hi rend="i">BBS</hi> p. 278&gt;).<lb/>
+              Anon., "Kunstnachrichten," <hi rend="i">Neue Bibliothek der schönen Wissenschaften und der freyen Künste</hi> [Leipzig] 46, no. 2 (1792): 317-28 (in German) &lt;Princeton&gt; (proposals for Hume's <hi rend="i">History of England</hi>; "Die Kupferstecher: F. Bartolozzi ... W. Blake ..." [317-19]).<lb/>
+              <hi rend="i">Critical Review</hi> ns 5 (1792) &lt;Harvard&gt; (at the end is the June 1792 prospectus [<hi rend="i">BR</hi>(2) 62fn]).</p>
+            </div4>
+            <div4>
+              <head>
+                <title><hi rend="i">Wit's Magazine</hi> (1784-85)</title>
+              </head>
+              <p>For a speculation, probably idle, that a print called "The Italian Puppet Show" was engraved by Blake for the <hi rend="i">Wit's Magazine</hi>, see "Red Herring" in the introduction.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title><hi rend="b">Part IV: Catalogues and Bibliographies</hi></title>
+            </head>
+            <div4>
+              <head>
+                <title>1820</title>
+              </head>
+              <p><hi rend="i">Catalogue of the Library</hi> [of Frances Mary Richardson Currer] <hi rend="i">at Eshton-Hall, in the County of York</hi>. "London. By Robert Triphook. 1820." 87. &lt;Bodleian&gt;</p>
+              <p>Lists Blair's <hi rend="i">Grave</hi> with Blake's designs (1808).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1834 22-27 MARCH</title>
+              </head>
+              <p><hi rend="i">Catalogue of the Fifth and Concluding Portion of the Valuable and Extensive Library of P. A. Hanrott, Esq. ...Which Will Be Sold by Auction, by Mr. Evans ... on Saturday, March 22, and Four Following Days; (Sunday Excepted).</hi> 1834. &lt;New York Public Library&gt;</p>
+              <p>"1450  A Collection of Drawings, in colours, by the late William Robson, of heads .... A Collection rivalling almost in whim and extravagance the works of Blake."</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1834</title>
+              </head>
+              <p><hi rend="i">Nouvelles recherches bibliographiques, pour servir de supplément au Manuel du libraire et de l'amateur de livres, par Jacq.- Ch. Brunet.</hi> Vol. 1. Paris: Silvestre, 1834. 169. In French. &lt;University of Lausanne&gt; B. <hi rend="i">Manuel du libraire</hi> .... 4th ed. 1839. In French. &lt;<hi rend="i">BB</hi> #552A&gt; C. 1842. &lt;<hi rend="i">BB</hi> #552B&gt; D. 1860. &lt;<hi rend="i">BB</hi> #552C&gt;</p>
+              <p>Quotes the description of <hi rend="i">Songs</hi> (U) in Rivington's catalogue (1824) &lt;<hi rend="i">BB</hi> #536&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1843</title>
+              </head>
+              <p><hi rend="i">Catalogue of English Books, in All Classes of Literature, on Sale by John Bohn</hi>. London, 1843. &lt;Harvard&gt;</p>
+              <p>The Blake lots are:<lb/>
+              <pb id="p44-21" n="21"/>
+              1120  <hi rend="i">Visions of the Daughters of Albion</hi> [E],<ref target="n43" type="note">43</ref> "tinted by the Author himself," folio, £1.11.6.<lb/>
+              1121-22  <hi rend="i">Job</hi>, £3.3.0 (plain) and £5.0.0 (India proofs).<lb/>
+              1123  <hi rend="i">Songs of Innocence and of Experience</hi> [?V],<ref target="n44" type="note">44</ref> "coloured by the Author," 2 vols. in 1, 8vo, half bound in morocco, gilt edges, the listing accompanied by quotations from Cunningham and Lamb, £5.5.0.<ref target="n45" type="note">45</ref></p>
+              <note id="n43">43. It could also be <hi rend="i">Visions</hi> (A, C-D, I-N).</note>
+              <note id="n44">44. <hi rend="i">Songs</hi> (V) was in the 1841 Henry G. Bohn catalogue (see <hi rend="i">BB</hi> #554, A551). However, its edges are marbled (not gilt) and its binding is russia (not morocco).</note>
+              <note id="n45">45. Geoffrey Keynes and Edwin Wolf 2nd, <hi rend="i">William Blake's Illuminated Books: A Census</hi> (New York: Grolier Club, 1953), cite an 1843 Henry G. Bohn catalogue for Vine's copies of <hi rend="i">Thel</hi> (O) and <hi rend="i">Milton</hi> (D) bound together, but Ruthven Todd, "The Bohn Catalogue and James Vine," <hi rend="i">Blake</hi> 4.4 (spring 1971): 149, writes that "1843" is a misprint for "1848," and <hi rend="i">BB</hi> #556 is so indiscreet as to say that "there appears to be no 1843 Bohn catalogue." Though there is an 1843 John Bohn catalogue, it does not list Vine's <hi rend="i">Thel</hi> and <hi rend="i">Milton</hi>.</note>
+            </div4>
+            <div4>
+              <head>
+                <title>1845</title>
+              </head>
+              <p>A. E. Evans &amp; Son. <hi rend="i">Catalogue of a Collection of Books, Books of Prints, and Works in General Literature, on Sale at Very Moderate Prices</hi>. Part 3. [1845] (bound with <hi rend="i">Gentleman's Magazine</hi>, ns 24 [1845]).<ref target="n46" type="note">46</ref> &lt;Michigan&gt;</p>
+              <note id="n46">46. Another copy of the catalogue is dated [1860] in the Bodleian catalogue.</note>
+              <p>The Blake lots are:<lb/>
+              717 <hi rend="i">Job</hi>, £2.12.6.<lb/>
+              718 <hi rend="i">Jerusalem</hi> [A], 100 plates, quarto, half calf, "neat," £7.7.0.<lb/>
+              719 <hi rend="i">Visions of the Daughters of Albion</hi> [A], "11 pages, beautifully coloured by Blake himself," £4.4.0.<lb/>
+              720 "a Stereotype design for Pilgrim's Progress, <hi rend="i">presented by Mrs. Blake to Mrs. Tatham</hi>, 1828, <hi rend="i">rare</hi>," 10s. 6d.<ref target="n47" type="note">47</ref><lb/>
+              721 "a Small Etching by him, representing Sampson destroying the Lion," 10s. 6d.<ref target="n48" type="note">48</ref><lb/>
+              722 "the Death of the Good Man," a print from Blair's <hi rend="i">Grave</hi>, 7s. 6d.<lb/>
+              723 "a very Curious Coloured Drawing, illustrating the Revelations by this original Artist, <hi rend="i">signed and dated</hi> 1809, 4to. 2<hi rend="i">l</hi> 12s 6d."<ref target="n49" type="note">49</ref></p>
+              <note id="n47">47. This copy of "The Man Sweeping the Interpreter's Parlour" (c. 1822) is not recorded in Essick, <hi rend="i">The Separate Plates of William Blake: A Catalogue</hi> (Princeton: Princeton University Press, 1983).</note>
+              <note id="n48">48. No such print is reported in Essick, <hi rend="i">Separate Plates</hi>, or <hi rend="i">BB</hi>.</note>
+              <note id="n49">49. This is probably <hi rend="i">The Whore of Babylon</hi> (Butlin #523), signed "W Blake inv &amp; del 1809" and sold by Evans to the British Museum Dept. of Prints and Drawings in 1847. This 1845 catalogue is not listed in Butlin.</note>
+            </div4>
+            <div4>
+              <head>
+                <title>1848</title>
+              </head>
+              <p><hi rend="i">Henry G. Bohn's Catalogue of Books</hi>. Vol. 1. London, 1848. &lt;Bodleian&gt;</p>
+              <p>The catalogue includes (pp. 74, 259, without lot numbers):<lb/>
+                <hi rend="i">Milton</hi> [D] in 12 books, 50 prints, bound with <hi rend="i">Thel</hi> [O], 8 prints, £10.10.0.<lb/>
+                <hi rend="i">America</hi> [C], "folio, 18 <hi rend="i">curiously engraved plates, hf. bd.</hi>," £3.3.0.<lb/>
+              <hi rend="i">Job</hi>, £2.12.6.<lb/>
+              Blair's <hi rend="i">Grave</hi> (1808), 3 copies for £1.1.0, £1.4.0, and 18s.<lb/>
+              <hi rend="i">Dante</hi> ("1839"), £1.16.0.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1853 19 DECEMBER</title>
+              </head>
+              <p>John Hugh Smyth Pigott sale at Sotheby's &lt;see <hi rend="i">BBS</hi> pp. 86, 98&gt;</p>
+              <p>Review</p>
+              <p>Anon., "Our Weekly Gossip," <hi rend="i">Athenæum</hi> no. 1367 (7 Jan. 1854): 21-22 ("the sale of Mr. Pigott's library" included as lots 300 and 352 <hi rend="i">The Marriage of Heaven and Hell</hi> [I], £4.16.0, and <hi rend="i">Jerusalem</hi> [D], £4.16.0).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1860 8 OCTOBER-</title>
+              </head>
+              <p><hi rend="i">Bibliotheca Dramatica. Catalogue of the Theatrical and Miscellaneous Library of the Late William E[vans] Burton, the Distinguished Comedian, Comprising an Immense Assemblage of Books Relating to the Stage .... To Be Sold by J. Sabin &amp; Co., ... New York, on Monday, October 8, 1860, and Following Days</hi>.</p>
+              <p>Lot 2717 is Sir Joshua Reynolds, <hi rend="i">Works</hi>, 3 vols. (1798), in half calf: "This copy belonged to the celebrated artist who is so well known as the illustrator of Blair's Grave, and other works,"; "it is full and running over with marginal notes, all" "written with all the spirit of a good hater." Blake's note on the title page is quoted, as are passages about him by Charles Lamb and Mrs. Jameson.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1862 25 JUNE</title>
+              </head>
+              <p><hi rend="i">A Catalogue of Superior Second-Hand Books ... on Sale, at Remarkably Low Prices, by Willis and Sotheran, No. 136, Strand, (W. C.).</hi> 25 June 1862. &lt;Michigan&gt;</p>
+              <p>The catalogue includes:<lb/>
+              116 <hi rend="i">America</hi> [S] (1793), "18 <hi rend="i">engravings</hi>"; <hi rend="i">Europe</hi> [N] (1794), "15 <hi rend="i">engravings</hi>"; <hi rend="i">First Book of Urizen</hi> [K] (1794), "27 <hi rend="i">engravings</hi>"; <hi rend="i">Visions of the Daughters of Albion</hi> [S] (1793), "11 <hi rend="i">engravings</hi>"; <hi rend="i">Book of Thel</hi> [S] ("1792"), "7 <hi rend="i">engravings</hi>"; "<hi rend="i">in all</hi> 78 <hi rend="i">most remarkable Designs</hi> ... 5 vols. 4to. in one, <hi rend="i">half calf</hi>, £21.10<hi rend="i">s</hi>," "A VOLUME OF EXTREME RARITY, from the LIBRARY of JOHN FLAXMAN, the SCULPTOR, with his AUTOGRAPH."<lb/>
+              117 <hi rend="i">The Gates of Paradise</hi>, "19 <hi rend="i">remarkably singular and spirited plates</hi> ... sqr. sm. 8vo. <hi rend="i">hg. bd.</hi> RARE, £3.10<hi rend="i">s</hi>--(From Flaxman's library)."<lb/>
+              118 <hi rend="i">Little Tom the Sailor</hi>, "2 <hi rend="i">very characteristic coloured engravings, the entire Poem likewise composed and engraved by Blake</hi>, RARE, £1.1<hi rend="i">s</hi>." Perhaps this copy belonged to Flaxman, like the two lots above. It was probably sold quickly, for it does not appear in the catalogue of 25 Dec. 1862, below.</p>
+              <p>Mike Drew of Henry Sotheran Ltd. told me on 7 May 2010 that the Sotheran "archives were blitzed during the war."</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1862 25 DECEMBER</title>
+              </head>
+              <p><hi rend="i">A Catalogue of Superior Second-Hand Books ... on Sale, at Remarkably Low Prices, by Willis and Sotheran, No. 136, Strand, (W. C.)</hi>. 25 December 1862. &lt;Michigan&gt;<lb/>
+              91 "RARE VOLUME OF BLAKE'S DESIGNS" (described as in lot 116 of the catalogue of 25 June 1862, above).</p>
+              </div4>
+              <pb id="p44-22" n="22"/>
+            <div4>
+              <head>
+                <title>1926 14-15 JANUARY</title>
+              </head>
+              <p><hi rend="i">Rare First Editions of Famous Writers of the Sixteenth to Twentieth Century, English and American</hi>. New York: American Art Association, 1926.</p>
+              <p>Lots 39-50 are Blakes, including lot 40, *<hi rend="i">The Gates of Paradise</hi> [<hi rend="i">For the Sexes</hi> (H)].</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1952 24-26 MARCH</title>
+              </head>
+              <p><hi rend="i">Catalogue of Printed Books Comprising Valuable Books on Art, Including ... Works by, and Relating to, William Blake, the Property of Philip Alden Wright, Esq. ... Which Will Be Sold by Auction by Messrs. Sotheby &amp; Co. ... on Monday, the 24th of March, 1952, and Two Following Days</hi>. London, 1952.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>[?1970]</title>
+              </head>
+              <p>§<hi rend="i">William Blake Samuel Palmer and the English Visionaries: An Exhibition of the Engravings for William Blake's Master Work The Book of Job</hi>. San Francisco: Thackrey &amp; Robertson, [?1970]. 4<hi rend="s">o</hi>, 16 leaves.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1978 19 OCTOBER-10 NOVEMBER</title>
+              </head>
+              <p>G. Ingli James. <hi rend="i">Images of William Blake: Exhibition at the Arts and Social Studies Library, University College, Cardiff.</hi> 1978. 1 sheet.</p>
+              <p>Typescript catalogue of 48 photographs and facsimiles.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1989 10-14 APRIL</title>
+              </head>
+              <p><hi rend="i">English Illustrated Books of the Late Eighteenth Century: Exhibition of Works from the Library's Collection</hi> [at the] <hi rend="i">Barr Smith Library, University of Adelaide</hi>. "This exhibition has been prepared to complement an address given to the Friends of the Special Collections ... by Gerald E. Bentley on the topic 'The great illustrated book publishers of the 1790s and William Blake.'" Adelaide: Barr Smith Library, University of Adelaide, 1989. Exhibition catalogue no. 14, 16 leaves, 30 cm.</p>
+              <p>Introduction by Susan Woodburn and Elizabeth Lee.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>1999 28 APRIL-30 JUNE</title>
+              </head>
+              <p>§Tyger of Wrath. National Gallery of Victoria, Melbourne, Australia. &lt;<hi rend="i">Blake</hi> (2000)&gt;</p>
+              <p>*<hi rend="i">Tyger of Wrath</hi>, "a comprehensive website of 176 works" &lt;http://www.ngv.vic.gov.au/blake&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>2000 9 NOVEMBER-2001 11 FEBRUARY;<lb/>
+                2001 27 MARCH-24 JUNE</title>
+              </head>
+              <p>*<hi rend="i">William Blake</hi>. [Catalogue of an exhibition at the] Tate, Metropolitan Museum of Art. 2000, 2001. &lt;<hi rend="i">Blake</hi> (2001, 2002)&gt;</p>
+              <p>Reviews, etc.</p>
+              <p>*Stella Gambling, with additional contributions by Anthony Dyson, Liz Ellis, and Malcolm Livingstone, <hi rend="i">Notes for</hi> [primary and secondary school] <hi rend="i">Teachers and Group Leaders</hi>, 20 pp. &lt;http://www.tate.org.uk/learning/worksinfocus/blake/tools/blake_teachers_pack.pdf&gt;.<lb/>
+              §Anon., "[William Blake Revived: Tate Britain]," [<hi rend="i">Art World</hi>] no. 1961 (Mar. 2001): 36-39 (in Korean).<lb/>
+              Hilton Kramer, "A Mystery and Genius: Blake Is a Conundrum," <hi rend="i">New York Observer</hi> 15 Apr. 2001 &lt;<hi rend="i">Blake</hi> (2008)§&gt; (visitors should "acquaint themselves with Blake's poetry before seeing this show").</p>
+            </div4>
+            <div4>
+              <head>
+                <title>2000 1 DECEMBER-2001 25 MARCH</title>
+              </head>
+              <p>Burning Bright: The Visionary Art of William Blake, 1757-1827. National Library, Wellington, New Zealand.</p>
+              <p>From the collections of the Turnbull Library and the National Library of New Zealand.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>2006 2 FEBRUARY-19 APRIL</title>
+              </head>
+              <p>Flaming Pages: The Illuminated Books of William Blake. California State University, East Bay. &lt;<hi rend="i">Blake</hi> 2009&gt;</p>
+              <p>An exhibition of Blake Trust facsimiles. There is no catalogue, but the *brochure, with a 2-pp. introduction by Lanier Graham, is online &lt;http://class.csueastbay.edu/artgallery/ArtBrochure.pdf&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>2006 20 JULY-15 SEPTEMBER</title>
+              </head>
+              <p><hi rend="i">William Blake: Visionary and Illustrator</hi>. [Catalogue of an exhibition at] Thomas Cooper Library, University of South Carolina. 2006. &lt;<hi rend="i">Blake</hi> (2007)&gt;</p>
+              <p>Review</p>
+              <p>Anon., "USC Holding Exhibit on Poet, Artist William Blake," <hi rend="i">Gaffney Ledger</hi> 21 July 2006 &lt;http://www.gaffneyledger.com&gt;.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>2006 16 SEPTEMBER-2007 1 JANUARY</title>
+              </head>
+              <p>§Robert Cook. <hi rend="i">Under God's Hammer: William Blake versus David Shrigley</hi>. [Catalogue of an exhibition at the] Art Gallery of Western Australia. Perth: Art Gallery of Western Australia, 2006. 22 x 24 cm., 47 pp.; ISBN: 0975809881.</p>
+            </div4>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

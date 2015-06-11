@@ -1,0 +1,607 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>007-03</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">Blake Newsletter 27 An Illustrated Quarterly</hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Winter 1973-1974</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1973</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter, An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">07.3</biblScope>
+                        <biblScope unit="volume">7</biblScope>
+                        <biblScope unit="issue">3</biblScope>
+                        <respStmt>
+                            <resp>Editors</resp>
+                            <name>Morris Eaves</name>
+                            <name>Morton D. Paley</name>
+                            <resp>Editorial Assistants: for production</resp>
+                            <name>Judith Wallick Page</name>
+                            <resp>Editorial Assistants: for subscriptions</resp>
+                            <name>Graham Conley</name>
+                            <resp>Bibliographer</resp>
+                            <name>Foster Foreman</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1974"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_07">
+        <front>
+            <pb id="p07-49-50" n="49-50"/>
+            <div1 id="cover">
+                <figure n="cover.007.03.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter 27<lb/>
+                    An Illustrated Quarterly</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-07-3-0001">
+                <p>
+                    <hi rend="i">Blake Newsletter, An Illustrated Quarterly</hi>, Whole Number 27, Volume 7, Number 3, Winter 1973-1974. The <hi rend="i">Blake Newsletter</hi> is published quarterly under the sponsorship of the Department of English of the University of New Mexico.</p>
+                <p>Editors: Morris Eaves (University of New Mexico) and Morton D. Paley (University of California, Berkeley). Editorial Assistants: for production, Judith Wallick Page; for subscriptions, Graham Conley (both University of New Mexico). Bibliographer: Foster Foreman (University of California, Berkeley).</p>
+                <p>Manuscripts are welcome. Send two copies to either of the editors: Morris Eaves, Dept. of English, Univ. of N. M., Albuquerque, N. M. 87131; Morton Paley, Dept. of English, Univ. of Ca., Berkeley, Ca. 94720.</p>
+                <p>Subscriptions are $5 for one year, four issues; special rate for individuals, $4, surface mail; for those subscribers overseas who want to receive their issues by air mail, $8. U. S. currency or international money order if possible. Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Dept. of English, Univ. of N. M., Albuquerque, N. M. 87131.</p>
+                <p>Some back issues are available. Address Morris Eaves. Prices: Whole numbers 14, 15, 21, 22, 23, 24, 25, and 26, $2 each. Whole number 20, $3.</p>
+                <p>The ISSN (International Standard Serial Number) of the <hi rend="i">Blake Newsletter</hi> is 0006-453X.</p>
+                <pb id="p07-51" n="51"/>
+                <table id="contents" rows="9" cols="2">
+                    <row>
+                        <cell>NOTES</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Robert N. Essick, Blake in the Marketplace, 1972-73</cell>
+                        <cell>52</cell>
+                    </row>
+                    <row>
+                        <cell>Andrew Wilton, A Fan Design by Blake</cell>
+                        <cell>60</cell>
+                    </row>
+                    <row>
+                        <cell>DISCUSSION</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Geoffrey Keynes, The Blake Trust Gray Catalogue and the Blake Trust Facsimiles</cell>
+                        <cell>64</cell>
+                    </row>
+                    <row>
+                        <cell>Robert N. Essick, <hi rend="i">Jerusalem</hi> 25: Some Thoughts on Technique</cell>
+                        <cell>64</cell>
+                    </row>
+                    <row>
+                        <cell>Leonard Trawick, Nature and Art in <hi rend="i">Milton</hi>: Afterthoughts on the 1973 MLA Seminar</cell>
+                        <cell>67</cell>
+                    </row>
+                    <row>
+                        <cell>REVIEW</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Curran and Wittreich’s <hi rend="i">Blake’s Sublime Allegory: Essays on The Four Zoas, Milton, and Jerusalem</hi>, reviewed by Hazard Adams</cell>
+                        <cell>69</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright ©1974 by Morris Eaves and Morton D. Paley</note>
+            </div1>
+        </front>
+        <pb id="p07-52" n="52"/>
+        <body>
+            <div1 id="BQ-07-3-0002">
+                <figure>
+                    <head>"The Mourners," an ink and gray wash drawing by Blake.</head>
+                    <figDesc>Sold at Christie’s, London, 5 June 1973, lot 113, for 2,400 guineas.</figDesc>
+                </figure>
+                <byline>
+                    <docAuthor>ROBERT N. <name>ESSICK</name>
+                    </docAuthor>
+                <ref target="n0" type="note">*</ref></byline>
+                <head>
+                    <title>
+                        <hi rend="b">Blake in the Marketplace, 1972-73</hi>
+                    </title>
+                </head>
+                <q>
+"Wisdom is sold in the desolate market where none come to buy." <hi rend="i">FZ</hi> II:400
+</q>
+                <p>The 1971 auction season, surveyed in <hi rend="i">Blake Newsletter</hi> 19 (Winter, 1971-72), pp. 183-84, was remarkable for the high quality of works sold and the number of fine illuminated books which changed hands. The last two years have seen some decrease in quality, but a considerable increase in quantity, both at auction and in book and print dealers catalogues. Most notable is the growing interest in Blake’s commercial book illustrations, partly out of necessity as the more important materials gravitate ceaselessly towards public collections. Almost all dealers now seem to own Bentley &amp; Nurmi, and once a title is recognized as one containing an "ORIGINAL PLATE ENGRAVED BY THE VISIONARY ARTIST WILLIAM BLAKE," the asking price is at least quadrupled. Even individual plates pulled from the books they illustrate have appeared at London auctions, those engraved after Blake’s own designs or after Fuseli fetching the best prices. The Job illustrations are no longer considered a book, but rather a series of plates subject to dismemberment and sale print by print. In some respects this is unfortunate, but it is a boon for the small collector who could never afford all twenty-two plates but can obtain one or two.</p>
+                <note id="n0">
+                    <hi rend="i">Robert N. Essick is an Associate Professor of English at California State University, Northridge, and Associate Editor of</hi> Blake Studies. <hi rend="i">His work on Blake’s art includes</hi> William Blake: Book Illustrator <hi rend="i">(with Roger Easson) and</hi> A Finding List of Reproductions of Blake’s Art.</note>
+                <p>Prices have, of course, increased at a steady pace. Listed below are the most important New York and London auctions of Blake drawings and watercolors, prints, and books and letters, including a few works by artists associated with Blake.</p>
+                <div2>
+                    <head>
+                        <title>DRAWINGS AND WATERCOLORS</title>
+                    </head>
+                    <p>Sotheby Parke-Bernet, New York, 16 May 1972 Lot 70. A pencil and ink drawing attributed to Blake, "apparently an illustration for Dante’s <hi rend="i">Inferno</hi>," from the W. A. White Collection. The drawing is reproduced as the frontispiece to the sale catalogue. It might be by Fuseli or von Holst, but looks very little like anything Blake ever did, much less a Dante illustration. Apparently someone informed the auction house of the dubious attribution, for the sketch was withdrawn.</p>
+                    <p>Christie’s, London, 5 June 1973 Lot 42. "Mary Magdalen at the Sepulchre," one of the black ink and watercolor drawings 
+                        <pb id="p07-53" n="53"/>
+executed by Blake for Thomas Butts circa 1805. This magnificent work is reproduced in the catalogue and in <hi rend="i">Blake Newsletter</hi> 23 (Winter 1972-73), cover and p. [59] with a note on the sale. £23,100, Agnew. Formerly owned by Thomas Butts, Thomas Butts, Jr., F. T. Palgrave, and Lady Beatrix Maud Cecil, the drawing is now in the collection of Mr. and Mrs. Paul Mellon.</p>
+                    <p>Lot 113. "The Mourners," an ink and grey wash drawing by Blake of four figures huddled together before some steps [illus. 1], once in the collection of Mrs. Alexander Gilchrist. Reproduced in the catalogue. 2,400 guineas, Cooper.</p>
+                    <p>Christie’s, London, 12 June 1973</p>
+                    <p>Twenty-nine drawings by George Richmond were sold by one of his descendants, including a fine Blake-like sketch of "Samson Slaying the Philistines with the Jaw-Bone of an Ass," reproduced in the catalogue; and a sketch of "A Sleeping Shepherd and his Dog" with the energetic spirit typical of The Ancients.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>PRINTS</title>
+                    </head>
+                    <p>Sotheby Belgravia, London, 4 April 1973</p>
+                    <p>Lot 302. "Tornado," engraved by Blake after Fuseli for Erasmus Darwin’s <hi rend="i">Botanic Garden</hi>, third edition. A proof lacking a good deal of finish work in the design and before title inscription and imprint. Worn in spots, a few pieces missing, laid down and repaired. £110, Maggs. Now in the author’s collection. There are four other proofs of this plate, three in the British Museum and one in the collection of Mr. and Mrs. Raymond Lister. All lack the same work in the design, but some have the title inscription.</p>
+                    <p>Sotheby Parke-Bernet, New York, 10 May 1973</p>
+                    <p>Lot 16. Blake’s engraved illustration to Dante’s <hi rend="i">Inferno</hi>, plate 3, "Two of the Malebranche Quarrelling." Except for a tiny abrasion on the raised hand of one of the combatants, this is one of the finest impressions I have ever seen, with particularly rich burr. Reproduced in the catalogue. $1,600.00, Robert Light, Inc.</p>
+                    <p>Sotheby, London, 12 July 1973</p>
+                    <p>Lot 110. A book of portraits of and after Thomas Phillips, from the Dawson Turner collection. Over one hundred items, including Phillips’ portrait of Blake engraved by Schiavonetti for Blair’s <hi rend="i">Grave</hi> and a proof of Blake’s engraved portrait of Earl Spencer. £1,100, Edmunds. The portrait of Spencer, like the only other known copy in the British
+<pb id="p07-54" n="54"/>
+Museum, is inscribed in pencil "never published."</p>
+                    <p>Sotheby, London, 11 December 1973</p>
+                    <p>Lot 19. Blake, <hi rend="i">Illustrations of the Book of Job</hi>, proof set on laid India paper complete, but the title plate is probably a later impression. Some foxing and damp stains in the margins. Sold with an unpasted example of the printed label. This and the next lot are from the collection of Sir Thomas Phillips and the Robinson Trust. £3,200, D. Tunick.</p>
+                    <p>Lot 20. Blake, <hi rend="i">Job</hi> plates 3 and 11, published states on laid India paper, some foxing. £310, Bradley.</p>
+                    <p>Lot 21. Blake, <hi rend="i">Job</hi> plates 5, 11, 13, 15, all apparently late impressions on white wove paper. £700, M. Ayers.</p>
+                    <p>Lot 22. Blake, "Adam Naming the Beasts," the frontispiece to Hayley’s <hi rend="i">Designs to a Series of Ballads</hi>, 1802, from the Ruthven Todd collection. £80, W. Weston.</p>
+                    <p>Lot 23. Blake, "Fertilization of Egypt," after Fuseli, an illustration to Darwin’s <hi rend="i">Botanic Garden</hi>, 1791. £45, Lakeside Studio.</p>
+                    <p>Lot 24. Blake, "Tornado," after Fuseli, an illustration to Darwin’s <hi rend="i">Botanic Garden</hi>, 1795. £55, Lakeside Studio.</p>
+                    <p>Lot 25. Blake, "The Man Sweeping the Interpreter’s Parlour," engraving on pewter, from the collections of Dr. Greville Macdonald and Ruthven Todd. Reproduced in the catalogue. £2, 100, D. Tunick. The estimate was only £500.</p>
+                    <p>Lots 26 and 27. Blake, <hi rend="i">The Book of Thel</hi>, title-page and "Thel and the Worm," uncolored, very likely posthumous impressions. Both of these lots were withdrawn because of a disagreement between the owner and the auction house concerning the reserve price.</p>
+                    <p>Lot 28. Blake, "The Industrious Cottager" and "The Idle Laundress," two plates after Morland. Printed in brown, the imprints and title inscriptions cut off. £80, Baskett &amp; Day.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>BOOKS</title>
+                    </head>
+                    <p>Sotheby, London, 22-23 May 1972</p>
+                    <p>Lot 5. Gilchrist, <hi rend="i">Life of Blake</hi>, 1880. £50, J. Graffy. Another copy, 1863 ed., lot 226, £26, E. Morris.</p>
+                    <p>Lot 132. <hi rend="i">A Memoir of Edward Calvert</hi>, by his third son, 1893. This book, published in only 350 copies, is particularly valuable because it contains original impressions of Calvert’s six wood engravings and two copperplate engravings. Over the last few years several copies have been disbound and the prints sold individually. £480, A. K. Henderson. Another copy, lot 277, £550, G. Raffy.</p>
+                    <p>Lot 133. Binyon, <hi rend="i">Followers of William Blake</hi>, 1925. £35, A. K. Henderson.</p>
+                    <p>Lot 161. A. H. Palmer, <hi rend="i">Samuel Palmer, A Memoir</hi>, with one original etching by Palmer, 1882. £80, Maggs.</p>
+                    <p>Lot 162. Samuel Palmer, <hi rend="i">The Eclogues of Virgil</hi>, first ed., with five original etchings by Palmer and his son, 1883. £220, E. Morris. Another copy, first ed., lot 342, £220, G. Raffy. Another copy, second ed., lot 343, £130, E. Morris.</p>
+                    <p>Lot 163. A. H. Palmer, <hi rend="i">The Life and Letters of Samuel Palmer</hi>, with one original etching by Palmer, 1892. £85, Maggs.</p>
+                    <p>Lot 164. Samuel Palmer, <hi rend="i">Minor Poems of Milton</hi>, with twelve reproductions of drawings by Palmer, 1889. £38, E. Morris.</p>
+                    <p>Lot 165. Samuel Palmer, <hi rend="i">Sketch-Book of 1824</hi>, Trianon Press facsimile, 1962. £48, Quaritch.</p>
+                    <p>Lot 199. Muir facsimiles of <hi rend="i">Visions of the Daughters of Albion, The Book of Thel, Songs of Innocence, Songs of Experience, Milton</hi>, and <hi rend="i">There is no Natural Religion</hi>, handsomely bound in three volumes. £375, Maggs.</p>
+                    <p>Lot 200. Milton, <hi rend="i">Paradise Lost</hi>, with twelve color reproductions of the watercolors now in the Huntington Library, 1906. £10, F. Edwards.</p>
+                    <p>Lot 201. Blake, <hi rend="i">Writings</hi>, ed. Keynes, one of 75 copies on India paper, three vols. bound in one, Nonesuch Press, 1925. £95, Quaritch.</p>
+                    <p>Lot 202. Milton, <hi rend="i">Poems in English</hi>, 53 reproductions of Blake’s illustrations, 2 vols., Nonesuch Press, 1926. £ 48, Mushlin.</p>
+                    <p>Lot 203. Milton, <hi rend="i">Comus</hi>, eight reproductions of Blake’s illustrations, 1926. £22, B. Rota.</p>
+                    <p>Lot 204. Mona Wilson, <hi rend="i">Life of Blake</hi>, 1927. £10, E. Joseph.</p>
+                    <p>Lot 205. Blake, <hi rend="i">Illustrations to Thornton’s Virgil</hi>, intro. by Keynes, Nonesuch Press, 1937. With a set of prints from the electrotypes in a folder. £32, Maggs. Another copy, lot 272, £20, Ars Artis.</p>
+                    <p>Lot 227. Muir facsimile of <hi rend="i">The Marriage of Heaven and Hell.</hi> £38, B. Rota.</p>
+                    <p>Lot 268. William Hayley, <hi rend="i">Triumphs of Temper</hi>, six plates engraved by Blake after Maria Flaxman, twelfth ed., 1803. £60, G. Raffy.</p>
+                    <p>Lot 269. Pearson facsimile of <hi rend="i">Jerusalem</hi>, 1877. £60, Maggs.</p>
+                    <p>Lot 370. A collection of over 700 engravings and woodcuts after designs by Thomas Stothard, a few executed by Blake. Some of the prints are proof impressions, but none engraved by
+<pb id="p07-55" n="55"/>
+Blake. £60, Mushlin.</p>
+                    <p>Sotheby, London, 6 November 1972</p>
+                    <p>Lot 174. <hi rend="i">The Dramatic Works of Shakespeare</hi>, Boydell’s ed., with "numerous engraved plates," presumably including the one engraved by Blake after Opie, 9 vols., 1802. Another copy, said to be a "large paper" folio in poor condition, sold at Sotheby, London, 14 June 1973, lot 190. Prices and buyers not known to me.</p>
+                    <p>Swann Galleries, New York, 9 November 1972.</p>
+                    <p>Thirty-seven lots of Blake related materials were sold, mostly books with reproductions of Blake’s paintings and drawings. The most important item was lot 56, the 1926 portfolio containing restrikes of the <hi rend="i">Grave</hi> illustrations, which sold for $275. Lot 78, a first ed., first issue of Swinburne’s <hi rend="i">Blake: A Critical Essay</hi>, sold for only $20.</p>
+                    <p>Sotheby, London, 13 November 1972</p>
+                    <p>Lot 484. C. G. Salzmann, <hi rend="i">Gymnastics for Youth</hi>, with ten plates attributed to Blake. £48, Maggs.</p>
+                    <p>Sotheby, London, 5-6 February 1973</p>
+                    <p>Lot 357. A letter by William Etty, dated 25 March 1830, with an anecdote concerning Sir Thomas Lawrence and Blake. £170, Maggs. Now in the author’s collection.</p>
+                    <p>Sotheby, London, 22 March 1973</p>
+                    <p>Lot 454. <hi rend="i">A Memoir of Edward Calvert</hi>, 1893. £900, up from £550 in the 22-23 May 1972 sale.</p>
+                    <p>Christie’s, London, 18 April 1973</p>
+                    <p>Lot 54. <hi rend="i">Novelist’s Magazine</hi>, the plates only, bound in 4 vols., presumably including the engravings by Blake. 70 guineas, Walford.</p>
+                    <p>Sotheby, London, 30 April-1 May 1973</p>
+                    <p>Lot 92. Erasmus Darwin, <hi rend="i">The Botanic Garden</hi>, with the plates by Blake, first ed. of Part I, 1791. Price and buyer not known to me.</p>
+                    <p>Lot 356. Darwin, <hi rend="i">Botanic Garden</hi>, second ed. of part I, 1791. This copy was in poor condition, but the second ed. is much rarer than the first. £50, Maggs.</p>
+                    <p>Sotheby, London, 18-19 June 1973</p>
+                    <p>Lot 24A. William Hayley, <hi rend="i">Triumphs of Temper</hi>, five of the six plates engraved by Blake after Maria Flaxman, twelfth ed., 1803. £14, M. Ayers. Another copy, complete, lot 271, £85, A. G. Thomas.</p>
+                    <p>Lot 25. Milton, <hi rend="i">Poems in English</hi>, 53 reproductions of Blake’s illustrations, 2 vols., Nonesuch Press, 1926, £38, C. J. Sawyer. Another copy, lot 298, £24, Duschnes.</p>
+                    <p>Lot 26. Blake, <hi rend="i">Pencil Drawings</hi>, ed. Keynes, Nonesuch Press, 1927. £55, J. Wordsworth. Another copy, lot 302, £40, Hendy.</p>
+                    <p>Lot 27. Blake, <hi rend="i">Illustrations of the Book of Job</hi>, 1927 quarto reproduction with an inscription from Keynes to John Trevor. £18, Quaritch.</p>
+                    <p>Lot 28. Blake, <hi rend="i">Pencil Drawings</hi>, second series, ed. Keynes, Nonesuch Press, 1956. £26, J. Wordsworth. Another copy, lot 312, £28, Dr. Sargant.</p>
+                    <p>Lot 29. Keynes, <hi rend="i">A Study of the Illuminated Books of William Blake, Poet, Printer, Prophet</hi>, Trianon Press, 1964. £38, Hendy.</p>
+                    <p>Lot 30. Blake, <hi rend="i">The Gates of Paradise</hi>, Blake Trust facsimile, 1963. £30, Dawson.</p>
+                    <p>Lot 31. Blake, <hi rend="i">All Religions are One</hi>, Blake Trust facsimile, 1970. £40, Hobson.</p>
+                    <p>Lot 192. Samuel Palmer, <hi rend="i">The Eclogues of Virgil</hi>, first ed., with five original etchings by Palmer and his son, 1883. One plate is reproduced in the catalogue. £350, Bolton, up from £220 in the Sotheby sale of 22-23 May 1972.</p>
+                    <p>Lot 263. Joseph Ritson, <hi rend="i">A Select Collection of English Songs</hi>, with the plates engraved by Blake, 3 vols., 1783. £90, W. J. Chapman.</p>
+                    <p>Lot 264. J. C. Lavater, <hi rend="i">Aphorisms of Man</hi>, with the frontispiece by Blake after Fuseli, first ed., 1788. £45, Maggs.</p>
+                    <p>Lot 265. C. G. Salzmann, <hi rend="i">Elements of Morality</hi>, with the plates attributed to Blake, 3 vols., 1791. £80, Maggs.</p>
+                    <p>Lot 266. John Gay, <hi rend="i">Fables</hi>, with the plates by Blake, a large paper copy, 2 vols., 1793. £130, Blackwell. Another copy, regular size, some plates discolored, lot 275, £24, E. Morris.</p>
+                    <p>Lot 267. Erasmus Darwin, <hi rend="i">The Botanic Garden</hi>, with the plates by Blake, third ed. of part I (with the extra plate after Fuseli, "Tornado"), 1795. £190, F. Edwards.</p>
+                    <p>Lot 269. Edward Young, <hi rend="i">Night Thoughts</hi>, with Blake’s engraved illustrations (some discolored, some cropped), and the leaf of explanation, 1797. The title-page to Night the Third is reproduced in the catalogue. £480, A. Solomon.</p>
+                    <p>Lot 270. Josephus, <hi rend="i">Works</hi>, Maynard’s ed. with the plates by Blake, Bentley &amp; Nurmi third issue, 1800. £70, Maggs.</p>
+                    <p>Lot 272. William Hayley, <hi rend="i">Ballads</hi>, with Blake’s five plates, first state, 1805. £110, Maggs.</p>
+                    <p>Lot 273. B. H. Malkin, <hi rend="i">A Father’s Memoir of His Child</hi>, lacking half-title, 1806. £28, A. K. Henderson. This rare and important work continues to be one of the few Blake books still undervalued.</p>
+                    <p>Lot 274. William Hayley, <hi rend="i">Life of Romney</hi>, with the plate by Blake, 1809. £38, E. Morris.</p>
+                    <pb id="p07-56" n="56"/>
+                    <p>Lot 276. Gilchrist, <hi rend="i">Life of Blake</hi>, first ed., 2 vols., 1863. £28, E. Morris.</p>
+                    <p>Lot 277. Blake, <hi rend="i">Songs of Innocence and Experience, with other Poems</hi>, Pickering, 1866. £30, G. W. Walker. Another copy, lot 278, £15, F. Edwards.</p>
+                    <p>Lot 279. Blake, <hi rend="i">Poetical Sketches</hi>, Pickering, 1868. £6, E. Morris.</p>
+                    <p>Lot 280. A. C. Swinburne, <hi rend="i">Blake: A Critical Essay</hi>, first ed., second issue, 1868. £22, E. Morris.</p>
+                    <p>Lot 281. Blake, a portfolio of the illustrations to Blair’s <hi rend="i">Grave</hi> with 1813 imprints, issued in the late nineteenth century. £70, Maggs.</p>
+                    <p>Lot 282. W. B. Scott, <hi rend="i">Blake: Etchings from His Works</hi>, 1878. £26, E. Morris.</p>
+                    <p>Lot 283. Blake, <hi rend="i">Works</hi>, the Ellis-Yeats ed., 3 vols., 1893. £180, C. Radnall.</p>
+                    <p>Lot 291. Keynes, <hi rend="i">A Bibliography of William Blake</hi>, Grolier Club, 1921. £140, Quaritch.</p>
+                    <p>Lot 292. Blake, <hi rend="i">Designs for Gray’s Poems</hi>, intro. by Grierson, 1922. £45, Duschnes.</p>
+                    <p>Lot 293. L. Binyon, <hi rend="i">Drawings and Engravings of Blake</hi>, 1922. £35, Hendy.</p>
+                    <p>Lot 294. Hollyer facsimile of <hi rend="i">The Book of Thel</hi>, 1924. £32, B. Rota.</p>
+                    <p>Lot 295. Hollyer facsimile of <hi rend="i">For the Sexes: The Gates of Paradise</hi>, 1925. £12, Maggs.</p>
+                    <p>Lot 296. Blake, <hi rend="i">Writings</hi>, ed. Keynes, 3 vols., Nonesuch Press, 1925. £60, Maggs.</p>
+                    <p>Lot 297. L. Binyon, <hi rend="i">The Followers of William Blake</hi>, 1925. £55, McNaughton, up from £35 in the 22-23 May 1972 Sotheby sale.</p>
+                    <p>Lot 299. L. Binyon, <hi rend="i">The Engraved Designs of William Blake</hi>, 1926. £26, F. Edwards.</p>
+                    <p>Lot 301. Blake, <hi rend="i">Illustrations to Young’s Night Thoughts</hi>, 30 reproductions of the watercolors in portfolio, intro. by Keynes, 1927. £65, Quaritch.</p>
+                    <p>Lot 307. Blake, <hi rend="i">Illustrations to Thornton’s Virgil</hi>, intro. by Keynes, Nonesuch Press, 1937. With a set of prints from the electro-types in a folder. £45, Quaritch, up from £32 in the 22-23 May 1972 Sotheby sale.</p>
+                    <p>Lot 310. Blake, <hi rend="i">Jerusalem</hi>, Blake Trust color facsimile, with the companion volume by Wicksteed, 1951. £380, Quaritch.</p>
+                    <p>Lot 311. Keynes and Wolf, <hi rend="i">Blake’s Illuminated Books: A Census</hi>, Grolier Club, 1953. £35, McNaughton.</p>
+                    <p>Lot 313. <hi rend="i">Blake’s Illustrations to the Bible</hi>, compiled by Keynes, Trianon Press, 1957. £130, A. G. Thomas.</p>
+                    <p>Lot 314. Blake, <hi rend="i">The Book of Urizen</hi>, Blake Trust facsimile, 1958. £85, Quaritch.</p>
+                    <p>Lot 315. Blake, <hi rend="i">Visions of the Daughters of Albion</hi>, Blake Trust facsimile, 1959. £80, Maggs.</p>
+                    <p>Lot 330. A. H. Palmer, <hi rend="i">The Life and Letters of Samuel Palmer</hi>, with one original etching by Palmer, 1892. £120, Quaritch, up from £80 in the 22-23 May 1972 Sotheby sale.</p>
+                    <p>Also in this sale were 23 lots of reprints and critical works on Blake. These 63 volumes in all brought a total of £464.</p>
+                    <p>Christie’s, London, 25 July 1973</p>
+                    <p>Lot 134. Muir facsimile of <hi rend="i">Europe</hi>, 1887. £10, Maggs. This copy was very badly dampstained and mildewed (hence the low price), but has since been restored to near perfect condition.</p>
+                    <p>Sotheby, London, 15-16 October 1973</p>
+                    <p>At the time of writing I have not been able to obtain a price list.</p>
+                    <p>Lot 29. Blake, <hi rend="i">The Marriage of Heaven and Hell</hi>, J. C. Hotten facsimile, 1868.</p>
+                    <p>Lot 30. Blake, <hi rend="i">Songs of Innocence</hi>, Pickering, 1868; <hi rend="i">The Poems</hi>, Pickering, 1874; <hi rend="i">Illustrations to Thornton’s Virgil</hi>, intro. by Keynes, with impressions from the electrotypes in a folder, Nonesuch Press, 1937.</p>
+                    <p>Lot 31. Blake, <hi rend="i">Jerusalem</hi>, Pearson facsimile, 1877.</p>
+                    <p>Lot 258. William Hayley, <hi rend="i">Ballads</hi>, with Blake’s five plates, 1805.</p>
+                    <p>Lot 413. J. Ritson, <hi rend="i">A Select Collection of English Songs</hi>, presumably with the plates by Blake, 3 vols., 1783.</p>
+                    <p>Lot 470. C. G. Salzmann, <hi rend="i">Elements of Morality</hi>, with the plates by Blake, 3 vols., 1792-91.</p>
+                    <p>Lot 586. Edward Young, <hi rend="i">Night Thoughts</hi>, with Blake’s engraved illustrations (some soiled and cropped), title repaired, lacking the explanation, 1797. £420.</p>
+                    <p>Sotheby, London, 12-13 November 1973</p>
+                    <p>Lot 499. C. G. Salzmann, <hi rend="i">Elements of Morality</hi>, with 42 engraved plates (50 in other eds.), some attributed to Blake, 2 vols., n.d. (inscription dated 1815). £60, Maggs. This edition is not recorded in Bentley &amp; Nurmi.</p>
+                    <p>1972-73 were also active years for dealers participating in the far from desolate Blake market. Several noteworthy catalogues were published,
+<pb id="p07-57" n="57"/>
+as listed below.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>DRAWINGS AND WATERCOLORS: DEALERS</title>
+                    </head>
+                    <p>Martin Breslauer, London, List XLI and Catalogue 102 (June 1972)</p>
+                    <p>As item 148 in his List XLI Breslauer offered page 12 from the Blake-Varley Sketchbook, containing eight caricature heads by Blake, for £285. The sketch, now in the collection of Mr. and Mrs. Raymond Lister, is reproduced in the catalogue. Breslauer had purchased the leaf at Christie’s on 15 June 1971 for 160 guineas. Catalogue 102 offered "The Ghost of a Flea" from the Blake-Varley Sketchbook (item 95, reproduced) for £3,800. Breslauer purchased the drawing at the Christie’s sale for 2,000 guineas.</p>
+                    <p>Paul Grinke, London, Catalogue 5, Summer 1972</p>
+                    <p>Item 32. Thomas Stothard, "The Battle of Ai," pen and grey wash drawing engraved by Blake for Kimpton’s <hi rend="i">Universal History of the Bible</hi>, 1781. The drawing is reproduced, along with the published engraving as it appeared in Maynard’s edition of Josephus and the reversed proof in the Rosenwald Collection. No price is given since the drawing was sold to the Rosenwald Collection of the Library of Congress before the catalogue appeared. Included is a brief article by Ruthven Todd with comments on the drawing and its relationship to Blake’s engravings.</p>
+                    <p>Zeitlin &amp; Ver Brugge, Los Angeles, Catalogue 234, Fall 1973</p>
+                    <p>Item 3. Blake, sketch of a standing archer from the Blake-Varley Sketchbook (reproduced). $4,550. The sketch was purchased by Zeitlin at Christie’s, 15 June 1971, for $3,044 (and previously offered in his catalogue 228 for $4,550). Apparently this is one of the few Blake items for which there is some market resistance.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>PRINTS AND BOOKS: DEALERS</title>
+                    </head>
+                    <p>P. &amp; D. Colnaghi, London. <hi rend="i">Original Printmaking in Britain 1600-1900</hi>, Fall 1972. This splendid exhibition and catalogue included a number of important works by Blake and artists of his circle.</p>
+                    <p>Item 108. Blake, Job Illustrations, plate 9, published state on Whatman paper, £140.</p>
+                    <p>Item 109. Fuseli, "A Woman seated by a Window: Evening thou bringest all," lithograph, first state (reproduced). £600.</p>
+                    <p>Item 111. Blake, "The Fly," from <hi rend="i">Songs of Experience</hi>, relief etching, beautifully color printed and heightened with watercolors (reproduced). £1,200. Now in the collection of Mr. and Mrs. Raymond Lister.</p>
+                    <p>Item 112. Blake, "Enoch," lithograph on brown paper (reproduced). £5,000. Now in the collection of Mr. and Mrs. Raymond Lister.</p>
+                    <p>Item 127. Blake, "The Canterbury Pilgrims," final state printed between 1880 and 1941 by Colnaghi. £120.</p>
+                    <p>Item 137. Calvert, "The Flood," lithograph (reproduced). £180.</p>
+                    <p>Item 138. Palmer, "The Vine" or "Plumpy Bacchus," etching, first state signed "S. Palmer" below each design by the artist or his son. £130. The early state and inscriptions make the print much more valuable than later impressions.</p>
+                    <p>Item 139. Calvert, "The Brook," wood engraving, from the Carfax portfolio. £90.</p>
+                    <p>Item 140. Palmer, "The Rising Moon" or "An English Pastoral," etching, undescribed state between fourth and fifth of nine. £140.</p>
+                    <p>Item 141. Palmer, "Opening the Fold" or "Early Morning," etching, fourth state of eight, inscribed by A. H. Palmer "Remarque Trial proof--Private Press" (reproduced). £140.</p>
+                    <p>Item 180. Palmer, "The Skylark," etching, final state. £70.</p>
+                    <p>Item 181. Palmer, "Christmas or Folding the Last Sheep," etching, third state of five. £130.</p>
+                    <p>Christopher Mendez, London, <hi rend="i">Catalogue 23: English Prints</hi>, Fall 1972</p>
+                    <p>Item 11. "The Birth of Venus," etching, attributed to Fuseli (reproduced). £350.</p>
+                    <p>Christopher Mendez, London, <hi rend="i">Catalogue 26: Old Master Prints</hi>, October 1973</p>
+                    <p>Item 7. Blake, Job Illustrations, plate 1, proof state "c," the third of three working proof states, from the collection of Linnell and Palmer (reproduced). £875.</p>
+                    <p>William Weston Gallery, London, <hi rend="i">Catalogue 10: The English Vision</hi>, October 1973. Included in the catalogue is a note by Graham Sutherland describing the influence of Blake, Calvert, and Palmer on his own work. All but items 31 and 37 are reproduced. The catalogue includes prices in both pounds and dollars, as listed here.</p>
+                    <p>Item 1. Calvert, "The Ploughman," wood engraving from the <hi rend="i">Memoir</hi> edition. £260 ($632.00).</p>
+                    <p>Item 2. Calvert, "The Cyder Feast," wood engraving from the <hi rend="i">Memoir</hi> edition. £260 ($632.00).</p>
+                    <p>Item 3. Calvert, "The Bride," engraving from the <hi rend="i">Memoir</hi> edition. £260 ($632.00).</p>
+                    <pb id="p07-58" n="58"/>
+                    <p>Item 4. Calvert, "The Sheep of His Pasture," engraving from the <hi rend="i">Memoir</hi> edition. £210 ($510.30).</p>
+                    <p>Item 5. Calvert, "The Flood," lithograph not from the Carfax portfolio. £275 ($668.00).</p>
+                    <p>Item 6. Calvert, "Ideal Pastoral Life," lithograph probably from the Carfax portfolio. £275 ($668.00).</p>
+                    <p>Item 7. Calvert, "The Brook," wood engraving from the <hi rend="i">Memoir</hi> edition. £195 ($474.00).</p>
+                    <p>Item 8. Calvert, "The Lady with the Rooks," wood engraving from the <hi rend="i">Memoir</hi> edition. £155 ($376.00).</p>
+                    <p>Item 9. Calvert, "The Return Home," wood engraving from the <hi rend="i">Memoir</hi> edition. £155 ($376.00).</p>
+                    <p>Item 10. Calvert, "The Chamber Idyll," wood engraving from the <hi rend="i">Memoir</hi> edition. £210 ($510.30).</p>
+                    <p>Items 11-22. Blake, Job Illustrations, plates 1, 4-8, 10, 12, 13, 17, 19, 21. All published proof states on India paper laid on Whatman paper. Each £250 ($607.50).</p>
+                    <p>Item 23. Palmer, "The Willow," etching, second state of three. £165 ($401.00).</p>
+                    <p>Item 24. Palmer, "The Skylark," etching, seventh state of eight. £175 ($425.00).</p>
+                    <p>Item 25. Palmer, "The Herdsman’s Cottage," etching, second state from the <hi rend="i">Portfolio.</hi> £140 ($340.00).</p>
+                    <p>Item 26. Palmer, "Christmas--Folding the Last Sheep," etching, final state. £225 ($547.00).</p>
+                    <p>Item 27. Palmer, "The Vine" or "Plumpy Bacchus," etching, final state, large paper issue. £75 ($182.25).</p>
+                    <p>Item 28. Palmer, "The Rising Moon" or "An English Pastoral," etching, seventh state of nine. £230 ($559.00). In July 1971 Weston offered this same print for £90 ($216.00).</p>
+                    <p>Item 29. Palmer, "The Weary Ploughman," etching, final state of ten. £140 ($340.20). In July 1971 Weston offered the much more valuable fourth state of this print for £90 ($216.00).</p>
+                    <p>Item 30. Palmer, "The Early Ploughman," etching, fifth state of nine. £110 (267.00). Another copy, from Hamerton’s edition, item 31, £110 ($267.00).</p>
+                    <p>Item 32. Palmer, "Opening the Fold--Early Morning," etching, from the first edition, with verse. £185 ($449.55).</p>
+                    <p>Item 33. Palmer, "The Homeward Star," etching, from the first edition, with verse. £130 ($316.00).</p>
+                    <p>Item 34. Palmer, "The Cypress Grove," etching, from the first edition, with verse. £120 ($292.00).</p>
+                    <p>Item 35. Palmer, "The Sepulchre," etching, from the first edition, with verse. £110 ($267.30).</p>
+                    <p>Item 36. Palmer, "Moeris and Galatea," etching, from the first edition, with verse. £100 ($243.00).</p>
+                    <p>Item 37. Palmer, <hi rend="i">Minor Poems of John Milton</hi>, 1889. £60 ($145.80). A copy of this book sold for £38 in the Sotheby sale of 22-23 May 1972.</p>
+                    <p>Covent Garden Bookshop, London, Catalogue 52, Spring 1973</p>
+                    <p>A total of 76 Blake items are listed in the catalogue, one of the largest collections offered for sale in recent years. Most volumes are reprints and critical works of only minor interest to collectors, but the following important books are included.</p>
+                    <p>Item 173. Blake, <hi rend="i">All Religions Are One</hi>, Blake Trust facsimile, special issue with added materials, 1970. £120.</p>
+                    <p>Item 174. Blake, <hi rend="i">America</hi>, Blake Trust facsimile, special issue, 1963. £100.</p>
+                    <p>Item 175. Blake, <hi rend="i">The Book of Thel</hi>, Blake Trust facsimile, special issue, 1965. £275.</p>
+                    <p>Item 176. Blake, <hi rend="i">The Book of Urizen</hi>, Blake Trust facsimile, regular issue, 1958. £80.</p>
+                    <p>Item 177. Bunyan, <hi rend="i">The Pilgrim’s Progress</hi>, ed. Harrison, intro. by Keynes, with color reproductions of Blake’s illustrations, 1941. £40.</p>
+                    <p>Item 180. Erasmus Darwin, <hi rend="i">The Botanic Garden</hi>, with the engravings by Blake, third ed. of part I, 1795. £125.</p>
+                    <p>Item 182. Keynes, <hi rend="i">Engravings by Blake: The Separate Plates</hi>, 1956. £30.</p>
+                    <p>Item 183. Blake, <hi rend="i">Europe</hi>, Blake Trust facsimile, special issue, 1969. £275.</p>
+                    <p>Item 184. Blake, <hi rend="i">The Gates of Paradise</hi>, Blake Trust facsimile, special issue, 1968. £120.</p>
+                    <p>Item 185. John Gay, <hi rend="i">Fables</hi>, with the plates by Blake, 2 vols., 1793. £110.</p>
+                    <p>Item 186. Blake, <hi rend="i">Illustrations to Young’s Night Thoughts</hi>, thirty reproductions of the watercolors in portfolio, intro. by Keynes, 1927. £45.</p>
+                    <pb id="p07-59" n="59"/>
+                    <p>Item 187. Blake, <hi rend="i">Jerusalem</hi>, Blake Trust color facsimile, regular issue in fascicles, 1950. £425.</p>
+                    <p>Item 194. Blake, <hi rend="i">Milton</hi>, Blake Trust facsimile, special issue, 1967. £275.</p>
+                    <p>Item 202. Blake, <hi rend="i">Songs of Innocence</hi>, Blake Trust facsimile, 1954. £35.</p>
+                    <p>Item 205. Blake, <hi rend="i">Visions of the Daughters of Albion</hi>, Blake Trust facsimile, special issue, 1959. £350.</p>
+                    <p>Item 222. Darrell Figgis, <hi rend="i">The Paintings of Blake</hi>, 1925. £35.</p>
+                    <p>Item 239. A. C. Swinburne, <hi rend="i">Blake: A Critical Essay</hi>, second ed., 1868. £20.</p>
+                    <p>Item 248. Thomas Wright, <hi rend="i">Life of Blake</hi>, 2 vols., 1929. £35. Another copy, item 249, £30.</p>
+                    <p>Bertram Rota, London, Spring 1973 catalogue. Among a collection of books from the library of W. M. Rossetti were the following Blake items.</p>
+                    <p>Item 142. <hi rend="i">Remember Me!</hi> Wanting some plates, but with Blake’s "The Hiding of Moses." £20--an amazingly low price for this rare and beautiful engraving. Rota was immediately deluged with orders.</p>
+                    <p>Item 145. Blake, <hi rend="i">Songs of Innocence and of Experience</hi>, Pickering, 1839, the issue omitting "The Little Vagabond." D. G. Rossetti’s copy, with his signature. £350.</p>
+                    <p>Philip C. Duschnes, New York, Catalogue 204, Fall 1973. Twenty-seven Blake items offered for sale, including the following.</p>
+                    <p>Item 42. Blake, <hi rend="i">Illustrations of the Book of Job</hi>, reproductions of the engravings, 1902. $125.00</p>
+                    <p>Item 48. Blake, <hi rend="i">Designs for Gray’s Poems</hi>, intro. by Grierson, 1922. $200.00.</p>
+                    <p>Item 49. Blake, <hi rend="i">Writings</hi>, ed. Keynes, Nonesuch Press, 3 vols., 1925. $200.00. Another copy, including Mona Wilson’s <hi rend="i">Life of Blake</hi>, 1927, item 50, $325.00.</p>
+                    <p>Item 52. Blake, <hi rend="i">Illustrations to Young’s Night Thoughts</hi>, thirty reproductions of the watercolors in portfolio, intro. by Keynes, 1927. $150.00.</p>
+                    <p>Item 59. Blake, <hi rend="i">Jerusalem</hi>, Blake Trust color facsimile, 1951. $1,200.00.</p>
+                    <p>Item 61. Blake, <hi rend="i">America</hi>, Blake Trust facsimile, 1963. $175.00.</p>
+                    <p>Item 62. Keynes, <hi rend="i">A Study of the Illuminated Books of Blake, Poet, Printer, Prophet</hi>, Trianon Press, 1964. $95.00.</p>
+                    <p>Item 63. Blake, <hi rend="i">The Gates of Paradise</hi>, Blake Trust facsimile, 1968. $70.00.</p>
+                    <p>Item 64. Blake, <hi rend="i">All Religions Are One</hi>, Blake Trust facsimile, 1970. $55.00</p>
+                    <p>Item 65. Blake, <hi rend="i">There is no Natural Religion</hi>, Blake Trust facsimile, 1971. $95.00</p>
+                    <p>Item 66. Blake, <hi rend="i">Designs for the Poems of Gray</hi>, Blake Trust facsimile, bound in 3 vols., 1973. $1,600.00.</p>
+                    <p>The latest Blake Trust-Trianon Press prospectus includes the following volumes still in print and available from Bernard Quaritch, Ltd., London.</p>
+                    <p>
+                        <hi rend="i">The Gates of Paradise</hi>, 1968. £28.</p>
+                    <p>
+                        <hi rend="i">Jerusalem</hi>, monochrome facsimile of the Rinder copy, 1953. £10.</p>
+                    <p>
+                        <hi rend="i">Songs of Innocence</hi>, 1954. £40.</p>
+                    <p>
+                        <hi rend="i">Europe</hi>, 1969. £75.</p>
+                    <p>
+                        <hi rend="i">All Religions Are One</hi>, 1970. £18.</p>
+                    <p>
+                        <hi rend="i">There is no Natural Religion</hi>, 1971. Regular issue, £35; special issue, £88.</p>
+                    <p>
+                        <hi rend="i">Blake’s Designs to the Poems of Gray</hi>, 1972. £960, £640, or £590, depending on the binding.</p>
+                    <p>Keynes, <hi rend="i">Bibliotheca Bibliographici, A Catalogue of the Library Formed by Sir Geoffrey Keynes</hi>, 1964. £16.</p>
+                    <p>Keynes, <hi rend="i">Blake, Poet, Printer, Prophet</hi>, 1964. Limited ed., £30; paperbound, £1.62.</p>
+                    <p>Forthcoming Blake Trust facsimiles: <hi rend="i">The Book of Ahania</hi>, 6 plates, 3 in color. Regular issue, £32; special issue, £85.</p>
+                    <p>
+                        <hi rend="i">Jerusalem</hi>, 25 color plates from Lord Cunliffe’s collection, 4 color proofs from the Preston collection. Regular issue, about £120; special issue, about £240.</p>
+                    <p>
+                        <hi rend="i">Blake’s Illustrations for the Book of Job</hi>, the engravings, including proof states, pencil sketches, and monochrome reproductions of all watercolors. With a new catalogue raisonné by Keynes. Prices not yet set.</p>
+                    <p>
+                        <hi rend="i">The Song of Los.</hi> 8 color plates. Prices not yet set.</p>
+                </div2>
+            </div1>
+            <pb id="p07-60" n="60"/>
+            <div1 id="BQ-07-3-0003">
+                <figure>
+                    <head>1 Blake’s design for a fan.<ref target="n21" type="note">*</ref></head>
+                </figure>
+                <figure>
+                    <head>2 The central oval for the fan design, slightly enlarged.</head>
+                </figure>
+                <pb id="p07-61" n="61"/>
+                <head>
+                    <title>
+                        <hi rend="b">A Fan Design by Blake</hi>
+                    </title>
+                </head>
+                <byline>
+                    <docAuthor>ANDREW <name>WILTON</name>
+                    </docAuthor>
+                <ref target="n22" type="note">*</ref></byline>
+                <p>The issue of the <hi rend="i">Blake Newsletter</hi> for spring 1972, listing Blake’s works in the British Museum Print Room, refers on p. 226 to the verso of Binyon 32<ref target="n1" type="note">1</ref> as: "Design for a fan (probably not by Blake)." This entry seems to have been derived from Binyon’s own description which reads: "Design for a fan. An oval with Cupid and Psyche. Not by Blake." In spite of this categorical rejection, the <hi rend="i">Newsletter</hi> checklist, with its "probably," reflects a doubt not unnaturally engendered by the fact that the fan design is on the same sheet as a characteristic pencil study of Blake’s maturity, sketching an idea for a title-page;<ref target="n2" type="note">2</ref> no one has ever disputed the authenticity of this. 
+                    <note id="n21">The pictures on pp. 60-63 are reproduced by permission of the Trustees of the British Museum.</note>
+                    <note id="n22"></note>
+                    <note id="n1"><hi rend="s">1</hi> Lawrence Binyon, <hi rend="i">Catalogue of Drawings by British Artiste . . . in the British Museum</hi>, I (1898), 127. The sheet was presented to the Museum in 1874 by John Deffett Francis, register no. 1874. 12. 12. 147.</note>
+                    <note id="n2"><hi rend="s">2</hi> See <hi rend="i">Blake Newsletter</hi> (Spring 1972), repro.</note>
+                </p>
+                <p>The contrast between the loose, rapid pencil drawing of the title-page study and the neat, brightly colored decoration on the reverse is sufficiently great to have prompted the reaction that, when he made the rough sketch, Blake must have used a scrap of paper from some other artist’s portfolio. The lower half of this reverse side of the sheet<ref target="n3" type="note">3</ref> is empty; in the center, near the top, is an oval vignette measuring 7.9 × 12.4 cm. [illus. 1 &amp; 2]. The subject is drawn in pencil, colored with bright pink, mauve and green watercolor, and strengthened with some outlines in pen and black ink. Above it a few curling sprays of foliage, with pink buds, soften the hard oval. To the left, a little below the central horizontal axis of the oval, is a putto with a loop of blue drapery, carrying a torch; to the right, opposite him, a fairy with small wings, curling yellow and pink drapery, and a garland. A sinuous tendril of scant-leaved ivy describes an arc over all three groups suggesting, as Binyon saw, that the drawing was conceived as a decoration for a fan. This is borne out by the typically fan-like placing of the central vignette, a common feature on fans of the late eighteenth century, often contained in just such an oval and frequently flanked, like this one, with supporting figures or ornaments. Binyon was wrong, however, in identifying the subject as Cupid and Psyche, since the girl holds a pen or stylus and not a lamp: it shows the incident of the "Corinthian Maid" or the daughter of Dibutades the potter, who, as Fuseli put it, "traced the shade of her departing lover by the secret lamp";<ref target="n4" type="note">4</ref> the incident, in fact, known as "the Origin of Painting," used by Joseph Wright of Derby and many other Neo-classicists, and actually engraved, in one version, for use on fan-leaves. <ref target="n5" type="note">5</ref>
+                    <note id="n3"><hi rend="s">3</hi> Overall measurements 26.3 × 38.2 cm.</note>
+                    <note id="n4"><hi rend="s">4</hi> John Knowles, <hi rend="i">Life and Writings of Henry Fuseli</hi> (1831), II, 25 (Lecture on Ancient Art).</note>
+                    <note id="n5"><hi rend="s">5</hi> The designer is not known. See Lionel Cust, <hi rend="i">Catalogue of the Collection of Fans and Fan-leaves presented to the Trusteee of the British Museum by the Lady Charlotte Schreiber</hi> (1893), p. 76, no. 61. Wright’s painting is now in the collection of Mr. and Mrs. Paul Mellon.</note>
+                </p>
+                <p>The choice of subject is not typical of Blake, who rarely used Classical sources, preferring (when he was not concerned with his own private myths) to illustrate English history or literature: his <hi rend="i">Edward and Elenor</hi>
+                    <ref target="n6" type="note">6</ref> and <hi rend="i">The Penance of Jane</hi>
+                    
+                    <pb id="p07-62" n="62"/>
+                    <figure>
+                        <head>3 "Morning Twilight," from the Abbe Montfaucon’s <hi rend="i">Antiquity Explained.</hi>
+                        </head>
+                    </figure>
+                    <hi rend="i">Shore</hi>
+                    <ref target="n7" type="note">7</ref> are early examples. The theme, and the simple, stark design, have something in common with the Classical fantasies of Romney; but the drawing of the pen outlines, and the color, are very much Blake’s. At first sight it is precisely in its color that the work seems farthest removed from Blake; but there are close parallels in the coloring of some of the designs which he was producing in the early 1780s. The small sketch of the composition of the <hi rend="i">Death of Earl Godwin</hi>, of about 1780,<ref target="n8" type="note">8</ref> for instance, makes use of similar yellows and of the characteristic lavender-mauve; and, on a larger scale but with something of the same concentration, so does the dramatic design of <hi rend="i">Saul and the Witch of Endor</hi>, dated 1782.<ref target="n9" type="note">9</ref> It is to some date such as this that the drawing under consideration should be assigned; Blake was at that time about twenty-five years old. If the colors, intensified and concentrated as they are here in a decorative context, recall the sweet, sugar-icing palette of Adam’s decorators--Angelica Kauffmann and Biago Rebecca, for example--we should not be surprised: it was the kind of influence which any young artist of the period would have absorbed, and one particularly well suited to the ornamental purpose of the fan. 
+                    <note id="n6"><hi rend="s">6</hi> Blake’s engraving after his own painting (now lost) is catalogued in Keynes, <hi rend="i">Engravings by William Blake: The Separate Plates</hi> (1956), no. VI, pl. 11. It is dated 1793 but was perhaps executed considerably earlier.</note>
+                    
+                    <note id="n7"><hi rend="s">7</hi> Produced about 1778. Now in the Tate Gallery.</note>
+                    <note id="n8"><hi rend="s">8</hi> British Museum, register no. 1964. 12. 12. 13. The finished drawing was exhibited at the Royal Academy in 1780 (no. 315).</note>
+                    <note id="n9"><hi rend="s">9</hi> In the New York Public Library, Department of Prints.</note>
+                </p>
+                <p>The composition itself, on the other hand, anticipates the mature Blake and furnishes the most striking evidence of his authorship. The upright figure beside a body stretched horizontally on a bed recurs, with increased austerity and grandeur, as the titlepage of <hi rend="i">Songs of Experience</hi> in 1794 (an early specimen of several comparable deathscenes by Blake). Here the recumbent figures are starkly supine, the arms rigid and not relaxed as in the fan vignette; but the stooping posture of the mourners is close to that of the Corinthian Maid, whose bent left leg is also echoed by the foremost of them.<ref target="n10" type="note">10</ref> Even the figure of Cupid, flying in diagonally at the left of the vignette, is remembered in the 1794 plate, though transmuted into a robed spirit floating above the principal scene, to the left of the title lettering. This type of fairy, in a long curling gown, is characteristic of Blake’s decorations and is closely prefigured in the right-hand "supporter" of the fan design. Unlike the Cupid, which has conventional angel or bird’s wings, this figure is equipped with the small butterfly wings which are occasionally to be found in Blake’s evocations of fairyland.<ref target="n11" type="note">11</ref> The device is unusual at this date, although it was sometimes used by Neo-classical artists;<ref target="n12" type="note">12</ref> it looks forward to Victorian painters of Faerie such as Doyle and Noel Paton. 
+                    <note id="n10"><hi rend="s">10</hi> Compare also the pose of such figures as that on the right of <hi rend="i">Ruth and Naomi</hi> in the Victoria and Albert Museum.</note>
+                    <note id="n11"><hi rend="s">11</hi> For example, on p. 1 (pl. 3) of <hi rend="i">The Book of Thel</hi>; and, larger, in the "Sunshine Holiday" illustration to Milton’s <hi rend="i">L’Allegro</hi> in the Pierpont Morgan Library.</note>
+                    <note id="n12"><hi rend="s">12</hi> Such as Richard Westall and Henry Howard. Butterfly wings were also used by Baroque artists, especially the French. They seem to derive from those in the Raphael School <hi rend="i">Marriage of Cupid and Psyche</hi> in the Villa Farnesina, known through the engraving of Nicolas Dorigny in <hi rend="i">Psyches et Amoris Nuptiae ac Fabula</hi> (Rome, 1693), and consciously imitated by James Barry in his composition of <hi rend="i">Pandora</hi> (a drawing now known only from an engraving by Louis Schiavonetti).</note>
+                </p>
+                <p>By contrast, the left-hand supporter is taken directly from the Classical antique. Its loop of drapery recalls those of Poussin’s nymphs, and of their Roman originals, especially those found in Pompeian wall-paintings. The putto may be assumed to represent Cupid again: the torch is as much an attribute of the god as the bow which Blake shows him holding in the principal scene; but, just as the fairy has no obvious symbolic function, this figure too may be simply a decorative motif. It does, however, allude unmistakably to the Roman figure of a boy holding a torch and a veil which is reproduced in the Abbé Montfaucon’s <hi rend="i">Antiquity Explained</hi>,<ref target="n13" type="note">13</ref> and stated there to represent "Morning Twilight" [illus. 3]. The position of the arm holding the torch differs slightly from Blake’s design, but we should not expect Blake to copy any image precisely. In fact, the arm and torch of his putto can be exactly paralleled in a very similar figure in Pietro Testa’s etching of the <hi rend="i">Season of Spring</hi>, a print well known to eighteenth-century collectors.<ref target="n14" type="note">14</ref>
+                    <note id="n13"><hi rend="s">13</hi> Bernard de Montfaucon, <hi rend="i">L’Antiquité Expliquée et representée en figures</hi>, 5 vols. with 5 supplementary vols. (1719); translated into English by D. Humphreys as <hi rend="i">Antiquity Explained and represented in Sculptures</hi> (1721-25). See the Supplement, Vol. I, pl. 4 and facing page.</note>
+                    <note id="n14"><hi rend="s">14</hi> Bartsch XX, 36.</note>
+                </p>
+                <p>A more immediate instance of the putto-and-torch motif is to be found in one of the vignettes which Blake himself engraved after designs by Thomas
+<pb id="p07-63" n="63"/>
+Stothard for Joseph Ritson’s <hi rend="i">Select Collection of English Songs</hi>, published in 1783<ref target="n15" type="note">15</ref> [illus. 4] It shows a Magdalen-like figure leaning mournfully against a rock while two cupids fly away from her. One carries a flaming torch, the other a bow and quiver; this second also has a loop of drapery fluttering in an arc. Both the putti of Blake’s fan design are thus to be found together in this vignette. Another illustration to the same book<ref target="n16" type="note">16</ref> shows Cupid standing with a lamp behind a lady who is penning a love-letter by moonlight; here, beyond the incidental appearance of Cupid, there is no direct connection with the fan design, but it is worthy of note that the whole scene, with figures confined to the extreme left and the background a plain wall broken only by the vertical of the door-post and the moon beyond, is of an austerity unusual in Stothard and altogether closer in spirit to Blake.<ref target="n17" type="note">17</ref> The compact rectangular format of these vignettes is not far removed from the oval of Blake’s fan, and it seems at least possible that the latter was executed while Blake was at work on the engravings. It is certainly reasonable to point to Stothard as a link between the youthful Blake and the earlier generation of Neo-classical decorators. 
+                    <note id="n15"><hi rend="s">15</hi> In 3 vols., I, 170. See A. G. B. Russell, <hi rend="i">The Engravings of William Blake</hi> (1912), p. 145, no. 55 (vii).</note>
+                    <note id="n16"><hi rend="s">16</hi> I, 157. Russell, no. 55 (vi). Reproduced in Raymond Lister, <hi rend="i">William Blake, an Introduction to the Man and to his Work</hi> (1968), pl. 2.</note>
+                    <note id="n17"><hi rend="s">17</hi> The Blakean character of the illustrations for Ritson was noticed by Gilchrist in his <hi rend="i">Life of William Blake</hi>, 2nd ed. (1880), I, 51; quoted by Russell, no. 55.</note>
+                </p>
+                <p>Although Blake turned his hand to conventional book-illustration like Stothard’s, and occasionally produced designs to order for commercial and other purposes,<ref target="n18" type="note">18</ref> there are few instances of his work as
+<figure>
+                        <head>4 A vignette engraved by Blake after Stothard for Ritson’s <hi rend="i">Select Collection of English Songs.</hi>
+                        </head>
+                    </figure>
+a decorative artist in so overtly frivolous a vein as this fan-leaf. It is impossible to say precisely why it was drawn, or why it was never cut out and used, but its probable date of around 1782 prompts the sentimental conjecture that it was intended for Blake’s new bride, Catherine, whom he married in August of that year.<ref target="n19" type="note">19</ref> At about the same time he was introduced by Flaxman to the circle of Mrs. Mathew,<ref target="n20" type="note">20</ref> and the drawing might have been a response to the more elegant social milieu which Blake encountered there. These however are suggestions without circumstantial support, and they must therefore remain speculative and largely fanciful. 
+                    <note id="n18"><hi rend="s">18</hi> Such as his advertisement for Moore’s Carpet and Hosiery Manufactory; see Keynes, <hi rend="i">Separate Plates</hi>, no. V, pl. 10.</note>
+                    <note id="n19"><hi rend="s">19</hi> Gilchrist, I, 41.</note>
+                    <note id="n20"><hi rend="s">20</hi> Gilchrist, I, 43.</note>
+                </p>
+            </div1>
+            <pb id="p07-64" n="64"/>
+            <div1 id="BQ-07-3-0004">
+                <head>
+                    <title>DISCUSSION "With intellectual spears, &amp; long winged arrows of thought"</title>
+                </head>
+                <div2>
+                    <byline>
+                        <docAuthor>GEOFFREY <name>KEYNES</name>
+                        </docAuthor>
+                    </byline>
+                    <head>
+                        <title>
+                            <hi rend="b">The Blake Trust Gray Catalogue and the Blake Trust Facsimiles</hi>
+                        </title>
+                    </head>
+                    <p>In <hi rend="i">Blake Newsletter</hi> 24 (Spring 1973) recently issued, Professor G. E. Bentley, Jr., has published an article in which he chooses to question the accuracy of the facsimiles of Blake’s Illuminated Books published by Mr. Arnold Fawcus of the Trianon Press on behalf of the Trustees of the William Blake Trust--a non-profit-making educational charity founded with the help of a bequest from the estate of the late Walford Graham Robertson and greatly assisted by generous contributions from Mr. Lessing J. Rosenwald and Mr. Paul Mellon. Professor Bentley’s object was to rebut a favorable review (<hi rend="i">Newsletter</hi> 21) of the Catalogue of the Tate Gallery Exhibition of Blake’s Illustrations of Gray’s Poems, issued for the convenience of the visitors to the exhibition. As Chairman of the Trustees I would like to reply.</p>
+                    <p>Professor Bentley writes that he has detected "some serious minor defects" in the Catalogue, the plates of which he regards as having been "simply falsified." This "tampering" with the reproductions he says brings into question the reliability of all the Blake Trust reproductions. It seems that the excellence of the color-plates in the Catalogue has led him to assume that it was a typical example of the work of the Trianon Press, which is carried out in most instances by a subtle combination of collotype printing with hand-coloring done through stencils. As a matter of fact the Catalogue was a mass-produced volume hastily put together at the last moment, the color-plates being printed by a four-color offset process at another machine shop in Paris. It had no pretensions to being a <hi rend="i">facsimile</hi> of anything, being designed as an inexpensive guide to the exhibition trying to give some idea of the quality of the real thing--as should have been evident from the price at which it was sold.</p>
+                    <p>The most serious "inaccuracy" found by the Professor was an inscription added to the jacket of the book which carried a reproduction of Blake’s title-page. Publishers do not commonly provide a careful hand-colored facsimile on so ephemeral an object as a book-jacket, but do often add information on this expendable feature. The other inaccuracy was in another inscription made by Blake in dim pencilling on the same title-page. This would have been invisible when reproduced by the offset process and was consequently rewritten slightly changed by a workman in the offset shop.</p>
+                    <p>On this totally erroneous basis Professor Bentley makes the unjustified suggestion of deliberate tampering by Mr. Fawcus and thereby throwing doubt on the value of all the Blake Trust facsimiles.</p>
+                    <p>I am glad to be able to acknowledge that Professor Bentley has written a letter to Mr. Fawcus expressing regret for any distress he may have caused, but follows this with a series of other complaints which seem designed to undermine still further the status of the Blake Trust facsimiles and I feel that further explanation is needed.</p>
+                    <p>Professor Bentley complains that in the black-and-white reproduction of <hi rend="i">Jerusalem</hi> (1953) the plate numbers have been moved in half the plates from the right side to the left. Again, this volume was not designed as a perfect facsimile. It was a mass-produced book (1700 copies) at a low price, in which the plates were printed on both sides of the leaves instead of on one side only. The numbers were moved to aid users by placing them on each leaf where they would expect to find them.</p>
+                    <p>He complains further that in the eclectic facsimile of <hi rend="i">There is No Natural Religion</hi> (1971) the size of the pages is not exactly that of Blake’s original leaves. In none of the facsimiles is the leaf guaranteed to be of exactly the same size as that of the original copy. Blake himself varied this relation of print to leaf, and in any case it seems to me to be immaterial to the value of the color print. It is almost the equivalent of complaining that the pulp of which the paper is made is not of the same composition as that used by Blake. In fact the paper was specially made in an attempt to produce an approximation to Blake’s paper, though with a distinctive watermark.</p>
+                    <p>Professor Bentley also refers to the slight inaccuracy in the facsimile of <hi rend="i">All Religions are One</hi> (1970) in that the various shades of green are not quite true to the unique original. This may well be so, and the reason for it will be obvious to anyone with any knowledge of the difficulties of reproduction. As was stated in my description of the plates, the reproductions had to be made from photographic ektachromes of each plate except one, which were supplied by the H. E. Huntington Library because they were unable to loan the original. The implication was that subtle variations of this kind could not be caught. The single original print available from my collection had to be used as the standard for color. This partial failure should be attributed to the regulations under which public institutions are administered and not to the craftsman. Private owners can allow themselves to be more co-operative, and the Blake Trust has been fortunate in enjoying this generous co-operation in every other instance.</p>
+                    <p>Professor Bentley concludes with a solemn warning against accepting any reproduction as "perfect." This seems hardly necessary, since the term "facsimile" in its usual acceptation carries with it the assumption that no reproduction is so perfect as to be the equivalent of a forgery. This very small degree of imperfection is wholly desirable and I have no wish to claim that any of our facsimiles have surpassed it. Yet the Trustees are satisfied that during the last twenty-five years they have been able to rely absolutely on the integrity of Mr. Fawcus in his efforts to produce facsimiles which are extraordinarily faithful to Blake’s work. This is the more remarkable in view of the volume of work turned out and of the technical difficulties presented by some of the subjects. Brinkley, 6 May 1974</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="b">
+                                <hi rend="u">Jerusalem</hi> 25: Some Thoughts on Technique</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>ROBERT N. <name>ESSICK</name>
+                        </docAuthor>
+                    <ref target="n23" type="note">*</ref></byline>
+                    <p>In the Fall 1972 issue of the <hi rend="i">Blake Newsletter</hi> Deirdre Toomey presented her interesting discovery of three states of <hi rend="i">Jerusalem</hi>, plate 25. As a bibliographic description of a page from five copies of <hi rend="i">Jerusalem</hi> her article is perspicacious and thorough, but as a chalcographic description of a copper-plate it seems to me that it leaves several important questions unattended.</p><note id="n23">
+                        <hi rend="i">Robert N. Essick (California State University, Northridge) has recently co-authored a commentary on the</hi> Night Thoughts <hi rend="i">engravings (forthcoming, Dover) and edited a collection of reprinted articles on Blake’s art</hi>, The Visionary Hand <hi rend="i">(Hennessey &amp; Ingalls).</hi>
+                    </note>
+                    <p>The additional lines pointed out by Toomey to distinguish between the three states are of two different types. The white lines in the hair of the central and right females in the third state were very likely added to the plate by removing some of the copper with an engraving tool, as Toomey states. An alternate method for making white lines is "Woodcut on Copper," as Blake called it (Keynes, ed., <hi rend="i">Writings</hi>, p. 440), but this would require covering the entire plate with an etching ground--certainly more work than necessary for the limited area reworked. All the other added lines described by Toomey, such as the body contours on the right female in the second state, are far more puzzling. They print black, and thus must be in relief. How were these lines produced? No matter which etching or engraving process is used, copper can only be subtracted from a plate, and thus it has always been my assumption that adding relief lines to the parts of a plate already bitten in by acid or graver is very difficult, if not impossible. The only way that comes to my mind for adding relief lines is to work the plate up from the back and then engrave away the whites, leaving in relief only those areas to be printed. But the new lines on the second state of <hi rend="i">Jerusalem</hi> plate 25 have a delicacy and a spontaneity suggesting etching rather than engraving. If etched, they could have been formed on the worked-up areas by applying a stopping-out material with a small brush or pen, covering all other 
+                        <pb id="p07-65" n="65"/>
+relief lines with the stopping-out substance, and then immersing the plate in an acid bath to eat away the exposed areas adjacent to the new lines. This is the only way I can account for the addition of the lines to the copper-plate described by Toomey, but the process is clumsy, inefficient, and very time-consuming. It is difficult to believe that Blake would go through such involved procedures just to add a few lines of contour and shading. I would be happy to hear from anyone who knows an easier way for adding new relief lines to an etching.</p>
+                    <p>One simple way out of these technical difficulties remains. Toomey writes that the considerable differences between the Pierpont Morgan copy (<hi rend="i">Census</hi> copy F) and the Fitzwilliam copy (H) can be accounted for by differences in printing. It is certainly possible, as well as convenient, to consider all the black line changes in the five impressions reproduced with Toomey’s article as the result of inking and printing differences, either accidental or intentional. In the British Museum copy (copy A, first state) the faint and poorly inked outline of some of the contours on the right female can be seen, even though these lines were, according to Toomey, added in the second state. The gray wash shading in copy A which Toomey points to as an indication of reworking to be done for the second state may actually be Blake’s attempt to improve on poor printing. The Rosenwald copy of <hi rend="i">America</hi> (copy E) shows a good deal of added wash for just this purpose. Printing a copper-plate, either relief or intaglio, is a tricky business, and great differences in impressions can be caused by the way in which the plate is inked, wiped, and imposed on the paper. Even the texture and moisture content of the paper can make significant differences. Copy C of <hi rend="i">Jerusalem</hi> (not discussed by Toomey) offers ample testimony to Blake’s problems with, or cavalier attitude towards, clean printing. Many plates in this copy (almost all of which are in Chapter 2, later rearranged and reprinted) have smudges in the white areas that result from sloppy or too heavy inking--or a failure to clean out the hollows properly before imposition. On the other hand, excessive or careless wiping can eliminate fine lines surrounded by relatively large white areas (i.e., just the sort of lines missing from plate 25 in Toomey’s first state). In copy C, the text area and major lines on plate 25 indicate that it was very lightly inked, and thus it should be no surprise that this impression shows (at least in the Blake Trust facsimile) even less evidence of the fine contour lines than copy A. The method of inking can also affect impressions in a way that seems like a change in the copper itself. Inking with a dabber or soft roller will cover all raised surfaces, but also get ink into the hollows; inking with a very hard roller or from an unengraved plate (as Ruthven Todd did during his experiments with relief etching in 1948) can miss fine lines slightly below the level of the major relief areas. One or more of these variables can account for the differences in black lines described by Toomey.</p>
+                    <p>My point here is not to dispute the particulars of Toomey’s article, but rather to suggest the need to consider the technical potentials and limitations of Blake’s processes before making too many assumptions about changes on a copper-plate. Armed with a heady combination of patience, twelve-power magnifying glasses, and a tendency to promote all differences in impressions to the rank of different states, we can end up with a bibliographer’s (or botanist’s) night-mare--that is, as many species as there are individuals. In "The Suppressed and Altered Passages in Blake’s
+<pb id="p07-66" n="66"/>
+                        <hi rend="i">Jerusalem</hi>" in <hi rend="i">Studies in Bibliography</hi>, 17 (1964), 1-54, David Erdman points out that it is "almost impossible" to add new words in black line to a relief etching. His statement serves as an ample warning to those eager to find textual <hi rend="i">additions</hi> (as distinct from easily made deletions) on Blake’s copper-plates. The same warning must be extended to include <hi rend="i">any</hi> additions of black lines to a relief plate. When confronted with a black line addition in a print made from a relief etching, three possible explanations should be considered in an ascending order of technical difficulty, as listed below.</p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>
+                                    <hi rend="i">1.</hi>
+                                </label>
+                                <hi rend="i">The additional lines were added in wash or pen and ink. No change in the copper-plate.</hi> Wash or pen and ink work can usually be discovered through close scrutiny <hi rend="i">of the original print.</hi> For example, in the article cited above Erdman writes that the additional lines covering deleted text on plate 3 of <hi rend="i">Jerusalem</hi> in copy D were drawn on the print, even though the Pearson facsimile of this copy reproduced these lines in such a way that they look identical to the lines printed from the plate. If however the additional lines are unquestionably printed, as I assume Toomey found the additional lines on plate 25 to be, then the second alternative explanation requires consideration.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>
+                                    <hi rend="i">2.</hi>
+                                </label>
+                                <hi rend="i">Differences in inking and/or printing caused the differences in the impressions. No change in the copper-plate.</hi> Almost every impression from one of Blake’s relief etchings shows some variance from all other impressions due to these variables. The changes in the size and darkness of the patch of ink on Albion’s right knee on plate 25 of <hi rend="i">Jerusalem</hi> in the five copies reproduced with Toomey’s article are a good case in point. A listing of all such variations in the illuminated books would serve no purpose that I can foresee. Certainly the vast majority of these differences are not intentional. Even an apparently significant addition to major lines, such as the definition of the central female’s pudendum in copy D of <hi rend="i">Jerusalem</hi>, plate 25, is probably an accident of inking (assuming it was not added with pen and ink to a single print), particularly when the addition vanishes from later copies.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>
+                                    <hi rend="i">3.</hi>
+                                </label>
+                                <hi rend="i">The additional lines result from a change in the copper-plate itself.</hi> Until some expert in such matters comes forth with a satisfactory method of adding black lines to relief plates, this must be the last and least attractive alternative. And even if Blake could make additions, surely he did so only for some important aesthetic or iconographic purpose. Those who wish to argue for additions to a relief plate should be asked to give good reasons for such changes. There are good reasons for Blake to have filled in the rather messy and visually awkward areas of deleted text on <hi rend="i">Jerusalem</hi> plate 3, but he did so only with pen and ink in copy D, and made no additions in most copies. If Blake could add to the copper-plate the small and in most cases unimportant lines that appear in Toomey’s second state of plate 25, why didn’t he do something about plate 3? Until new evidence is produced, I can only assume that Blake had no simple method for adding black lines to either plate.</p>
+                        </item>
+                    </list>
+                    <p>I hope that these questions and suggestions will seem not to be argumentative trivia of the sort that stifles research, but rather necessary warnings and guidelines helpful to others interested in Blake’s etchings.</p>
+                </div2>
+                <pb id="p07-67" n="67"/>
+                <div2>
+                    <byline>
+                        <docAuthor>LEONARD <name>TRAWICK</name>
+                        </docAuthor>
+                    <ref target="n24" type="note">*</ref></byline>
+                    <head>
+                        <title>
+                            <hi rend="b">Nature and Art in <hi rend="u">Milton:</hi> Afterthoughts on the 1973 MLA Seminar</hi>
+                        </title>
+                    </head>
+                    <p>The 1973 MLA seminar "Perspectives on Blake’s <hi rend="i">Milton</hi>" (based on five papers published in advance in <hi rend="i">Blake Studies</hi>, 6 [Fall 1973]) produced some stimulating discussion, but like most such sessions it opened up more avenues for thought than it fully explored. In the following comments I seek the rare gratification of saying at leisure some things that I lacked the wit or opportunity to say during the seminar.</p><note id="n24">
+                        <hi rend="i">Leonard M. Trawick is Professor of English at The Cleveland State University. He is editor of</hi> Backgrounds of Romanticism <hi rend="i">(Indiana University Press, 1967) and has written on Blake for</hi> Studies in Burke and His Time.</note>
+                    <p>In his opening remarks Karl Kroeber, the discussion leader, challenged the group to consider, among other problems, the ways in which <hi rend="i">Milton</hi> is an expression of Blake’s critical or aesthetic ideas. Though none of the five papers deals with this question directly, it seems to me probably the most important one to ask about this particular poem. <hi rend="i">Milton</hi> has often been compared with <hi rend="i">The Prelude</hi>, and for good reason. Here Blake not only comes to grips with his personal role as poet-prophet, but, like Wordsworth in his autobiographical poem, he explores the nature of imagination in general, and in particular the relation of the poet’s mind to nature. Only the first two of the five papers touch on this topic at all, and neither deals with it in a satisfying way. Mary Lynn Johnson’s quite penetrating essay emphasizes the importance of the Christology that underlies <hi rend="i">Milton</hi>, but does not go on to relate this valuable idea to the poem’s central theme, the relation of the artist to salvation. Thomas W. Herzing cogently analyzes "Natures cruel holiness" as it is portrayed in Book I, but by failing to point out the equally true contrary of sensuous Nature’s necessary place in Los’s task of regeneration, leaves a misleading impression about the direction of the poem as a whole.</p>
+                    <p>The discussion of the papers was similarly more tantalizing than satisfying. Alicia Ostriker asked Mary Lynn Johnson about the other eternals who were not, like Milton, moved by the Bard’s song--does this imply that only the artist can respond properly to visionary inspiration? Johnson replied first by citing Blake’s wish that all the Lord’s people were prophets, ’and then went on to say that Milton’s response is not to write a poem but to begin to act in a way that leads to self-annihilation. Stuart Curran also asked Johnson a pertinent question about the relation of theology to art. But these lines of discussion were cut off before they were much developed.</p>
+                    <p>What needed to be said at the seminar was, first, that Milton’s descent, union with Ololon, and triumph over his selfhood are events simultaneously theological and aesthetic in their implications--indeed, the two are hardly separable in Blake; and, second, that the great problem that is solved in the poem is precisely the paradox that physical Nature, while a delusion of fallen humanity and the source of man’s continuing error, is nevertheless the only means by which the poet-prophet, or the divine humanity in every man, is able to regain Eternity.</p>
+                    <p>Herzing is misleading when he says in his essay that "All of being . . . possesses two forms: the external form is perceived by the easily enticed and easily deluded sensate eye; poetic vision perceives the inward form, the infinite and eternal character" (p. 30). But Blake is a monist; for him the very existence of those external forms is only an illusion we fall into when our mental powers become dormant, and we allow our selfhood to impose its limitations on our perception of the infinite. Our souls return to wholeness, to renewed participation in Eternity, by casting away the limiting selfhood (i.e., by self-annihilation) and sharing more fully in true reality through imaginative activity. The external forms are not cruel and delusive <hi rend="i">per se</hi>, but only when we see them as detached from Eternity, from the infinite within, as Natural Religion does. The energies of Eternity seem terrible when reversed in "the Printing-Press of Los," but that is because we are viewing them with dulled and fragmented vision. In <hi rend="i">Milton</hi> Blake believes as he did in <hi rend="i">The Marriage of Heaven and Hell</hi>, that "Body is a portion of Soul discerned by the five Senses, the chief inlets of Soul in this age" (Plate 4, E 34). When we see "the Constellations in the deep &amp; wondrous Night . . . the gorgeous clothed Flies . . . the Trees on mountains," we are seeing true "Visions of Eternity" (Plates 25-26, E 121-22), visions which are valid to the extent that our limited minds can handle them. We see only "the hem of their garments": the phrase implies limitation but not derogation. As participants in the MLA seminar pointed out, the phrase alludes both to the angels’ limited view of God in <hi rend="i">Paradise Lost</hi> (III, 380) and to the curative powers of Jesus’ hem (cf. Matthew 9:20-21). Hence it is through <hi rend="i">acceptance</hi> and assimilation of the sense world rather than rejection of it that man--and preeminently the prophetic artist--returns to Eternity. That is what Los is doing when he builds Golgonooza, and 
+                        <pb id="p07-68" n="68"/>
+what Blake is doing when "All this Vegetable World appeared on my left Foot," and he binds it on as a bright sandal "to walk forward thro’ Eternity" (Plate 21, E 114). We must remember that Beulah--where, to put it crudely, Eternal forms take on garments of limiting materiality--is not only the exit leading to Ulro, but also the entranceway back to Eternity, via "holy Generation [<hi rend="i">Image</hi>] of regeneration" (<hi rend="i">Jerusalem</hi> I, 7; E 149). So in <hi rend="i">The Four Zoas</hi> Enitharmon, the selfish gates of her heart permanently broken, works toward salvation by weaving "Bodies of Vegetation" for the poor wandering spectres (Night VIII, p. 100, E 358). Very similar versions of this paradox of using the senses as a stairsteps to transcend the sense world are prominent in Coleridge, Wordsworth, Shelley, and Keats; it is in fact a form of the familiar Platonic ladder of love.</p>
+                    <p>None of these Romantic poets, including Blake, draws a line between poetic and religious inspiration. Coleridge’s phrase in "Dejection: an Ode" for the happy consequence of his "shaping spirit of imagination" operating with the intense energy of Joy is the apocalyptic "New Heaven and a New Earth" (Revelation 21:1) also echoed in the millenial promise that follows Christ’s decision to descend to man in <hi rend="i">Paradise Lost</hi> III (line 335). Both religious and aesthetic vision involve the ability to see the Divine--the One Mind--that is always immanent in experience for those who can see through the corporeal eye and not with it. Coleridge’s famous definition of the primary imagination as "the living Power and prime Agent of all human Perception, and as a representation in the finite mind of the eternal act of creation in the infinite I AM" is a good gloss for Blake’s four levels of vision: the greater the intensity at which the imagination operates in all perception, the more fully we share in the infinite creativity of the Divine mind, and approach fourfold vision. The fool sees not the same tree that the wise man sees, because the wise man perceives with a well developed primary imagination, whereas the fool, victim of his selfhood, cuts himself off from divine vision by depending on what Coleridge would call the fixities and definites of understanding and memory.</p>
+                    <p>Blake consistently identifies Christ as the imagination in every man (e.g., in the <hi rend="i">Laocoön</hi> inscriptions, transcribed E 271). A Blakean Christology must therefore in some sense be an "Imaginationology." Milton, one of the supreme embodiments of imagination, in Blake’s poem closely parallels Christ’s career: his incarnation--that is, his decision to go to Eternal Death--resembles Christ’s decision as described in <hi rend="i">Paradise Lost</hi> III; Milton has a temptation in the wilderness, well described by Thomas Herzing’s article; his crucifixion and atonement is his choice of self-annihilation rather than opposition to Satan, his spectre--a parallel to Jesus’ self-sacrifice in <hi rend="i">Jerusalem</hi>, 96, and, incidentally, to the refusal by Shelley’s Prometheus to curse Jupiter; his resurrection is, as Mary Lynn Johnson says, "the emergence of the Real Human from the dead selfhood"; and his ascension is his final merging with Jesus in Plate 42.</p>
+                    <p>All of these events have significance in terms of Blake’s aesthetics, i.e., of his beliefs about imagination. When he decides to descend to Eternal Death, Milton takes off the "robe of the promise"--that is to say, he rejects a legalistic Puritan theology for one of Christlike self-annihilation; the aesthetic equivalent is rejection of a rational, Lockean use of the senses and the daughters of memory, in favor of living imagination and the daughters of inspiration. Christ’s incarnation is the necessary clothing of the Word in a form assimilable by fallen humanity: "God becomes as we are, that we may be as he is." Even the Eternals converse in "Visionary Forms Dramatic," and "Man cannot unite with Man but by their Emanations" (<hi rend="i">J</hi> 88, E 244). Milton must be perfected through a fuller and more imaginative acceptance of the natural world, of the body and the senses, than his poetry originally achieved; it culminates in his proper union with his purified emanation Ololon. In Blake’s plot, Milton’s temptation and agon are the sorting out of the right and wrong uses of sensation. When Milton’s shadow, or spectre, finally separates from him, and he refuses to fight it, this is itself victory over selfhood and the Not Human: it is inevitably followed by--in fact, it constitutes--an apocalypse for Milton (though not quite yet for Blake and the rest of the world) and by his union with the similarly purified Ololon in Jesus, the Divine Humanity. The Revelation to Milton of a new Heaven and Earth includes an explicitly literary aspect: he is able "To cast off the rotten rags of Memory by Inspiration" and to reject "the tame high finisher of paltry blots," and those "Who pretend to Poetry that they may destroy Imagination; / By imitation of Natures Images drawn from Remembrance" (Plate 41, E 141). In other words, sensation is wrongly used whenever it ceases to be a living part of the Divine mind shared in the act of Imagination, and the error is worst when embodied in Poetry, which ought to be the highest expression of Vision. Such abstraction in Poetry is spiritual death corresponding to Mystery in religion. The Bard’s song in the first third of the poem, it should be noted, is a kind of Preludium presenting, in different terms, a misuse of imaginative powers similar to that which Milton eventually overcomes.</p>
+                    <p>Thus in his poem Blake winnows out the eternal, Reprobate Milton from his Elect portion in a literary as well as a theological sense. As a personal document <hi rend="i">Milton</hi> records the impact on Blake of his predecessor. We recall that the Bard in Book I says he is himself inspired by the Divine Humanity; the Bard enters Milton’s bosom, Milton enters Blake’s heel, and Blake simultaneously merges with Los. In other words Milton’s writings--in spite of some reservations Blake has about them--allow Blake to participate more fully in Eternal reality, and to contribute to Jerusalem’s return to England’s green and pleasant land. Significantly, Milton and Los appear to Blake as he is binding on the material world as a sandal in which to walk through Eternity. From the placement of this circumstance at such a climactic moment in Book I, it would seem that one of the things Blake learned from Milton was the proper use of the sense world.</p>
+                </div2>
+            </div1>
+            <pb id="p07-69" n="69"/>
+            <div1 id="BQ-07-3-0005">
+                <head>
+                    <title>
+                        <hi rend="b">REVIEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>Stuart Curran and Joseph Anthony Wittreich, Jr., eds. <hi rend="i">Blake’s Sublime Allegory: Essays on The Four Zoas, Milton, and Jerusalem.</hi> Madison: Univ. of Wisconsin Press, 1973. Pp. 384 + 28 ill. $17.50</title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Hazard <name>Adams</name>
+                        </docAuthor>
+                    <ref target="n25">*</ref></byline>
+                    <p>Well, we’ve come a long way! In his interesting essay on <hi rend="i">Jerusalem</hi>, one of the editors of this volume, Stuart Curran, writes confidently: "Difficult it may be, but no sophisticated reader confesses himself lost in its midst, unable to comprehend the plate he is reading. In addition to the range and subtlety of the epic style, in <hi rend="i">Jerusalem</hi> Blake attains a clarity and a sense of driving purpose beyond his previous efforts." Curran is compelled then to say again that the poem is not easy. He knows that his optimism has been only recently shared even by the most sophisticated Blakeans. The need to make the remark at all indicates an awareness that much is to be done before <hi rend="i">Jerusalem</hi> is truly delivered. (The last essay in the book by Karl Kroeber is called "Delivering <hi rend="i">Jerusalem.</hi>") This volume, which faces the issue of interpreting the major prophecies, marks, along with Erdman and Grant’s earlier <hi rend="i">Blake’s Visionary Forms Dramatic</hi> (1970), a phase in Blake scholarship. We have an opportunity to take stock and to observe the trends.</p>
+                    <note id="n25">
+                        <hi rend="i">Hazard Adams is Professor of English at the University of California, Irvine, and author of various books on Blake and literary criticism.</hi>
+                    </note>
+                    <p>First, communality. Of the fifteen authors represented in <hi rend="i">Blake’s Sublime Allegory</hi>, six appeared in the earlier volume. Several essays in the earlier volume are alluded to in the later one. The issues that the authors address are interrelated, and the various authors are intimately aware of each other’s work. With a few exceptions the book represents a new generation of Blake scholars. The influence of Frye remains strong, but several issues are those that in recent years have been given primary attention by Erdman and Hagstrum. The temper of the essays is one of an industry, rather than the received style of individual search. There is a sense of belonging--not to the reprobate class, as the earliest Blake scholars thought of themselves--but to a sort of guild. Does the appearance of two collections of original essays on two loosely conceived subjects mark a new style for scholars? Perhaps this communality is simply a reflection of the social fashion and group psychologizing of the age. But it has not often been present among literary commentators. On the other hand, all of this may merely be a sign of Blake scholarship settling into the same slough of deadening commentary that plagued the Spenser industry about thirty years ago. I hope not. Yet, clever and intelligent as many of these essays are, none of them grasps the imagination as some previous work on Blake still does.</p>
+                    <p>Second, issues. Two are paramount, and they are interrelated. These essays try to look closely at aspects of the long poems and to interpret them. Curran quotes Bloom on <hi rend="i">Jerusalem</hi>: " . . . the problem may be only that the poem has not had enough accurate and close readers as yet." Also, many of these essays emphasize the relation of poetry to design. The concern carries over from <hi rend="i">Blake’s Visionary Forms Dramatic.</hi> This relation has provided an immensely complex problem and has been the generator of the worst sort of pedantry as well as some useful thought.</p>
+                    <p>A few years ago John Grant wrote an essay in <hi rend="i">Blake Studies</hi> entitled "You Can’t Write About Blake’s Pictures Like That"; and he pretty conclusively showed that a previous essay had fallen into numerous errors of approach. What remains to be asked is not whether one <hi rend="i">can</hi> write in a certain way about Blake’s pictures, but which of the possible ways is really worthwhile. In the preface to <hi rend="i">Blake’s Visionary Forms Dramatic</hi>, Erdman wisely observes, "In the reading of Blake’s illuminations, the advance has been slower and less steady; common ground has been gained, plate by plate, but some has been lost." There are probably many reasons for this. For the most part, the art critics have not wished to concern themselves with Blake. Supposedly reliable histories give him short shrift. Thus, the job of commentary has been left largely to literary scholars. The result has been a curiously <hi rend="i">literary</hi> commentary on his designs, aside from those discussions which are little more than attempts to describe clearly what objects are depicted in the pictures. Even the latter literalize the picture, turning it into a sort of text. There is nothing wrong with this, but it does not seem to help us much toward answering the fundamental question of the relation in form between poetry and design, even as we admit (as we must) that Blake’s designs are <hi rend="i">literary</hi> in the sense that they present us with symbolic <hi rend="i">figures.</hi> But what about symbolic <hi rend="i">style</hi>? I am constantly being lectured, it seems, that the designs are integral with the text and that one can’t understand the text without them, or that one more readily understands the text with them, or <hi rend="i">vice versa.</hi> However, I know of relatively few instances in which the design is a crucial aid of the sort claimed and no instance in which the design is indispensable. I have had to conclude that it is not in the area of the <hi rend="i">literary</hi> reading of the picture or the interpretation of symbolic figures that the connection is critically important. Indeed, one senses too often in commentary on the symbolism of a picture that the discussion is somehow at the wrong level or trivial, for the very reason that it is turning the paintings into verbal structures. We are wary enough of discussions that turn poems into visual scenes or tapestries, and there is a whole critical tradition devoted to the problems in this sort of approach. It must be the formal relations of poetry and design which, beyond the <hi rend="i">literary</hi> symbolism, produce a single artistic whole or impression 
+                        <pb id="p07-70" n="70"/>
+or effect. It is with the total presentation, seen as a "presentation" perhaps in Langer’s sense, that we are concerned. Beyond Frye’s 1951 essay, cited by Erdman, we have not come very far.</p>
+                    <p>Nor does this book travel any greater distance than that achieved by W. J. T. Mitchell in his "Blake’s Composite Art" in <hi rend="i">Visionary Forms Dramatic.</hi> Mitchell began his essay by asking "how" the relation of Blake’s poetry and painting may best be understood. His essay strikes toward the heart of the issue by at least getting the question right. It seems also to have passed muster with Grant, the most severe of our scholars in insisting on examining Blake’s pictures with great care. The essays on <hi rend="i">Jerusalem</hi> in the present book stay pretty much with the text, and <hi rend="i">Milton</hi> the same, except for Irene Tayler on the Comus designs. There the interest is in symbolic figures, as in Morton Paley’s essay on the figure of the garment.</p>
+                    <p>Third, new critical fashions and concerns. Some of these are worth serious notice; others are seriously worth noting for their triviality. A definite sign of incursion into Blake studies of what I cannot resist calling pop phenomenology is offered by the lead essay, portentously entitled "The Aim of Blake’s Prophecies and the Uses of Blake Criticism." The author Jerome J. McGann attacks "objectification": " . . . to the degree that one regards Blake’s art as an object of analysis and interpretation, to the degree any criticism fosters such a view, to that degree has Blake been misused; even, I would venture to say, misread." The poems of Blake do not offer "an explanation of, but an occasion for experiencing . . . " (I do not know of any sophisticated modern criticism that regards poems as explanatory.) The terms "I" and "Thou" are specially invoked, and the Blakean poem is regarded as requiring its meaning from the reader, the only personality who can experience in vision that for which the poem is the occasion. The language here is that derived from a criticism centered upon the "phenomenology of reading," to borrow Georges Poulet’s term. Blake is quoted to justify treatment of his work as a "vehicle for vision." McGann disapproves of the objectivity of the poem, as apparently hypothesized by the Anglo-American new criticism. The term "objective," however, seems to me to do double duty in such attacks as this. Objectivity in the old Lockean or Cartesian senses, generates its opposite, the subjective. But the new critical sense of the term was not this. To talk of making the poem an aesthetic "object" is a sort of shorthand for freeing it from the objectivity of Locke into that connection with the reader paradoxically described in Kant by the terms "disinterest" or "purposiveness without purpose" and the like, or in Valéry by the image of dancing. This latter sense, sometimes called "distance" is, in fact, the opposite of the objectivity of the Lockean. This tradition of thought, which fully appreciates the ironic relation of commentary to text, is anti-scientistic and anti-positivistic. The "object" in this profoundly anti-objective sense is often described as having a "life of its own." Analogies of organicism and miraculism are frequently invoked.</p>
+                    <p>Why all of this? There was something quite practical about it. Critics wanted to develop a way to talk about a poem that was useful. There was before them the sorry example of critical impressionism, which had solipsistically accepted the subject-object split. Flying from this extreme, critics eliminated the writer and reader as useful points of reference and began with the poem hypostatized. This was, as I say, a purely practical act in order to make contact with something present and not requiring fictive reconstruction of "author" or "reader." Critics like Poulet attempt to collapse these entities back into the terms "consciousness" or "intersubjectivity." Philosophically, as Kenneth Burke says of Sartre on <hi rend="i">le Néant</hi>, it’s "good showmanship," but when all is said and done whatever one locates one locates in or as a text, and in this sense one objectifies it, which is to say that one frees it. The problem with the criticism of consciousness or "vision" criticism is that after the showmanship there must come silence. McGann denies "meaning" to Blake. Logically, his essay should end in silence at this point, but instead he proceeds to find meaning everywhere. He proceeds as Frye has observed every commentator must: to allegorize, and thus to establish a meaning he has already denied.</p>
+                    <p>The phenomenological fashion is to proceed through a series of denials of the <hi rend="i">objectivity</hi> of the text, which is often confused with its <hi rend="i">existence</hi>, either to exhaustion of the critical impulse itself in the face of the formal and technical qualities of the work or the "showmanship" of self-reflexive dwelling upon the critic’s curious position, whether heroic, tragic, absurd, or whatever. It is no surprise that phenomenological criticism in many varieties rarely sticks with the text.</p>
+                    <p>McGann knows he is employing logic to destroy logic. One is reminded of certain remarks by Yeats, but Yeats wisely chose poetry as his bow. Phenomenology must regard literature as the ultimate form of philosophy and must endlessly discard critical languages. Poulet’s master is not Plato, Aristotle, or finally even Descartes. It is Mallarmé gesturing. But criticism must always finally objectify in the second sense I have mentioned above, protesting eloquently as it does so. Or it must dissolve itself into the forms of art. Perhaps a philosophy of being can rescue us from this situation, but for the interpreter the Kantian idea taken up by Schiller that we objectify the work in order to free ourselves and it into another realm is definitive. The ultimate criticism for McGann is silence, but, as we see, he wishes to speak. He takes as definitive, incidentally, Shelley’s view that when composition begins inspiration is on the wane. It would be well to submit this idea to rigorous analysis before making it a rule of art or attributing it to Blake. I don’t myself think Blake believed it, and I’m sure <hi rend="i">Jerusalem</hi> says he thinks his vision is complete in the work, even discovered by the act of its creation. In any case there are numerous critics who have questioned Shelley’s point seriously.</p>
+                    <p>Still McGann’s heart is in the right place. He
+<pb id="p07-71" n="71"/>
+hates to see Blake deadened by pedantic analytical procedures. He feels that Blake had a silent message for us that our act of reading him was to regenerate. No quarrel, really, with that. Or with the idea that every movement generates its pedantic objectivists, when inspiration becomes memory. In any case, the first essay is in the best modern way, as we say; and it suggests that we are to be faced with uses of Blake criticism that will right a balance now tipped toward deadening objectivity--the condemnation of Blake to the art museum, as MerleauPonty would put it, perhaps.</p>
+                    <p>The last essay in the book also follows this line to some extent. Karl Kroeber asserts that Blake’s <hi rend="i">Jerusalem</hi> needs to be delivered from its interpreters rather than from oblivion: an example Kroeber offers of interpretive error is to think of <hi rend="i">Jerusalem</hi> as related in certain ways to <hi rend="i">Finnegans Wake.</hi> I am prepared to acknowledge that there are many differences, but the relation of <hi rend="i">Finnegans Wake</hi> to Blake’s later prophecies is substantial, as any close attention to <hi rend="i">Finnegans Wake</hi> ought to reveal. Yes, indeed, let us all insist on delivering <hi rend="i">Jerusalem</hi> as unscathed as possible but remember that it has been delivered at least partly to us, and probably saved from oblivion, by the efforts of preceding critics and scholars, that understanding of Blake’s work has come slowly, and that the progress to date is a tribute to those who have helped us by being in some way not quite right.</p>
+                    <p>It is time also to deliver terms like "ingenious exegesis," for ingenious exegesis isn’t all bad. In a very ingenious scholarly essay, which incidentally gives us a possible model for understanding Joyce’s relation to Blake, Joseph Anthony Wittreich shows us how Blake is related to the "epic tradition that by Spenser and Milton was tied to the tradition of prophecy." Blake’s <hi rend="i">Jerusalem</hi> is "not only a consolidation and continuation of Blake’s previous poems . . . ; it is also a consolidation of the visions contained in Milton’s epics and in Revelation prophecy." <hi rend="i">Jerusalem</hi> "subsumes" previous prophecies and takes its structure from them, trying to reach beyond or to "complete" them. This is an essay that is not only ingenious but also exegetical--the most valuable in the book, I think.</p>
+                    <p>Of the several other essays, many deal with more specialized topics. Ronald Grimes writing on time and space in Blake gathers together a lot of information scattered through Blake criticism and corrects some misapprehensions. Though not entirely original, it makes some excellent points and offers an especially interesting discussion of Blake on "reasoning historians." Edward Rose’s essay on Los is more or less a journeyman’s piece of work with few surprises. Jean Hagstrum’s essay on Luvah and Vala provides us with a model of helpful, lucid commentary. Morton Paley’s essay on the figure of the garment in Blake gathers together our sense of this image and clarifies it, but is more specialized in its use than Hagstrum’s. Then we have sixty-one pages of John Grant at full throttle telling those of us who can’t see what is in front of our noses--and we are legion--what’s really in those designs for <hi rend="i">Vala.</hi>
+                    </p>
+                    <p>Next we come to the essays on <hi rend="i">Milton</hi> and <hi rend="i">Jerusalem.</hi> We may notice by now that McGann’s essay did not, in fact, set forth a theoretical position that others would follow. The essays thus far are works of scholarship and commentary without the sort of self-conscious theorizing that McGann’s essay tends to predict. Mary Lynn Johnson and Brian Wilkie take us through <hi rend="i">The Four Zoas</hi> and try to give us what a few years ago we would call a "relevant" reading: <hi rend="i">The Four Zoas</hi> as contemporary soap opera or what the sophomoric will dig. The essay seems entirely out of keeping with the immediately surrounding essays, operating at a much more simplistic level. It does nothing with the really difficult problems of interpretation that <hi rend="i">The Four Zoas</hi> presents--those of structure and transition created by the curious state of the text. There is, of course, a sense in which the essay fits with the first and last essays of the collection. It is trendy. We hear of "mental law and order," "male chauvinism," the "youth culture," and the like. But trendiness runs as fast as it can to stay in the same place.</p>
+                    <p>Irene Tayler, James Rieger, and W. J. T. Mitchell--the last the most interesting, I think--help us in various ways with <hi rend="i">Milton</hi>, a poem on which there has been a good amount of recent work. Someone is going to have to put it all together. On <hi rend="i">Jerusalem</hi> the collection offers considerable ingenuity. Roger Easson appears at first to have taken up the challenge laid down in McGann’s essay. He analyzes the relation of the reader to the poem and to Blake in <hi rend="i">Jerusalem.</hi> Actually, though, he finds, instead of phenomenological intersubjectivity, an allegory of the relationship of author to reader projected objectively in the poem. The character Jerusalem, both a city and a woman, is also the poem. <hi rend="i">Jerusalem</hi> is seen as a metapoem. Either this is problematical, or it is a truism, with all successful poems made into metapoems by critics. The essay’s most interesting aspect is the discussion of Blake’s idea of the reader.</p>
+                    <p>Stuart Curran follows with an elaborate piece declaring for the existence of seven structures in the poem: " . . . a primary structure of four divisions, obviously linked by calls to various classes of readers; a two-part structure delineating the marked contrast between Ulro and Eden; a three-part structure whose pivots are climactic representations of the fallen state; a threefold and a fourfold division within each chapter stressing the dialectical mode of the poem; a sixfold division emphasizing the continuity of major events; a second three-part structure, derived from the sixfold, which surrounds the central two-thirds of the work, the World of Albion, with the perspective of Los’s visionary labor; and a sevenfold structure stressing the poem’s genre as epic prophecy and recalling its heritage within the tradition of Christian apocalypse." Curran’s collaborative effort with Wittreich in making this collection goes beyond a general interest in Blake. Their two essays are closely related in approach; one is tempted to imagine another book, a collaboration of authorship rather than editorship, in which their essays would be chapters, the subject
+<pb id="p07-72" n="72"/>
+being the generic structure of the prophecies. I must confess to some skepticism about all of the structures Curran finds, however, even as I applaud Curran’s extremely ingenious and insightful essay. Did Blake, or Curran, stop at seven for occult reasons? Would Curran demur from a follower’s attempt to discover that magnificent all-containing eighth lurking in the forests? Which is to say, with all the good will in the world and with all respect for the labors of these editors and authors, that <hi rend="i">Jerusalem</hi> remains yet to be fully delivered, but not, I think, from its critics.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>
