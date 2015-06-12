@@ -8,7 +8,7 @@
 	
 	function checkCapitalization($str, $field) {
 		$errors = '';
-		$words = explode(' ', $str);
+		$words = preg_split('/[- “”‘’]/', $str);
 		foreach($words as $word) {
 			if($word != strtolower($word) && $word != strtoupper($word) && $word != ucfirst(strtolower($word))) {
 				$errors .= "<p>".$field.": Word (".$word.") has unusual capitalization.</p>";
