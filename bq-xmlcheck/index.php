@@ -5,6 +5,17 @@
 	
 	require('include/functions.php');
 	require('include/head.php');
+	
+	function checkCapitalization($str, $field) {
+		$errors = '';
+		$words = explode(' ', $str);
+		foreach($words as $word) {
+			if($word != strtolower($word) && $word != strtoupper($word) && $word != ucfirst(strtolower($word))) {
+				$errors .= "<p>".$field.": Word (".$word.") has unusual capitalization.</p>";
+			}
+		}
+		return $errors;
+	}
 	?>
 	<body>
        <div id="outer">
@@ -157,15 +168,19 @@
 						$lastFigHead = $fn_t['figHead'][count($fn_t['figHead'])-1];
 						$lastFigHeadNum = substr($lastFigHead,0,2);
 						if($lastFigHeadNum == '1.' || $lastFigHeadNum == '1 ') {
-							$fn_t['errors'][] = "Last figure (which is not also the first figure) has head beginning: ".$lastFigHeadNum." -- does this figure belong to the following article?";
+							$fn_t['errors'][] = "Last figure (which is not also the first figure) has head beginning: '".$lastFigHeadNum."' -- does this figure belong to the following article?";
 						}
 					}
 					if(count($fn_t['figDesc']) > 1) {
 						$lastFigDesc = $fn_t['figDesc'][count($fn_t['figDesc'])-1];
 						$lastFigDescNum = substr($lastFigDesc,0,2);
 						if($lastFigDescNum == '1.' || $lastFigDescNum == '1 ') {
-							$fn_t['errors'][] = "Last figure (which is not also the first figure) has figDesc beginning: ".$lastFigDescNum." -- does this figure belong to the following article?";
+							$fn_t['errors'][] = "Last figure (which is not also the first figure) has figDesc beginning: '".$lastFigDescNum."' -- does this figure belong to the following article?";
 						}
+					}
+					$capTitle = checkCapitalization($fn_t['title'], 'Header title');
+					if($capTitle != '') {
+						$fn_t['errors'][] = $capTitle;
 					}
 
 					$docsXml[] = $fn_t;
