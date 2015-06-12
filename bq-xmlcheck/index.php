@@ -8,7 +8,7 @@
 	
 	function checkCapitalization($str, $field) {
 		$errors = '';
-		$words = preg_split('/[- “”‘’]/', $str);
+		$words = preg_split('/[- “”‘’\/—()\[\]]/', $str);
 		foreach($words as $word) {
 			if($word != strtolower($word) && $word != strtoupper($word) && $word != ucfirst(strtolower($word))) {
 				$errors .= "<p>".$field.": Word (".$word.") has unusual capitalization.</p>";
@@ -179,8 +179,10 @@
 						}
 					}
 					$capTitle = checkCapitalization($fn_t['title'], 'Header title');
-					if($capTitle != '') {
-						$fn_t['errors'][] = $capTitle;
+					$capAuthor = checkCapitalization($fn_t['author'], 'Author');
+					$capAuthorLast = checkCapitalization($fn_t['authorLast'], 'Author last');
+					if($capTitle != '' || $capAuthor != '' || $capAuthorLast != '') {
+						$fn_t['errors'][] = $capTitle.$capAuthor.$capAuthorLast;
 					}
 
 					$docsXml[] = $fn_t;
