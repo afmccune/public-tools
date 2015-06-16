@@ -53,14 +53,21 @@ $nl = "
 							$XMLsection = $FullXML->xpath('//text//head/title[@type="section"]');
 							$XMLsectionChild = $FullXML->xpath('//text//head/title[@type="section"]/*');
 							$XMLsectionChildChild = $FullXML->xpath('//text//head/title[@type="section"]/*/*');
-							$fn_t['section'] = $XMLsection[0].$XMLsectionChild[0].$XMLsectionChildChild[0];
+							$fn_t['section'] = '';
+							$fn_t['section'] .= (isset($XMLsection[0])) ? $XMLsection[0] : '';
+							$fn_t['section'] .= (isset($XMLsectionChild[0])) ? $XMLsectionChild[0] : '';
+							$fn_t['section'] .= (isset($XMLsectionChildChild[0])) ? $XMLsectionChildChild[0] : '';
 							$XMLmain = $FullXML->xpath('//text//head/title[@type="main"]');
 							$XMLmainChild = $FullXML->xpath('//text//head/title[@type="main"]/*');
 							$XMLmainChildChild = $FullXML->xpath('//text//head/title[@type="main"]/*/*');
 							$XMLmainDescendants = '';
-							$XMLmainDescendants .= (count($XMLmainChild) > 1) ? implode(' ', $XMLmainChild) : $XMLmainChild[0];
-							$XMLmainDescendants .= (count($XMLmainChildChild) > 1) ? implode(' ', $XMLmainChildChild) : $XMLmainChildChild[0];
-							$fn_t['main'] = $XMLmain[0].$XMLmainDescendants;
+							if(count($XMLmainChild) > 0) {
+								$XMLmainDescendants .= (count($XMLmainChild) > 1) ? implode(' ', $XMLmainChild) : $XMLmainChild[0];
+							}
+							if (count($XMLmainChildChild) > 0) {
+								$XMLmainDescendants .= (count($XMLmainChildChild) > 1) ? implode(' ', $XMLmainChildChild) : $XMLmainChildChild[0];
+							}
+							$fn_t['main'] = (isset($XMLmain[0])) ? $XMLmain[0].$XMLmainDescendants : $XMLmainDescendants;
 						
 								//if($fn_t['main'] != '' && preg_match('/"/', $fn_t['title']) && !preg_match('/"/', $fn_t['main'])) {
 								if(preg_match('/"/', $fn_t['title'])) {
