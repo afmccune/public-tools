@@ -61,7 +61,7 @@
 					$XMLheadings = $FullXML->xpath('//text//head/title');
 					$fn_t['headings'] = $XMLheadings; //array
 					$XMLfirstHeadingHi = $FullXML->xpath('//text//head[1]/title//hi');
-					$fn_t['firstHeadingHi'] = (count($XMLfirstHeadingHi)>0) ? implode(' ', $XMLfirstHeadingHi) : $XMLfirstHeadingHi;
+					$fn_t['firstHeadingHi'] = (count($XMLfirstHeadingHi)>0) ? implode(' ', $XMLfirstHeadingHi) : '';
 					$fn_t['firstHeadingCombo'] = (count($XMLheadings)>0) ? $XMLheadings[0].' '.$fn_t['firstHeadingHi'] : '';
 					$XMLheadingTypes = $FullXML->xpath('//text//head/title/@type');
 					$fn_t['headingTypes'] = $XMLheadingTypes; //array
@@ -72,7 +72,7 @@
 							$pages = explode('-', $pb);
 							for($i=0; $i<count($pages); $i++) {
 								$fn_t['pb'][] = $pages[$i];
-								if($pages[$i+1] && ($pages[$i]+1 != $pages[$i+1])) {
+								if(isset($pages[$i+1]) && ($pages[$i]+1 != $pages[$i+1])) {
 									$fn_t['pb'][] = $pages[$i]+1;
 								}
 							}
@@ -132,7 +132,7 @@
 					}
 					if(count($fn_t['pb']) > 0) {
 						for ($i=0; $i<count($fn_t['pb']); $i++) {
-							if($fn_t['type'] != 'toc' && $fn_t['pb'][$i+1] && ($fn_t['pb'][$i]+1 != $fn_t['pb'][$i+1])) {
+							if($fn_t['type'] != 'toc' && isset($fn_t['pb'][$i+1]) && ($fn_t['pb'][$i]+1 != $fn_t['pb'][$i+1])) {
 								$fn_t['errors'][] = "Page ".$fn_t['pb'][$i]." followed by page ".$fn_t['pb'][$i+1].".";
 							}
 						}
