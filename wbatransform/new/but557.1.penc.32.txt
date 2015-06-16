@@ -2,16 +2,16 @@ WB WB
 WB
 WB
 WB
-W B                
+W B 
 B W
 WB B
 W
 B
 W
 WB B
- W                
+ W 
 WB W
-B WB                
+B WB 
 WB
 WB WB
 inv & sc

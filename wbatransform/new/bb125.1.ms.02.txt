@@ -1,11 +1,11 @@
 page
 ✓ ✓ 24. A Dream
-✓ ✓ 25. On Anothers Sorrow                             
+✓ ✓ 25. On Anothers Sorrow 
 ✓ ✓ 26. The litle Boy Lost
 ✓ ✓ 27. The Little Boy Found 
 End of Songs of Innocence then Begins Songs of Experience
 ✓ 28 Frontispiece of Child on the Shepherds head
-✓ 29 Title Page to Songs of Experience                             
+✓ 29 Title Page to Songs of Experience 
 ✓ 30 Introduction __ Hear the Voice of the Bard &c
 ✓ 31 Earths Answer
 ✓ 32 Nurses Song

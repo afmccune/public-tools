@@ -1,4 +1,4 @@
-B 1  William                      Blake
+B 1  William Blake
 B William Blake
 N
 

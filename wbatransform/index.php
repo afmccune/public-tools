@@ -38,6 +38,7 @@
 						$XMLstring = file_get_contents( './wba/'.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
+						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
 						$XML->loadXML($XMLstring);
 
 					
