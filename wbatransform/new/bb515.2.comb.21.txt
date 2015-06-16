@@ -1,1 +1,2 @@
-inv: & sc WB 
+inv: & sc
+WB

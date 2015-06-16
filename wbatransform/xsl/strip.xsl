@@ -33,6 +33,11 @@
     <xsl:template match="phystext//del"/>
 
     <xsl:template match="phystext//l">
+       <xsl:apply-templates select="node()" /><xsl:text>
+</xsl:text>
+    </xsl:template>
+	
+	<xsl:template match="phystext//space">
        <xsl:apply-templates select="node()" /><xsl:text> </xsl:text>
     </xsl:template>
 

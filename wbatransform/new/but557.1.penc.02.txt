@@ -1,1 +1,12 @@
-1 Peter P 2 Andrew a 3 James J 4 John j 5 Philip P 6 Bartholomew B 7 Thomas M 8 Mathew T 9 James J 10 Lebbæus L 11 Judas 12 Simon 
+1 Peter P
+2 Andrew a
+3 James J
+4 John j
+5 Philip P
+6 Bartholomew B
+7 Thomas M
+8 Mathew T
+9 James J
+10 Lebbæus L
+11 Judas
+12 Simon

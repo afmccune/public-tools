@@ -1,1 +1,2 @@
-WBlake inv 10 
+WBlake inv
+10

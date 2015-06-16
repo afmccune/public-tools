@@ -1,1 +1,3 @@
-INRI inv WB 
+INRI
+inv
+WB
