@@ -24,7 +24,7 @@
 			$links = array();
 			
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/.xml/', $fn->getFilename())) { // [0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
 					
