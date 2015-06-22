@@ -192,9 +192,11 @@
 			}
 						
 			for ($i=0; $i<count($docsXml); $i++) {
-				print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
-				foreach($docsXml[$i]['errors'] as $error) {
-					print '<p>'.$error.'</p>';
+				if(count($docsXml[$i]['errors']) > 0) {
+					print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+					foreach($docsXml[$i]['errors'] as $error) {
+						print '<p>'.$error.'</p>';
+					}
 				}
 			}
 			?>
