@@ -36,33 +36,11 @@ $nl = "
 							$fn_t['fileSplit'] = $fileParts[2];
 
 							$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
-							$XMLidno = $FullXML->xpath('//teiHeader/idno');
-							$fn_t['idno'] = $XMLidno[0];
-							$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
-							$fn_t['type'] = $XMLtype[0];
 							$XMLtitleHi = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/hi');
 							$fn_t['titleHi'] = (count($XMLtitleHi) > 0) ? $XMLtitleHi[0] : '';
 							$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
 							$fn_t['title'] = $XMLtitle[0];
-							$XMLotherTitle = $FullXML->xpath('//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/title');
-							$fn_t['otherTitle'] = $XMLotherTitle[0];
-							$XMLheadings = $FullXML->xpath('//text//head/title');
-							$fn_t['headings'] = $XMLheadings; //array
-							$XMLheadingTypes = $FullXML->xpath('//text//head/title/@type');
-							$fn_t['headingTypes'] = $XMLheadingTypes; //array
-							$XMLsection = $FullXML->xpath('//text//head/title[@type="section"]');
-							$XMLsectionChild = $FullXML->xpath('//text//head/title[@type="section"]/*');
-							$XMLsectionChildChild = $FullXML->xpath('//text//head/title[@type="section"]/*/*');
-							$fn_t['section'] = $XMLsection[0].$XMLsectionChild[0].$XMLsectionChildChild[0];
-							$XMLmain = $FullXML->xpath('//text//head/title[@type="main"]');
-							$XMLmainChild = $FullXML->xpath('//text//head/title[@type="main"]/*');
-							$XMLmainChildChild = $FullXML->xpath('//text//head/title[@type="main"]/*/*');
-							$XMLmainDescendants = '';
-							$XMLmainDescendants .= (count($XMLmainChild) > 1) ? implode(' ', $XMLmainChild) : $XMLmainChild[0];
-							$XMLmainDescendants .= (count($XMLmainChildChild) > 1) ? implode(' ', $XMLmainChildChild) : $XMLmainChildChild[0];
-							$fn_t['main'] = $XMLmain[0].$XMLmainDescendants;
 						
-								//if($fn_t['main'] != '' && preg_match('/"/', $fn_t['title']) && !preg_match('/"/', $fn_t['main'])) {
 								if(preg_match("/'s /", $fn_t['title'])) {
 									$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 																
@@ -71,13 +49,20 @@ $nl = "
 								
 									$XMLstringNew = preg_replace('/'.$oldTitle.'/', $newTitle, $XMLstring, 1);
 									
-									//if($XMLstringNew == $XMLstring) {
-									//	echo '<p>'.$fn_t['fn'].': NO CHANGE</p>';
-									//} else {
 										file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
 
 										echo '<p>Converted '.$fn_t['fn'].'</p>';									
-									//}
+								} else if(preg_match("/'s /", $fn_t['titleHi'])){
+									$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+																
+									$oldTitle = $fn_t['titleHi'];
+									$newTitle = preg_replace("/'s /", "’s ", $oldTitle, 1);
+								
+									$XMLstringNew = preg_replace('/'.$oldTitle.'/', $newTitle, $XMLstring, 1);
+									
+										file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
+
+										echo '<p>Converted '.$fn_t['fn'].'</p>';									
 								}
 						}	
 					}
