@@ -150,11 +150,11 @@ require('include/functions.php');
 				$list['̣'] = '&#803;';
 				
 				$search = implode('', array_keys($list));
-				$search .= "A-Za-z0-9 !\-\?=:\.\|,\(\)\/;_\{}%'#\[\]\*\$\+\@\^~\\";
+				$search .= "A-Za-z0-9 !\-\?=:\.\|,\(\)\/;_\{}%'#\[\]\*\$\+\@\^~\r\n	";
 				//$search = utf8_encode($search);
 				//$search = iconv(mb_detect_encoding($search, mb_detect_order(), true), "UTF-8", $search);
 
-				$str_out = preg_replace('/['.$search.']{1,}/', '', $str_in);
+				$str_out = preg_replace('/['.$search.']{1,}[\\]?/', '', $str_in);
 				return $str_out;
 			}
 						
@@ -191,8 +191,9 @@ $nl = "
 													
 								$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
 								$chars = strip_chars($HTMLstring);
+								$ct = strlen($chars);
 								
-								echo '<p>'.$fn_t['file'].': '.$chars.'</p>';
+								echo '<p>'.$fn_t['file'].': "'.$chars.'" ['.$ct.']</p>';
 							}	
 						}
 						
