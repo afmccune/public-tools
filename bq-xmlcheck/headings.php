@@ -60,8 +60,12 @@
 							$XMLmainChild = $FullXML->xpath('//text//head/title[@type="main"]/*');
 							$XMLmainChildChild = $FullXML->xpath('//text//head/title[@type="main"]/*/*');
 							$XMLmainDescendants = '';
-							$XMLmainDescendants .= (count($XMLmainChild) > 1) ? implode(' ', $XMLmainChild) : $XMLmainChild[0];
-							$XMLmainDescendants .= (count($XMLmainChildChild) > 1) ? implode(' ', $XMLmainChildChild) : $XMLmainChildChild[0];
+							if(count($XMLmainChild) > 0) {
+								$XMLmainDescendants .= (count($XMLmainChild) > 1) ? implode(' ', $XMLmainChild) : $XMLmainChild[0];
+							}
+							if(count($XMLmainChildChild) > 0) {
+								$XMLmainDescendants .= (count($XMLmainChildChild) > 1) ? implode(' ', $XMLmainChildChild) : $XMLmainChildChild[0];
+							}
 							$fn_t['main'] = $XMLmainText.$XMLmainDescendants;
 							
 
