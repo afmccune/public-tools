@@ -49,8 +49,9 @@
 						if($XMLdocAuthors[$i] == 'MDP') {
 							$fn_t['docAuthors'][$i] = 'Morton D. Paley';
 						} else {
+							$forename = preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor) /', '', $XMLdocAuthors[$i])));
 							$surname = (isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
-							$fn_t['docAuthors'][$i] = $XMLdocAuthors[$i].$surname;
+							$fn_t['docAuthors'][$i] = $forename.$surname;
 						}
 					}
 
