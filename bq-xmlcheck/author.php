@@ -37,12 +37,28 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+						# LOAD XML FILE 
+						$XML = new DOMDocument(); 
+						$XMLstring = file_get_contents( '../../bq/docs/'.$fn_t['fn'] );
+						$remove = array("\n", "\r\n", "\r");
+						$XMLstring = str_replace($remove, ' ', $XMLstring);
+						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
+						$XML->loadXML($XMLstring);
 					
-					$XMLdocAuthors = $FullXML->xpath('//text//docAuthor');
+						# START XSLT 
+						$xslt = new XSLTProcessor(); 
+						$XSL = new DOMDocument(); 
+						$XSL->load( 'xsl/docAuthor.xsl'); 
+						$xslt->importStylesheet( $XSL ); 
+						#PRINT 
+						$stripped = $xslt->transformToXML( $XML ); 
+
+						$FullXML = simplexml_load_string($stripped);
+											
+					$XMLdocAuthors = $FullXML->xpath('//docAuthor');
 					$XMLdocAuthors = array_unique($XMLdocAuthors); //array
 					$fn_t['docAuthors'] = array();
-					$XMLdocAuthorsNames = $FullXML->xpath('//text//docAuthor/name');
+					$XMLdocAuthorsNames = $FullXML->xpath('//docAuthor/name');
 					$fn_t['docAuthorsNames'] = array_unique($XMLdocAuthorsNames); //array
 					
 					for($i=0; $i<count($XMLdocAuthors); $i++) {
