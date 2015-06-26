@@ -3,6 +3,10 @@
 	<?php
 	require('include/functions.php');
 	require('include/head.php');
+	
+    function in_arrayi($needle, $haystack) {
+        return in_array(strtolower($needle), array_map('strtolower', $haystack));
+    }
 	?>
 	<body>
        <div id="outer">
@@ -36,9 +40,19 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					
 					$XMLdocAuthors = $FullXML->xpath('//text//docAuthor');
-					$fn_t['docAuthors'] = array_unique($XMLdocAuthors); //array
+					$XMLdocAuthors = array_unique($XMLdocAuthors); //array
+					$fn_t['docAuthors'] = array();
 					$XMLdocAuthorsNames = $FullXML->xpath('//text//docAuthor/name');
 					$fn_t['docAuthorsNames'] = array_unique($XMLdocAuthorsNames); //array
+					
+					for($i=0; $i<count($XMLdocAuthors); $i++) {
+						if($XMLdocAuthors[$i] == 'MDP') {
+							$fn_t['docAuthors'][$i] = 'Morton D. Paley';
+						} else {
+							$surname = (isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
+							$fn_t['docAuthors'][$i] = $XMLdocAuthors[$i].$surname;
+						}
+					}
 
 					$XMLauthors = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author');
 					$fn_t['authors'] = $XMLauthors; //array
@@ -50,7 +64,11 @@
 						if(count($fn_t['authors']) < count($fn_t['docAuthors'])) {
 							$fn_t['errors'][] = "Fewer header authors than in-text docAuthors.";
 						}
-						
+						foreach($fn_t['authors'] as $author){
+							if(in_arrayi($author, $fn_t['docAuthors']) !== true) {
+								$fn_t['errors'][] = "Header author (".$author.") does not match in-text docAuthors (".implode(', ', $fn_t['docAuthors']).").";
+							}
+						}
 					}
 					
 					$docsXml[] = $fn_t;
