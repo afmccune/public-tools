@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<?php
+	$pt = '';
+	
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -52,6 +54,7 @@
 						$xslt->importStylesheet( $XSL ); 
 						#PRINT 
 						$stripped = $xslt->transformToXML( $XML ); 
+						//file_put_contents('new/'.$fn_t['fn'], $stripped);
 
 						$FullXML = simplexml_load_string($stripped);
 											
@@ -60,20 +63,22 @@
 					$fn_t['docAuthors'] = array();
 					$XMLdocAuthorsNames = $FullXML->xpath('//docAuthor/name');
 					$fn_t['docAuthorsNames'] = array_unique($XMLdocAuthorsNames); //array
+					//$surname = 'surname';//(isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
 					
 					for($i=0; $i<count($XMLdocAuthors); $i++) {
 						if($XMLdocAuthors[$i] == 'MDP') {
 							$fn_t['docAuthors'][$i] = 'Morton D. Paley';
 						} else {
-							$forename = preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor) /', '', $XMLdocAuthors[$i])));
-							$surname = (isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
-							$fn_t['docAuthors'][$i] = $forename.$surname;
+							$fn_t['docAuthors'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor) /', '', $XMLdocAuthors[$i]))));
+							if(substr($fn_t['docAuthors'][$i], strlen($fn_t['docAuthors'][$i])-1, 1) == ',') {
+								$fn_t['docAuthors'][$i] = substr($fn_t['docAuthors'][$i], 0, strlen($fn_t['docAuthors'][$i])-1);
+							}
 						}
 					}
 
-					$XMLauthors = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author');
+					$XMLauthors = $FullXML->xpath('//author');
 					$fn_t['authors'] = $XMLauthors; //array
-					$XMLauthorsLast = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author/@n');
+					$XMLauthorsLast = $FullXML->xpath('//author/@n');
 					$fn_t['authorsLast'] = $XMLauthorsLast; //array
 					
 					$fn_t['errors'] = array();
