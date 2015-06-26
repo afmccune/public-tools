@@ -36,9 +36,9 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					
 					$XMLdocAuthors = $FullXML->xpath('//text//docAuthor');
-					$fn_t['docAuthors'] = $XMLdocAuthors; //array
+					$fn_t['docAuthors'] = array_unique($XMLdocAuthors); //array
 					$XMLdocAuthorsNames = $FullXML->xpath('//text//docAuthor/name');
-					$fn_t['docAuthorsNames'] = $XMLdocAuthorsNames; //array
+					$fn_t['docAuthorsNames'] = array_unique($XMLdocAuthorsNames); //array
 
 					$XMLauthors = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author');
 					$fn_t['authors'] = $XMLauthors; //array
