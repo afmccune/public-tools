@@ -74,7 +74,15 @@
 							global $XMLdocAuthorsNames;
 							$XMLdocAuthorsNames[] = 'Paley';
 							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is MDP. ';
-							$fn_t['statements'] .= 'DocAuthorsNames: ('.implode(', ', $XMLdocAuthorsNames).') ';
+							//$fn_t['statements'] .= 'DocAuthorsNames: ('.implode(', ', $XMLdocAuthorsNames).') ';
+						} else if($XMLdocAuthors[$i] == 'DDA') {
+							$fn_t['docAuthors'][$i] = 'Donald D. Ault';
+							global $XMLdocAuthorsNames;
+							$XMLdocAuthorsNames[] = 'Ault';
+						} else if($XMLdocAuthors[$i] == 'ALG') {
+							$fn_t['docAuthors'][$i] = 'Andrew L. Griffin';
+							global $XMLdocAuthorsNames;
+							$XMLdocAuthorsNames[] = 'Griffin';
 						} else {
 							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is not MDP. ';
 							
