@@ -9,6 +9,14 @@
     function in_arrayi($needle, $haystack) {
         return in_array(strtolower($needle), array_map('strtolower', $haystack));
     }
+	
+	function lastChar($str) {
+		return substr($str, strlen($str)-1, 1);
+	}
+	
+	function allButLastChar($str) {
+		return substr($str, 0, strlen($str)-1);
+	}
 	?>
 	<body>
        <div id="outer">
@@ -66,15 +74,11 @@
 					$fn_t['docAuthorsNames'] = array();
 					//$surname = 'surname';//(isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
 					
-					$fn_t['statements'] = '';
-					
 					for($i=0; $i<count($XMLdocAuthors); $i++) {
 						if($XMLdocAuthors[$i] == 'MDP' || trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', $XMLdocAuthors[$i]))) == 'MDP') {
 							$fn_t['docAuthors'][$i] = 'Morton D. Paley';
 							global $XMLdocAuthorsNames;
 							$XMLdocAuthorsNames[] = 'Paley';
-							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is MDP. ';
-							//$fn_t['statements'] .= 'DocAuthorsNames: ('.implode(', ', $XMLdocAuthorsNames).') ';
 						} else if($XMLdocAuthors[$i] == 'DDA') {
 							$fn_t['docAuthors'][$i] = 'Donald D. Ault';
 							global $XMLdocAuthorsNames;
@@ -84,12 +88,14 @@
 							global $XMLdocAuthorsNames;
 							$XMLdocAuthorsNames[] = 'Griffin';
 						} else {
-							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is not MDP. ';
 							
-							$fn_t['docAuthors'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor) /', '', $XMLdocAuthors[$i]))));
-							if(substr($fn_t['docAuthors'][$i], strlen($fn_t['docAuthors'][$i])-1, 1) == ',') {
-								$fn_t['docAuthors'][$i] = substr($fn_t['docAuthors'][$i], 0, strlen($fn_t['docAuthors'][$i])-1);
+							$fn_t['docAuthors'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor|Dr.|Mr.) /', '', $XMLdocAuthors[$i]))));
+							
+							$lc = lastChar($fn_t['docAuthors'][$i]);
+							if($lc == ',' || $lc == ':' || $lc == ':') {
+								$fn_t['docAuthors'][$i] = trim(allButLastChar($fn_t['docAuthors'][$i]));
 							}
+
 						}
 					}
 					
@@ -121,7 +127,7 @@
 						}
 						foreach($fn_t['authorsLast'] as $authorLast){
 							if(in_arrayi($authorLast, $fn_t['docAuthorsNames']) !== true) {
-								$fn_t['errors'][] = "Header author last name (".$authorLast.") does not match in-text docAuthor last names (".implode(', ', $fn_t['docAuthorsNames'])."). ".$fn_t['statements'];
+								$fn_t['errors'][] = "Header author last name (".$authorLast.") does not match in-text docAuthor last names (".implode(', ', $fn_t['docAuthorsNames']).").";
 							}
 						}
 					}
