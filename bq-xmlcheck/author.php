@@ -62,26 +62,46 @@
 					$XMLdocAuthors = array_unique($XMLdocAuthors); //array
 					$fn_t['docAuthors'] = array();
 					$XMLdocAuthorsNames = $FullXML->xpath('//docAuthor/name');
-					$fn_t['docAuthorsNames'] = array_unique($XMLdocAuthorsNames); //array
+					$XMLdocAuthorsNames = array_unique($XMLdocAuthorsNames); //array
+					$fn_t['docAuthorsNames'] = array();
 					//$surname = 'surname';//(isset($fn_t['docAuthorsNames'][$i])) ? $fn_t['docAuthorsNames'][$i] : $fn_t['docAuthorsNames'][0];
 					
+					$fn_t['statements'] = '';
+					
 					for($i=0; $i<count($XMLdocAuthors); $i++) {
-						if($XMLdocAuthors[$i] == 'MDP') {
+						if($XMLdocAuthors[$i] == 'MDP' || trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', $XMLdocAuthors[$i]))) == 'MDP') {
 							$fn_t['docAuthors'][$i] = 'Morton D. Paley';
+							global $XMLdocAuthorsNames;
+							$XMLdocAuthorsNames[] = 'Paley';
+							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is MDP. ';
+							$fn_t['statements'] .= 'DocAuthorsNames: ('.implode(', ', $XMLdocAuthorsNames).') ';
 						} else {
+							//$fn_t['statements'] .= '"'.$XMLdocAuthors[$i].'" is not MDP. ';
+							
 							$fn_t['docAuthors'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor) /', '', $XMLdocAuthors[$i]))));
 							if(substr($fn_t['docAuthors'][$i], strlen($fn_t['docAuthors'][$i])-1, 1) == ',') {
 								$fn_t['docAuthors'][$i] = substr($fn_t['docAuthors'][$i], 0, strlen($fn_t['docAuthors'][$i])-1);
 							}
 						}
 					}
+					
+					$fn_t['docAuthorsNames'] = $XMLdocAuthorsNames;
+					for($i=0; $i<count($fn_t['docAuthorsNames']); $i++) {
+							$fn_t['docAuthorsNames'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', $fn_t['docAuthorsNames'][$i])));
+					}					
+					/*
+					for($i=0; $i<count($XMLdocAuthorsNames); $i++) {
+							$fn_t['docAuthorsNames'][$i] = $XMLdocAuthorsNames[$i];
+					}
+					*/
 
 					$XMLauthors = $FullXML->xpath('//author');
 					$fn_t['authors'] = $XMLauthors; //array
 					$XMLauthorsLast = $FullXML->xpath('//author/@n');
 					$fn_t['authorsLast'] = $XMLauthorsLast; //array
-					
+										
 					$fn_t['errors'] = array();
+
 					if(count($fn_t['docAuthors']) > 0) {
 						if(count($fn_t['authors']) < count($fn_t['docAuthors'])) {
 							$fn_t['errors'][] = "Fewer header authors than in-text docAuthors.";
@@ -89,6 +109,11 @@
 						foreach($fn_t['authors'] as $author){
 							if(in_arrayi($author, $fn_t['docAuthors']) !== true) {
 								$fn_t['errors'][] = "Header author (".$author.") does not match in-text docAuthors (".implode(', ', $fn_t['docAuthors']).").";
+							}
+						}
+						foreach($fn_t['authorsLast'] as $authorLast){
+							if(in_arrayi($authorLast, $fn_t['docAuthorsNames']) !== true) {
+								$fn_t['errors'][] = "Header author last name (".$authorLast.") does not match in-text docAuthor last names (".implode(', ', $fn_t['docAuthorsNames'])."). ".$fn_t['statements'];
 							}
 						}
 					}
