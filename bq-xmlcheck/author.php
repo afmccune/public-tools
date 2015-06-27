@@ -14,6 +14,10 @@
 		return substr($str, strlen($str)-1, 1);
 	}
 	
+	function last3Char($str) {
+		return substr($str, strlen($str)-3, 3);
+	}
+	
 	function allButLastChar($str) {
 		return substr($str, 0, strlen($str)-1);
 	}
@@ -92,7 +96,7 @@
 							$fn_t['docAuthors'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', preg_replace('/(Mrs.|Professor|Dr.|Mr.) /', '', $XMLdocAuthors[$i]))));
 							
 							$lc = lastChar($fn_t['docAuthors'][$i]);
-							if($lc == ',' || $lc == ':' || $lc == ':') {
+							if($lc == ',' || $lc == ':' || ($lc == '.' && last3Char($fn_t['docAuthors'][$i]) != 'Jr.' && last3Char($fn_t['docAuthors'][$i]) != 'JR.')) {
 								$fn_t['docAuthors'][$i] = trim(allButLastChar($fn_t['docAuthors'][$i]));
 							}
 
