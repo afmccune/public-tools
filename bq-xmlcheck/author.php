@@ -106,6 +106,11 @@
 					$fn_t['docAuthorsNames'] = $XMLdocAuthorsNames;
 					for($i=0; $i<count($fn_t['docAuthorsNames']); $i++) {
 							$fn_t['docAuthorsNames'][$i] = trim(preg_replace('/[ ]{2,}/', ' ', preg_replace('/[\r\n]{0,}/', '', $fn_t['docAuthorsNames'][$i])));
+
+							$lc = lastChar($fn_t['docAuthorsNames'][$i]);
+							if($lc == ',' || $lc == ':' || $lc == '.') {
+								$fn_t['docAuthorsNames'][$i] = trim(allButLastChar($fn_t['docAuthorsNames'][$i]));
+							}
 					}					
 					/*
 					for($i=0; $i<count($XMLdocAuthorsNames); $i++) {
