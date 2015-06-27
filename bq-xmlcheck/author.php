@@ -7,7 +7,7 @@
 	require('include/head.php');
 	
     function in_arrayi($needle, $haystack) {
-        return in_array(strtolower($needle), array_map('strtolower', $haystack));
+        return in_array(mb_strtolower($needle, 'UTF-8'), array_map('mb_strtolower', $haystack));
     }
 	
 	function lastChar($str) {
