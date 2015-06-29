@@ -129,7 +129,7 @@ $nl = "
 								preg_match( '@<meta\s+http-equiv="Content-Type"\s+content="([\w/]+)(;\s+charset=([^\s"]+))?@i', $HTMLstring, $matches );
 								$fn_t['encoding'] = $matches[3];
 								
-								$FullHTML = file_get_html('../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
 								$HTMLvolume = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Volume]', 'content');
 								$fn_t['volume'] = ($HTMLvolume[0] == '') ? $fn_t['fileVol'] : $HTMLvolume[0];
 								$HTMLissue = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Issue]', 'content');
@@ -149,6 +149,10 @@ $nl = "
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = str_replace('&', 'and', $fn_t['title']);
+								$HTMLmainArticle = getHtmlElementArray($FullHTML, 'meta[name=mainArticle]', 'content');
+								$fn_t['mainArticle'] = (count($HTMLmainArticle) > 0) ? $HTMLmainArticle[0] : '';
+								$HTMLmainArticleTitle = getHtmlElementArray($FullHTML, 'meta[name=mainArticleTitle]', 'content');
+								$fn_t['mainArticleTitle'] = (count($HTMLmainArticleTitle) > 0) ? $HTMLmainArticleTitle[0] : '';
 								$HTMLformat = getHtmlElementArray($FullHTML, 'meta[name=DC.Format]', 'content');
 								$fn_t['format'] = $HTMLformat[0];
 								$XMLauthors = getHtmlElementArray($FullHTML, 'meta[name=DC.Creator.PersonalName]', 'content');
@@ -178,6 +182,7 @@ $nl = "
 								$fn_t['fulltext'] = str_replace('<', '', $fn_t['fulltext']);
 								$fn_t['fulltext'] = str_replace('>', '', $fn_t['fulltext']);
 								$fn_t['fulltext'] = str_replace('&', 'and', $fn_t['fulltext']);
+								//$fn_t['fulltext'] = preg_replace('/[\r\n]{2,}/', $nl, $fn_t['fulltext']);
 								
 								//print('<pre>');
 								//print_r($fn_t);
@@ -197,6 +202,10 @@ $nl = "
 								$fn_t['HTML'] .= '		<field name="format">text/html</field>'.$nl;
 								$fn_t['HTML'] .= '		<field name="title">'.$fn_t['title'].'</field>'.$nl;
 								$fn_t['HTML'] .= '		<field name="type">'.$fn_t['type'].'</field>'.$nl;
+								if($fn_t['type'] == 'illustration') {
+								$fn_t['HTML'] .= '		<field name="mainArticle">'.$fn_t['mainArticle'].'</field>'.$nl;
+								$fn_t['HTML'] .= '		<field name="mainArticleTitle">'.$fn_t['mainArticleTitle'].'</field>'.$nl;
+								}
 								$fn_t['HTML'] .= '		<field name="fulltext">'.$fn_t['fulltext'].'</field>'.$nl;
 								$fn_t['HTML'] .= '</doc>'.$nl;
 
