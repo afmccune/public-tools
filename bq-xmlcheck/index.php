@@ -102,7 +102,7 @@
 					if($fn_t['idno'] != $fn_t['file']) {
 						$fn_t['errors'][] = "File idno does not match filename, but idno is: ".$fn_t['idno'];
 					}
-					if($fn_t['type'] != 'toc' && $fn_t['type'] != 'article' && $fn_t['type'] != 'discussion' && $fn_t['type'] != 'minute' && $fn_t['type'] != 'news' && $fn_t['type'] != 'review' && $fn_t['type'] != 'note' && $fn_t['type'] != 'query' && $fn_t['type'] != 'poem' && $fn_t['type'] != 'correction' && $fn_t['type'] != 'checklist' && $fn_t['type'] != 'remembrance') {
+					if($fn_t['type'] != 'toc' && $fn_t['type'] != 'article' && $fn_t['type'] != 'discussion' && $fn_t['type'] != 'minute' && $fn_t['type'] != 'news' && $fn_t['type'] != 'review' && $fn_t['type'] != 'note' && $fn_t['type'] != 'query' && $fn_t['type'] != 'poem' && $fn_t['type'] != 'correction' && $fn_t['type'] != 'checklist' && $fn_t['type'] != 'remembrance' && $fn_t['type'] != 'index') {
 						$fn_t['errors'][] = "Type is not one of the standard ones, but instead: ".$fn_t['type'];
 					}
 					if($fn_t['fileSplit'] == 'toc' && $fn_t['type'] != 'toc') {
