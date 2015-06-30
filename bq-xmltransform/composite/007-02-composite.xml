@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>7.2.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Fall 1973</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1973</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">07.2</biblScope>
+                        <biblScope unit="volume">7</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Editors</resp>
+                            <name>Morris Eaves</name>
+                            <name>Morton D. Paley</name>
+                            <resp>Associate Editor</resp>
+                            <name>Michael Phillips</name>
+                            <resp>Editorial Assistants: for production</resp>
+                            <name>Michael Davies</name>
+                            <name>Judith Wallick Page</name>
+                            <resp>Editorial Assistants: for subscriptions</resp>
+                            <name>Graham Conley</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1973"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_07">
+        <front>
+            <pb id="p07-26-27" n="26-27"/>
+            <div1 id="cover">
+                <figure n="cover.007.02.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter 26</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-07-2-0001">
+                <table id="contents" rows="8" cols="2">
+                	<row>
+            			<cell colspan="3">
+                			<head>
+                    			<title>
+                        		<supplied type="emend"><hi rend="b">Contents</hi></supplied>
+                    			</title>
+               				</head>
+            			</cell>
+        			</row>
+                    <row>
+                        <cell>
+                            <hi rend="b">NEWS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="7.2.temple">Temple University Blake Days</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.berkeley">Berkeley Blake Weekend</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.mla">MLA Seminar on Blake and the Moderns</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.erdman">Erdman Lectures</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.night"><hi rend="i">Night Thoughts</hi> Copy Discovered</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.veracruz">Blake in Veracruz</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.golgonooza"><hi rend="i">News from Golgonooza</hi></ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.sales">Sales</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.exhibitions">Exhibitions</ref></cell>
+                    </row>
+                    <row>
+                    	<cell><ref type="article" issue="7.2.work">Work in Progress</ref></cell>
+                        <cell>28</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">NOTES</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>John Wright, <ref type="article" issue="7.2.wright">Toward Recovering Blake’s Relief-Etching Process</ref></cell>
+                        <cell>32</cell>
+                    </row>
+                    <row>
+                        <cell>John E. Grant &amp; Mary Lynn Johnson, <ref type="article" issue="7.2.grant">Illuminated Books in the Cincinnati Art Museum</ref></cell>
+                        <cell>40</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">BIBLIOGRAPHY</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="7.2.bibliography">A Bibliography of Blake Scholarship in the United Kingdom, 1972-73</ref>, Compiled by James B. Ferguson &amp; Frank M. Parisi, with the assistance of Michael Phillips</cell>
+                        <cell>44</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright©1974 by Morris Eaves &amp; Morton D. Paley</note>
+                <p>The <hi rend="i">Blake Newsletter, An Illustrated Quarterly</hi>, is published quarterly under the sponsorship of the Department of English of the University of New Mexico. Support for bibliographical assistance is provided by the University of California, Berkeley.</p>
+                <p>Editors: Morris Eaves (University of New Mexico) and Morton D. Paley (University of California, Berkeley).</p>
+                <p>Associate Editor: Michael Phillips (University of Edinburgh).</p>
+                <p>Editorial Assistants: for production, Michael Davies and Judith Wallick Page; for subscriptions, Graham Conley (University of New Mexico).</p>
+                <p>Manuscripts are welcome. Send two copies to either of the editors: Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131; Morton Paley, Dept. of English, Univ. of California, Berkeley, Ca. 94720.</p>
+                <p>Subscriptions are $5 for one year, four issues; special rate for individuals, $4 for one year, surface mail; for those subscribers overseas who want to receive their issues by air mail, $8. U.S. currency or international money order if possible. Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131.</p>
+                <p>Some back issues are available. Address Morris Eaves. Prices: whole numbers 14, 15, 21, 22, 23, 24, and 25, $2 each. Whole number 20 (<hi rend="i">A Handlist of Works by William Blake in the Department of Prints &amp; Drawings of the British Museum</hi>, edited by G. E. Bentley, Jr.), $3.</p>
+                <p>The ISSN (International Standard Serial Number) of the <hi rend="i">Blake Newsletter</hi> is 0006-453X.</p>
+            </div1>
+        </front>
+    	<body>
+    		<pb id="p7-48" n="48"/>
+    		<div1>
+    			<div2>
+    				<div3 type="in-memoriam">KERRISON PRESTON 1884-1974</div3>
+    			</div2>
+    		</div1>
+    	</body>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <pb id="p07-28" n="28"/>
+        <body>
+            <div1 id="BQ-07-2-0002">
+                <head>
+                    <title>
+                        <hi rend="b">NEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">TEMPLE UNIVERSITY BLAKE DAYS</hi>
+                        </title>
+                    </head>
+                    <p>The Samuel Paley Library at Temple, in cooperation with the Department of English, College of Music, and School of Communications and Theater held a Blake Celebration from 18 February to 1 March 1974. An exhibit of Blake materials was arranged by the Library’s Department of Special Collections. On 20 February Michael Horovitz, editor and publisher of <hi rend="i">New Departures</hi>, read from his poetry. On 22 February James G. Smith of the English Department at Temple gave an illustrated talk on "Blake’s <hi rend="i">Job</hi>--the Art and the System." On 26 February Sheldon Brivic, Annette Levitt, and James G. Smith of the English Department gave readings from Blake’s works, and on 27 February the same group joined by Richard Beckman and Jim Blackaby gave papers and led discussions on Blake. On 28 February students from the College of Music and the School of Communications and Theater performed Blake-inspired music and dance. And throughout the days of the Celebration Blake films and videotapes were shown.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">BERKELEY BLAKE WEEKEND</hi>
+                        </title>
+                    </head>
+                    <p>"William Blake: A Celebration" was the theme of a weekend conference held 1-2 March 1974 at the Berkeley campus of the University of California under the auspices of the University of California Extension. Morton Paley, program coordinator, introduced the program, which included slides, films, and a series of lectures.</p>
+                    <p>David Erdman, State University of New York at Stony Brook, presented the first lecture of the series, "The Burden of the Present," examining some of the contemporary political events that influenced Blake and other Romantic poets. He supplemented his lecture with a number of slides and offered an interpretation of some of the designs in <hi rend="i">Milton.</hi> His lecture was followed by the presentation of three films, <hi rend="i">The Vision of William Blake, Tyger, Tyger</hi>, and <hi rend="i">Holy Thursday</hi>, which concluded the first day of the Celebration.</p>
+                    <p>The Saturday morning session included lectures by Hazard Adams, University of California, Irvine, Robert Essick, California State University at Northridge, and Morris Eaves, University of New Mexico. With particular attention to a passage from <hi rend="i">Europe</hi>, Hazard Adams examined some of the influences on "Blake’s Symbolism." Blake as etcher and engraver was the subject of lectures by Robert Essick and Morris Eaves. In "William Blake, Book Illustrator," Essick used slides to survey the development of Blake’s commercial engraving style and to explore some of the relationships between Blake’s work as a commercial engraver and as poet-painter. In a complementary lecture, "Blake versus the Printing Press," Eaves used microphotographs of engravings to explain Blake’s rejection of ordinary means of printing and publishing in favor of "illuminated printing."</p>
+                    <p>Anne K. Mellor, Stanford University, opened the Saturday afternoon session of the series with her lecture "The Major Paintings," using slides to show the iconography of Blake’s paintings. Taking a cue from the phrase, "I was only making a fool of you" (<hi rend="i">Island in the Moon</hi>), Robert Gleckner, University of California, Riverside, speculated that there may be a good deal more humor in Blake’s works than his readers are usually inclined to recognize. In "The Shorter Poems," Gleckner pointed to passages in the lyrics where Blake may be using "non-sense" on his readers. In the concluding lecture, "The Longer Poems," Morton D. Paley, University of California, Berkeley, showed slides of some of the plates of <hi rend="i">Milton</hi> and <hi rend="i">Jerusalem</hi> to illustrate his interpretation of the major designs in both poems.</p>
+                    <p>In addition to the slides and films supplementing the lectures, there were a number of Blake’s prints on display at two exhibitions on the Berkeley campus. Among forty Blake prints shown at the University Art Museum from 13 February through 17 March were some of the illustrations to the Book of Job, to Blair’s <hi rend="i">Grave</hi>, and Young’s
+<pb id="p07-29" n="29"/>
+                        <hi rend="i">Night Thoughts.</hi> This exhibition was organized by Museum Registrar Joy Feinberg and Morton Paley. The prints displayed were from the University Art Museum and other Bay Area collections, including the collection of Robert Essick. Materials for an exhibition of Blake books presented in the Main Library at Berkeley, 23 February-31 March, were from the Bancroft Library, Biology Library, the collection of Mrs. Charles C. Cushing, and the University Art Museum. Leslie Clark, Rare Books Librarian at the Bancroft Library, assisted Morton Paley with the arrangement of and commentary for this exhibition. <hi rend="i">(Our thanks to Donna Rix of the University of New Mexico for this item. Eds.)</hi>
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">BLAKE-MODERNS SEMINAR</hi>
+                        </title>
+                    </head>
+                    <p>Despite its setting amidst the awkward clutter of bare wood tables left over from a previous night’s dinner, the MLA Seminar on Blake and the Moderns held the attention of some fifty participants well past its scheduled closing.</p>
+                    <p>Intended to explore the extent and diversity of Blake’s influence on twentieth-century writing, the seminar ranged in its papers and discussion from specific textual parallels between Blake and his "descendants" to the more general controversy between the view which sees Blake as a unique force on modern literature and that which contends that he is simply a part of the Romantic or visionary traditions re-emerging in our time. Indeed, the latter issue may become the focus of the 1974 Seminar on Blake and the Moderns.</p>
+                    <p>Annette Levitt’s introduction to the Seminar gave a sense of Blake’s multifaceted appeal to modern writers, the variety of their responses to him, and, finally, the diversity of approaches adopted by critics in reaction to Blake and his twentieth-century followers. The panelists, speaking from their own critical stances, revealed richly the value of such explorations for an understanding of both Blake and modern literature.</p>
+                    <p>Kay Parkhurst Easson, talking on "Books of Blakeends Jined: Towards a Sense of Structure in Blake and the 20th Century," offered a broad but detailed view of Blake’s attacks on the limits of traditional structure in order to change the perceptions of his audience--and the ways in which such novelists as Joyce, Beckett, Woolf, and Nin pursue similar routes to achieve similar effects. The kinship between Blake and the modern novel was then narrowed in focus somewhat, as Barton Friedman, in "Rapes and Robbers: Preludic Myth and Narrative History in <hi rend="i">America, Europe</hi>, and <hi rend="i">Nostromo</hi>," developed Toynbee’s view that myths grow out of cultural crises and in crucial respects shadow history; Friedman discussed the preludia to <hi rend="i">America</hi> and <hi rend="i">Europe</hi> and Conrad’s "tale of the gringos" as each orders our reading of the main body of the work--and of history itself. Finally, to narrow and intensify the focus still further, Alicia Ostriker, speaking on "Blake, Ginsberg, and Madness," analyzed the role of the poet-prophet as shaman, by describing Blake’s varied uses of "madness," ultimately seen as the poet’s absorbing of the ills of society in order to cleanse it; she illustrated her view with close readings of Blake and Ginsberg, primarily from <hi rend="i">The Four Zoas</hi> and <hi rend="i">Howl.</hi>
+                    </p>
+                    <p>The questions and discussion which followed centered on such issues as the role of Whitman and other American writers in continuing the Blake tradition, the need to study such poets as Robert Duncan as heirs of Blake, and the possible subsuming of Blake’s influence on modern literature under the more general relationship among modern literature, Romanticism, and the visionary tradition. One felt--after more than two hours of stimulating talk--that still more could be said. Perhaps it will be, in 1974. <hi rend="i">(Our thanks to Annette S. Levitt of Temple University for this item. Eds.)</hi>
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">ERDMAN LECTURES</hi>
+                        </title>
+                    </head>
+                    <p>Several people have written to tell us of visits paid to their campuses in recent months by
+<pb id="p07-30" n="30"/>
+David Erdman (State University of New York, Stony Brook), so in turn we wrote to him for a complete inventory. From December 1973 through March 1974 he tells us that he visited eleven campuses and gave sixteen talks. The talks were "Blake’s <hi rend="i">Milton</hi>," "Blake’s <hi rend="i">Song of Los</hi>," "Blake and the Burden of the Present," "Blake in and out of His Perishing Body," and "Coleridge as Concerned Spectator [i.e., as news commentator]," and "Wordsworth’s <hi rend="i">Prelude</hi> as Ark." The talks were given in various combinations at the following places and times: Brown University (13 December), University of Minnesota and University of Alberta (16 January), University of Iowa (23-24 January), University of Chicago (28 January), University of Puget Sound (26 February), University of Oregon (27 February), University of California, Berkeley (1 March, 4 March), University of California, La Jolla (11 March), University of Southern California (13 March), Claremont Graduate School (14 March).</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">NIGHT THOUGHTS</hi>
+                        </title>
+                    </head>
+                    <p>A previously unknown copy of the colored <hi rend="i">Night Thoughts</hi> engravings has been discovered.<ref target="n0" type="note">*</ref> The copy will be included in a new census of the colored copies in the complete Clarendon Press edition of <hi rend="i">William Blake’s Designs for Young’s Night Thoughts</hi>, edited by John Grant, E. J. Rose, and Michael Tolley in association with David Erdman, with the first two volumes scheduled for publication in 1974. The newly discovered copy of the colored engravings was first brought to the attention of the editors by Robert N. Essick. A description follows:
+<q>
+Bound in crimson crushed Levant morocco, the covers gilt tooled with a quadruple line centre panel at the corners of which are inlaid a flower ornament of three blossoms in white vellum on a scrolled background of closely spaced gilt dots with a surround of birds in flight, panels of the spine inlaid with blue morocco tooled with flying birds on dotted background. Marbled end papers. Uncut. Pages mended. Bound by the Hampstead Bindery (Gild of Women Binders). Explanation of the Engravings, reduced and inlaid, between the Advertisement and the title page of Night the First. Eleven pages watermarked. Title page measures 16.4 in. (41.8 cm.) × 12.5 in. (31.7 cm.).<lb/>
+This copy lacks the engraved design for p. 24 [45E]. The text, however, is present.<lb/>
+                            <list type="ordered">
+                                <item>
+                                    <p>
+                                        <label>(1)</label> Acquired by Lionel Phillips, a South African collector. He added his book-plate, dated 1905, inside front cover.</p>
+                                </item>
+                                <item>
+                                    <p>
+                                        <label>(2)</label> Offered for sale August 1972 by Charles J. Sawyer, bookseller, of London, for £2500.</p>
+                                </item>
+                                <item>
+                                    <p>
+                                        <label>(3)</label> Acquired by University of Alberta Library, February 1973. In Special Collections Room. f NC 1115 B6N6 1797. <note id="n0">
+                                            <hi rend="i">(Our thanks to E. J. Rose of the University of Alberta for this item. Eds.)</hi>
+                                        </note>
+                                    </p>
+                                </item>
+                            </list>
+                        </q>
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">BLAKE IN VERACRUZ</hi>
+                        </title>
+                    </head>
+                    <p>On 31 July 1973 the University of Veracruz and the University of the Americas presented <hi rend="i">El Matrimonio del Cielo y del Infierno</hi>, adapted and directed by Guillermo Garza Balandrano.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">GOLGONOOZA NEWS</hi>
+                        </title>
+                    </head>
+                    <p>For the past few months we have been on the mailing list of <hi rend="i">News from Golgonooza</hi>, published "semimonthly" by "the Church of the Blake Recital," R.R. #1, Millfield, Ohio 45761 ("Fourfold London in Ohio"). The author of the <hi rend="i">News</hi> is AEthelred Eldridge: "Meat hoodwinked or any relic thing resembling sick-bed prayer / Could begin again with
+<pb id="p07-31" n="31"/>
+final guilt but for the interference of / Tomorrow’s fresh-laid poultrice." The price of a subscription is $5 per year, "for the English-wending Friends of Albion."</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">SALES</hi>
+                        </title>
+                    </head>
+                    <p>The only known portrait of Josiah Wedgwood by John Flaxman, a wax portrait in color, 3 × 4 in. in original frame, is offered for sale by N. Flayderman &amp; Co., Inc., of New Milford, Conn. Black and white reproduction in <hi rend="i">Antiques</hi>, March 1974, p. 472.</p>
+                    <p>Recent auctions include the following items<ref target="n2" type="note">*</ref>:</p>
+                    <p>Sotheby’s, 15-16 October 1973: rare books from the collection of Robert Gathorne-Hardy, former partner in the firm of Elkin Mathews Ltd., and a botanist, novelist, poet, biographer, and printer. Three important Blake items: <hi rend="i">Job</hi> engravings, complete, to Bertram Rota for £1,650; Hayley’s <hi rend="i">Ballads</hi> (1805), to Quaritch for £85; and <hi rend="i">Night Thoughts</hi> with Blake engravings (1797), to Korn for £420. <hi rend="i">(For more on this sale, see Robert Essick’s article, "Blake in the Marketplace 1972-73," in the next issue. Eds.)</hi>
+                    </p>
+                    <p>Christie’s, 6 December 1973: Fuseli, "Woman seated by a window: Evening thou bringest all," pen-and-tusche lithograph, 1802. Reproduced in <hi rend="i">Apollo</hi>, November 1973, p. 36.</p>
+                    <p>Christie’s, 30 January 1974: John Varley, "Tegwin Ferry with Snowdon in the distance," watercolor, 8 1/4 × 12 3/4 in., 1826. Reproduced in <hi rend="i">Apollo</hi>, January 1974, p. 21.</p>
+                    <p>Sotheby’s, 20 March 1974: George Richmond, self-portrait, oil, 15 1/2 × 15 1/2 in. Reproduced in <hi rend="i">Apollo</hi>, March 1974, p. 141. Samuel Palmer, oil portrait of Christ. Reproduced in <hi rend="i">Apollo</hi>, March 1974, p. 96. <note id="n2">
+                            <hi rend="i">(Our thanks to Thomas Minnick for these items. For more information on Blake sales, see the article by Robert Essick in the next issue. Eds.)</hi></note>
+                        
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">EXHIBITIONS</hi>
+                        </title>
+                    </head>
+                    <p>John Varley’s "Suburbs of an Ancient City" (1808) was among the works in Spink &amp; Son’s exhibit commemorating the early years of the Old Water-colour Society (1804-1812). The exhibit ran three weeks beginning 13 November 1973. The Varley is reproduced in <hi rend="i">Apollo</hi>, November 1973, p. 391.</p>
+                    <p>An exhibition of English paintings, 1799-1900, at Christopher Gibbs, London, included works by Samuel Palmer and John Martin, among others. Catalogues are available for $6 including postage (address 118 New Bond St., London W1Y 9AB). Exhibit reviewed in <hi rend="i">Apollo</hi>, January 1974, pp. 59-60, with reproduction of Palmer’s "Christ in the Garden of Gethsemane."</p>
+                    <p>The Gerald M. Norman Gallery (8 Duke St., St. James’s, London S.W. 1) held a spring exhibition of eighteenth and nineteenth century English and French watercolors and drawings, 13-29 March 1974. John Martin’s "Rocky Pool at Dusk" was included; reproduced in <hi rend="i">Connoisseur</hi>, March 1974, p. 111.</p>
+                    <p>The Wren Gallery exhibited watercolors and drawings of John Varley, 1-6 April 1974, at the Alpine Club Gallery, 74 South Audley St., London W. 1. The exhibit was announced, with a photograph of a Varley landscape, in <hi rend="i">Connoisseur</hi>, March 1974, p. 48.<ref target="n3" type="note">*</ref><note id="n3">
+                            <hi rend="i">(Our thanks to Thomas Minnick for these items. Eds.)</hi>
+                        </note>
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0002">
+                    <head>
+                        <title type="main">
+                            <hi rend="b">WORK IN PROGRESS</hi>
+                        </title>
+                    </head>
+                    <p>Patricia D. Elliot: a critical edition of <hi rend="i">The Book of Urizen</hi>, as a doctoral dissertation at the University of Arkansas.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-32" n="32"/>
+            <div1 id="BQ-07-2-0003">
+                <head>
+                    <title>
+                        <hi rend="b">NOTES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <figure/>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">Toward Recovering Blake’s Relief-Etching Process</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="b">JOHN</hi>
+                            <name>
+                                <hi rend="b">WRIGHT</hi>
+                            </name>
+                        </docAuthor>
+                    <ref target="n4" type="note">*</ref></byline>
+                    <p>The photographically reduced group of Blake’s <hi rend="i">Songs</hi> shown here [front cover] is from a relief-etched facsimile print based on the well known electrotypes of Alexander Gilchrist’s <hi rend="i">Life of William Blake.</hi> In 1971-1972, I began a technical and historical study of Blake’s relief etching process with the support of a Study Fellowship from the American Council of Learned Societies. Owing especially to expert and generous help from Bartolomeu Dos Santos and Karl Heideken of the Slade School of Fine Art, University College, London, in which harmonious institution I had the further good fortune of being admitted to study, I made sufficient progress in learning etching and printing to discover some important and previously overlooked elements of Blake’s methods, an account of which is planned for a later issue of <hi rend="i">Blake Newsletter.</hi> In the course of testing and applying already current ideas about Blake’s process and those that arose as I worked, I made a series of relief-etched facsimiles of Blake’s designs which were then printed singly and in various groups. A variety of techniques were used in making and printing these works and I hope this account of them will prove useful to others who want to study Blake’s prime medium technically, or make such facsimiles, or, as I have tried to do recently, to teach and apply the medium for the making of new works.</p>
+                    <p>After several weeks of study of traditional intaglio etching, I started to experiment with basic elements of the relief process, first trying various pens and brushes to see what kinds of lines I could reliably get onto the copper. I used Rhind’s stopping-out varnish throughout the work as the acid resistant medium with which to draw on the plates. Any fine brush of the 000-series scale seemed to work well enough after a little practice. I failed despite numerous trials to get sufficiently consistent results with metal or quill pens, even when their grooves were carefully widened to increase the flow capacity of the varnish, which was also thinned in various ways to improve flow [illus. 1a and 1b]. Ruthven Todd, however, reports (in correspondence) good success with quill and reed pens and varnish--but I do not know what scale of work and size of lines he found it effective for.</p>
+                    <p>The small design shown here as illus. 2 exemplifies several characteristic difficulties of the relief process. It was drawn on a copper plate with a pen and the lettering was written backwards. Some of the lines were drawn as thin as possible and it was etched for about four hours in the 2:1 water and nitric acid formula reported by Hayter (<hi rend="i">New Ways of Gravure</hi>, London, 1966, p. 64), which seems to be too strong for work done on this scale, which approximates Blake’s. Hayter, Todd, and Miro etched the bigger designs they made "for at least nine hours until the plate had lost about <note id="n4">
+                            <hi rend="i">John Wright (Univ. of Michigan) is author of</hi> Shelley’s Myth of Metaphor <hi rend="i">and</hi> Poems and Woodcuts, <hi rend="i">forthcoming from the Univ. of Nebraska Press.</hi>
+                        </note>
+                        <pb id="p07-33" n="33"/>
+                        <figure>
+                            <head>1a &amp; b Relief and intaglio prints taken from zinc trial plate prepared with pen. and diluted varnish, and bitten continuously in nitric solution for about three hours.</head>
+                            <figDesc>Signs of line erosion are evident, especially in lower right.</figDesc>
+                        </figure>
+                        <figure>
+                            <head>2 "Little Lamb Who": Relief print from relief-etched trial plate, showing effects of strong etching on fine-line and relatively open-faced--i.e., sparsely painted--designs, and effect of ink spreading to basin of plate.</head>
+                            <figDesc>Printed on intaglio press.</figDesc>
+                        </figure>
+half of its original thickness." Relatively open areas of a design like mine or the first plate of <hi rend="i">Little Girl Lost</hi> will not, I think, stand up reliably under such prolonged biting, as the lines here show. The dark background, incidentally, was produced by ink pressing down into the wells of the relatively shallowly etched areas: its nice striated texture is characteristic of the action of nitric acid on copper. In these trials a procedural dilemma appeared between briefer etching with precariously shallow relief and longer etching with deterioration of lines. To solve it I (unnecessarily) gave up using nitric for this work and, after some fruitless attempts at tracing designs onto copper via dragon’s blood transfer paper--which proved much too variable to paint accurately--I turned to the transfer process worked out in Atelier 17 in 1947.</p>
+                    <p>It was owing to generous advice from Ruthven Todd about how to prepare transfer solution that I found an effective way of preparing the plates. He indicated that for transfer one needs a less than saturated solution of gum arabic and water and a fairly well saturated solution of reasonably pure soap and water. I mixed these in ratios of 2:1 and 1:1 with equally good results.</p>
+                    <p>The facsimile of <hi rend="i">The Lamb</hi> [illus. 3] was made by the transfer process. It occured to me to try coating a photocopy of the Gilchrist image (taken from a 3-M copier) with the gum arabic solution and then to paint in the design with the stopping-out varnish. I taped the copy to a board to reduce curling, painted it with a wide soft brush, and found that the image showed clearly through two coats of the solution. Some time later, when the image was painted in varnish and dry, I heated the plate as for intaglio inking, set in on the bed of an intaglio press, set the image on a damp blotter, put the blotter and image paper face down on the copper, and put them through the press from which two of the usual four blankets had been removed in order to lessen the pressure slightly. I then put the plate with the papers still stuck on it into a sink into which warm and cold water were steadily flowing and left it there a few minutes until the papers floated loose from the copper. This process worked perfectly. All the varnish had transferred and I had only to retouch a few small lines which had been too thinly painted on the copy. All that remained then was to etch the plate, which I postponed until I could find a way of doing it more reliably than I had in the earlier trials.</p>
+                    <p>Painting this first plate was difficult and I aimed mainly at getting, where I could, some of the minimally thin lines Blake had achieved in order to be sure they could be transferred and would then hold up under the action of the acid. I connected a few of the line systems of blossom, branch and tendril which were broken in the electrotype image (and I omitted, wobbled on, and overlooked others). I also passed over certain areas which were obviously printing smears and tried to convert the marginal areas, which are crude on many of the electrotype
+<pb id="p07-34" n="34"/>
+                        <figure>
+                            <head>3 "The Lamb," I: Relief-etched print from plate made by transfer process following the hand-painting of photocopy image.</head>
+                            <figDesc>The heavy surrounding frame serves as a platform to steady the roller during printing. After serving that purpose, it can then be printed or wiped before printing as desired. Two plates set beside the plate to be roller-inked are equally useful as an aid to clean and even inking. Also note the unevenness of line quality in this hand-copied image (exaggerated by the photograph used here) and some unevenness of inking, especially in the area of the child and flock.</figDesc>
+                        </figure>
+images, into a somewhat more attractive border. This whole attempt made me aware of several elements of Blake’s early designs which are apt to go unnoticed or be misread. First, it is convenient for printing purposes to have well-distributed line systems which help keep the ink from spreading to the basin of the relief-etched plate. Second, the minutely particular vines, tendrils, blossoms and other forms, which are often regarded as ornamenting the main design, have physiognomic qualities which effectively mediate between the space of the text and the place of the scenes. Efflorescent, anthropomorphic (or zoomorphic) figures of this kind can be seen in the space immediately to the right of the title and again to the right of the words "tender voice." Some are, of course, relatives of the traditional device of marginal hands or fingers pointing at passages in texts, but that custom is transformed wittily and lovingly to expand our sense of vision and the presence of a maker. Third, I also became aware of something related to both of the preceeding observations: namely, that Blake experimented frequently and "systematically" with his basic plate designs in the various printings of them, masking out areas before printing or extending and completing potentialities of the line systems which were, not infrequently, I believe, only gradually realized as he worked with the plates in successive printings and paintings.</p>
+                    <figure>
+                        <head>4 "The Lamb," II: The plate from which the above print was made.</head>
+                        <figDesc>Among the things that can be seen in this reproduction and in the magnified segment are (a) repainting stages as layers on the copper; (b) in the darkened parts of the characters, the effect of the breakup of the KPR (e.g., line 1, "ma[de]"; (c) effect of failing to scrape away varnish overflow during repainting (upper left, near "b" in "lamb"); and (d) effect of scraping away overflow of varnish and then biting that area (bottom right channel below scene).<lb/>
+                            <lb/>
+To the right An enlarged portion of the plate, showing the state of characters and the stages of repainting.</figDesc>
+                    </figure>
+                    <pb id="p07-35" n="35"/>
+                    <figure/>
+                    <pb id="p07-36" n="36"/>
+                    <figure/>
+                    <p>In order to get several plates to experiment with, which would, if all went well, also be good facsimiles of Blake’s works, I turned to photoetching techniques. Thanks to Karl Heideken’s knowledge and skill and the Slade’s equipment, this was technically a fairly easy matter. The first step was to prepare an image from which to make a photographic negative. I used <hi rend="i">The Lamb</hi> again and sometimes corrected a photographic copy of the Gilchrist image by drawing in lines where comparison showed breaks in the "intended" line system or by whiting out areas where the electrotype printing had produced smudges that were not part of Blake’s design [illus. 4]. By these (unsystematic) corrections I got an image not perfectly representative of Blake’s but at any rate free of some of the defects which otherwise accumulate through a series of reproductions. From the corrected image, I took a photographic negative to use as the etching design. The next step in the photoetching process is to cover a plate with a light sensitive substance which can be hardened to provide an acid resistant coating for the image. This chemical is called Kodak engraving and etching resist (KPR) which can be poured on a plate and evenly distributed by rotation in a whirler or centrifuge at 80 rpm for two minutes without heat; then 70 rpm
+<figure/>
+for 10 minutes with heat. It is essential that the plate be thoroughly degreased before KPR is applied and that its surface not be touched after that until the plate is ready for etching. The whirler may not be necessary but I did not try the process without it. KPR is also available in a spray can form which I have not tried yet, but it would probably work.</p>
+                    <p>Once the plate is coated with KPR it must be protected against light until it is exposed to an arc lamp or other light source; a sheet of paper is sufficient as a cover if there is only a short delay before the exposure. The film negative (which reverses the original image) is then laid down directly, its reverse or negative character upwards on the plate and exposed. The Slade has a machine called a vacuum frame which gives a maximum of closeness of fit between negative and plate for the exposure. This fit is an important element because any looseness from a wrinkle or bit of dust or any slippage during the exposure will deform the image. A carbon arc lamp was then used to sensitize the plate; a five minute burn is about right at a distance of 4.5 feet. The plate was then taken out of the frame and developed in KPR photo-developer for four minutes. The bath
+<pb id="p07-37" n="37"/>
+must be slowly rocked so as to both cover the developer continuously and move back and forth across the plate, working the sensitive surface. The arc lamp sensitizes the KPR under the transparent areas of the negative, which correspond to the image. The developer fixes and hardens these areas but does not affect the unsensitized areas. The next step in the process is the etching, which can be preceded by dipping the plate in the acid bath for about two seconds and then washing it off quickly. Doing this burns off the unsensitized KPR and etches the plate just enough to make the image stand out clearly from its ground, and so provides a final chance for correction of the image before etching.</p>
+                    <p>The essential elements of the process up to the etching stage are a negative image, a light sensitive material for coating the plate and means for exposing and fixing the image. The whirler, vacuum frame and arc lamp are a great help, but the spray can form of KPR can be used and it would only require some practice with the kinds of light boxes commonly available in silkscreen studios (using a photo flood light of the high ultraviolet variety) to determine the amount of exposure necessary to sensitize the KPR properly. Exposure
+<figure>
+                            <head>Relief-etched plates of "The Divine Image," "The Lamb," and "The Schoolboy."</head>
+                            <figDesc>These were prepared by the photoetching process described in the essay. They were used to print the group of <hi rend="i">Songs</hi> on the cover. "The Schoolboy" plate shown here is the one mentioned in the essay as having been etched in ferric perchloride. In general the darker areas of the photographs represent the light-reflecting surface of the copper and some of the deeper, wider, and so more highly polished open areas of the etched parts of the plates.</figDesc>
+                        </figure>
+to direct sunlight is also a possibility, but a light meter would be needed to fix the relative time factors for exposure and developing. The KPR breaks up under the action of the acid at a point that varies with the ratios of exposure and developer hardening of the KPR. Under the condition I have described the KPR would hold up in a fresh bath of 1 part hydrochloric acid to 3 or 4 parts water for about three hours. After three hours, which produces a relief about equal to the thickness of a piece of 200 weight bond paper, the KPR breaks up rapidly in particular areas. (One plate, <hi rend="i">The School Boy</hi>, was bitten in ferric perchloride [see illus.] and it worked perfectly in the same three hour period for the first bite.)</p>
+                    <p>Etching the plates proved to be the most difficult part of the whole process, and there is plenty of evidence that this was true for Blake too. To get a relief deep enough to print satisfactorily, it is necessary to bite the plate for so long a time that the sides of the lines of the design, on which the acid acts progressively as the background copper is lowered, are apt to be eroded to the point either of breakage or of such thinning as to spoil the balance on lines in the design, as illus. 1 shows. It took several trials,
+<pb id="p07-38" n="38"/>
+in fact, to establish the ratio of five minutes of arc light to four minutes of developer to three hours of biting. (Even then the result was only approximate to anything optimal because it was impracticable to try and stabilize the subtle variable of the acid whose action changes with its age, the temperature of the room, and several other factors.)</p>
+                    <p>I solved the practical problem, however, when it occurred to me to take the plate out of the acid after about three hours and repaint the whole surface of the design with varnish at that point. That idea led me to look again at the electrotypes in the Victoria and Albert Museum, where, with the help of a very strong magnifying glass and an improved idea of what to look for, I discovered that Blake’s plates were made by stages in just this way. (I plan to give an account of this and other techniques in a later essay.)</p>
+                    <p>This crucial repainting procedure, which actually permits biting any relief plate to any depth desired for printing, is a simple and very laborious process of painting each relief character in varnish in such a way that a very slight amount of varnish is put over the edge of the original design to prevent erosion, especially where the acid is working in a relatively open area on both sides of a fine line. Given the scale of the work, particular judgements about that situation are difficult, so it is easier just to repaint the entire surface very carefully. Any slips with the brush, however, will deposit varnish in the wells of the etched areas and these mistakes are very difficult to correct. Scraping back areas into which varnish has spilled risks damaging the edges of the surface coating, and even if the scraping is thorough, a grease film is likely to remain which will retard the action of the acid sufficiently to create ridges or platforms which will pick up ink where it is not wanted. The scale of this work will indicate some of the difficulty of such mending procedures. The key physical facts about the primary and critical balance between surface or subsurface platforms and open and more deeply recessed areas can best be grasped by contrasting the space more or less included by the form and groups of the letters on this page with open spaces between the words and lines. The form or shape of the letter will normally support any inking surface sufficiently to prevent the ink from reaching down into its interior space but the surrounding area much more easily takes ink, as can be seen from illus. 1, or in many of the proofs and other copies of Blake’s Illuminated Books. To prevent this printing problem, I did the repainting again after a second two or three hour bite in the acid, this time more selectively. Because the close-worked groups of characters were already in sufficient relief for printing, the second repainting could cover whole groups of characters in single brush strokes, taking care only to judge beforehand whether the space between the words was in sufficiently deep relief to allow the whole line to be painted in solidly or still required that word-sized or other groups be etched separately. And again of course, it was essential not to let the varnish spread out much beyond the edge of any discrete group. Subsequently, for the wider white areas I did still another repainting, which covered nearly the whole plate and left open only the central part of the largest white areas--as notable especially in the title plate to the <hi rend="i">Songs of Experience.</hi> Blake’s skill with a brush and routing tools made it unnecessary for him to go to these extremes in making his plates, but I think it will be found a useful practice for facsimiles, or if other very fine line compositions involving large open spaces are wanted.</p>
+                    <p>As the plates were being produced I began to experiment with different methods of printing them. I found that plates made in this way can be printed effectively and with a good range of different effects on an intaglio press or a printing press and by the simple and common woodcut method of rubbing with a spoon the back of a sheet of paper laid over an inked plate. Inking such plates is a delicate but not a very difficult process--not nearly as difficult as the task that Blake faced in inking and printing plates as shallowly bitten as the <hi rend="i">America</hi> 5 fragment in the Rosenwald collection or even the somewhat more deeply bitten electrotypes of the <hi rend="i">Songs.</hi>
+                    </p>
+                    <p>Virtually any ink will do which can be laid down on the plate by a roller or from another inked plate, providing only that it is sufficiently smooth in texture, as well as even in the application, to preclude spreading over the edges of the characters and in the basins of the open areas. I used etching and process inks of different types but stayed with lithographic inks of different colors for the series of group prints of the kind shown here, because their evenness and saturation made it possible to pull several prints of different densities of hue from a single inking of the plates. I used relatively large and firm rubber rollers for the inking because it was possible in that way to ink several plates at once. But a common hand brayer works well enough for single prints. I etched the plates in groups of two, three, or four to save time and then usually cut them out of their frames for the printing, which meant that the roller would deposit ink heavily at the leading and trailing edges of the plates. These deposits would usually print, so it is useful to take two slightly larger plates and place them at the sides of the plate or plates to be inked as a support for the roller. Even with this support, however, the slight pressure needed for even inking and two or three passes with the roller inevitably deposits some ink along the edges. Therefore it is important to lay the back of the plate on the finger tips after the inking and wipe each edge clean before printing.</p>
+                    <p>For relief printing dry and not too coarse paper is wanted. Beyond that virtually any paper consistent with the means of printing will do. An intaglio press can produce fine embossment effects from the graded elevations of the recessed platforms around the relief image. As the printing methods developed by William Hayter and others at Atelier 17 suggest, the physical structure of plates made in this way allows them to be inked in a combination of intaglio and relief techniques. (Various textures using aquatint, open biting and
+<pb id="p07-39" n="39"/>
+                        <figure>
+                            <head>The relief-etched plate of the "Nurse’s Song" and, enlarged, the top left quarter of the bottom half of that plate. In the enlargement, the tonal gradations represent different depths of the stepped biting process, with the exception of some intermediately dark areas (e.g., above "y" at the lower left of the tree).</head>
+                            <figDesc>Under a glass a good deal can be seen of the general kinds of effects obtained by the stepped biting process. These characteristics are present in much finer and more controlled forms in the fragment of <hi rend="i">America</hi> 5 and the electrotypes, as I will show in a later essay.</figDesc>
+                        </figure>
+standard etching and engraving line techniques can be obtained in all the recessed areas. Blake did this in the recently discussed <hi rend="i">Jerusalem</hi> 25.) This kind of treatment of the substructure of relief plates might be seen as alternative or complementary to Blake’s practice of painting images simply printed in relief though there are serious limitations to it if the character of the surface design is to remain primary. I mention it here chiefly to suggest the use of intaglio printing of relief plates and the character of a plate as an <hi rend="i">instrument</hi> of impression.</p>
+                    <p>The facsimile sets of group prints taken from my plates were all printed on a printing press using a board set on the bed to get the plates to the desired type-high position. From there they could be slightly raised or lowered by a pressure wheel on the press, but papers under the board would serve as well for that when greater or less density of color from a single inking is wanted. It is possible to pull more than one print from a given inking and this characteristic of relief printing has led me to wonder both about Blake’s proofs and whether he might not have taken more than one set of impressions of the plates of some of the Illuminated Books from certain single inkings. The control of tone permitted by successive pulls is perfectly consistent with the aim of subsequent coloration. Knowing the character of his inks, which vary a good deal, and the degrees of their tonality in the prints, would help determine the answers to this question.</p>
+                    <p>The simplest method of printing relief plates made as described above is the old method of rubbing with a spoon or even rolling by hand if the ink quality is right. The interesting question of how Blake inked his plates has yet to be resolved. William Hayter and Ruthven Todd have hypothesized from the shallowness of the <hi rend="i">America</hi> 5 fragment and from the fact that nothing is now known of roller
+<figure/>
+inking in Blake’s time that he must have used inked plates as surfaces from which to ink his own plates. But they have not explained how one inks a plate thinly and evenly enough without a roller to permit the application of its ink to another surface without the awful spreading effects which doom relief printing. It seems more likely to me that Blake would have used a wooden roller, perhaps a large press cylinder, both to ink plates directly and to distribute the ink on an inking plate. The varied qualities of some of the images and proofs, from heavily speckled or reticulated textures--which are the common effect of separating an inking plate from the plate it is used to lay ink on--to the strong and even tonality of other images, which are more consistent with roller techniques, suggest strongly that he used both methods as well as the technique of pulling multiple impressions from a single inking.</p>
+                    <p>In summary, there is a range of relatively simple techniques for making facsimiles like those shown here, as well as original relief-etched designs in the composite art form. For all the etching processes, ferric perchloride is a good home mordant, because it does not produce dangerously noxious fumes as the Dutch and nitric acids do. For the photoetching process KPR and a lightbox will serve for getting the image on the plate. For the transfer process, which eliminates the need for backwards writing and reduces the risk of hard-to-correct varnish slips on the plate (the paper around a blunder can be cut away before the transfer is made), the only essential machine is a press for getting the varnish design to adhere securely to the heated plate. (Perhaps a pair of clamps or a large horizontal bench vice would do.) Once the transfer method is made workable, any image can be coated with the gum arabic solution and painted with varnish. The critical parts are the etching process and the technique of repainting for stepped biting.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0003">
+                <pb id="p07-40" n="40"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="i">Illuminated Books in the Cincinnati Art Museum</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>JOHN E. <name>GRANT</name>
+                        </docAuthor> &amp; <docAuthor>MARY LYNN <name>JOHNSON</name>
+                        </docAuthor>
+                    <ref target="n5" type="note">*</ref></byline>
+                    <figure/>
+                    <pb id="p07-41" n="41"/>
+                    <p>Until the forthcoming Bentley <hi rend="i">Census</hi> appears, it is helpful to get information about the present location of illuminated books listed as untraced or as privately owned in the Keynes-Wolf <hi rend="i">Census.</hi> Whether any particular location is desirable could be debated. If the most important consideration were accessibility of at least one Blake original to the largest number of people in the widest possible area, all should rejoice to hear that an illuminated book has found a home outside one of the well-known Blake repositories. But given the practical necessity of arranging to study several works during a single research trip, as well as the importance of comparing more than one copy of the same work, the scholar may find himself hoping that a sale or a bequest will send a book to one of the great public collections where Blake’s works are already concentrated. Happily, democratic and scholarly interests are not always at odds: an account of the holdings of the Cincinnati Art Museum contains good news for everyone. Somewhat remote from other Blake collections but worth an excursion from anywhere, Cincinnati has an exquisite <hi rend="i">Thel</hi>, a long-untraced <hi rend="i">Songs of Innocence</hi>, and a closely contemporary <hi rend="i">Songs of Innocence and of Experience.</hi>
+                    </p>
+                    <p>Nancy Bogen, ed., William Blake, <hi rend="i">The Book of Thel: A Facsimile and a Critical Text</hi> (Providence and New York, 1971), notes that <hi rend="i">Thel</hi> copy N is now in the Cincinnati collection (accession number 1969.510--as the gift of John J. Emery). Since Bogen’s color descriptions are sometimes unreliable, one should consult the Keynes-Wolf <hi rend="i">Census</hi> for an idea of the brilliance of this copy. Only the Rosenwald copy O, on which the Blake Trust Facsimile is based, is a <hi rend="i">Thel</hi> of comparable magnificence, though in quieter and calmer tones. If a facsimile of copy N were made by the Trianon Press--or even if it were as well reproduced as the Dent volumes--we would have a clearer idea of the power and range of Blake’s coloring. These intimately related copies differ strikingly: both sumptuously painted in Blake’s later style, both done on Ruse &amp; Turners paper watermarked 1815, copy N is impressive for its splendor, copy O for its refinement. Added details also vary: copy N has more birds, water, and peculiar cloud effects; copy O more trees and roots [see illus.].</p>
+                    <p>But on-the-spot comparison of originals is obviously a far better method of study than comparison of notes and facsimiles, and the Cincinnati Art Museum also affords an opportunity for this kind of work. Its <hi rend="i">Songs of Innocence</hi> and the Innocence section of its <hi rend="i">Songs of Innocence and of Experience</hi> are both on paper watermarked J WHATMAN/1808, both arranged in the same order, both decorated with gold. The <hi rend="i">Innocence</hi> may be identified as copy S of <hi rend="i">Songs of Innocence</hi>, formerly in the George C. Smith, Jr. collection, but listed as untraced in the <hi rend="i">Census.</hi> The following addenda and corrections to the <hi rend="i">Census</hi> account may be presented:<ref target="n1" type="note">1</ref>
+                        <q>
+S 28 plates on 28 leaves. Watermark J WHATMAN/1808 *on verso of pl. 25, "Infant Joy," and fragmentary watermarks on 3 other pages. Printed in shades of brown, gray, and black, with some greenish-black.<hi rend="s">G-J</hi> [Called simply "gray" in the <hi rend="i">Census</hi>, "gray, greenish-brown, and brown" in the Smith sale catalogue.] *A few letters strengthened by hand. Considerable foxing. Carefully painted in water colors and gold, with gold usually applied to titles.<hi rend="s">G-J</hi> [The <hi rend="i">Census</hi> term "subdued" understates the actual effect of the coloring.] Foliated by Blake 2-28. Arrangement: 1-3, 15, 10-11, 8, 29-30, 9, 13, 20, 21, 28, 18-19, 12, 23, 16-17, 27, 25-26, 22, 14, 31, 4, 24. Lacks 5-7. [Because the <hi rend="i">Census</hi> uses a different standard of pagination for <hi rend="i">Innocence</hi> from that of <hi rend="i">Innocence and Experience</hi>, it is not evident that this order exactly corresponds to that in <hi rend="i">Songs of Innocence and of Experience</hi>, copy S, also Cincinnati, as described below.] Blake’s foliation shows that a frontispiece, which has recently been supplied from another source, was originally included; *the present frontispiece, badly foxed, measures 18.8 × <note id="n5">
+                                <hi rend="i">The writings of John E. Grant (University of Iowa) on Blake have been widely published. He is now collaborating with E. J. Rose, M. J. Tolley, and D. V. Erdman on the Clarendon Press edition of</hi> Blake’s Designs for Young’s Night Thoughts. <hi rend="i">Mary Lynn Johnson (Georgia State University) has published on Wordsworth in</hi> SiR, <hi rend="i">Blake in</hi> JEGP. <hi rend="i">Her essay on Blake and emblem literature recently appeared in</hi> Huntington Library Quarterly, <hi rend="i">her note on</hi> Milton <hi rend="i">in</hi> Blake Studies. <hi rend="i">Johnson and Grant are working on a comprehensive study of the copies of</hi> The Book of Thel.</note>
+                            <pb id="p07-42" n="42"/>
+                            <figure>
+                                <head>The pictures: Reproduced with the article are plates ii (the title-page), 1, and 2 of <hi rend="i">The Book of Thel</hi> copy N, Cincinnati Art Museum, gift of John J. Emery.</head>
+                                <figDesc>By permission.</figDesc>
+                            </figure>
+                            <pb id="p07-43" n="43"/>
+13.5 cm. and is printed in green. Size: varies from 19.5 × 14.5 cm. to 20.1 × 15.0 cm.,<hi rend="s">G-J</hi> untrimmed. The leaves, whch show the original stitch-holes, *were formerly mounted on sunk mats and bound in full brown crushed levant morocco, gilt, by Riviere &amp; Son. Now the pages are mounted on large mats 48.5 × 34.5 cm. and are kept in two boxes.<hi rend="s">G-J</hi> [The earlier provenance, so far as it is known, is given in the <hi rend="i">Census.</hi>] After it was sold to Gannon for $2300 as lot 16 in the George C. Smith sale of 1938, *it was acquired by Rouillier and resold in 1941 to Herbert Greer French, who bequeathed it to the Cincinnati Art Museum, where the accession number is 1943.559.<hi rend="s">G-J</hi>
+                        </q>
+                        <note id="n1"><hi rend="s">1</hi> Extensive corrections or additions to the <hi rend="i">Census</hi> are marked with an asterisk at the beginning and a G-J at the end; information in the <hi rend="i">Census</hi> that we assume to be correct but cannot independently verify is marked with an asterisk followed by a <hi rend="i">C.</hi> We have not attempted to bring our style and spelling into absolute conformity with the <hi rend="i">Census.</hi>
+                        </note>
+                    </p>
+                    <p>As in other copies, some of the variants in <hi rend="i">Innocence</hi> copy S seem significant, others rather whimsical. Two vines are redrawn to reverse the direction of the spiral: the one on the title page is made to go counter-clockwise and the one on the tree overshadowing the Little Black Boy and his mother becomes clockwise. On the next plate the Black Boy is smoky gray, in contrast to the white boy, and the Good Shepherd has a distinct smile. Four of the boys in the main design under the title of "The Ecchoing Green" wear white tops and light yellow breeches, and the two boys below, beside the text, wear pale cream knickers; the effect is of a group in a team uniform. The figures in "Holy Thursday" are all retouched in painstaking detail, so that some of the children look at the reader, some at the person behind, some have their arms linked, and the girls’ beadle appears to be a female wearing a white bonnet. Throughout the volume almost all the titles and many of the smaller figures have been gilded with a metallic pigment which is somewhat duller than the heavy gold used, for instance, in <hi rend="i">Jerusalem</hi> copy E; a thinner solution of this gilding is sometimes used on larger areas such as the clouds and the sheep in "The Shepherd."</p>
+                    <p>The Cincinnati copy of <hi rend="i">Songs of Innocence and of Experience</hi>, which also happens in the <hi rend="i">Census</hi> to be designated copy S of the combined anthology, is obviously a composite copy: <hi rend="i">Innocence</hi> is printed in gray, and <hi rend="i">Experience</hi> is printed in dark brown. The fact that <hi rend="i">Innocence</hi> is bound after <hi rend="i">Experience</hi> in an old binding may also reflect its having been made up of two separate printings. The following addenda and corrections to the <hi rend="i">Census</hi> account may be presented:
+<q>
+S 54 plates on 54 leaves. Watermark [J W]HATMAN/[J] 1808 *on the recto of pl. 27 (page 28), "On Another’s Sorrow," and fragments on 3 other plates (8, 21, 26) of <hi rend="i">Songs of Innocence</hi>, which is printed in gray predominantly, with letters unstrengthened. Some foxing, occasionally heavy. Painted in quiet varied watercolors, more effectively in <hi rend="i">Innocence</hi>, with some gold.<hi rend="s">G-J</hi> [The <hi rend="i">Census</hi> description "very lightly tinted" implies paler and thinner washes. The gold is a dull gilding like that in <hi rend="i">Innocence</hi> copy S.] The general title-page unnumbered, the other pages foliated by Blake in two series, 1-25 and 1-28, with <hi rend="i">Songs of Experience</hi> misbound after pl. 1 before <hi rend="i">Songs of Innocence.</hi> Arrangement: 1, 28-32, 38, 42, 37, 49, 45, 33, 43, 47, 50, 41, 48, 34-36, 46, 44, 39, 40, 51, 52; 2-21, 53, 22-25, 54, 26, 27. [Exactly, as noted above, the same arrangement as in <hi rend="i">Innocence</hi> copy S.] Size: 19 × 12.5 cm. Bound in old calf, *<hi rend="i">ca.</hi> 1830,<hi rend="s">
+                                <hi rend="i">C</hi>
+                            </hi> a sheet of brown paper, *possibly part of the original wrappers,<hi rend="s">
+                                <hi rend="i">C</hi>
+                            </hi> inserted between the two series. *Watermark on the verso of the first flyleaf: 1/1822.<hi rend="s">G-J</hi>
+                            <lb/>
+                            <lb/>
+*Probably the copy sold at Sotheby’s, 7 August 1890 (lot 2171, Maggs, £48). In 1905 in the possession of Mrs. John R. Wade, of New York.<hi rend="s">
+                                <hi rend="i">C</hi>
+                            </hi> Later in the collection of Beverly Chew, *who added his bookplate,<hi rend="s">G-J</hi> and sold with his books, Anderson’s, 8 December 1924 (lot 29, Rosenbach, $5500). Later in the collection of John J. Emery, *whose name is inscribed in pencil. Gift of John J. Emery to the Cincinnati Art Museum, accession number 1969.509.<hi rend="s">G-J</hi>
+                            <lb/>
+                            <lb/>
+                            <hi rend="i">Exhib</hi>: Philadelphia, 1939, no. 42.
+</q>
+                    </p>
+                    <p>Among the noteworthy features of this copy is the fact that water has been indicated at the bottom of "The Lamb" and in the bottom foreground only (not the sides) of "Spring," pl. 2, as well as on "The Little Black Boy," pl. 2, where it always occurs because it was actually cut on the plate. But no water has been added to "Introduction" to <hi rend="i">Innocence</hi>, "The Ecchoing Green," pl. 2, "The Chimney Sweeper," or "Night," pls. 1 and 2, pages where it often occurs in later copies. The Little Black Boy is made darker than the white boy, and the Good Shepherd smiles at the white boy. There is a small gray stump with a broken branch at the left beside the water on this second plate of "The Little Black Boy," in an area Blake frequently varied either by depicting assorted vegetation or by eliminating it entirely.</p>
+                    <p>The statement in the <hi rend="i">Census</hi> that no authentic separate copy of <hi rend="i">Songs of Experience</hi> is known to exist has sometimes been taken as proof that Blake never issued <hi rend="i">Experience</hi> separately. This assumption has been used as the basis for theories concerning Blake’s over-all meaning. Yet the evidence of copy S, as well as of F, O, Q, and R--some of which have differences in paper and pagination as well as in printing between <hi rend="i">Innocence</hi> and <hi rend="i">Experience</hi>--suggests that these composite copies may not originally have been issued as whole copies by Blake. Perhaps the fact that <hi rend="i">Innocence</hi> was bound after <hi rend="i">Experience</hi> in the Cincinnati copy indicates an owner’s effort to put together what Blake had issued separately. It is true, however, that despite the differences in <hi rend="i">printing</hi> of the two cycles of poems in copy S, there is a considerable similarity in the general quality of the painting throughout, although to less attractive effect in <hi rend="i">Experience.</hi> On the other hand, the character of the coloring in the Innocence section of this copy is almost as close to that in the separate <hi rend="i">Songs of Innocence</hi> copy S as it is to that in its own companion Experience section. Perhaps in that happy far-off day when filmstrips of all the illuminated books will become available we shall be better able to explain the affinities and variations among copies.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-2-0003">
+                <pb id="p07-44" n="44"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">1972-73: A Bibliography of Blake Scholarship in the United Kingdom</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="b">JAMES B.</hi>
+                            <name>
+                                <hi rend="b">FERGUSON</hi>
+                            </name>
+                        </docAuthor>
+                        <hi rend="b">&amp;</hi>
+                        <docAuthor>
+                            <hi rend="b">FRANK M.</hi>
+                            <name>
+                                <hi rend="b">PARISI</hi>
+                            </name>
+                        </docAuthor>
+                        <hi rend="b">ASSISTED BY</hi>
+                        <docAuthor>
+                            <hi rend="b">MICHAEL</hi>
+                            <name>
+                                <hi rend="b">PHILLIPS</hi>
+                            </name>
+                        </docAuthor>
+                    <ref target="n6" type="note">*</ref></byline>
+                    <p>The editors have attempted, as far as possible, a comprehensive bibliography of all books, sections of books, learned articles, reviews, and reproductions of Blake’s art published in the United Kingdom during the period 1 January 1972 to 1 January 1974. Additional descriptive information, supplied by the editors, is given in square brackets thus: [ ].</p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">NEW &amp; REPRINTED BOOKS</hi>
+                            </title>
+                        </head>
+                        <p>Adlard, John. The Sports of Cruelty: Fairies, Folk-songs, Charms and Other Country Matters in the Work of William Blake. London: Cecil and Amelia Woolf, 1972.</p>
+                        <p>Blake, William. Songs of Innocence and of Experience. Facsimile of sixteen original plates. London: Academy Editions, 1972.</p>
+                        <p>Blake, William. There is No Natural Religion. Ed. Geoffrey Keynes. Facsimile, 2 vols. Clairvaux, Jura, France: Trianon Press, 1972.</p>
+                        <p>Blake, William. William Blake’s Watercolour Designs for the Poems of Thomas Gray. Ed. Geoffrey Keynes. Clairvaux, Jura, France: Trianon Press, 1972.</p>
+                        <p>Blake, William. William Blake’s Watercolour Designs for the Poems of Thomas Gray. Ed. Geoffrey Keynes. London: Eyre Methuen, 1972.</p>
+                        <p>Bronowski, Jacob. William Blake and the Age of Revolution [First pub. William Blake, 1757-1827, 1943]. London: Routledge and Kegan Paul, 1972.</p>
+                        <p>Campbell, Duina. Proverbs of Hell by William Blake; Illustrations. Leicester: Black Knight Press, 1972. [Limited edition--100].</p>
+                        <p>Carr, J. L., ed. William Blake, Twelve Poems. London: Florin Poets Series, 1972.</p>
+                        <p>Clark, Kenneth. Blake and Visionary Art. Glasgow: University of Glasgow Press, 1973 [W. A. Cargill Memorial Lectures in Fine Art: 2].</p>
+                        <p>Damon, S. F. A Blake Dictionary--The Ideas and Symbols of William Blake [First pub. 1965]. London: Thames and Hudson, 1973.</p>
+                        <p>Erdman, D. V., ed., with the assistance of Donald K. Moore. The Notebook of William Blake: a photographic and typographic facsimile. Oxford: Clarendon Press, 1973.</p>
+                        <p>Gilchrist, A. Life of William Blake [Photo rpt. 1880]. Introduction by W. A. G. Doyle-Davidson [pp. v-xiii]. Wakefield, Yorks.: E. P. Publications Ltd., 1973.</p>
+                        <p>Gillham, D. G. William Blake. London: Cambridge University Press, 1973 [British Authors, Introductory Critical Series].</p>
+                        <p>Kettle, Arnold. William Blake (1757-1827). Bletchley, Bucks.: Open University Press, 1973 [For the "Age of Revolution" Course Team].</p>
+                        <p>Lord, John. William Blake--Private Painter. Melton Mowbray, Leics.: Brewhouse Press, 1972 [Broadsheet No. 10].</p>
+                        <p>Moore, Donald K., ed. See Erdman, D. V.</p>
+                        <p>Paley, M. D. and Michael Phillips, eds. William Blake: Essays in Honour of Sir Geoffrey Keynes. Oxford: Clarendon Press, 1973. For contents, see this item in the Checklist of Recent Blake Scholarship, Newsletter 25. <note id="n6">
+                                <hi rend="i">James B. Ferguson and Frank M. Parisi are Ph.D. candidates at the University of Edinburgh. Ferguson is writing a thesis on "Blake’s</hi> Jerusalem <hi rend="i">with special reference to the Book of Ezekiel and the English epic tradition," Parisi on "‘The Gates of Paradise’ and the Emblem Tradition." Nichael Phillips is Associate Editor of the</hi> Newsletter.</note>
+                        </p>
+                        <pb id="p07-45" n="45"/>
+                        <p>Phillips, Michael, ed. See Paley, M. D. Sabri-Tabrizi, G. R. The "Heaven" and "Hell" of William Blake. London: Lawrence and Wishart, 1973.</p>
+                        <p>Wright, Andrew. Blake’s <hi rend="i">Job</hi>: A Commentary. Oxford: Clarendon Press, 1972.</p>
+                        <p>Wright, Thomas. The Life of William Blake [Photo rpt. 1929]. Chicheley, Bucks.: P. P. B. Minet, 1972.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">SECTIONS OF BOOKS</hi>
+                            </title>
+                        </head>
+                        <p>Bloom, Harold. The Anxiety of Influence: A Theory of Poetry. London: Oxford University Press, 1973.</p>
+                        <p>Budgen, Frank. James Joyce and the Making of <hi rend="i">Ulysses</hi> and other writings. London: Oxford University Press, 1972. [Esp. pp. 318-320].</p>
+                        <p>Clark, Kenneth. The Romantic Rebellion: Romantic versus Classic Art. London: John Murray, 1973 [In association with Sotheby Parke Bernet].</p>
+                        <p>Leavis, F. R. Nor Shall My Sword: Discourses on Pluralism, Compassion and Social Hope. London: Chatto and Windus, 1972.</p>
+                        <p>Lister, Raymond. British Romantic Art. London: Bell, 1973.</p>
+                        <p>Powell, Nicholas. Fuseli: the Nightmare. London: Allen Lane, The Penguin Press, 1972 [Art in Context Series].</p>
+                        <p>Roberts, Mark. The Tradition of Romantic Morality. London: MacMillan Press, 1973 [Ch. 3, "Blake and the Damnation of Reason: <hi rend="i">The Marriage of Heaven and Hell; Annotations on Watson</hi>"].</p>
+                        <p>Tomoroy, P. The Life and Art of Henry Fuseli. London: Thames and Hudson, 1972.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">ARTICLES</hi>
+                            </title>
+                        </head>
+                        <p>Bateson, F. W. Editorial comment on V. Doyno’s "Blake’s Revision of ‘London’." Essays in Criticism, 22 (Jan. 1972), 61-62.</p>
+                        <p>Bishop, Morchard. "The Poet and the Attorney: The Story of a Legacy." Book Collector, 21:2 (Summer 1972), 245-54.</p>
+                        <p>Cohen, Sandy. "Is William Blake’s Concept of Marriage Kabbalistic?" Notes and Queries, N. S. 20:3 (March 1973), 100-01.</p>
+                        <p>Denvir, B. "Sensibility and Cybernetics; some recent books about art." Art International, 16 (Feb. 1972), 64-66.</p>
+                        <p>Doyno, V. "Blake’s Revision of ‘London’." Essays in Criticism, 22 (Jan. 1972), 58-63.</p>
+                        <p>Fawcus, Arnold. "William Blake’s Watercolour Designs illustrating Gray’s Poems--and Mr. Paul Mellon." Connoisseur, 179 (Jan. 1972), 10-14.</p>
+                        <p>Fletcher, Ian. "The Ellis-Yeats-Blake Manuscript Cluster." Book Collector, 21:1 (Spring 1972), 72-94.</p>
+                        <p>Grant, John. "Blake’s Illustrations of the Book of Job." Times Literary Supplement, 30 Nov. 1973, p. 1484.</p>
+                        <p>Horovitz, Michael. "Blake and the Voice of the Bard in our time." Books, 10 (Winter 1972), 18-24.</p>
+                        <p>James, G. Ingli. "Blake’s Woodcuts, Plain and Coloured." Times Literary Supplement, 18 May 1973, p. 564.</p>
+                        <pb id="p07-46" n="46"/>
+                        <p>Keynes, Geoffrey. "Blake’s Engravings for Gay’s Fables." Book Collector, 21:1 (Spring 1972), 59-64.</p>
+                        <p>Kjellberg, P. "Le premier coup d’audace des peintres anglais: leurs aquarelles." Connaissance Arts, 240 (Feb. 1972), 87.</p>
+                        <p>Packer, William and G. S. Whittet. "London" [Tate Gallery, London; Exhibit of Blake’s Illustrations to the Poems of Thomas Gray]. Art and Artists, 6 (Jan. 1972), 46-47, 49.</p>
+                        <p>Paulson, Ronald. "The Spectres of Blake and Rowlandson." The Listener, 90 (2 Aug. 1973), 140-42.</p>
+                        <p>Roberts, Neil. "The Spirit of Crow." Delta, 50 (Spring 1972), 3-15.</p>
+                        <p>Sharp, Dennis. "On show: exhibitions reviewed: Blake into Print." [Tate Gallery, London: Exhibit of Blake’s Illustrations to the Poems of Thomas Gray]. Journal of the Royal Institute of British Architects, 80:2 (Feb. 1972), 80.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">REVIEWS</hi>
+                            </title>
+                        </head>
+                        <p>Anon. G. E. Bentley, Jr., ed., The Blake Collection of Mrs. Landon K. Thorne. Times Literary Supplement, 28 April 1972, p. 470.</p>
+                        <p>Anon. The Book of Thel, ed. Nancy Bogan. Times Literary Supplement, 29 Sept. 1972, p. 1145.</p>
+                        <p>Anon. There is No Natural Religion [Trianon Press facsimile]. Times Literary Supplement, 28 April 1972, p. 470.</p>
+                        <p>Anon. Jacob Bronowski, William Blake and the Age of Revolution. Times Literary Supplement, 28 April 1972, p. 470.</p>
+                        <p>Anon. Morton D. Paley and Michael Phillips, eds., William Blake: Essays in honour of Sir Geoffrey Keynes. British Book News, Nov. 1973.</p>
+                        <p>Anon. Andrew Wright, Blake’s "Job": A Commentary. Times Literary Supplement, 29 Sept. 1972, p. 1145.</p>
+                        <p>Bazarov, K. Ruthven Todd, William Blake the Artist. Arts and Artists, 7 (May 1972), 56.</p>
+                        <p>Beer, John. Geoffrey Keynes, Blake Studies: Essays on his Life and Work. Notes and Queries, N. S. 20:8 (Aug. 1973), 305-07.</p>
+                        <p>Beer, John. Morton D. Paley, Energy and the Imagination: A Study of the Development of Blake’s Thought. Notes and Queries, N. S. 20:2 (Feb. 1973), 75-76.</p>
+                        <p>Beer, John. W. H. Stevenson, ed., The Poems of William Blake. Notes and Queries, N. S. 20:8 (Aug. 1973), 305-07.</p>
+                        <p>Beer, John. Mona Wilson, The Life of William Blake, ed. Geoffrey Keynes. Notes and Queries, N. S. 20:8 (Aug. 1973), 305-07.</p>
+                        <p>Edwards, R. Raymond Lister, British Romantic Art. Apollo, N. S. 98 (July 1973), 65-66.</p>
+                        <p>Edwards, R. Nicholas Powell, Fuseli: the Nightmare. Apollo, N. S. 97 (June 1973), 619-21.</p>
+                        <p>Edwards, R. P. Tomoroy, The Life and Art of Henry Fuseli. Apollo, N. S. 97 (June 1973), 619-21.</p>
+                        <p>Garlick, K. William Blake’s Watercolour Designs for the Poems of Thomas Gray, ed. Geoffrey Keynes. Apollo, N. S. 98 (July 1973), 71.</p>
+                        <p>Henn, T. R. Geoffrey Keynes, Blake Studies: Essays on his Life and Work. The Yearbook of English Studies, 3 (1973), 302-04.</p>
+                        <p>Hirst, Desiree. John Beer, Blake’s Visionary Universe. The Yearbook of English Studies, 2 (1972), 294-95.</p>
+                        <p>Hirst, Desiree. D. V. Erdman and J. E. Grant, eds., Blake’s Visionary Forms Dramatic. The Review of English Studies, 24:93 (Feb. 1973), 95-99.</p>
+                        <p>Hirst, Desiree. Geoffrey Keynes, Blake Studies: Essays on his Life and Work. The Review of English Studies, 24:93 (Feb. 1973), 95-99.</p>
+                        <p>Hirst, Desiree. Irene Taylor, Blake’s Illustrations to the Poems of Gray. The Review of English Studies, 24:93 (Feb. 1973), 95-99.</p>
+                        <p>Hopkins, Kenneth. Morton D. Paley and Michael Phillips, eds., William Blake: Essays in Honour of Sir Geoffrey Keynes. Eastern Daily Press, 7 Sept. 1973.</p>
+                        <p>Laws, Frederick. S. F. Damon, A Blake Dictionary: The Ideas and Symbols of William Blake. The Daily Telegraph, 13 Sept. 1973, p. 8.</p>
+                        <p>Laws, Frederick. Morton D. Paley and Michael Phillips, eds., William Blake: Essays in Honour of Sir Geoffrey Keynes. The Daily Telegraph, 13 Sept. 1973, p. 8.</p>
+                        <p>Muir, Kenneth. J. A. Wittreich, Jr., ed., The Romantics on Milton. Notes and Queries, N. S. 20:2 (Feb. 1973), 77-78.</p>
+                        <p>Rosenthal, M. Raymond Lister, British Romantic Art. Connoisseur, 183 (July 1973), 228.</p>
+                        <p>Williams, Raymond. D. V. Erdman and D. K. Moore, eds., The Notebook of William Blake. The Guardian, 29 Nov. 1973, p. 15.</p>
+                        <p>Williams, Raymond. G. R. Sabri-Tabrizi, The "Heaven" and "Hell" of William Blake. The Guardian, 29 Nov. 1973, p. 15.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">REPRODUCTIONS</hi>
+                            </title>
+                        </head>
+                        <p>"Angel Rolling away the Stone" (1808). Burlington Magazine, 114 (Sept. 1972), 652.</p>
+                        <p>"Le Christ au Tombeau." Gazzette Beaux Arts, Series 6, 81, supp. 206 (Feb. 1973).</p>
+                        <p>"Dessin pour un poeme de Mr. Gray, a long story." Gazzette Beaux Arts, series 6, 81, supp. 32 (Jan. 1973).</p>
+                        <p>"L’Eternel." La Revue du Louvre, 22:1 (1972), 52.</p>
+                        <p>"Fall of the Rebel angels." Journal of the Warburg and Courtauld Institutes, 34 (1971), pl. 71.</p>
+                        <p>"Le Pitie" (1795). Connoisseur, 179 (Feb. 1972), 144.</p>
+                        <p>"Pity." The Times, 28 Jan. 1972, p. 12.</p>
+                        <p>"Mary Magdalene at the Sepulchre: she turned herself back and saw Jesus standing." Apollo, 97 (May 1973), 24.</p>
+                        <p>"St. Matthew and the Angel." Connoisseur, 179 (Feb. 1972), 144.</p>
+                        <p>"Tiriel supporting the swooning Myratana and addressing his sons." Apollo, 95 (Feb. 1972), 154.</p>
+                        <p>"Wise and Foolish Virgins." Burlington Magazine, 155 (Feb. 1973), 138.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>

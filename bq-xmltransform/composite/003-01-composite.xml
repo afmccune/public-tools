@@ -1,0 +1,800 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>3.1.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+				<author n="Paley">Morton D. Paley</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>June 15, 1969</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1969</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">03.1</biblScope>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Associate Editors</resp>
+                            <name>Donald D. Ault</name>
+                            <name>Andrew Griffin</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <date when="1969"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_03">
+        <front>
+            <pb id="p03-1" n="1"/>
+            <div1 id="cover">
+                <figure n="cover.003.01.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter<lb/>
+                        Volume III, Number 1<lb/>
+                        Whole #9<lb/>
+                        June 15, 1969<lb/>
+                        <hi rend="u"><hi rend="i">NEWSLETTER BUSINESS</hi></hi><lb/>
+                        During the coming academic year, I'll be editing the <hi rend="i">Newsletter</hi><lb/>
+                        from England, with the assistance of two colleagues in Berkeley, Andrew<lb/>
+                        Griffin and Donald Ault.  During the summer, mail will be (slowly) for-<lb/>
+                        warded to me from Berkeley; people corresponding on <hi rend="i">Newsletter</hi> matters<lb/>
+                        may prefer to write to Professors Griffin and Ault.  Once I have an<lb/>
+                        address in London, I'll have it published in the Fall <hi rend="i">Newsletter</hi>.  It goes<lb/>
+                        without saying that I'd enjoy hearing from and meeting Blake scholars in<lb/>
+                        England.<lb/>
+                        A word on practical matters.  For the coming year, we have so far<lb/>
+                        secured no financial assistance from the University; though we do have<lb/>
+                        the indispensable help of the English Department office staff in producing<lb/>
+                        the <hi rend="i">Newsletter</hi>.  With the help of some kind volunteers, we may survive<lb/>
+                        as a publication; but it should be understood that our present status is<lb/>
+                        marginal.  We cannot for example meet requests for xeroxes of back issues<lb/>
+                        -- and there have been many requests.  Nor have we been able to think<lb/>
+                        realistically about going into an offset edition.  We may solve these and<lb/>
+                        related problems, as we'd surely like to, but at present it seems that<lb/>
+                        1969-70 will be a lean year.<lb/>
+                        [cont.  on page 18]<lb/>
+                        <hi rend="u"><hi rend="i">CONTENTS</hi></hi><lb/>
+                        <hi rend="i">News</hi><lb/>
+                        2<lb/>
+                        <hi rend="i">Notes</hi><lb/>
+                        "A Note on Blake and Fuseli" by Joseph A.<lb/>
+                        3-13<lb/>
+                        Wittreich; "Some Additions to <hi rend="i">A Blake</hi><lb/>
+                        <hi rend="i">Bibliography</hi> by Joseph A. Wittreich and<lb/>
+                        Stewart Curran; A Checklist of Blake Schol-<lb/>
+                        arship:  June '68-May '69; "Dating Blake's<lb/>
+                        Script" by David V. Erdman<lb/>
+                        <hi rend="i">Reviews</hi><lb/>
+                        Alvin H. Rosenfeld, ed.: <hi rend="i">William Blake: Essays</hi><lb/>
+                        14-18<lb/>
+                        <hi rend="i">for S. Foster Damon</hi>, by Michael J. Tolley;<lb/>
+                        Stanley Gardner:  <hi rend="i">Blake</hi>, by Paul Miner<lb/>
+                        <hi rend="i">Queries</hi><lb/>
+                        "Blake and William Frend" by W.H. Stevenson<lb/>
+                        19-20<lb/>
+                        The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English,<lb/> 
+                        University of California, Berkeley Calif. 94720.  Subscription price:<lb/>
+                        $2.00 for one year; invoiced subscriptions $3.00; overseas subscriptions<lb/>
+                        by air $3.00, by surface mail $2.00.  Please make checks or money orders<lb/>
+                        payable to "Blake Newsletter." Residents of Britain may pay by Postal<lb/> 
+                        Money Order for 16/9 (£1 10s by air) if the money order is <hi rend="u">open</hi> and<lb/>
+                        <hi rend="u">uncrossed</hi></figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-03-1-0001">
+				<div2>
+					<table id="contents" rows="4" cols="4">
+						<row>
+							<cell colspan="3">
+								<head>
+									<title>
+										<hi rend="i">
+											<hi rend="u">CONTENTS</hi>
+										</hi>
+									</title>
+								</head>
+							</cell>
+						</row>
+						<row>
+							<cell>
+								<hi rend="i">News</hi>
+							</cell>
+							<cell><supplied type="emend">"<ref type="article" issue="3.1.paley"><hi rend="i">Songs of Innocence and of Experience: Twentieth Century Interpretations</hi></ref>"<lb/>
+							by Morton D. Paley</supplied></cell>
+							<cell>2</cell>
+						</row>
+						<row>
+							<cell/>
+							<cell><supplied type="emend">"<ref type="article" issue="3.1.news"><hi rend="i">Blake Studies</hi>; <hi rend="i">As a Man Is--So He Sees</hi></ref>"</supplied></cell>
+							<cell/>
+						</row>
+						<row>
+							<cell>
+								<supplied type="emend"><hi rend="i">Corrections</hi></supplied>
+							</cell>
+							<cell><supplied type="emend" rend="plain">"<ref type="article" issue="3.1.initial">W. H. Stevenson’s middle initial</ref>"</supplied></cell>
+							<cell><supplied type="emend" rend="plain">2</supplied></cell>
+						</row>
+						<row>
+							<cell/>
+							<cell><supplied type="emend" rend="plain">"<ref type="article" issue="3.1.correction">Geoffrey Keynes, <hi rend="i">Blake's Letters</hi></ref>"</supplied></cell>
+							<cell><supplied type="emend" rend="plain">18</supplied></cell>
+						</row>
+						<row>
+							<cell>
+								<hi rend="i">Notes</hi>
+							</cell>
+							<cell>"<ref type="article" issue="3.1.wittreich">A Note on Blake and Fuseli</ref>"<lb/>
+							by Joseph A. Wittreich</cell>
+							<cell>3-13</cell>
+						</row>
+						<row>
+							<cell/>
+							<cell>"<ref type="article" issue="3.1.curran">Some Additions to <hi rend="i">A Blake Bibliography</hi></ref><supplied type="emend">"</supplied><lb/>
+							by Joseph A. Wittreich and <corr type="emend">Stuart</corr> Curran</cell>
+							<cell/>
+						</row>
+						<row>
+							<cell/>
+							<cell><ref type="article" issue="3.1.checklist">A Checklist of Blake Scholarship: June ‘68-May ‘69</ref></cell>
+							<cell/>
+						</row>
+						<row>
+							<cell/>
+							<cell>"<ref type="article" issue="3.1.erdman">Dating Blake’s Script</ref>"<lb/>
+							by David V. Erdman</cell>
+							<cell/>
+						</row>
+						<row>
+							<cell>
+								<hi rend="i">Reviews</hi>
+							</cell>
+							<cell><ref type="article" issue="3.1.tolley">Alvin H. Rosenfeld, ed.: <hi rend="i">William Blake: Essays for S. Foster Damon</hi></ref>,<lb/>
+							by Michael J. Tolley</cell>
+							<cell>14-18</cell>
+						</row>
+						<row>
+							<cell/>
+							<cell><ref type="article" issue="3.1.miner">Stanley Gardner: <hi rend="i">Blake</hi></ref>,<lb/>
+							by Paul Miner</cell>
+							<cell/>
+						</row>
+						<row>
+							<cell>
+								<hi rend="i">Queries</hi>
+							</cell>
+							<cell>"<ref type="article" issue="3.1.stevenson">Blake and William Frend</ref>"<lb/>
+							by W. H. Stevenson</cell>
+							<cell>19-20</cell>
+						</row>
+					</table>
+				</div2>
+				<div2>
+					<note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English, University of California, Berkeley Calif. 94720. Subscription price: $2.00 for one year; invoiced subscriptions $3.00; overseas subscriptions by air $3.00, by surface mail $2.00. Please make checks or money orders payable to "Blake Newsletter." Residents of Britain may pay by Postal Money Order for 16/9 (£1 10s by air) if the money order is <hi rend="u">open</hi> and <hi rend="u">uncrossed.</hi>
+					</note>
+				</div2>
+				<div2>
+					<corr type="emend" rend="plain">
+						<head>
+							<title>
+								<hi rend="i">
+									<hi rend="u">NEWSLETTER BUSINESS</hi>
+								</hi>
+							</title>
+						</head>
+						<p>During the coming academic year, I’ll be editing the <hi rend="i">Newsletter</hi> from England, with the assistance of two collagues in Berkeley, Andrew Griffin and Donald Ault. During the summer, mail will be (slowly) forwarded to me from Berkeley; people corresponding on <hi rend="i">Newsletter</hi> matters may prefer to write to Professors Griffin and Ault. Once I have an address in London, I’ll have it published in the Fall <hi rend="i">Newsletter.</hi> It goes without saying that I’d enjoy hearing from and meeting Blake scholars in England.</p>
+						<p>A word on practical matters. For the coming year, we have so far secured no financial assistance from the University; though we do have the indispensable help of the English Department office staff in producing the <hi rend="i">Newsletter.</hi> With the help of some kind volunteers, we may survive as a publication; but it should be understood that our present status is marginal. We cannot for example meet requests for xeroxes of back issues -- and there have been many requests. Nor have we been able to think realistically about going into an offset edition. We may solve these and related problems, as we’d surely like to, but at present it seems that 1969-70 will be a lean year.<gap type="emend"/></p>
+					</corr>
+						<pb id="p03-18" n="18"/>
+						<p>On another subject -- reviews. When we began the <hi rend="i">Newsletter</hi>, we published no reviews, on the assumption that Blake books were amply and expeditiously reviewed elsewhere. We soon discovered that this was often not the case and that, besides, there existed a need for reviews aimed at a more specialized audience. Our policy is to give reviewers complete freedom, both as to length and as to opinion: there is no editorial policy concerning "rightness" of views, and the editor is of course not responsible for the views of contributors. In addition, our pages are open for disagreement in form of discussion articles. We would like to have a wide variety of reviews and reviewers, and we invite readers who have published on Blake to correspond with us if they are interested in reviewing.</p>
+						<p>This June issue contains once more the annual checklist of Blake scholarship. Its chief virtue, as we have said before, is timeliness rather than completeness. It would, however, be more complete had more of you sent offprints.</p>
+						<byline>
+							<docAuthor>MDP</docAuthor>
+						</byline>
+				</div2>
+            </div1>
+        </front>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-2" n="2"/>
+            <div1 id="BQ-03-1-0003">
+                <head>
+                    <title type="section">NEWS</title>
+                </head>
+                <p>Scheduled for imminent (I hope) publication: <hi rend="i">Songs of Innocence and of Experience:</hi> Twentieth Century Interpretations (Prentice-Hall), ed. M. D. Paley. It includes an introductory essay, six reprinted essays or chapters, and seven excerpts. The longer items are: Alicia Ostriker’s chapter on the prosody of the <hi rend="i">Songs</hi>, Foster Damon’s "The Initial Eden," "The Vision of Innocence" by Martin Price [from <hi rend="i">To the Palace of Wisdon</hi>], "Infinite London" by David Erdman, "Blake’s Introduction to Experience" by Northrop Frye, and "Tyger of Wrath" by myself. The Erdman article, from <hi rend="i">Blake: Prophet</hi>, has been revised by the author; my own piece incorporates some minor corrections and emendations. The short excerpts vary from 1 to 4 pages in length and are mostly on individual poems; they are from books by Joseph H. Wicksteed, Robert F. Gleckner, Harold Bloom, Mark Schorer, Hazard Adams, and E. D. Hirsch, Jr., and from an article by Martin K. Nurmi. As I suppose is inevitable in such undertakings, I wished I had scope for at least several other articles. However, I had to be mindful of length, and also of the publisher’s wish not of include articles in two previously published Blake collections. (An exception was made for the Frye essay, which I considered indispensable to such a volume). I hope the resulting book will be useful to students.</p>
+                <byline>
+                    <docAuthor>MDP</docAuthor>
+                </byline>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-2" n="2"/>
+            <div1 id="BQ-03-1-0003">
+                <p>The second issue of <hi rend="i">Blake Studies</hi> has been delayed at the printer’s but will appear in about a month. Its contents comprise "A ‘Triumphing Joyfulness’: Blake, Boehme, and the Tradition" by John Adlard; "William Blake As an Intellectual and Spiritual Guide to Chaucer’s <hi rend="i">Canterbury Tales</hi>" by Karl Kiralis; "William Butler Yeats As an Editor of William Blake" by Raymond Lister; short articles by John E. Grant and Gene Degruson; two poems by James Tate; and dissertation abstracts of Patrick J. Callahan and Peter Alan Taylor. (address: c/o Professors Kay Long and Roger Easson/ University of Tulsa/ Tulsa, Oklahoma 74104)</p>
+                <p>A program on Blake, <hi rend="i">As a Man Is--So He Sees</hi>, has been seen recently on British and American television. Mr. Arnold O. Brigden has kindly sent us some clippings from the British press about this joint production of the BBC and NET. The script and commentary are by Jacob Bronowski, music by Dudley Simpson. A cast of four is listed in the roles of William Blake as a boy, William Blake, Catherine Blake, and John Scofield.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-2" n="2"/>
+            <div1 id="BQ-03-1-0003">
+                <p>W. H. Stevenson’s middle initial was printed incorrectly in the Spring <hi rend="i">Newsletter.</hi>
+                </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-18" n="18"/>
+            <div1 id="BQ-03-1-0006">
+                <head>
+                    <title type="section">
+                        <hi rend="i">CORRECTION</hi>
+                    </title>
+                </head>
+                <p>Sir Geoffrey Keynes wishes to point out that the second edition of <hi rend="i">Blake’s Letters</hi> contains four letters not included in the first edition, and not one, as was stated in the Spring <hi rend="i">Newsletter.</hi> In addition to the brief letter to Mrs. Aders, there are two complete letters to Hayley and one to Linnell<corr type="emend">.</corr> Furthermore, the inverted commas in the poem sent to Butts are not editorial, but form part of Blake’s original letter.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-3" n="3"/>
+            <div1 id="BQ-03-1-0004">
+                <head>
+                    <title type="section">
+                        <hi rend="i">
+                            <hi rend="u">NOTES</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">1. A NOTE ON BLAKE AND FUSELI</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Joseph Anthony <name>Wittreich</name>, Jr.</docAuthor> Department of English The University of Wisconsin, Madison</byline>
+                    <p>That Henry Fuseli was profoundly influenced by Blake is generally acknowledged, but the suggestion that Fuseli exerted any significant influence upon Blake is usually resisted.<ref target="n1" type="note">1</ref> Several pleces of evidence, which seem to have escaped Blake’s commentators, may suggest otherwise, however. Blake knew the paintings that composed the Fuseli Milton Gallery, and he knew them well, as his letters and some marginalia indicate. Of these paintings, the one depicting Satan, Sin, and Death at the Gates of Hell achieved considerable notoriety and may, in fact, have inspired Blake to choose that episode for two separate illustrations, both of which are now in the Huntington Art Gallery.<ref target="n2" type="note">2</ref>
+                        <note id="n1">
+                            <hi rend="s">1</hi> For exceptions to this generalization, see Anthony Blunt--<hi rend="i">The Art of William Blake</hi> (Columbia, 1959)--who reminds us that Blake borrowed many themes from Fuseli (p. 39) and Raymond Lister--<hi rend="i">William Blake</hi> (London, 1968)--who recalls that Blake often professed that he was a student of Fuseli (p. 138). More importantly, David Erdman, in <hi rend="i">Blake: Prophet Against Empire</hi> (Princeton, 1954), maintains that Blake "appropriated many of his [Fuseli’s] ideas on the theory and history of art (p. 41)--a premise repeated by Jean H. Hagstrum who, in <hi rend="i">William Blake, Poet and Painter: An Introduction to the Illuminated Verse</hi> (Chicago, 1964), while acknowledging that on large matters "their differences were profound," recognizes that "Blake owed much" to Fuseli and "shared many of the same artistic ideas" (pp. 67-68, 64). But in every case the "minute particulars" of Blake’s debt to Fuseli go unacknowledged.</note>
+                        <note id="n2">
+                            <hi rend="s">2</hi> The illustrations of Fuseli and Blake are reproduced in Blunt as Plates 10c and 11a respectively. Blake’s illustration surpasses Fuseli’s, as well as those by Stothard and Barry (see Plates 10a and 10b), in its fidelity to Milton’s text (i.e. the others depict Death as a monster, whereas Blake alone depicts him as a shadowy figure). It is noteworthy that Blake, in his second set of illustrations to <hi rend="i">Paradise Lost</hi> 1808), dropped all designs for the first two books of <hi rend="i">Paradise Lost</hi> and thus began his new series with the Son’s offering of himself as Redeemer. The differences between these two sets of illustrations are of immense significance, usually showing Blake bringing the illustrations into closer alignment with Milton’s text, and deserve a full-length study as a form of non-verbal criticism.</note>
+                    </p>
+                    <p>Moreover, both Blake and Fuseli were led to speculate on the nature of epic poetry, and their speculations are based largely upon Milton’s achievement in <hi rend="i">Paradise Lost.</hi> In "Lecture III," delivered before the Royal Academy in May, 1801, Fuseli had insisted that the epic poet concern himself with impressing "one general idea . . . <hi rend="u">one</hi> irresistible idea upon the mind and fancy" (Knowles, 11, 157).<ref target="n3" type="note">3</ref> Two years later, Blake comments similarly in a letter to Thomas Butts (April 25, 1803), which mentions the immense number of verses he has written on "One Grand Theme, Similar to Homer’s Iliad and Milton’s Paradise Lost (Keynes, p. 823). Distanced from one another by two years, these comments may, of course, suggest intellectual kinship rather than an actual debt. However, a final piece of evidence may indicate that Blake’s whole conception of epic poetry was colored by his knowledge of Fuseli’s views on the subject. In the Spring of 1803, Fuseli delivered a fourth lecture wherein he once again takes up the question of epic poetry, points to Milton’s allegory of Satan, Sin, and Death as an instance of the sublime that "amalgamates the mythic and superhuman,<ref target="n4" type="note">4</ref> and then defines epic poetry as "sublime allegory" (11, 196). Fuseli’s definition corresponds strikingly with Blake’s, which comes in a celebrated letter addressed to Thomas Butts and dated July 6, 1803. In this letter, Blake expresses the hope that he may speak "to future generations by a Sublime Allegory" and then defines sublime poetry as "Allegory address’d to the Intellectual powers, while it is altogether hidden from the Corporeal Understanding" (Keynes, p. 825). 
+                        <note id="n3">
+                            <hi rend="s">3</hi> All citations from Fuseli and Blakes are taken from the following editions: <hi rend="i">The Life and Writings of Henry Fuseli</hi>, ed. John Knowles (3 vols.; London, 1831) and <hi rend="i">The Complete Writings of William Blake</hi>, ed. Geoffrey Keynes (London, 1966).</note>
+                        <note id="n4">
+                            <hi rend="s">4</hi> The quality of sublimity, denied to this episode by Milton’s eighteenth-century critics from Addison to Johnson, is attributed to it, first by Burke, then by Fuseli and Blake (see Blunt, p. 15), and finally by Coleridge, Hunt, and De Quincey. See, esp., John Payne Collier, <hi rend="i">Seven Lectures on Shakespeare and Milton by the Late Samuel Taylor Coleridge</hi> (London, 1856), pp. 64-66; <hi rend="i">Leigh Hunt’s Dramatic Criticism 1808-1831</hi>, ed. Lawrence Huston Houtchens and Carolyn Washburn Houtchens (New York, 1949), pp. 149-150; and <hi rend="i">A Diary of Thomas De Quincey</hi> (London, 1927), p. 169.</note>
+                    </p>
+                    <p>It is in this same letter that Blake imagines himself to be none other than a "Secretary" of those "Authors" who dwell in "Eternity." It would seem likely that, having found Fuseli an appropriate model for painters, Blake would find him an equally authoritative source for his thinking on poetry. Such is the impression he gives, in any case, when in <hi rend="i">Public Address</hi> he places Fuseli alongside Michael Angelo, Shakespeare, and Milton (Keynes, p. 595).</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <div1 id="BQ-03-1-0004">
+                <pb id="p03-4" n="4"/>
+                <div2>
+                    <head>
+                        <title type="main">2. SOME ADDITIONS TO <hi rend="i">A BLAKE BIBLIOGRAPHY</hi></title>
+                    </head>
+					<byline><docAuthor>Stuart <name>Curran</name></docAuthor> and <docAuthor>Joseph Anthony <name>Wittreich</name>, Jr.</docAuthor><lb/>
+					The University of Wisconsin</byline>
+                    <p>—. "Dinner by the Amateurs of Vegetable Diet (Extracted from an Old Paper)," <hi rend="i">The London Magazine and Theatrical Inquisitor</hi>, IV (1821), 31-35. Reprinted in <hi rend="i">The Unextinguished Hearth: Shelley and His Contemporary Critics</hi>, ed. Newman Ivey White (Durham, N.C., 1938; New York, 1966), pp. 263-269.</p>
+                    <q>
+This witty sketch contains the following reference which may or may not be to Blake (Professor White suggests that it is): "Mr. P[ercy] B[ysshe] S[helley] then gave, ‘the memory of Nebuchadnezzar, and may all
+<pb id="p03-5" n="5"/>
+kings, like him, be speedily sent to graze with their brother brutes.’ This toast excited much commotion, but was drank at last, without the adjunct, which it was deemed prudent to omit. Mr. B[lake], of Bible-celebrity, observed, that in supposing Nebuchadnezzar to have fed on grass, we are not borne out by the Hebrew text. This he would prove in his intended translation of the Bible. He also took occasion to declare his opinion, that the longevity of mankind before the flood was owing to their feeding on vegetables, not on raw meat, as had been erroneously supposed; but these were points he trusted would be cleared up in his treatise on ‘Antedeluvian Cherubim.’" (p. 267) If White is correct in his speculation, the first effort to link Blake and Shelley comes earlier than Deborah Dorfman supposes (see <hi rend="i">Blake in the Nineteenth Century: His Reputation as a Poet from Gilchrist to Yeats</hi> [New Haven, 1969], pp. 50-51).
+</q>
+                    <p>Barker, Arthur E. "‘ . . . And on His Crest Sat Horror’: Eighteenth-Century Interpretations of Milton’s Sublimity and His Satan, "<hi rend="u">UTQ</hi>, XI (1941-42), 421-236.</p>
+                    <q>
+Barker sees "the paradoxical interpretation" of Milton set forth by Blake and Shelley "as the fruit of a steady (though complex) growth."
+</q>
+                    <p>Conway, Monocure D. <hi rend="i">Bibliotheca Diabolica; being a Choice of Selection of the most valuable books relating to the Devil</hi> . . . (New York, 1874).</p>
+                    <q>
+This comprehensive survey of the literature of diabolism lists <hi rend="i">The Marriage of Heaven and Hell</hi> as a "serious and meditative" study of the "mystery of evil."
+</q>
+                    <p>E[liot], T. S. "The Naked Man" (A Review of Charles Gardner’s <hi rend="i">William Blake the Man), The Athenaeum</hi> (February 13, 1920), 208-209.</p>
+                    <q>
+This review contains a large portion of Eliot’s essay on Blake published in <hi rend="i">The Sacred Wood</hi> (1920).
+</q>
+                    <p>Ginsberg, Allen. Interview printed under the title of "Allen Ginsberg" in <hi rend="i">Writers at Work: The ‘Paris Review’ Interviews</hi>, 3rd Ser., ed. George Plimpton and Alfred Kazin (New York, 1967), pp. 279-320.</p>
+                    <q>
+See esp. comments on Blake’s idea of Jerusalem (p. 299), on Ginsberg’s "ecstatic experience" from Blake (pp. 300 ff.), on "Ah, Sun-flower" (pp. 304-305), on "The Little Girl Lost" (pp. 305-306).
+</q>
+                    <p>Huckabay, Calvin. "The Satanist Controversy of the Nineteenth Century" in <hi rend="i">Studies in English Renaissance Literature</hi>, ed. Waldo F. Mc Neir (Baton Rouge, 1962) pp. 197-210.</p>
+                    <q>
+Huckabay traces the idea that Satan is the hero of <hi rend="i">Paradise Lost</hi> "from its inception in William Blake’s <hi rend="i">The Marriage of</hi>
+                        <pb id="p03-6" n="6"/>
+                        <hi rend="i">Heaven and Hell</hi> to its fruition in Sir Walter Raleigh’s <hi rend="i">Milton</hi> . . . ."
+</q>
+                    <p>Werblowsky, R. J. Zwi. "Appendix A: [On Blake’s <hi rend="i">The Marriage of Heaven and Hell</hi>]" in <hi rend="i">Lucifer and Prometheus: A Study of Milton’s Satan</hi> (with a Preface by C. G. Jung) (London, 1952), pp. 107-110; also pp. 3, 61, 64, 81, 99, 101.</p>
+                    <q>
+Werblowsky contributes significantly to our understanding of "Blake’s great contribution to Milton criticism" but is misleading, sometimes confused, in many particulars, esp. in his insistence that Blake held the Lucifer-Prometheus myth together by accepting Satan’s vitality "whilst ignoring the significance of his evil."
+</q>
+                    <p>Wilson, Colin. <hi rend="i">The Glass Cage: An Unconventional Tale of Mystery</hi> (London, 1966).</p>
+                    <q>
+Novel. An imaginative interpretation of Blake’s relevance to the modern world. A commentary on this novel (by Stuart Curran) is forthcoming in the Fall, 1969, issue of <hi rend="i">Blake Studies.</hi>
+                    </q>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <div1 id="BQ-03-1-0004">
+                <pb id="p03-6" n="6"/>
+                <div2>
+                    <head>
+                        <title type="main">3. A CHECKLIST OF BLAKE SCHOLARSHIP - June ’68 to May ’69</title>
+                    </head>
+                    <p>This list was compiled with the assistance of Sharon Flitterman.</p>
+                    <div3>
+                        <head>
+                            <title>A. Bibliographies</title>
+                        </head>
+                        <p>Anon, "MLA International Bibliography, 1967," <hi rend="u">PMLA</hi>, LXXXIII, iii (June 1968), items 6854-6877; see also items 8400, 8463.</p>
+                        <p>—. "English Literature: A Current Bibliography," <hi rend="u">PQ</hi>, XLVII (July 1968), 355-358.</p>
+                        <p>Erdman, David V., with the assistance of Kenneth Degus and James S. Patty. "The Romantic Movement: A Selective and Critical Bibliography for 1967." <hi rend="u">ELN</hi>, VI (Sept. 1968), 20-23.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>B. Articles and Reviews</title>
+                        </head>
+                        <p>Anon. "Blake as Humanist and Craftsman" [rev. of John Beer, <hi rend="u">Blake’s Humanism</hi>; Raymond Lister, <hi rend="u">William Blake</hi>], <hi rend="u">TLS</hi>, June 27, 1968, p. 680.</p>
+                        <p>—. "Guides to a New Language" [rev. of Erdman et al., eds., <hi rend="u">A Concordance to . . Blake</hi>; S. Foster Damon, <hi rend="u">A Blake Dictionary</hi>], <hi rend="u">TLS</hi>, October 3, 1968, p. 1098.</p>
+                        <p>—. "Queen Katherine’s Dream (1807)," <hi rend="u">Connoisseur</hi>, CLXIX (Oct. 1968), 134. Reproductions.</p>
+                        <p>Bacon, M. E. "Blake and Gray: A Case of Literary Symbiosis," <hi rend="u">Culture</hi>, XXIX (March 1968), 42-50. Bibliography.</p>
+                        <p>Bentley, G. E., Jr. "William Blake’s Protean Text." Pp. 44-58 of <hi rend="u">Editing Eighteenth Century Texts</hi>: Papers given at the Editorial Conference, University of Toronto, October 1967. Ed. D. I. B. Smith. Toronto, 1968.</p>
+                        <pb id="p03-7" n="7"/>
+                        <p>Bloom, H. "Visionary Cinema," <hi rend="u">Partisan Review</hi>, XXXV (Fall 1968), 355-370.</p>
+                        <p>Brivic, Sheldon R. "Structure and Meaning in Joyce’s <hi rend="u">Exiles</hi>," <hi rend="u">James Joyce Quarterly</hi>, VI (1968), 29-52. Includes some interesting parallels and possible sources in Blake.</p>
+                        <p>Connolly, Thomas E., &amp; George R. Levine. Reply to J. G. Keogh [see below], <hi rend="u">PMLA</hi>, LXXXIV (1969), 138-139.</p>
+                        <p>Enscoe, Gerald E. "The Content of Vision: Blake’s ‘Mental Traveller,’" <hi rend="u">Papers on Language &amp; Literature</hi>, IV (1968), 400-413.</p>
+                        <p>Erdman, David V. "The Binding (et cetera) of <hi rend="u">Vala</hi>," <hi rend="u">The Library</hi>, XIX [for 1964] (1968), 112-129.</p>
+                        <p>—. "Blake’s Transcript of Bisset’s ‘Lines Written on Hearing the Surrender of Copenhagen,’" <hi rend="u">BNYPL</hi>, LXXII (1968), 518-521.</p>
+                        <p>Evenden, John. "Blake’s Dante Plates," <hi rend="u">TLS</hi>, Sept. 12, 1968, p. 1023.</p>
+                        <p>Grant, John E. "Blake’s Songs of Innocence and of Experience," <hi rend="u">PQ</hi>, XLVII (Oct. 1968) 571-580.</p>
+                        <p>Hirst, Désirée. Review of <hi rend="u">Blake’s Humanism</hi> by John Beer and <hi rend="u">William Blake</hi> by Raymond Lister, <hi rend="u">Blake Studies</hi>, I (1968), 98-101</p>
+                        <p>Keogh, J. G. "Two Songs of Innocence," <hi rend="u">PMLA</hi>, LXXXIV (1969), 137-138.</p>
+                        <p>Keynes, Sir Geoffrey. "Blake’s <hi rend="u">Little Tom the Sailor</hi>," <hi rend="u">Book Collector</hi>, XVII (Winter 1968), 421-427.</p>
+                        <p>Kiralis, Karl. "‘London’ in the Light of <hi rend="u">Jerusalem</hi>," <hi rend="u">Blake Studies</hi>, I (1968), 5-15.</p>
+                        <p>Kostelanetz, Anne T. Ph.D. abstract, <hi rend="u">Blake Studies</hi>, I (1968), 103-104.</p>
+                        <p>McGowan, James Denise. Ph.D. abstract, <hi rend="u">Blake Studies</hi>, I (1968), 104.</p>
+                        <p>Parris, Leslie. "William Blake’s Mr. Thomas," <hi rend="u">TLS</hi>, Dec. 5, 1968, p. 1390.</p>
+                        <p>Parsons, C. O. "Tygers before Blake," <hi rend="u">Studies in English Literature</hi>, VIII (Autumn 1968), 573-592.</p>
+                        <p>Rose, Edward J. "‘A Most Outrageous Demon’: Blake’s Case Against Rubens," <hi rend="u">Bucknell Review</hi>, XVII (March 1969), 35-54.</p>
+                        <p>—. "Blake’s Human Insect: Symbol, Theory, and Design," <hi rend="u">Texas Studies in Literature and Language</hi>, VI (1968), 215-232.</p>
+                        <p>—. "Blake’s <hi rend="u">Milton</hi>: The Poet as Poem," <hi rend="u">Blake Studies</hi>, I (1968), 16-38.</p>
+                        <p>—. "Circumcision Symbolism in Blake’s <hi rend="u">Jerusalem</hi>," <hi rend="u">Studies in Romanticism</hi>, VIII (1968), 16-25.</p>
+                        <p>Shirey, D. L. "Romantic Art in Britain," <hi rend="u">Arts</hi>, XLII (April 1968), 26. Illus. "Number of the beast is 666."</p>
+                        <p>Taylor, Clyde. "Iconographical Themes in William Blake," <hi rend="u">Blake Studies</hi>, I (1968), 39-85.</p>
+                        <p>Todd, Ruthven. "Blake’s Dante Plates." London, 1968. 12 pp. Reprinted, with additions, from the October 1968 issue of <hi rend="u">Book Collecting &amp; Library Monthly.</hi>
+                        </p>
+                        <p>—. "Blake’s Dante Plates," <hi rend="u">TLS</hi>, Aug. 29, 1968, p. 928; Sept. 26, 1968, p. 1090.</p>
+                        <p>—. "Gilchrist Redivivus," <hi rend="u">Blake Studies</hi>, I (1968), 95-97.<gap type="emend"/></p>
+						<pb id="p03-20" n="20"/>
+                        <p>Tolley, Michael J. "On the Cutting Edge of Blake Scholarship," <hi rend="u">Adelaide University Graduates’ Union Monthly Newsletter and Gazette</hi>, Dec. 1968, pp. 4-5.</p>
+                        <p>—. Review of <hi rend="u">A Concordance to the Writings of William Blake</hi>, ed. David V. Erdman, <hi rend="u">Southern Review</hi> [Australia], III (1968), 188-191.</p>
+                        <p>Walling, William. "The Death of God: William Blake’s Version," <hi rend="u">Dalhousie Review</hi>, XLVIII (1968), 237-250.</p>
+                        <p>Whistler, Laurence. "William Blake’s <hi rend="u">Milton</hi>," <hi rend="u">Connoisseur</hi>, CLXVII (April 1968), 233. Illus.</p>
+                        <p>Wittreich, Joseph Anthony, Jr. "Blake’s <hi rend="u">The Little Girl Lost</hi>, Stanzas 9-11," <hi rend="u">Explicator</hi>, XXVII (1969), item 61.</p>
+                        <p>—. "Dylan Thomas’ Conception of Poetry: A Debt to Blake," <hi rend="u">ELN</hi>, VI (1969), 197-199</p>
+                        <p>—. "The ‘Satanism’ of Blake and Shelley Reconsidered," <hi rend="u">SP</hi>, LXV (1968), 816-833.</p>
+                        <p>—. "William Blake and Bernard Barton," <hi rend="u">Blake Studies</hi>, I (1968), 91-94.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>C. Books</title>
+                        </head>
+                        <p>Blake: <hi rend="u">The Gates of Paradise.</hi> Blake Trust Facsimile, described in <hi rend="u">BNL</hi> #7, p. 38. The Illustrations to <hi rend="u">The Divine Comedy.</hi> Da Capo Press (New York). Described in <hi rend="u">BNL</hi> #8, p. 61.</p>
+                        <p>
+                            <hi rend="u">Letters of William Blake</hi>, ed. Sir Geoffrey Keynes. 2nd ed. London: Rupert Hart-Davis. 1968</p>
+                        <p>Dorfman, Deborah. <hi rend="u">Blake in the Nineteenth Century.</hi> New Haven and London: Yale University Press. 1969.</p>
+                        <p>Rosenfeld, Alvin H., ed. <hi rend="u">William Blake: Essays for S. Foster Damon.</hi> Providence, R.I.: Brown University Press. 1969. Contents listed in <hi rend="u">BNL</hi> #5, p. 2.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <div1 id="BQ-03-1-0004">
+                <pb id="p03-8" n="8"/>
+                <div2>
+                    <head>
+                        <title type="main">4. DATING BLAKE’S SCRIPT: the "g" hypothesis</title>
+                    </head>
+                    <byline>
+                        <docAuthor>David V. <name>Erdman</name>
+                        </docAuthor> SUNY (Stony Brook) and NYPL</byline>
+                    <p>G. E. Bentley, Jr., has urged me, at a welcome time and in the public interest, to spell out in more detail the grounds for the theory I advanced in a summary note in <hi rend="u">Studies in Bibliography</hi> in 1964 (pp. 51-54) and, even more cryptically, in 1966 in the textual notes of the Doubleday Blake (pp. 738, 744, 745), the theory based on the discovery that one of Blake’s "accidentals," the shape of the letter <hi rend="u">g</hi> in his script, had twice undergone such deliberate change as to be anything but accidental.</p>
+                    <p>I observed that up to about 1790 Blake in the lettering of his Illuminated Books or engraved inscriptions employed a lower-case <hi rend="u">g</hi> of the conventional kind, with the serif ("the little nubbin at the top" as Bentley calls it) pointing to the right (ǵ); that he invented a different letter, with the serif pointing idiosyncratically to the left (g) "in about 1791, employed [it] with unwavering consistency for fourteen years, and then as suddenly and with ruthless consistency discarded" it in 1805:</p>
+                    <p>"<hi rend="u">Thel</hi>, dated 1789 but containing (as others have observed) a Motto and a concluding plate that seem late additions, uses the conventional and manuscript <hi rend="u">g</hi>’s --except in the Motto and the last plate [pl. 1, 8], where the new [left-facing] <hi rend="u">g</hi> takes over. <hi rend="u">The Marriage</hi> . . . was the product of several years [as most scholars agree]. The old <hi rend="u">g</hi> rules up through Plate 3, and in 5-6, 11-13, 21-24 [here I correct a numerical error in <hi rend="u">SB</hi>]; the new <hi rend="u">g</hi> in 4, 7-10, 14-20, and in the ‘Song of Liberty’ (25-27). This overlap narrows the date of change to late 1790 or early 1791. Every serified <hi rend="u">g</hi> thereafter points leftward, even in inscriptions made for Cumberland or Hayley, including the inscription ‘June 18, 1805 . . . Bridge Street’ in the plates for Hayley’s <hi rend="u">Ballads.</hi> After that date Blake not only abandoned the leftward <hi rend="u">g</hi> but corrected it in reissues! In the 1807 reissue of these <hi rend="u">Ballads</hi> the date is not changed, but the <hi rend="u">g</hi> in ‘Bridge Street’ has a new rightward serif. Blake’s <hi rend="u">Gates of Paradise</hi>, etched ‘For Children’ in 1793, with leftward g’s, was reissued many years later with some further etching, during which the g’s [on pl. 13, 14, 16] were given new, right-facing serifs, opposite visible remains of the old. In late issues of <hi rend="u">Songs of Experience</hi>, for example in the Rosenwald and Fitzwilliam copies [copies Z, AA, to be seen in the Blake Trust facsimile and in color slides, respectively], when Blake retouched the lettering he added new serifs beside the old."</p>
+                    <p>Bentley is puzzled at my claim to see conventional <hi rend="u">g</hi>’s in the main part of <hi rend="u">Thel.</hi> I should have explained more analytically that the lowercase <hi rend="u">g</hi>’s in <hi rend="u">Thel</hi> are of a rather neutral kind that can be found occasionally in any period, with no serif and no loop in the tail and an oval head (9), but that in plates 3-5, 7 of <hi rend="u">Thel</hi> occur hybrid <hi rend="u">g</hi>’s with more rounded head and a slight but rightward serif (g). These I counted in with the conventional <hi rend="u">g</hi>’s, but perhaps the argument should be put, here, as resting on the absence of the new, leftward <hi rend="u">g</hi>’s. Another type of serif-less <hi rend="u">g</hi>’s, with curled tail and round--but bald--head (g) will puzzle us later on.</p>
+                    <p>To fill out the picture, Bentley suggests a table of evidence to see whether it is accurate to say that there are "no exceptions" to my hypothesis in any clearly dated work--and to see what applications may be made that clarify the dating of uncertainly dated work. A first step, partly supplied by Bentley in correspondence, would be a tabulation of all writings containing <hi rend="u">g</hi>’s of any kind, according to dates traditionally assigned, on however little authority. But since an immediate second step would be the elimination of items containing only serif-less <hi rend="u">g</hi>’s (Bentley sketched out a list of engraved captions containing only neutral <hi rend="u">g</hi>’s which shows the
+<pb id="p03-9" n="9"/>
+as available to Blake in all periods--though seldom in captions that may not have been lettered by someone else), and a third step the removal for separate treatment of items of infirm date or of ambiguous serif, I’ve chosen to begin at <hi rend="u">this</hi> point, with a table of unambiguous and fairly certainly (if not always pinpointably) dated exhibits, followed by a table of works or inscriptions of uncertain date and/or ambiguously drawn <hi rend="u">g</hi>’s.</p>
+                    <p>It should be understood that no writing by Blake, in pencil, pen, burin, or graver, has been excluded from this survey. If few instances of pen or pencil writing are listed, it is because they are the only occurrences of serifed <hi rend="u">g</hi>’s I have found in all Blake’s manuscripts.</p>
+                    <table rows="36" cols="2">
+                        <head>Table 1</head>
+                        <row>
+                            <cell>RIGHT-SERIF ǵ (Conventional)</cell>
+                            <cell>LEFT-SERIF g (Idiosyncratic)</cell>
+                        </row>
+                        <row>
+                            <cell>No Natural Religion [1788]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>All Religions are One [1788]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Innocence (tp 1789) pl 2-27, 34-36, 53, b</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Thel (tp 1789) pl 3-5, 7 (hybrid <hi rend="u">g</hi>’s)</cell>
+                            <cell>Thel pl 1 (Motto), 8 (Finis)</cell>
+                        </row>
+                        <row>
+                            <cell>Marriage pl 2, 3[1790], 5-6, 11-13, 21-24</cell>
+                            <cell>Marriage pl 4, 7-10, 14-20, 25-27</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Visions (tp 1793)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>For Children (1793) pl 2, 13-14, 16</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Job (18 Aug 1793)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Edward &amp; Elenor (18 Aug 1793)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>America (tp 1793)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Experience (tp 1794) 30-33, 37-51</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Europe (tp 1794)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Urizen (tp 1794)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Ahania; Song of Los; Bk of Los (tps 1795)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Cumberland: Thoughts on Outline (Jan 1795) pl 2, 3, 5-16, 18, 19, 22</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Moore &amp; Co carpet adv [1797-98]</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Naval Pillar (1799)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Little Tom (Oct 5 1800)</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Designs to . . . Ballads, fp (June 1 1802), Lion (August 3 1802)</cell>
+                        </row>
+                        <row>
+                            <cell>Hayley <hi rend="u">Cowper</hi> III (25 March 1804)</cell>
+                            <cell>Hayley <hi rend="u">Cowper</hi> II (1803) fp, Weatherhouse (Nov 5 1802) (1st, 2nd, 3rd eds)</cell>
+                        </row>
+                        <row>
+                            <cell>Hayléy <hi rend="u">Ballads</hi>(1805), Eagle [revised?], Lion, Horse (all inscr. June 18 1805)</cell>
+                            <cell>Hayley <hi rend="u">Ballads</hi> (1805), Eagle (June 18 180 [reprod. in Russell; Lion and Horse not seen]</cell>
+                        </row>
+                        <row>
+                            <cell>Milton (tp 1804, no <hi rend="u">g</hi>’s)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Jerusalem (tp 1804, no <hi rend="u">g</hi>’s)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Title page design for <hi rend="u">The Grave</hi> (1806)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Hoare <hi rend="u">Inquiry</hi> (1806)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Canterbury Pilgrims (Oct 8 1810)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Hervey [ca 1810]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Joseph of Arimathea, 2nd state [ca 1810]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Mirth [1816-20] 2nd state</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Laocoon</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>On Homers Poetry, on Virgil</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Ghost of Abel (1822)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>The Hiding of Moses [ca 1823]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Wilson Lowry (1825)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>Illustrations of the Book of Job (1826)</cell>
+                            <cell/>
+                        </row>
+                    </table>
+                    <pb id="p03-10" n="10"/>
+                    <p>The general pattern, as Bentley agrees, is clear enough. While <hi rend="u">Thel</hi> and <hi rend="u">The Marriage</hi> were in progress, Blake switched from conventional to leftward serifs, and while at work on the 1805 <hi rend="u">Ballads</hi> he switched back. Even this chart omitting uncertain cases, however, contradicts my assertion of June 1805 as a moment of sudden and ruthless reversal. Indeed only one copy, not now located, has a left serif; the latest leftward serifs fully in evidence are in the three 1803 editions of Hayley’s <hi rend="u">Cowper</hi>, in plates inscribed Nov 5 1802 in vol II; the "moment" of change is the 16-month interval between that date and March 25 1804, the date inscribed on right-serif plates in vol III. Yet the 1805 Eagle plate demonstrates the ruthlessness I spoke of. Blake did not simply mend the serif on the one <hi rend="u">g</hi> concerned; he re-engraved the whole line, "Publ. June 18 1805 by R. Phillips. N<hi rend="s">o</hi> 6 Brid<hi rend="u">g</hi>e Street Black Friers," to get it <hi rend="u">right.</hi> Possibly this was a single errant plate, revised not for the 1807 reissue but at once; I wish I knew.) This second state of the plate is also more highly finished if comparison of the Russell plate with a B.M. copy is valid.</p>
+                    <p>The dubious evidence of a <hi rend="u">g</hi> in the frontispiece of volume I of the Cowper, inscribed Nov 5 1802, points to a distinction that complicates matters. It is serifless (bald: <inline-image n="003-01-p10-g-bald">
+                            <figTranscr>g</figTranscr>
+                        </inline-image>) in the 1st edition; in the second (NYPL copy) under scrutiny it reveals a trace of an entering stroke on the right side (here exaggerated: <inline-image n="003-01-p10-g-stroke">
+                            <figTranscr>g</figTranscr>
+                        </inline-image>) not made as the usual serif by a separate stroke but a fine line made as the burin approached to cut the loop of the letter. (It is Bentley who reports the first edition bald; perhaps the only change is in deeper inking of the plate.) In any event, I take this as an instance of the neutral <hi rend="u">g</hi>, not a firm and determinate right serif. But the distinction I refer to as illustrated here is that between Blake’s relief etching, where the lettering was first drawn in ground (varnish), thick in line including serifs, and his (or other engravers’) incised inscriptions, cut directly into the copper. Bald or almost bald <hi rend="u">g</hi>’s occur occasionally in all periods, in both media The serif requires an extra stroke of the pen, burin, or needle, apparently easier to forget with the tools of incising than with the pen or brush. In Blake’s final period, when he was printing from relief plates made in his leftward, Lambeth period, he did not tamper with the copper plates but simply retraced the letters on the paper after printing, leaving the old serifs at the left, as printed, but inserting new ones at the right. (I do not mean to imply that he did this in all post-Felpham copies; many he printed without retouching. I should have said that whenever he retouched, he changed the <hi rend="u">g</hi> serifs.) Such retracing was not satisfactory, or necessary with intaglio printing, however; the easy and more attractive method there was to burnish the plate and recut the letters. This process left more or less faint traces of the earlier shapes, as we see in mended inscriptions in <hi rend="u">For the Sexes</hi> [ca 1818]: remnant left serifs and added right serifs, plates 13-14, 16. Still simpler was to close up the copper where the serif had been, leaving them bald. (Though bald <hi rend="u">g</hi>’s never serifed are common in inscriptions, from those in "Original Shavin<hi rend="u">g</hi>" in <hi rend="u">May-Day in London</hi>, June 1 1784, to those in the 1811 Chaucer.)</p>
+                    <p>Two problem inscriptions may be discussed in this connection, before we return to the question of dating the beginning and ending of the left-serif period. <hi rend="u">The Accusers</hi>, originally inscribed "Our End is Come . . . 1793," in its latest state has <hi rend="u">g</hi>’s in "Judge" and "Judgment," which in some copies appear to be bald. But in some a clear left serif is visible in Judge (<inline-image n="003-01-p10-g-clear-left-serif">
+                            <figTranscr>g</figTranscr>
+                        </inline-image>) and a slight left serif in Judgment (<inline-image n="003-01-p10-g-slight-left-serif">
+                            <figTranscr>g</figTranscr>
+                        </inline-image>). The implication is that the inscription was incised during the leftward period and the serif removed in later printings. I would like to believe that the outcry against the Judgment of Accusers was Blake’s response to his accusation and having to stand trial for sedition; i.e., that the Notebook "Grey Monk" lines and the inscription of this plate were made in August 1803 or thereabouts. This will fit into that 16-month moment.</p>
+                    <pb id="p03-11" n="11"/>
+                    <p>The inscriptions of <hi rend="u">Albion rose</hi> (the date of which I have been guilty of moving about impulsively) has one <hi rend="u">g</hi>, in "Giving," quite bald in some prints but showing a faint trace of a right serif in others. This is maddeningly ambiguous, though it does seem to put the inscription outside the Lambeth-Felpham era. When Blake <hi rend="u">added</hi> right serifs, he did it firmly. But to posit a deleted serif would require putting the original inscription impossibly early (pre-Lambeth, so to speak). I have been guilty of this anachronism, in my Doubleday notes, forgetting the <hi rend="u">language</hi> of the inscription (but see <hi rend="u">SB</hi>, p. 54). It is not only that dancing the dance of Eternal Death and giving oneself for the Nations are concepts and language of the <hi rend="u">Milton</hi> period (see esp. pl 14:14) but that the concept of Albion as a person does not otherwise precede <hi rend="u">Milton.</hi> Up through the works of 1795 Albion is a <hi rend="u">land</hi>; only in additions to the ms of <hi rend="u">Vala</hi> does the "Eternal Man" change to "Albion." Appealing again to biography, Albion’s rise, with the dated recollection that the drawing was made in or of "1780" (riots for America), would nicely fit the bread-riot year 1800, with rumors of peace--and the Blakes’ "rising" to Felpham? One would need to examine bald-<hi rend="u">g</hi> copies to see if they represent an earlier state of the engraving and test this hypothesis, which requires that the right stroke was added in a later state.</p>
+                    <p>The most surprising discovery of conventionally serifed <hi rend="u">g</hi>’s where they would not be expected bears also on the question of the time of return from leftward <hi rend="u">g</hi>’s. These are the six left-serif <hi rend="u">g</hi>’s on pp. 8, 10, 12, 67 of the <hi rend="u">Vala</hi> manuscript. They occur in different layers of the script (defined as copperplate hand and’ modified copperplate hand; not in Blake’s usual manuscript hand, which never employs serifed <hi rend="u">g</hi>’s of either kind), thought to be wide apart in date. (This is unclear; no <hi rend="u">g</hi>’s with serifs, except these few, occur in the copperplate hands either, but a serifed <hi rend="u">g</hi> is not out of keeping in hands that imitate print as these do.) Presumably they show work on the ms toward the end of or after the Felpham period--but this is much less startling than my initial, mistaken deduction that their date had to be post June 1805. For discussion of the complications of the problem, see pp. 738, 744, 745 in the Erdman-Bloom text (and Bentley’s edition of the ms and my critique of it in <hi rend="u">Library</hi> 1964[1968]). Finding the Cowper inscriptions (which Bentley and I did independently in pursuit of more data of <hi rend="u">g</hi>’s) is a great relief; I mean to say, the revised date of transition (back from June 1805 to 1803-04) makes the whole <hi rend="u">g</hi> hypothesis a lot easier to live with.</p>
+                    <p>I still think it important that most of our assumptions about the <hi rend="u">Vala</hi> ms need to be blown sky high before we can understand the nature of the "evidence" we have concerning its inscription let alone its composition. One assumption was Bentley’s, that "once Blake had abandoned his beautiful, rounded copperplate hands for his more hurried usual hand, he never reverted to the earlier style of writing" (p. 159). 1805 was an impossible date for copperplate hand preceding all usual hand ms; 1803 is still an improbable one, Nov 5 1802 (but there he was, in a long inscription under Cowper’s Weather-house, using sturdy leftward <hi rend="u">g</hi>’s over that date). I see him returning to the fine hand in fine spirit, after his triumphant acquittal but determined on conquering from within the conventional ways, and introducing these rightward <hi rend="u">g</hi>’s into his beautiful, rounded copperplate.</p>
+                    <p>To turn now to the first turning to leftward <hi rend="u">g</hi>’s in our table, it is hardly disputable that the Motto and last plate of <hi rend="u">Thel</hi> are in a different style of lettering from the rest of the work; nor is it against expectation to find that the "1790" page of <hi rend="u">MHH</hi> (pl 3) is in earlier style than "A Song of Liberty" (25-27); it is surprising to find a scatter of plates in both styles all through the work. Against the explanation that Blake was trying both kinds of <hi rend="u">g</hi>’s is the fact that no individual plate contains a mixture of kinds. Just as analysis of the script and content of <hi rend="u">Thel</hi> (which I’ll not go into here) bears out the assumption that the left-<hi rend="u">g</hi> plates
+<pb id="p03-12" n="12"/>
+are the latest parts, so analysis of <hi rend="u">MHH</hi> (hard to communicate, since it involves much looking and comparing) lends support to a similar assumption. We have not to do (as we may have in the case of <hi rend="u">Thel</hi>) with any marked thematic or tonal change, nor with much appreciable stylistic change except in the letter <hi rend="u">g.</hi> What happened, I suggest, is that after Blake had a complete version of <hi rend="u">The Marriage</hi> (probably minus the "Song") on copper, he began thinking of improvements and amplifications--all his Illuminated works show this sort of revision--and made them by inserting new plates, onto which old and new matter were inscribed (at a time when he had changed his <hi rend="u">g</hi>). Consider Plate 4 is inserted to introduce the Devil, already required by the texts of 3 &amp; 5 but perhaps lacking at first; pl 7 begins as straight continuation of 6, where the Proverbs began; presumably the remaking of 7-10 was to accommodate additional proverbs. Plates 14-20 consist of four self-contained sections, the Printing House of 14 being a development of material in the Memorable Fancy of pl 6-7. What one must suppose about the new <hi rend="u">g</hi> is either that some technical accident produced one, and he adopted it, or that he created it as part of the design of some contemporaneous work, perhaps <hi rend="u">Songs of Experience</hi> or <hi rend="u">America</hi>, and carried it over into other "repair" jobs in his workshop--<hi rend="u">Thel</hi> and <hi rend="u">MHH.</hi>
+                    </p>
+                    <p>Suggesting the first possibility is the curious glancing horizontal stroke above the serif of the first <hi rend="u">g</hi> on pl 7. Since Blake in the text at this point is being self-descriptive of his etching of this plate, could this mark his first new serif, a fresh, idiosyncratic fling, created and adopted at once? (Plate 4, amplifying the introduction to these Proverbs, can easily be a subsequent insertion.) As I have suggested, there is no ambiguity or indication of possible wavering in the lettering of this period such as there appears to be in the engraved inscriptions of 1802-05. Wherever it appears the new style is clear, consistently adhered to; there seems to me every indication that Blake committed himself to it at once. But can we date the moment of commitment?</p>
+                    <p>Taking late 1790 (Blake was born in November) or early 1791 as firmly given by the date reference in <hi rend="u">MHH</hi> 3 (supported as a reference to 1790 by marginal inscription in the Butts copy), we have a date we cannot push back for the continuance of conventional <hi rend="u">g</hi>’s. On the other side a date probably not earlier than mid-1791 for the leftward plates 15, 17-20 is established, I think, by the strong evidence of use in these plates of passages in Swedenborg’s <hi rend="u">Apocalypse Revealed</hi> (1791; the time of year can be found when we locate contemporary advertisements of its publication: does anyone know?). (The passages noted by Désirée Hirst in <hi rend="u">Hidden Riches</hi>, pp. 218-223, have more extensive echoes in <hi rend="u">MHH</hi> than Miss Hirst calls attention to.) These arrows point to 1791 (or later) as the time of the shift; it would be very convenient biographically to find it coincided with the move to Lambeth (which we now know occurred in early 1791). A date for Thel’s Motto etc as late as this does not seem improbable.</p>
+                    <p>Another document that fits in here is <hi rend="u">A Divine Image</hi>, a sort of Song of Experience that first turned up when someone was, after Blake’s death, printing a set of the <hi rend="u">Songs</hi> and found this poem on the back of one of the plates. Keynes’s printing it after the <hi rend="u">Songs</hi> as an "Additional Poem" has obscured the fact that it is really a rejected poem; and indeed it turns out to have conventionally serifed <hi rend="u">g</hi>’s. Robert Gleckner, in <hi rend="u">PMLA</hi> Sept 1961, without benefit of the <hi rend="u">g</hi> theory, made a strong case for an early date of composition by studying the evolution of texts from "The Divine Image" (TDI) to "I heard an Angel singing" (Angel) to "The Human Image" (THI) to "The Human Abstract" (THA), fitting <hi rend="u">A Divine Image</hi> (ADI) between the first two. I doubt if the sequence is that clear; ADI could come between Angel and THI: but then Gleckner mistook the dates of Notebook use as 1793 (they should be 1791-92 for the poems concerned). His sequence would put ADI in 1791; the alternative would put it in early 1792. In any case, here is a plate in conventional style well into 1791, it
+<pb id="p03-13" n="13"/>
+would seem. Add a further document, the canceled plates of <hi rend="u">America</hi>, in style and composition and symbolic drawing surely many months earlier than the final <hi rend="u">America</hi>: but with leftward g’s.</p>
+                    <p>If you have been following, patient reader, the tug and push of the evidence, I believe you will see that we are pretty tightly wedged into a date somewhere in the middle of 1791 for the change. I think that a survey of other elements of Blake’s graphic style from <hi rend="u">Songs of Innocence</hi> through <hi rend="u">Songs of Experience</hi> would show <hi rend="u">Thel</hi>, even the original part, later than all Innocence songs but the Bard; <hi rend="u">A Divine Image</hi> contemporaneous with the revised plates of <hi rend="u">MHH.</hi>
+                    </p>
+                    <p>And if we now take the hypothesis of <hi rend="u">g</hi> as confirmed, with a first switch in 1791 and a second in 1803 (or 1802-04-05), the remaining uncertainly dated works or inscriptions may be located in tabular form. Let me include in it those we have been discussing.
+<table rows="6" cols="2">
+                            <head>
+                                <title>Table 2</title>
+                            </head>
+                            <row>
+                                <cell>a.</cell>
+                                <cell>CONVENTIONAL <hi rend="u">g</hi> probably PRECEDING mid-1791</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>A Divine Image</cell>
+                            </row>
+                            <row>
+                                <cell>b.</cell>
+                                <cell>CONVENTIONAL <hi rend="u">g</hi> probably FOLLOWING 1803(ca)</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>To Tirzah<lb/>
+Vala i pp 8, 10, 12; Night VI title<lb/>
+Joseph of Arimathea inscription</cell>
+                            </row>
+                            <row>
+                                <cell>c.</cell>
+                                <cell>IDIOSYNCRATIC <hi rend="u">g</hi> between mid-1791 and 1803</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>
+                                    <hi rend="u">Job</hi> undated 1st state (precedes state dated Aug 18 1793)<lb/>
+America, 3 canceled plates<lb/>
+Thiralatha<lb/>
+Accusers inscription (first state)<lb/>
+The Reposing Traveller (Hagstrum pl 17)</cell>
+                            </row>
+                        </table>
+You will see that I have been unable to settle the case of <hi rend="u">Albion rose</hi>, inclining to a straddle of 1800-1803. Another lost item, of a very different nature, is the reported conventional <hi rend="u">g</hi> in the Latin inscription of the plate for Catullus, <hi rend="u">Poems</hi> (1795 which I have not seen: without examination I can only express the hopeful confidence that GEB is right in calling the inscription one for which Blake may not have been responsible.</p>
+                    <p>Are there any questions? Any additional points?</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-14" n="14"/>
+            <div1 id="BQ-03-1-0005">
+                <head>
+                    <title type="section">
+                        <hi rend="i">
+                            <hi rend="u">REVIEWS</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="i">William Blake: Essays for S. Foster Damon</hi>, edited by Alvin H. Rosenfeld. Providence: Brown University Press (1969), pp. xlvi + 500: frontispiece + xxxi plates. $15.00.</title>
+                    </head>
+                    <p>This collection of twenty-two essays on Blake, by most of the important scholars and critics in the field, makes a splendid tribute to a doughty pioneer. The volume is carefully printed and handsomely presented. Malcolm Cowley supplies an entertaining essay on Professor Damon’s prolific, but self-abnegating, career. Ernest D. Costa and Elizabeth C. Westcott provide an impressive Damon bibliography.</p>
+                    <p>I have not space to do each of the Blake studies justice. Over a third are first-rate, which is a good proportion; few are seriously under par. However, the disadvantages of having a non-specialist in this field as editor of such a volume are serious, and some of the contributors are to blame for submitting work which has not been privately criticized beforehand. The practice of sharing controversial papers in draft form with trustworthy scholars before publication cannot be too highly commended; in this case, as is usual, I am sure that there was adequate time for such interchange. Editors could do much here: for instance, the essays in this volume by Harold Fisch and Asloob Ahmad Ansari share much of the same ground and would both have benefited by a private interchange of ides. Mr. Ansari’s essay is on Blake’s debt to the Kabbalah: Mr. Fisch, evidently unaware of this, finds it necessary to devote a long footnote to an exposition of "Blake’s chief kabbalistic positions". Mr. Fisch makes the elementary error (p. 54) of supposing that when the sexes are abolished, Man and God will "return to their hermaphroditic oneness". The term "hermaphroditic" was anathema to Blake, connoting as it does a self-sufficiency that could become dangerously arrogant, in opposition to the self-sacrifice Blake stressed (a potentially redeeming element in sexual generation). Mr. Ansari (p. 217) states more cautiously that "Blake was firmly convinced that the androgynous protoplast was sexless". This volume shows, indeed, that there is no unanimity concerning this important question of Blake’s attitude to sexuality. John E. Grant (p. 361), discussing <hi rend="i">Jerusalem</hi>, states that "Blake undoubtedly believed in untrammeled sexuality". If it should ever have been stated in quite that way, such a belief had been thrown overboard by the time Blake came to write <hi rend="i">Jerusalem.</hi> There is need for a careful chronological study of this question.</p>
+                    <p>Both Fisch and Ansari identify God and Albion, which makes Blake’s anthropotheism meaningless, and Geoffrey H. Hartman, in another essay, even identifies Albion and Jerusalem. While Harold Bloom says that when he remembers most vividly about Blake’s three long poems "is always argument" (p. 22), Harold Fisch finds only "a thrilling and continuing monologue" in <hi rend="i">Milton.</hi> He believes that "Los, Blake, Milton, Jesus, Albion, and Ololon all blend and fuse" (p.53), but studiously ignores the quarrel between Satan and Palamabron, the struggle between Milton and Jrizen, or the long arguments between Los and his sons in <hi rend="i">Milton</hi> 22ff.</p>
+                    <p>The initiator of the Blake Trust, Sir Geoffrey Keynes, closes the volume with an anecdotal account of the Trust’s work, which is shortly to
+<pb id="p03-15" n="15"/>
+close. Unfortunately, David V. Erdman, who contributes an authoritative report on the present state of textual study (which both have done so much to advance), is made to appear more knowledgeable than Sir Geoffrey about the Blake Trust’s edition of <hi rend="i">Europe:</hi> Sir Geoffrey doubts whether the problems of producing a facsimile can be overcome; Mr. Erdman informs us that they have already been solved (and I hear that the edition has now actually been published). This odd effect could have been smoothed out by the editor.</p>
+                    <p>The essays are arranged, more or less arbitrarily, in five sections, "Literary Kinships", "The Graphic Artist", "Philosophical and Religious Transmutations", "The Poet", and "Texts and Facsimiles". The essays do in fact range very widely, often reflecting marginal individual interests, so that it is impossible to discern a "mainstream" of Blake criticism. I find the six essays in the first group relatively weak, and this may reflect the fact that the serious business for us is still not to "Reason &amp; Compare", but to illuminate Blake’s particular vision. The first two essays, "Blake and the Postmodern" by Hazard Adams and "Visionary Cinema" by Harold Bloom, thus have an air of frivolity besides those of Paul Miner and John E. Grant, who grapple seriously and at length with Blake’s symbolism. Paul Miner’s paper, "Visions in the Darksom Air: Aspects of Blake’s Biblical Symbolism", is indeed the volume’s <hi rend="u">pièce de résistance.</hi> A close-packed presentation of a great number of Blake’s biblical allusions, this illunimating essay serves as a massive reminder that Blake is not to be appreciated in a hurry. Blake’ astonishing tabernacular imagery, already discussed in a previous brilliant essay, is here further exposed: and several passages, or whole poems, are freshly illuminated by reference to Blake’s major literary source. Lip-service has often been paid to the importance for Blake of the "Great Code of Art", but few have been prepared to go further, and Paul Miner’s study is thus a major landmark in Blake scholarship. Some few of his allusions have been noted by others, but the rest is new. The author points out (p. 257) that "Hundreds of biblical allusions and references are found in Blake’s poetry": if we include the whole of his text, the number by my count is well over 3,000. John E. Grant’s "Two Flowers in the Garden of Experience" is a model of perceptive criticism and considered, rigorous scholarship when he discusses "My Pretty ROSE TREE" and "THE LILLY". He is, unfortunately, more speculative and less persuasive when describing and interpreting the highly problematical design in <hi rend="i">Jerusalem</hi> 28, which shows a couple embracing on a huge lily. But where there is doubt, there must be room for speculation, and Grant’s are always worth serious consideration. In this case, I fear that without the sudden emergence of a coloured copy of the early proof, or an autograph description, unanimity will not be reached. My own speculation, for what it’s worth, is that the two roughly ovoid shapes that Erdman takes as the man’s thigh and calf, are actually meant for anthers, just as the object behind the colour is a pistil like that of an arum lily. The trouble with Erdman’s imterpretation is that what he assumes is a leg is not continuous with the man’d body. Grant takes little account of the lower limbs.</p>
+                    <p>Another long and valuable essay is Morton D. Paley’s exploration of Blake’s <hi rend="i">Night Thoughts</hi> illustrations. Mr. Paley collects useful background information and isolates several recurrent motifs in the series. His readings of individual designs are usually brief but sound. As one of the three editors who engaged in producing an annotated edition of the <hi rend="i">Night Thoughts</hi> illustrations, I am aware of some objections to Mr. Paley’s interpretations, but I welcome such intelligent suggestions as his on a series
+<pb id="p03-16" n="16"/>
+of designs that has hitherto received scant attention, but which is of greater value and significance in Blake’s canon than we have sometimes been led to think.</p>
+                    <p>Albert S. Roe’s "The Thunder of Egypt", which is as long as Paul Miner’s paper, is very disappointing. It seems a particularly glaring example of the dangers of lonely scholarship, untested on the palates of other Blakists. A sample of Mr. Roe’s method of source-study is his assertion that Blake was indebted to Darwin for the Genii, Gnomes, Nymphs and Fairies that guard the gates of Golgonooza. The Botanic Goddess has a train of Gnomes, Sylphs and two varieties of Nymph, therefore, Blake must be indebted to Darwin! What happened to Pope and his Rosicrucians? Or to folk-lore? To be fair, I should add that some of the material presented here is useful and interesting, for instance the background in Bryant to Blake’s moony Arks.</p>
+                    <p>Other essays I take exception to are those of Geoffrey H. Hartman, Jean H. Hagstrum, and Anne T. Kostelanetz. Mr. Hartman attempts to relate Blake’s Season songs in <hi rend="i">Poetical Sketches</hi> to the tradition of a Progress of Poesy, turning them into a series of invocations to the poetical spirit, as seen approaching from each corner of the globe in turn. The attempt fails, absurdly, when we are asked to believe of the fourth song that Blake "seems to say to Winter, ‘Thou hast thy music too,’ meaning: There exists a genuine poetry of the North". In his study of "The Fly," Mr. Hagstrum sees the speaker of the poem as an Innocent who is redeemed by his thoughtful sympathy with the fly he has harmed, saying that the speaker "trembles in sympathetic pain", though there is no sign of anguish in the poem. This is a decided regression from John E. Grant’s well-considered study of the poem. Anne T. Kostelanetz’s interpretation of the 1795 colour prints is, unfortunately, packed with errors. We hunt in vain for "white-haired, bearded" Theotormon in <hi rend="i">Visions of the Daughters of Albion</hi> (p. 119), or an "old, bearded" scaly warrior in <hi rend="i">Europe</hi> 14 (p. 120). We are told (p. 124) that a "serpent" winds around Adam in "Elohim Creating Adam", though it is obviously a worm, emblem of mortality rather than of evil.</p>
+                    <p>Northrop Frye succeeds, as usual, in impressing me with his brilliance, but leaves me with an uneasy reluctance to agree with his premisses. In "Blake’s Reading of the Book of Job", his argument is essentially a circular one. He asserts that Blake saw the story of Job as a microcosm of the whole biblical story (p. 221), and on p. 226 we are told that because the Bible has a "comic ending", the comic ending of Job would not seem arbitrary to Blake. One misses a sense of historical probabilities: no reference is made to the typical early nineteenth-century understanding of the book of Job, and consequently Blake’s reading appears to emanate from Northrop Frye’s essentially modern approach, rather than to be rooted in the biblical scholarship that Blake himself knew.</p>
+                    <p>I close this review with brief reference to some of the smaller treats in the volume. Piloo Nanavutty continues to be erudite and fascinating in her study of the alchemical background to a startling page in <hi rend="i">The Four Zoas.</hi> Martin K. Nurmi has a valuable study of Blake’s negative reaction to three philosophers, Newton, Descartes and Thomas Burnet. Kathleen Raine, for once uncontroversial, gives us the privilege of sharing the thoughts of one poet on the "unfettered verse" of another, suggesting, among other things, that Blake was indebted to Chapman for his irregular seven-stressed line.
+<pb id="p03-17" n="17"/>
+Robert F. Gleckner supplies a good essay on the important functions of adjectives in Blake’s poetry. particularly the <hi rend="i">Songs.</hi> Hazard Adams has a neat retort to one of Wimsatt’s slurs on Blake. Martin Butlin presents a scholarly survey of the development of Blake’s techniques and interests as a printer evolving the great 1795 colour prints, concerning the quality of which he is, excusably, over-partisan. Daniel Hughes dares to open his essay by refuting Damon. George Mills Harper studies Blake’s "theological arithmetic".</p>
+                    <byline>
+                        <docAuthor>Michael J. <name>Tolley</name>
+                        </docAuthor> University of Adelaide Australia</byline>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <div1 id="BQ-03-1-0005">
+				<pb id="p03-17" n="17"/>
+                <div2>
+                    <head>
+                        <title type="main">2. <hi rend="i">Literature in Perspective: Blake</hi> by Stanley Gardner published by Evans Bros., Ltd, 1968</title>
+                    </head>
+                    <p>This book will not serve as remedial reading for the Compleat Blakist in the sense that, with the exception of an occasional apercu, it must be categorized as a <hi rend="u">primer</hi> to Blake. Considering the audience of the <hi rend="i">Newsletter</hi>, another introduction to Blake has only minor significance. The major merit of the volume, to my view, is additional light that is focused on several aspects of Blakean London. One forgivable error is Gardner’s statement that Blake moved to Lambeth in 1793. Actually, the move took place, probably, in the autumn of 1790 but certainly by the first quarter of 1791--significant in that this earlier date extends the crucial Lambeth canon.</p>
+                    <p>Gardner notes that Carnaby market, near where Blake was born, was built on a Pest Field, and the market included a slaughterhouse, where the lowing of cattle could be heard while the animals waited to forgive the butcher’s knife. Nearby also was Pawlett’s Garden burial ground, and here was located the St. James’s Workhouse, capable of containing 300 poor. Ultimately, the parish took over an old riding school, about 100 yards west of Blake’s birthplace. This was Foubert’s Academy, and the younger children of this school of industry were sent to nurse at Wimbledon. Gardner takes the speculative leap that "the mire" and "the lonely fen" in <hi rend="i">The Little Boy Lost</hi> and <hi rend="i">Found</hi> specifically relate to the watercourse of Vauxhall Creek or the area of Rush Common and Water Lane to the east of Brixton Hill, and he concludes that it "seems beyond question" that Wimbledon Common and the hills immediately south of the Thames are the "visual location of <hi rend="i">Songs of Innocence. . . ."</hi>
+                    </p>
+                    <p>Previous scholarship has conjectured that Dacres Street and Dacres Alms Houses (to the west of the street) might possibly have dictated Blake’s use of the name "Tom Dacre," and Gardner, fruitfully and independently, extends this supposition. Also there has been speculation that the fire at the Pantheon in 1792 possibly influenced Blake’s imagery, for though Blake had already moved to Lambeth the fire could be seen as far away as Salisbury Plain. Gardner also adds to this fact that at the back of the Pantheon was a menagerie in the garden of Joshua Brookes, the anatomist. And the animals were panic-stricken by the Pantheon blaze. Blake, conviently, could have seen a stuffed tiger at the Leverian Museum in Leicester Square when he was living at Green Street, and Gardner’s evidence causes one to wonder if a tyger
+<pb id="p03-18" n="18"/>
+burning bright might have, at one time or another, occupied the Brooke’s managerie (?).</p>
+                    <p>Gardner is probably correct in asserting that Blake’s "golden builders" allude to the extensive building o’er of the Marylebone Park Vicinity, where were located the Jew’s Harp House, the Green Man and Willan’s Farm. Gardner, in error I believe, though some scholastic logic is on his side, rejects Blake’s idyllic lines about Willan’s Farm, et al, and he recalls that all places north of London laid Blake up for several days. To this Gardner also adds the negative element of the Foundling Hospital, to the east in Lamb’s Conduit Fields, where one was exposed to the burial grounds in passing. "Clearly something is wrong with the notion that these [Willan’s, etc] are evocative recollections of the poet’s youth," says Gardner. Blake, presumably, did look upon the extension of Regent’s Park as an architectural building up of Jerusalem, but I do not think this unequivocally demands rejection of the traditional nostalgia that has been assigned Willan’s Farm and the Marylebone pleasure haunts, and a pointing of the text, so to speak, will at least avoid a categorical, though provocative, assessment such as Gardner’s.</p>
+                    <p>Insofar as the genus of introductory books is concerned, Gardner fulfills his purpose without cant or humbug, and the interesting material on London assists in orienting the 18th-century environs to which Blake was exposed.</p>
+                    <byline>
+                        <docAuthor>Paul <name>Miner</name>
+                        </docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_03">
+        <body>
+            <pb id="p03-19" n="19"/>
+            <div1 id="BQ-03-1-0007">
+                <head>
+                    <title type="section">
+                        <hi rend="i">
+                            <hi rend="u">QUERIES</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">Blake and William Frend</title>
+                    </head>
+                    <p>John Adlard’s reference to Frend [<hi rend="i">BNL</hi> #8, p. 73] is very interesting; but I wonder if the influence is not the other way round? Blake uses the idea in several places, and it arises in the first place from his belief that in the perfect world perception would be infinite and unlimited:</p>
+                    <q>
+Earth was not: nor globes of attraction<lb/>
+The will of the Immortal expended<lb/>
+Or contracted his all flexible senses. (Urizen 3: 36-38)
+</q>
+                    <p>Blake seems slightly ambivalent in his treatment of the idea. Sometimes he contrasts the infinite variability of the vision of eternity with the restricted sight of natural man, who can only see and understand "globes of attraction." Sometimes he uses the vision of different worlds as globes as one of the possible attitudes of infinite vision; and this seems to be the point that Frend has taken. In the passage quoted by John Adlard, Blake says that it is a man’s subjective viewpoint that counts, not his generalising rationalisations about the universe. Unexpectedly, Blake vindicates the telescope and microscope against their scientific users. These instruments assist the mortal eye, and open living worlds that had previously been hidden. Newtonic generalisation closes them again, against the evidence of experience.</p>
+                    <p>There are other passages, however, with a rather difficult angle. Also in <hi rend="i">Milton</hi>, plate 15, Blake describes the universe, not in terms of Newtonian globes, but of Cartesian vortices:</p>
+                    <q>
+when once a traveller thro’ Eternity<lb/>
+Has passd that Vortex, he perceives it roll backward behind<lb/>
+His path, into a globe itself infolding; like a sun:<lb/>
+Or like a moon, or like a universe of starry majesty,<lb/>
+While he keeps onwards in his wondrous journey on the earth<lb/>
+Or like a human form, a friend with whom he livd benevolent.<lb/>
+As the eye of man views both the east &amp; west encompassing<lb/>
+Its vortex; and the north &amp; south, with all their starry host;<lb/>
+Also the rising sun &amp; setting moon he views surrounding<lb/>
+His corn-fields and his valleys of five hundred acres square.<lb/>
+Thus is the earth one infinite plane, and not as apparent<lb/>
+To the weak traveller confin’d beneath the moony shade.<lb/>
+Thus is the heaven a vortex passd already, and the earth<lb/>
+A vortex not yet pass’d by the traveller thro’ Eternity.
+</q>
+                    <p>The world of a man’s present, living experience, is opened out to him like the open world of a flower. When he passes beyond it, and ceases to experience it directly, it rolls up into a globe.</p>
+                    <p>Again, in "The Mental Traveller,"</p>
+                    <q>
+The Cottage fades before his sight<lb/>
+The Garden &amp; its lovely Charms<lb/>
+                        <lb/>
+The Guests are scattered thro’ the land<lb/>
+For the Eye altering alters all.<lb/>
+The Senses roll themselves in fear<lb/>
+And the flat Earth becomes a Ball<lb/>
+                        <pb id="p03-20" n="20"/>
+The Stars Sun Moon all shrink away<lb/>
+A desert vast without a bound . . .
+</q>
+                    <p>Again the emphasis is on the difference between close acceptance of life, and fearful shrinking from it: there is a common image in <hi rend="i">Jerusalem</hi> of a sort of "exploding universe" in which not only the stars and plan but even the countries of the earth (notably Israel and Britain), are alienated from each other (e.g. <hi rend="i">Jerusalem</hi> 66: 40ff). In <hi rend="i">Jerusalem</hi> 83: 33ff this restricted vision becomes acceptable to Los after all, as a duty of the now repentant daughters of Albion (82: 72-80) to give some kind of shadowy understanding of the truth to "the weak traveller confin’d beneath the moony shade:"</p>
+                    <q>
+An outside shadowy Surface superadded to the real Surface<lb/>
+Which is unchangeable for ever &amp; ever Amen so be it!<lb/>
+(83: 47-48)
+</q>
+                    <p>In short, Frend’s idea seems to be drawn from Blake, rather than vice versa, and this explains the late date. Frend has watered it down, and turned it to a use which Blake would not accept; but that is, unfortunately, a common fate of Blake’s particular and more original ideas.</p>
+                    <byline>
+                        <docAuthor>W.H. <name>Stevenson</name>
+                        </docAuthor> University of Ibadan Nigeria</byline>
+                </div2>
+            </div1>
+        </body>
+    </text>

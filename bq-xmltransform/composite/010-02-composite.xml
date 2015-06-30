@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<TEI.2>
+  <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+ <idno>10.2.toc</idno>
+    <fileDesc>
+      <titleStmt>
+        <title type="toc">Contents</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Fall 1976</edition>
+      </editionStmt>
+      <publicationStmt>
+        <date>1976</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">10.2</biblScope>
+                        <biblScope unit="volume">10</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+            <respStmt>
+              <resp>Editors</resp>
+              <name>Morris Eaves</name>
+              <name>Morton D. Paley</name>
+              <resp>Bibliographer</resp>
+              <name>Thomas Minnick</name>
+              <resp>Associate Editor for Great Britain</resp>
+              <name>Frances A. Carey</name>
+              <resp>Editorial Assistant</resp>
+              <name>Michael Hays</name>
+              <resp>Circulation Manager</resp>
+              <name>Jane Welford</name>
+              <resp>Contributors</resp>
+              <name>Mary Baine</name>
+              <name>Rodney Baine</name>
+              <name>Robert N. Essick</name>
+              <name>Thomas Minnick</name>
+              <name>Judith Ott</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Department of English, University of New Mexico</publisher>
+            <pubPlace>Albuquerque, NM, USA</pubPlace>
+            <date when="1976"/>
+            <authority>William Blake Archive</authority>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textDesc n="Scholarly journal">
+        <constitution type="composite"/>
+        <domain type="education"/>
+      </textDesc>
+    </profileDesc>
+  </teiHeader>
+  <text id="volume_10">
+    <front>
+      <pb id="p10-41-42" n="41-42"/>
+      <div1 id="cover">
+        <figure n="cover.010.02.bqscan" rend="file">
+          <figTranscr>Blake<lb/>
+            NEWSLETTER 38<lb/>
+            AN ILLUSTRATED QUARTERLY<lb/>
+            FALL 1976, VOLUME 10, NUMBER 2</figTranscr>
+        </figure>
+      </div1>
+      <div1 id="BQ-10-2-0001">
+        <table id="contents" rows="8" cols="2">
+          <row>
+          	<cell>
+        	  <head>
+          		<title>
+            	  <hi rend="b">CONTENTS</hi>
+          		</title>
+        	  </head>
+          	</cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">News</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>
+              <ref type="article" issue="10.2.muggeridge">The Muggeridge Blake</ref>, 
+              <ref type="article" issue="10.2.colby">Colby Blake Issue</ref>, 
+              <ref type="article" issue="10.2.wip">Works in Progress and a Query</ref>, 
+              <ref type="article" issue="10.2.barbara">Santa Barbara Conference</ref>
+            </cell>
+            <cell>44</cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Notes</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="10.2.ott">The Bird-Man of William Blake’s Jerusalem</ref> by Judith Ott</cell>
+            <cell>49</cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="10.2.baine">Blake’s Inflammable Gass</ref> by Rodney M. and Mary R. Baine</cell>
+            <cell>51</cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="10.2.essick">Blake in the Marketplace, 1974-75</ref> by Robert Essick</cell>
+            <cell>53</cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="10.2.minnick">A Checklist of Recent Blake Scholarship</ref> by Thomas Minnick</cell>
+            <cell>59</cell>
+          </row>
+        </table>
+      </div1>
+      <div1 id="BQ-10-2-0002">
+        <head>
+          <title>
+            <hi rend="b">CONTRIBUTORS</hi>
+          </title>
+        </head>
+        <p>Mary and Rodney Baine both teach English at the University of Georgia. They are currently working on a book about Blake’s animal symbolism.</p>
+        <p>Robert N. Essick, Pasadena, California, is a frequent contributor to the Blake Newsletter.</p>
+        <p>Thomas Minnick, Ohio State University, is our Bibliographer. He wishes to acknowledge the assistance of Susan A. Hoyt in searching the art-historical bibliography for the Checklist.</p>
+        <p>Judith Ott is a University Fellow working toward a Ph.D. in Art History at Ohio State University. "The Illuminations of William Blake’s Jerusalem" is her dissertation topic.</p>
+        <p>Photographic credits: p. 47, Aethelred and Alexandra Eldridge (Golgonooza); p. 48, 49 (col. 1), Harvard College Library, Dept. of Printing and the Graphic Arts; p. 49, (col. 2), National Gallery of Art, Washington, Rosenwald Collection; p. 50, Bibliotheque Publique de Dijon; p. 53, Robert N. Essick collection; p. 54, Colin Franklin collection. Cover and inside cover: detail from pl. 78 of Blake’s Jerusalem, Harvard College Library, Dept. of Printing and the Graphic Arts. 
+                </p>
+        <pb id="p10-43" n="43"/>
+        <p>The Blake Newsletter, An Illustrated Quarterly, is published four times a year under the sponsorship of the Department of English of the University of New Mexico.</p>
+        <p>Editors: Morris Eaves, University of New Mexico, and Morton D. Paley, Boston University.</p>
+        <p>Bibliographer: Thomas Minnick, Ohio State University.</p>
+        <p>Associate Editor for Great Britain: Francis A. Carey, Assistant Curator, Department of Prints &amp; Drawings, British Museum.</p>
+        <p>Editorial Assistant: Michael Hays, University of New Mexico.</p>
+        <p>Circulation Manager: Jane Welford, University of New Mexico.</p>
+        <p>Manuscripts are welcome. Send two copies, typed and documented according to the forms suggested in the MLA Style Sheet, 2nd ed., to either of the editors: Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque NM 87131; Morton D. Paley, Dept. of English, Boston Univ., Boston Mass. 02215.</p>
+        <p>Subscriptions are $5 for one year, one volume, four issues. Special rate for individuals, $4 for one year, surface mail. For subscribers overseas who want to receive their issues by air mail, $8. U.S. currency or international money order if possible. Make checks payable to the Blake Newsletter. Address all subscription orders and related communications to Jane Welford, Blake Newsletter, Univ. of New Mexico, Albuquerque NM 87131.</p>
+        <p>Some back issues are available. Address Jane Welford. Prices: whole numbers 1-8, bound together, whole numbers 9-13, bound together, $5 each (special rate for individuals, $4). Whole numbers 22, 23, 24, 25, 26, 27, 28, 32, 33, 34, 36, 37, $2 each. Whole number 20 (A Handlist of Works by William Blake in the Department of Prints &amp; Drawings of the British Museum, ed. G. E. Bentley, Jr.) and whole number 35 (A Checklist of the Blake Material in the Lessing J. Rosenwald Collection, Alverthorpe Gallery, ed. Ruth Lehrer), $3 each. Whole numbers 14-19, 21 are out of print. The International Standard Serial Number of the Blake Newsletter is 0006-453X.</p>
+        <p>Design and layout for this issue: Jean Stalker and Michael Hays, University of New Mexico.<note type="unreferenced" place="footer">Copyright © 1976 by Morris Eaves &amp; Morton D. Paley</note></p>
+      </div1>
+    </front>
+  </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <pb id="p10-44" n="44"/>
+      <div1 id="BQ-10-2-0003">
+        <head>
+          <title type="section">
+            <hi rend="b">NEWS</hi>
+          </title>
+        </head>
+        <div2>
+          <figure/>
+          <head>
+            <title type="main">
+              <hi rend="b">The Muggeridge Blake</hi>
+            </title>
+          </head>
+          <p>Public television in the U.S. recently offered a series of six hour-long programs based on the hypothesis that the ideas of St. Augustine, Pascal, Blake, Kierkegaard, Tolstoy, and Bonhoeffer add up to a kind of <hi rend="i">Third Testament</hi> (which is thus the title of the series). The host for the series was Malcolm Muggeridge, who devoted on hour of broadcast time to the ideas of each of the six men.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <pb id="p10-44" n="44"/>
+      <div1 id="BQ-10-2-0003">
+        <head>
+          <title type="section">
+            <hi rend="b">NEWS</hi>
+          </title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">Colby Quarterly Blake Issue</hi>
+            </title>
+          </head>
+          <p>According to John Sutherland, the editor, <hi rend="i">Colby Library Quarterly</hi> is planning a special issue devoted to Blake for the spring of 1977: "We invite papers on any aspect of Blake’s life and works. Illustrations are not required, but may be used freely." The <hi rend="i">Quarterly</hi> has special interests that may be of interest to our readers: Blake, psychology and literature, the visual arts and literature. Address the editor at Colby College, Waterville, Maine 04901.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <pb id="p10-44" n="44"/>
+      <div1 id="BQ-10-2-0003">
+        <head>
+          <title type="section">
+            <hi rend="b">NEWS</hi>
+          </title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">Work in Progress and a Query</hi>
+            </title>
+          </head>
+          <p>Stephen Cobb: a dissertation at Sussex University on "The Role of the Genesis Ms. in Blake’s Last Works"—an indication of the importance we may attach to the didactic works within Blake’s overall artistic and intellectual development. Cobb has the following query for our readers:
+<q>I am looking for any published discussions, reproductions, or descriptions of the thirteen-page transcription of Genesis begun by Blake in manuscript with rough drawings and some coloring. I am writing a dissertation at Sussex on "The Role of the Genesis Ms. in Blake’s Last Works," examining the imagery of the Genesis Ms. in order to shed light on the final years of Blake’s work, his final interests and statements. There is some evidence to suggest continuity between his first simple didactic statements in illuminated form and the last works, <hi rend="i">The Everlasting Gospel, The Ghost of Abel</hi>, the Laocoön engraving, and of course the Genesis Ms.<lb/><lb/>
+Stephen Cobb<lb/>
+Norwich House<lb/>
+Sussex University<lb/>
+Falmer, Brighton BN1 9QS<lb/>
+England
+</q></p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <div1 id="BQ-10-2-0003">
+        <head>
+          <title type="section">
+            <hi rend="b">NEWS</hi>
+          </title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">Santa Barbara Conference</hi>
+            </title>
+          </head>
+          <p>The conference on "Blake in the Art of His Time" held at the University of California, Santa Barbara, 2-5 March 1976, included papers on the theme, art exhibitions, music, and a radio play.</p>
+          <p>According to the organizers, tapes are now available of the evening performance of "Songs of William Blake and Music of Blake’s Time" by professional soloists and chorus:
+<q>
+3 7-inch reels, $12.50<lb/>
+3 60-minute cassettes, $5.85
+</q>
+Write Bud Bridgers, Learning Resources, University of California, Santa Barbara, CA 93106. Enclose a check made out to the Regents of the University of California. Delivery will be immediate.</p>
+          <p>The following is an outline of the conference program, with abstracts of the papers presented.</p>
+          <div3>
+            <head>
+              <title>SESSION ONE: Moderator, Morton D. Paley, Dept. of English, Boston University; Editor, <hi rend="i">Studies in Romanticism</hi></title>
+            </head>
+            <p>Robert Essick, Dept. of English, California State University, Northridge</p>
+            <p>"Meditations on a Fiery Pegasus"</p>
+            <p>The art historian and the literary scholar look at Blake from the two different perspectives inherent in the structures and histories of their respective professions. We will progress most rapidly in our understanding of Blake by realizing the strengths and limitations of these points of view, discovering what each can contribute to the other, and thereby developing an approach as interdisciplinary as Blake’s own art. The illuminated books and color prints of the 1790’s provide particularly clear examples of the continuity and interdependence between Blake’s technological inventions, the pictorial effects they produce, and the themes and structures of his poetry.</p>
+            <p>W. J. T. Mitchell*, Dept. of English, Ohio State University (*Sponsored by the Alumni Association, University of California)</p>
+            <p>"Style as Epistemology: Blake and the International Style of Linear Abstraction"</p>
+            <p>This essay tries to define Blake’s pictorial style in relation to the movement toward linear abstraction in his time, and in relation to his own epistemology—that is, his theories of sensation, perception, and aesthetics. A large part of this
+<pb id="p10-45" n="45"/>
+essay is a critique of the common view that Blake’s style reflects an otherwordly idealism, a transcendent realm of ineffable archetypes, that his pictures, like Flaxman’s, render "a distilled, immutable ideal, shed of sensuous qualities and fixed for eternity" (Robert Rosenblum, <hi rend="i">Transformation in Late Eighteenth Century Art</hi>). Against this view I argue that Blake employs the conventions of linear abstraction to produce a style of vivid, sensuous immediacy and dynamic movement. Instead of seeing Blake’s art as the record of a static system of archetypes, I suggest that we view it as a process of visionary exploration, a rigorously empirical study of the encounter between imagination and concrete, sensuous reality. Blake’s place in the art of his time begins with Flaxman and Fuseli, but his full achievement can be best understood alongside the visionary paintings of Turner and Goya.</p>
+            <p>Robert R. Wark, Curator of Collections, The Huntington Library and Art Gallery, San Marino, California</p>
+            <p>"William Blake and His Circle at the Huntington Library and Art Gallery"</p>
+            <p>A brief descriptive account of the works of art (drawings, watercolors, paintings, prints, illustrated books) by Blake and members of his circle in the collection of the Huntington Art Gallery and Library. The works by Blake himself have been catalogued and are well-known to interested students. Much less familiar are the substantial groups of drawings and prints by Blake’s contemporaries (Mortimer, Barry, Fuseli, Flaxman, Stothard, Romney, Locke, Hoare, etc.) and the so-called Blake followers (Palmer, Linnell, Richmond, Calvert, etc.). The visual resources for the study of Blake and his circle are probably richer at the Huntington than at any other public institution outside London.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION TWO: Moderator, Robert Essick, California State University, Northridge</title>
+            </head>
+            <p>Roger Easson, Dept. of English, Illinois State University "Blake and the Idea of the Gothic"</p>
+            <p>Blake’s interest in the Gothic is part of his larger preoccupation with the living forms of Visionary Experience as preserved in the frozen lineaments of ancient religious traditions. The Gothic for Blake represents not merely his interest in medieval culture and the mystical Christian vision it embodies but, specifically, a rejection of the narrow historical perspective of religious tradition for a more comprehensive mythic view. I will show that Blake’s interest in patriarchal religion, his visionary Christian stance, as well as his anti-quarian researches into ancient Asiatic, Celtic, and British history fit clearly into what Blake conceived of as the Gothic tradition.</p>
+            <p>Thomas Pelzel, Dept. of Art, University of California, Riverside "Mengs and His English Critics"</p>
+            <p>The name of Anton Raphael Mengs will be familiar enough to anyone even passingly familiar with 18th century art and aesthetic criticism. In much of the literature of the period, Mengs together with his compatriot J. J. Winckelmann is presented as one of the prime movers of Neoclassicism, that attitude of taste first spawned in Rome ca. 1760, soon influencing to one degree or another virtually every artist of rank from Britain to Russia, and ultimately proving to be the watershed between a moribund Baroque tradition and the rise of modern art. The "School of Mengs" in Rome is postulated to have been a magnet to which any young artist of taste and ambition would have been relentlessly drawn. In respect to British art, Mengs is assumed to have left his mark upon artists of such varied taste and background as Gavin Hamilton, Benjamin West, Nathaniel Dance, Richard Wilson, Angelica Kauffmann, and Henry Fuseli. It is certainly true that Mengs’s name was familiar in Britain in the late 18th century: he was frequently sought out for portraits by Britons on the Grand Tour; the <hi rend="i">Collected Works of Anton Mengs</hi> were translated into English and widely read; his name and reputation were unavoidably to be reckoned with in the Academy lectures of Barry, Reynolds, and Fuseli. Yet, the degree of impact of the "School of Mengs" upon British taste has been more assumed than substantiated.</p>
+            <p>Mengs’s original reputation has long since diminished, and from our present perspective, his chief interest is more as a phenomenon of taste rather than of personal artistic merit, as a focal point of reaction against the rigid preceps of academicism, rather than as a genuinely innovative force. It is interesting that it was precisely in Britain, so deprecated by Winckelmann as a backwater of benighted taste and connoisseurship, that this more critical perspective was first articulated. It is also ironic that Henry Fuseli, whose translation of <hi rend="i">Reflections of the Painting and Sculpture of the Greeks</hi> (1756) first introduced Winckelmann to English readers, should have launched the most devastating attack upon both Winckelmann and Mengs, in whom he could find only a chilling "instance of what perseverance . . . can achieve to supply the place of genius."</p>
+            <p>The focus of this paper is to trace these shifts in British taste in the late 18th and early 19th century as reflected in the critical evaluations of Mengs’s art and theory.</p>
+            <p>Hazard Adams, Dept. of English, University of California, Irvine</p>
+            <p>"Revisiting Reynolds’ <hi rend="i">Discourses</hi> and Blake’s Annotations"</p>
+            <p>Blake did not annotate discourses nine to fifteen, where Reynolds takes up certain subjects of obvious interest to him: genius, imagination, and the art of Michelangelo. If we look closely at Blake’s disagreements with Reynolds in his annotations to the first eight discourses, is there any ground to think that the last six would have required Blake in any way to have softened his views of Reynolds’ thought?</p>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION THREE: Moderator, Thomas Pelzel, Dept. of Art, University of California, Riverside</title>
+            </head>
+            <p>Joseph Wittreich*, Dept. of English, University of Wisconsin (*Sponsored by the American Blake Foundation)</p>
+            <p>"Painted Prophecies: the Tradition of Blake’s Illuminated Books"</p>
+            <p>Henry Fuseli has singled out John’s Book of Revelation as the model for Christian art, praising John’s method there as the proper medium of art for all those poets and painters who are committed to purveying the truths of the spirit. When it is remembered with Benjamin Malkin that Blake was a careful student of John’s prophecy and when it is recalled with various biblical commentators that the Book of Revelation was composed of both pictures and words, then it may be proposed that John’s prophecy is the prototype for Blake’s own prophecies, which assault the mind both through picture and word. Blake’s objective, like John’s, is to open the doors of perception, thereby bringing man to the highest stage of consciousness that is possible. John’s methods are Blake’s methods, but also the strategies and themes, the structures and ideology of John’s prophecy are appropriated by Blake and used in his various illuminated books—nowhere more effectively than in <hi rend="i">Milton</hi> and <hi rend="i">Jerusalem.</hi></p>
+            <p>Kay Parkhurst Easson, Dept. of English, Illinois State University "Blake and the Art of the Book"</p>
+            <p>Although Blake’s illuminated books are often assumed to be in the illuminated manuscript tradition, more accurate generic perspective of these graphic-poetic works demands acknowledgment of their relationship both to the tradition of book illustration and to the context of book illustration in the eighteenth and early-nineteenth centuries. Examining Blake’s conception of "the book," his traditional and innovative techniques of book illustration and, thus, his engagement with the conventions of printed format clarifies the structural methodology of the illuminated books.</p>
+            <p>Yvonne Carothers, Dept. of English, University of California, Irvine</p>
+            <p>"Space and Time in <hi rend="i">Milton</hi>: ‘The Bard’s Song’"</p>
+            <p>Lessing’s distinction in his <hi rend="i">Laocoön</hi> between painting and poetry rests upon an understanding of space and time as empirical realities which exist apart from man. Blake, however, understood space and time differently—as forms of intuition latent within human consciousness and imposed by man upon his experience. This view, which anticipated Kant’s, enabled Blake to create a verbal-visual art whose formative principle derives not from empirical modes of organization such as perspective and chronology but solely from the forms of human consciousness. In "The Bard’s Song" of <hi rend="i">Milton</hi>, Blake used his radical epistemology to create an art of pure forms, which he assigns to "spaces," and to interrelate these forms according to the dictates of his own "psychic" time.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION FOUR: Moderator, Kay Parkhurst Easson, Dept. of English, Illinois State University</title>
+            </head>
+            <pb id="p10-46" n="46"/>
+            <p>Anne K. Mellor, Dept. of English, Stanford University "Physiognomy, Phrenology and Blake’s Visionary Heads"</p>
+            <p>This paper explores Blake’s familiarity with and sympathy for the physiognomical theories of Johann Caspar Lavater and the phrenological system of Drs. Gall and Spurzheim. When we look at three of Blake’s Visionary Heads (The Man who Taught Blake Painting in his Dreams, Socrates, and The Man who Built the Pyramids) in the context of these physiognomic systems, the Heads take on more meaning and moral significance than has hitherto been recognized.</p>
+            <p>E. J. Rose*, Dept. of English, University of Alberta (*Sponsored by the American Blake Foundation)</p>
+            <p>"Blake and the Gothic"</p>
+            <p>This paper attempts an assessment of Blake’s unification of Gothic and Michelangelesque ideas and attitudes towards art. It tries to answer such questions as "What was it in Gothic art that so appealed to Blake? How important to his literary and pictorial imagination is the Gothic? How could Blake fuse the apparent contrary states of art represented by the Gothic and Michelangelo?"</p>
+            <p>Martin Butlin, Keeper of the British Collection, The Tate Gallery, London</p>
+            <p>"Cataloguing Blake: An Art Historian’s Approach"</p>
+            <p>This paper discusses the importance of cataloguing as providing firm points of reference in such things as authenticity, dating and the physical state of the work of art. Contemporary and later documentary evidence needs to be supplemented by the almost intuitive judgment of the eye, but there are cases when these two forms of approach contradict each other. Characteristics peculiar to the cataloguing of Blake are the small number of early collectors of his work, the importance of William Rossetti’s list catalogue of 1863, the fact that quality is relatively unimportant in assessing authenticity, the existence of many works in a number of versions or as parts of series or groups of designs, the possible importance for dating of the form of signature used by Blake and, most important of all, the fact that Blake was a creative writer as well as a visual artist.</p>
+            <div4>
+              <head>
+                <title>WEDNESDAY EVENING:</title>
+              </head>
+              <p><hi rend="i">Songs of William Blake and Music of Blake’s Time</hi> Lotte Lehmann Hall, UCSB Campus Performed by: Peter Roberts, Carl Zytowski, Michael Ingham, Jill Feldman, Stephen Kelly, John Beckner. The Schubertians. The Dorians. Settings by: Ralph Vaughan Williams, Charles Parry, Arthur Farwell, John Crawford, and others. Interlocutor: Eloise Hay.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION FIVE: Moderator, Joseph Wittreich, Dept. of English, University of Wisconsin</title>
+            </head>
+            <p>Jenijoy LaBelle*, Dept. of English, California Institute of Technology (*Sponsored by the American Blake Foundation) "Blake’s Visions and Revisions of Michael Angelo"</p>
+            <p>Although the influence of the Sistine frescoes on Blake’s art has been generally acknowledged, the most direct evidence of his indebtedness to Michelangelo—a series of seven wash drawings in the British Museum—has received little attention. These prophets and forefathers of Christ, carefully copied after Adam Ghisi’s engravings, help us to trace the lineage of some of Blake’s most significant <hi rend="i">pathos formulae.</hi> His transformation of Michelangelo’s figures into his own pictorial vocabulary indicates the ways Blake responded to the art of the past as an essential part of original composition.</p>
+            <p>David Bindman*, Dept. of Art History, University of London (*Sponsored by the Art Affiliates, UCSB)</p>
+            <p>"Repetition and Transformation in Blake’s Art"</p>
+            <p>Leslie Tannenbaum*, Dept. of English, Wright State University (*Sponsored by the Alumni Association, University of California)</p>
+            <p>"Blake and the Iconography of Cain"</p>
+            <p>The myth of Cain and Abel became increasingly important in Blake’s art, as he used the biblical story to embody the themes of pity, wrath, divine justice and atonement. Blake’s pictorial versions of the consequences of Abel’s death emphasize these themes by invoking pictorial tradition, thereby placing his work within a context that shows him to be criticizing and subverting orthodox aspects of that tradition, particularly those orthodoxies that appear in the work of his contemporaries. In contrast to his fellow artists, Blake sympathized with Cain rather than Abel and rejected the orthodox morality and the belief in retributive justice that their versions of the biblical myth affirm. Against his contemporaries’ essentially tragic vision, which evokes pity in the representation of the slaughtered Abel and evokes terror in the representation of the divine wrath descending upon Cain, Blake develops a comic vision, in the Dantean sense, that calls for and creates a redefinition of atonement.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION SIX: Moderator, Anne K. Mellor, Dept. of English, Stanford University</title>
+            </head>
+            <p>Morton D. Paley, Dept. of English, Boston University</p>
+            <p>"The Truchsessian Gallery Revisited"</p>
+            <p>In October 1804, "on the day after visiting the Truchsessian Gallery of pictures," Blake had an intensely significant experience which led him to re-dedicate himself to his art. "I was again enlightened with the light I enjoyed in my youth, and which has for exactly twenty years been closed from me as by a door and by window-shutters." What was the nature of this experience, and what had it to do with the Truchsessian Gallery? Using the catalogue of 1803 and the sale catalogue of 1806, we can reconstruct Blake’s experience. First we must realize that the lack of authenticity of many of these pictures would in no way have impeded Blake’s response: for his purposes a good Old Master copy was as good as a genuine original. The nature of the pictures in the Gallery will then show that here Blake was dramatically confronted with an overwhelming number of examples of the type of art he was coming to regard as "true" in juxtaposition with at least as much that he regarded, after about 1800, as "false." His ideas about form and outline <hi rend="i">versus</hi> colorism and chiaroscuro had no doubt been growing for several years, but they crystallized at the Truchsessian Gallery. As a result, Blake rejected the eclecticism he had practised in his art for many years and embraced the ideas about art which we now think of as characteristic of him.</p>
+            <p>Seymour Howard, Dept. of Art History, University of California, Davis</p>
+            <p>"Blake, the Antique, Nudity, and Nakedness"</p>
+            <p>The art of antiquity was an early and continuous source of inspiration for Blake. The youthful and beautiful unself-conscious nudes of ancient classical art were, of course, essential models for the pervasive neo-classic taste of his time. The influence of such figures, or their Renaissance and contemporary reinterpretations, upon his own very eclectic compositions is patent. There is, however, often an apparent ambiguity or ambivalence toward primary nakedness in the otherwise sensual and uninhibited art of Blake, at least in his finished work. This prophetic inconsistency may be less attributable to personal scruple than to Blake’s efforts to diminish or disguise polarities of gender in the mystic utopian universe of his making.</p>
+            <p>David Erdman, Dept. of English, S.U.N.Y., Stony Brook "Blake’s Body English"</p>
+            <p>Crucial messages are signalled to us from the articulate limbs of the giant forms and struggling infants and wrestling groups in Blake’s illuminations—messages crucial to our eternal salvation.</p>
+            <div4>
+              <head>
+                <title>THURSDAY EVENING:</title>
+              </head>
+              <p><hi rend="i">An Island in the Moon</hi>, by William Blake</p>
+              <p>A performance on audiotape of Blake’s celebrated satire, produced and directed by Everett Frost, Associate Professor, Dept. of English, California State University, Fresno. Music composed and conducted by Edward Cansino. Professor Frost will introduce the performance and lead a discussion afterwards.</p>
+            </div4>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION SEVEN: Moderator, Lorenz Eitner, Dept. of Art, Stanford University</title>
+            </head>
+            <p>Jean Hagstrum*, Dept. of English, Northwestern University, (*Sponsored by the American Blake Foundation)</p>
+            <p>"Blake and Romney: The Gift of Grace"</p>
+            <p>I shall argue that among the many other influences from Continental and English art that Blake absorbed, that of Romney was
+<pb id="p10-47" n="47"/>
+one of the most important. I refer not to Romney’s public, portrait art, with its many representations of Lady Hamilton, but to the private, highly subjective, and emotional art that one finds in the drawings and sketches. I shall argue that this art was known to Blake and transmitted to him through personal contact. Although I shall take note of and even illustrate the "sublime" side of Romney’s drawings, I shall "feature" the ones that embody that great and complex eighteenth-century quality of <hi rend="i">delicacu.</hi> My argument is that these works by Romney lie back of Blake’s <hi rend="i">Tiriel</hi>, the <hi rend="i">Book of Thel</hi>, and the <hi rend="i">Songs of Innocence</hi>—and also the great illustrations to the poetry of John Milton.</p>
+            <p>David Irwin, Dept. of Art History, Aberdeen University</p>
+            <p>"Scottish Contemporaries and Heirs of William Blake"</p>
+            <p>The paper will examine the work of Scottish painters whose art runs parallel to that of Blake, and who also encountered similar neglect by their contemporaries. The discussion will be concerned primarily with two artists who spent most of their working lives in Edinburgh. Firstly, Alexander Runciman, who was 20 years senior to Blake and was producing the main body of his work in the 1770’s and 80’s; and secondly, David Scott, a true heir to Blake, born in 1806, and producing his mature works in the days of early Victorian Britain. The work of both artists is not as well known as it should be. Runciman, after all, was highly praised by Henry Fuseli, who was not a man to waste words in unnecessary flattery, when he described him as "the best painter of us in Rome." Scott, brother of the Pre-Raphaelite painter and poet, William Bell Scott, was admired by Rossetti for his independence and lack of compromise, and by Emerson for his genius.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>SESSION EIGHT: Moderator, Seymour Howard, University of California, Davis</title>
+            </head>
+            <p>Morris Eaves, Dept. of English, University of New Mexico "Blake and the Artistic Machine"</p>
+            <p>Rubens hired a phalanx of specialists to execute hundreds of commissions under his trademark; following in the same artisticcommercial tradition, Reynolds customarily painted only the faces of his portraits and left the rest to the "drapery men"; printseller Rudolph Ackermann fitted emigres into a system of manufacture efficient enough to produce hundreds of thousands of colored prints for the <hi rend="i">Microcosm of London.</hi> This organization of production in the graphic arts and its associated technology are the right context for Blake’s most important artistic principles, which have more often been described—usually with apologies for his paranoid tone and narrow tastes—than understood. Against the proper background, with the transitions in the proper places, Blake’s aesthetic comes together in a lively coherence that does not disintegrate even in the face of the magisterial Enlightenment common sense of Reynolds’ <hi rend="i">Discourses</hi>, where Blake learned, if he had not known it before, that principles of manufacture can become aesthetic principles, and that in a commercial empire the approved art is at many points an allegory of commerce. Why was Reynolds a "plagiarist"? Why did Venetian and Flemish painters "cause that every thing in art shall become a Machine"? Why is the sign of the Machine "broken lines, broken masses, and broken colours"? Why did Pope rewrite Donne’s satires? The answer is the same in each case, and it lurks in Blake’s cryptic assertion that "Execution is only the result of Invention." How that might be so we shall discover from the lesson variously taught by the modern dishwasher, Washington’s face on the dollar bill, and decorum, the prissy but conventional word in criticism for the relation of form to content.</p>
+            <p>G. E. Bentley, Jr., Dept. of English, University of Toronto "A Jewel in an Ethiope’s Ear" (Read by Morton D. Paley)</p>
+            <p>The apocryphal <hi rend="i">Book of Enoch</hi>, a miscellaneous collection of prophetic texts including The Book of the Watchers, The Vision of Noah, The Book of Astronomy, seems to have been written down in its present form about the First Century before Christ. Its first complete printing was the English translation made by the Reverend Professor Richard Lawrence in 1821. The new publication made hardly any impression on thinking contemporaries; even theologians showed little interest in it for a time. However, within a few years its divine eroticism had attracted the attention of five major artists and poets: William Blake, John Flaxman, Thomas Moore, Richard Westall, Lord Byron.</p>
+            <p>It is the purpose of the present paper to indicate briefly when and how <hi rend="i">The Book of Enoch</hi> came to be known in Europe, then to examine and compare some of the ways in which Blake, Flaxman, Moore, Westall and Byron responded to it—in particular the section called The Book of Watchers, with its account of how angels (called the Watchers of Heaven) fell in love with the daughters of men and propagated a race of giants. In <hi rend="i">The Book of Enoch</hi> Blake found confirmation of his own prophetic visions—hence the gus to with which he began to illustrate it, a gusto that makes the illustratons for it of Flaxman and Westall seem "earth-bound and immature" by comparison.</p>
+            <div4>
+              <head>
+                <title>FRIDAY EVENING:</title>
+              </head>
+              <p>Reception, Art Gallery, Santa Barbara Museum of Art, 1130 State Street. Visiting Blake scholars in Art and English are cordially invited to the reception and to the exhibition, <hi rend="i">The Followers of William Blake</hi>: numerous original works by Palmer, Richmond, Varley, Calvert, et al. Organized by Larry Gleason, University of East Texas.</p>
+              <div5>
+                <head>
+                  <title>CONCURRENT PUBLIC EVENTS</title>
+                </head>
+                <list type="ordered">
+                  <item>
+                    <p><label>1.</label> UCSB Art Galleries. Daily, Feb. 24-Mar. 28.</p>
+                    <p><hi rend="i">Blake in the Art of His Time</hi>, organized by Corlette Walker. 100 original paintings and drawings by Blake, Flaxman, Fuseli, Barry, Mortimer and others.</p>
+                  </item>
+                  <item>
+                    <p><label>2.</label> The Santa Barbara Museum of Art, 1130 State Street. Daily, Mar. 2-5.</p>
+                    <p><hi rend="i">The Followers of William Blake</hi>: paintings by Samuel Palmer, George Richmond, John Varley, John Linnell. Organized by Larry Gleason, University of East Texas.</p>
+                  </item>
+                  <item>
+                    <p><label>3.</label> UCSB Main Library. Daily, Feb. 26-Mar. 26.<lb/>
+Two related exhibitions, organized by Robert Essick and Donald Fitch:</p>
+                    <list type="ordered">
+                      <item>
+                        <p><label>(a)</label><hi rend="i">William Blake, Book Illustrator.</hi><lb/>
+Blake’s illustrations for various projects, narratives, encyclopedias, commercial works, etc.</p>
+                      </item>
+                      <item>
+                        <p><label>(b)</label><hi rend="i">Blake’s Illuminated Books: A Historical Survey of Facsimiles.</hi><lb/>
+The evolution of facsimiles of Blake’s colored books from 1860 to the recent Trianon Press editions. Rare items of great pictorial and bibliographic interest.</p>
+                      </item>
+                    </list>
+                  </item>
+                </list>
+                <figure/>
+              </div5>
+            </div4>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <pb id="p10-48" n="48"/>
+      <div1 id="BQ-10-2-0004">
+        <head>
+          <title type="section">
+            <hi rend="b">NOTES</hi>
+          </title>
+        </head>
+        <figure>
+          <head>1 <hi rend="i">Jerusalem 78</hi></head>
+        </figure>
+        <pb id="p10-49" n="49"/>
+        <figure>
+          <head>2 <hi rend="i">Jerusalem 78</hi>, detail</head>
+        </figure>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">The Bird-Man of William Blake’s Jerusalem</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">BY</hi>
+            <docAuthor>
+              <hi rend="b">JUDITH</hi>
+              <name>
+                <hi rend="b">OTT</hi>
+              </name>
+            </docAuthor>
+          </byline>
+          <p>The illuminations of William Blake’s <hi rend="i">Jerusalem</hi> are as complex as the actual text and as fascinating. One of the more puzzling of these illuminations is found on plate 78 (illus. 1), the title page of Chapter 4. It is a half-page illustration of a man with a bird’s head, seated upon a rock, his head resting upon the clenched fist of his left hand. The text of the page is written upon the murky waters which surround him, a quarter-sun appears upon his left, and dark clouds billow in an arch above his head.</p>
+          <p>This odd figure has already been identified as representing Los, Blake’s Time-Spirit "in a mood of conflicting emotions."<ref target="n1" type="note">1</ref> This interpretation is probably correct, as far as it goes. However, there is more meaning in this Bird-Man image (illus. 2), unique among Blake’s illuminations, than an identification as Los can provide. Blake has incorporated several visual allusions within this image and, once recognized, they add dimension to his character Los. <note id="n1"><hi rend="s">1</hi> Joseph Wicksteed, <hi rend="i">William Blake’s Jerusalem</hi> (London: The Trianon Press, n.d.), p. 226. Mr. Wicksteed’s further identification of the figure, however, I feel is incorrect. The bird’s head shown is not that of a cock. This is made obvious through a comparison with the bird’s head in Blake’s illustration of <hi rend="i">Comus with the Lady Spellbound</hi>, which does show a cock’s head. John Beer, in <hi rend="i">Blake’s Visionary Universe</hi> (New York: Barnes and Noble, Inc., 1969) also identifies the Bird-Man as an "Eagleheaded guardian visionary," pl. 43.</note></p>
+          <p>The motif of a figure resting his head on his hand is part of a visual tradition traceable to ancient Egyptian sarcophagi reliefs.<ref target="n2" type="note">2</ref> Connected with Egyptian mourners, it signifies grief. This gesture was also used to show sleep, fatigue and creative thought. That Blake was familiar with this ancient device and used it in several of its meanings can be seen in his illuminations. In his watercolor, <hi rend="i">Queen Katherine’s Dream</hi>, he uses it to show dream-filled sleep. In <hi rend="i">My Son! My Son!</hi>, from the <hi rend="i">Gates of Paradise</hi> (pl. 8), he uses the pose to represent despair and grief. And in his illuminations for <hi rend="i">Poems by Mr. Gray</hi> (p. 82) Blake repeats the convention again, this time to imply creative thought. Which, if any of these meanings, apply to the figure in plate 78? A look at his artistic sources is helpful here. <note id="n2"><hi rend="s">2</hi> Raymond Kilbansky, Erwin Panofsky and Fritz Saxl, <hi rend="i">Saturn and Melancholy</hi> (London: Thomas Nelson and Sons, Ltd., 1964), pp. 286-87; see also Erwin Panofsky, <hi rend="i">Albrecht Dürer</hi>, 2 v., (Princeton, N. J.: Princeton University, n.d.), v. I, p. 162.</note></p>
+          <p>As a boy, Blake bought engravings and drawings from several of London’s auction rooms.<ref target="n3" type="note">3</ref> Dürer, in particular, was one of Blake’s heroes and it is known that a copy of Durer’s <hi rend="i">Melancholia I</hi> (illus. 3) hung for a great part of Blake’s life on his workroom wall.<ref target="n4" type="note">4</ref> It is doubtful that the similarity between the poses of Dürer’s melancholy angel and Blake’s Bird-Man is merely coincidental. What is puzzling is why Blake chose to make such an obvious and singular allusion to <hi rend="i">Melancholia I</hi> in this illumination. The answer may lie in the Neoplatonic philosophy in which Dürer’s print is steeped and about which Blake may well have known. <note id="n3"><hi rend="s">3</hi> G. E. Bentley, Jr., <hi rend="i">Blake Records</hi> (Oxford: The Clarendon Press, Press, 1969), pp. 421-22.</note><note id="n4"><hi rend="s">4</hi> Bentley, p. 565, fn. 3.</note></p>
+          <figure>
+            <head>3 Albrecht Dürer, <hi rend="i">Melancholiu I</hi></head>
+          </figure>
+          <pb id="p10-50" n="50"/>
+          <p>Of the major works of Dürer in 1514, <hi rend="i">Melancholia I</hi> is the most involved iconographically.<ref target="n5" type="note">5</ref> It symbolizes one of the four humors, or temperaments, popular in the Middle Ages—specifically, the dreaded melancholy humor. The Florentine Neoplatonists, in particular Marsilio Ficino, gave the melancholic a much more favored position than previously assigned him.<ref target="n6" type="note">6</ref> By transposing the idea that all geniuses are melancholics into the statement that all melancholics are geniuses, this humor became associated with high thought. This kind of melancholic is the one that Dürer represents. His engraving is, in Neoplatonic terms, of a "melancholia artificialis," or artist’s melancholy. For Durer, and possibly for Blake as well, <hi rend="i">Melancholia I</hi> was a visionary image of the melancholy artist he was himself. <note id="n5"><hi rend="s">5</hi> I have relied heavily upon Panofsky’s analysis here, <hi rend="i">Albrecht Dürer</hi>, v. I, pp. 156-71.</note><note id="n6"><hi rend="s">6</hi> See R. Kibansky, <hi rend="i">et al., Saturn and Melancholy</hi> for a discussion of the evolution of melancholy in the 16th century’s Neoplatonic thought.</note></p>
+          <p>Plate 78 therefore has an implicit connection with the melancholy artist. In Blake’s system Los is the "creative imagination," the deepest Zoa and the center of each individual.<ref target="n7" type="note">7</ref> Durer’s angel, lapsed into a state of gloomy inaction, represents Theoretical Insight, for she thinks but cannot act—so Los broods in inactivity. Melancholia, representing architecture and carpentry, has about her elements which are of Los’ trade. They are both seated near water as murky as the black gall which afflicts melancholics and both have the characteristic "earthlike" complexion of melancholics.<ref target="n8" type="note">8</ref> As Durer’s angel is the embodiment of the tragic unrest of human creation, Los—the creative imagination—is the origin of that restless creation, and his son Orc is the revolutionary spirit itself. <note id="n7"><hi rend="s">7</hi> S. Foster Damon, <hi rend="i">A Blake Dictionary</hi> (Providence, R. I.: Brown University Press, 1965), p. 246.</note><note id="n8"><hi rend="s">8</hi> Erwin Panofsky, <hi rend="i">Albrecht Dürer</hi>, vol. 1, p. 163.</note></p>
+          <p>Another element in plate 78, traced to its artistic source, provides the next level of meaning in Blake’s image. That is the figure of a man with a bird’s head. Again this is a commonly used, ancient motif traceable to representations of the Egyptian sun god Horus, shown with the head of a hawk. As both Los and Horus are associated with the sun, Los probably being an anagram of "Sol," there is a connection even here.<ref target="n9" type="note">9</ref> Yet the head of Blake’s Bird-Man is not a hawk and his artistic source may well be not from his early work for the Society of Antiquaries, but from his knowledge of early medieval Christian motifs. <note id="n9"><hi rend="s">9</hi> Damon, p. 246.</note></p>
+          <p>That Blake chose an eagle’s head for his Bird-Man can be seen through a comparison with the eagle-head of the griffin in his illumination to Dante, <hi rend="i">Beatrice Addressing Dante from the Car.</hi> Blake was familiar with the Christian tradition that associated the four evangelists with the four beasts of the Apocalypse (in Blake’s system, the Four Zoas). In this tradition St. John was represented by the eagle. Medieval illuminators chose to depict St. John in one of three ways: with an eagle, as an eagle, or as a man with an eagle’s head (illus. 4).<ref target="n10" type="note">10</ref><note id="n10"><hi rend="s">10</hi> F. Edward Hulme, <hi rend="i">Symbolism in Christian Art</hi> (New York: Macmillan &amp; Co., 1891), p. 132.</note></p>
+          <p>Aside from the fact that an eagle-man is St. John’s traditional symbol, he is also often shown, as in plate 78, alone on the island of Patmos writing the Book of Revelation. Thus Blake’s figure is not only a direct reference to the evangelist, but to the event of divine inspiration for which he was known. Again, it seems pertinent to ask why Blake chose this allusion.</p>
+          <p>According to Blake’s system, Los is "the ‘Prophet of Eternity,’ who reveals the basic truths . . . He directly inspires Blake himself . . . ."<ref target="n11" type="note">11</ref> Thus St. John, who wrote the Apocalypse—a book exclusively meant to reveal future truths—proves an appropriate parallel figure. St. John’s visions, especially of the Last Judgment, were also a great inspiration in Blake’s writings. As Blake identified with Los, so too he must have identified with the great visionary evangelist. With Blake as the common link, Los and St. John became fused, in plate 78, into one image. <note id="n11"><hi rend="s">11</hi> Damon, p. 247.</note></p>
+          <p>Traditionally, the eagle was the one bird who could soar on high and look directly at the sun.<ref target="n12" type="note">12</ref> A symbol of genius, he was an appropriate symbol for St. John, who wrote of the highest mysteries of faith. As Blake said, "When thou seest an eagle, thou seest a portion of Genius; lift up thy head!"<ref target="n13" type="note">13</ref> Thus the symbolism surrounding St. John, the sun and the eagle are linked. In plate 78, the sun is not only the link with Los as his "golden orb," but with St. John as his source of Divine Inspiration. <note id="n12"><hi rend="s">12</hi> Damon, p. 112.</note><note id="n13"><hi rend="s">13</hi><hi rend="i"> Marriage of Heaven and Hell</hi>, 9:15.</note></p>
+          <p>Blake’s quarter-sun is divine because he shows it on the left side of his Bird-Man plate. In Renaissance tradition, the sun shown on the left, or sunlight from the left in a picture, was a northern sun.<ref target="n14" type="note">14</ref> Northern light, as an unnatural phenomenon, was considered divine—a well-known artistic convention even in Blake’s time. Los and the eagle, both in Blake’s northern quarternary, further identify the region as northern.<ref target="n15" type="note">15</ref> Thus the sun is not only a symbol for Los, and of St. John’s inspiration, but an equation of the two. Blake, the visionary, saw his inspiration and that of St. John as originating in the same way—from imagination. <note id="n14"><hi rend="s">14</hi> Erwin Panofsky, <hi rend="i">Early Netherlandish Paintings: Its Origins and Character</hi> (Cambridge, Mass.: Harvard University Press, 1953), pp. 147-48; for a discussion of the symbolism of lighting conventions and their meanings in Renaissance art.</note><note id="n15"><hi rend="s">15</hi> Damon, p. 246.</note></p>
+          <p>But do the motifs of St. John and Melancholia have a common linkage? The four evangelists were equated with the four humors in medieval literature.<ref target="n16" type="note">16</ref> Durer himself made this connection and, using age as the key, showed St. John—according to northern custom—as a young man and therefore the sanguine. But, as Panofsky implies, this does not necessarily reflect a fixed association. St. John was often represented as an old man with a white beard in the Eastern tradition and could have been also associated with the melancholic humor. Certainly some representations of St. John suggest just such an association.<ref target="n17" type="note">17</ref> The melancholic’s inclination for
+<figure><head>4 Man with an eagle’s head</head></figure><pb id="p10-51" n="51"/>
+solitude and study, plus the Neoplatonic equation with genius, make the connection a strong possibility. Perhaps Blake, knowing of the medieval associations, made his own link. <note id="n16"><hi rend="s">16</hi> Erwin Panofsky, <hi rend="i">Albrecht Dürer</hi>, included in his discussion of Durer’s <hi rend="i">Four Apostles</hi>, p. 235.</note><note id="n17"><hi rend="s">17</hi> A representation such as <hi rend="i">St. John</hi> sculpted by Jacobello e Piaroaolo Delle Masegme in the Basilica di S. Marco, which shows the apostle characteristically with his hand to his cheek, in a melancholic pose.</note></p>
+          <p>Thus the illumination of plate 78 is multilayered in its meaning. It is the figure Los, the creative imagination, surrounded by the sea of time and space, enveloped in Urizen’s "clouds of reason" which obscure the mind, accompanied by his sun symbol, in a mood of sullen contemplation. The figure is also the melancholy artist, surrounded by the waters of Saturn or waves of black gall, gazing at the inspirational sun, but unable to use his genius as he broods on the lonely shore. He is St. John as well, but without (or before) inspiration, exiled to Patmos, lethargically looking upon God’s sun with his eagle eyes, unable to act. Together, plate 78 represents all of these elements in one image, as they were in Blake’s mind—not to be differentiated, but ultimately perceived as one unit infinitely meaningful.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <div1 id="BQ-10-2-0004">
+        <head>
+          <title type="section">
+            <hi rend="b">NOTES</hi>
+          </title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">Blake’s Inflammable Gass</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">BY</hi>
+            <docAuthor>
+              <hi rend="b">RODNEY</hi>
+              <name>
+                <hi rend="b">M.</hi>
+              </name>
+            </docAuthor>
+            <hi rend="b">AND</hi>
+            <docAuthor>
+              <hi rend="b">MARY R.</hi>
+              <name>
+                <hi rend="b">BAINE</hi>
+              </name>
+            </docAuthor>
+          </byline>
+          <p>Although he may well be a type as well as a caricature,<ref target="n18" type="note">1</ref> one of the characters in William Blake’s <hi rend="i">Island in the Moon</hi> whose original has so far defied satisfactory identification is Inflammable Gass the Wind-finder. The various scientists so far proposed for this friend of the Philosophers have been too far from Blake’s scene, too elderly, too eminent, or too conventional. Probably the most popular identification is that proposed by S. Foster Damon—Joseph Priestley (1733-1804).<ref target="n19" type="note">2</ref> This suggestion has been accepted by a number of Blake scholars. Serious questioning of the identification by Nancy Bogen, however, led David Erdman to change his mind,<ref target="n20" type="note">3</ref> and with reason: since Priestley was twenty-four years older than Blake, was eminent in his profession, and lived in Birmingham from 1780 to 1791, he does not fit into the picture at all. Other identifications have been no more satisfying. In 1951 Palmer Brown suggested Gustavus Katterfelto (d. 1799). Although Erdman seems to accept this identification in part, the Philosophers would surely have been repelled by this conjuror and quack doctor, who was ultimately committed to prison in Shrewsbury as an impostor and who for decades lingered in popular memory among "the most celebrated professors in natural magic." In his own opinion the greatest philosopher in Great Britain since Newton, Katterfelto was about the time of <hi rend="i">An Island</hi> moving in eminent circles, in 1784 attracting even the Royal Family to his exhibit. Not a bumbling amateur like Inflammable, he was a smoothly operating professional exhibitor.<ref target="n21" type="note">4</ref> In 1968 Stanley Gardner proposed Dr. George Fordyce (1736-1802) or Henry Cavendish (1731-1810),<ref target="n22" type="note">5</ref> but each was at least twenty years older than Blake and eminent in his profession. Fordyce was a physician; Inflammable is not so characterized. Cavendish was an unsociable millionaire. <note id="n18"><hi rend="s">1</hi> See Martha W. England, "The Satiric Blake: Apprenticeship at the Haymarket?" <hi rend="i">BNYPL</hi> 73 (1969), 440-64, 531-50, and in <hi rend="i">Blake’s Visionary Forms Dramatic</hi>, ed. David V. Erdman and John E. Grant (Princeton: Princeton Univ. Press, 1970), pp. 3-29.</note><note id="n19"><hi rend="s">2</hi> S. Foster Damon, <hi rend="i">William Blake: His Philosophy and Symbols</hi> (Boston: Houghton Mifflin, 1924; rpt. New York: Peter Smith, 1947), p. 33, and <hi rend="i">A Blake Dictionary</hi> (Providence: Brown Univ. Press, 1965), p. 197.</note><note id="n20"><hi rend="s">3</hi> Nancy Bogen, "William Blake’s ‘Island in the Moon’ Revisited," <hi rend="i">Satire Newsletter</hi> 5 (1968), 110; David V. Erdman, <hi rend="i">Blake: Prophet against Empire</hi>, revised ed. (Princeton: Princeton Univ. Press, 1969), pp. 93-94, n. 13.</note><note id="n21"><hi rend="s">4</hi> Erdman, pp. 93-94, n. 13. Giuseppe Pinetti, <hi rend="i">The Conjuror’s Repository</hi> (London: T. and R. Hughes, [1795?]); <hi rend="i">The Whole Art of Legerdemain, or the Black Art Laid Open and Explained, by Katterfelto</hi> . . . (London: T. Hughes, [1826?]); Robert Chambers, <hi rend="i">The Book of Days</hi> (London, [1864]) 1, 511-12; W.C., "Who was Katerfelto," in <hi rend="i">The Mirror</hi>, XVII, 69.</note><note id="n22"><hi rend="s">5</hi> Stanley Gardner, <hi rend="i">Blake</hi> (1968; rpt. New York: Arco, 1969), pp. 63, 65.</note></p>
+          <p>The portrait of Inflammable Gass as presented in <hi rend="i">An Island in the Moon</hi> seems to us to suggest most strongly William Nicholson (1753-1815), who was only four years older than Blake, lived nearby, shared his political and religious views, and could have met Blake through either John Flaxman or Thomas Holcroft. Blake is almost certain to have known Nicholson in the 1800’s<ref target="n23" type="note">6</ref>; but he could have met him in the late 1770’s or early ’80’s. In 1776 Nicholson was serving as an agent for the Wedgwoods, and Flaxman was already designing for
+<pb id="p10-52" n="52"/>
+that firm. If Blake did not meet Nicholson through Flaxman, he may have done so later through Thomas Holcroft. In 1784 Blake was contributing monthly a featured engraving to Holcroft’s <hi rend="i">Wit’s Magazine</hi>, and he probably knew Holcroft before then. If he visited Holcroft in the early 1780’s at the Southhampton Buildings he would probably have met Nicholson there, for Nicholson had rooms with Holcorft at the time and collaborated with him in his first complete novel, <hi rend="i">Alwyn</hi> (1780).<ref target="n24" type="note">7</ref> Later in the 1780’s Nicholson lived even closer to Blake, at Red Lion Square. Or Blake may have met Nicholson through Joseph Johnson, the liberal publisher who planned to publish <hi rend="i">The French Revolution</hi>; indeed Blake engraved for Johnson this same year (1782) the plate for a mathematical volume of Bonnycastle. He may have also engraved during this same year some of the twenty-five unsigned plates for Nicholson’s <hi rend="i">Introduction to Natural Philosophy</hi>, published, again, by Johnson. <note id="n23"><hi rend="s">6</hi><hi rend="i"> Blake, Records</hi>, ed. G. E. Bentley, Jr. (Oxford: Clarendon Press, 1969), p. 188.</note><note id="n24"><hi rend="s">7</hi> Rodney M. Baine, <hi rend="i">Thomas Holcroft and the Revolutionary Novel</hi> (Athens, Ga.: Univ. of Georgia Press, 1965), pp. 12, 115.</note></p>
+          <p>The internal evidence from these two volumes suggests that Nicholson may well have been the original of Inflammable. A dedicated scientist like Nicholson, Inflammable cannot conceive that any man can be a fool if he is "desirous of enquiring into the works of nature" (E 441). Blake’s name for him is surely apt for Nicholson. In his <hi rend="i">Introduction</hi> Nicholson included an extended discussion of inflammable gas and specifically noted the inflammable nature of the air found in privies: "Putrescent animal matters emit this fluid [inflammable gas], as has been observed in church-yards, houses of office, and such . . . "<ref target="n25" type="note">8</ref> Inflammable boasts, "Heres a bottle of wind that I took up in the bog house [privy]" (E 452). As wind-finder (probably not so much wind-measurer as wind-locator) Nicholson not only described and illustrated instruments which he perfected for measuring the "elasticity" and weight of air (II, 42-44; figs. 105, 106), but he also included a chapter "Of Winds, and their Causes," locating many winds (II, 63-76). Here is a typical example: "Between the parallels of 28 and 40 south latitude, in that tract which extends from 30° West to 100° East longitude from the meridian of London, the wind is variable, but by far the greater part between the N.W. and S.W. so that the outward bound East India ships generally run down their easting on the parallel of 36° south" (II, 64-65). Not only does Inflammable’s name fit Nicholson, but so do Inflammable’s actions, except that the biological demonstrations using microscope and slides do not appear in the <hi rend="i">Introduction.</hi> Here, however, are Inflammable’s air pump, his camera obscura, and "Flogiston." In Chapter 10 of <hi rend="i">An Island</hi> the air pump which Tilly Lally and Little Scopprell break must have been fitted with a glass receiver, for "Smack went the glass" (E 453). "The most useful of all philosophical instruments, whose actions depend on the properties of the air" (II, 110), Nicholson’s model is equipped with a "glass-receiver, out of which the air is to be exhausted" (II, 111). "By the help of this machine," Nicholson remarked, "all that has been shewn concerning the weight and elasticity of the air, is demonstrated in the most simple and elegant manner" (II, 110). When Inflammable remarks suddenly, "I have got a camera obscura at home" (E 443) and later has "magic pictures" (E 452) to exhibit to his guests, Blake may again have had Nicholson in mind. Nicholson described and illustrated both the darkened room, the literal camera obscura, and the "Magic Lanthorn" (I, 359, 368; figs. 83, 87). Moreover, in an episode which he had just written for Thomas Holcroft’s <hi rend="i">Alwyn</hi> he had one of the young heroes frighten a Methodist minister up the chimney (Ch. XIV) by using a magic lanthorn to show a picture of the Devil. Again, Inflammable boasts, "I have got a bottle of air that would spread a Plague" (E 442), and he later warns his guests when some of the bottles are broken, "our lungs are destroyed with the Flogiston" (E 453). In his detailed study of phlogiston, Nicholson noted, "With regard to the effect of phlogisticated air . . . an animal plunged in a vessel of noxious air dies much more suddenly and irrecoverably than in the vacuum of an air-pump" (II, 335-36). He then cited the fatal effects of the long exposure of miners to "phlogistic emanations" (II, 339). <note id="n25"><hi rend="s">8</hi> William Nicholson, <hi rend="i">An Introduction to Natural Philosophy</hi> (London: Johnson, 1782), II, 351-59; II, 351. Subsequent citations, incorporated in the text, cite this first edition.</note></p>
+          <p>A final suggestion of Nicholson may lie in Inflammable’s defense of Voltaire, whom he praises as "the Glory of France" who had "found out a Number of Queries in Philosophy" (E 442, 441) and in Inflammable’s desire to "see the parsons all hangd a parcel of lying—" (E 443). This anti-ecclesiasticism sounds very like the militant deism of <hi rend="i">The Doubts of the Infidels</hi> (1781), in which Nicholson anonymously attacked Biblical inconsistencies and contradictions, continuing Voltaire’s Biblical attacks in the <hi rend="i">Dictionnaire Philosophique.</hi><ref target="n26" type="note">9</ref><note id="n26"><hi rend="s">9</hi> This work, unattributed to Nicholson in his brief biographies and in the BM catalog, was reprinted in the first volume of Richard Carlile’s periodical <hi rend="i">The Deist.</hi></note></p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <div1 id="BQ-10-2-0004">
+        <head>
+          <title type="section">
+            <hi rend="b">NOTES</hi>
+          </title>
+        </head>
+        <pb id="p10-53" n="53"/>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">Blake in the Marketplace, 1974-75</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">BY</hi>
+            <docAuthor>
+              <hi rend="b">ROBERT N.</hi>
+              <name>
+                <hi rend="b">ESSICK</hi>
+              </name>
+            </docAuthor>
+          </byline>
+          <figure>
+            <head>1 "Lamech and His Two Wives."</head>
+            <figDesc>Color printed drawing, 1795. Author’s Collection.</figDesc>
+          </figure>
+          <p>It is difficult to make any completely false generalization about the Blake market in 1974 and 1975. Prices were up; prices were down. It was a good market for buyers (of certain types of materials); it was a good market for sellers (of other types of materials). New record prices were set, while important works failed to find buyers even at moderate prices. It was the worst of times; it was the best of times. A combination of economic difficulties, particularly in Britain, and a strong book and print market over the last ten years drove a number of medium-priced items out of hiding. In his 1921 <hi rend="i">Bibliography of William Blake</hi>, Geoffrey Keynes noted that the third edition of Erasmus Darwin’s <hi rend="i">Botanic Garden</hi> (1795) was "considerably scarcer than the other two." In the last two years, no fewer than ten copies of this edition appeared on the market, three more than the first edition and eight more than the second. In the 1920s, the <hi rend="i">Botanic Garden</hi> was not traded primarily as a Blake item. But now it is, and thus the third edition, containing an additional plate by Blake after Fuseli, is more valuable than the earlier editions. The third was never any rarer, in absolute terms, than the others, but the market made it seem that way until dealers began to ferret out what is now the most profitable edition. A similar deluge of etchings by Samuel Palmer rumbled through the auction and print dealers’ catalogues. In the face of all this activity, book and print prices did not continue to accelerate quite as rapidly as in previous years, but no significant backsliding occurred. Collectors who were willing to meet the market prices had many opportunities to expand their holdings, particularly of books with Blake’s commercial engravings, but true bargains were scarcer than ever. Book and print prices rarely fall dramatically, in part because the inner circle of larger dealers is able to keep auction prices up and hold items for long periods without cutting the retail price.</p>
+          <p>The most expensive works are more subject to pressures growing from the condition of the general economy. On 21 March 1974, the "Preston" colored proof of <hi rend="i">Jerusalem</hi> pl. 41 brought £13,000 at a Sotheby’s auction—no doubt a world record for a single leaf from one of Blake’s illuminated books. The other end of the market was reached on 28 November 1974 in the same rooms, when two of Blake’s 1795 color printed drawings (illus. 1, 2) failed to attract serious bidders and were bought-in far below the minimum estimates. Both "Pity" and "Lamech
+<pb id="p10-54" n="54"/>
+                        and his Two Wives" had unfairly acquired reputations as little better than ruins, partly through comparison with the magnificent Butts copies in the Tate, but that any work executed in one of Blake’s most interesting techniques should be ignored by major dealers and collectors is surprising. In the past, Blake’s drawings regularly sold at auction for as much as twice the estimate, but we can no longer assume that this will happen without fail. "War Unchained" failed to meet the reserve at Christie’s on 17 June 1975, and "Theotormon Woven" sold for only £20 over estimate at Sotheby’s on 27 November 1975. The drawings market will probably continue to bounce about over the next few years, but high reserves and the stabilizing maneuvers of the major dealers will prevent the small collector from picking up important works at bargain prices.</p>
+          <p>The following list of 1974-75 Blake sales, arranged by item (rather than sale) and divided into four parts, includes only original materials by Blake and unique works directly concerned with him. The final section covers sales of works by artists in Blake’s circle. I have not included late works by people such as Linnell and Richmond which have little connection with Blake’s own styles and interests. Dealers’ catalogues are listed following all auction sales of each item. In many cases, there is no longer much difference between the dealers’ "retail" prices and the "wholesale" auction prices. In the 1972-73 survey in <hi rend="i">Newsletter 27</hi>, pp. 52-59, I included many secondary works and modern facsimiles. Such inclusiveness would have
+<figure><head>2 "Pity."</head><figDesc>Color printed drawing, 1795. Collection of Colin Franklin.</figDesc></figure>
+tripled the length of the present survey. On the whole, prices for these materials have risen since the 1972-73 period about 5 to 10% more than the general rate of inflation. The only noticeable exceptions to this rule of thumb are the most sought-after Blake Trust facsimiles now out of print.</p>
+          <p>I have made no attempt to search out every minor auction catalogue or dealer’s list for inclusion here. All Sotheby, Sotheby Parke-Bernet, and Christie’s sales have been covered, as have the catalogues of the major book dealers and art galleries who regularly deal in original Blake materials. I would very much appreciate <hi rend="i">Newsletter</hi> readers informing me of any sales, particularly from obscure corners, during 1976 and 1977.</p>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Abbreviations</hi>
+              </title>
+            </head>
+            <table rows="9" cols="2">
+              <row>
+                <cell>C</cell>
+                <cell>Christie, Manson &amp; Woods Ltd., London</cell>
+              </row>
+              <row>
+                <cell>cat.</cell>
+                <cell>catalogue or sales list issued by a dealer or auction house (usually followed by a number or letter designation)</cell>
+              </row>
+              <row>
+                <cell>illus.</cell>
+                <cell>the item or a part thereof is reproduced in the catalogue</cell>
+              </row>
+              <row>
+                <cell>SB</cell>
+                <cell>Sotheby Belgravia, Motcomb St., London</cell>
+              </row>
+              <row>
+                <cell>SBLA</cell>
+                <cell>Sotheby Parke-Bernet, Los Angeles</cell>
+              </row>
+              <row>
+                <cell>SBNY</cell>
+                <cell>Sotheby Parke-Bernet, New York</cell>
+              </row>
+              <row>
+                <cell>SH</cell>
+                <cell>Sotheby &amp; Co., Hodgson’s Rooms, Chancery Lane, London</cell>
+              </row>
+              <row>
+                <cell>SL</cell>
+                <cell>Sotheby &amp; Co., Main Rooms, Bond St., London</cell>
+              </row>
+              <row>
+                <cell>#</cell>
+                <cell>auction lot or catalogue item number</cell>
+              </row>
+            </table>
+            <p>I wish to thank Prof. G. E. Bentley, Jr., and Ruth Lehrer for their help in compiling this survey.</p>
+          </div3>
+          <pb id="p10-55" n="55"/>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Blake Sales 1974-75</hi>
+              </title>
+            </head>
+            <div4>
+              <head>
+                <title>
+                  <hi rend="b">Drawings, Watercolors, and Color Printed Drawings</hi>
+                </title>
+              </head>
+              <p>"The Battle of Hastings." Pencil &amp; wash, signed. 26 × 36.2 cm. Agnew &amp; Sons, 102nd Annual Exhibition of Watercolors and Drawings, Jan.-Feb. 1975, #22 (£1200). This very early and very clumsy composition is reproduced, with a note by Martin Butlin, in the <hi rend="i">Newsletter</hi>, 9 (1975), 49.</p>
+              <p>Blake, portrait of. Described in the cat. as "Circle of William Blake, Portrait of the Artist." Pencil &amp; gray wash, 9 ⅝ × 8 in., oval. C, 5 March 1974, #77, illus. (Baskett &amp; Day, $1932). Now in the author’s collection. Attributed to John Linnell by Martin Butlin in <hi rend="i">Blake Studies</hi>, vol. 7 no. 2, pp. 101-03 (repro. on cover).</p>
+              <p>Blake, portrait sketch of him walking. Pencil, by George Richmond. SL, 21 March 1974, #22, illus. (withdrawn). Repro. Wicksteed, <hi rend="i">Blake’s Jerusalem</hi>, pl. 11.</p>
+              <p>Blake, portrait of, copied from the <hi rend="i">Notebook</hi> sketch; portrait copied after the sketch by Linnell; two drawings after Blake perhaps by W. B. Scott. C, 25 Feb. 1974, #150 (Shelton, $12).</p>
+              <p>"Every Man Also Gave Him a Piece of Money," variation on Job illus. 19. Pencil, pen, blue &amp; gray washes, 23 × 18 cm. SL, 21 March 1974, #16, illus. (Colnaghi, £9500). From the Robertson and Preston collections, repro. Keynes, ed., <hi rend="i">Drawings of Blake</hi> (1970), no. 79.</p>
+              <p><hi rend="i">Jerusalem</hi>, two studies for. 14 × 28 cm.; SL, 10 Jan. 1974, #52 (Mrs. K. Abbott, £12). The cat. designation of "Blake," rather than th full name, indicates that these are copies made by another hand.<ref target="n27" type="note">1</ref><note id="n27"><hi rend="s">1</hi> Sotheby’s and Christie’s use a simple code in their catalogues to indicate how certain they are of their attributions. The full name of an artist (thus, "William Blake") means that the auction house believes that the work in question is by the artist. The initials of the forename (s) and the surname (W. Blake) means that the work is of the period of the artist, in his style, and may be wholly or in part his work. The surname only (Blake) means that the work is in the artist’s style and may be of his period or later.</note></p>
+              <p>"Lamech and his Two Wives" (illus. 1). Color printed drawing, Pease collection. 38.5 × 48 cm. SL, 28 Nov. 1974, #136, illus. in color. Bought-in far below the estimate and sold privately to Colin Franklin, Oxfordshire. Now in the author’s collection.</p>
+              <p>"Parents of Civilization, Legislation, and Commerce," with an alternate figure of Legislation, inscribed. 2 pen &amp; wash drawings, 9 ¾ × 12 ¼ in. Plus two drawings in the style of Stothard. C, 18 June 1974, #13 (Richards, $38). The cat. designation "W. Blake" indicates that these drawings are not by Blake but in his style. Same group, with the addition of "Cain and Abel" by Joseph Nollekens, sold C, 22 Oct. 1974, #15 (Sanders, $25).</p>
+              <p>"Pity" (illus. 2). Color printed drawing, Pease collection. 41 × 51 cm. SL, 28 Nov. 1974, #136, illus. in color. Bought-in far below the estimate and sold privately to Colin Franklin, Oxfordshire. As of Dec. 1975 in Franklin’s collection.</p>
+              <p>"Theotormon Woven," pencil, 20 × 16.5 cm. SL, 27 Nov. 1975, #7, illus. (Wordsworth, £520). Repro. <hi rend="i">Newsletter</hi>, 7 (1973), 7, from the David J. Black collection.</p>
+              <p>"The Third Hour of the King of the Jews." Watercolor, 13 ⅛ × 13 ⅝ in. Weston, Robertson, Bruce collections. Repro. Keynes, <hi rend="i">Blake’s Illustrations to the Bible</hi>, no. 138. C, 4 June 1974, #134, illus. (L. D. Feldman, $35,280). Subsequently offered for sale by Feldman’s House of El Dieff, Fortieth Anniversary Catalogue, 1975, #11, illus. in color ($50,000).</p>
+              <p>"A Vision." Pencil &amp; gray wash, inscription by Tatham. 17 × 18 cm. SL, 21 March 1974, #17, illus. (A. Chambers, £2800). Repro. Preston, ed., <hi rend="i">Blake Collection of Robertson</hi>, pl. 58.</p>
+              <p>"War Unchained by an Angel, Fire, Pestilence, and Famine Following" (recto); and studies of children’s heads and limbs (verso). Pen &amp; ink, gray wash (recto); pencil (verso). 7 × 8 11/16 in. C, 17 June 1975, #87, recto illus. (bought-in at £1575). Recto, verso repro. <hi rend="i">Newsletter</hi>, 7 (1973), 4, 6, from the Donald Davidson collection.</p>
+              <p>"Woman Guarded by a Lion." Drawing in Blake’s style by another hand, 21 × 30 cm. SL, 22 May 1975, #12 (£8).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>
+                  <hi rend="b">Prints</hi>
+                </title>
+              </head>
+              <p>Allen, Charles. <hi rend="i">A New and Improved History of England</hi>, 1798. Plates extracted from, by Blake after Fuseli. SBNY, 8 May 1975, #454, with "Tornado" and "Fertilization of Egypt" by Blake after Fuseli, and an etching by Goya ($375).</p>
+              <p>"The Beggars Opera," Blake after Hogarth, fourth state. SB, 2 July 1974, #183 (Lakeside Studio, £35).</p>
+              <p>"Chaucers Canterbury Pilgrims." SL, 28 March 1974, #67, second state, illus. (J. Stray, £2100). SB, 15 April 1975, #16, fourth state on heavy wove paper slightly foxed, illus (£280). The fourth state impressions pulled by Colnaghi late in the nineteenth-century are often weak. This is probably the reason for the low price of #16. SBLA, 29 June 1975, #82, fourth state, only a fair impression ($2200).</p>
+              <p>"Christ with a Bow, Trampling Upon Urizen." Designed by Blake, engraved by Thomas Butts, Jr., under Blake’s direction. C, 14 Oct. 1975, #258 (Edmunds, £189).</p>
+              <p>"Fertilization of Egypt," Blake after Fuseli, extracted from Darwin’s <hi rend="i">Botanic Garden.</hi> SB, 30 April 1974, #21 (Lakeside Studio, £20); 2 July 1974, #180 (Lakeside Studio, £35); #182 (Lakeside Studio, £30).</p>
+              <p>Dante, illustrations to. Complete set of 7 pls. on laid India paper in portfolio with original cover label. SL, 11 July 1974, #17A, one pl. illus. (Edmunds, £3700). The first complete Dante set to come to auction in many years. Although the sale catalogue describes these as "one of 100 sets pulled in 1892," they are excellent impressions.</p>
+              <p>Dante illustrations, pl. 5 only ("He ey’d the serpent and the serpent him"). C. &amp; J. Goodfriend, Summer 1975 cat. 2, #24 ($2000).</p>
+              <p>Dante illustrations, pl. 7 only ("wherefore Dost Bruise Me?"). SBNY, 8 May 1975, #453, foxed ($750).</p>
+              <p><hi rend="i">Jerusalem</hi>, pl. 25, design only; portion of frontispiece to <hi rend="i">Europe</hi> on verso. The Preston colored proof. 16.5 × 16 cm. SL, 21 March 1974, #18, illus. (W. R. Cummings, £7000).</p>
+              <p><hi rend="i">Jerusalem</hi>, pl. 32, design only; trial proof of <hi rend="i">Europe</hi> title-page on verso with figures drawn in. The Preston colored proof. 17 × 16 cm. SL, 21 March 1974, #19, illus. (W. R. Cummings, £12,000).</p>
+              <p><hi rend="i">Jerusalem</hi>, pl. 41, design only; portion of <hi rend="i">Europe</hi> frontispiece on verso. The Preston colored proof. 13 × 16 cm. SL, 21 March 1974, #20, illus. (W. R. Cummings, £13,000).</p>
+              <p><hi rend="i">Jerusalem</hi>, pl. 47, design only; trial proof of <hi rend="i">Europe</hi> title-page on verso. The Preston colored proof. 15 × 16 cm. SL, 21 March 1974, #21 (H. Moss, £11,000).</p>
+              <p><hi rend="i">Job</hi>, Illustrations to. 22 engraved pls., complete. SL, 18 Feb. 1974, #68, published proof impressions (G. Walker, £2800). C, 16 July 1974, #205, final states on laid India paper, probably Linnell restrikes (Knoedler, $4536); 29 Oct. 1974, #6, final states on laid India paper (Lakeside Studio, $6048); C, 2 July 1975, #10, final states on Whatman Turkey Mill 1825 paper, pl. 5 illus. (£2310). House of El Dieff, Fortieth Anniversary Catalogue, 1975, #13, published proofs in original wrappers uncut, pl. 10 illus. ($12,350). Quaritch, Spring 1975 cat. 946, final states with original cover label (£2500). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #1-21, final states ($650 each). Hauswedell &amp; Nolte, 5 June 1975 cat. 206, #181, published proofs ($5460); 26-28 Nov. 1975, cat. 208, #606, published proofs, pl. 6 illus. (9,500 W. Ger. marks).</p>
+              <p><hi rend="i">Job</hi>, 14 of the 22 pls., published proofs. SBLA, 29 June 1975, #83 ($2800).</p>
+              <p><hi rend="i">Job</hi>, pls. 1, 3, 4, 6, 9, 17, 18, final states. SB, 2 July 1974, #185 (Louise King, £1300).</p>
+              <p><hi rend="i">Job</hi>, title-page. SBNY, 7 Nov. 1974, #196, with 3 other prints by Bauer and Gigoux ($150).</p>
+              <p><hi rend="i">Job</hi>, pl. 6. SB, 2 July 1974, #184, final state (Lakeside Studio, £130). SL, 11 July 1974, #17, published proof (Craddock &amp; Barnard, £150); subsequently offered for sale by Craddock &amp; Barnard, July 1975 cat. 131, #42 (£260). SBLA, 29 June 1975, #84, final state ($35).</p>
+              <p><hi rend="i">Job</hi>, pl. 8. Weston Gallery, May 1975 cat. 5, #3, published proof, illus. ($708).</p>
+              <p><hi rend="i">Job</hi>, pl. 9. SBNY, 8 May 1975, #452, final state ($350).</p>
+              <p><hi rend="i">Job</hi>, pl. 10. SBNY, 7 Feb. 1975, #315, final state on laid India paper ($375); 13 Nov. 1975, #19, final state on laid India paper ($350).</p>
+              <p><hi rend="i">Job</hi>, pl. 20. Weston Gallery, Jan. 1975 cat. 12, #3, published proof, illus. ($587.50).</p>
+              <p>"Mrs. Q," Blake after Villiers, and "Windsor Castle," G. Maile after J. B. C, 16 July 1974, #174 (Sanders, $176).</p>
+              <p>"The Parting of Lot and Abraham" and "The Fugitive Shechemites." Extracted from Edward Kimpton, <hi rend="i">A New and Complete Universal History of the Holy Bible</hi>, 1781(?). SB, 2 July 1974, #186
+<pb id="p10-56" n="56"/>
+                                (Maggs, £55). The plates in this first state are much rarer than the second states published in Maynard’s <hi rend="i">Josephus.</hi></p>
+              <p>"Queen Katherine’s Dream," Blake after Fuseli, extracted from <hi rend="i">The Plays of William Shakespeare</hi>, Steevens’ ed., 1805. SB, 30 April 1974, #22 (Lakeside Studio, £20).</p>
+              <p>Ritson, Joseph. <hi rend="i">A Select Collection of English Songs</hi>, 1783. Eight pls. only, extracted from the book, including 6 by Blake after Stothard. SB, 30 April 1974, #20 (Lakeside Studio, £70).</p>
+              <p>Stothard, Thomas. An album of prints after, including some by "W Blake," not further identified in the catalogue. C, 22 Oct. 1974, #187 (Sanders, $138).</p>
+              <p>"Tornado," Blake after Fuseli, extracted from Darwin’s <hi rend="i">Botanic Garden</hi>, third ed. SB, 2 July 1974, #181 (Lakeside Studio, £30).</p>
+              <p>Virgil wood engravings, 17 in all. SB, 7 Oct. 1975, #1, pl. 5 only on laid India paper, illus. C, 14 Oct. 1975, #259, Linnell restrikes of thirteen blocks (£252). SH, 28 Nov. 1975, #196, 12 impressions of "Colinet walking along the road."</p>
+            </div4>
+            <div4>
+              <head>
+                <title>
+                  <hi rend="b">Books with Blake’s Commercial Engravings</hi>
+                </title>
+              </head>
+              <p>Ariosto. <hi rend="i">Orlando Furioso.</hi> Hoole’s ed., 5 vols., 1783. Blackwell’s, June 1975 cat. 1027, #271 (£50).</p>
+              <p>Blair, Robert. <hi rend="i">The Grave.</hi> SL, 18 Feb. 1974, #108, first quarto ed., 1808 (Dawson, £130); #246, second quarto ed., 1813, original boards (A. G. Thomas, £48); #248, Camden Hotten restrikes in original portfolio, 1870 (A. Edmunds, £20). SB, 2 July 1974, #179, second quarto ed., 1813, original boards (Ganymede Graphics, £85). SL, 11 March 1975, #319, first quarto ed., 1808 (Louise King, £40); 11 March 1975, #322, Camden Hotten restrikes in original portfolio, 1870 (M. Ayers, £1). SH, 11 April 1975, #460, Camden Hotten reissue, original cloth, 1870 (D. Heald, £22). C, 30 April 1975, #163, first quarto ed., 1808, uncut in boards with cover label (£140). SB, 24 June 1975, #1, plates only, states not identified (£50). SL, 21 July 1975, #55, first quarto ed., 1808 (£70). SH, 20 Nov. 1975, #96, first quarto ed., 1808; #97, first quarto ed., 1808, incorrectly described as a "folio." Alan Thomas, Fall 1974 cat. 32, #86, second quarto ed., 1813, original boards (£80). Minkoff, Oct. 1974 cat., #31, first quarto ed., 1808, uncut ($650). Maggs, Oct. 1974 cat. 191, #371, first quarto ed., 1808, incorrectly described as a folio (£175). Duschnes, Nov. 1974 cat. 208, #14, first quarto ed., 1808 ($550); Fall 1975 cat. 211, $22, first ed. folio "proof" issue, 1808 ($1250); #23, first quarto ed., 1808, uncut in original boards ($850). Hauswedell &amp; Nolte, 26-28 Nov. 1975 cat. 208, #607, first ed. quarto, 1808 (1500 W. Ger. marks).</p>
+              <p><hi rend="i">Boydell’s Graphic Illustrations of the Dramatic Works of Shakespeare.</hi> c. 1803. Walford, Summer 1974 cat. A/223, #80, lacking frontispiece (£66); same vol., Nov. 1974 cat. A/226, #57 (£64).</p>
+              <p>Bryant, Jacob. <hi rend="i">A New System, or, an Analysis of Ancient Mythology.</hi> 3 vols., 1774-76. SH, 1 May 1975, #328, with 5 other vols. (Todd, £14). Argosy, July 1974 cat. 627, #81, disbound ($50).</p>
+              <p>Burger, G. A. <hi rend="i">Leonora.</hi> 1796. Argosy, July 1974 cat. 627, #60 ($200).</p>
+              <p>Catullus. <hi rend="i">Poems of.</hi> 1795. Sterling Books, Nov. 1975 cat. S.9, #146 (£28).</p>
+              <p>Darwin, Erasmus. <hi rend="i">The Botanic Garden.</hi> First ed. of Part I with Blake’s pls., 1791. SL, 12 Feb. 1974, #414 (F. Swann, £50). SH, 13 March 1975, #26 (B. Walton, £50). SL, 17 June 1975, #174, worn (bought-in). SH, 4 July 1975, #339, 2 pls. hand-colored, lacking 4 pls. R. &amp; J. Balding Ltd., April 1974 cat. 14, #12 (£160). Lamesa Booksellers, Oct. 1974 cat. 27, #77 ($375). E. M. Lawson, Nov. 1975 cat. 188, #133 (£70).</p>
+              <p>Second ed. of Part I, 1791. C, 5 Feb. 1975, #114, badly worn, with Hayley, <hi rend="i">Plays of Three Acts</hi>, 1784 (Morris, £12). SL, 17 March 1975, #5 (S. Heddon, £36).</p>
+              <p>Third ed. of Part I, with the extra pl., 1795. SL, 18 Feb. 1974, #78 (Blackwell, £120); 4 Nov. 1974, #203, worn (Korn, £14); 11 March 1975, #318, worn (E. M. Lawson, £55). SH, 3 July 1975, #163, lacking 3 pls. SL, 29 July 1975. #407 (£45). Quaritch, Summer 1974 cat. 936, #302 (£280). Blackwell’s, Summer 1974 cat. 1004, #140 (£185); Nov. 1975 cat. 1035, #70 (£185). Duschnes, Nov. 1974 cat. 208, #10 ($675). Sterling Books, April 1975 cat. S. 7, #200 (£125). Marlborough Rare Books, July 1975 cat. 76, #15 (£150). E. M. Lawson, Nov. 1975 cat. 188, #134 (£95).</p>
+              <p>Darwin, Erasmus. <hi rend="i">The Poetical Works.</hi> 3 vols., 1806. Although not listed in Bentley &amp; Nurmi, this work contains Blake’s reduced pls. which first appeared in the octavo ed. of <hi rend="i">The Botanic Garden</hi>, 1799. C, 6 Aug. 1975, #429 (£37).</p>
+              <p>Enfield, William. <hi rend="i">The Speaker.</hi> 1780 reissue of 1774 ed. Lamesa Booksellers, Fall 1975 cat. 30, #75 ($125).</p>
+              <p>Flaxman, John. <hi rend="i">Compositions from the Works and Days and Theogony of Hesiod.</hi> 1817. C, 30 April 1975, #106, original boards, foxed (£55); 20 May 1975, #210, with Flaxman’s Aeschylus and Piranesi’s <hi rend="i">Antichita Romane</hi> (£16); 6 Aug. 1975, #70, with Flaxman’s <hi rend="i">Iliad</hi> and <hi rend="i">Odyssey</hi>, 1805, and Aeschylus, 1831 (£152). Marlborough Rare Books, July 1975 cat. 76, #254, with Flaxman’s Aeschylus, 1831 (£135). Duschnes, Fall 1975 cat. 211, #25, with Flaxman’s <hi rend="i">Iliad, Odyssey</hi>, and Aeschylus ($275).</p>
+              <p>Flaxman, John. <hi rend="i">The Iliad of Homer.</hi> 1805. C, 30 April 1975, #104, original boards, with Flaxman’s <hi rend="i">Odyssey</hi>, 1805 (£28). Duschnes, Nov. 1975 cat. 208, #13, with Flaxman’s <hi rend="i">Odyssey</hi>, 1805 ($200). Marlborough Rare Books, July 1975 cat. 76, #255, with Flaxman’s <hi rend="i">Odyssey</hi>, 1805 (£70). See also Flaxman’s Hesiod, above.</p>
+              <p>Gay, John. <hi rend="i">Fables.</hi> 1793. C, 27 Feb. 1974, #68 (Robinson, $230). SH, 31 Oct. 1974, #691 (F. Edwards, £80); 31 Jan. 1975, #422, worn (D. Heald, £45). SBNY, 5 March 1975, #153, with 3 other titles ($275). SH, 5 June 1975, #167, lacking list of subscribers (I. Sanger, £48). C, 26 Nov. 1975, #238 (Traylen, £58). Blackwell’s Spring 1974 cat. 992, #186, large paper issue uncut (£250). Quaritch, Summer 1974 cat. 936, #303 (£250). Thorp, Summer 1974 cat. 694, #625 (£75). Blackwell’s, Dec. 1974 cat. 1012, #179 (£75). Walford, April 1975 cat. A/213, #291 (£83); same vol., June 1975 cat. A/234, #166 (£81). Rota, July 1975 cat. 16, #39, second ed. (£100).</p>
+              <p>Hartley, David. <hi rend="i">Observations on Man.</hi> 1791. Sterling Books, Oct. 1975 cat. S. 8, #37 (£65).</p>
+              <p>Hayley, William. <hi rend="i">Ballads.</hi> 1805. SH, 16 Oct. 1975, #1146, first states of the pls., pl. 2 illus. (J. Schiller, £144).</p>
+              <p>Hayley, William. <hi rend="i">The Life of George Romney.</hi> 1809. SL, 5 Nov. 1974, #312, worn (Sanders, £38). Sterling Books, July 1974 cat. 29, #248 (£34). Export Book Co., May 1975 cat. 738, #239 (£40). Duschnes, Fall 1975 cat. 211, #24 ($75).</p>
+              <p>Hayley, William. <hi rend="i">The Life, and Posthumous Writings, of William Cowper.</hi> 1803-04. First ed. unless noted otherwise. SH, 10 April 1975, #157, lacking half-titles (Maggs, £82); 5 June 1975, #195, with supplementary pages bound into vol. 3, lacking half-titles, worn (Fellner, £18); #488, with <hi rend="i">Cowper: Illustrated by a Series of Views</hi>, 1803 (C. W. Cox, £44). C, 6 Aug. 1975, #225, lacking half-titles (£58). Maggs, Oct. 1974 cat. 191, #415, second ed. (£38). Blackwell’s, Dec. 1974 cat. 1012, #108, lacking pl. 6 (£50). Richard Booth, May 1975 cat., #E, with supplementary vol. (£75). Grinke, Aug. 1975 cat. 12, #260, second ed. with supplementary vol. (£55). T. &amp; L. Hannas, Fall 1975 cat. 48, #125, with supplementary vol. (£90).</p>
+              <p>Hayley, William. <hi rend="i">The Triumphs of Temper.</hi> 12th ed., 1803. SL, 18 Feb. 1974, #79 (F. Edwards, £55). SH, 1 May 1975, #195 (B. Slater, £25). SL, 19 May 1975, #181, inscribed "Mrs. [Mary] Tighe’s gift to Harriet Sher June 1804" (A. G. Thomas, £120). C, 4 June 1975, #131, original boards uncut (£100). R. &amp; J. Balding, April 1975 cat. 14, #13 (£50). Quaritch, Summer 1974 cat. 936, #306, large paper (£200); Autumn 1974 cat., #17 (£110). Falkner Greirson, 1974 supplementary cat. 4, #143 (£48). Lamesa Booksellers, Oct. 1974 cat. 27, #107 ($125). Alan Thomas, Fall 1975 cat. 32, #85 (£130). Duschnes, Nov. 1974 cat. 208, #12 ($200). William Wreden, Oct. 1975 cat. 52, #446, original boards uncut ($250). E. M. Lawson, Nov. 1975 cat. 188, #138, lacking half-title (£85).</p>
+              <p>Hoare, Prince. <hi rend="i">An Inquiry into . . . the Arts of Design in England.</hi> 1806. H. Fellner, Nov. 1974 cat. 86 (£10). Marlborough Rare Books, July 1975 cat. 76, #311 (£48).</p>
+              <p>Hogarth, William. <hi rend="i">Works of.</hi> Issues which presumably contain Blake’s pl. of "The Beggars Opera." SB, 30 April 1974, #260, Heath ed., n.d. (McDonald Prints, £190). SL, 5 Nov. 1974, #418, Heath ed., 1822 (G. Walford, £300); #419, Heath ed., n.d. (Foyle, £220); #420, Heath ed., n.d. (Foyle, £320); #421, Heath ed. n.d. (F. Nolan, £220); #422, Heath ed., n.d. (T. E. Schuster, £240). SH, 4 Feb. 1975, #324, Heath ed., 1822 (Traylen, £90); #325, Heath ed., 1822 (Walford, £250); 326, Heath ed., n.d. (Traylen, £180). SL, 6 May 1975, #341, Boydell ed., 1790 (£280). SH, 5 June 1975, #206, Heath ed., n.d. (Hyde Park Books, £230). SL, 28 July 1975, #255, Heath ed., n.d. (£260); #256, Heath ed., n.d. (£220). C, 30 July 1975, #289, Heath ed., 1822 (£158); 6 Aug. 1975, #325, Heath ed., n.d. (£200); 14 Oct. 1975, #94, Heath ed., 1822 (withdrawn). Walford, April 1975 cat. A/232, #54, Heath ed., 1822 (£420); July 1975 cat. A/235, #24, Heath ed., 1822 (£415);
+<pb id="p10-57" n="57"/>
+                                #25, Heath ed. n.d. (£380). Bow Windows Book Shop, Oct. 1975 cat. 71, #211, Heath ed., n.d. (£350).</p>
+              <p>Hunter, John. <hi rend="i">An Historical Journal.</hi> Quarto ed., 1793. Christie’s Australia, 25 Sept. 1974 ($260 Australian). SL, 17 Dec. 1975, #652. Francis Edwards Ltd., Fall 1974 cat. 988, #316 (£350). Export Book co., April 1974 cat. 726, #24 (£285). E. M. Lawson, April 1975 cat. 187, #512 (£210).</p>
+              <p>Josephus. <hi rend="i">The Whole Genuine and Complete Works.</hi> Bentley &amp; Nurmi third issue, c. 1800. Howes, Fall 1974 cat. 187, #242 (£30).</p>
+              <p>Lavater, J. C. <hi rend="i">Aphorisms on Man.</hi> SL, 10 March 1975, #2, first ed., 1788, Sir William Stirling Maxwell’s copy (withdrawn). Grinke, Summer 1974 cat. 9, #240, second ed., 1789 (£45).</p>
+              <p>Lavater, J. C. <hi rend="i">Essays on Physiognomy.</hi> C, 27 Feb. 1974, #293, first ed., 1789-98 (Joseph, $196); #326, reissue of 1810 (Sanders, $97). Although not listed in Bentley &amp; Nurmi, the 1810 issue contains Blake’s four plates. SL, 6 May 1975, #326, first ed., 1789-98 (£130); 29 July 1975, $449, first ed., 1789-98 (£75). Export Book Co., March 1975 cat. 737, #44, first ed., 1789-98 (£60). Sterling Books, April 1975 cat. S. 7, #221, reissue of 1810 (£150). Marlborough Rare Books, July 1975 cat. 76, #352, first ed., 1789-98 (£150).</p>
+              <p>Malkin, Benjamin Heath. <hi rend="i">A Father’s Memoirs of his Child.</hi> 1806. SL, 27 Oct. 1975, #200, William Beckford’s copy with an inserted page of annotations by him (A. G. Thomas). Beckford writes that this volume contains "some splendid specimens from that Treasury of nonsense—Mr Blake the mad draughtsman’s poetical compositions—Tiger, Tiger burning bright/ In the forests of the night -&amp;.- Surely the receiver &amp; Disseminator of such trash is as bad as the Thief who seems to have stolen them from the walls of Bedlam." One can only wonder why Beckford acquired copies of six of Blake’s illuminated books when he held such opinions. Grinke, Summer 1974 cat. 9, #266, original boards uncut (D60). Marlborough Rare Books, July 1975 cat. 76, #8, (£75). Duschnes, Fall 1975 cat. 211, #21 ($200).</p>
+              <p><hi rend="i">Novelist’s Magazine</hi>, 1782-90. Walford, Summer 1974 cat. A/223, #119, a collection of 353 pls. from the <hi rend="i">Magazine</hi> (£92); same collection, Nov. 1974 cat. A/226, #94 (£90).</p>
+              <p>Rees, Abraham. <hi rend="i">The Cyclopaedia.</hi> 45 vols. (including 6 vols. of pls.), 1819-20. SH, 4 July 1975, #408, worn (£170). Richard Booth Ltd., Feb. 1975 cat., #111 (£225); #112, made up from 2 sets (£150). Walford, April 1975 cat. A/231, #311, pls. vol. III only (£35); Fall 1975 cat. A/236, #53, pls. vol. I only (£35); #54, pls. vol. II only (£35); #55, pls. vol. III only (£35); #56, pls. vol. IV only (£56).</p>
+              <p>Ritson, Joseph. <hi rend="i">A Select Collection of English Songs.</hi> 1783. SH, 31 Oct. 1974, #786 (Pickering &amp; Chatto, £45). SBNY, 21 Jan. 1975, #321, with Ritson’s <hi rend="i">Robin Hood</hi>, 1795 ($200). Anthony Laywood, April 1975 cat. 35, #18, lacking half-titles (£80).</p>
+              <p>Salzmann, C. G. <hi rend="i">Elements of Morality.</hi> Duschnes, Fall 1975 cat. 211, #20 ($350).</p>
+              <p>Scott, John. <hi rend="i">Poetical Works.</hi> Lawson &amp; Co., Oct. 1974 cat. 185, #40, second ed., 1786 (£48). Peter Mury Hill, 1975 cat. 128, #282, first ed., 1782 (£75).</p>
+              <p>Shakespeare. <hi rend="i">The Dramatic Works.</hi> Boydell ed., 9 vols., 1802. C, 8 Oct. 1975, #188 (£20).</p>
+              <p>Stedman, J. G. <hi rend="i">Narrative, of a five years’ expedition, against the revolted Negroes of Surinam.</hi> C, 27 Feb. 1974, #351, first ed., 1796, with pls. hand colored, together with Virgil, <hi rend="i">Works</hi>, 1654 (Foyles, $368).</p>
+              <p>Stuart, James, and Nicholas Revett. <hi rend="i">The Antiquities of Athens.</hi> Falkner Greirson, 1974 supplementary cat. 4, #292, 4 vols., 1762-1816 (£400).</p>
+              <p><hi rend="i">Vetusta Monumenta.</hi> Essay by Joseph Ayloffe in the 1780 issue. Marlborough Rare Books, July 1975 cat. 76, #522, 6 vols. 1747-1868, lacking a few pls. (£250).</p>
+              <p>Virgil. <hi rend="i">Pastorals of.</hi> Thornton’s ed., 1821. Weston Gallery, Fall 1975 cat. 10, #4, vol. 1 only, 4 cuts illus. ($2078.35).</p>
+              <p>Young, Edward. <hi rend="i">Night Thoughts.</hi> 1797. SL, 18 Feb. 1974, #245, soiled, with leaf of explanation (M. Wilson, £240). SBNY, 28 Feb. 1974, #429, uncut, with leaf of explanation ($1400). SH, 25 July 1974, #291, soiled, with leaf of explanation, uncut (P. Beres, £650). C, 30 April 1975, #164, original boards uncut, lacking explanation, broken &amp; worn (£900). SH, 20 Nov. 1975, #95, original boards uncut. Duschnes, Nov. 1974 cat. 208, #11, with leaf of explanation ($3250); Nov. 1975 cat. 212, #14A, with leaf of explanation ($2500). Hauswedell &amp; Nolte, 26-28 Nov. 1975 cat. 208, #608 (3000 W. Ger. marks). Blackwell’s, Nov. 1975 cat. 1035, #397, lacking leaf of explanation (£425).</p>
+            </div4>
+            <div4>
+              <head>
+                <title>
+                  <hi rend="b">Manuscripts</hi>
+                </title>
+              </head>
+              <p>Robertson, W. Graham. Autograph MS. of "Catalogue of Works of Blake" in Robertson’s collection, 275 pp. SL, 10 March 1975, #3, with a preliminary draft and a copy of Preston, <hi rend="i">The Blake Collection of Robertson</hi>, 1952 (Maggs, £100). Now in the author’s collection.</p>
+              <p>Todd, Ruthven. Typescript, presented by Todd to Robertson, of a catalogue of the latter’s Blake collection. 1942. SL, 10 March 1975, #4 (Maggs, £7). Now in the author’s collection.</p>
+            </div4>
+            <div4>
+              <head>
+                <title>
+                  <hi rend="b">Blake’s Circle and Followers</hi>
+                </title>
+              </head>
+              <p>Barry, James. "Eastern Patriarch," lithograph. SB, 15 April 1975, #3 (£150).</p>
+              <p>Basire, James. "The Embarkation of King Henry VIII at Dover," engraving, Basire after Grimm. SB, 26 Nov. 1974, #148 (£85).</p>
+              <p>Calvert, Edward. "The Bride," line engraving, third state. SB, 24 June 1975, #7 (£130). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #3 ($1113).</p>
+              <p>"The Brook," wood engraving, third state. SB, 30 April 1974, #102 (Garton, £150); 15 April 1975, #17 (£150). Weston Gallery, Sept. 1974 cat. 8, #4, illus. ($468). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #5 ($655).</p>
+              <p>"The Chamber Idyll," wood engraving, second state. SB, 24 June 1975, #9, with "The Return Home," wood engraving, final state, and the contents page from the Carfax Portfolio (£160). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #8 ($1020).</p>
+              <p>"The Cyder Feast," wood engraving, third state. SB, 24 June 1975, #5 (£60). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #2 ($995).</p>
+              <p>"The Flood," lithograph, only state. SB, 30 April 1974, #102b (Garton, £200); 15 April 1975, #18 (£200).</p>
+              <p>"The Lady with the Rooks," wood engraving, third state. SB, 24 June 1975, #8, with "The Sheep of His Pasture," engraving, second state (£90). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #6 ($595).</p>
+              <p>"The Ploughman," wood engraving, third state. SB, 24 June 1975, #6, illus. (£90). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #1 ($995).</p>
+              <p>"The Return Home," wood engraving, second state. C, 7 Oct. 1975, #2, illus. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #7 ($595).</p>
+              <p>"The Sheep of His Pasture," engraving, second state. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #4 ($765).</p>
+              <p><hi rend="i">A Memoir</hi> . . . <hi rend="i">by His Third Son</hi>, 1893. With impressions of Calvert’s metal and wood engravings. C, 30 July 1975, #25 (£893).</p>
+              <p>Flaxman, John. (See also under Blake Books, above). Design for the base of a statue to commemorate British victories, pencil &amp; gray ink, 14 × 25.5 cm. SL, 19 June 1975, #54 (£2). This is the same monument presented in Flaxman’s <hi rend="i">A Letter to the Committee for Raising the Naval Pillar</hi>, 1799, but it is not directly related to any of the three pls. by Blake in that publication.</p>
+              <p>"Despair Surrounded" and "Slay-God," both inscribed "W. Blake." Pencil &amp; gray ink. And four sheets of sketches in the style of Romney. C, 25 Feb. 1974, #155 (Powney, $193).</p>
+              <p>"Joseph’s Dream," pen &amp; ink, gray wash, 7 3/8 × 9 3/8 in. C, 22 April 1975, #9 (£178).</p>
+              <p>Illustration to <hi rend="i">A Midsummer Night’s Dream.</hi> Pen &amp; ink, 7 1/2 × 7 1/4 in. Sabin Gallery, Spring Exhibition April-May 1975, #59.</p>
+              <p>Three mythological figures, ink &amp; wash, 47 × 62 cm. SL, 26 March 1975, #204, illus. (£420). The reproduction makes me a bit suspicious of the attribution.</p>
+              <p>A scene from the <hi rend="i">Odyssey</hi>, Bk. VI, gray ink, inscribed Od.6-319. 20 × 31 cm. SL, 26 March 1975, #143 (£100).</p>
+              <p>Figure studies, ink &amp; wash on 2 sheets each 19 × 13.5 cm. SL, 26 March 1975, #141 (£30).</p>
+              <p>Study for a memorial to Lord Rodney, ink &amp; wash, 19.5 × 13.5 cm. With a study of two girls, ink &amp; wash, 21 × 14 cm. SL, 26 March 1975, #142 (£50).</p>
+              <p><hi rend="i">Compositions from the Tragedies of Aeschylus</hi>, engraved by Piroli and Howard after Flaxman, 1831. SB, 30 April 1974, #33 (Sheldrake, £5); 17 Sept. 1974, #11 (withdrawn). C, 30 April
+<pb id="p10-58" n="58"/>
+                                1975, #105, original boards, foxed (£10).</p>
+              <p><hi rend="i">La Divina Comedia di Dante</hi> . . . <hi rend="i">Disegnata da Giovanni Flaxman</hi>, engraved by Piroli after Flaxman. London, 1793. Salloch, Nov. 1974 cat. 317, #55 ($225).</p>
+              <p>A.L.s., 3 pp., 12 Feb. 1812, to an unnamed lord, refusing to have certain conditions written into their agreement for a statue. SL, 24 June 1975, #277 (Miss W. Myers, £30).</p>
+              <p>Fuseli, Henry. "The Death of Oedipus," pen &amp; wash, 10 3/8 × 14 1/8 in. C, 16 July 1974, #74, illus. (Schickman, $5290). "Jeremiah," based on Michelangelo’s figure in the Sistine Chapel. Pen &amp; ink, 8 1/8 × 6 3/8 in. C, 5 March 1974, #74, illus. (Agnew, $1159).</p>
+              <p>Study of naked athletes. Pen &amp; ink, signed, 12 1/4 × 8 in. C, 5 Nov. 1974, #110 (Renner, $706).</p>
+              <p>A woman looking out of a window, sepia drawing, 12 × 18.5 cm. SL, 31 Jan. 1974, #124 (G. Norman, £30). The catalogue designation "H. Fuseli" indicates that this is a work in Fuseli’s style by a contemporary of the artist.</p>
+              <p>A young woman (recto), two women (verso). Pencil, 12 1/2 × 7 1/2 in. C, 5 March 1974, #90, illus. (Colnaghi, $4347).</p>
+              <p>"Evening thou Bringest All," lithograph. SB, 15 April 1975, #8 (£500).</p>
+              <p>"The Weird Sisters," mezzotint by John Raphael Smith after Fuseli, 43.8 × 55.3 cm. SB, 22 July 1975, #45 (£12).</p>
+              <p>Palmer, Samuel. An Arcadian landscape, watercolor, 5 7/8 × 10 3/8 in. C, 5 March 1974, #92, illus. (Agnew, $11,109).</p>
+              <p>"The End of Day," watercolor, 7 1/2 × 16 1/2 in. C, 4 Nov. 1975, #82, illus. (£1365).</p>
+              <p>"Near Sevenoaks," watercolor, 24 × 35.5 cm. SL, 27 Nov. 1975, #14, illus. (£5100).</p>
+              <p>A seaside town with two figures passing a chapel, ink sketch, signed and dated 6 Jan. 1824. 16.5 × 13.5 cm. SL, 16 July 1975, #133, illus. (£200).</p>
+              <p>"Tintern Abbey," watercolor, 25.5 × 37 cm. SL, 27 Nov. 1975, #15, illus. (£4800).</p>
+              <p>"The Bellman," etching. SB, 17 Sept. 1974, #158, seventh state (Edmunds, £170). SBNY, 6 Feb. 1975, #192, fifth state, illus. ($800). C, 25 March 1975, #141, fifth state (W. Weston, $655); #142, Seventh state (Gregory, $327). SB, 7 Oct. 1975, #18, fourth state, illus. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XI, sixth state ($1075).</p>
+              <p>"Christmas, or Folding the Last Sheep," etching. SB, 7 Jan. 1975, #16, fourth state (£110). SBLA, 18 Feb. 1975, #234, fourth state, illus. ($225). SB, 7 Oct. 1975, #14, third state, illus. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #IV, third state ($1380).</p>
+              <p>"The Cypress Grove," etching. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XV-1, first state ($460); #XV-2, second state ($345).</p>
+              <p>"The Early Ploughman," etching. C, 25 Feb, 1974, #113, eighth state (Lott, #386); 16 July 1974, #214, fourth state ($265). SB, 17 Sept. 1974, #13, third state (£110); 7 Jan. 1975, #12, fourth state (£85). SBNY, 6 Feb. 1975, #191B, eighth state ($110). SBLA, 18 Feb. 1975, #235, fifth state, illus. ($350). C, 25 March 1975, #139, fifth state (Lott, $277). SB, 7 Oct. 1975, #17, sixth state. Colnaghi, Romantic Landscape Etchings and Woodcuts, April-May 1975, #56, fifth state, illus. (£200). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #IX-1, fourth state ($422); #IX-2, seventh state ($1300); #IX-3, fourth state ($770). V. K. Dailey, Dec. 1975 cat. 3, #9, eighth state ($275).</p>
+              <p>"Harvest Under a Crescent Moon," wood-engraving from the 1932 ed. of 50. SB, 8 Jan. 1974, #1, illus. (Maggs, £620). No contemporary impressions are known of Palmer’s only wood engraving, and only 55 impressions were pulled before the block was destroyed in 1940.</p>
+              <p>"The Herdsman’s Cottage," etching, second state unless noted otherwise. SB, 30 April 1974, #75, foxed (J. Bamber, £85); #76, time stained (H. Moss, £95); #76a, with "The Vine, or Plumpy Bacchus," etching, fourth state (Knoedler, £70); 2 July 1974, #246 (B. Carter, £70); #247 (Louise King, £65); #248 (Weston, £45); #249 (S. Hinton, £65). C, 16 July 1974, #196 (Knoedler, $277); #213 (Abelson, $131). SB, 17 Sept. 1974, #14, illus. (£100). SBNY, 6 Feb. 1975, #191A ($150). SBLA, 24 Sept. 1974, #216 (Zeitlin, $300); 18 Feb. 1975, #233, illus. ($200). C, 25 March 1975, #136 (Louise King, $50). SB, 15 April 1975, #33 (bought-in); 7 Oct. 1975, #13, first state; #19, illus; #20. C, 14 Oct. 1975, #353 (£74). Weston Gallery, Jan. 1975 cat. 12, #19, illus. ($235). Colnaghi, Romantic Landscape Etchings and Woodcuts, April-May 1975, #59 (£140). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #III ($385). V. K. Dailey, Dec. 1975 cat. 3, #32 ($235).</p>
+              <p>"The Homeward Star," etching. C, 16 July 1974, #198, fourth state (Lott, $214). SB, 15 April 1975, #35, first state (£50). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XIV-1, first state ($460); XIV-2, second state ($345).</p>
+              <p>"The Lonely Tower," etching. SB, 17 Sept. 1974, #152, impression after the pl. was canceled (£70); 7 Jan. 1975, #15, sixth state, time stained (£150). SBNY, 6 Feb. 1975, #192A, sixth state, illus. ($850). C, 25 March 1975, #143, fourth state (Edmunds, $504). SBNY, 14 Nov. 1975, #451, trial proof of fourth state, illus. ($1750).</p>
+              <p>"Moeris and Galatea," etching. SB, 30 April 1974, #78, third state (Lott, £60); 17 Sept. 1974, #153, fourth state (£45). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XVII-1, first state ($460); #XVII-2, second state ($345).</p>
+              <p>"The Morning of Life," etching. SB, 17 Sept. 1974, #12, final state, slightly stained (withdrawn); 7 Jan. 1975, #13, third state, time stained, illus. (£140). C, 25 March 1975, #140, third state (Scott, $227). SB, 15 April 1975, #36, sixth state (£60). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #X, seventh state ($575).</p>
+              <p>"Opening the Fold, or Early Morning," etching. C, 25 Feb. 1974, #114, final state (Chapman, #362); 16 July 1974, #197, final state (Lott, $327). SBNY, 6 Feb. 1975, #192V, second state, illus. ($350). C, 25 March 1975, #144, fourth state (Page, $403). SB, 24 June 1975, #42A, eighth state (£100). C, 30 July 1975, #131, fifth state, illus. (£137). Colnaghi, Romantic Landscape Etchings and Woodcuts, April-May 1975, #58, fifth state, illus. (£350). Thackrey and Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XIII-1, third state ($1275); #XIII-2, seventh state ($690); #XIII-3, eighth state ($425).</p>
+              <p>"The Rising Moon," etching. SB, 30 April 1974, #77, eighth state (Weston, £130); 17 Sept. 1974, #152, seventh state (£70). Weston Gallery, Nov. 1974 cat. 10, #42, proof between sixth and seventh states, illus. ($705). Colnaghi, Romantic Landscape Etchings and Woodcuts, April-May 1975, #60, seventh state, illus. (£200). Thackrey &amp; Robertson, Blake and Palmer cat. Sept.-Oct. 1975, #VII, seventh state ($690).</p>
+              <p>"The Sepulchre," etching. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #XVI-1, first state ($460); XVI-2, second state ($345).</p>
+              <p>"The Skylark," etching. SB, 17 Sept. 1974, #155, seventh state (£95); 24 June 1975, #41, eighth state (£90); 7 Oct. 1975, #12, fifth state, illus. Weston Gallery, May 1975 cat. 5, #22, seventh state, illus. ($472). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #II, seventh state ($615).</p>
+              <p>"The Sleeping Shepherd," etching. SB, 2 July 1974, #250, fourth state (Lady Firth, £170); 17 Sept. 1974, #180, second or third state, relaid India "proof" (£80); 7 Oct. 1975, #15, second state. C, 14 Oct. 1975, #354, fourth state, with 2 other prints (£74). Colnaghi, Romantic Landscape Etchings and Woodcuts, April-May 1975, #57, fourth state (£150). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #VI, fourth state ($805).</p>
+              <p>"The Vine, or Plumpy Bacchus," etching, fourth state. C, 25 March 1975, #137, (Morris Ayres, $50). SB, 15 April 1975, #21. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #V ($345).</p>
+              <p>"The Weary Ploughman," etching. SB, 7 Jan. 1975, #132, eighth state (£120). C, 25 March 1975, #138, seventh state (Scott, $227). SB, 24 June 1975, #42, sixth state, illus. (£200); 7 Oct. 1975, #16, seventh state. Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #VIII, eighth state ($575).</p>
+              <p>"The Willow," etching. SB, 7 Jan. 1975, #14, second state (£70). SBLA, 18 Feb. 1975, #232, second state, illus. ($130). SB, 24 June 1975, #40, third state (£80). Thackrey &amp; Robertson, Blake and Palmer cat., Sept.-Oct. 1975, #I-1, second state ($435); I-2, third state ($770). Weston Gallery, Sept. 1975 cat. 8, #21, second state, illus. ($319.50).</p>
+              <p><hi rend="i">An English Version of the Eclogues of Virgil</hi> by Samuel Palmer. First ed., 1883. SH, 8 Feb. 1974, #440 (A. K. Henderson, £390). SL, 20 Feb. 1974, #582 (D. McAlpine, £500). SB, 17 Sept. 1974, #15, large paper copy, one pl. illus. (£290). C, 13 Nov. 1974, #53 (Henderson, $576). SL, 12 March 1975, #767, slightly worn (Hatchard’s £260). C, 30 July 1975, #132, illus. (£399). SH, 30 Oct. 1975, #278; 21 Nov. 1975, #285; #286, illus. Thin, Fall 1975 cat. 341, #482 (£65). Quaritch, July 1975 cat. 950, #260, large paper copy (£750). Second ed., 1884. SB, 24 June 1975, #43, one pl. illus. (£400). <hi rend="i">Etchings for the Art-Union of London</hi>, 1857. Includes Palmer’s "Sleeping Shepherd," "The Rising Moon," "The Skylark," and 27 pls. by other hands. SB, 24 June 1975, #44, "The Rising Moon" illus. (£250); 7 Oct. 1975, #22.</p>
+              <p>A. H. Palmer. <hi rend="i">The Life and Letters of Samuel Palmer.</hi> 1892. SL, 12 March 1975, #768 (Ars Artis, £60). Marlborough Rare Books, July 1975 cat. 76, #422, large paper copy (£200).</p>
+              <p>A. H. Palmer. <hi rend="i">Samuel Palmer, A Memoir.</hi> 1882. SH, 6 June
+<pb id="p10-59" n="59"/>
+                                1974, #17, rubbed, loose (Hatchard’s, £170). SB, 7 Oct. 1975, #23.</p>
+              <p>9 A.Ls.s. by Palmer, and one by his father, to George Richmond, 10 May 1827-16/20 Oct. 1834. SL, 24 June 1975, #241 (Seven Gables Bookshop, £1300); #241A, autograph MS. entitled "How to choose Teas" (D. A. Heald, £65). These are all printed in Raymond Lister, ed., <hi rend="i">The Letters of Samuel Palmer</hi>, vol. I.</p>
+              <p>A.L.s., 19 Aug. 1835, to George Richmond. SL, 29 Oct. 1975, #125. The letter is printed in Lister, ed., <hi rend="i">Letters of Palmer</hi>, I, 71-3, where "not" is erroneously inserted in one sentence. A.L.s., 5 June 1836, to George Richmond. SL, 29 Oct. 1975, #136. Printed in Lister, ed., <hi rend="i">Letters of Palmer</hi>, I, 75-80.</p>
+              <p>4 A.Ls.s., 2 June 1838-19 Sept. 1839, to George and Julia Richmond. SL, 29 Oct. 1975, #137. All are printed in Lister, ed., <hi rend="i">Letters of Palmer.</hi></p>
+              <p>51 A.Ls.s., 1 typed L.s., 1 A.L. unsigned by Alfred Herbert Palmer, the artist’s son, to F. L. Griggs, 1925-31. c. 170 pp. concerning Samuel Palmer. SL, 15 July 1975, #184 (J. Graffy, £300).</p>
+              <p>Richmond, George. "Jesus and the Disciples in the Garden of Gethsemene." Sepia ink, 23 × 19 cm. SL, 27 Nov. 1975, #16, illus. (£50). Also in this sale were 20 other, less Blake-like, drawings by Richmond &amp; 4 by Henry Walter. "The Fatal Bellman," engraving. SB, 30 April 1974, #5, illus. (Baskett &amp; Day, £520). C, 25 March 1975, #165, with "Proof" in lower right margin, illus. (Somerville, $1186). An impression of this rare work, plus Richmond’s "The Shepherd," were recently acquired by the Huntington Library.</p>
+              <p>Robertson, W. Graham. Color printed drawings by Robertson in imitation of Blake’s technique. SL, 10 March 1975, #121, "Orc or Flames of Desire," the block and first impression (Maggs, £122, now in the author’s collection); #122, a woman and five girls, block and four variant impressions (N. A. Milton, £20); #123, "Anemone’s Ball," block and three impressions (Abbott &amp; Holder, £10); #124, "Redlands Farm," block and two impressions (Abbott &amp; Holder, £10); #125, girl in a landscape, two impressions, plus a "print after a design by Blake" (Abbott &amp; Holder, £6).</p>
+              <p>Smetham, James. 10 small watercolors, C, 21 Oct. 1975, #147-156, two illus. (£336-£68).</p>
+              <p>Tatham, Frederick. Portrait of a man seated at a writing desk, and a portrait of a woman seated on a balcony. Signed and dated 1846. Watercolors. 23 × 16 1/8 in. C, 7 Oct. 1975, #76 (£47).</p>
+              <p>"Cain and Abel," and "The Deluge," a pair, wash drawings each 21.5 × 18 cm. By a "follower of William Blake." SL, 16 July 1975, #241 (£40).</p>
+            </div4>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_10">
+    <body>
+      <div1 id="BQ-10-2-0004">
+        <head>
+          <title type="section">
+            <hi rend="b">NOTES</hi>
+          </title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">A Checklist of Recent Blake Scholarship</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">BY</hi>
+            <docAuthor>
+              <hi rend="b">THOMAS</hi>
+              <name>
+                <hi rend="b">MINNICK</hi>
+              </name>
+            </docAuthor>
+          </byline>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Bibliographies and Bibliographical Essays</hi>
+              </title>
+            </head>
+            <p>Curran, Stuart. "Recent Studies in the Nineteenth Century." Studies in English Literature 1500-1900, 14 (1974), 637-638.</p>
+            <p>Erdman, David V., comp., with the assistance of Robert R. Mollenauer and James S. Patty. "The Romantic Movement: A Selective and Critical Bibliography for 1974." English Language Notes, 13 (1975), supplement to no. 1.</p>
+            <p>Essick, Robert N. "Corrections of the BMPR Handlist." Blake Newsletter, 8 (Winter 1974-75), 90-91. [Corrects and adds to Bentley’s Handlist, Blake Newsletter, 5 (Spring 1972), whole no. 20.]</p>
+            <p>Frost, Everett, comp. "A Checklist of Blake Slides." Blake Newsletter, 9 (Summer 1975), 4-28.</p>
+            <p>Lehrer, Ruth Fine. "A Checklist of Blake Material in The Lessing J. Rosenwald Collection, Alverthorpe Gallery, Jenkintown, Pennsylvania." Blake Newsletter, 9 (Winter 1975-76), 58-85.</p>
+            <p>Oliver, Barbara and K. E. Robinson, "The Eighteenth Century" in James Redmond, ed., The Year’s Work in English Studies, 54 (1973), 276-300.</p>
+            <p>Taylor, Ron. "A Checklist of Recent Blake Scholarship." Blake Newsletter, 8 (Spring 1975), 146-158.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Editions, Facsimiles, Reproductions</hi>
+              </title>
+            </head>
+            <p>Blake, William. America. Bushey Heath, Herts.: Taurus Press of Willow Dene, 1975. £50. [Illus. with modern woodcuts; edition limited to 100 copies.]</p>
+            <p>Blake, William. America, A Prophecy. Albuquerque, N.M.: Blake Newsletter, 1975. $2.50. [Black and white reproduction of copy E, 2 plates from a*, and the 4 cancelled plates, all from the Rosenwald Collection; designed for classroom use.]</p>
+            <p>Blake, William. William Blake: Selected Engravings. London: Academy Editions, 1975. $16.95 hardbound; $9.95 paper.</p>
+            <p>Erdman, David V. The Illuminated Blake: All of William Blake’s Illuminated Works with a Plate-by-Plate Commentary. 1974; slightly revised in the second printing, 1975 (New York: Doubleday) and in the Oxford: Clarendon Press, 1975 printing. $7.95.</p>
+            <p>Essick, Robert and Jenijoy La Belle, eds. Night Thoughts or The Complaint and The Consolation. Illustrations by William Blake. Text by Edward Young. New York: Dover, 1975. $4.00. [Reprints the 1797 edition at 65% of original size. 43 engravings by Blake.]</p>
+            <p>Keynes, Geoffrey, ed. Auguries of Innocence. Burford,
+<pb id="p10-60" n="60"/>
+                            Oxfordshire: The Cygnet Press, 1975. £2.80. [Edition limited to 375 copies.]</p>
+            <p>Keynes, Geoffrey, ed. Jerusalem: The Emanation of the Giant Albion. [Chapter 1.] London: Bernard Quaritch for The William Blake Trust, 1974. £130.00. [Reproduces copy B, the Cunliffe copy, and, as an appendix, the four cropped pages from the Preston collection.]</p>
+            <p>Keynes, Geoffrey, ed. The Marriage of Heaven and Hell. London and New York: Oxford Univ. Press, 1975. Cloth edition, $16.95; paper, $7.95. [A reproduction in original size of one of the Fitzwilliam copies; the title page and enlargements of interlinear decorations are from copy E.]</p>
+            <p>Keynes, Geoffrey, ed. The Song of Los. London: Bernard Quaritch for The William Blake Trust, 1975. £95.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Critical Studies</hi>
+              </title>
+            </head>
+            <p>Adams, Hazard. "Blake, <hi rend="i">Jerusalem</hi>, and Symbolic Form." Blake Studies, 7 (1975), 143-166.</p>
+            <p>Allentuck, Marcia. "Henry Fuseli and J. G. Herder’s <hi rend="i">Ideen Zur Philosophie Der Geschichte Der Menschheit</hi> in Britain: An Unrecorded Connection." Journal of the History of Ideas, 35(1974), 113-120.</p>
+            <p>Allentuck, Marcia. "Henry Fuseli on Engravings of His Milton Paintings: An Unpublished Letter." Burlington Magazine, 116 (1974), 214.</p>
+            <p>Ault, Donald. "Report: 1974 MLA Blake Seminar." Blake Newsletter, 8 (Spring 1975), 105-106.</p>
+            <p>Baine, Mary R. and Rodney M. Baine. "Blake’s Other Tigers and ‘The Tyger’." Studies in English Literature 1500-1900, 15 (Autumn 1975), 563-578.</p>
+            <p>Bentley, Gerald E., Jr. "The Accuracy of the Blake Reproductions." Blake Newsletter, 8 (Winter 1974-75), 88-89.</p>
+            <p>Bentley, Gerald E., Jr., ed. William Blake: The Critical Heritage. London: Routledge &amp; Kegan Paul, 1975. $24.00.</p>
+            <p>Bloom, Harold. Poetry and Repression: Revisionism from Blake to Stevens. New Haven and London: Yale Univ. Press, 1976. [Chapter 2, "Blake and Revisionism," is pp. 28-51.]</p>
+            <p>Brown, Robert E. See Grant, John E. and Robert E. Brown.</p>
+            <p>Butlin, Martin. "The Catalogue of Blake’s Designs Completed &amp; A Last-Minute Inclusion." Blake Newsletter, 9 (Fall 1975), 48-49.</p>
+            <p>Butlin, Martin. "A New Portrait of William Blake." Blake Studies, 7 (1975), 101-103.</p>
+            <p>Chard, Leslie F., II. "Two ‘New’ Blake Engravings: Blake, James Earle, and the Surgeon’s Art." Blake Studies, 6 (1975), 153-165. [6 illus.]</p>
+            <p>Clarke, John H. From Copernicus to William Blake. 1928; rpt. Folcroft, Pa.: Folcroft Library Editions, 1974.</p>
+            <p>Connolly, Thomas E. "The Real ‘Holy Thursday’ of William Blake." Blake Studies, 6 (1975), 179-187.</p>
+            <p>Curtis, Francis B. "Blake and the Booksellers." Blake Studies, 6 (1975), 167-178.</p>
+            <p>Duerksen, Roland A. "Bromion’s Usurped Power—Its Source, Essence, and Effect: A Replication." Blake Newsletter, 8 (Winter 1974-75), 95-96.</p>
+            <p>Eaves, Morris. "Reproducing <hi rend="i">The Characters of Spenser’s Faerie Queene.</hi>" Blake Newsletter, 8 (Winter 1974-75), 86-87.</p>
+            <p>Ebanks, Milena D. Laocoon in Art and Literature: Its Contribution to Eighteenth-Century Aesthetics. Diss. New York Univ., 1975. Dissertation Abstracts International, 36, no. 6 (December 1975), 3648-A.</p>
+            <p>Efron, Arthur. See Wooster, Margaret and Arthur Efron.</p>
+            <p>Erdman, David V. "Errors in the 1973 Third Edition of <hi rend="i">The Notebook of William Blake</hi> &amp; in the First Printing of <hi rend="i">The Illuminated Blake.</hi>" Blake Newsletter, 9 (1975), 39-40.</p>
+            <p>Evans, James C. "Blake, Locke, &amp; The Concept of Generation." Blake Newsletter, 9 (Fall 1975), 47-48.</p>
+            <p>Fairchild, B. H., Jr. "<hi rend="i">Melos</hi> and Meaning in Blake’s Lyric Art." Blake Studies, 7 (1975), 125-141.</p>
+            <p>Fawcus, Arnold. "William Blake, republicain et antiimperialiste." Nouvelles de 1 ’Estampe, no. 9 (1973), 11-13. [4 illus.]</p>
+            <p>Ferber, Michael. "A Possible Source for ‘Thel’s Motto’." Blake Newsletter, 9 (Fall 1975), 43-44.</p>
+            <p>Fiske, Irving. Bernard Shaw’s Debt to William Blake. 1951; rpt. Folcroft, Pa.: Folcroft Library Editions, 1974.</p>
+            <p>Flemming, H. T. "Johann Heinrich Fussli Retrospektive." Weltkunst, 45 (1975), 14-15.</p>
+            <p>Folsom, L. Edwin. "Nobodaddy: Through the Bottomless Pit, Darkly." Blake Newsletter, 9 (Fall 1975), 45-46.</p>
+            <p>Fox, Susan. Poetic Form in Blake’s <hi rend="i">Milton.</hi> Princeton, N.J.: Princeton Univ. Press, 1976. [Forthcoming.]</p>
+            <p>Frye, Northrop. "Expanding Eyes." Critical Inquiry, 2 (1975), 199-216. [Includes occasional remarks on Blake.]</p>
+            <p>Gillow, N. J. "Some Flaxman Drawings at York." Preview, 26 (1973), 915-919.</p>
+            <p>Gleckner, Robert F. "Most Holy Forms of Thought: Some Observations on Blake and Language." ELH, 41 (1974), 555-577.</p>
+            <p>Grant, John E. "The Fate of Blake’s Sun-Flower: A Forecast and Some Conclusions." Blake Studies, 5 (1974), 7-49. [Illus.]</p>
+            <p>Grant, John E. and Robert E. Brown. "Blake’s Vision of Spenser’s <hi rend="i">Faerie Queene</hi>: A Report and an Anatomy." Blake Newsletter, 8 (Winter 1974-75), 56-85. [Includes a 4-color reproduction of Blake’s tempera painting, <hi rend="i">The Characters of Spenser’s Faerie Queene</hi>, with many monochrome details throughout.]</p>
+            <p>Green, Richard G. "Blake and Dante on Paradise." Comparative Literature, 26 (1974), 51-61.</p>
+            <p>Harper, George Mills. "The Odyssey of the Soul in Blake’s <hi rend="i">Jerusalem.</hi>" Blake Studies, 5 (1974), 65-80.</p>
+            <p>Hassler, Donald M. Erasmus Darwin. (Twayne’s English Author Series, 160.) New York: Twayne, 1973. [Avoids Blake.]</p>
+            <p>Herrstrom, David S. Mythopoeia and Blake’s Major Prophecies. Diss. New York Univ., 1975. Dissertation Abstracts International, 36, no. 6 (December 1975), 3652-A.</p>
+            <p>Heygate, William E. William Blake. New York: Garland Publishing Co., 1975.</p>
+            <p>Hinkel, Howard H. "From Pivotal Idea to Poetic Ideal: Blake’s Theory of Contraries and ‘The Little Black Boy’." Papers on Language &amp; Literature, 11 (Winter 1975), 39-45.</p>
+            <p>Hirst, Désirée. "Once More Continuing ‘The Tyger’." Blake Studies, 7 (1975), 177-179.</p>
+            <p>Jackson, Mary V. "Additional Lines in <hi rend="i">VDA.</hi>" Blake Newsletter, 8 (Winter 1974-75), 91-93.</p>
+            <p>Jenkins, Herbert George. William Blake: Studies of His Life and Personality. 1925; rpt. Folcroft, Pa.: Folcroft Library Editions, 1974.</p>
+            <p>Johnson, Mary Lynn. "Emblem and Symbol in Blake." Huntington Library Quarterly, 37 (1974), 151-170. [Illus.]</p>
+            <p>Kalman, H. "Un Fuseli à Vancouver." Vie Arts, 71 (1973), 38-41. [Notes <hi rend="i">Le rève de Belinda</hi>, 1781-82, in the Vancouver Art Gallery.]</p>
+            <p>Kaplan, Justin. "‘The emphasis is on the individual, the handful of shepherds, the pair of lovers’: A Conversation with Northrop Frye." Harvard Magazine, 77 (July-August 1975), 52-56. [Reproduces one of Blake’s engraved designs (p. 30) to <hi rend="i">Night Thoughts</hi> on p. 55.]</p>
+            <p>Kaplan, Nancy A. William Blake’s <hi rend="i">The Four Zoas</hi>: The Rhetoric of Vision. Diss. Cornell Univ., 1975. Dissertation Abstracts International, 36, no. 5 (November 1975), 2846-A.</p>
+            <p>Keynes, Geoffrey. "Blake in the Provinces." Blake Newsletter, 9 (Fall 1975), 41-42.</p>
+            <p>Lefcowitz, Barbara. "Blake and the Natural World." PMLA, 89 (1974), 121-131.</p>
+            <p>Lister, Raymond. Infernal Methods: A Study of William Blake’s Art Techniques. London: Bell, 1975.</p>
+            <p>Lowry, Mark D. Relationship of Design, Color, and Text in the Stirling-Keir Copy of William Blake’s <hi rend="i">Jerusalem.</hi> Diss. Univ. of Texas at Austin, 1975. Dissertation Abstracts International, 36, no. 5 (November 1975), 2850-A.</p>
+            <p>Mandle, R. "A Preparatory Drawing for Henry Fuseli’s Painting ‘The Shepherd’s Dream’." Master Drawings, 11 (1973), 272-276. [Illus.]</p>
+            <p>Marks, Mollyanne. "Structure and Irony in Blake’s ‘The Book of Urizen’." Studies in English Literature 1500-1900, 15 (Autumn 1975), 578-590.</p>
+            <p>Metcalf, Francis W. "<hi rend="i">Tiriel</hi>: Two Corrected First Readings." Blake Newsletter, 9 (Fall 1975), 40-41.</p>
+            <p>Mitchell, W. J. Thomas. "Blake’s Visions of the Last Judgment: Some Problems in Interpretation." Blake Newsletter, extra number, 1975. [Published for the MLA Blake Seminar, 28 December 1975; 6 illustrations, including "all of Blake’s pictures of the Last Judgment that are accessible in public collections."]</p>
+            <p>Morton, Arthur L. The Everlasting Gospel: A Study in the Sources of William Blake. 1958; rpt. Folcroft, Pa.: Folcroft Library Editions, 1974.</p>
+            <p>Murray, E. B. "‘Bound Back to Back in Bromion’s Cave’." Blake Newsletter, B (Winter 1974-75), 94.</p>
+            <p>Near, P. L. "William Blake’s Illustrations of the Book of
+<pb id="p10-61" n="61"/>
+Job." Arts in Virginia, 15 (1974-75), 1-24. [Some recent acquisitions.by Virginia museums.]</p>
+            <p>Nelms, Ben F. "Exemplars of Memory and of Intellect: <hi rend="i">Jerusalem</hi>, Plates 96-100." Blake Studies, 5 (1974), 81-90. [Illus.]</p>
+            <p>Nelson, J. Walter. "Blake’s Diction—An Emendatory Note." Blake Studies, 7 (1975), 167-175.</p>
+            <p>Ober, Warren U. "‘Poor Robin’ &amp; Blake’s ‘The Blossom’." Blake Newsletter, 9 (Fall 1975), 42-43.</p>
+            <p>Paley, Morton and Morris Eaves, eds. Blake Newsletter, nos. 1-13, 1967-1970: rpt. Part I, nos. 1-8 (1967-1969), $5.00; Part II, nos. 9-13 (1969-1970), $5.00. Albuquerque: Blake Newsletter, 1975.</p>
+            <p>Peterfreund, Stuart S. A Program Toward Prophecy: Eighteenth-Century Influences on the Poetry of William Blake. Diss. Univ. of Washington, 1974. Dissertation Abstracts International, 36, no. 6 (December 1975), 3700-A.</p>
+            <p>Peterson, Jane E. Metric and Syntactic Experimentation in Blake’s Prophecies of 1788-1795. Diss. Univ. of Arkansas, 1975. Dissertation Abstracts International, 36, no. 6 (December 1975), 3661-A.</p>
+            <p>Phillips, Michael. "The Reputation of Blake’s <hi rend="i">Poetical Sketches</hi> 1783-1863." The Review of English Studies, 36 (1975), 19-33.</p>
+            <p>Powell, N. "Fuseli at Hamburg, the Tate and Paris." Burlington Magazine, 117 (1975), 123-124. [Reviews a traveling Fuseli exhibition.]</p>
+            <p>Powell, N. "Recent Fussli Studies." Burlington Magazine, 116 (1974), 334-336.</p>
+            <p>Powys, John Cowper. William Blake. 1916; rpt. London: Village Press, 1974. [Reprints Bentley and Nurmi item 1778.]</p>
+            <p>Reiman, Donald H. "A Significant New Blakean Fragment." Blake Newsletter, 9 (Fall 1975), 44-45. [Identifies a possible source for Blake’s influence on C. L. Dodgson.]</p>
+            <p>Reisner, Thomas A. "Blake’s <hi rend="i">To Tirzah.</hi>" Explicator, 33 (1974), 3.</p>
+            <p>Rollins, Mark E. The Necessity of Art: A Study of William Blake. Diss. Univ. of Massachusetts, 1974. Dissertation Abstracts International, 35, no. 9 (March 1975), 6156-A.</p>
+            <p>Rosenblum, Robert. "German Romantic Painting in International Perspective." Yale University Art Gallery Bulletin, 33 (1971-72), 23-36. [Examines the works of Carstens, Runger and Friedrich in relationship to English painting, especially Blake.]</p>
+            <p>Salter, Thomas N. Toward a Symbology of Form in the Illuminations of Blake’s <hi rend="i">Songs of Innocence and of Experience.</hi> Diss. Univ. of Massachusetts, 1975. Dissertation Abstracts International, 36, no. 6 (December 1975), 3737-A.</p>
+            <p>Sanzo, Eileen. "Blake’s Beulah &amp; Beulah Hill, Surrey." Blake Newsletter, 9 (Fall 1975), 46.</p>
+            <p>Schiff, Gert. <hi rend="i">Johann Heinrich Fussli 1741-1825.</hi> I: Text und Oeuvre Katalog, II: Tafelband. Zurich: Verlag Berichthaus, and München: Prestil-Verlag, 1973.</p>
+            <p>Schlieper, Reinhold. William Blake, Philosopher: An Analysis of the Metaphysical System Underlying His Poetry. Diss. Ball State Univ., 1974. Dissertation Abstracts International, 35, no. 9 (March 1975), 6158-A.</p>
+            <p>Schuchard, Marsha K. Freemasonry, Secret Societies, and the Continuity of the Occult Traditions in English Literature. Diss. Univ. of Texas at Austin, 1975. Dissertation Abstracts International, 36, no. 5 (November 1975), 2792-A. [Includes discussion of Blake, John Varley, Lavater, Rossetti, Yeats.]</p>
+            <p>Stahl, Harvey. William Blake: The Apocalyptic Vision. Preface and Catalogue by Harvey Stahl; Introduction by Bruce D. Barone. Purchase, N.Y.: Manhattanville College, 1974. [28 illus.]</p>
+            <p>Starobinski, Jean. 1789: Les emblèmes de la raison. Paris: Flammarion, 1974. [Discusses Blake, Goya, David, Fuseli, et al.]</p>
+            <p>Starobinski, Jean. Troi Fureurs. Paris: Gallimard, 1974. [One of the essays discusses Fuseli’s <hi rend="i">The Nightmare.</hi>]</p>
+            <p>Symmons, S. "French Copies after Flaxman’s Outlines." Burlington Magazine, 115 (1973), 591-599. [Examines the influence of Flaxman’s Homer and Aeschylus illustrations.]</p>
+            <p>Symmons, S. "Géricault, Flaxman and ‘Ugolino’." Burlington Magazine, 115 (1973), 669-672.</p>
+            <p>Todd, Ruthven. "The Identity of ‘Hereford’ in <hi rend="i">Jerusalem</hi> with Observations on Welsh Matters." Blake Studies, 6 (1975), 139-151. [4 illus.]</p>
+            <p>Tully, Velma A. Innocence and Experience as Structural Comic Values in Selected Plays of the Restoration and Eighteenth Century. Diss. Univ. of Arkansas, 1975. Dissertation Abstracts International, 36, no. 6 (December 1975), 3666-A.</p>
+            <p>Tvson, G. P. "An Early Allusion to Blake." Blake Newsletter, 9 (Fall 1975), 43.</p>
+            <p>Viscoli, Lois K. The Promethean Archetype. Diss. Univ. of New Mexico, 1974. Dissertation Abstracts Internation, 39, no. 9 (March 1975), 6114-A. [Culminates in a study of Blake and Shelley.]</p>
+            <p>Volpi-Orlandini, M. "La Figura Ammantata." Qui, 13 (1974), 8-14. [Work by Blake is among the 12 illus.]</p>
+            <p>Wardle, Judith. "The Influence of Wynne’s <hi rend="i">Emblems</hi> on Blake." Blake Newsletter, 9 (Fall 1975), 46-47.</p>
+            <p>Wehrli, R. "Johann Heinrich Fussli." Arti, 23 (1973), 18-23. [11 illus.]</p>
+            <p>Wilkie, Brian. "Blake’s <hi rend="i">Innocence and Experience</hi>: An Approach." Blake Studies, 6 (1975), 119-137.</p>
+            <p>Wilkinson, Andrew M. William Blake and the Great Sin. Exeter: Univ. of Exeter Press, 1974. £0.30.</p>
+            <p>Winter, David B. "Girtin’s Sketching Club." Huntington Library Quarterly, 37 (1974), 123-149. [An essay on the interrelationships between some major and minor Romantic painters, emphasizing paintings inspired by poetry.]</p>
+            <p>Wittreich, Joseph Anthony, Jr. Angel of Apocalypse: Blake’s Idea of Milton. Madison: Univ. of Wisconsin Press, 1975. $15.00.</p>
+            <p>Wooster, Margaret, and Arthur Efron. "On Blake’s ‘Streams of Gore’: An Exchange." Paunch, nos. 40-41 (April 1975), 152-165.</p>
+            <p>Wooster, Margaret, and Arthur Efron. "Another Round on Blake’s ‘Streams of Gore’." Paunch, nos. 42-43 (December 1975), 141-148.</p>
+            <p>Wyatt, David M. "The Woman Jerusalem: <hi rend="i">Pictura</hi> versus <hi rend="i">Poesis.</hi>" Blake Studies, 7 (1975), 105-124.</p>
+            <p>Yasuda, Masayoski. William Blake Kenkyu. Tokyo: Sogensha, 1973.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Reviews</hi>
+              </title>
+            </head>
+            <p>Adlard, John. The Sports of Cruelty. Reviewed by Mary Lynn Johnson, Blake Studies, 7 (1975), 186-188.</p>
+            <p>Antal, Frederick. Füssli-Studien. Reviewed in Bildende Kunst, 22 (1974), 203-204.</p>
+            <p>Ault, Donald D. Visionary Physics: Blake’s Response to Newton. Reviewed by David V. Erdman, Blake Newsletter, 8 (Spring 1975), 128-130.</p>
+            <p>Bentley, Gerald E., Jr. Blake Records. Reviewed by Freda E. Holtgen, Anglia, 93 (1975), 268-270.</p>
+            <p>Blondel, Jacques. William Blake, émerveillement et profanation. Reviewed by Simone Pignard, Blake Newsletter, 8 (Spring 1975), 120.</p>
+            <p>Bloom, Harold. The Anxiety of Influence. Reviewed by Alvin H. Rosenfeld, Southern Review, 11 (1975), 444-451.</p>
+            <p>Brisman, Leslie. Milton’s Poetry of Choice and Its Romantic Heirs. Reviewed by Florence Sandler, Blake Newsletter, 8 (Spring 1975), 127-128.</p>
+            <p>Clark, Kenneth. Blake and Visionary Art. Reviewed by Jean H. Hagstrum, Blake Newsletter, 8 (Spring 1975), 143-144.</p>
+            <p>Clark, Kenneth. The Romantic Rebellion: Romantic versus Classic Art. Reviewed by Jean H. Hagstrum, Blake Newsletter, 8 (Spring 1975), 143-144.</p>
+            <p>Curran, Stuart and Joseph A. Wittreich, Jr., eds. Blake’s Sublime Allegory. Reviewed by W. H. Stevenson, Blake Studies, 6 (1974), 188-192.</p>
+            <p>Donoghue, Denis. Thieves of Fire. Reviewed by Howard Nemerov, Sewanee Review, 83 (1975), 161.</p>
+            <p>Downey, James and Ben Jones, eds. Fearful Joy: Papers from The Thomas Gray Bicentenary Conference at Carleton University. Reviewed by Joseph A. Wittreich, Jr., Blake Newsletter, 8 (Spring 1975), 141-142.</p>
+            <p>Erdman, David V. The Illuminated Blake. Reviewed by Gerald E. Bentley, Jr., University of Toronto Quarterly, 44 (1975), 251-258; Lawrence Lipking, Princeton Alumni Weekly, 19 Nov 74; Edward J. Rose, Blake Newsletter, 9 (Fall 1975), 50-54; Harvey Stahl, Print Collector’s Newsletter, 6 (1975), 48-49; W. H. Stevenson, Studies in Romanticism, 14 (Spring 1975), 201-205.</p>
+            <p>Erdman, David V. and Donald K. Moore, eds. The Notebook of William Blake. Reviewed By Robert N. Essick, Blake Newsletter, 8 (Spring 1975), 132-136; Harvey Stahl, Print Collector’s Newsletter, 6 (1975), 48-49; W. H. Stevenson, Studies in Romanticism, 14 (Spring 1975), 201-205.</p>
+            <p>Essick, Robert N. The Visionary Hand: Essays for the Study
+<pb id="p10-62" n="62"/>
+of William Blake’s Art and Aesthetics. Reviewed by Thoman L. Minnick, Blake Newsletter, 8 (Spring 1975), 130-132; Harvey Stahl, Print Collector’s Newsletter, 6 (1975), 48-49; Brian Wilkie, Blake Studies, 6(1975), 204-208.</p>
+            <p>Frosch, Thomas R. The Awakening of Albion: The Renovation of the Body in the Poetry of William Blake. Reviewed by Irene H. Chayes, Blake Newsletter, 8 (Spring 1975), 114-115; Thomas L. Minnick, Blake Studies, 6 (1975), 192-194.</p>
+            <p>Gillham, D. G. William Blake. Reviewed by Alicia Ostriker, Blake Newsletter, 8 (Spring 1975), 136-137.</p>
+            <p>Grimes, Ronald L. The Divine Imagination: William Blake’s Major Prophetic Visions. Reviewed by James Rieger, Blake Studies, 6 (1975), 194-196.</p>
+            <p>Hughes, Catherine, ed. The Clouded Hills: Selections from William Blake. Reviewed by Morris Eaves, Blake Newsletter, 8 (Spring 1975), 139-140.</p>
+            <p>John, Brian. Supreme Fictions: Studies in the Work of William Blake, Thomas Carlyle, W. B. Yeats, and D. H. Lawrence. Reviewed by David Wagenknecht, Blake Newsletter, 9 (Fall 1975), 55.</p>
+            <p>Keynes, Geoffrey. Blake Studies, 2nd ed. Reviewed by Paul Miner, Blake Newsletter, 8 (Spring 1975), 122-125.</p>
+            <p>Keynes, Geoffrey, ed. William Blake’s Watercolours Illustrating the Poems of Thomas Gray. Reviewed by Janet Warner, Blake Studies, 6 (1975), 203-204.</p>
+            <p>Leavis, F. R. and Q. D. Leavis. Dickens the Novelist. Reviewed by J. R. Harvey, The Cambridge Quarterly, 6 (1972), 77-93. [Pp. 89, 93 concern the chapter "Dickens and Blake."]</p>
+            <p>Leyris, Pierre, ed. and trans. William Blake, Works. Vol. 1. Reviewed by Claude Jannoud, Blake Newsletter, 8 (Spring 1975), 121. [Rpt. from Le Figaro, 29 June 1974, p. 8; trans. Katharyn R. Gabriella.]</p>
+            <p>Lindberg, Bo. William Blake’s Illustrations to the Book of Job. Reviewed by Gerald E. Bentley, Jr., Blake Newsletter, 8 (Spring 1975), 125-126; Jeffry B. Spencer, Blake Studies, 6 (1975), 197-200.</p>
+            <p>Lister, Raymond. British Romantic Art. Reviewed by Jean H. Hagstrum, Blake Newsletter, 8 (Spring 1975), 143-144.</p>
+            <p>Mellor, Anne K. Blake’s Human Form Divine. Reviewed by W. J. Thomas Mitchell, Blake Newsletter, 8 (Spring 1975), 117-119; Harvey Stahl, Print Collector’s Newsletter, 6 (1975), 48-49; Brian Wilkie, Journal of English and Germanic Philology, 74 (January 1975), 134-137.</p>
+            <p>Nelson, Cary. The Incarnate Word: Literature as Verbal Space. Reviewed by Thomas A. Vogler, Blake Newsletter, 8 (Spring 1975), 108-113.</p>
+            <p>Nurmi, Martin K. William Blake. Reviewed by Paul M. Zall, Blake Newsletter, 9 (Fall 1975), 54-55.</p>
+            <p>Paley, Morton D. and Michael Phillips, eds. William Blake: Essays in Honour of Sir Geoffrey Keynes. Reviewed by Paul Miner, Blake Newsletter, 8 (Spring 1975), 122-125.</p>
+            <p>Reardon, John, producer. On Reflection: Adrian Mitchell on William Blake [Film]. Reviewed by Morris Eaves, Blake Newsletter, 8 (Spring 1975), 139-140.</p>
+            <p>Sabri-Tabrizi, G. R. The "Heaven" and "Hell" of William Blake. Reviewed by Michael J. Tolley, Blake Newsletter, 8 (Spring 1975), 138; James T. Wills, Blake Studies, 6 (1975), 201-202.</p>
+            <p>Stevenson, Warren. Divine Analogy: A Study of the Creation Motif in Blake and Coleridge. Reviewed by Stuart Curran, Blake Studies, 7 (1975), 180-182.</p>
+            <p>Taylor, Irene C. Blake’s Illustrations to the Poems of Gray. Reviewed by Alan Watson, Art Bulletin, 55 (1973), 464-465.</p>
+            <p>Wagenknecht, David. Blake’s Night: William Blake and the Idea of Pastoral. Reviewed by Hazard Adams, Modern Philology, 73 (November 1975), 200-203.</p>
+            <p>Wright, Andrew. Blake’s Job. A Commentary. Reviewed by Karl Kiralis, Blake Studies, 7 (1975), 182-186.</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>

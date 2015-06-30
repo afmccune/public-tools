@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>1.3.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>December 15, 1967</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1967</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">01.3</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">3</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Contributors</resp>
+                            <name>S. Foster Damon</name>
+                            <name>Alvin H. Rosenfeld</name>
+                            <name>Laurence Goldstein</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <pb id="p01-1" n="1"/>
+        <div1 id="cover">
+            <figure n="cover.001.03.bqscan" rend="file">
+                <figTranscr>Blake Newsletter<lb/>
+                    Number 3<lb/>
+                    December 15, 1967<lb/>
+                    Damoniana<lb/>
+                    This issue of the BLAKE NEWSLETTER is dedicated to Professor S. Foster<lb/>
+                    Damon, whom we delight to honor in anticipation of his seventy-fifth<lb/>
+                    birthday.<lb/>
+                    A more substantial and permanent tribute to Professor Damon is being pre-<lb/>
+                    pared by Professor Alvin Rosenfeld of Brown University.  It is an anthology<lb/>
+                    of original essays on Blake to be published as a <hi rend="u">Festschrift</hi> entitled<lb/>
+                    <hi rend="u">William</hi> <hi rend="u">Blake:</hi> <hi rend="u">Essays</hi> <hi rend="u">For</hi> <hi rend="u">S.</hi> <hi rend="u">Foster</hi> <hi rend="u">Damon</hi>.  It will include some two dozen<lb/>
+                    essays on Blake's poetry and painting, written for the occasion by many of<lb/>
+                    the world's leading Blake scholars; an introductory essay on S. Foster Damon<lb/>
+                    by Malcolm Cowley; and, as an appendix, a full bibliography of Professor<lb/>
+                    Damon's writings.  It will also include numerous plates of Blake's designs.<lb/>
+                    A further announcement about the <hi rend="u">Festschrift</hi>, including details about its<lb/>
+                    contents and date of publication, will appear in the next NEWSLETTER.
+                    A celebration of Professor Damon's birthday will take place at Brown on<lb/>
+                    February 22-23.  The festivities will include a reading of his poetry, a<lb/>
+                    performance of scenes from his prize-winning play <hi rend="u">Witch</hi> <hi rend="u">of</hi> <hi rend="u">Dogtown</hi>,<lb/>
+                    and possibly a small concert of his music.  An informal seminar will be<lb/>
+                    conducted by Professors Harold Bloom and Geoffrey Hartman, and an exhibit<lb/>
+                    of Blake items and Damoniana will be shown at Brown's Rockefeller Library<lb/>
+                    (Feb. 15 - March 15).  All these programs have been arranged by Alvin<lb/>
+                    Rosenfeld.<lb/>
+                    It's difficult to find words adequate to someone who is at the same<lb/>
+                    time a great pioneer and an energetic contemporary.  May Foster Damon's<lb/>
+                    wisdom, enthusiasm, wit and versatility long continue to astonish us!<lb/>
+                    The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English,<lb/> 
+                    University of California, Berkeley, Calif. 94720.  Subscription price: two<lb/>
+                    dollars for one volume (four issues).  Please make checks payable to Morton<lb/>
+                    D. Paley.  Contributions of material are welcomed.  They should be typed,<lb/>
+                    double-spaced, on a separate manuscript (no matter how short), rather than<lb/>
+                    included in the body of a letter.</figTranscr>
+            </figure>
+        </div1>
+		<div1 id="BQ-01-3-0000">
+				<supplied type="emend" rend="plain">
+					<table id="contents" rows="9" cols="2">
+					  <row>
+						<cell><head><title><supplied type="emend">Contents</supplied></title></head></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><hi rend="b">Damoniana</hi></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.damoniana">Honoring Professor S. Foster Damon</ref></cell>
+						<cell>1</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.damon">How I Discovered Blake</ref><lb/>
+						<hi rend="i">S. Foster Damon</hi></cell>
+						<cell>2</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.rosenfeld">"A Lot He Knew"</ref><lb/>
+						<hi rend="i">Alvin H. Rosenfeld</hi></cell>
+						<cell>3</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.goldstein">Sermon by Mr. Blake</ref> (poem)<lb/>
+						<hi rend="i">Laurence Goldstein</hi></cell>
+						<cell>5</cell>
+					  </row>
+					  <row>
+						<cell><hi rend="b">News</hi></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.institute">1. English Institute Program</ref></cell>
+						<cell>6</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.princeton">2. Blake at Princeton</ref><lb/>
+						<hi rend="i">Morton D. Paley</hi></cell>
+						<cell>6</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.publications">3. Publications Received</ref></cell>
+						<cell>8</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.miscellaneous">4. Miscellaneous</ref></cell>
+						<cell>8</cell>
+					  </row>
+					  <row>
+						<cell><hi rend="b">Notes</hi></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.raine">1. The Crested Cock</ref><lb/>
+						<hi rend="i">Kathleen Raine</hi></cell>
+						<cell>9</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.rose">2. The Meaning of Los</ref><lb/>
+						<hi rend="i">E. J. Rose</hi></cell>
+						<cell>10</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.erdman">3. Errata Emendata: Second Printing: Erdman-Bloom P&amp;P of WB</ref><lb/>
+						<hi rend="i">David V. Erdman</hi></cell>
+						<cell>11</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.stevenson">4. Two Problems in <hi rend="i">The Four Zoas</hi></ref><lb/>
+						<hi rend="i">W. H. Stevenson</hi></cell>
+						<cell>13</cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.europe">5. <hi rend="i">Europe</hi> iii: 18</ref><lb/>
+						<hi rend="i">Morton D. Paley</hi></cell>
+						<cell>16</cell>
+					  </row>
+					  <row>
+						<cell><hi rend="b">Discussion<lb/>
+						"With intellectual spears, &amp; long winged arrows of thought."</hi></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.connolly">Recognizing Mother</ref><lb/>
+						<hi rend="i">Thomas E. Connolly and George R. Levine</hi></cell>
+						<cell>17</cell>
+					  </row>
+					  <row>
+						<cell><hi rend="b">Query</hi></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.3.query">"The Lute Player"</ref><lb/>
+						<hi rend="i">Martin Butlin</hi></cell>
+						<cell>18</cell>
+					  </row>
+					</table>
+				</supplied>
+		</div1>
+        <div1 id="BQ-01-3-0001">
+            <note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English, University of California, Berkeley, Calif. 94720. Subscription price: two dollars for one volume (four issues). Please make checks payable to Morton D. Paley. Contributions of material are welcomed. They should be typed, double-spaced, on a separate manuscript (no matter how short), rather than included in the body of a letter.</note>
+        </div1>
+        <body>
+            <div1 id="BQ-01-3-0004">
+                <pb id="p01-8" n="8"/>
+				<note type="unreferenced" place="footer">Regarding the copyright announcement on p. 18. It was suggested to us that we copyright the NEWSLETTER in order to protect ourselves and our contributors from the possibility of its being reprinted without our permission at some future time. Reprint companies seem to have become active even in rather remote fields of scholarship, and it does seem to me that if the NEWSLETTER ever should be reprinted, it should realize some of the benefits. (It would be nice to have an occasional photographic reproduction, for example. I promise not to abscond to Golgonooza with the profits.) Writers of articles are of course free to use their material elsewhere.</note>
+            </div1>
+            <pb id="p01-18" n="18"/>
+            <div1 id="BQ-01-3-0007">
+                <note type="unreferenced" place="footer">The fourth issue of the NEWSLETTER is scheduled for publication on March 15. Copy should be received by March 7 in order to be considered.</note>
+                <note type="unreferenced" place="footer">The contents of the BLAKE NEWSLETTER are copyright 1968 by Morton D. Paley and may not be reproduced without permission, except for brief excerpts quoted in reviews or articles.</note>
+            </div1>
+        </body>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <pb id="p01-1" n="1"/>
+        <div1 id="BQ-01-3-0001">
+            <head>
+                <title type="main">Damoniana</title>
+            </head>
+            <p>This issue of the BLAKE NEWSLETTER is dedicated to Professor S. Foster Damon, whom we delight to honor in anticipation of his seventy-fifth birthday.</p>
+            <p>A more substantial and permanent tribute to Professor Damon is being prepared by Professor Alvin Rosenfeld of Brown University. It is an anthology of original essays on Blake to be published as a <hi rend="u">Festschrift</hi> entitled <hi rend="u">William Blake: Essays For S. Foster Damon.</hi> It will include some two dozen essays on Blake’s poetry and painting, written for the occasion by many of the world’s leading Blake scholars; an introductory essay on S. Foster Damon by Malcolm Cowley; and, as an appendix, a full bibliography of Professor Damon’s writings. It will also include numerous plates of Blake’s designs. A further announcement about the <hi rend="u">Festschrift</hi>, including details about its contents and date of publication, will appear in the next NEWSLETTER.</p>
+            <p>A celebration of Professor Damon’s birthday will take place at Brown on February 22-23. The festivities will include a reading of his poetry, a performance of scenes from his prize-winning play <hi rend="u">Witch of Dogtown</hi>, and possibly a small concert of his music. An informal seminar will be conducted by Professors Harold Bloom and Geoffrey Hartman, and an exhibit of Blake items and Damoniana will be shown at Brown’s Rockefeller Library (Feb. 15 - March 15). All these programs have been arranged by Alvin Rosenfeld.</p>
+            <p>It’s difficult to find words adequate to someone who is at the same time a great pioneer and an energetic contemporary. May Foster Damon’s wisdom, enthusiasm, wit and versatility long continue to astonish us!</p>
+        </div1>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <pb id="p01-2" n="2"/>
+            <div1 id="BQ-01-3-0002">
+                <head>
+                    <title type="main">How I Discovered Blake</title>
+                </head>
+                <byline>
+                    <docAuthor>S. Foster <name>Damon</name>
+                    </docAuthor>
+                </byline>
+                <p>I remember vividly when I first read the name of William Blake. It was in the summer of 1907 (give or take a year either way), and I was going to our summer home in Annisquam, Massachusetts. At the North Station in Boston I bought a pulp-paper magazine, <hi rend="u">The Golden Argosy,</hi> to read on the hour ride to Gloucester. The contents of the magazine consisted entirely of selections from well-known authors: Victor Hugo, Swinburne, and the like. And here was a poem, "The Tyger" by William Blake, with Lamb’s comment that it was "glorious".</p>
+                <p>The very first line gripped my imagination immediately. "Tyger! Tyger! burning bright" is typical of Blake’s peculiar gift of enthralling the imagination before arousing the curiosity. "In the forests of the night" was tremendous: suppose he had written only "In a forest at night".</p>
+                <p>I was so impressed that I did something very unusual: I memorized the whole poem before we reached Gloucester. Only occasionally did I stop to think that I hadn’t understood what the poem was about--a thought I dismissed instantly as irrelevant.</p>
+                <p>Some time about now I set "The Tyger" to a kind of humpty-dumpty tune, now happily well lost.</p>
+                <p>The excellent Newton Public Library, where my real education started (I wonder now if they really had a rule that a person could not take out books more than three times a day) for once failed me: they loaned me only the unreadable volume I of the Ellis-Yeats edition; but even that had a lovely picture on the cover. Some time later, the Boston Art Museum exhibited its Blake watercolors, which were a new revelation to me.</p>
+                <p>Then, in a Boston book-sale of remainders, I was able to pick up Blake’s letters and Michael Rossetti’s edition of the poems, which included the exciting text of <hi rend="u">The Marriage of Heaven and Hell.</hi>
+                </p>
+                <p>In the fall of 1910 I entered Harvard. Their splendid library then owned I think just one of Blake’s books, a <hi rend="u">Songs of Innocence</hi> in the Widener collection. Blake was scarcely mentioned in two courses on English romaticism. I recollect one class paper called "The Innocent Mr. Blake"--smoothly written but hopelessly ignorant.</p>
+                <p>But what was Blake writing <hi rend="u">about</hi>? The riddle seemed insoluble.</p>
+                <p>In 1914, Sampson’s Oxford edition of the poems (incomplete) was published. I had my copy interleaved and spent the summer copying in what everybody had written about the various poems. I supposed that putting all the critics together would provide some answers, but they didn’t. The summer’s work seemed wasted.</p>
+                <p>I then decided to read everything that Blake had read, a task I supposed would be simple, as Blake never had gone to school, and was therefore uneducated. But now the gates began to come ajar. Swedenborg, Paracelsus, Behmen--these led to others, including the alchemists--and then others.</p>
+                <p>But the first big break came from William James’s <hi rend="u">Varieties of Religious Experience.</hi> Why, Blake was definitely a mystic, which nobody else seemed to have noted. Evelyn Underhill’s <hi rend="u">Mysticism</hi> gave a wealth more of material. And my first chapter began to lay itself out. Then Thomas Taylor’s writings opened the way to <hi rend="u">The Book of Thel</hi> and (with Mary Wollstonecraft’s <hi rend="u">Vindication of the Rights of Women</hi>) to <hi rend="u">Visions of the Daughters of Albion.</hi>
+                </p>
+                <p>Properly, I should have been working for a Ph.D., and I took Anglo-Saxon and Old French; but the other requirements were exclusively philological;
+<pb id="p01-3" n="3"/>
+furthermore, criticism was completely taboo, as being personal conjecture, and thus not scholarly. So I devoted myself completely to my own work.</p>
+                <p>Once the book got started, it almost wrote itself, waking me up at odd hours. I got so obsessed that once I signed Blake’s name to a cheque, which was returned to me. When I came to a tough spot, I simply walked round my chair, then wrote the answer. As soon as a chapter was finished, I read it to Miss Amy Lowell, whom I had met through a paper on the history of Free Verse. She had loved Blake ever since she was a little girl and gloated over the copies of his books owned by the Hooper family. When she returned from Egypt in 1898, she was tired of their formal art and ordered three of Blake’s books for herself. Later she was able to get a <hi rend="u">Marriage of Heaven and Hell</hi>, which inspired her poem "The Book for Stones and Lilies" (<hi rend="u">Scribner’s Magazine</hi>, Nov. 1921; collected in <hi rend="u">Ballads of Sale</hi>). Poet and lover of books, she was the only person I knew who could appreciate Blake.</p>
+                <p>Naturally I dedicated my book to her. Fortunately for me, Houghton Mifflin’s reader for my manuscript was Esther Forbes; the book was accepted in 1922, and was published two years later. The reviews were hearty, long, and even enthusiastic. At last, Blake was academically respectable.</p>
+                <p>Only at Harvard was my book not greeted. There I was the lowest of the low, a mere theme corrector. Of course my book could not possibly be counted for a Ph.D. I had not entered myself as a candidate; I had not taken the right courses; nobody had approved the subject; nobody had supervised the manuscript; it had not been submitted for that or any other degree. Nevertheless I hoped that I might get a small raise in pay or even in rank. But no one of my superiors in the English Department so much as said to me: "I see you’ve got a book out." And nothing happened.</p>
+                <p>[I can’t resist adding a postscript to Foster’s last sentence, from R. P. Blackmur’s essay, "A Critic’s Job of Work," in which the book is taken as an example for scholarship. "The result for emphasis is that Mr. Damon made Blake exactly what he seemed least to be, perhaps the most intellectually consistent of the greater poets in English. Since the chief weapons used are the extended facts of scholarship, the picture Mr. Damon produced cannot be destroyed even though later and other scholarship modifies, re-arranges, or adds to it with different or other facts."</p>
+                <byline>
+                    <docAuthor>MDP</docAuthor>]
+                </byline>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0003">
+                <head>
+                    <title type="main">"A Lot He Knew"</title>
+                </head>
+                <byline>
+                    <docAuthor>Alvin H. <name>Rosenfeld</name>
+                    </docAuthor> Brown University</byline>
+                <p>The title of this brief article on S. Foster Damon is taken from a chapter-heading in George Weller’s early novel about academic life, <hi rend="u">Not to Eat, Not for Love.</hi> The novel, published in 1933, was a sensation, and although several lively accounts of life at the universities have succeeded it, <hi rend="u">Not to Eat, Not for Love</hi> is still remembered. I call attention to it here, however, not so much to reclaim the novel for literature but because the model for one of Mr. Weller’s characters--the articulate and charming
+<pb id="p01-4" n="4"/>
+young instructor of Freshman Composition at Harvard is the same man we are honoring in this special number of the <hi rend="u">Blake Newsletter</hi>, S. Foster Damon.</p>
+                <p>As far as I know, George Weller’s depiction of the young Harvard English instructor in the chapter entitled "A Lot He Knew" is the first attempt to give fictional treatment to S. Foster Damon as a Blake scholar. (Actually he is identified more closely with John Donne, but Blake shines clearly through.) It is not the last, for in Colin Wilson’s latest book, <hi rend="u">The Glass Cage</hi> (1966), a Blakist is again fictionalized, this time as the scholar-detective Damon Reade, and the name immediately gives him away to us: again we know the model as S. Foster Damon.</p>
+                <p>But the novelists have not been alone in their recognition of S. Foster Damon, for the past several years have seen him acclaimed in published tributes by some highly important men--the composer Virgil Thomson, E.E. Cummings, and Malcolm Cowley among them. Virgil Thomson has written enthusiastically about his early relationship with Foster Damon, crediting Damon with introducing him to the music of Eric Satie and the poetry of Gertrude Stein, both of whom changed his life, as Thomson has recently remarked in his autobiography. E.E. Cummings has left behind similar testimony. Cummings acknowledged that he discovered El Greco and Blake only through Damon, and he told his biographer, Charles Norman, that "practically everything I know about painting and poetry came to me through Damon." Foster Damon was equally important to the young Malcolm Cowley who, in a long and warm-hearted tribute to his old friend, has recently written that it was Damon who got him to read Laforgue, the early Ezra Pound, the poetry of Stephen Crane, Melville, Blake, and Amy Lowell. As a scholar in his own right and an opener of doors to others, then, Foster Damon’s achievements have been considerable and have not gone unnoticed.</p>
+                <p>And yet with it all his image has remained a modest one. Damon has worked quietly over the years, and he has neither sought nor won fame as one of our literary celebrities. Scholars have known his work on Blake all along, of course, but not enough people have been aware of the many other sides to the man--the fact that he is also a good poet and has published four volumes of poetry; a prize-winning dramatist (his <hi rend="u">Witch of Dogtown</hi> won a Russel Crouse award for drama in 1955); a composer; a musicologist; a folklorist; an historian; and a valuable and distinguished bibliophile, librarian, and book-collector.</p>
+                <p>Damon’s most illustrious work has been done on Blake, but his range has been enormous and has taken in much more. Joyce and Melville, Marie de France and Amy Lowell, Thomas Holley Chivers, Punch and Judy, the History of Square Dancing, and Yankee Doodle--Damon has written definitively on all of these. There have been articles on alchemy and the occult, on genealogy and gastronomy, on Schönberg and Stravinsky, on Scandinavian and Japanese literature, on popular music, Santa Claus, and the detective story. The author of major books on William Blake is also the author of an introduction to the <hi rend="u">Annisquam Village Cook Book</hi>, a Japanese Noh drama (his <hi rend="u">Kiri no Meijiyama</hi>), and a children’s Christmas book (<hi rend="u">The Day After Christmas</hi>). And there is still more to come. This summer Damon finished his writing of <hi rend="u">The Moulton Tragedy</hi>, a long epic poem that he has been at work on over the past forty years and which, after Whittier, he calls his "Yankee Faust." Present projects include finishing up a book on Shakespeare that he began some years back and now has almost completed; a critical history of English prosody, which has been his continuing occupation for years now; and the gathering together of dozens of original recipes (Damon is a gourmet cook) into a cookbook, "for poets and others."</p>
+                <pb id="p01-5" n="5"/>
+                <p>The man I am trying to describe here is, to borrow a term from Coleridge, myriad-minded, and as such certainly one of America’s most remarkable men of letters. A few of us know him this way; most know him essentially and only as the prominent Blake scholar that he is; and many who should know him do not know him at all.</p>
+                <p>Malcolm Cowley, a long-time friend of S. Foster Damon, perfectly described this situation when, in a recent letter to me, he referred to what he called Damon’s "genius for concealing his genius from the public." That seems to get at both some of the most endearing features of Damon’s charm and also the vexing situation of his relative obscurity. It is gratifying, therefore, that the present number of the <hi rend="u">Blake Newsletter</hi>, dedicated to S. Foster Damon, at last allows some of us who have known him well to celebrate this very admirable and distinguished man and perhaps win for him something of the larger audience that he deserves and should have had all along.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0003">
+            <pb id="p01-5" n="5"/>
+				<head>
+					<title type="main">SERMON BY MR. BLAKE</title>
+				</head>
+				<p>for S. Foster Damon</p>
+                <p>
+				No man can keep the rose from death;<lb/>
+				by breathing back the borrowed sun<lb/>
+				it makes infirmity of god-<lb/>
+				head rooted in the hoary earth;<lb/>
+				the power lies in what consumes,<lb/>
+				not what is eaten up. Who lives<lb/>
+				in fire praises energy;<lb/>
+				he feels no spider crawl beneath<lb/>
+				the fallen leaf, his eyes intense<lb/>
+				with coming next refuse the sun-<lb/>
+				light as a yellow unguent<lb/>
+				effacing flame. He dwells inside<lb/>
+				a city out of space, a source<lb/>
+				immune from ever stepping back<lb/>
+				(the burning bush before the gate<lb/>
+				returns the timid to a life-<lb/>
+				time of tormenting flies); beside<lb/>
+				the fiery fountains what is wrought<lb/>
+				can never die; enslavement to<lb/>
+				the cycles of the sun becomes<lb/>
+				a dream upon awakening.<lb/>
+				We give its colors to the rose;<lb/>
+				all beauty we adore is what<lb/>
+				we conjure up and sprinkle<lb/>
+				on the grasping soil. Who would lose<lb/>
+				by lack of crossing over all<lb/>
+				creation at its origin?<lb/>
+				The fire, gentlemen, the fire!<lb/>
+				There is nothing in the world<lb/>
+				but what is hammered out of flame.
+				</p>
+				<byline><docAuthor>Laurence <name>Goldstein</name></docAuthor></byline>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0004">
+                <head>
+                    <title type="section">NEWS</title>
+                </head>
+                <pb id="01-6" n="6"/>
+                <div2>
+                    <head>
+                        <title type="main">1. ENGLISH INSTITUTE PROGRAM September 3-6, 1968 at Columbia University</title>
+                    </head>
+                    <p>One of the topics this year is</p>
+                    <p>BLAKE: "VISIONARY FORMS DRAMATIC" (Chairman, David V. Erdman).</p>
+                    <p>Prize money of $200.00 will be awarded by the Institute for the best essays on this or any of the topics. In this topic the focal word is "forms"; essays may consider any aspect or aspects of the form or style of Blake’s illuminated works (counting "Tiriel" as such a work). Slides may be included; yet the pictorial aspect need not be treated.</p>
+                    <p>Essays, which will be judged by members of the Supervising Committee, must be sent before July 1, 1968 to Professor Roy Harvey Pearce, University of California at San Diego, the chairman of the 1968 session. They must be no longer than 6000 words, typed doublespaced, and accompanied by a stamped, self-addressed envelope, or, if submitted from abroad, by the appropriate international postage coupons. If slides are to be used, transparencies or small prints should accompany the typescript.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <pb id="p01-6" n="6"/>
+            <div1 id="BQ-01-3-0004">
+                <div2>
+                    <head>
+                        <title type="main">2. BLAKE AT PRINCETON</title>
+                    </head>
+                    <p>The keen eye of Virginia Erdman detected the following item in Princeton <hi rend="u">Town Topics</hi> for November 9, 1967:</p>
+					<q>
+                        <head>
+                            <title>BLAKE BOOK HERE</title>
+                        </head>
+                        <p>Gift to Princeton. A rare copy of William Blake’s book, "Songs of Innocence and of Experience" has been given to Princeton University and is now on exhibition in Firestone Library.</p>
+                        <p>Hours are 9 a.m. to 6 p.m., Monday through Saturday, and 2 p.m. to 5 p.m. Sundays.</p>
+                        <p>The volume was probably printed in 1815 according to Charles A. Ryskamp, curator of English and American literature for the library. It was printed in red-brown ink, and contains 54 copper-engraved plates, elaborately and brilliantly colored with watercolors and gold.</p>
+                        <p>"Blake’s book is considered by many to be the most beautiful book in the history of English art and poetry and this is certainly one of the finest copies," says Professor Ryskamp. The volume was the gift of Miss Caroline Newton of Berwyn, Pennsylvania. It was included in the Grolier Club exhibition of Blake’s works in 1905 in New York and at the Philadelphia Museum of Art exhibit in 1939.</p>
+                        <p>The history of the Princeton book can be traced to 1824, when it was sold to the publisher, Edwards. It was subsequently bought by William Beckford the novelist, who assembled the first important Blake collection, and then by Quaritch, the British booksellers, who used it for a
+						<pb id="p01-7" n="7"/>
+						facsimile edition in the 1890’s. Shortly after, it was acquired by William A. White, one of the greatest Blake collectors.</p>
+                        <p>Professor Ryskamp points out that Princeton’s copy is complete, with 54 leaves; other existing volumes are incomplete. It is identified as copy "U" in the census of Blake’s illuminated books compiled by Sir Geoffrey Keynes and Edwin Wolf II.</p>
+					</q>
+					<p>We went to see this copy and found that the Firestone Library was also exhibiting a number of other works, most of them on loan from Miss Newton. The following items were included:</p>
+                    <p>Illuminated books: In addition to copy U, copy j of the <hi rend="u">Songs of Innocence and of Experience</hi> (posthumous); copy D of <hi rend="u">America</hi>; copy L of <hi rend="u">Visions of the Daughters of Albion</hi> (probably colored by Mrs. Blake).</p>
+                    <p>Engraved sets: <hi rend="u">Illustrations of the Book of Job</hi> (large-paper page proofs); <hi rend="u">For the Sexes: the Gates of Paradise</hi> (title page, frontispiece, plates 1, 7-13, 18-19).</p>
+                    <p>Engravings from books: 4 plates after Fuseli from <hi rend="u">A New and Improved Roman History</hi> by Charles Allen (1798); Wilson Lowry (proof copy of fourth state, engraved with Lowry for Rees’ Cyclopedia); "Tornado", after Fuseli, from the third edition (1795) of Erasmus Darwin’s <hi rend="u">Botanic Garden</hi>, Part II.</p>
+                    <p>Engraving: Canterbury Pilgrims, fourth state.</p>
+                    <p>Books: <hi rend="u">Poetical Sketches</hi>, Blair’s <hi rend="u">Grave</hi> illustrated by Blake, Botanic Garden Part I (five engravings by Blake after Fuseli), and Hayley’s <hi rend="u">Ballads</hi> and <hi rend="u">Little Tom the Sailor</hi>, both with illustrations designed and engraved by Blake.</p>
+                    <p>Drawings: Watercolor of Hayley’s design for the Cowper monument (one of three copies made by Blake); wash drawing "Job and His Family Restored to Prosperity"; and four pencil drawings. One of these showing a male and a female figure, is identified as "for a rejected illustration for <hi rend="u">Comus.</hi>" One of the others is a sketch of what seems to be a theatrical production, with a male figure wearing a plumed hat or helmet. Another shows several horses, one of which wears a plumed headdress of some kind and is harnessed to something (a chariot?) unshown. Another horse appears to be reading a book opened on the ground while a woman wearing a bandana milks her; a third is unmistakably horselaughing.</p>
+                    <p>Manuscript: Fair copy in Blake’s hand of "I asked a thief to steal me a peach."</p>
+                    <p>Color prints: From <hi rend="u">A Small Book of Designs</hi> (copy B)--plate 9 of <hi rend="u">The First Book of Urizen</hi>, inscribed "Eternally I labour on"; and plate 11 of <hi rend="u">The Marriage of Heaven and Hell</hi>, inscribed "Death &amp; Hell"/Teem with Life". [In both inscriptions, the quotation marks are in the original.]</p>
+                    <p>Also: Rivington and Cochrane’s catalog for 1824, advertising the <hi rend="u">Songs</hi> (copy U) at 8 guineas and <hi rend="u">The Grave</hi> at £1 16s.</p>
+                    <byline>
+                        <docAuthor>MDP</docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0004">
+                <pb id="p01-8" n="8"/>
+                <div2>
+                    <head>
+                        <title type="main">3. PUBLICATIONS RECEIVED</title>
+                    </head>
+                    <p>A. A. Ansari, <hi rend="u">Arrows of Intellect: A Study of William Blake’s Gospel of the Imagination.</hi> Aligarh, Naya Kitabghar (India). 1965. 248 pp.</p>
+                    <p>Frederick W. Hilles, "A ‘New’ Blake Letter," <hi rend="u">Yale R</hi>, Autumn ’67, 85-89.</p>
+                    <p>Alvin Rosenfeld, "Samuel Nomad, <hi rend="u">Nightmare Cemetery</hi>," <hi rend="u">Books at Brown</hi>, XXI (1966), 207-210.</p>
+                    <p>Michael J. Tolley, review of the Erdman-Bloom and Keynes (O. S. A. ) editions, <hi rend="u">Blake Dictionary, Vision and Verse in William Blake</hi> (A. Ostriker) and <hi rend="u">Arrows of Intellect</hi> (supra). <hi rend="u">Southern Review</hi> (Adelaide, Australia), III (1967), 269-277.</p>
+                    <p>John E. Grant, reviews of Erdman-Bloom, <hi rend="u">Blake Dictionary</hi>, and <hi rend="u">Vision and Verse.</hi> "English Literature: A Current Bibliography," <hi rend="u">PQ</hi>, XLV (1966), 533-538.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0004">
+                <pb id="p01-8" n="8"/>
+                <div2>
+                    <head>
+                        <title type="main">4. MISCELLANEOUS</title>
+                    </head>
+                    <p>An expanded version of Kathleen Raine’s A. W. Mellon Lectures in the Fine Arts, <hi rend="u">Blake and Tradition</hi>, is scheduled for June publication in the Bollingen Series by the Princeton University Press. The two-volume work includes 194 illustrations, 11 in color. Also of interest to Blake scholars will be <hi rend="u">Thomas Taylor the Platonist: Selected Writings</hi>, edited by Miss Raine and George Mills Harper, and scheduled for summer publication in the Bollingen Series. And Miss Raine informs us that her collection of essays <hi rend="u">Defending Ancient Springs</hi>, just published by Oxford University Press, includes "Yeats’s Debt to William Blake."</p>
+                    <p>An unaltered reprint of Swinburne’s <hi rend="u">William Blake: A Critical Study</hi> (1869) has been issued by Benjamin Blom, Inc. (4 West Mt. Eden Avenue, Bronx, N.Y. 10452. Price $12.50).</p>
+                    <p>A second edition of <hi rend="u">A Blake Dictionary</hi>, with some additions, is in the press; also a second printing of <hi rend="u">Blake’s Job.</hi>
+                    </p>
+                    <p>More Blake courses: Foster Damon will give a graduate seminar on Blake at Brown in the spring ’68 semester. Edward Rose teaches a full-year graduate seminar on Blake at the University of Alberta (Edmonton, Ontario) every other year. Morton Paley will give a graduate seminar on Blake’s longer poems in fall ’68, at Berkeley.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <pb id="p01-9" n="9"/>
+            <div1 id="BQ-01-3-0005">
+                <head>
+                    <title type="section">
+                        <hi rend="u">NOTES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">1. The Crested Cock</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Kathleen <name>Raine</name>
+                        </docAuthor> London</byline>
+                    <p>Blake’s obscurities are not to be resolved by guesses, however inspired; in almost every case there is a key that fits the lock, which opens easily to the right combination. One puzzle which no-one so far as I know has solved is "the crested Cock" who in <hi rend="u">Milton</hi> 28: 24 (K. 515) terrifies the Spectres into incarnation. The passage is:
+<q>
+They contend with the weak Spectres, they fabricate soothing forms.<lb/>
+The Spectre refuses, he seeks cruelty: they create the crested Cock.<lb/>
+Terrified the Spectre screams &amp; rushes in fear into their Net<lb/>
+Of kindness &amp; compassion, &amp; is born a weeping terror.<lb/>
+Or they create the Lion &amp; Tyger in compassionate thunderings:<lb/>
+Howling the Spectres flee: they take refuge in Human lineaments.
+</q>
+In my forthcoming book I wrote as follows:
+<q>
+It is hard to know what was in Blake’s mind in this image of the People of Dreams frightened into generation by the crowing of a cock, image of resurrection; perhaps the folk belief that the dead must return to their graves at cock-crow, whether Hamlet’s kingly ghost or the three sons of the Wife of Usher’s Well: ‘Then up and crew the red, red cock/ And up and crew the grey.’ Another, and perhaps more likely, source is the cock of Odin, described in a passage quoted by Macpherson in his <hi rend="u">Introduction to the History OF Great Britain and Ireland</hi>: ‘A cock, with a crest of gold, crows every morning in the presence of the Gods. He awakes the heroes to battle before Odin the father of armies. They rush, armed and clothed, to the field and slay one another with mutual wounds. These deaths, however, are only temporary. The power of Odin revives the slain.’ If this fine image lies behind Blake’s ‘crested cock’ the myth of the specters is again brought into the context of reincarnation.
+</q>
+                    </p>
+                    <p>Since writing this I have come upon another interesting passage relating to the cock, which Blake might have seen, for it occurs in the first volume of Thomas Taylor’s Plato (1804), p. 65. It is an extract from Proclus’ Dissertation on Magic, quoted by Taylor in his notes to the First Alcibiades:
+<q>
+. . . There are many solar animals, such as lions and cocks, which participate, according to their nature, of a certain solar divinity; whence it is wonderful how much inferiors yield to superiors in the same order, though they do not yield in magnitude and power. Hence, they report that a cock is very much feared, and as it were reverenced, by a lion; the reason of which we cannot assign from matter or sense, but from the contemplation alone of a supernal order: for thus we shall find that the presence
+<pb id="p01-10" n="10"/>
+of the solar virtue accords more with a cock than with a lion. This will be evident from considering that the cock, as it were, with certain hymns, applauds and calls to the rising sun, when he bends his course to us from the antipodes; and that solar angels sometimes appear in forms of this kind, who, though they are without shape, yet present themselves to us, who are connected with shape, in some sensible form. Sometimes too, there are daemons with a leonine front, who, when a cock is placed before them, unless they are of a solar order, suddenly disappear; and this, because those natures which have an inferior rank in the same order, always reverence their superiors.
+</q>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0005">
+				<pb id="p01-10" n="10"/>
+                <div2>
+                    <head>
+                        <title type="main">2. The Meaning of Los</title>
+                    </head>
+                    <byline>
+                        <docAuthor>E. J. <name>Rose</name>
+                        </docAuthor> University of Alberta Edmonton, Canada</byline>
+                    <p>The traditional reading of ‘Los’ as an anagram for ‘sol’ has been long established, though other sources have been suggested. Frye, for instance, cites ‘<hi rend="u">los</hi> or <hi rend="u">loos</hi>’ from Chaucer’s <hi rend="u">House of Fame</hi> as a possible analogue.<ref target="n1" type="note">1</ref> Though I do not discount the possibility that Blake may have had several sources in mind at once, as with the names of many of his major figures, like Orc and Vala, I think ‘los’ means literally and metaphorically something more than ‘sol.’ I do not intend or even suggest that ‘sol’ be abandoned because Los is too often associated with the sun in both the verse and the illustrations for ‘sol’ to be ignored. Los is, of course, the ‘more bright Sun of Imagination’ in the <hi rend="u">L’Allegro</hi> designs and not the fiery guinea-disk of economics and nature. What I think ‘los’ means is ‘look’ or ‘behold’ in the traditionally shortened form of the interjection, ‘lo,’ only in the third person singular of the verb -- perhaps, with all the same implications as Ferlinghetti’s very Blakean "fourth person singular.’<ref target="n2" type="note">2</ref> Los is aware, he watches, looks, sees, and beholds. His <hi rend="u">is</hi> vision. He <hi rend="u">los</hi> all the time and all Time. Los is the word within the word, a visionary verbal wheel within a wheeling verbal universe, a moving vision or visionary (a seer) within the vision. Los is a perennial proclamation in the present tense, the ever-present tense, a seeing word in an iconographical drama. He is his own ejaculation, an infinite ‘lo.’ The <hi rend="u">s</hi> in Los should be pronounced as a voiced sibilant in contrast with the voiceless sound uttered by the serpent. ‘The Song’ or ‘The Book’ of Los, like all of Blake’s work, is a song or a book of <hi rend="u">los.</hi> We see through Los, not with him. Before this suggested interpretation of the meaning of Los is dismissed as fanciful, I only ask that several of Blake’s works be re-read with the ear attuned to the metaphorical sound of Los pronounced as <hi rend="u">lo</hi> with a voiced sibilant. Such phrases as the ‘Gate of Los’ or ‘head of Los’ which appear repeatedly and other phrases, such as ‘Scribe of Los’, or building of Los, or power of Los, or ‘they gave their power to Los, Naming him the Spirit of Prophecy,’ take on a new and important dimension, which once entertained, is not easily ignored. No serious critic of Blake or of the Bible can afford to ignore the aural metaphors or what Buber calls ‘A bold visual metaphor for an acoustical event’ when he discusses the ‘voice of thin silence’ from I Kings 19:21, which he says ‘is a silence, but not a thick and solid one, rather one that is of such veil-like thinness that the Word shines through it.’<ref target="n3" type="note">3</ref> ‘Lo is the recurrent ejaculation of God and his
+<pb id="p01-11" n="11"/>
+prophets throughout man’s history. It is the sound of the visual herald when he reveals truth and an interjection which appears repeatedly in Blake’s work. ‘Lo’ is a word which proclaims that men see with their minds, travel mentally, and wage ‘Mental War.’ <note id="n1">
+                            <hi rend="s">1</hi> "Notes for a Commentary on <hi rend="u">Milton</hi>," <hi rend="u">The Divine Vision</hi> (London, 1957). pp. 100-101; of <hi rend="u">Fearful Symmetry</hi> (Princeton, 1947), p.445 n.2 and p. 417.</note>
+                        <note id="n2">
+                            <hi rend="s">2</hi> The phrase appears repeatedly in <hi rend="u">Her.</hi> Los is, of course, the <hi rend="u">fourth</hi> Zoa -- he says so in <hi rend="u">J</hi> 42: 11, 23-24.</note>
+                        <note id="n3">
+                            <hi rend="s">3</hi> "On the Suspension of the Ethical," in <hi rend="u">Eclipse of God</hi> (New York, 1957), p. 119.</note>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0005">
+                <div2>
+                    <head>
+                        <title type="main">3. Errata Emendata: Second Printing: Erdman-Bloom P&amp;P of WB</title>
+                    </head>
+                    <byline>
+                        <docAuthor>David V. <name>Erdman</name>
+                        </docAuthor> State University of New York at Stony Brook</byline>
+                    <p>P 14 <hi rend="u">Night</hi> line 44 Graze <hi rend="u">shd be</hi> Grase (The <hi rend="u">s</hi> is angular but not a <hi rend="u">z</hi>).</p>
+                    <p>P 51 line 10 Hands deprest <hi rend="u">shd read</hi> Heads deprest (Depressing!)</p>
+                    <p>P 61 line 5 Human <hi rend="u">shd be lower case</hi> human</p>
+                    <p>P 62 line 26 enclos’d <hi rend="u">shdread</hi> inclos’d</p>
+                    <p>P 146 line 27 rovolve <hi rend="u">shd be</hi> revolve</p>
+                    <p>P 181 line 29 tragic <hi rend="u">shd be spelled</hi> trajic</p>
+                    <p>P 202 line 20 Universal Concave <hi rend="u">can be emended to</hi> Universal Conclave (as the context pretty much demands)</p>
+                    <p>P. 270 Several persons have collated the Hebrew of the Laocoon inscriptions with the engraved plate and kindly noted that the printers misspelled Lilith and King Jehovah, although Blake had them both right. In Lilith a Heh appears instead of the final Thav. In Melekh Iehovah three incorrect letters appear, Deleth instead of Khaph sophith, Kheth instead of Heh, and Resh instead of Vav.</p>
+                    <p>(P 277 TIRIEL: The substantive variants in the new edition by Bentley, "were" for "was" in 4: 2 and "vales" for "dales" in 4: 27, are simply misprints, as one can see from the facsimile).</p>
+                    <p>P 287 line 101 loud (since it is an emendation) <hi rend="u">shd be</hi> [loud]</p>
+                    <p>Pp 287-8 William F. Halloran (who is writing about this in <hi rend="u">BNYPL</hi>) makes a convincing case for emending the dialogue by moving lines 105-9 to come after line 120.</p>
+                    <p>P 493 From Cratelos <hi rend="u">shd be spelled</hi> from Cratetos (clear enough in <hi rend="u">N</hi>; now first observed by W. H. Stevenson)</p>
+                    <p>REYNOLDS ANNOTATIONS. Marcia Allentuck, going through my xerox and elaborate transcript, noted the following slips in the Doubleday simplified report:</p>
+                    <p>
+                        <hi rend="u">Angle brackets shd enclose</hi> "Here . . . Circumstances" (P 639: p 87), "Broken . . . Sublime" (P 641: p 102), "The . . . Operations" (P 643: p 131), "To . . . Science" (P644: p 135), "How . . . Species" (P 645: p 149), "Demonstration . . . Intuition" (P 648: p200), and "These . . . Colour" (P 651: p 279). On P 645: p 152, no brackets shd be around the second "Never!"</p>
+                    <pb id="p01-12" n="12"/>
+                    <p>P 669 On design pg 101, add this inadvertently omitted paragraph at the end of the inscription:</p>
+                    <p>Whatever Book is for Vengeance for Sin &amp; whatever Book is Against the Forgiveness of Sins is not of the Father but of Satan the Accuser &amp; Father of Hell</p>
+                    <p>*** The following should be added as a separate entry: On drawing LB 32 in the British Museum Print Room -- a design for a title page. (The title sketched in begins with "The" but consists, in two further lines, of strokes not perhaps meant to form actual words).</p>
+                    <q>
+Angels to be very small as small<lb/>
+as the letters<lb/>
+that they may not<lb/>
+interfere with the<lb/>
+subject at bottom<lb/>
+which is to be in a<lb/>
+stormy sky &amp; rain<lb/>
+seperated from the angels<lb/>
+by Clouds
+</q>
+                    <p>P 729 note on 32: 15 Kerabim. The lemma is right as transcript of what Blake actually wrote, Khaph the first letter. But to spell Kerabim it should be Kaph. The "correction" gets the second letter wrong, however, following Keynes (Daleth instead of Resh) and does not correct the first. (PS: The new Keynes is corrected). ** But wait! What first letter Blake meant to write is not all that certain. The plate shows a strong dot just left of the top bar of the letter. Kaph would have the dot within its curve, but Khaph would have no dot. Take your choice. It really looks as though Blake wrote and meant Kerabim, not Cherubim, and all this "error" is among us editors and printers.</p>
+                    <p>P 732 insert this for 49: 35: Void] ground <hi rend="u">rdg on plate</hi>, scribal error influenced by line 33; correct reading supplied from <hi rend="u">Milton</hi> 5: 22, which Blake was rather absently copying</p>
+                    <p>P 732 52: 20 bloody pain <hi rend="u">shd be</hi> bloody plain</p>
+                    <p>P 733 add 55:20 Conclave] <hi rend="u">emendation of textual</hi> Concave</p>
+                    <p>69: 1 combined] <hi rend="u">mended by pen from</hi> conjoined (in the Mellon copy) This is true, but too simple; Blake etched "combined", mended it by cutting the plate to form "conjoined", and only in the Mellon copy restored "combined" by pen and link.</p>
+                    <p>P 734 add: 98:45 the Covenant of] <hi rend="u">mended from</hi> thy Covenant <hi rend="u">to</hi> the Coventof <hi rend="u">which we emend to</hi> the Covenant of (But restored by pen in the Mellon copy to <hi rend="u">thy covenant</hi> -- I argue nevertheless for the emended reading: all this is in "Suppressed and Altered Passages . . . " <hi rend="u">SB</hi> XVII (1964) 38-39).</p>
+                    <p>P 736 Deleted matter noted in Bentley’s <hi rend="u">Tiriel</hi> -- or in my own notes, and now perhaps called for:</p>
+                    <p>4: 79 The secret] The gloom <hi rend="u">1st rdg</hi>
+                    </p>
+                    <p>4: 74 like] torn like <hi rend="u">1st rdg del</hi>
+                    </p>
+                    <p>5: 22 sun] slee[p] <hi rend="u">1st rdg</hi>: but Bentley may be right: ?plea[sure?]</p>
+                    <p>6: 40 art] ? child art <hi rend="u">1st rdg</hi>
+                    </p>
+                    <p>6: 49 fail] <hi rend="u">mended from</hi> fall</p>
+                    <p>8: 21 drone] foolish crawling drone <hi rend="u">1st rdg</hi>
+                    </p>
+                    <pb id="p01-13" n="13"/>
+                    <p>P 748 30: 16 ? halls of <hi rend="u">1st rdg erased</hi> (<hi rend="u">I doubt; could be</hi> centr f[orm])</p>
+                    <p>P 750 40: 11 I] We xxxxx (Delete the X’s -- printer’s mistake)</p>
+                    <p>P 752 56: 11-16 sixth erased line: I doubt most of this conjectured reading: "from" may be "with"; "woe" probably "war".</p>
+                    <p>P 757 99: 4-9 Note citing <hi rend="u">Jerusalem</hi> 38 twice should cite 34 [38].</p>
+                    <p>P 758 Second line shd read <hi rend="u">J</hi> 34.</p>
+                    <p>P 768 Three poems written in . . . a copy of <hi rend="u">Poetical Sketches</hi>: said copy is now in the Alexander Turnbull Library in Wellington, New Zealand.</p>
+                    <p>P 770 [To go] on 1 Plate. gouped <hi rend="u">shd be</hi> grouped</p>
+                    <p>P 772 The wild flowers song: 3 wild] <hi rend="u">shd read</hi> 3 flower</p>
+                    <p>P 773 Several Questions . . . Line 17, 1st and 2nd rdgs shd be p 107, not p 99</p>
+                    <p>P 776 Asterisks should be above the bracketed headings, not below them.</p>
+                    <p>P 790 New mistake: "Her whole Life . . . " <hi rend="u">N</hi> 101 rev <hi rend="u">shd read N</hi> 100 rev</p>
+                    <p>P 896 From Cratelos <hi rend="u">shd read</hi> From Cratetos</p>
+                    <p>P 897 "I love Theotormon" shd read "I loved Theotormon"</p>
+                    <p>"I saw a chapel . . . " shd cite t 768</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0005">
+                <div2>
+                    <head>
+                        <title type="main">4. Two Problems in <hi rend="u">The Four Zoas</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>W. H. <name>Stevenson</name>
+                        </docAuthor> University of Ibadan.</byline>
+                    <p>I wish to discuss two problems which puzzled me as I was preparing <hi rend="u">The Four Zoas</hi> for the Longmans edition of Blake’s poetry. Both involve the arrangement and organisation of the <hi rend="u">Nights</hi>; neither can be finally determined, since we cannot be sure that Blake himself had made up his mind. He has certainly not made any decisions clear on paper. Unfortunately, an editor must make decisions, and the discussion which follows is largely an account of the reasons which led me to answer these problems as I did. Throughout this work I was involved in a fruitful cooperation with D. V. Erdman, and so I had better stress that these arguments are entirely my own. All references are to the Erdman edition of 1965.</p>
+                    <p>The two problems are, first: Where does the Second Night begin?--and the second, which has attracted more attention: What did Blake mean to do with Night VIIb?</p>
+                    <p>Almost all editions have passed over the first question with ease. The MS presents a series of Night-headings; <hi rend="u">Night the First</hi> on p. 3 is plain, and so is <hi rend="u">Night the Third</hi> (on p. 37) now, although Blake had had other thought as a series of erasures shows. About <hi rend="u">Night the Fourth</hi> there is no doubt at all. It follows, then, that the remaining chapter-heading must be the Second, cryptic though it is in its reading <hi rend="u">Night the . . .</hi> (twice written <hi rend="u">First</hi>, and once <hi rend="u">Third</hi>; never <hi rend="u">Second</hi>, according to Erdman, p. 747). But does it follow? Only if it is essential that a Night must start on one of these pages headed <hi rend="u">Vala</hi> in large script. Most editors have considered the marginal insertion
+<pb id="p01-14" n="14"/>
+on p. 9 a rejected heading, and have therefore ignored it. Sloss and Wallis accepted it in 1927, but without any adequate justification of their decision. I decided to accept p. 9:34 as the beginning of the Second Night, as a hypothesis, on the grounds that this is in fact the only place where Blake has left the heading <hi rend="u">Night the Second</hi> intact, and that, as the text is so pervaded with problems we do well to try to avoid conjectures involving Blake’s supposed or probable intentions where he did not make them explicit. We have to make such conjectures too often in <hi rend="u">The Four Zoas</hi> without manufacturing them.</p>
+                    <p>If there were no other facts, this hypothesis would present no problems; it would simply mean removing the beginning of the Second Night up several pages. It would now be much longer than the First Night, but this would only be a fact to note, not to argue. There are, however, three complications, major and minor. First, the well-known disarrangement of the pages, by which the page that should be 19 is bound in as 21, and vice versa. (To clarify my later remarks about this section, I propose in this article to suffix the standard numbers of these pages with letters indicating the order now generally accepted as correct, thus: 21a, 22b, 19c, 20d.) Second, neither of the "<hi rend="u">Ends</hi>" marked, on pp. 18 and 19c, seems actually to be the end. The "<hi rend="u">End</hi>" at the foot of p. 18 itself supersedes an earlier one, Blake having added several lines after an original "<hi rend="u">End</hi>". After this follows the whole section 21a-20d; and the pencil text of p.20d looks like a still later addition after the "<hi rend="u">End</hi>" on p. 19c (though we cannot know about its date).</p>
+                    <p>The third complication is the most important. Blake seems very sure that he has an end to the First Night (and, on p. 36, that he has an end to the Second); yet he has apparently no beginning to the Second Night. If we give full weight to the "<hi rend="u">Ends</hi>" on pp. 18 and 19c, we must ignore the total lack of a new beginning on p. 23. Blake himself numbered his pages 1-14 (our 3-14, 17-18), concluding "End of The First Night". Then why was p.23 never once inscribed as the beginning of "Night the Second"? I do not think we can answer this question, and it would be dangerous to try.</p>
+                    <p>Few acts of an editor are more dangerous than to make further conjectures in support of earlier ones. This, however, I shall do. After all, my acceptance of the marginal "heading" on p. 9 is only a literal acceptance of what actually stands: although this seems on the surface somewhat improbable, it is not more conjectural than the acceptance of p.23 as beginning "Night the <hi rend="u">Second</hi>". If I accept that 9:34 begins the Second Night, what do I do about the marked ends of the First? In the first place, there can only be one "End"; the other must be out of date. All the evidence suggests that pp. 21a-19c were written later than 18:1-8. Lines 18:9-15 as a whole cannot be dated with any accuracy relative to pp. 21a-19c, but are clearly later than lines 18:1-8. In any case, p. 18 was certainly begun before pp. 21a-19c, and 19c:15 may reasonably be taken to supersede 18:15 as the "End". My suggestion, therefore, is that pp. 21a-19c may be taken as the new end to the First Night, and should be placed after 9:33, the Second Night beginning at 9:34. That is, I take the First Night to be pp. 3:1 to 9:33 and pp. 21a-19c. The Second Night is 9:34 to 18:15 and pp.23-35. Page 20d looks like an afterthought, to be placed following 19c. The "Ends" on p. 18 are superseded. Pp. 21a-19c form a long, distinct passage; if Blake were looking for an ending to his new First Night, he might well be expected to prepare it like this on separate sheets; in any case the whole Night already needed to be copied out again. I am only unhappy that he did not guide the new passage in on p.9 as he usually did (e.g. p.56).</p>
+                    <p>If I had been a free man I would merely have proposed this as a probable idea in Blake’s mind. However, I had to present a single, unequivocal text to my readers: and I decided to present them with this rearrangement, not because I like rearrangement for its own sake, but because the new text seemed
+<pb id="p01-15" n="15"/>
+to me to make very good sense as narrative, and as narrative construction. If one rearranges the pieces of a jigsaw, one’s final justification must be that the picture is better at the end than it was before.</p>
+                    <p>Blake had projected a narrative poem telling how the original state of human perfection had been corrupted. The narrative of <hi rend="u">Urizen</hi> was unsatisfactory; the new narrative would show why and how Urizen began his career as a tyrant, and why he failed. Man’s surrender to the tyranny of reason and law had itself a cause - the weakening of the soul by the subtle corruptions of the eternal and unremitting Female Will. In the new poem, Vala embodies this eternal female power, and since she is the protagonist, the poem is named after her. She desires to control the whole of the universal Man; she is not satisfied with her place in the scheme of things. She sets out to seduce him as he walks in the garden (a story several times retold); she stirs up trouble between Luvah and Urizen, and even though, in his resulting sickness, the Man gives authority not to her but to Urizen, who suppresses her immediately, she continues to burn underground, like a heath fire. She bursts out in VII, and achieves domination in VIII - a domination only overcome when the Man himself, in a last burst of energy, reasserts his own authority in IX, and all are redeemed. Part of the legend is the disintegration of the whole human personality into sexual forms (through which female dominion is increased); Enion drives away her counterpart, Tharmas, whose form degenerates and becomes our world of space and time. As Enion sits regarding this world, a new male creature arises from its rocks - "her own Created Phantasm" (del. from p.4: Erdman ’65 p.471) and from their sexual union - marked by passions not of love and delight, but of hostility and anguish - she becomes pregnant and gives birth to malicious twins Los and Enitharmon, the Adam and Eve who wander in this new fallen world.</p>
+                    <p>But Blake’s concepts, as always, evolved. He came to appreciate the symmetrical pattern of four Zoas, now set out in the opening lines of the poem (3:4ff), and this required some reorganisation of the beginning of the poem. There were to be four "Zoas". In the perfection of Eternity they balanced one another; evil began when the balance failed. Whereas it did not matter in the earlier version that Los and Enitharmon were born of Enion, their appearance as creatures of the fallen creation now creates a problem, since the they are forms of Urthona, who is "brother" to Tharmas-and-Enion. How can they be born of Enion? By writing the additional section, pp. 21a-19c, Blake has cleared up this anomaly. Messengers to the Council of God (a new element, but one that need not detain us) explain afterwards that Urizen and Luvah had fought for dominion, that Urthona was shattered - literally - by the sight, and a part of his spirit fled.</p>
+                    <p>"A portion of his life shrieking upon the wind she fled And Tharmas took her in pitying" (22b:21-22).</p>
+                    <p>From this pitying act arose Enion’s jealousy; shortly (lines 22-28) she has "embalmed" both male and female parts of Urthona, his spectre and emanation, in her body, ready to be born in the fallen world as Los and Enitharmon. Thus the pattern of four Zoas is satisfied, and the original story of pp.3-9 is reconciled to it.</p>
+                    <p>But the balance has changed somewhat. In the original plot, the first turning-point was the accession of Urizen to power on p.23; the preceding action was introductory and preparatory. But now the introduction is more complex. The sequence has now three parts - Vala’s first corruption of Man; the disintegration of balance among the Zoas; and the emergence of a new
+<pb id="p01-16" n="16"/>
+creation in which Los and Enitharmon wander. The first of these three parts becomes merely a vague memory, first recalled by Enitharmon (10:9ff); the second becomes the material or the First Night, and this is found partly on pp.3-9, partly on 21a-19c. The activities of Los and Enitharmon, leading to the introduction of Urizen to their fallen world (p.12) is the material of the Second, starting at 9:34. The turning-point is now the change of scene from Eternity to mortality. Where the action in the fallen world begins, the Second Night now begins. Blake has inserted a new line to open this Night -
+<q>
+"But the two youthful wonders wanderd in the world of Tharmas" (9:34).
+</q>
+The reader has been away from this scene for some time, during the narrative of pp. 21a-19c, and has to be reminded who the pair are; "they" of the deleted line is no longer clear.</p>
+                    <p>As I said at the outset, this is not a matter on which final certainty can be reached, as the evidence of the MS is that Blake himself was uncertain, rather than that he had decided, and it is not for us to make up his mind for him. Yet an editor who must make a single choice has, I would argue, as good grounds for making this arrangement as for reading the MS straight through as it is now bound, and this choice makes at least as good sense.</p>
+                    <p>(The second <corr type="emend">part of Professor Stevenson’s article, on the two Nights VII of <hi rend="u">The Four Zoas</hi>, will appear in our next issue.)</corr></p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <div1 id="BQ-01-3-0005">
+				<pb id="p01-16" n="16"/>
+                <div2>
+                    <head>
+                        <title type="main">5. <hi rend="u">Europe</hi> iii: 18</title>
+                    </head>
+                    <p>In examining copy H of <hi rend="u">Europe</hi> at the Houghton Library, I found that line 18 of the prefatory poem reads "The world, when every particle of dust breathes forth its joy." The third word is usually printed as "where," but there is only one other copy of <hi rend="u">Europe</hi> with this plate extant (K, in the Fitzwilliam Museum), and David Erdman informs me that he has examined his slide of the Fitzwilliam plate iii and found the reading to be "when." The line makes perfect sense as Blake etched it; in fact, "when" ties in more closely with the theme of the prefatory poem.</p>
+                    <p>At the beginning of the poem, Blake hears the Fairy singing about the senses: "Five windows light the cavern’d Man" etc. The fifth sense, touch, could admit man to the joys of Eternity if his hypocritical morality did not restrain him:
+					<q>
+					Thro’ one, himself pass out what time he please, but he will not;<lb/>
+					For stolen joys are sweet, &amp; bread eaten in secret pleasant.
+					</q>
+                    </p>
+                    <p>After the Fairy is caught by the poet, he promises to write a Blakean illuminated book ("on leaves of flowers") and to
+					<q>
+					shew you all alive<lb/>
+					The world, when every particle of dust breathes forth its joy.
+					</q>
+					</p>
+                    <p>Thus the line as Blake etched it continues the theme of erotic mysticism introduced earlier in the poem, "when" referring to the ecstatic moment at which the life of the universe is perceived.<gap type="emend"/></p>
+					<pb id="p01-18" n="18"/>
+                    <p>How "when" came to be printed for "where" in editions of Blake is not clear. Perhaps Ellis and Yeats started the tradition. Sampson (1905) printed "when," but Sloss and Wallis (1926) reverted to "where." Keynes printed "when" in 1925, but afterwards substituted "where"; the Erdman-Bloom edition has "where." There appears to be no textual authority for any reading but "when."</p>
+                    <byline>
+                        <docAuthor>MDP</docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <pb id="p01-17" n="17"/>
+            <div1 id="BQ-01-3-0006">
+                <head>
+                    <title type="section">
+                        <hi rend="u">DISCUSSION</hi></title>
+                </head>
+                <head>
+                    <title type="section-subtitle">
+                        "With intellectual spears, &amp; long winged arrows of thought."</title>
+                </head>
+                <head>
+                    <title type="main">Recognizing Mother</title>
+                </head>
+                <p>When one gets past the bad temper in John E. Grant’s "Recognizing Fathers", one finds that he has three basic objections to our <hi rend="u">PMLA</hi> article, "Pictorial and Poetic Design in Two Songs of Innocence".</p>
+                <list type="ordered">
+                    <item>
+                        <p>
+                            <label>1.</label> We used original copies of Blake’s songs rather than questionable facsimiles,</p>
+                    </item>
+                    <item>
+                        <p>
+                            <label>2.</label> we used the original Keynes bibliography rather than the Keynes-Wolf census, and</p>
+                    </item>
+                    <item>
+                        <p>
+                            <label>3.</label> we failed "to penetrate" the "clean-shaven disguise" of a masquerading busty female Christ.</p>
+                    </item>
+                </list>
+                <p>Since these charges form the basis for Grant’s cavalier dismissal of us as unqualified Blakeists and "would-be scholars", we shall try to treat them seriously. We began the study by examining an excellent set of Kodachrome slides made by the British Museaum from the Keynes "N" copy (Keynes, W Wolf "T" copy). These slides were used to make the pictures that were reproduced in <hi rend="u">PMLA.</hi> Later we were able to examine all three original copies of <hi rend="u">Songs of Innocence and Experience</hi> in the Department of Prints and Drawings of the British Museum (Macgeorge copy, Keynes "A", Keynes, Wolf "A"; Carey copy, Keynes "X", Keynes, Wolf "B"; and Evans copy Keynes "N", Keynes, Wolf "T") and the posthumous (1831-1832) uncolored copy in the British Museum Reading Room (Keynes Posthumous copy <hi rend="u">a</hi>, Keynes, Wolf posthumous copy "a"). We leave it to others to judge whether we acted reasonably to verify findings made from a study of excellent color transparencies by seizing the opportunity to check them against the originals instead of relying on admittedly poor facsimiles. (We refer to Grant’s own admission of the dubious reliability of the facsimiles and the microfilmssee especially his note 2). Our reference to Keynes "Z" was based on one of those poor facsimiles in Keynes’ <hi rend="u">A Study of the Illuminated Books of William Blake, Poet, Printer, Prophet.</hi>
+                </p>
+                <p>The original Keynes bibliography is everywhere available. The Keynes, Wolf census was printed in an edition of four hundred copies and has long been unavailable to the general reader.</p>
+                <p>The real nub of Grant’s paper, however, is the last charge; namely, that we did not penetrate Christ’s disguise. In our original article we gave full consideration to those critics who interpreted the figure in LBf to be God or Christ. The figure is "clearly a female figure". We can not seem to get by that fact. We conceded that her face had a resemblance to the face of Christ. The illustration shows the child and a haloed mother <hi rend="u">after</hi> the restoration by God. Our suggestion of the interpenetration of the divine in the human seems to us the only plausible explanation, stemming from our discussion of the <hi rend="u">integral</hi> relationship of poems to illustrations. Yet Grant’s objections are based solely on what he considers to be reliable iconographic evidence. By ignoring the total context of our argument, he distorts the point of our essay.</p>
+                <p>Grant’s iconographic evidence at no point seriously challenges our interpretation. As evidence of Blake’s conception of Christ as "busty", he offers Schiavonetti’s engraving of Blake’s first illustration of <hi rend="u">The Grave</hi>, and even admits that "Schiavonetti’s engraving stands between Blake’s conception and the reader." Grant further questions our identification of the figure at the right of the text in LBf as an angel by pointing to the apparent absence of wings on the same figure in the facsimile of Keynes "Z" and the microfilm of "copy AA".</p>
+                <pb id="p01-18" n="18"/>
+                <p>In the four British Museum copies, the figure in question is clearly an angel with wings. In fact, in the posthumous, uncolored volume it is obvious that the wings were etched on the plate before the color was added. If Grant is willing to generalize from the facsimiles of copies Z and AA and conclude that the figure must be the mother (although it is in no sense clear how he can justify identifying that figure as earthly female as distinct from angelic being) about to take over, is he not falling into the very error that he attributes to us; namely, generalizing from too limited evidence?</p>
+                <p>Where then does such criticism as Grant offers lead us? Are we to be reduced to countering four winged angels to two figures whose backs are hidden, or a vaudeville Christ who sometimes appears without a beard to a conventional Christ who sometimes appears with a beard, or Blake’s conception of busts to Schiavonetti’s? Surely the aim of scholarship tends to get lost amidst such carping considerations. We all too readily admit that we have much to learn about Blake’s complex art--both from Blake and even from John E. Grant--but we doubt if knowledge is greatly advanced by such arguments as those that have been presented in these pages.</p>
+                <byline>
+                    <docAuthor>Thomas E. <name>Connolly</name>
+                    </docAuthor>
+                </byline>
+                <byline>
+                    <docAuthor>George R. <name>Levine</name>
+                    </docAuthor> State University of New York Buffalo, New York</byline>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_01">
+        <body>
+            <pb id="p01-18" n="18"/>
+            <div1 id="BQ-01-3-0007">
+                <head>
+                    <title type="section">
+                        <hi rend="u">QUERY</hi>
+                    </title>
+                </head>
+                <p>Martin Butlin (The Tate Gallery, London, SW1) asks for "information about the present whereabouts of 'The Lute Player', with a drawing of a profile of a man on the back, sold 15th July, 1959 at Sotheby’s (lot 52), bought by Jacob Schwartz and almost certainly now in the United States. It may have been given by Mr. T. E. Hanley to some educational body."</p>
+            </div1>
+        </body>
+    </text>
