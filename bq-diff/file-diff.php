@@ -60,8 +60,8 @@ $start_time = gettimeofday(true);
 	
 
 	// limit input
-	$from_text = substr($from_text, 0, 1024*100);
-	$to_text = substr($to_text, 0, 1024*100);
+	$from_text = substr($from_text, 0, 1024*200);
+	$to_text = substr($to_text, 0, 1024*200);
 
 	// ensure input is suitable for diff
 	$from_text = mb_convert_encoding($from_text, 'HTML-ENTITIES', 'UTF-8');
