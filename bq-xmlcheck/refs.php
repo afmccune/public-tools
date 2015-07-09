@@ -40,7 +40,7 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['refTargets'] = $FullXML->xpath('//text//ref/@target'); // array
 					$fn_t['refTargetsUnique'] = array_unique($fn_t['refTargets']); // array
-					$fn_t['refRend'] = $FullXML->xpath('//text//ref/@rend'); // array
+					$fn_t['refN'] = $FullXML->xpath('//text//ref/@n'); // array
 					
 					$fn_t['errors'] = array();
 					
@@ -49,8 +49,8 @@
 					if($discrepancy > 0) {
 						$targetsDiff = implode(', ', array_unique(array_diff_assoc($fn_t['refTargets'], $fn_t['refTargetsUnique'])));
 						$fn_t['errors'][] = 'Multiple refs for a single note: '.$targetsDiff;
-						if(count($fn_t['refRend']) > 0) {
-							$fn_t['errors'][] = 'Refs with a @rend attribute: '.count($fn_t['refRend']).' out of '.$discrepancy.' extra refs';
+						if(count($fn_t['refN']) > 0) {
+							$fn_t['errors'][] = 'Refs with a @n attribute: '.count($fn_t['refN']).' out of '.$discrepancy.' extra refs';
 						}
 					}
 
