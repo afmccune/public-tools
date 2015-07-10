@@ -59,7 +59,7 @@
 					
 					$fn_t['errors'] = array();
 					if(count($fn_t['table-images']) > 0) {
-						$fn_t['errors'][] = 'Image(s) in tables.';
+						$fn_t['errors'][] = 'Image(s) in tables: '.count($fn_t['table-images']);
 					} else {
 						//echo '<p>'.$fn_t['file'].': No images in tables.</p>';
 					}
