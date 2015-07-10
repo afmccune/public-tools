@@ -56,10 +56,14 @@
 
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['table-images'] = $FullXML->xpath('//text//table//figure'); // array
+					$fn_t['widths'] = $FullXML->xpath('//text//table//figure/@width'); // array
+					$fn_t['heights'] = $FullXML->xpath('//text//table//figure/@height'); // array
 					
 					$fn_t['errors'] = array();
 					if(count($fn_t['table-images']) > 0) {
+						$w_h = count($fn_t['widths']) + count($fn_t['heights']);
 						$fn_t['errors'][] = 'Image(s) in tables: '.count($fn_t['table-images']);
+						$fn_t['errors'][] = 'Number of image widths/heights: '.$w_h;
 					} else {
 						//echo '<p>'.$fn_t['file'].': No images in tables.</p>';
 					}
