@@ -52,6 +52,8 @@
 						if(count($fn_t['refN']) > 0) {
 							$fn_t['errors'][] = 'Refs with a @n attribute: '.count($fn_t['refN']).' out of '.$discrepancy.' extra refs';
 						}
+					} else if(count($fn_t['refN']) > 0) {
+						$fn_t['errors'][] = 'Refs with a @n attribute: '.count($fn_t['refN']).' but no multiple refs';
 					}
 
 					$docsXml[] = $fn_t;
