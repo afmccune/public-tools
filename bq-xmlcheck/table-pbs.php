@@ -13,7 +13,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Checking for images inside tables</h1>
+							<h1>Checking for page breaks inside tables</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -37,15 +37,15 @@
 					$fn_t['fileSplit'] = $fileParts[2];
 
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
-					$fn_t['table-images'] = $FullXML->xpath('//text//table//figure'); // array
-					$fn_t['widths'] = $FullXML->xpath('//text//table//figure/@width'); // array
-					$fn_t['heights'] = $FullXML->xpath('//text//table//figure/@height'); // array
+					$fn_t['table-pbs'] = $FullXML->xpath('//text//table//pb/@n'); // array
 					
 					$fn_t['errors'] = array();
-					if(count($fn_t['table-images']) > 0) {
-						$w_h = count($fn_t['widths']) + count($fn_t['heights']);
-						$fn_t['errors'][] = 'Image(s) in tables: '.count($fn_t['table-images']);
-						$fn_t['errors'][] = 'Number of image widths/heights: '.$w_h;
+					if(count($fn_t['table-pbs']) > 0) {
+						$error = 'Page break(s) in tables: <br/>';
+						foreach($fn_t['table-pbs'] as $pb) {
+							$error .= '<a href="/bq/'.$fn_t['file'].'#p'.$pb.'" target="_blank">'.$pb.'</a><br/>';
+						}
+						$fn_t['errors'][] = $error;
 					} else {
 						//echo '<p>'.$fn_t['file'].': No images in tables.</p>';
 					}
