@@ -4,7 +4,8 @@
 	$pt = '';
 	
 	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? '' : '../../bq/';
-	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost/bq/';
+	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost:8888/bq/';
+	$base_url_local = 'http://localhost:8888/bq/';
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -26,6 +27,10 @@
 
         } else { return FALSE;}
     }
+    
+    function filecmp(array $a, array $b) {
+					return strcmp($a['file'], $b['file']);
+			}
 	?>
 	<body>
        <div id="outer">
@@ -44,7 +49,7 @@
 			$docsXml = array();
 			$issueSections = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($base_path."docs/") as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -72,7 +77,7 @@
 								$srcBase = $src.'.300.jpg';
 							}
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
-							$srcLocalLink = $base_url.'img/illustrations/'.$srcBase;
+							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
 							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBase;
 							if(file_exists($srcFull)) {
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
@@ -90,10 +95,12 @@
 					
 				}
 			}
+			
+			usort($docsXml, 'filecmp');
 						
 			for ($i=0; $i<count($docsXml); $i++) {
 				if(count($docsXml[$i]['errors']) > 0) {
-					print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+					print '<h4><a href="'.$base_url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
 					foreach($docsXml[$i]['errors'] as $error) {
 						print '<p>'.$error.'</p>';
 					}
