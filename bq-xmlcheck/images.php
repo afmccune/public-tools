@@ -3,6 +3,9 @@
 	<?php
 	$pt = '';
 	
+	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? '' : '../../bq/';
+	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost/bq/';
+	
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -31,7 +34,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Checking for errors</h1>
+							<h1>Checking for missing image files</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -54,7 +57,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($base_path.'docs/'.$fn_t['fn']); 
 					$fn_t['src'] = $FullXML->xpath('//text//figure/@n'); // array
 					
 					$fn_t['errors'] = array();
@@ -68,8 +71,8 @@
 							} else {
 								$srcBase = $src.'.300.jpg';
 							}
-							$srcFull = '../../bq/img/illustrations/'.$srcBase;
-							$srcLocalLink = 'http://localhost/bq/img/illustrations/'.$srcBase;
+							$srcFull = $base_path.'img/illustrations/'.$srcBase;
+							$srcLocalLink = $base_url.'img/illustrations/'.$srcBase;
 							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBase;
 							if(file_exists($srcFull)) {
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
