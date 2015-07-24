@@ -1,0 +1,303 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>001-01</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">
+                        <hi rend="i">Blake Newsletter</hi>
+                    </hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>June 15, 1967</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1967</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">01.1</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <date when="1967"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <front id="issue_01"/>
+        <body>
+            <pb id="p01-1" n="1"/>
+            <div1 id="cover">
+                <figure n="cover.001.01.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter<lb/>
+                        Number 1<lb/>
+                        June 15, 1967<lb/>
+                        The idea of having a Blake Newsletter seems to have sprung like<lb/>
+                        Leutha from the head of Satan; I don't know who can claim paternity.  The<lb/>
+                        need seemed suddenly obvious.  Much help was given in the early stages by<lb/>
+                        David Erdman, who called a meeting of Blake scholars at the last MLA<lb/>
+                        convention and who also sent out a preliminary announcement.  Gerald E.<lb/>
+                        Bentley, Jr. contributed valuable suggestions and prodding.  Robert<lb/>
+                        Whitehead sent a list of ongoing Blake projects.  There were encouraging<lb/>
+                        letters and contributions from Blake scholars in seven different countries.<lb/>
+                        This modest first issue is the result, and it is now up to you whether<lb/>
+                        the project deserves to be continued.<lb/>
+                        As far as editorial policy is concerned, I think the Newsletter<lb/>
+                        should be just that -- not an incipient journal.  (Enough are born, even<lb/>
+                        too many, without these arts).  It will include announcements, queries,<lb/>
+                        controversy, and notes of special interest to Blake scholars -- all of an<lb/>
+                        informal nature (a "family wall-newspaper," as David Erdman puts it).<lb/>
+                        Regarding work-in-progress, my own inclination is to report on ongoing<lb/>
+                        editorial and bibliographical projects, but not on critical or scholarly<lb/>
+                        studies before they are completed.  In that way, I hope to avoid the<lb/>
+                        suggestion of "reserving" subjects.  However, I'd like to have readers'<lb/>
+                        views on this, as well as on other subjects.<lb/>
+                        I'll undertake to publish issues of the Newsletter on October 15,<lb/>
+                        January 15, and April 15.  The subscription price will be two dollars,<lb/>
+                        which will cover the first four issues, including this one.  New readers<lb/>
+                        will receive back issues as part of their subscription -- any other<lb/>
+                        arrangement would involve book-keeping complications that I'm not able to<lb/>
+                        undertake.<lb/>
+                        The second issue of the Newsletter will be dedicated to S. Foster<lb/>
+                        Damon.  Former students and associates of Professor Damon are especially<lb/>
+                        invited to contribute.<lb/>
+                        The BLAKE NEWSLETTER is edited by Morton D. Paley, Dept. of English,<lb/> 
+                        University of California, Berkeley, Calif. 94720.  Subscription price:<lb/>
+                        two dollars for one year (four issues).  Please make checks payable to<lb/>
+                        Morton D. Paley.</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-01-1-0001">
+                <p>The idea of having a Blake Newsletter seems to have sprung like Leutha from the head of Satan; I don’t know who can claim paternity. The need seemed suddenly obvious. Much help was given in the early stages by David Erdman, who called a meeting of Blake scholars at the last MLA convention and who also sent out a preliminary announcement. Gerald E. Bentley, Jr. contributed valuable suggestions and prodding. Robert Whitehead sent a list of ongoing Blake projects. There were encouraging letters and contributions from Blake scholars in seven different countries. This modest first issue is the result, and it is now up to you whether the project deserves to be continued.</p>
+                <p>As far as editorial policy is concerned, I think the Newsletter should be just that -- not an incipient journal. (Enough are born, even too many, without these arts). It will include announcements, queries, controversy, and notes of special interest to Blake scholars -- all of an informal nature (a "family wall-newspaper," as David Erdman puts it). Regarding work-in-progress, my own inclination is to report on ongoing editorial and bibliographical projects, but not on critical or scholarly studies before they are completed. In that way, I hope to avoid the suggestion of "reserving" subjects. However, I’d like to have readers’ views on this, as well as on other subjects.</p>
+                <p>I’ll undertake to publish issues of the Newsletter on October 15, January 15, and April 15. The subscription price will be two dollars, which will cover the first four issues, including this one. New readers will receive back issues as part of their subscription -- any other arrangement would involve book-keeping complications that I’m not able to undertake.</p>
+                <p>The second issue of the Newsletter will be dedicated to S. Foster Damon. Former students and associates of Professor Damon are especially invited to contribute. <note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Dept. of English, University of California, Berkeley, Calif. 94720. Subscription price: two dollars for one year (four issues). Please make checks payable to Morton D. Paley.</note>
+                </p>
+            </div1>
+            <pb id="p01-2" n="2"/>
+            <div1 id="BQ-01-1-0002">
+                <head>
+                    <title>
+                        <hi rend="u">NEWS</hi>
+                    </title>
+                </head>
+                <p>
+                    <hi rend="u">TLS</hi> for April 7, 1967 announced the discovery of a Blake sketchbook at Penkill Castle, Ayrshire, by Mr. M. D. E. Clayton-Stamm. The sketchbook is described as "containing a series of ‘visionary heads’ . . . interspersed with drawings by his friend John Varley" and as dated 1819. Six heads are reproduced in the article: Harold killed at the Battle of Hastings, Helen of Troy, Job, Richard Coeur de Lion, "the original drawing for the ‘Ghost of a Flea’" (which <hi rend="u">TLS</hi> finds reminiscent of Jiminy Cricket!) and a head "believed to be Socrates." (However, the figure is shown wearing armor and the face has neither the snub nose nor the wide forehead which led Blake to identify Socrates’ physiognomy with his own). Other drawings mentioned in the article are "the bedchamber of the Empress Maud," Milton’s first wife, and Solomon. Two "spiritual communications" made to Blake are quoted.</p>
+                <p>Mr. Martin Butlin writes that the sketchbook was once owned by William Bell Scott, who described it in <hi rend="u">The Portfolio</hi> in 1871 but erred in the size of the leaves, which are approximately 6 ⅛ × 8 inches. 20 of the original 66 leaves have been removed; so far Mr. Butlin has traced 5 or 6 of these. The sketchbook also includes some landscape drawings by Varley. It is now at the Tate Gallery, where it will be cleaned and then reproduced in facsimile with notes by Mr. Butlin. The facsimile will be published by William Heineman, Ltd., 15-16 Queen Street, London W.1.</p>
+                <p>Professor G. E. Bentley, Jr. writes that his edition of <hi rend="u">Tiriel</hi> is about to be published by the Clarendon Press. It includes "all the designs I could locate (about three are still missing), some of which do not appear to have been reproduced previously; a facsimile of the MS; a transcript of the MS; and an introductory essay with all the relevant facts I could locate and a few speculations. It will be the first time the illustrations have been printed with the poem, perhaps the first time it has been read with the illustrations since Blake’s death, the first commentary systematically taking the designs into account, I believe, and the last of Blake’s illuminated works to be reproduced publicly as Blake evidently originally intended it to appear."</p>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="u">Recent Blake publications</hi>:</title>
+                    </head>
+                    <p>
+                        <hi rend="u">1966</hi>
+                    </p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>1.</label> Adams, Hazard Review of Alicia Ostriker’s <hi rend="u">Vision and Verse in William Blake, Journal of Aesthetics and Art Criticism</hi>, xxv (Fall, 1966), 107-108.</p>
+                        </item>
+                        <pb id="p01-3" n="3"/>
+                        <item>
+                            <p>
+                                <label>2.</label> Adlard, J. "Tasso and the cock and the lion in Blake’s ‘Milton’", <hi rend="u">Symposium</hi>, XX (Spring, 1966), 5-6.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>3.</label> Review of G. Keynes’ book: <hi rend="u">William Blake; Dichter, Drucker, Prophet, Werk</hi>, LIII (October, 1966), sup. 255.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>4.</label> Bentley, G. E. jr. "Printing of Blake’s ‘America,’" <hi rend="u">Studies in Romanticism</hi>, VI (August, 1966), 45-57.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>5.</label> Bindman, D. "Dating of Blake’s Marginalia to Reynolds," <hi rend="u">Burlington Magazine</hi>, CVIII (October, 1966), 522.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>6.</label> Butlin, M. Review of J. H. Hagstrum’s <hi rend="u">William Blake: Poet and Painter, Burlington Magazine</hi>, CVIII (February, 1966), 101-2.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>7.</label> Cormack, M. "Fitzwilliam Museum’s Collection of Drawings," <hi rend="u">Apollo</hi> (ns), LXXXIII (February, 1966), 131.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>8.</label> Grant, J. E. Discussion of F. C. Robinson’s article "Verb Tense in Blake’s ‘The Tyger,’" (<hi rend="u">PMLA</hi>, Dec. ’64), <hi rend="u">PMLA</hi>, LXXXI (December, 1966), 596-603.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>9.</label> Halliburton, D. G. "Blake’s French Revolution: the Figura and Yesterday’s News," <hi rend="u">Studies in Romanticism</hi>, V (Spring, 1966), 158-68.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>10.</label> Paley, M. D. "Tyger of Wrath," <hi rend="u">PMLA</hi>, LXXXI (December, 1966), 540-551.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>11.</label> Preston, K. "Note on Blake Sources," <hi rend="u">Apollo</hi> (ns), LXXXIV (November, 1966), 384-7.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>12.</label> Rose, E. J. "Visionary forms Dramatic: Grammatical and Iconographical Movement in Blake’s Verse and Designs," <hi rend="u">Criticism</hi>, VIII (Spring, 1966), 111-25.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>13.</label> "Circle of the Life of Man and the Sea of Time and Space," <hi rend="u">Conoisseur</hi>, CLXL (January, 1966), 47. (Reproductions)</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>14.</label> Weeks, D. Review of Bentley and Nurmi: <hi rend="u">Blake Bibliography, Journal of Aesthetics and Art Criticism</hi>, XXIV, no. 3 (Spring, 1966), 455-6.</p>
+                        </item>
+                        <pb id="p01-4" n="4"/>
+                        <item>
+                            <p>
+                                <label>15.</label> Whistler, L. Review of ‘Book of Thel,’ facsimile, <hi rend="u">Connoisseur</hi>, CLXI (April, 1966), 267.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>16.</label>
+                                <hi rend="u">TLS</hi> Review of Raymond Lister’s <hi rend="u">Beulah to Byzantium: A Study of Parallels in the Works of W.</hi>
+                                <hi rend="u">B.</hi>
+                                <hi rend="u">Yeats, William Blake, Samuel Palmer, and Edward Calvert</hi>, no. II in the Dolmen Press Yeats Centenary Papers, <hi rend="u">TLS</hi> (10 February, 1966), p. 99.</p>
+                            <p>
+                                <hi rend="u">1967</hi>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>17.</label> Connolly, Thomas E. and George Levine "Pictorial and Poetic Design in Two Songs of Innocence," <hi rend="u">PMLA</hi>, LXXXII (May, 1967), 257-264.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>18.</label> Goldman, Arnold Review of Bentley and Nurmi: <hi rend="u">Blake Bibliography, Notes and Queries</hi>, XIV (January, 1967), 35-36.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>19.</label> Harrold, William "Blake’s ‘Tyger’ and Vaughn’s ‘Cock-Crowing,’" <hi rend="u">Notes and Queries</hi>, XIV (January, 1967), 20-21.</p>
+                        </item>
+                    </list>
+                    <p>Professor Michael Tolley of The University of Adelaide is the author of a note on "The Auckland Blakes" ("an interesting copy of <hi rend="u">America</hi> bound with <hi rend="u">Europe</hi> held in the Auckland Public Library") in the January issue of <hi rend="u">Biblionews</hi> (Australia).</p>
+                    <p>Mr. Martin Butlin, Assistant Keeper of The Tate Gallery (London, S.W. 1), writes on the progress of his catalogue raisonné: "It is to include all Blake’s paintings, watercolours, drawings and hand coloured engravings. The format and treatment are to be on the lines of my 1957 catalogue of the Tate’s Blakes. It is difficult to say how many totally new discoveries it will include as, though no complete catalogue has been published before, a very full skeleton of one was prepared by Sir Geoffrey Keynes and Ruthven Todd. This has proved invaluable to me and although I have found a few extra items most of my work has been concerned with completing the history of each item, which has in fact often reduced two or more entries to a single one. As for a completion date, this always seems, like a mirage, to be about two years ahead. It would be a great help to me if any readers who come across Blakes with whose owners I have not been in touch could let me know."</p>
+                    <pb id="p01-5" n="5"/>
+                    <p>The Blake Trust facsimile of <hi rend="u">Milton</hi> has been published by The Trianon Press. The Rosenwald copy was used for the facsimile, with the "Jerusalem" page added from the British Museum copy. Pure rag paper was specially manufactured to match that of Blake, with his monogram added as a watermark in each leaf. Reproduction is by the collotype and hand-stencil process, in up to twenty colors. There is a description and bibliographical statement by Sir Geoffrey Keynes. The edition is limited to 400 numbered copies for sale. Price 48 gns.</p>
+                    <p>Mr. Arnold Fawcus, publisher of the Trianon facsimiles, writes that "since our Blake Trust facsimile of the <hi rend="u">Songs of Innocence and of Experience</hi> is out of print, The Trianon Press is preparing a new edition in high quality 6-8 colour offset which should be within the means of all Blake lovers -- about $16.50 until December 25 and $20 after that. It will contain reproductions of the illuminated poems, with their text in letter-press on the opposite page, a commentary on each poem and a splendid introduction by Sir Geoffrey Keynes. It will be published in the States by the Orion Press, distributors Grossman Publishers, and in England by McGibbon &amp; Kee."</p>
+                    <p>There was an exhibition of Blake’s illuminated books at the Metropolitan Museum of Art, New York, from April 5 until May 30. The Mellon copy of <hi rend="u">Jerusalem</hi> was among the works displayed. The exhibition, "William Blake: Poet, Printer, and Prophet, "also included some original sketches, biographical memorabilia, and the only surviving fragment of a copper plate made by Blake in the relief-etched process. It was organized by Mr. Arnold Fawcus for the Blake Trust; it was previously shown at the Tate Gallery and at the National Gallery in Washington. A commemorative handbook with 26 colored plates, a study of Blake’s life and work by Sir Geoffrey Keynes, and a foreword by Mr. Lessing J. Rosenwald, is available from the Metropolitan Museum for $3.00.</p>
+                    <p>Professor Hazard Adams (University of California, Irvine) is going to edit the Rinehart paperback edition of Blake. He invited suggestions from Blake scholars as to what should be included in it. Professor Adams is also going to do a commentary on <hi rend="u">Jerusalem</hi> as an appendix to the book.</p>
+                    <pb id="p01-6" n="6"/>
+                    <p>Mr. William Wells, Keeper of the Burrell Collection (Glasgow Art Gallery and Museum), has written a monograph on Blake’s "Heads of the Poets." "It will comprise an introductory essay, followed by a catalogue of the Heads, discussing them in relation to the contents of Hayley’s library and the very different artistic and literary view points of the patron and artist involved in their production. In addition to the Heads themselves, the reproductions will include their engraved sources and other comparative material." The monograph will be published by the Manchester City Art Gallery, the present owner of the eighteen canvasses. Mr. Wells is a former member of the Gallery’s staff.</p>
+                    <p>Mr. Kerrison Preston writes that his Blake Library is now open to the public at Westminster Public Library, 35 St. Martin’s Street, London W.C.2. "It is just off Leicester Square, and not very far from the site of Blake’s birthplace in Soho, where the Westminster City Council has recently erected a lofty building with a sculptured memorial to Blake in the entrance. The new building is called <hi rend="u">William Blake House.</hi>"</p>
+                    <p>Mr. Michael Curtis Phillips (71 Fore Street, Topsham, Devon) is working on a fully annotated text of <hi rend="u">Poetical Sketches</hi>, together with a detailed critical exposition and photographic reproduction in facsimile of a copy of the poems corrected in Blake’s hand. He welcomes suggestions.</p>
+                    <p>A New edition of <hi rend="u">Tracks in the Snow</hi> by Ruthven Todd will appear shortly. It will include a chapter on Blake’s techniques of etching which did not appear in the first edition.</p>
+                    <p>Professor John E. Grant (University of Iowa) suggests that we include in future issues of the Newsletter:</p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>1.</label> Detailed collations of Blake Trust facsimiles and the original copies.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>2.</label> Listings of photographs or negatives that Blakeists now have and are willing to make available to others.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>3.</label> Articles devoted to a description of the basic referents of every design in one illuminated book together with an indication of the textual or other grounds for each.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>4.</label> Titles and synopses of papers not yet placed for publication and of articles completed and seeking publication or awaiting publication.</p>
+                        </item>
+                    </list>
+                    <p>(My own view regarding #4 is given on p. 1, but I’d be glad to have readers’ opinions, as well as contributions suggested by 1-3.</p>
+                    <byline>
+                        <docAuthor>MDP)</docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+            <pb id="p01-7" n="7"/>
+            <div1 id="BQ-01-1-0003">
+                <head>
+                    <title>
+                        <hi rend="u">NOTES</hi>
+                    </title>
+                </head>
+                <p>From Professor W. H. Stevenson, University of Ibadan, Nigeria:</p>
+                <list type="ordered">
+                    <item>
+                        <p>
+                            <label>1.</label>
+                            <hi rend="u">Dura</hi> (<hi rend="u">Jerusalem</hi> 90:62) is probably <hi rend="u">Jura.</hi> The Gaelic spelling is <hi rend="u">Dhura</hi>; the island is famous for its rocky sea-caves.</p>
+                    </item>
+                    <item>
+                        <p>
+                            <label>2.</label> No-one seems to have noticed that the Countess of Egremont to whom Blake dedicated his <hi rend="u">Vision of the Last Judgement</hi> did not exist, according to the Peerages and standard biographies! In fact, the Earl married secretly a woman he had lived with for some time. She was not publicly acknowledged as Countess, but she did exist.</p>
+                    </item>
+                    <item>
+                        <p>
+                            <label>3.</label>
+                            <hi rend="u">Cratelos</hi> (Erdman-Bloom p. 493, Keyens ’57 p. 555) should read <hi rend="u">Cratetos</hi>: the verses are a translation from the Creek of Crates of Thebes, via Stobaeus’ Anthology.</p>
+                    </item>
+                </list>
+                <p>From Robert P. Kolker, Columbia University:</p>
+                <p>In his annotations to the Dedication to the King section of Reynold’s <hi rend="u">Discourses</hi>, Blake parodies a couplet which Malone attributes to Pope. The couplet is ‘They led their wild desires to woods and caves,/ And thought that all but SAVAGES were slaves.’ Blake’s parody is ‘When France got free Europe ‘twixt Fools &amp; Knaves/ Were Savage <corr type="emend">first</corr> to France, &amp; after; Slaves.’ Both Keynes and Erdman keep Malone’s original attribution which is, as it turns out, incorrect. The couplet is not from Pope, but from Dryden’s <hi rend="u">Absalom and Achitophel</hi>, lines 55-56.</p>
+                <p>From Mrs. Suzanne R. Hoover, Wellesley College, Wellesley, Mass.:</p>
+                <p>References to Blake in print in the 1790’s are so rare that virtually any item, however slight, is of interest to us today. It should therefore be noted that the <hi rend="u">British Critic</hi> for November 1796 (VIII, 536-540) reviewed a work with engravings by Blake: Captain John Steadman’s <hi rend="u">Narrative, of a five years</hi>’ <hi rend="u">expedition, against the Revolted Negroes of Surinam.</hi> (Another review, of an Englished edition of Burger’s <hi rend="u">Leonore</hi> with three plates by Blake, appeared in the <hi rend="u">British Critic</hi> two months earlier and is listed in the Bentley and Nurmi <hi rend="u">Blake Bibliography</hi>, pp. 5, 230).</p>
+                <p>Blake had engraved at least thirteen, and possibly sixteen, of Steadman’s eighty-six designs for his book. (For the attribution of three unsigned plates to Blake, see Bentley and Nurmi, p. 159). The reviewer for the November, 1796, <hi rend="u">British Critic</hi> was on the whole pleased with the text, but thought the plates "very unequal; some would do honour to the most elegant, whilst others would disgrace the meanest, performance." As in
+<pb id="p01-8" n="8"/>
+the September review, Blake’s work was specifically criticised, although his name was never mentioned. For example, the reviewer thought that
+<q>
+the representations of the negroes suffering under various kinds of torture, might well have been omitted, both in the narrative, and as engravings, for we will not call them embellishments to the work.
+</q>
+                </p>
+                <p>Blake could have taken this criticism as being in part directed against him. Among the plates bearing his name were "A Negro hung alive by the Ribs to a Gallows," and "Flagellation of a Female Samboe Slave." He did not sign, but probably did engrave, the plate entitled "The Execution of Breaking on the Rack."</p>
+                <p>Further along in his article on Stedman the reviewer pronounced upon the quality of the plates. He noted five of them, by title, for their bad drawing or faulty execution. Among them was Blake’s witty engraving of "The skinning of the Aboma Snake, shot by Cap. Stedman," surely one of the best plates in the book. "The snake in the plate," observed the reviewer,
+<q>
+must be greatly out of proportion with respect to the man. In the narrative it is expressly affirmed to be about the thickness of the boy Quaco; but in the plate it far exceeds that of the man David . . .
+</q>
+(Elsewhere, one is pleased to find, the quality of the plate did not go unrecognized; Bentley and Nurmi [p. 160] note that an article on Stedman in the <hi rend="u">London Review</hi> singled out the same plate as "a very good print.")</p>
+                <p>The <hi rend="u">British Critic</hi>, founded in 1793, was from the first devoted to High Church religion and Tory politics; it regularly failed to take quite seriously contemporary experiments in literature and art. We would not expect it to have championed Blake. And yet, the magazine’s very conventionality and inability to comprehend change led to some curious "happenings": for example, an approving, if rather bored, review of <hi rend="u">Lyrical Ballads</hi>, simply because the reviewer was not able to find in the volume "any offensive mixture of enmity to present institutions, except in one or two instances, which are so unobtrusive as hardly to deserve notice." The same affection for "present institutions" led to a violent attack by the same magazine on George Cumberland’s outspokenly anti-Academic <hi rend="u">Thoughts on Outline</hi> -- once again, with engravings by Blake. But more of this another time.</p>
+            </div1>
+            <pb id="p01-9" n="9"/>
+            <div1 id="BQ-01-1-0004">
+                <head>
+                    <title>
+                        <hi rend="u">QUERIES</hi>
+                    </title>
+                </head>
+                <p>If the query is marked *, please send any answers to the Newsletter for publication.</p>
+                <p>From W. E. Stevenson:</p>
+                <p>*Why did the Druids stand in Anandale? (<hi rend="u">Milton</hi> 32:11, <hi rend="u">Jerusalem</hi> 63:1). There seems to be no Druidic traditions connected with the place, though it contains quite a number of pre-Roman forts.</p>
+                <p>*Who was Jack Hemp’s (Flaxman’s) parson? Flaxman is well-known as a Swedenborgian, but this does not seem to lead any further.</p>
+                <p>Paul Miner is doing some work on Blake’s star-moon symbolism and will appreciate comments and suggestions regarding this subject (1615 West 13th, Wichita, Kansas 67203).</p>
+                <p>From Mrs. Alicia Ostriker:</p>
+                <p>*How many courses in Blake (as opposed to the Romantics or the Eighteenth Century) are currently being given in colleges and universities here and in Canada?</p>
+                <p>From David V. Erdman:</p>
+                <p>*Are we all mad to have thought that the nightgowned adult leading the lost boy to his mother (in the illustration to "The Little Boy Found") is Jesus? In the May <hi rend="u">PMLA</hi> we are asked to see the leading adult as the Mother Herself -- with halo. Can we?</p>
+                <p>Dr. Erdman also invites readers to submit "notice of errors or bright ideas about emendation" for use in an eventual third printing of his edition of Blake. (New York Public Library, Fifth Avenue at Forty-second Street).</p>
+                <p>The Newsletter would like any fresh views on the dating of the two Nights VII of the <hi rend="u">Four Zoas.</hi>
+                </p>
+            </div1>
+        </body>
+    </text>
+</TEI.2>

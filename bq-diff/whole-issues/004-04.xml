@@ -1,0 +1,785 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>004-04</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">BLAKE NEWSLETTER 16</hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Spring 1971</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1971</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">04.4</biblScope>
+                        <biblScope unit="volume">4</biblScope>
+                        <biblScope unit="issue">4</biblScope>
+                        <respStmt>
+                            <resp>Executive Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Managing Editor</resp>
+                            <name>Morris Eaves</name>
+                            <resp>Associate Editor</resp>
+                            <name>Donald D. Ault</name>
+                            <name>Michael Phillips</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1971"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_04">
+        <front>
+            <pb id="p04-110" n="110"/>
+            <div1 id="cover">
+                <figure n="cover.004.04.bqscan" rend="file">
+                    <figTranscr>BLAKE NEWSLETTER 16</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-04-4-0001">
+                <p>The <hi rend="i">BLAKE NEWSLETTER</hi> is published quarterly under the sponsorship of the Department of English of the University of New Mexico. Support for bibliographical assistance is provided by the University of California, Berkeley.</p>
+                <p>Morton D. Paley, Executive Editor <hi rend="i">University of California, Berkeley</hi>
+                </p>
+                <p>Morris Eaves, Managing Editor <hi rend="i">University of New Mexico</hi>
+                </p>
+                <p>Donald D. Ault, Associate Editor <hi rend="i">University of California, Berkeley</hi>
+                </p>
+                <p>Michael Phillips, Associate Editor <hi rend="i">University of Edinburgh</hi>
+                </p>
+                <p>
+                    <hi rend="i">MANUSCRIPTS</hi> are welcome. They should be typed and documented according to the forms recommended in the <hi rend="i">MLA Style Sheet</hi>, 2nd ed., rev. (1970). Send two copies with a stamped, self-addressed envelope either to Morton D. Paley, Executive Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of California, Berkeley, California 94720, or to Morris Eaves, Managing Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of New Mexico, Albuquerque, New Mexico 87106.</p>
+                <p>
+                    <hi rend="i">SUBSCRIPTIONS</hi> are $3.00 for one year; invoiced, $4.00; overseas by air, $4.00 (U. S. currency if possible). Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Managing Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of New Mexico, Albuquerque, New Mexico 87106.</p>
+                <pb id="p04-111" n="111"/>
+                <table id="contents" rows="18" cols="2">
+                    <row>
+                        <cell>
+                            <hi rend="i">NEWS AND WORKS IN PROGRESS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Recent Blake Sales, British Blake News, Teaching Blake at Bucknell, Blake under the House, A Blake Symposium and a Blake Festival, A Catalogue Raisonne of Blake’s Book Illustrations, New Blake Music, Works in Progress</cell>
+                        <cell>112</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">NOTES</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>John E. Grant, Blake’s Designs for <hi rend="i">L’Allegro</hi> and <hi rend="i">Il Penseroso</hi>, Part I: A Survey of the Designs</cell>
+                        <cell>117</cell>
+                    </row>
+                    <row>
+                        <cell>Judith Rhodes, Blake’s Designs for <hi rend="i">L’Allegro</hi> and <hi rend="i">Il Penseroso</hi>: Thematic Relationships in Diagram</cell>
+                        <cell>135</cell>
+                    </row>
+                    <row>
+                        <cell>Roger R. Easson, Blake and the Contemporary Art Market</cell>
+                        <cell>137</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">REVIEWS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Thomas H. Helmstadter, on <hi rend="i">Blake’s Illustrations to the Poems of Gray</hi> by Irene Tayler</cell>
+                        <cell>140</cell>
+                    </row>
+                    <row>
+                        <cell>Robert Essick, on the reprinted facsimile of <hi rend="i">The Note-Book of William Blake Called the Rossetti Manuscript</hi> edited by Geoffrey Keynes</cell>
+                        <cell>142</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">DISCUSSION</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>John Beer, A Reply to Irene Chayes</cell>
+                        <cell>144</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">MINUTE PARTICULARS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Louis Middleman, "Bring out number, weight &amp; measure in a year of dearth"</cell>
+                        <cell>147</cell>
+                    </row>
+                    <row>
+                        <cell>John Adlard, "The Garden of Love"</cell>
+                        <cell>147</cell>
+                    </row>
+                    <row>
+                        <cell>Michael Phillips, "Blake’s Corrections in <hi rend="i">Poetical Sketches</hi>": A Forthcoming Supplement and the Britwell Court Library Copy</cell>
+                        <cell>148</cell>
+                    </row>
+                    <row>
+                        <cell>Ruthven Todd, The Bohn Catalogue and James Vine</cell>
+                        <cell>149</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">QUERY</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Arnold Fawcus, Early States of the <hi rend="i">Job</hi> Series</cell>
+                        <cell>150</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright © 1971 by Morton D. Paley and Morris Eaves</note>
+            </div1>
+        </front>
+        <pb id="p04-112" n="112"/>
+        <body>
+            <div1 id="BQ-04-4-0002">
+                <head>
+                    <title>
+                        <hi rend="b">NEWS AND WORKS IN PROGRESS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">RECENT BLAKE SALES</hi>
+                        </title>
+                    </head>
+                    <p>Warren Howell of John Howell-Books, San Francisco, writes that his firm recently secured copy P of the <hi rend="i">Songs</hi> for a private collector in the East. The Howell firm paid £12,000 for the copy.</p>
+                    <p>Mr. Howell also says that copy C of <hi rend="i">Urizen</hi> (see the last issue of the <hi rend="i">Newsletter</hi> [#15], pp. 69-70) was sold at Sotheby’s on 29 March 1971 for £24,000 (£27,000 according to <hi rend="i">The Times</hi>: see "British Blake News" below). The Howell firm was the underbidder. <hi rend="i">Poetical Sketches</hi> sold for £3800 to John Fleming of New York on behalf of The Pierpont Morgan Library.</p>
+                    <p>On June 15 the Blake-Varley Sketchbook was broken and sold page by page at Christie’s, with "Ghost of a Flea" most likely to win high-price honors. The drawings seem to have sold at about the prices expected. Robert Essick bought the "Head of the Dying King Harold Pierced by an Arrow" for $4065.60. Zeitlin &amp; Ver Brugge bought the standing archer.</p>
+                    <p>On June 24 Sotheby’s sold the pencil, sepia, and watercolor preliminary drawing for "Joseph Ordering Simeon to Be Bound" (in the Fitzwilliam Museum). The drawing was formerly in the possession of Mrs. B. Clarke. It measures 13 1/4 × 19 inches and is reproduced in the sale catalogue. The sale price of the drawing was $6720, considerably below the estimates.</p>
+                    <p>Our thanks to Robert Essick for the last two items. <note type="unreferenced" place="footer">
+                            <hi rend="i">For more on copy C of <hi rend="u">Urizen</hi> and on the breaking and selling of the Blake-Varley Sketchbook, see "British Blake News" just below. For more on the Britwell Court Library copy of <hi rend="u">Poetical Sketches</hi>, see "Blake’s Corrections in <hi rend="u">Poetical Sketches</hi>: A Supplement" by Michael Phillips, below in MINUTE PARTICULARS.</hi>
+                        </note>
+                    </p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">BRITISH BLAKE NEWS</hi>
+                        </title>
+                    </head>
+                    <p>From Michael Phillips, our Associate Editor at the University of Edinburgh:</p>
+                    <p>On 15 June 1971 the Blake-Varley Sketchbook is to be broken up and sold at auction at Christie’s. And Jeudwine, the purchaser of copy C of <hi rend="i">The First Book of Urizen</hi> at the Britwell Court Library sale at Sotheby’s 29 March 1971 (see above, and see the last issue of the <hi rend="i">Newsletter</hi> [#15], pp. 69-70), is also threatening to break up that work in order to enhance its re-sale value. The following account appeared in <hi rend="i">The Times</hi> Wednesday, 19 May 1971:
+<q>
+Scholars and art historians are becoming disturbed by the growing practice among dealers and owners of dismembering works of art for which they cannot find
+<pb id="p04-113" n="113"/>
+a market when intact.
+</q>
+                    </p>
+                    <p>Sketchbooks, hand-printed books, and even paintings are being "broken" or cut down for sale because they often fetch more nowadays as separate items than if sold whole.</p>
+                    <p>The latest case to arouse scholarly concern is that of the celebrated Blake-Varley sketchbook, which is due to be sold as 30 separate lots at Christie’s on June 15. This important William Blake work, which contains his famous "Ghost of a Flea" drawing and his visionary head of Job, was discovered four years ago in Scotland. It had been missing for nearly a century. It contains drawings by Blake’s close friend, the water-colourist Varley.</p>
+                    <p>It had to be "broken" for exhibition at the Tate and its owner, Mr. David Clayton-Stamm, decided to sell it as a series of separate drawings. These could fetch anything up to £50,000, considerably more than if sold intact.</p>
+                    <p>One Blake scholar, Miss Kathleen Raine, the poet, yesterday described the breaking and selling of the individual drawings separately as "shocking." She said it ought to be kept as one work. She was far less concerned about its being lost to Britain, as a result of auction, than about its being broken up. She hoped there might still be time to save it.</p>
+                    <p>Mr. Clayton-Stamm defends his decision on the ground that a facsimile edition of the sketchbook has been published, and also because small museums and collectors who could not otherwise afford to buy original works by Blake will now be in the market for them.</p>
+                    <p>Sir Geoffrey Keynes, another authority on Blake, said he thought it was already too late to save this particular work, since drawings had been removed in the past. However, he thought it would be "monstrous--like demolishing an historic house"--if Blake’s <hi rend="i">First Book of Urizen</hi>, another work by the visionary poet and artist on the market, were to be broken up. The owner, who paid £27,000 for it at Sotheby’s recently, has said that if he cannot find anyone to buy the complete book, hand-printed and hand-painted by Blake, it will have to be broken and sold in separate lots.</p>
+                    <p>These two examples, which highlight the question of breaking up, promise to bring to a head controversy over the ethics and wisdom of this growing practice.</p>
+                    <p>Hundreds of printed books containing hand-coloured engravings are being broken up by print sellers for framing and selling individually. The economics of book-selling make this an inevitable temptation. A book for which an antiquarian book dealer expects £50 may contain 50 colour plates which can be sold for anything up to £5 each.</p>
+                    <p>The result is that these books, once abundant, are rapidly disappearing from the market, making it increasingly difficult for specialized libraries and collectors to obtain them. Many antiquarian booksellers who feel strongly about the practise refuse to sell to known print sellers, except where the book is already deficient.</p>
+                    <p>I shall record the outcome of the sale at Christie’s of the Blake-Varley Sketchbook and the eventual fate of copy C of <hi rend="i">The First Book of Urizen</hi> in a forthcoming issue of the <hi rend="i">Newsletter.</hi>
+                    </p>
+                    <pb id="p04-114" n="114"/>
+                    <p>Recent publications in Britain of interest to Blake scholars include a splendidly illustrated and documented catalogue of the Tate Gallery collection of Blake drawings, paintings, and associated items. The Tate Gallery catalogue, substantially revised by Martin Butlin, together with the Fitzwilliam Museum catalogue of their Blake collection place at the disposal of Blake scholars accurate and detailed reference to two of the major Blake collections in Great Britain. A review of the Fitzwilliam Blake Exhibition and Catalogue will appear in the <hi rend="i">Newsletter.</hi>
+                    </p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">TEACHING BLAKE AT BUCKNELL</hi>
+                        </title>
+                    </head>
+                    <byline>From Professor <docAuthor>Michael <name>Payne</name>
+                        </docAuthor>, Bucknell University:</byline>
+                    <p>Bucknell is now offering a student-initiated course on Blake. Last fall two students decided they wanted to study Blake’s poetry more systematically than they had been able to do on their own. They approached ten other students and seven faculty members--four in the English Department, two in the History Department, and one in the Philosophy Department--all of whom agreed to participate in a semester-length seminar. The students, who are receiving credit for an Independent Projects course in the English Department, have handled the administration and organization of the course. The faculty members, who are receiving no teaching credit for the course, are learning to appreciate, among other things, the ironies of the first of the Proverbs of Hell: "In seed time learn, in harvest teach, in winter enjoy."</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">BLAKE UNDER THE HOUSE</hi>
+                        </title>
+                    </head>
+                    <p>According to a recent issue of <hi rend="i">The Book-of-the-Month Club News</hi>, Blake is the pivot on which the plot turns in <hi rend="i">Crawlspace</hi>, a novel by Herbert Lieberman:
+<q>
+Albert and Alice Graves, a retired, childless couple, live in a quaint 18th-century farmhouse in New England. One fall day they are visited by a personable young man from the fuel oil company, whom they ask to stay for dinner and who, before leaving, is allowed to borrow a rare edition of William Blake. A few weeks later, the young man, Atlee, returns without the Blake, but is allowed to borrow more books. Not long after that, Mr. Graves discovers that someone is living in a crude nest in the crawlspace under the house. He also finds some well-gnawed animal bones and the missing Blake. A call to the oil company reveals that Atlee has not worked there for months. . . . It all ends with the Gravesses living in terror of both Atlee and a marauding band of neighborhood toughs. There is murder, vandalism and finally a blood thirsty manhunt. Here, then, is a chilling story--a thoughtfully chilling story--in the tradition of <hi rend="i">Night Must Fall</hi> or even <hi rend="i">The Collector.</hi> Not at all recommended for retired couples who live on remote farms. [David W. McCullough]
+</q>
+                    </p>
+                </div2>
+                <pb id="p04-115" n="115"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">A BLAKE SYMPOSIUM AND A BLAKE FESTIVAL</hi>
+                        </title>
+                    </head>
+                    <byline>From <docAuthor>Roger and Kay <name>Easson</name>,</docAuthor> the Editors of <hi rend="i">Blake Studies</hi>:</byline>
+                    <p>The American Blake Foundation and the College of Arts and Sciences will sponsor their first Blake Symposium at Illinois State University in Normal, Illinois on 21 October 1971. The Symposium will include papers by Stuart Curran, Morris Eaves, John E. Grant, Edward J. Rose, Irene Tayler, and Joseph A. Wittreich, Jr., focusing upon Blake and Tradition.</p>
+                    <p>During the same week Illinois State University will host a Blake Festival beginning Monday, 18 October, with the opening of an exhibition of Blake prints and drawings collected in cooperation with the University of Kansas. The exhibition will close at the University in Normal on 17 November and will open in Lawrence at the University Museum of Art on 28 November, closing 18 December. A printed catalogue will be sold at the exhibition for $1. Readers of the <hi rend="i">Newsletter</hi> wishing copies of this exhibition catalogue may purchase them from the Editors of <hi rend="i">Blake Studies</hi> for $1.50. The catalogue will have about 15 plates and 14 pages of text.</p>
+                    <p>Other activities of the Festival will include a harmonium concert by Allen Ginsberg, a lecture by a major theologian, a production of <hi rend="i">The Marriage of Heaven and Hell</hi>, a readers’ theater production, a concert of Blake musical settings, and several other performances of note.</p>
+                    <p>For details of the Symposium and a full schedule of the Festival’s events, please write <hi rend="i">Blake Studies</hi>, Department of English, Illinois State University, Normal, Illinois 61761. All events are without charge. Your presence and participation in informal discussions are encouraged.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">A CATALOGUE RAISONNé OF BLAKE’S BOOK ILLUSTRATIONS</hi>
+                        </title>
+                    </head>
+                    <byline>From <docAuthor>
+                            <name>Roger</name>
+                        </docAuthor> and <docAuthor>Kay <name>Easson</name>:</docAuthor>
+                    </byline>
+                    <p>The American Blake Foundation is pleased to announce the pending publication of the first volume in its series of Blake reproductions (announced earlier this year in the <hi rend="i">Newsletter</hi>). Robert N. Essick and Roger R. Easson are editing a three volume work, <hi rend="i">A Catalogue Raisonné of William Blake’s Book Illustrations</hi>, collecting and reproducing Blake’s plates and giving a complete bibliographical description of the books in which they appear.</p>
+                    <p>The first of the three volumes is expected to go to press in October and should be ready for sale in late November or early December. This first volume will contain 124 plates, 59 of which have never been reproduced. Included are all plates from Young’s <hi rend="i">Night Thoughts</hi>, Hayley’s <hi rend="i">Ballads</hi> 1802 and 1805, Thornton’s <hi rend="i">Virgil, Royal Universal Family Bible</hi>, Wedgwood’s <hi rend="i">Catalogue, Prologue . . . Of Chaucer’s Pilgrims.</hi> This volume is a collection of all the plates Blake both designed and engraved that were published as parts of books during his lifetime.</p>
+                    <p>The two succeeding volumes will reproduce 257 plates, of which 165 have never been
+<pb id="p04-116" n="116"/>
+reproduced since the original publication. These two volumes will contain both the plates that Blake himself designed and another engraved, and those that another designed and Blake engraved. The plates will be presented in chronological order with complete bibliographic entries.</p>
+                    <p>The Foundation has decided to offer a special prepublication price of $7 for the first volume or $18 for the three volumes. Upon publication the volumes will be sold at $8 each or $24 for the three.</p>
+                    <p>To receive the prepublication price of $18 for the three volumes or $7 for the first volume, please send remittance to:<lb/>
+                        <lb/>
+                        <hi rend="i">The American Blake Foundation</hi>
+                        <lb/>
+Department of English<lb/>
+Illinois State University<lb/>
+Normal, Illinois 61761<lb/>
+                        <lb/>
+If invoicing is requested, please add $1 to the prepublication rate. European orders should add $1 for postage and handling.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">NEW BLAKE MUSIC</hi>
+                        </title>
+                    </head>
+                    <byline>From <docAuthor>Hazel <name>Pierce</name>,</docAuthor> Kearney [Nebraska] State College:</byline>
+                    <p>"Three Songs by Blake," music by Richard Willis, formed part of a program of new works presented before the National Association of Teachers of Singing at their 26th annual convention in Dallas this past December. The work was one of several commissioned by the American Institute of Musical Studies for special presentation at this meeting. Mr. Willis chose "To Morning," "The Blossom," and "Mad Song" to set to music for soprano, clarinet, percussion, and piano. At the Dallas performance the performers included: Julia Lansford, soprano, Arkansas State College; Jerry Brumbaugh, clarinet, Dallas, Texas; Fred Raulston, percussion, Southern Methodist University; and Gary Hercher, piano, Arkansas State College.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">WORKS IN PROGRESS</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>Kauvar, Elaine <name>M.</name>
+                        </docAuthor> (New York City): works on Blake’s botanical imagery and "Blake’s Bible."</byline>
+                    <p>Reisner, Thomas A. and Mary Ellen (Université Laval, Québec): "a research venture, subsidized by The Canada Council, into the dating of Blake’s <hi rend="i">Songs of Innocence and of Experience</hi> on the basis of script variation in the uncoloured copies. We hope to check our results against concurrent works of more or less settled date, particularly <hi rend="i">Thel, The Marriage, There Is No Natural Religion</hi>, etc., and to carry further the work begun by David Erdman in his recent article on suppressed passages."</p>
+                </div2>
+            </div1>
+            <pb id="p04-117" n="117"/>
+            <div1 id="BQ-04-4-0003">
+                <head>
+                    <title>
+                        <hi rend="b">NOTES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">JOHN E.</hi>
+                            <name>
+                                <hi rend="i">GRANT</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">UNIVERSITY OF IOWA</hi>
+                    </byline>
+                    <head>
+                        <title>Blake’s Designs for <hi rend="i">L’ALLEGRO</hi> and <hi rend="i">IL PENSEROSO</hi>, With Special Attention to <hi rend="i">L’ALLEGRO</hi> 1, "Mirth and Her Companions": Some Remarks Made and Designs Discussed at MLA Seminar 12: "Illuminated Books by William Blake," 29 December 1970</title>
+                    </head>
+                    <p>This version of my remarks has been somewhat tempered, amplified, and polished, though not quite as thoroughly as I should have liked. Because of the paucity of discussion devoted to this series of designs, however, it may be that quick publication of these observations will assist in maintaining dialogue about them. Several people found the diagram by Judith Rhodes, which I distributed at the Seminar and which accompanies my discussion here [see below], to be rather formidable, so she has added an explanation of what she wishes to bring out with this device.</p>
+                    <p>All the watercolors are well-reproduced in color in Adrian Van Sinderen, <hi rend="i">BLAKE, The Mystic Genius</hi> (Syracuse, 1949)--Bentley and Nurmi no. 2086. They are also available in satisfactory color slides from the Pierpont Morgan Library. Black-and-white reproductions are included in John Milton, <hi rend="i">Poems in English</hi>, ed. Geoffrey Keynes (London, 1926)--Bentley and Nurmi no. 314. They are also reproduced, much diminished, in E. J. Rose, "Blake’s Illustrations for <hi rend="i">Paradise Lost, L’Allegro</hi> and <hi rend="i">Il Penseroso</hi>: A Thematic Reading," <hi rend="i">Hartford Studies in Literature</hi>, 2 (Spring 1970), 40-67, an important article to which I refer. The second installment of my remarks will deal at some length with Blake’s first illustration of <hi rend="i">L’Allegro</hi>, "Mirth and Her Companions." Both engraved versions of this design are reproduced and discussed in Geoffrey Keynes, ed., <hi rend="i">The Engravings of William Blake: The Separate Plates</hi> (Dublin, 1956)--Bentley and Nurmi no. 533.</p>
+                    <p>While this article was in the final state of preparation, <hi rend="i">Blake’s Visionary Forms Dramatic</hi>, eds. David V. Erdman and John E. Grant (Princeton, 1970) was published. It includes my brief interpretation of the sixth design for <hi rend="i">L’Allegro</hi>, entitled "From Fable to Human Vision: A Note on the First Illustration" on pp. xi-xiv, and this design is satisfactorily reproduced in color, while design 12 is reproduced in black-and-white. Below I have also referred the reader to reproductions of some of the <hi rend="i">Night Thoughts</hi> designs which are contained in this volume (hereafter abbreviated BVFD). As is customary, the first number after a reference to <hi rend="i">Night Thoughts</hi> is to its place in the entire sequence, whereas the material in parenthesis refers to the Night and page number; since not all pages are numbered, letters indicate the place of the picture in the sequence of the Night.</p>
+                    <p>I am very grateful to David Erdman for providing the slide projector at the Seminar and for operating it in a flawless manner. Not least helpful was his sense of pacing, which tended to encourage only a practicable amount of discussion for some designs that might otherwise have detained us unduly.</p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">PART I: A SURVEY OF THE DESIGNS</hi>
+                            </title>
+                        </head>
+                        <p>In his suggestive article on "Graphic-Poetic Structuring" that appears in <hi rend="i">Blake</hi>
+                            <pb id="p04-118" n="118"/>
+                            <hi rend="i">Studies</hi>, 3 (Fall 1970), Karl Kroeber proposes that we might get farther if we could "kick the habit of labelling" the characters depicted in <hi rend="i">Urizen</hi>, or at least "mitigate" it (p. 12). If he means no more than that we ought to be able to enjoy the ball-game without a score card, there is no need to disagree. But after having striven vainly in two letters to persuade the reviewer in the <hi rend="i">TLS</hi> in 1967 that the lady depicted at the end of Blake’s <hi rend="i">Milton</hi> ought to be recognizable as Ololon--or <hi rend="i">somebody</hi> mentioned prominently in the epic--I’m not prepared to concede that Blake’s art is as peculiar or mysterious as Kroeber seems to imply.</p>
+                        <p>It is true that Blake’s repertoire of verbal and pictorial imagery tends to spill over from one work to another and that the student must read or look on further into Blake’s later works to find out what to make of the first appearance of, say, Rintrah. But then he discovers that he can’t just read backward from a later identification either. How many pictures are going to turn out not to be aligned with any words--even in the canon of illuminated books? It is all very perplexing, and all very simple--but involved.</p>
+                        <p>I’ll admit that nothing can be more dismal than the mechanical habit of labelling an old man Urizen, a mature man Los, and a youth Orc--unless it be the habit of attaching to these divine images still more outlandish names found in portentous and occult old books. Even when some kind of correspondence can be established, the careful scholar discovers that, well, yes, Blake meant something like that, but really it was quite a bit different--in fact, you might say it was just the opposite. Blake must not be relegated to his former state of splendid and irrelevant isolation from the main currents of thought, but he cannot be well represented in the guise of a philosopher, as is suggested by the inconsequential pages in Gillham’s intelligent book, <hi rend="i">Blake’s Contrary States.</hi>
+                        </p>
+                        <p>When we come to Blake and Milton, there really is something to talk about. The evidence of the watermarks indicates that the designs for <hi rend="i">L’Allegro</hi> and <hi rend="i">Il Penseroso</hi> constitute Blake’s last thoughts on Milton, save for some stray allusions overheard by Crabb Robinson and the glorious designs from the last fragmentary series for <hi rend="i">Paradise Lost.</hi> They are also much more complicated, more dense in particulars, than the other Milton designs and we have the great advantage of possessing a picture-by-picture guide written by the Interpreter himself. I had copies of Blake’s commentary mimeographed from the Erdman text and distributed at the Seminar to serve as reminders. Blake doesn’t tell us all we need to know about the pictures, but with Milton’s help we can see that Blake had a lot to say.</p>
+                        <p>It is not extravagant to declare that systematic published criticism of these designs began in 1970 with the article by E. J. Rose in the Spring issue of <hi rend="i">Hartford Studies in Literature.</hi> I have some important reservations about Rose’s premises, interpretations, and conclusions, but I wish to make it clear that I believe there are admirable things in this article. <hi rend="i">Blake’s Visionary Forms Dramatic</hi>, the anthology I co-edited with David Erdman, was not published by Princeton until February 1971; consequently the audience at the Seminar had no opportunity to read my short piece on design 6 for <hi rend="i">L’Allegro</hi>, which serves as part of the introduction to the volume. I brought mimeographed copies of the article for distribution at the Seminar for those who wished to read this closely-written piece after the meeting.</p>
+                        <p>I have silently incorporated into my remarks a number of points which Judith Rhodes--a graduate student at the University of Iowa who is writing a thesis on Blake’s designs for Milton--first observed, and I have discussed with her many of the ideas I shall put forth. Her diagram of the thematic relationships among Blake’s designs for <hi rend="i">L’Allegro</hi> and <hi rend="i">Il Penseroso</hi> follows my remarks here [see below]. What has proven to be most helpful to me is the imaginative skepticism with which she greeted a number of my
+<pb id="p04-119" n="119"/>
+plausible but invalid hunches, thus making it clear to me that I had not yet reached an understanding of Blake’s meaning. Doubtless errors remain in the interpretations I am advancing and I look forward to their being pointed out by others, but for now I take entire responsibility for them.</p>
+                        <p>We all know that Blake is complicated, but we tend to shy away from geometrical descriptions of his complexities partly because, as Frye has pointed out, Blake himself generally avoided them. At first glance Mrs. Rhodes’s diagram seems somewhat be-wildering, but after a little study it enables us to recognize some of the pervasive interrelations among these designs. No doubt, after glancing at the diagram, someone will think: "How Urizenic: bring out the compasses in the year of dearth." I would hope to reassure those who are uneasy that all legitimate apprehensions have been anticipated and are shared by Mrs. Rhodes. Certainly not all the relationships indicated are of precisely equal weight. Nor are all the connections indicated equally verifiable: that between designs 2 and 9, for example, is probably a contrastive or contrary relationship, not a connection of similarities. And there is an important connection in symbolism between figures in designs 1 and 9 that the diagram does not call attention to. Doubtless all the designs are somehow connected, but to say this is merely to utter a pre- or post-critical hypothesis: the question is, how?</p>
+                        <p>In the Seminar I showed slides of the whole <hi rend="i">L’Allegro</hi> and <hi rend="i">Il Penseroso</hi> series fairly rapidly, not pausing for much comment on each. Then I made some more general remarks before turning to a detailed consideration of the first design, "Mirth and Her Companions." This method helps to place Blake’s initial premise--his first design--more clearly since we must achieve an awareness of its consequences or its "context" within the rest of the series before we can appreciate the weight of the design itself. Since there are also two engraved versions of this first design, in contrast to the others, an expositor has a great deal of symbolism to work with. We also looked at some other Blake designs that seem relevant or illuminating in one way or another to particulars in the first design.</p>
+                        <p>In a survey of the designs it seems best to point out details of possibly symbolic significance that might not be noticed or would have an uncertain status if one depended entirely on the Morgan Library slides, which tend to turn blue into black, and the reproductions in the Van Sinderen volume, which are done with a fairly crude screen process. One should observe that Blake numbered the designs consecutively in his commentary, the sheets of which have been laid down, thus obscuring some writing on the other sides of the pages. It is also noteworthy that many, if not all, of the original designs have been trimmed, sometimes irregularly, across the bottoms especially, often cropping part of the signatures. This can be observed in the Van Sinderen reproductions which happily reproduce the entirety of each picture, a practice that is too often not respected in the reproductions contained in the art books that are turned out today. These wonderful pictures are not the only ones of Blake’s that have been unconscionably trimmed. The great series for "On the Morning for Christ’s Nativity," now in the Whitworth Art Gallery, Manchester, and Blake’s greatest undertaking, his designs for Young’s <hi rend="i">Night Thoughts</hi>, have been similarly trimmed. I gather from an art historian that the edges of pictures were, in former times, commonly trimmed when the paper had become worn or ragged. If this aspect of the drawings is unremarkable, though lamentable, another minutia may be more meaningful. I would be glad to have an explanation of what seems to be the form of the signature, "W. Blake inv," on one side or the other at the bottoms of all the pictures save the first, where the "inv" precedes the signature. Possibly this variation has some significance; can anyone say for certain what "inv" should be understood to imply with respect to subsequent engraving?</p>
+                        <p>
+                            <hi rend="i">MIRTH</hi> [fig. 1] Of the balanced groups of buildings the one on the right has a
+<pb id="p04-120" n="120"/>
+distinct area of water in front of it. Most of the figures are significantly altered in the engraved versions. Even without using the altered engraved versions as a standard, the indistinctness of some of the figures is more noteworthy in this than in any other of the designs. The female figure at the right does not have cat whiskers in the watercolor, as she does in the engraved versions, but wears a remarkable twist or cue of hair quite like that of the flyer at two o’clock as he is represented in the watercolor version only. At first he is depicted carrying a wand in his left hand and seems to be controlling four small balls, but in the engraved versions he trails a scroll, being closely related in posture and deed to the figure in the Upcott autograph.
+<figure>
+                                <head>1 "Mirth" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+                            <pb id="p04-121" n="121"/>
+There is no figure standing on the upraised left hand of the ass-eared figure in the watercolor and the two flyers above him are uncertainly related, whereas in the engraving the upper flyer fills the goblet of the lower one from a pitcher. The bubble-blowing trumpeter at the top in the watercolor takes off from between the thumb and forefinger of Mirth, whereas in the first state of the engraving he is launched from her thumb, while in the second state Mirth’s hand is shifted to support the infant that flies from the outermost to the innermost figure at one o’clock. In the watercolor the outermost figure seems to have her arms crossed over her breasts and to be hugging at least two objects to her, though what they are is not ascertainable. At
+<figure>
+                                <head>2 "The Lark" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+                            <pb id="p04-122" n="122"/>
+least five figures (the two at the right are very indistinct) surround the head of Mirth in the watercolor version, whereas they are distinctly figured as two pipers and two tambourinists in the engraved versions. Mirth’s rose crown is clear in the watercolor and her unnaturally curved neck is nevertheless pleasingly drawn, though Blake rejected this piece of pictorial Mannerism (as Morton Paley correctly described it) in the second engraved state. The face of "Care" is covered with distinct red wrinkle-lines in the original. Sweet Liberty, the Nymph held daintily at the viewer’s left, has no bow in the watercolor version, though a line near her waist indicates that Blake had considered drawing her with a weapon at this early stage. The male figure of "Jest" looks at "Youthful Jollity" in the watercolor version only, evidently behind Mirth’s back, since they are not quite in line with her. The five main figures have a suggestive relationship with the mysterious and more sedate five who are lined up in the direction of eternity’s sunrise in the Canterbury Pilgrimage picture.</p>
+                        <p>
+                            <hi rend="i">THE LARK</hi> [fig. 2] One cannot disregard Blake’s specific identifications of the figures in this beautiful, comparatively simple, picture. The bow being spread above the head of Dawn may be compared to that wielded by the Holy Spirit of Orc in the second version of the Genesis titlepage; she trails red flowers which become an important motif in the designs for <hi rend="i">Il penseroso.</hi> Those who have contended that in Blake’s pictures it is dawn invariably which is depicted as occurring on the right and sunset invariably on the left must alter their opinion. E. J. Rose declared that the long-haired figure arising in the foreground is Milton himself, but even if Blake had not explicitly told us that she is Earth we should know this from the pictorial analogies. In my opinion there is no critical justification for asserting (to anticipate) that this figure is "both Earth and Milton, depending on how you look at it." The figure of Milton per se only appears once in the designs for <hi rend="i">L’Allegro</hi>, the following one.</p>
+                        <p>
+                            <hi rend="i">THE GREAT SUN</hi> [fig. 3] The Eastern Gate is carefully indicated with its threshold just above the central mountain peak, which has a group of buildings on the plain in front of it. The plowman with his ox, the milkmaid with two recumbent cattle, the mower with his scythe over his head, Milton standing looking up, with his back turned from two lovers, are all distinctly delineated between the two framing trees that have fly-people in them. The four distinct trumpeters are accompanied by two less distinct ones within the sun, while two more trumpeters stand in readiness on the threshold. Six clouds empty vials on the left, being directed by the regal sceptre of the Sun. The "clouds unfold" posture of the Great Sun is certainly impressive and is a fore-taste of the apocalypse, but the curly flames given off by his head, which is adorned with a very sharply pronged crown, suggest to me that, although Apollo is a force of redemption, he is affecting the means of the Beast. The fact that he does not have his halo on straight and that it gives off long sharp dark beams is also not reassuring. We may at first recall the Spirit of Morning dispelling the creatures of the Night in <hi rend="i">Paradise Regained</hi>, illus. 9, but perhaps we should also remember Satan in His Original Glory, whose picture was inscribed as the Covering Cherub. An important prototype for the picture of Apollo is Flaxman’s design of The Triumph of Christ for Dante’s <hi rend="i">Paradise</hi>, Canto 25.</p>
+                        <p>
+                            <hi rend="i">A SUNSHINE HOLIDAY</hi> [fig. 4] The topography in this, one of the happiest visions in Blake, resembles that of the Arlington Court Picture. Note that Blake has expressly made a composite picture by combining two separate passages in the poem. This is a six-horn occasion: there are two in the middle of the resurrection procession, blowing as they are transcending the material sun, two more at the top left and right of the picture, and two more at the lower right, blowing as they arise from the humanized oak, who gestures upward. Neither the old oak man nor the butterfly spirit were apparent when we first saw this tree in "The Ecchoing Green," the second page of which features a comparable procession, though some of the figures in it are depicted in the title-page of <hi rend="i">Innocence</hi> and in "London." The dancers around the Maypole to the sound of the
+<pb id="p04-123" n="123"/>
+                            <figure>
+                                <head>3 "The Great Sun" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+rebeck recall Apollo and his company in the Gray designs; the church steeple should not pass unremarked because this motif will often appear hereafter. The humanized mountains, however, are in obvious distress, especially the female one who wears the battlemented crown of the Magna Mater and has a city in her lap, quite like the woman in <hi rend="i">Vala</hi>, p. 44, and has hair that makes a waterfall, like the woman on the last page of <hi rend="i">America.</hi> Her male consort looks like both Old Night in design 2 and the redemptive oak below in this one. The S-Curve composition on both sides of the picture indicate that the vortexes are really working, if not quite as symmetrically as in Job 12. The basket on the head of the leftmost girl in the main vortex stream is a familiar motif
+<pb id="p04-124" n="124"/>
+                            <figure>
+                                <head>4 "A Sunshine Holiday" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+(see also design 3 at three o’clock) in Blake; he evidently derived it from Raphael by way of Marcantonio’s engraving. I believe the river goddess is quaffing a regenerative dram, but the woman and man (he is quite sphinx-like--see "The Virgin and Child in Egypt," <hi rend="i">Masters</hi>, pl. viii) on a pyramidal mountain across the water are evidently not participants in the joy.</p>
+                        <p>
+                            <hi rend="i">THE GOBLIN</hi> [fig. 5] The chief spirit in this design resembles Pestilence, the Ghost of a Flea, and the Savage Man in "The Characters in Spenser’s <hi rend="i">Fairie Queene</hi>," who also has a flail. Queen Mab evidently enjoys her solitary junkets alone, but "She" is
+<pb id="p04-125" n="125"/>
+                            <figure>
+                                <head>5 "The Goblin" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+being tormented by three tricky spirits who are about to be joined by another, while a fifth is just climbing out of the ground in order to participate in the fun. But it is the ghost at her feet, much like one in the Gray designs--which have many connections with this series--that especially fascinates her. The adventure "He" is undertaking was not told by Milton, one should observe: "He" is dressed like a Blakean pilgrim, though lacking a stick, as he follows the flame of the ghostly friar, thus becoming an older boy lost, it would appear. Blake introduced the "Convent" (doubtless in the popular sense of a retreat for women) and gave it one tower which is much like that of the church in the previous design. Clearly this night piece interrupts any clock-sense of
+<pb id="p04-126" n="126"/>
+                            <figure>
+                                <head>6 "The Youthful Poet" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+the diurnal cycle in this series; like the monthly analogy suggested by Rose, the diurnal cycle is merely a conventional standard against which Blake’s designs work as counterpoint, as well as accompaniment.</p>
+                        <p>
+                            <hi rend="i">THE YOUTHFUL POET</hi> [fig. 6] At this time there is little more that I want to say about this beautiful picture in addition to what I have said, in perhaps too condensed a way, in my essay in <hi rend="i">Blake’s Visionary Forms Dramatic.</hi> I do wish to emphasize, however, that the woman in the marriage scene in the main sun carries a huge candle in her right hand and, though I had not noticed it before I studied the original picture
+<pb id="p04-127" n="127"/>
+                            <figure>
+                                <head>7 "Melancholy" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+again, she wears a distinct transparent veil. The relationship of these figures is much like that of Christ and Adam and Eve in the very great but little-known picture of "The Fall of Man." The chains "of harmony" are not in question in the lower part of this sun, but it is still not certain what the central figure holds; my present opinion is an unblown trumpet in the right hand and a censer in the left, there being no crossbar at the waist such as would occur on a pair of balances, which is what viewers tend to think of first. The overarching oaks on either side enclose even Jonson and Shakespeare and the split in the sun seems rather deflationary than prophetically discriminating. The curious little alarmist, who seems to have a wooden right leg,
+<pb id="p04-128" n="128"/>
+must be legitimately distressed at the poet’s somnolence. The reunion on this side of the water might seem reassuring if it weren’t for the horizontal line of the river bank showing through the transparent figure on the right and confirming her to be the half-regained Eurydice. And what the three distressed daughters see is the terrifying source of the river of Darkness, as I am persuaded by an analogy in the <hi rend="i">Night Thoughts</hi> designs.</p>
+                        <p>
+                            <hi rend="i">MELANCHOLY</hi> [fig. 7] The companions of Melancholy are, from left to right, Peace, Quiet, and Spare Fast, all of whom are over the curious medial line that separates two distinct ground areas, and retired Leisure, who seems contented with the delicious company of lilies and roses. The varieties and colors of nimbuses are suggestive and challenging, as is the effective separation of the sexes who stand on the ground. I do not at present believe that a strong case can be made against the figure of Melancholy, in spite of her dark clothing and the snaky fold of her gown as it hangs from her left forearm. It is my guess that Blake saw in Durer’s "Melencolia," which he kept by his table, a visionary figure, despite her propensity for compasses. But I am confident that those eight or more Muses around Jove’s altar are the Daughters of Memory, who told Milton that he would be a better poet if he would cultivate self-denial like Spare Fast. Cynthia’s dragon team has its place in the visionary economy, but Romantic moon enamorment is for less strenuous artists than Blake. The fiery cherub Contemplation is a near relation to the Four Zoas as they come on in "Ezekiel’s Vision," but he also portends the God as central Man in Job 14. At the left, however, we have not Apollo and his team but Night, who appears much like Darkness as depicted in Gray’s "Elegy," though she is being roused by the Nightingale, who also does her best in <hi rend="i">Night Thoughts</hi> no. 34. But Night seems to be sitting on a harp, a distinctly inartistic gesture which, like the jagged lines on the ground at the lower right, indicates that there is a distance to go before visionary order is established.</p>
+                        <p>
+                            <hi rend="i">MILTON AND THE MOON</hi> [fig. 8] Though it seemed questionable to some members of the Seminar, I continue to see the human form of the Moon as a fugitive from the starry whips beside her and the spear tips of the cloud beneath her. Cynthia has been disarmed since design 1 (engraving) and no longer is complacently eating, as in design 5, or equipped with imposing dragons, as in design 7. Again one notes the continuity of spires from designs 1, 4, 5, and water from 1, 4, and 6, and the distinct and deliberate presence of the small red flowers at the lower left. Several of the Gray designs are quite closely connected with this one.</p>
+                        <p>
+                            <hi rend="i">MILTON AND THE SPIRIT OF PLATO</hi> [fig. 9] The higher things Plato tells of in his book are put in their proper place at the bottom of the Arlington Court Picture; that is, the three Fates are the decisive forces of the three Sun-Worlds of Venus, Mars, and Jupiter respectively. Interestingly, Venus, who is connected by a line to the left toe of Atropos, is depicted vegetating like Daphne. In her realm man and woman are tied back-to-back by serpents, like Bromion and Oothoon in <hi rend="i">VDA</hi>, or in process of divorce, as in the Notebook drawing "Go and; trouble me no more." Mars sits wearing a plumed helmet, like the Valkyries in Gray, and has a bat-bug familiar, such as tries to escape in the engraving of "Albion rose." At the right Jupiter plays with his compasses, with one leg drooping like the enfeebled God of the Job designs. The darkened sector of the world beneath his footstool may be the smoke-obscured wheel of his chariot (or even a haunted tunnel) but whatever it may be it is benighted because he is unenlightened, though he presumes to rule a sun. The unmentioned man behind him is Vulcan futilely employed (like Sisyphus) with the Shield of Achilles; all this will be straightened out in the last plate of <hi rend="i">Jerusalem</hi> when the Spectre carries the sun and the compasses become tongs in the hands of the creatively re-established blacksmith Los. If one should read a real Classicist like Aeschylus he would learn that Hermes, far from being a mere messenger of oppression, can be understood, in effect, as the
+<pb id="p04-129" n="129"/>
+                            <figure>
+                                <head>8 "Milton and the Moon" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+villain responsible for the crucifixion of Prometheus. For some reason Milton couldn’t recognize the consequences of accepting the authority of Hermes the triplicator, but Blake did the best he could to expose it. The confusion and violence that enwreath Milton’s head ought to have been a sufficient warning to classicistic partisans, but the elements of fire and water to the left and the right confirm how basically wrong things become under such guidance: the top spirit in fire plies whips to put down pity or resurrection while the finny nymph of water deploys her gin from a clamshell (a stratagem nearly repeated in <hi rend="i">J</hi> 45 [31]). Whatever vitality is to be observed is underground, but the six human figures there are variously compromised and will remain so
+<pb id="p04-130" n="130"/>
+until Milton frees himself from such airy superstitions.</p>
+                        <p>Let me be still more explicit: this picture has been used by Raine as an excuse for Platonizing Blake, and even Damon in the <hi rend="i">Dictionary</hi> ("Plato") tends to blur this critique of Platonism. Yet it is impossible to make sense of this design as other than an attack on Hermetic Classicism. Look again at the "Judgment of Paris," whence all that fury came: Hermes was likewise responsible for that seminal disaster, which cannot truthfully be palmed off on triform Discord, unlovely as she is, since Hermes was there to put a prepossessing face on the conspiracy.</p>
+                        <figure>
+                            <head>9 "Milton and the Spirit of Plato" <hi rend="i">From The Pierpont Morgan Library</hi>
+                            </head>
+                        </figure>
+                        <pb id="p04-131" n="131"/>
+                        <p>
+                            <hi rend="i">MILTON LED BY MELANCHOLY</hi> [fig. 10] Here the poet’s regeneration is begun by removal from exposure to the pestilential "Apollonian" arrows (near allied with the arrows of Satan in Job 6) which as yet he cannot bear. Milton has wisely not given up the book, but he has gotten over fasting and is now of equal stature and a fit companion for haloed Melancholy, whose halo renders her impervious to the maddening effects of the noonday sun. The two main trees are animated with spirits as in designs 3, 4, 6, 7, and the earth in 9: being in bondage, none of the dryads are joyful, though perhaps the humanized insects are happy. Despite the malign influence of Apollo, progress is being made again.</p>
+                        <figure>
+                            <head>10 "Milton Led by Melancholy" <hi rend="i">From The Pierpont Morgan Library</hi>
+                            </head>
+                        </figure>
+                        <pb id="p04-132" n="132"/>
+                        <p>
+                            <hi rend="i">MILTON AND HIS DREAM</hi> [fig. 11] Here the Dream, who may be the spiritual form of Melancholy, starts the vortexes cooperating again for Milton, partly by the development of scrolls off both wings and partly by sharing its plate-halo with Milton. As Damon has remarked, Milton is still covering up, but he will be released by the music of his emanations. The angel’s right wing acts as a suction to draw netted figures (perhaps including an ant!), such as were represented in design 9, out of the river of death. Note that at the lower right there are tiny red dots, indicative of the vital flower, as earlier. The redeemed figures are becoming lovers, as in Dante 10, "The Whirlwind of Lovers." Those below are prompted by a Blakean redemptive lady, but those above
+<figure>
+                                <head>11 "Milton and His Dream" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+                            <pb id="p04-133" n="133"/>
+are in the keeping of a holy old man, who may not be as good as he seems despite his red halo and hopeful surroundings. The spirits that accompany him are comparable to figures of the errors of Job and his wife who fall in a Last Judgment with Satan in Job 16. Unless I’m mistaken, the left wing of the Dream is cracking under the strain of holding this burden up. This group of three figures is curiously backed by a fourth, who rides them at the bullseye of the rainbow. He clutches something which is so woolly that it must be a lamb; it would be pleasant if he were Esau. In any case, his mysterious burden recalls that of the little woman at one o’clock in the watercolor version of design 1. This pod of figures is comparable to the three groups of Woes in <hi rend="i">Night</hi>
+                            <figure>
+                                <head>12 "Milton and His Mossy Cell" <hi rend="i">From The Pierpont Morgan Library</hi>
+                                </head>
+                            </figure>
+                            <pb id="p04-134" n="134"/>
+                            <hi rend="i">Thoughts</hi> no. 84 (III, 9) which is reproduced in Damon’s <hi rend="i">Dictionary.</hi> Above this pod of figures a long scroll is attended by five or more spirits. This is the redemptive counterpart of the devolution shown in <hi rend="i">Night Thoughts</hi> no. 7 (I, b), where the sleeping Young’s imaginings are delivered down to Urizen beneath a blasted tree. This design has been reproduced in the important article on the <hi rend="i">Night Thoughts</hi> pictures by Helmstadter published in <hi rend="i">TSLL</hi>, 12 (Spring 1970), 27-54. It is also reproduced in <hi rend="i">BVFD</hi>, pl. 75.</p>
+                        <p>
+                            <hi rend="i">MILTON AND HIS MOSSY CELL</hi> [fig. 12] Rose, arguing from the seasonal analogy, concludes that Milton is here in a wintry plight, but the picture and commentary make it clear that, at last, Blake’s Milton has finally gotten straight. He has still retained his book, is open beside a lamp (as in <hi rend="i">Night Thoughts</hi> no. 18 [I, 13], <hi rend="i">BVFD</hi>, pl. 85) and he spreads his arms to open a center as he delivers his prophetic raptures. The flowers in his cell include the little red ones of designs 8, 9, and 11, and the lillies and roses of Leisure which were shown in design 7. The true lovers dance as the disciples of Venus were unable to do in design 9 attended by putti who have appeared before in designs 1 and 11. The woman and man at the left are effecting a resurrection, the precondition of bliss, though I confess to being a little uneasy about the not-yet-humanized form of her upraised right hand. The fact that the mother at the right is blessed with twins--compare <hi rend="i">Night Thoughts</hi> no. 4--is, however, a joyful sequel to the problems of the earth spirits in design 9. Perhaps there is even an incipient third behind this mother, as was observed in the Seminar. Milton’s "cell" is half a cave and half a bower made by the entwining of two trees, perhaps to be understood as implicates of the two-trees motif of earlier designs. It is somewhat like the caves in the Arlington Court Picture and the "Philoctetes," the latter of which is reproduced in color as the cover for <hi rend="i">Blake Studies</hi>, 3 (Fall 1970).</p>
+                        <p>The longing female figures above the cell, five on the left, three on the right, are arrested in a futile desire without hope, like those in Limbo, to ascend the sky. If Milton’s cell is a bower, they are to be closely related to the forlorn dryads in design 10; if it is a cave, they are related to Blake’s Sunflower. Their error is evidently that they pray to the stars rather than celebrate their human forms, as Milton does. The constellations from left to right include: the Crab, with a woman astride it, back to the viewer, and reading; this seems especially odd until one recalls that crabs move backward. The twins in Gemini seem to be having a fight with one another. Taurus is a formidable beast, but Aries has achieved a shepherd form wearing a hat like the benighted figures in designs 5 and 6, and carrying a crook like Peace in design 7. Orion is intervening to neutralize the charge of the Bull; Blake greatly respected Orion, depicting the stars of his belt in the engraving of Job 14 and making a great picture of him in <hi rend="i">Night Thoughts</hi> no. 502 (IX, 84). Indeed, Orion and Albion are in effect identified in <hi rend="i">Jerusalem</hi> 25, as Morton Paley suggests. The contrast between the redemptive counter-culture underground and the futile establishment above ground is one of the distinctive features of Blake’s symbolism, as Frye has explained. The principle is declared unmistakably in the titlepage of <hi rend="i">The Marriage of Heaven and Hell</hi>, which is why we looked at a slide of this design before turning again to more general considerations.</p>
+                    </div3>
+                </div2>
+                <pb id="p04-135" n="135"/>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">JUDITH</hi>
+                            <name>
+                                <hi rend="i">RHODES</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">UNIVERSITY OF IOWA</hi>
+                    </byline>
+                    <head>
+                        <title>Blake’s Designs for <hi rend="i">L’ALLEGRO</hi> and <hi rend="i">IL PENSEROSO</hi>: Thematic Relationships in Diagram</title>
+                    </head>
+                    <figure>
+                        <head>
+                            <hi rend="b">The Imagination is not a State: it is the Human Existence itself. <hi rend="i">(Milton 32:32)</hi>
+                            </hi>
+                        </head>
+                    </figure>
+                    <pb id="p04-136" n="136"/>
+                    <p>This diagram of thematic relationships suggests a direction and level for interpretation of Blake’s illustrations. As a descriptive worksheet, it points to specific thematic connections apparent in similar or contrasting motifs (e.g., the motif of light in darkness, 2/12). But primarily the diagram is interpretive. It is a circle of Eternal Identities which I propose are the concerns of the designs singly and as a whole. If, as I suggest, the focus of the designs is the Human Imagination, then it follows that Blake, working by contraries and negations as well as progressions, has created a visual counterpart of the definition in <hi rend="i">Milton</hi>: "The Imagination is not a State: it is the Human Existence itself" (<hi rend="i">M</hi> 32:32).</p>
+                    <p>The twelve designs are interrelated so as to define the imagination and to distinguish it from the memory in both the state of innocence and the state of experience. The series is developmental, but not chronological. The first half of the circle (designs 1-6) represents the world of innocence; the second half (designs 7-12) the world of experience. The designs at the four points of the compass (the square within the circle) mark off overlapping quadrants of mental experience, each of which develops out of the previous one.</p>
+                    <p>The first quadrant (1-4) depicts the innocent imaginative world in its dawning and fulfillment with the major themes identified on the horizontal lines: the awakening with a dawn song, the revelation of the imagination as Orc, and the resulting humanized world-emanation. The second quadrant (4-7) shows what happens when the innocent man relies on his memory to account for his experiences. Urizenic contemplation and the sleep of death masquerade as thought and inspiration, resulting in the movement toward Melancholy. In the third quadrant (7-10) the failure of inspiration and the satanic mode of contemplation point to the domination of memory in the world of experience. But the emanation emerging from the tyrannized world in the tenth design reveals the way of liberation. The return of the imagination, now as Los, and the prophetic song which marks the new awakening complete the vision of experience in the fourth quadrant (10-1).</p>
+                    <p>Each design has its opposite in the two worlds, e.g., 1/7, 2/8, 3/9, and these oppositions are much like negations. The horizontal lines connect contrary states of imagination and memory (2/12, 3/11, 4/10, 5/9, 6/8). The vertical lines connect thematic oppositions within each world: song vs. inspiration (2/6, 12/8) and vision vs. thought (3/5, 11/9). Designs 1 and 7 exhibit the Individual in each state while designs 4 and 10 exhibit the social dimensions of their Emanations. (This aspect of the term is explained in Frye, <hi rend="i">Fearful Symmetry</hi>, p. 73.) A fourth relationship appears inevitable, based on the obvious connections between 6 and 11 and the parallels with the sides of the square. This relationship is neither one of contraries or negations, but I do not yet understand it well enough to give it a name.</p>
+                    <p>The diagram, finally, is functional; its symmetry suggests an integrated vision that only careful study of the designs themselves can reveal, for the limitations of mathematical form are well known to students of Blake.</p>
+                </div2>
+                <pb id="p04-137" n="137"/>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">ROGER R.</hi>
+                            <name>
+                                <hi rend="i">EASSON</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">ILLINOIS STATE UNIVERSITY</hi>
+                    </byline>
+                    <head>
+                        <title>Blake and the Contemporary Art Market</title>
+                    </head>
+                    <p>As a rule, when we hear that a fine painting or an exceedingly rare book in mint condition has brought down a large price from the auction block we are not surprised. But few of us, I would imagine, are such careful observers of this rapidly changing marketplace that we realize the vast scope of the merchandise sold at auction or offered for sale by exclusive art dealers. As Blake enthusiasts, we often may watch the book dealers’ catalogues for the going prices of major works such as the Gilchrist biography or the Yeats-Ellis edition. We may even occasionally stare in disbelief at the audacity of certain bookdealers as they gleefully overprice their offerings. But we seldom hear of Blake originals coming to the block, and most of us, I suspect, imagine all these priceless products of Blake’s art to be housed in Institutions, private or public.</p>
+                    <p>However, this fall as I was making inquiry among the major dealers, I stumbled upon three Blake originals, one recently sold, and the other two yet on the market. The two whose fate remains in question are the important Biblical watercolors, "Joseph and Potiphar’s Wife," and "Felix and Drusilla." The firm of C. A. Stonehill, Inc. of New Haven, Connecticut offered these two at $25,000 each. The offer was accompanied by descriptions taken from <hi rend="i">The Blake Collection of W. Graham Robertson</hi>, edited by Kerrison Preston (London: Faber and Faber, 1952).</p>
+                    <p>By comparing the amount these watercolors brought during the famous sale at Christie’s on 22 June 1949 with their current price tag, perhaps we can arrive at some notion of the spiraling evaluation of Blake originals, an evaluation created by both current inflation and Blake’s rising popularity among collectors. In 1949 "Joseph and Potiphar’s Wife" brought £220.10.0, which, calculating by the wartime exchange rate of $4.03 (the pound was devalued two months later, 19 September 1949, to $2.80), is $888.61. "Felix and Drusilla," on the other hand, sold for £275 or $1,108.25. In the twenty years since W. Graham Robertson’s collection was sold, "Joseph and Potiphar’s Wife" has increased in value to approximately twenty-eight times its 1949 sale price, while "Felix and Drusilla" has increased by only twenty-two times. Obviously, the firm of C. A. Stonehill has arbitrarily equated the watercolors: in other words, a Blake original is a Blake original is a Blake original.<ref target="n1" type="note">1</ref>
+                        <note id="n1">
+                            <hi rend="s">1</hi> Since first writing this, copy C of <hi rend="i">The Book of Urizen</hi> sold at Sotheby’s for £27,000--approximately $64,800 or $2592 per plate. [See <hi rend="i">NEWS</hi> in this issue of the <hi rend="i">Newsletter.</hi>] Either the watercolors up for sale by Stonehill are overpriced, or the purchaser of <hi rend="i">Urizen</hi> got a real buy.</note>
+                    </p>
+                    <p>The third original work I turned up this fall is in quite a different class. The lavish <hi rend="i">Catalogue Seventy</hi> of Lew David Feldman’s House of El Dieff listed as item 16 the following:<ref target="n2" type="note">2</ref>
+                        <q>
+[BLAKE, William.] <hi rend="i">A Preliminary Study for "A Vision of The Last Judgment."</hi> Pencil, pen and ink, and wash, 17 ¼ × 13 inches, matted, framed and glazed, 23 × 19 ½ inches over-all. [London, c. 1807-1810.] $10,000.00
+</q>
+Mr. Feldman has graciously placed me in touch with the new owners of the sketch, who have been kind enough to allow me to announce that the drawing is now in the collections of the Humanities Research Center at the University of Texas. The Center has allowed us to reproduce the sketch here [fig. 1], and Mr. Feldman has allowed us to reproduce the description of the drawing that appears in <hi rend="i">Catalogue Seventy</hi> [fig. 2]. It is, I believe, one of the most complete descriptions of the current state of the drawing. 
+                        <note id="n2">
+                            <hi rend="s">2</hi> Item 17 in the Feldman catalogue is also a Blake item, though minor in comparison: <hi rend="i">Illustrations of the Book of Job</hi> (1825) with 21 engraved plates, proof impressions, unbound, 10 1/2 × 8 1/2 inches; together with Thornton’s <hi rend="i">Pastorals of Virgil</hi> (with 17 woodcuts by Blake), 3rd. ed., 2 vols., octavo, contemporary sheep, rebacked, leather labels (worn), London, 1821: the lot $3000.</note>
+                    </p>
+                    <p>While Blake originals do not daily come upon the market, I am sure that others
+<pb id="p04-138" n="138"/>
+                        <figure>
+                            <head>1 A preliminary study for "A Vision of the Last Judgment" (reproduced by infrared photography) <hi rend="i">From the collection of the Humanities Research Center, The University of Texas</hi>
+                            </head>
+                        </figure>
+                        <pb id="p04-139" n="139"/>
+have changed hands in recent years. I hope that as readers of the <hi rend="i">Newsletter</hi> learn of such sales, they will alert the community of Blake enthusiasts so that we may keep track of these important works.</p>
+                    <figure>
+                        <head>2 Item 16 from Lew David Feldman’s <hi rend="i">Catalogue Seventy</hi> (House of El Dieff, Inc.) <hi rend="i">Reproduced by permission</hi>
+                        </head>
+                    </figure>
+                </div2>
+            </div1>
+            <pb id="p04-140" n="140"/>
+            <div1 id="BQ-04-4-0004">
+                <head>
+                    <title>
+                        <hi rend="b">REVIEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>Irene Tayler. <hi rend="i">BLAKE’S ILLUSTRATIONS TO THE POEMS OF GRAY.</hi> Princeton: Princeton University Press, 1971. Pp. 165 + 118 plates (1 color; 117 monochrome). $25.00.</title>
+                    </head>
+                    <byline>
+                        <hi rend="i">Reviewed by</hi>
+                        <docAuthor>
+                            <hi rend="i">Thomas H.</hi>
+                            <name>
+                                <hi rend="i">Helmstadter</hi>
+                            </name>,</docAuthor>
+                        <hi rend="i">Wells College (Aurora, New York)</hi>
+                    </byline>
+                    <p>This handsome and important book provides a description and interpretive commentary for each of Blake’s illustrations to the poems of Gray, and splendidly reproduces all 116 designs in black and white. It not only makes the Gray illustrations readily available for the first time, but also reveals how they assume meanings and implications of their own extending beyond Gray’s text. The designs usually derive from Gray’s poetry, but they may expand the language of the poems in order to portray original conceptions of Blake’s own. By focusing on the relationship between design and text, Tayler reveals how Blake’s visions of Gray’s poetry show both Gray’s powers and deficiencies as a poet.</p>
+                    <p>The designs to Gray’s "Early Poems" exhibit a variety of relationships to their texts. Design 3 of "Ode on the Spring" portrays a series of personifications and striking images that are only faintly suggested by Gray’s poetry. "Wake the purple year," for example, is portrayed as a human form waking from Blake’s symbolic "Roots of Nature." On the succeeding page Gray retires from the awakened year and joys of spring for the purposes of thought: "With me the Muse shall sit, and think, / (At ease reclin’d in rustic state)," and the design shows the poet leaning against a barren tree while beside him a sleeping muse is floating on a cloud and holding, but not playing, a lyre. The effect of the picture is "to suggest that Blake may not think much of Gray’s inspiration, at least in the lines to which the illustration pertains, for his Muse is beclouded (a constant pun in Blake’s work) and idle, apparently put to sleep by this posturing of ‘rustic state.’ " There are several significant parallels between the illustrations for Gray’s poems and for Young’s <hi rend="i">Night Thoughts</hi>, and I find striking confirmation for Tayler’s interpretation above in <hi rend="i">Night Thoughts</hi> design no. 82.<ref target="p140u1" type="note">*</ref> In that picture Blake criticizes the unenergetic muse of Edward Young by representing the poet leaning against a barren tree while his sleeping muse floats beneath a leafless branch. <note id="p140u1">*Among the corrections to be made before the second edition of Tayler’s book are the references to <hi rend="i">Night Thoughts</hi> illustrations. <hi rend="i">Night Thoughts</hi> no. 376 cited on p. 79 should be no. 375; no. 44 cited on p. 136 should be no. 77. I count five of these inaccurate citations. <hi rend="i">Night Thoughts</hi> quotations throughout need to be rechecked for Young’s use of capitalization, punctuation, and italics. Among editorial matters, two lines of print are misplaced on p. 11, and "The Descent of Owen" on p. 151 should be "The Descent of Odin."</note>
+                    </p>
+                    <p>A more explicit criticism of Gray concludes the "Ode on a Distant Prospect of Eton College" as design 9 challenges the assertion that "where ignorance is bliss, / ’Tis folly to be wise." A young man chasing a bird is oblivious to the fact that in a tree above him sits Ignorance, a grotesque laughing figure, about to pour two vials of pestilence upon him. Blake’s pictorial criticism is directed against Ignorance itself: "Pestilence flung onto a sporting boy epitomizes the argument of Gray’s poem: yet in Blake’s design it is not ‘human fate’ or some similar figure that flings the pestilence,
+<pb id="p04-141" n="141"/>
+but rather a vision of that very ignorance which Gray maintains is the only (though temporary) escape from the pestilence. Gray’s cure is Blake’s cause." Blake’s writings are then cited to demonstrate why he would disagree with Gray’s dubious moral. Tayler’s method of first focusing on the relationship between design and text and then supporting her findings by references to Blake’s own work is excellent, and rarely gives the impression that her readings are being predetermined by her knowledge of Blake. I find only one slight exception to this in the "Ode on a Distant Prospect." An old man with a beard representing Gray’s Death in design 8 is interpreted as Urizen. Not all old men with beards are Urizen, and this is the same figure of Death who stalks through so many pages of the <hi rend="i">Night Thoughts</hi> illustrations that Blake had just completed.</p>
+                    <p>The designs for "Ode on the Death of a Favourite Cat" brilliantly and comically portray the discrepancy between two levels of meaning in Gray’s poem, and, as Tayler shows, also portray an original theme of Blake’s own.</p>
+                    <p>Blake continues to expand the meaning of Gray’s language and to transform it into his own conceptions in some of the "Later Poems," notably "The Progress of Poesy" and "Ode for Music." But the method changes in illustrations for "The Bard," "The Fatal Sisters," "The Descent of Odin," and "The Triumphs of Owen." These designs are more closely related to the action of the poem. Tayler suggests that such legendary and visionary works appealed more directly to Blake than other Gray poems. Hence he illustrated the work literally, and the pictures do not correct or comment upon Gray’s meaning. Whatever the cause for this new procedure, Tayler’s descriptions reveal the energy and power of the designs in a most sympathetic and appreciative viewing. The interpretive commentary on the illustrations to the "Early Poems" was in general more interesting than the description of them, but here the reverse is true. This is precisely as it should be. Tayler is scrupulously careful not to overinterpret the pictures or go beyond the evidence. Blake’s "Bard weaving Edward’s fate" in "The Bard" design 3, for example, receives a sensitive description that does not attempt to imbue the illustration with special Blakean meaning. Tayler simply comments that "Blake admired Gray’s conception, and clearly sought to match it with his own."</p>
+                    <p>An interpretation of the series of illustrations for "Elegy in a Country Churchyard" concludes the study. Why does the first design of the "Elegy" depict Gray as an old man bent over his writing, a lifeless and uninspired poet? Two clues to Blake’s vision of the poem and its author are found in the curious shrouded corpses wrapped in a thorny vine in the foreground of designs 2 and 9, each portraying Contemplation in a graveyard. Similar forms appear many times in Blake, as in the lower margin of "The Garden of Love," where Priests are "binding with briars my joys &amp; desires." The theme of man bound to earth by roots or chains is common throughout Blake, and Tayler notes that a body or corpse wrapped in a thorny vine is repeated in several <hi rend="i">Night Thoughts</hi> illustrations, such as no. 96, contrasting the life of fallen and earthbound man with the life of spirit.</p>
+                    <p>Tayler observes that "in the two designs to Gray’s ‘Elegy’ in which these bound forms appear there is a notable lack of any sign of the living spirit: to the eyes of Gray’s Contemplation there is none, and Blake has drawn none in the pictures." A corresponding lifelessness is reflected in several other designs for the "Elegy" where tired and listless figures are literally bent over or attached to the ground. Blake emphasizes the lack of vitality in Gray’s preoccupations with the grave.</p>
+                    <p>The implications of the curious "Elegy" design 8 now become significant. Illustrating "th’unletter’d Muse" as "many a holy text around she strews," Blake depicts a muse pointing to the epitaph "DUST THOU ART" on a tombstone inscribed with "HERE LIETH Wm Blake." His age is indicated in four figures, of which the first two are 10 and the
+<pb id="p04-142" n="142"/>
+latter probably zeros, at least the age of the millennium. Tayler reasons that to Gray’s assertion "Dust Thou Art" Blake responds "with a tombstone bearing his own name: the part of me that is dust, it says by implication, I willingly consign to your graveyard, for it is as dead now as it ever will be. But the part of me that lives will out-live the millennium, for it is eternal."</p>
+                    <p>Tayler offers no rules for interpreting the illustrations and proffers no theories to which all the pictures must subscribe. Her careful exploration of design and text and her persuasive allusions to Blake’s work to support her findings make this a fine contribution, in fact the only one, to our understanding of the Gray designs. Tayler’s method of approach and her insights into Blake’s procedures as illustrator should help reveal Blake’s meaning in illustrations to other writers and to his own work as well.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>Geoffrey Keynes, ed. <hi rend="i">THE NOTE-BOOK OF WILLIAM BLAKE CALLED THE ROSSETTI MANUSCRIPT</hi> [facsimile and transcription of the manuscript]. London, 1935. Reprinted New York: Cooper Square Publishers, Inc., 1970. Pp. xii + 163 + 120 plates (reproductions of MS pages). $10.00.</title>
+                    </head>
+                    <byline>
+                        <hi rend="i">Reviewed by</hi>
+                        <docAuthor>
+                            <hi rend="i">Robert</hi>
+                            <name>
+                                <hi rend="i">Essick</hi>
+                            </name>,</docAuthor>
+                        <hi rend="i">San Fernando Valley State College</hi>
+                    </byline>
+                    <p>This new reprint is a welcomed addition to the growing list of reprinted Blake titles, for certainly we need the <hi rend="i">Note-Book</hi> more than John Clarke’s <hi rend="i">William Blake on the Lord’s Prayer</hi>, Alan Clutton-Brock’s <hi rend="i">Blake</hi>, or some of the other items turned out by the reprint houses. The price of $10 seems fairly sensible, making the book available to those who can’t afford the now very scarce 1935 Nonesuch edition of which only 750 copies were printed. But one must remember the considerable limitations of that new genre, the reprint. What we have here is a reproduction of a reproduction, twice removed from the original. One result is that the <hi rend="i">Note-Book</hi> is slowly shrinking. The original is 19.6 × 15.7 cm. (according to Keynes), the 1935 facsimile 19.3 × 15.5 cm., and the reprint 17.8 × 14.4 cm. The mind boggles at the final consequences. Will we ever come to reproductions of a reproduction of a reproduction?</p>
+                    <p>The transcription of the text is not reliable. According to Bentley and Nurmi, <hi rend="i">A Blake Bibliography</hi>, Keynes was not able to see his work through the press, and a number of printing errors were introduced, all of course preserved for us by the reprint. A survey of "A Vision of the Last Judgement" shows several substantive variants between Keynes’ 1935 transcription and the text in his 1966 <hi rend="i">Complete Writings.</hi> Erdman’s text in <hi rend="i">The Poetry and Prose of William Blake</hi> has further differences, notably in the handling of deleted passages, while the sentence sequence in Jugaku’s <hi rend="i">A Bibliographical Study of William Blake’s Note-Book</hi> varies considerably from all other texts. Erdman seems to be the closest to the manuscript, at least for "A Vision," but Keynes’ 1966 edition is an adequate reading text. Both are clearly preferable to this reprinted 1935 transcription.</p>
+                    <p>The reproduction of the manuscript (certainly it is no longer a facsimile) will be more valuable to most Blake students. High contrast photography has resulted in pages cleaner than those in the 1935 issue, with stains and rubbed areas burned out. The reprint seems to be better than its original in some respects, but this is only because the 1935 issue is printed on an off-white, almost yellow paper, while the reprint is on glossy white paper which gives slightly more contrast between black lines
+<pb id="p04-143" n="143"/>
+and the dull gray background found in both reproductions. Any improvement is far more a matter of appearance at first glance than any significant gain in clarity. Reading and deciphering slight drawings is about equally difficult in both cases, while the texture of sketchbook paper, ink, and rough pencil sketching retained in the 1935 reproduction is totally lost in the reprint. Neither is as good as the selected pages reproduced in Wicksteed’s <hi rend="i">Blake’s Innocence and Experience.</hi> I suspect that a new reproduction made with infra-red photography would put all these earlier attempts to shame.</p>
+                    <p>One of the more important sections of this volume is the description of the sketches and their relationship to Blake’s finished works. Another, and more speculative, page-by-page catalogue of this information is printed as Appendix IV of Mona Wilson’s <hi rend="i">Life of Blake</hi> (1927, 1948). I include below some additions and corrections to the Keynes list.</p>
+                    <p>
+                        <hi rend="i">Page 13 of the <hi rend="u">Note-Book</hi>
+                        </hi> The full page watercolor drawing attributed to Robert Blake is very likely the basis for pl. 5 of <hi rend="i">The Song of Los.</hi>
+                    </p>
+                    <p>
+                        <hi rend="i">Page 15</hi> The sketch of the standing figure and a dog, lower left, is basically the same motif as the boy and dog, pl. 26 of <hi rend="i">The Book of Urizen</hi>, and the man and dog in "The Dog strove to attract his attention," pl. 2 of the designs for Wollstonecraft’s <hi rend="i">Original Stories from Real Life.</hi>
+                    </p>
+                    <p>
+                        <hi rend="i">Page 21</hi> The center sketch may be an early or alternate version of the lower design for "The Sick Rose" in <hi rend="i">Songs of Experience.</hi> The quotation from Shakespeare’s "Sonnet XV" below the sketch makes a slight thematic connection with "The Sick Rose" consonant with the formal similarities of the designs.</p>
+                    <p>
+                        <hi rend="i">Page 22</hi> The reproduction shows no evidence of the design described by Keynes and Wilson.</p>
+                    <p>
+                        <hi rend="i">Page 26</hi> Keynes quotes Mona Wilson’s suggestion that the sketch may represent "The Landing of Julius Caesar," but compare "Satan Calling His Legions" in the Huntington <hi rend="i">Paradise Lost</hi> designs and "Satan Rousing His Rebel Angels" in the Victoria and Albert Museum.</p>
+                    <p>
+                        <hi rend="i">Page 29</hi> The sketch of a hovering figure is similar to the fifth plate to Blake’s <hi rend="i">Grave</hi>, "The Soul hovering over the Body reluctantly parting with Life."</p>
+                    <p>
+                        <hi rend="i">Page 30</hi> The sketch is very similar to the ring of dancing figures on the title page of <hi rend="i">Visions of the Daughters of Albion.</hi>
+                    </p>
+                    <p>
+                        <hi rend="i">Page 39</hi> The resemblance to plate 2 of the Wollstonecraft designs noted by Keynes is very slight.</p>
+                    <p>
+                        <hi rend="i">Page 47</hi> The lower sketch does not look like "a woman’s head with mediaeval head-dress" as Keynes writes in agreement with Wilson, but rather a young man wearing a three-cornered hat.</p>
+                    <p>
+                        <hi rend="i">Page 56</hi> Compare the posture of the figure "about to leap off the edge of a cliff" (Keynes) to the angel in flames on plate 4 of <hi rend="i">The Marriage of Heaven and Hell</hi> and in the color print of "The Good and Evil Angels."</p>
+                    <p>
+                        <hi rend="i">Page 57</hi> The sketch is clearly the preliminary for the recumbent figure in the "Introduction" to <hi rend="i">Songs of Experience.</hi>
+                    </p>
+                    <pb id="p04-144" n="144"/>
+                    <p>
+                        <hi rend="i">Page 61</hi> In <hi rend="i">TLS</hi> 13 September 1957, 547, Kathleen Raine asked if anyone could identify the source of the quotation from Dryden on this page of the <hi rend="i">Note-Book</hi>, "At length for hatching ripe he breaks the shell." Just in case she never received an answer, Blake is quoting <hi rend="i">Fables Ancient and Modern</hi>, "Palamon and Arcite," Bk. III, line 1069.</p>
+                    <p>
+                        <hi rend="i">Page 72</hi> Compare the sketch to the figure running over the waves on the title page of <hi rend="i">Visions of the Daughters of Albion.</hi>
+                    </p>
+                    <p>
+                        <hi rend="i">Page 74</hi> The woman standing over a supine child, upper left, is the preliminary for the same figures above the text of "Holy Thursday" in <hi rend="i">Songs of Experience.</hi>
+                    </p>
+                    <p>I suspect that this volume will be rendered nearly useless when Erdman’s new facsimile edition of the <hi rend="i">Note-Book</hi> appears from the Clarendon Press (announced in <hi rend="i">Blake Newsletter</hi>, Fall, 1970, p. 36). Until then, the reprint is all we have available.</p>
+                </div2>
+            </div1>
+            <div1 id="BQ-04-4-0005">
+                <head>
+                    <title>
+                        <hi rend="b">DISCUSSION “With intellectual spears, &amp; long winged arrows of thought”</hi>
+                    </title>
+                </head>
+                <byline>
+                    <docAuthor>
+                        <hi rend="i">JOHN</hi>
+                        <name>
+                            <hi rend="i">BEER</hi>
+                        </name>:</docAuthor>
+                    <hi rend="i">PETERHOUSE, CAMBRIDGE</hi>
+                </byline>
+                <div2>
+                    <head>
+                        <title>A Reply to Irene Chayes</title>
+                    </head>
+                    <p>Since my letter replying to John E. Grant appeared alongside a review of <hi rend="i">Blake’s Visionary Universe</hi> [see the <hi rend="i">Blake Newsletter</hi>, 4 (Winter 1971), 87-90] which raises further points about my reading of Blake’s visual designs, I should like to renew the discussion briefly. I was disappointed that Mrs. Chayes reviewed the illustrations and the section of commentary in isolation instead of (as I had hoped) studying both in the context of the book’s argument, but this approach is consistent with her general "direct" view of Blake’s art. As with her reading of <hi rend="i">The Ancient Mariner</hi> as an ironic poem about a deluded visionary (in <hi rend="i">Studies in Romanticism</hi> IV), moreover, her view of the early Romantics is so different from mine that it would need more than a note to discuss the larger points at issue. For my own part, her desire for a "concrete, practical, and definable meaning for ‘vision’ in Blake’s art," however laudable, strikes me as quite inappropriate for the sort of vision that Blake himself enjoyed. Either one believes that Blake’s interpreting imagination was constantly intervening between his sources and his designs, or one does not, however; and it is good that both points of view should be expressed vigorously. In this note, therefore, I want mainly to comment on the paragraphs in which she suggests that my interpretations of individual designs can be faulted on more elementary grounds.</p>
+                    <p>One or two criticisms can be dealt with quickly. At one point she says: "The opposition set up between men in <hi rend="i">Urizen</hi> 25 (fig. 29) and women in <hi rend="i">Jerusalem</hi> 75 (fig. 30) is clearly wrong, as John Grant also has pointed out . . . ." Mr. Grant, of course, "pointed out" nothing of the kind. What <hi rend="i">he</hi> was claiming (entirely without justification)
+<pb id="p04-145" n="145"/>
+was that I saw the women in <hi rend="i">Jerusalem</hi> 75 as men! And my purpose, in any case, was not to set up a contrast between men and women, but between energy unorganized and energy organized--states which have nothing to do with the gender of the protagonists. Similarly, she claims that in figs. 17-19 my purposes "seem to be served by the comparative plates alone, without reference to those by Blake." But these plates and their relevance to Blake are discussed in detail elsewhere, on pages 17 and 42-43 of my book, as reference to the index would have shown.</p>
+                    <p>Other, more thoughtful points, need more detailed reply:</p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>(1)</label> Mrs. Chayes points out that when, in <hi rend="i">Blake’s Humanism</hi>, I show figures entwined by serpents or serpentine forms I usually describe them as versions of the "selfhood," whereas in <hi rend="i">Blake’s Visionary Universe</hi> I usually characterize them as "energies"; she suggests that this shows some contradiction, or change of mind, on my part. This is not so. The serpent is <hi rend="i">always</hi> in some sense an emblem of energy in Blake; that is, I would maintain, one of the few truly assured points in his symbolism. The further point is a slightly complicated one but would have been elucidated had she looked up the main entry under "Selfhood" in the index to <hi rend="i">Blake’s Humanism</hi>, which would have led her to the following statement: "Blake illustrates the fall of Man by the rearing of his energy, isolated from vision, into an autonomous Selfhood which governs all his actions." My point, to elaborate slightly, is that Blake saw the original creation of the selfhood as contemporaneous with the creation of energy in the body. In the beginning it is innocent, as illustrated by its appearance as a giant earthworm (here I agree with Mrs. Chayes) in "The Elohim creating Adam." But if not organized by man, the destructive energy of the serpent takes over, turning innocent energy into the coils of an imprisoning Selfhood. What should have been part of man’s own expressive being is turned against him as a constricting force. In the course of <hi rend="i">Blake’s Humanism</hi> I draw attention to several versions of this paradigm, notably the series of designs known as "The Gates of Paradise." In terms of the serpent image, however, it is best seen in the various illustrations to <hi rend="i">Paradise Lost</hi>, where the distortion of energies at the Fall is depicted by a complete encircling of Eve by the serpent, and the redemption is prefigured by a crucifixion scene in which the nail through Christ’s foot passes through the eye of a serpent now fully subordinated. Throughout, it is the dealings of men with their own energies that is in question.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(2)</label> Your reviewer also maintains that I am wrong to think that the figure in <hi rend="i">Europe</hi> 4 is veiling the child and that she is really <hi rend="i">un</hi>veiling it. I did in fact think about this question for a long time. The design in question is basically ambiguous, since the female figure is leaning on a cloud, which cannot give her very much leverage in what Mrs. Chayes might call the "concrete, practical and definable" sense of the word. But from the energetic thrust of her outstretched arm I concluded that she was more concerned to establish the veil than to remove it. Mrs. Chayes wants to associate her with the words "Arise O Orc" in the text; but these are on the previous plate, and the relevant lines nearest to the design are:
+<q>
+Forbid all Joy, &amp; from her childhood shall the little female<lb/>
+Spread nets in every secret path.
+</q>
+On my interpretation, it is the child of Joy that is being veiled here. Mrs. Chayes wants to associate Orc with Jesus; again, I would disagree. What I have argued in <hi rend="i">Blake’s Humanism</hi> (pp. 120-24) is that the "secret child" of <hi rend="i">Europe</hi> is "the Christ whom the Christians worship, a figure of secrecy and shame" and that Enitharmon’s invocation of Orc is an invocation of a complementary figure of energy, visualized by her as an ambiguous Dionysus, who expresses himself in destruction, or at best intoxicated pleasure, rather than in the lineaments of the full, fourfold human. Behind both the secret
+<pb id="p04-146" n="146"/>
+child, Jesus, and the child of pure energy, Orc, there is a Blakean child of true "fourfold" vision and energy, and it is this child that the woman is seen veiling beneath the cloud she kneels on in <hi rend="i">Europe</hi> 4. My point in juxtaposing this design with Raphael’s "Madonna of the Veil" was to suggest that since Blake would probably have seen in Raphael’s design an image of the human Jesus who was, in his view, veiled by the Churches, he might well have found inspiration here for his own design to express a more complicated version of the process by which the original child of vision is veiled. My interpretation is open to further discussion, obviously, but it is perfectly self-consistent--and there are no misprints.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(3)</label> Whether one finds an "extraordinary resemblance" between Piero della Francesca’s "Death of Adam" and the designs showing Blake’s Har, Heva and Mnetha is clearly a matter for legitimate difference: I find an amazing likeness of tone and atmosphere to "The Death of Adam" in Blake’s designs--where Mrs. Chayes sees only "the uncertainties of his early style." But since, as I point out, Blake could hardly have known Piero’s design, we are in any case talking about a coincidence and a possible kinship of vision, not about any question of influence or of detailed resemblances. And it is unjust (even gratuitously so?) to accuse me of "leaping ahead of my evidence here," and of taking a theme from Piero as a step in my own argument, where I go on to identify the figures on the title-page of <hi rend="i">Songs of Experience</hi> as Har and Heva. The relation between Har and Heva and Adam and Eve is traced in my books as a central theme in Blake’s myth-making. His own version, I argue, of the Adam and Eve story was to suppose that the vision and energy of the original Adam had been separated out into the ineffective vision of Har and the destructive energy of Tiriel: consequently Har stayed in paradise with Heva, becoming more and more foolish, while Tiriel ranged the world of experience outside destroying others, and, eventually, himself. The fact that Piero’s design should be called "The Death of Adam" was simply, for me, a further facet to a notable coincidence: my interpretation of Har and Heva was undertaken quite independently.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(4)</label> Several of Mrs. Chayes’s remarks suggest that she thinks Blake was always more likely to know original paintings than engravings after originals. In my book I have tended to work from the opposite assumption. Much here, obviously, must depend on where and when particular paintings were available in the England of Blake’s time, but my general assumption is that he spent far more time in the "print-shops" than in the "king’s palaces" that B. H. Malkin speaks of (see p. 369 of my book). It would be good to have more light on this question.</p>
+                        </item>
+                    </list>
+                    <p>The basic question remains: is one to interpret Blake’s visual work and his use of earlier sources primarily through his immediate visual memory of them, or through the intervention of an imagination that was always searching for significance and for symbolic patterns? Both approaches, clearly, have their legitimate place, and when I have refrained from commenting on visual likenesses it has often been because I thought they would be obvious to the reader--that, after all, is one reason for reproducing illustrations in the first place. But I must resist the claim that my approach reduces the interpretation of particular designs to a "closed circle of abstractions." This is the very opposite of my intention. Vision was not for Blake an abstraction, nor was energy, or liberty, or desire, or innocence, or experience. They were all for him states which he experienced in himself and which he felt to be so urgently real that he wanted to express his sense of them to others at whatever price, and by whatever means. If the reader, coming across such words in my study, does not find them corresponding to an inward state in himself, then he should shut the book and go back to look for the particular lineaments of vision, energy and so on in the original designs. If he reaches a point where such words cease to be abstractions and begin to speak through a particular slant of the eye, say, or a particular thrust of the fore-head
+<pb id="p04-147" n="147"/>
+in Blake’s figures, he will have begun to understand the nature of the language that I am trying to use in my books, and will have been rescued from the net of abstraction that always lurks in any attempt to seize Blake through interpretative commentary.</p>
+                </div2>
+            </div1>
+            <div1 id="BQ-04-4-0006">
+                <head>
+                    <title>
+                        <hi rend="b">MINUTE PARTICULARS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">LOUIS</hi>
+                            <name>
+                                <hi rend="i">MIDDLEMAN</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">CARNEGIE-MELLON UNIVERSITY</hi>
+                    </byline>
+                    <head>
+                        <title>"Bring out number, weight &amp; measure in a year of dearth"</title>
+                    </head>
+                    <p>William Blake’s use of the Bible is copiously documented, but it has as yet gone unnoticed that one of the Proverbs of Hell, "Bring out number, weight &amp; measure in a year of dearth," is built on a close translation of the Aramaic writing on the wall (Daniel 5.25-28), "mene, mene, tekel, upharsin," or "numbered, numbered, weighed, divided."</p>
+                    <p>Blake announces in <hi rend="i">The Marriage of Heaven and Hell</hi> the advent of a new heaven consequent upon the destruction of a rationalistic epistemology based on a reductive materialism. The writing on the wall appeared at the feast of Belshazzar, last king of Babylon, prophesying the fall of his kingdom, the biblical analogue of Blake’s prophecies against the Babylon of Newton, Bacon, Locke, and other despicable "Angels."</p>
+                </div2>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">JOHN</hi>
+                            <name>
+                                <hi rend="i">ADLARD</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">HIGHBRIDGE, SOMERSET</hi>
+                    </byline>
+                    <head>
+                        <title>"The Garden of Love"</title>
+                    </head>
+                    <q>
+And I saw it was filled with graves,<lb/>
+And tomb-stones where flowers should be;<lb/>
+And Priests in black gowns were walking their rounds,<lb/>
+And binding with briars my joys and desires.
+</q>
+                    <p>Most writers on Blake appear to find the stanza too simple to need much comment, but R. B. Kennedy, editing for Collins’ Annotated Student Texts, remarks: "The joys and desires seem almost personified as children."</p>
+                    <p>This suggests that few, if any, readers know that binding with briars was to be seen in graveyards in Blake’s day and up till Victorian times. A writer in <hi rend="i">Notes and</hi>
+                        <pb id="p04-148" n="148"/>
+                        <hi rend="i">Queries</hi>, 20 August 1932, mentioned "the binding of briers round and over the turfs (or turves) of graves to keep them in position . . . ." He had noticed them on Charles Lamb’s grave. On August 6 of that year another correspondent had quoted Chatterton’s "Song from AElla":
+<q>
+With my hands I’ll dent the briers<lb/>
+Round his holy corse to gre.
+</q>
+Thus the buried "joys and desires" were <hi rend="i">literally</hi> bound with briars. Indeed, at the foot of the plate a grave is shown briar-bound, but this seems to have been taken as purely symbolical.</p>
+                </div2>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">MICHAEL</hi>
+                            <name>
+                                <hi rend="i">PHILLIPS</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">UNIVERSITY OF EDINBURGH</hi>
+                    </byline>
+                    <head>
+                        <title>"Blake’s Corrections in <hi rend="i">POETICAL SKETCHES</hi>": A Forthcoming Supplement and the Britwell Court Library Copy</title>
+                    </head>
+                    <p>In the "Prolegomenon" appended to my recent article on Blake’s corrections in <hi rend="i">Poetical Sketches</hi> (<hi rend="i">Blake Newsletter</hi>, 4 [Fall 1970], 46), I drew attention to the fact that the present locations of several original copies remained unknown, at least to me. The response to my request for assistance in locating these copies was immediate and generous (though still incomplete), and the information supplied in particular by Professor G. E. Bentley, Jr., has been especially helpful. Arrangements are now being made to inspect these copies for Blake’s corrections and a supplement to my article will be published in a forthcoming number of the <hi rend="i">Blake Newsletter.</hi>
+                    </p>
+                    <p>Immediately following publication of my article in hitherto unrecorded copy of <hi rend="i">Poetical Sketches</hi> appeared in auction at Sotheby’s on 29 March 1971 in the sale of the Britwell Court Library. The Britwell Court Library copy was described as follows in the Sotheby <hi rend="i">Catalogue</hi>:
+<q>
+34 BLAKE (WILLIAM) POETICAL SKETCHES. By W. B., First Edition, <hi rend="i">with the final blank, olive straight-grained morocco gilt, t.e.g., uncut</hi>, By Frances Bedford [<hi rend="i">Hayward</hi> 192; <hi rend="i">Rothschild</hi> 413; <hi rend="i">Keynes</hi> 26], A Fine Copy 8<hi rend="i">vo</hi> 1783<lb/>
+                            <lb/>
+                            <hi rend="sub">*</hi>
+                            <hi rend="s">*</hi>
+                            <hi rend="sub">*</hi> This copy is not recorded by Lowery, <hi rend="i">A census of copies of William Blake’s "Poetical Sketches"</hi> (The Library, December 1936, p. 354 et seq.), where 22 or possibly 23 copies are listed.<lb/>
+                            <lb/>
+The earliest of Blake’s poetical works, and, except for the first book of <hi rend="i">The French Revolution</hi>, the only one printed in ordinary type.
+</q>
+A photographic facsimile of the titlepage is given in the <hi rend="i">Catalogue</hi> facing the description.</p>
+                    <p>The Britwell Court Library copy was purchased by John Fleming of New York (lot 34 @ £3,800) on behalf of The Pierpont Morgan Library. The following description of the copy was supplied to me by Douglas C. Ewing of that Library in a letter of 17 May 1971:
+<q>
+This copy bears no manuscript corrections, and there is no indication of ownership before the Britwell Court Library; it is bound in olive morocco in a style typical
+<pb id="p04-149" n="149"/>
+of many of the bindings commissioned by S. R. Christie-Miller, and bears the Brit-well-shelf-mark 8.D at the top of the blank binder’s leaf and 87.E.3 at the foot of that leaf. The copy is untrimmed, measuring 8 ¾ × 5 ½ inches, and contains the genuine terminal blank leaf.
+</q>
+                    </p>
+                    <p>I am grateful to Sotheby’s and to both Mr. Fleming and Mr. Ewing for the information leading to the composition of this note.</p>
+                </div2>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">RUTHVEN</hi>
+                            <name>
+                                <hi rend="i">TODD</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">C’AN BIELÓ, GALILEA, MALLORCA, SPAIN</hi>
+                    </byline>
+                    <head>
+                        <title>The Bohn Catalogue and James Vine</title>
+                    </head>
+                    <p>I want to lay the ghost of the "1843" Bohn catalogue mentioned in connection with <hi rend="i">Milton</hi> once and for all. During the forties and fifties, I owned a copy of an "1848" Bohn catalogue which, so far as I know, is still with my books in store on Martha’s Vineyard. The book was bound in red morocco and was about half as fat again, though roughly the same size as <hi rend="i">The Concise Oxford Dictionary.</hi> Sir Geoffrey Keynes was shown this and the error is clearly a printer’s typo in printing "3" instead of "8," which unfortunately slipped by the otherwise perfectly proof-corrected copy--I, myself, can only hope that one day I will manage to produce a book which does not contain one misprint, however trivial. In the second, 1945, edition of Gilchrist’s <hi rend="i">Life of Blake</hi> for Everyman’s Library, I had an explanatory note on p. 382. (Dent’s must have printed a very small edition of this, as it is now almost impossible to find one. However, I hope that the new edition, again completely revised, which I am now making for the Clarendon Press, will make both the 1942 and 1945 Everyman editions unnecessary.) To put matters straight, owing to the general inaccessibility of the 1945 Everyman, I think I might as well quote the pertinent part of my note:
+<q>
+In <hi rend="i">The Writings of William Blake</hi>, vol. ii, p. 395 [Sir Geoffrey Keynes] records the discovery of a copy [of <hi rend="i">Milton</hi>] with fifty plates; this is now in America. When offered for sale by Henry G. Bohn in 1848 this copy was stated to have been executed "expressly for his principal patron, Mr. Vine of the Isle of Wight." According to J. L. Roget, <hi rend="i">A History of the "Old Water-Colour" Society</hi>, 1891, James Vine, of Puckster, a Russian merchant, was a patron of the early watercolour painters, including Joshua Cristall and J. F. Lewis.
+</q>
+It is unfortunate that the resemblance between the figures 3 and 8, and a printer’s carelessness, should have caused so much trouble. I hope that this information will help Janet Warner in her researches into James Vine, following the hint given by Roget about his relationship with the watercolorists of his time. If James Vine did, in fact, purchase <hi rend="i">Milton</hi> from Blake, it seems strange that the only other mention of him as a purchaser of Blake’s works should be in connection with the <hi rend="i">Job</hi>, and I wish success to those who are now hunting for his descendants.</p>
+                </div2>
+            </div1>
+            <pb id="p04-150" n="150"/>
+            <div1 id="BQ-04-4-0007">
+                <head>
+                    <title>
+                        <hi rend="b">QUERIES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="i">ARNOLD</hi>
+                            <name>
+                                <hi rend="i">FAWCUS</hi>
+                            </name>:</docAuthor>
+                        <hi rend="i">THE TRIANON PRESS, PARIS</hi>
+                    </byline>
+                    <head>
+                        <title>Early States of the <hi rend="i">JOB</hi> Series</title>
+                    </head>
+                    <p>The Blake Trust is doing a <hi rend="i">Catalogue Raisonné</hi> of the <hi rend="i">Job</hi> series and we are very anxious to know of any early states that there may be in existence apart from those in possession of Sir Geoffrey Keynes, the British Museum, the Fitzwilliam Museum, the Library of Congress, Mr. Lessing J. Rosenwald, and Mr. Hofer.</p>
+                    <p>I would appreciate hearing from anyone who has early states, that is <hi rend="i">before</hi> the state on India paper which has "proof" in the right-hand corner. We are also anxious to find the whereabouts of any engravings that are coloured. There are four in the Fitzwilliam Museum and we know of the existence of a complete set of coloured engravings somewhere in the United States. They were last heard of in the collection of George C. Smith, Jr.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>

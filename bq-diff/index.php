@@ -22,7 +22,7 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/xml/") as $fn) {
+						foreach (new DirectoryIterator("whole-issues/") as $fn) {
 							if (preg_match('/[0-9]{3}-[0-9]{2}[-a-z0-9]*.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								

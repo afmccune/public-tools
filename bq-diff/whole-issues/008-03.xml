@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+  <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+ <idno>008-03</idno>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <hi rend="b"><hi rend="i">Blake</hi> NEWSLETTER 31</hi>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Winter 1974-75</edition>
+      </editionStmt>
+      <publicationStmt>
+        <date>1974-75</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Blake Newsletter, An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">08.3</biblScope>
+                        <biblScope unit="volume">8</biblScope>
+                        <biblScope unit="issue">3</biblScope>
+            <respStmt>
+              <resp>Editors</resp>
+              <name>Morris Eaves</name>
+              <name>Morton D. Paley</name>
+              <resp>Associate Editor for Great Britain</resp>
+              <name>Frances A. Carey</name>
+              <resp>Bibliographer</resp>
+              <name>Ron Taylor</name>
+              <resp>Editorial Assistants: for production</resp>
+              <name>Judith Wallick Page</name>
+              <name>Donna Rix (in charge)</name>
+              <name>Sharon Stell</name>
+              <name>David Schnur</name>
+              <resp>Editorial Assistants: for subscriptions</resp>
+              <name>Graham Conley</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Department of English, University of New Mexico</publisher>
+            <pubPlace>Albuquerque, NM, USA</pubPlace>
+            <date when="1975"/>
+            <authority>William Blake Archive</authority>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+      <textDesc n="Scholarly journal">
+        <constitution type="composite"/>
+        <domain type="education"/>
+      </textDesc>
+    </profileDesc>
+  </teiHeader>
+  <text id="volume_08">
+    <front>
+      <pb id="p08-46-47" n="46-47"/>
+      <div1 id="cover">
+        <figure n="cover.008.03.bqscan" rend="file">
+          <figTranscr>Blake<lb/>
+          NEWSLETTER 31</figTranscr>
+        </figure>
+      </div1>
+      <div1 id="BQ-08-3-0001">
+        <p>The <hi rend="i">Blake Newsletter, An Illustrated Quarterly</hi>, is published four times a year under the sponsorship of the Department of English of the University of New Mexico.</p>
+        <p>Editors: Morris Eaves, University of New Mexico, and Morton D. Paley, University of California, Berkeley.</p>
+        <p>Associate Editor for Great Britain: Frances A. Carey, Assistant Curator, Department of Prints &amp; Drawings, British Museum.</p>
+        <p>Bibliographer: Ron Taylor, University of California, Berkeley.</p>
+        <p>Editorial Assistants: for production, Judith Wallick Page and Donna Rix (in charge), Sharon Stell, and David Schnur, University of New Mexico; for subscriptions, Graham Conley, University of New Mexico.</p>
+        <p>Manuscripts are welcome. Send two copies, typed and documented according to the forms suggested in the <hi rend="i">MLA Style Sheet</hi>, to either of the editors: Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131; Morton Paley, Dept. of English, Univ. of California, Berkeley, Ca. 94720.</p>
+        <p>Subscriptions are $5 for one year, four issues. Special rate for individuals, $4 for one year, surface mail. For subscribers overseas who want to receive their issues by air mail, $8. U.S. currency or international money order if possible. Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131.</p>
+        <p>Some back issues are available. Address Morris Eaves. Prices: Whole numbers 1-8, bound together, $5 (special rate for individuals, $4). Whole numbers 9-13, bound together, $5 (special rate for individuals, $4). Whole numbers 22, 23, 24, 25, 26, 27, 28, $2 each. Whole number 20 (<hi rend="i">A Handlist of Works by William Blake in the Department of Prints &amp; Drawings of the British Museum</hi>, edited by G. E. Bentley, Jr.), $3. Whole numbers 29-30, double issue on Blake Among Victorians, $3. Whole numbers 14-19 are out of print.</p>
+        <p>The International Standard Serial Number of the <hi rend="i">Blake Newsletter</hi> is 0006-453X.</p>
+        <table id="contents" rows="13" cols="2">
+          <row>
+            <cell>News</cell>
+            <cell>48</cell>
+          </row>
+          <row>
+            <cell>Newsletter Subscriptions, Newsletter Reprints, Bronowski Dead at 66, Blake Symposium--Edinburgh, Conference on British Romantic Art and Europe, 1975 Hamburg and Frankfurt Exhibitions, Blakes in Glasgow, Druid Celebration, New Music for Four Zoas, Taurus Press Blakes, Wedding and Baptism, Work in Progress</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>Feature Essay</cell>
+            <cell>56</cell>
+          </row>
+          <row>
+            <cell>John E. Grant and Robert E. Brown, Blake&#8217;s Vision of Spenser&#8217;s <hi rend="i">Faerie Queene</hi>: A Report and Anatomy</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>Comment</cell>
+            <cell>86</cell>
+          </row>
+          <row>
+            <cell>Morris Eaves, Reproducing <hi rend="i">The Characters of Spenser&#8217;s Faerie Queene</hi></cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>Discussion</cell>
+            <cell>88</cell>
+          </row>
+          <row>
+            <cell>G. E. Bentley, Jr., The Accuracy of the Blake Trust Reproductions,</cell>
+            <cell>88</cell>
+          </row>
+          <row>
+            <cell>Robert N. Essick, Corrections to the BMPR Handlist,</cell>
+            <cell>90</cell>
+          </row>
+          <row>
+            <cell><hi rend="i">Visions of the Daughters of Albion</hi>: The Frontispiece and a Crucial Line</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><label>1.</label> Mary V. Jackson, Additional Lines in <hi rend="i">Visions of the Daughters of Albion</hi></cell>
+            <cell>91</cell>
+          </row>
+          <row>
+            <cell><label>2.</label> E. B. Murray, Bound Back to Back in Bromion&#8217;s Cave</cell>
+            <cell>94</cell>
+          </row>
+          <row>
+            <cell><label>3.</label> Roland A. Duerksen, Bromion&#8217;s Usurped Power--Its Source, Essence, and Effect: A Replication</cell>
+            <cell>95</cell>
+          </row>
+        </table>
+        <p>The color reproduction of <hi rend="i">The Characters of Spenser&#8217;s Faerie Queene</hi> that folds out from the center of this issue, and the black-and-white reproductions on accompanying pages are reproduced by permission of the National Trust, Egremont Collection, Petworth (Sussex). <note type="unreferenced" place="footer">Copyright &#169; 1975 by Morris Eaves and Morton D. Paley</note></p>
+      </div1>
+    </front>
+    <body>
+      <pb id="p08-48" n="48"/>
+      <div1 id="BQ-08-3-0002">
+        <head>
+          <title>
+            <hi rend="b">News</hi>
+          </title>
+        </head>
+        <figure>
+          <head><hi rend="i">Tyger</hi>, Taurus Press</head>
+        </figure>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Our New Subscription System</hi>
+            </title>
+          </head>
+          <p>Some subscribers have had good reason to wonder why The <hi rend="i">Newsletter</hi> can&#8217;t handle its affairs with the business like efficiency of <hi rend="i">PMLA</hi> and <hi rend="i">Playboy.</hi> The main reason is a chronic shortage of money and clerical help. Another reason is a primitive addressing and mailing operation in the University of New Mexico post office. We have tried for years to keep our dealings with individuals, libraries, and subscription agencies clean and efficient, and our occasional failures have made us more and more unhappy with things as they are.</p>
+          <p>So we have decided to get rid of at least one large trouble spot, our revolving subscription system. We publish four issues a year, and you have been able to begin subscribing with any one of the four issues. That is, your subscription may expire with the summer issue, while someone else&#8217;s may expire with spring, winter, or fall. This system is easy for a computer to handle, and convenient for subscribers, and thus it is the standard system for commerical magazines.</p>
+          <p>But the system is very difficult to manage efficiently with limited money and clerical help, and a system that might ideally be convenient to the subscriber becomes inconvenient. Everyone knows that there is no better analogy to the Gordian knot than a fouled-up magazine subscription, and we have decided to go with Alexander the Great.</p>
+          <p>Our new system of handling subscriptions will be the one used by <hi rend="i">PMLA</hi> and some other large scholarly journals--subscription <hi rend="i">by the volume.</hi> Every subscription will begin with the summer issue (the issue with which <hi rend="i">Newsletter</hi> volumes begin) and end with spring. All renewal notices will be sent out at the same time every year. New subscribers will be sent the current issue, plus all the previous issues in the current volume.</p>
+          <p>The new system is much simpler than the old for us, and we are certain it will mean fewer problems for you. But shifting from the old system to the new will be a lot of trouble for all of us, and we are asking you in advance to help us--mainly to bear with us--when the change-over begins this spring.</p>
+          <p>The procedure will not be complicated. The aim is to move each subscription from its present expiration date to expire with the spring issue. Every subscription will then begin with the summer issue. Of course, subscriptions that now expire with the spring issue will not be changed. All others will be. You will receive a bill for an amount large enough to bring your subscriptions into the new subscription cycle. You will not be paying extra money, of course--just paying on a slightly different schedule.</p>
+          <p>The procedure and the reasons for it will be explained again when you receive your bill.</p>
+        </div2>
+        <pb id="p08-49" n="49"/>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Newsletter Reprints</hi>
+            </title>
+          </head>
+          <p>We have now reprinted the early issues of the <hi rend="i">Blake Newsletter</hi>, numbers 1-13, originally printed and published at Berkeley from 1967 to 1970.</p>
+          <p>In order that all our subscribers who need the reprints may have them at a reasonable price, we have designed a reduced--not abridged--format that compresses all the early issues into two printed parts of slightly more than 50 pages each. We think you will find that the format makes the reprinted issues quite simple to consult.</p>
+          <p>Both parts of the reprint series are now ready for mailing:
+<q>
+Part I, Numbers 1-8, 1967-69<lb/>
+$5 (special price of $4 for individuals)<lb/><lb/>
+Part II, Numbers 9-13, 1969-70<lb/>
+$5 (special price of $4 for individuals)
+</q></p>
+          <p>Please send your order to:<lb/><lb/>
+Reprints<lb/>
+Morris Eaves<lb/>
+Department of English<lb/>
+University of New Mexico<lb/>
+Albuquerque, New Mexico 87131</p>
+          <p>Make all checks out to the <hi rend="i">Blake Newsletter.</hi></p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Bronowski Dead at 66</hi>
+            </title>
+          </head>
+          <byline>By <docAuthor>Victor H. <name>McElheny</name></docAuthor></byline>
+          <p>The following obituary notice, by Victor K. McElheny, appeared in the New York <hi rend="i">Times</hi> of 23 August 1974.</p>
+          <p>Jacob Bronowski, a leading popular exponent of the philosophical basis of scientific research, and since 1964 a resident fellow of the Salk Institute in La Jolla, Calif., died after a heart attack yesterday morning in the East Hampton home of friends, where he and his wife were vacationing. He was 66 years old.</p>
+          <p>Dr. Bronowski&#8217;s latest and most ambitious attempt to describe the place of science in human history, a 13-part television series for the British Broadcasting Corporation called <hi rend="i">The Ascent of Man</hi>, is to be broadcast on American public television stations this winter.</p>
+          <p>In the programs, first broadcast in Britain in May through July, 1973, and later in Canada, Dr. Bronowski played the same role as interpreter of his subject that Lord Clark, the art historian, had in the earlier B.B.C. series <hi rend="i">Civilisation.</hi></p>
+          <div3>
+            <head>
+              <title>Filming of Series</title>
+            </head>
+            <p>Sylvia Fitzgerald, for several years an editorial assistant to Dr. Bronowski at the Salk Institute, recalled yesterday in a telephone interview that the filming of the series took from
+<pb id="p08-50" n="50"/><figure><head><hi rend="i">Holy Thursday</hi>, Taurus Press</head></figure>
+July, 1971, to December, 1972. Scenes were shot in such varied locations as Easter Island in the South Pacific, Machu Picchu in the Peruvian Andes, the Omo Valley in Ethiopia where hominid precursors of man lived two million years ago, and the English house of Charles Darwin, author of the theory of biological evolution.</p>
+            <p>Dr. Bronowski was born in Poland on Jan. 18, 1908, a son of Abram and Celia Bronowski. The family soon migrated to Germany and then to England.</p>
+            <p>In England, Dr. Bronowski attended the University of Cambridge, receiving his doctorate in mathematics there in 1933. In 1934 he became a senior lecturer at the University of Hull for eight years.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>Report on Hiroshima</title>
+            </head>
+            <p>In World War II, Dr. Bronowski headed statistical groups studying the effects of bombing on industry and the economy. This was one of the origins of what became known as "operations research." In 1945, he was scientific deputy of the British Chiefs of Staff mission to Japan, where he wrote a report called "The Effects of Atomic Bombs at Hiroshima and Nagasaki."</p>
+            <p>In an article in <hi rend="i">The Saturday Evening Post</hi> in 1960, Dr. Bronowski wrote of his experience, "When I saw the inhuman desolation of Hiroshima and Nagasaki, I was convinced that the development of atomic weapons could lead to the destruction of mankind."</p>
+            <p>In the same article, however, he said public fears that scientists who had worked on such weapons had lost their sense of right and wrong were mistaken. "On the contrary, I have found that the conscience of scientists is the most active morality in the world," he wrote.</p>
+            <p>Dr. Bronowski closed the article by recalling the heroism of the atomic weapons specialist Louis Slotin who, when his screwdriver slipped during the delicate operation of manipulating the core of a plutonium bomb, causing a huge shower of deadly neutrons, pulled the pieces of the bomb apart with his own hands.</p>
+            <p>By this act, Mr. Slotin sentenced himself to death by radiation sickness nine days later, but he saved seven colleagues in the room. Dr. Bronowski commented, "Morality--shall we call it heroism in this case--has the same anatomy the world over."</p>
+            <p>In 1950, Dr. Bronowski became head of research for Britain&#8217;s National Coal Board, which took over all British coal mines when they were nationalized after World War II. He held this post for 13 years, while the board&#8217;s researchers worked to develop "smokeless" fuels to burn in British grates.</p>
+          </div3>
+          <div3>
+            <head>
+              <title>Often Witty</title>
+            </head>
+            <p>A short, stocky man, Dr. Bronowski was often witty, even sarcastic, in conversation. When interviewed on television, he made intent, dramatic pauses while he thought of answers to questions. He wrote many books, including the well-known <hi rend="i">Science and Human Values</hi>, and two plays. He was a frequent participant in the B.B.C. radio show "Brains Trust," a counterpart to "Information Please" in the United States.</p>
+            <p>One of Dr. Bronowski&#8217;s deepest interests was the 19th century English artist and poet William Blake. He became an authority on Blake, about whom he wrote a book, <hi rend="i">William Blake and the Age of Revolution.</hi></p>
+            <p>Although urging a loosening of ties between scientists and governments, and deploring a "terrible loss of nerve" eroding support for science in Western countries, Dr. Bronowski held to optimism about the future. At the close of the 13-part television series, Dr. Bronowski said, "If we do not take the next step in the ascent of man, it will be taken elsewhere, in Africa, in China."</p>
+            <p>In 1941, Dr. Bronowski married Rita Coblentz, a sculptor who used the professional name Rita Colin. They had four daughters, Mrs. Nicholas Jardine, Mrs. Robert Grant, Mrs. Jay Plett and Clare, a student at Harvard College.</p>
+            <p>Besides his widow and daughters, Dr. Bronowski is survived by a brother, Leo Baron.</p>
+            <p>The funeral will be private. <note type="unreferenced" place="footer">Copyright 1974 by The New York Times Company. Reprinted by permission.</note></p>
+          </div3>
+        </div2>
+        <pb id="p08-51" n="51"/>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Blake Symposium&#8212;Edinburgh</hi>
+            </title>
+          </head>
+          <p>The Blake symposium held at the University of Edinburgh 1-4 May 1974 was attended by about 25 people, who kept discussion going variously during the intervals of eating and sight-seeing.<ref target="n0" type="note">*</ref><note id="n0"><hi rend="i">(Our thanks to David V. Erdman for this item. Eds.)</hi></note> The sights were in the University of Glasgow Library (an exhibition of emblem books and of the work of a 19th-century Scottish follower of Blake, David Scott) and at Pollock House, Glasgow, an Adams mansion now a museum of the fine arts housing six Blake originals, including the painting of <hi rend="i">The Canterbury Pilgrims</hi> and portraits of <hi rend="i">Adam</hi> and of <hi rend="i">Eve</hi> (the latter partly repainted).</p>
+          <p>The sensation of the conference was a dramatic performance, "Conversations at Mr. Quid&#8217;s" (based on <hi rend="i">An Island in the Moon</hi> and, as an imaginative interlude, <hi rend="i">The Book of Thel</hi>), directed by Dr. Roger Savage--a smashing hit, all agreed. A public lecture by E. P. Thompson, who also participated in the seminar, presented some of the evidence of Blake&#8217;s doctrinal affinities with such fellow antinomians as the Muggletonians and the radical Swedenborgians.</p>
+          <p>There were seven seminar papers, each followed by extensive discussion, most of them illustrated by slides. They were:
+<q>
+Heather Glen, "Blake&#8217;s Criticism of Moral Thinking in the <hi rend="i">Songs"</hi><lb/>
+Frank M. Parisi, <hi rend="i">"The Gates of Paradise</hi> and Emblems of Melancholy"<lb/>
+Belinda Humfrey and David Worrall, "Who Shall Bind the Infinite: A Study of <hi rend="i">Europe"</hi><lb/>
+David V. Erdman, <hi rend="i">"Milton</hi> and <hi rend="i">The Song of Los:</hi> Text and Illuminations"<lb/>
+James B. Ferguson, "Prefaces to <hi rend="i">Jerusalem"</hi><lb/>
+John Beer, "Blake and the Problems of Influence"<lb/>
+Annette S. Levitt, "Comus, Cloud, and Thel&#8217;s &#8216;Unacted Desires&#8217; "
+</q></p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Conference on British Romantic Art and Europe</hi>
+            </title>
+          </head>
+          <p>A conference on "British Romantic Art and Europe" was held at the Courtauld Institute, London, on 12, 13, and 14 December 1974, coinciding with the Turner exhibition at the Royal Academy. Five sessions were scheduled for the conference: three to discuss the relationship between British art and Italy, Germany, and France respectively; one devoted exclusively to the Turner exhibition; one to encompass archival material, photographic schemes, and other tools of research relevant to the subject. Each session was to include three half-hour papers given by invited speakers, followed by a discussion and brief contributions from two or three research students working in the field. Scheduled speakers were: David Irwin, Basil Skinner, and Francis Haskell on "Italy"; David Bindman, William Vaughan, and Rudiger Joppien on "Germany"; Michael Kitson on "France."</p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Blake Exhibition 1975&#8212;Hamburg &amp; Frankfurt</hi>
+            </title>
+          </head>
+          <p>The British Council is sponsoring a Blake exhibition to be held in Hamburg and Frankfurt during March and April 1975, for which David Bindman is writing the catalogue. This will be the next to last exhibition in a series organized by Dr. Werner Hofmann of the Hamburg Kunsthalle. The other exhibitions are "Ossian," "Friedrich," "Fuseli," and "Sergel." A representative
+<figure><head>Blake portrait for <hi rend="i">Proverbe of Hell</hi>, Taurus Press</head></figure><pb id="p08-52" n="52"/>
+selection of Blake&#8217;s visual art has been compiled from a wide range of collections in England, Scotland, America, and Australia, including substantial loans from the Fitzwilliam and the Tate. The new National Gallery of Art in Canberra, Australia, has promised to send its recently acquired <hi rend="i">Jerusalem</hi> proof plates, and there is a strong possibility of borrowing some of the Melbourne Dantes. The exhibition is the first major showing of Blake in Germany. Hamburg&#8217;s associations with Blake, through Henry Crabb Robinson&#8217;s article in the <hi rend="i">Vaterlandisches Museum</hi> of 1810, make it an especially suitable location.</p>
+          <figure>
+            <head><hi rend="i">Holy Thursday</hi>, Taurus Press</head>
+          </figure>
+        </div2>
+        <div2>
+          <figure>
+            <head><hi rend="i">London</hi>, Taurus Press</head>
+          </figure>
+          <head>
+            <title>
+              <hi rend="b">Blakes in Glasgow</hi>
+            </title>
+          </head>
+          <p>The copies of <hi rend="i">Visions of the Daughters of Albion</hi> (Keynes and Wolf, copy C) and <hi rend="i">Europe</hi> (Keynes and Wolf, copy B) from the collection of Lord Cunliffe are now on deposit at the Glasgow University Library, together with a copy of the <hi rend="i">Descriptive Catalogue</hi> and its unique advertisement.</p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Druid Celebration</hi>
+            </title>
+          </head>
+          <p>Blake&#8217;s name was invoked in a somewhat perverse context on 22 September 1974 during the Druid celebration of the autumn equinox on Parliament Hill Fields in North London. The hyperborean revivalists in question belong to the Order of Bards, Ovates and Druids, a splinter group of the British Circle of the Universal Bond, which claims descent from a meeting of British Druids supposedly organized at Primrose Hill in 1717 by John Toland. More surprisingly, the Order accords Blake a place on the roll of honor for its departed chieftains, alongside John Aubrey, William Stukeley and Bulwer Lytton. A desire to appease conventional religious opinion has robbed the ceremony of much of its pagan flavor, to the point where even the four archangels are enlisted in the Druid cause. However, the fruits of the earth were duly presented to the Chief Druid, who then returned them to the soil (or rather to the hands of onlooking children who disliked the idea of waste); "Excalibur" was unsheathed for the pronouncement of peace on the four corners of the earth; two new posthumants were accepted into the Order; a poetry reading was given and, finally, after a comprehensive blessing, the Druid banner, bearing a trilithon surmounted by a wheatsheaf, made its way down the hill to the changing-rooms.</p>
+        </div2>
+        <pb id="p08-53" n="53"/>
+        <div2>
+          <figure>
+            <head>From <hi rend="i">America</hi>, Taurus Press</head>
+          </figure>
+          <head>
+            <title>
+              <hi rend="b">New Music for <hi rend="i">Four Zoas</hi></hi>
+            </title>
+          </head>
+          <p>The first concert performance of Robert Starer&#8217;s "Images of Man" was presented by the Department of Music, Brooklyn College School of Performing Arts, on 15 December 1974 at Whitman Hall. The text for "Images of Man" was freely selected from sections of <hi rend="i">The Four Zoas.</hi> The work is scored for four soloists, four instruments (flute, horn, cello, and harp), four percussionists, and chorus. "Images of Man" was commissioned by CBS Television for presentation at the National Cathedral in Washington, D. C., on 4 November 1973 and is scheduled for publication in the spring of 1975.</p>
+          <pb id="p08-54" n="54"/>
+          <figure>
+            <head>From <hi rend="i">America</hi>, Taurus Press</head>
+          </figure>
+        </div2>
+        <pb id="p08-55" n="55"/>
+        <div2>
+          <figure>
+            <head>From <hi rend="i">America</hi>, Taurus Press</head>
+          </figure>
+          <head>
+            <title>
+              <hi rend="b">Taurus Press</hi>
+            </title>
+          </head>
+          <p>The private press of Paul Peter Piech, Taurus Press of Willow Dene, 2 Willow Dene, Bushey Heath, Herts, WD2 1PS, England, publishes the following:
+<q><hi rend="i">The Chimney Sweeper</hi> (1969), 10p. Edition: 200 copies<lb/><hi rend="i">London</hi> (1969), 10p. Edition: 200<lb/><hi rend="i">Auguries of Innocence</hi> (1970), 50p. Edition: 200<lb/><hi rend="i">The Divine Image</hi> (1971), 15p. Edition: 300<lb/><hi rend="i">Holy Thursday</hi> (1971), Cloth: &#163;1, Paperback: 50p. Edition: 225<lb/><hi rend="i">Tyger Tyger</hi> (1972), Cloth only: &#163;5. Edition: 65<lb/><hi rend="i">Proverbs of Hell</hi> (1974), Cloth: &#163;5, Paperback &#163;2. Edition: 100 (To be published in 1975)<lb/><hi rend="i">America</hi> (1975), Cloth/Slipcase: &#163;50, Prepublication price: &#163;40. Edition: 100
+</q>
+The illustrations on nearby pages are prints from the Taurus Press.</p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Wedding &amp; Baptism</hi>
+            </title>
+          </head>
+          <p>According to Aethelred and Alexandra Eldridge, of Golgonooza, Primal Church of the Blake Recital, in Ohio, "A first wedding was consummated under the name of Wm. Blake at the foot of Mt. Nebo, near the Ohio [River], on the grounds of the Church of William Blake. Daphne Finnegan &amp; Donald Kutschall were pronounced &#8216;Equal to the Poetic Task of Marriage&#8217; by the Tongue of the Church, Aethelred Eldridge, April 27, 1974." At the same place in June, Saffron Ann Henke was baptized "in Innocence outliving lasting life called strife." Copies of the wedding and baptism ceremonies are probably still available from the Eldridges, c/o Golgonooza, R. R. 1, Millfield, Ohio 45761.</p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Work in Progress</hi>
+            </title>
+          </head>
+          <p>Michael Davis: a 70,000-word life of william Blake for the general reader, to be published by Sphere (Cardinal series), and to include among its many illustrations a number of works by artists other than Blake.</p>
+          <p>Donna Rix: a study of the narrative structure of Blake&#8217;s <hi rend="i">Milton</hi> with reference to a literary form common to the prophetic books of the Old Testament and the Apocalypse of St. John; Blake inverts and transforms many of the symbols, themes, and motifs of the Biblical prophetic tradition in <hi rend="i">Milton</hi>; a Ph.D. dissertation directed by Morris Eaves at the University of New Mexico.</p>
+          <p>Gurbhagat Singh: <hi rend="i">Meditations on William Blake: An Experiential Approach to His Poetry</hi>, a study of Blake&#8217;s poetry using comparative criticism (Eastern and Western) in an attempt to close the gap between critical theory and response; a Ph.D. dissertation completed for History of Consciousness, University of California at Santa Cruz, June 1974.</p>
+          <figure>
+            <head><hi rend="i">Divine Image</hi>, Taurus Press</head>
+          </figure>
+        </div2>
+      </div1>
+      <pb id="p08-56" n="56"/>
+      <div1 id="BQ-08-3-0003">
+        <head>
+          <title>
+            <hi rend="b">Blake&#8217;s Vision of Spenser&#8217;s <hi rend="i">Faerie Queene:</hi> A Report and an Anatomy</hi>
+          </title>
+        </head>
+        <figure/>
+        <byline>
+          <hi rend="b">by</hi>
+          <docAuthor>
+            <hi rend="b">John E.</hi>
+            <name>
+              <hi rend="b">Grant</hi>
+            </name>
+          </docAuthor>
+          <docAuthor>
+            <hi rend="b">Robert E.</hi>
+            <name>
+              <hi rend="b">Brown</hi>
+            </name>
+          </docAuthor>
+          <ref target="n7">*</ref>
+        </byline>
+        <p>Blake&#8217;s tempera called <hi rend="i">The Characters in Spenser&#8217;s Faerie Queene</hi> has attracted less attention than it deserves due in part to its somewhat remote location, its rather poor condition, and its not having been adequately reproduced, though its size, complexity, and finish establish it as one of Blake&#8217;s major surviving works. With the kind assistance of Martin Butlin, whose forthcoming catalogue raisonn&#233; is eagerly awaited, we are able to provide a summary of basic data concerning the painting. We shall also attempt to describe and identify all the figures in the picture.<note id="n7"><hi rend="i">John E. Grant (University of Iowa) has published many articles on Blake, most recently in</hi> Blake Newsletter 26. <hi rend="i">He wishes to express his gratitude to the American Council of Learned Societies for a fellowship in 1968-69 that enabled him to study</hi> The Characters in Spenser&#8217;s <hi rend="i">Faerie Queene. Robert E. Brown is a doctoral candidate in English at the University of Iowa.</hi></note></p>
+        <p>It is now the property of the National Trust, and is regularly on display at Petworth House, Sussex, about fifty miles from London. The specific media are watercolor with ink on muslin. It has been varnished, mounted on a panel, and closely framed, which causes the edges of the picture to be shadowed; vertical lines at the right and left edges indicate that they were formerly occulted by a frame. Reports that it has been recently cleaned refer only to repairs following a minor accident. The painting measures 18 &#215; 53-&#189; inches (45.7 &#215; 135.8 cm.)--practically the same size as Blake&#8217;s better known tempera of <hi rend="i">Chaucer&#8217;s Canterbury Pilgrims.</hi> In 1951 Keynes reported that the picture is signed WB, but the signature is not visible in 1974 photographs. The date of execution was conjectured by Keynes to have been ca. 1815, but Butlin and Grant have independently concluded that a date of ca. 1825 is more probable.</p>
+        <p>The first report of the painting is that it was sold by Mrs. Blake to Lord Egremont for 80 guineas in 1828. It passed by descent to Lord Leconfield and thence to John Wyndham, later Lord Egremont, who gave it to H. M. Treasury in 1957. It was exhibited in London by the Burlington Fine Arts Society in 1876 and the Arts Council in 1951, and in Washington in 1957.</p>
+        <p>The literature on the picture is sketchy. A few suggestive facts may be gleaned from the Gilchrist <hi rend="i">Life of William Blake</hi>, I, 365 (1863; rpt., ed. Todd, 1945, p. 356) and the Rossetti list in Gilchrist, II, 235, no. 208 (1863; rev. ed. 1880, II, 249, no. 235). Additional references are Collins Baker, <hi rend="i">Petworth Catalogue</hi> (1920), p. 5, no. 408; Keynes, <hi rend="i">The Tempera Paintings</hi> (1951), p. 17, item 6; Bentley, <hi rend="i">Blake Records</hi> (1969), p. 363. The only previous color reproduction, that issued by the Blake Society in the 1920&#8217;s, was quite small and is now rare. The monochrome reproductions in Figgis (1925) and Todd (1971) are too small for detailed study. The reproduction in Damon&#8217;s <hi rend="i">Dictionary</hi> (1965, 1967, pl. 8), however, is somewhat larger, and Damon&#8217;s discussion is the only attempt at a systematic exposition. Though we disagree (sometimes silently) with Damon in a number of particulars, we have been considerably assisted by his observations.</p>
+        <p>In a full-scale study of the painting one would wish to consider the relation between Blake and Spenser generally. There are brilliant remarks on this subject in Frye&#8217;s <hi rend="i">Fearful Symmetry</hi> (1947), passim, but no comments on the paintings. A penetrating interpretation of <hi rend="i">Gray</hi> 64: <hi rend="i">Bard</hi> 12, entitled "Spenser Creating His Faeries," is to be found in Tayler, <hi rend="i">Blake&#8217;s Illustrations to the Poems of Gray</hi> (1971), pp. 103-07; see Keynes, 
+                    <pb id="p08-57" n="57"/>
+ed., <hi rend="i">William Blake&#8217;s Water-Colour Designs for the Poems of Thomas Gray</hi> (1971), p. 59. Apart from what can be inferred from Blake&#8217;s "Imitation of Spencer" in <hi rend="i">Poetical Sketches</hi> and the inscription from <hi rend="i">The Faerie Queene</hi> II, ii, 2 on p. 19 of the <hi rend="i">Notebook</hi>--see Erdman and Moore, <hi rend="i">The Notebook of William Blake: A Photographic and Typographic Facsimile</hi> (1973), pp. 16-17--there is no verbal evidence of what Blake thought of his great predecessor. More substantial inferences can be gathered from the "Head of Spenser" which Blake painted about 1800: see the catalogue of William Wells, <hi rend="i">William Blake&#8217;s "Heads of the Poets" for Turret House, The Residence of William Hayley, Felpham</hi> (1969), pp. 21-22.</p>
+        <p>Another important basis for inference is Blake&#8217;s tempera <hi rend="i">Sir Geoffrey Chaucer and the Nine and Twenty Pilgrims on their Journey to Canterbury</hi> (1808), for which Blake wrote expositions, particularly in the <hi rend="i">Descriptive Catalogue</hi> (1809). Blake also issued as many as five engraved states of this picture, and the later states are accompanied by identifying and interpretational inscriptions; see Keynes, <hi rend="i">The Engraved Designs of William Blake: The Separate Plates</hi>, no. 17, pp. 45-49. For expositions of the <hi rend="i">Chaucer</hi> see Damon&#8217;s <hi rend="i">Dictionary</hi> and especially Karl Kiralis, "William Blake as an Intellectual and Spiritual Guide to Chaucer&#8217;s Canterbury Pilgrims," <hi rend="i">Blake Studies</hi>, I (1969), 139-90. The fact that the Spenser cavalcade is almost exactly the same size as the tempera Chaucer cavalcade and the similarity of arrangements of the figures in both paintings imply that Blake intended them to be companion pictures. Since Butts owned the <hi rend="i">Chaucer</hi> until his death in 1845 while Lord Egremont purchased the <hi rend="i">Spenser</hi> in 1828, however, it is not evident how the two pictures could have been displayed together.</p>
+        <p>The color reproduction of <hi rend="i">The Characters in Spenser&#8217;s Faerie Queene</hi> which accompanies this exposition is practically the first of clarity adequate for study without reference to the original. It is based on photographs of A. C. Cooper, Ltd., London, taken by Gordon H. Roberton at Petworth in Spring, 1974. Though the reproduction is about two-thirds as <hi rend="i">long</hi> as the painting, the picture <hi rend="i">area</hi> is less than half that of the painting. Thus the viewer should be cautioned against expecting that the reproduction will have the same impact as the original. The edges of the color reproduction have been cropped to eliminate shadows and color printing has produced a general reddish cast that is not true to the painting. The blowups and sketches that illustrate our exposition should enable the viewer to attain a more secure grasp of the picture than could have been gotten from a brief look at the original which has seriously decayed, particularly in the upper corners. We have also provided a coded key of all figures in the picture and for convenience will refer to it even before it is systematically explained.</p>
+        <p>Our detailed exposition is based on two periods of study: in the spring of 1969 Grant spent several hours intensively looking at the picture as it was displayed at Petworth, without benefit of special lighting. Later Grant and Brown studied various projections of a black and white photograph of the picture that was procured from the Courtauld Institute at the suggestion of the National Trust. Black and white and color photographs from Cooper were not available until the last stages of the preparation of the manuscript.</p>
+        <p>These studies have been rewarded by discoveries comparable to those made in excavating various levels of an archaeological site. Repeatedly, additional study of areas in the picture that seem to contain nothing has revealed details of undoubted if uncertain significance. Some of these, such as the Spread-winged Presence, "Nature" (B 11),
+<pb id="p08-58" n="58"/>
+are unquestionably present, and can be recognized by anyone once they have been pointed out. Other details are more dubious, such as a transparent architectural feature just above the figure we identify as Florimell (A 16). In other areas, such as B 14 and 15, the shapes per se are almost imperceptible but the light patterns indicate there must have been figures. Clouds, frame-shading, deterioration, and, perhaps, pentimenti, all contribute to producing indefinite areas, particularly at the upper right edge of the picture. The validity of assertions about such areas can only be confirmed or rejected as a result of study of the original freed from the frame and under special lighting conditions.</p>
+        <p>In this analysis a thorough report of all perceptible details has been our primary concern, even when the details seem peculiar or unaccountable. We have provided enlargements or adapted tracings of details that are too small or faint for clear viewing: there are blowups of A 26, A 27, A 28, A 29, A I, A II, A IV, B 1, B 5, B 6, B 7, B 19, B 20; there are adapted tracings of A VIII, A IX, A XII, B 5, B 6, B 7, B 11, B 12, B 14, B 15, B 19, B 20, B 21. In both our visual and verbal renditions of the painting, it has seemed better to risk supererogation than incompleteness.</p>
+        <p>Our fundamental aim of descriptive accuracy shades over into the problem of illustrative correspondence with figures and topographic features in Spenser&#8217;s <hi rend="i">Faerie Queene.</hi> One is able to see more clearly when one understands what may be seen. The vast, intricate design of Spenser&#8217;s epic poses a formidable challenge to the expositor who wishes to give a thorough account of the correspondences between the poem and Blake&#8217;s very detailed picture for it. Brown has particularly addressed himself to this problem. The best basis for identification of details is specific reference in <hi rend="i">The Faerie Queene</hi> to the appearance, features or clothing of any figure in the painting. When such references do not occur, we have worked from other suppositions. One is that the figures Blake presents are likely to be among the most important in <hi rend="i">The Faerie Queene</hi>; another is that many of the evil human figures are not represented except for those few relegated to the rear of the procession. It seems likely that Blake presents the figures more or less in the order that they appear in the poem, so that figures around the Redcrosse Knight, for example, probably appear in or near Book I. Variations from this arrangement are duly noted. The elaborate eye- and hand-framings in the picture tend to set off some groups of figures from others and also to form a system of pairings of figures (see Analysis I). Spenserian narrative affinities often seem reliable guidance for identifying the problematic member of a pair: for example, it would seem likely that a haloed female companion to the Redcrosse Knight (A 3) would certainly be Una (A 4), even if she were not identifiable by specific textual descriptions, Finally, it was noticed that the same number of women appear in the procession as are really important in <hi rend="i">The Faerie Queene</hi> itself (see Analysis II). These clues have aided in identification of all female figures, and have
+<figure/>
+led to some speculation as to the meaning of their arrangement.</p>
+        <p>A number of the figures, particularly those in the supernal region above the clouds, however, seem less to illustrate texts in <hi rend="i">The Faerie Queene</hi> than to function as Blakean criticisms of the quality of Spenserian vision. Damon was correct in identifying the central figure of the divinity as "The God of this World"; a deity who superintends the bellicose moral virtues must be "my vision&#8217;s greatest enemy." Yet Blake was certainly prompted by Spenser&#8217;s "Jove" (<hi rend="i">Mut.</hi> VI. 15 ff.) in delineating this figure. To recognize and evaluate the proportions of illustration and criticism in a Blake picture is a challenging task. In his pictorial comments on other writers from Young and Gray to Milton, Bunyan, and Dante, Blake the artist sought to reveal the strengths as well as limitations perceptible to his prophetic criticism. Though all were susceptible to error, all possessed redemptive imagination. Probably not all of Blake&#8217;s thoughts about Chaucer are contained in his rather extensive verbal comments on his picture. Other dimensions of consideration are implied in Blake&#8217;s picture of the <hi rend="i">Pilgrims</hi>, but Chaucer is a this-worldly author and gives his illustrator little explicit guidance as to how his supernal regions should be conceived. Thus Blake was free to provide only birds and a few other pictorial details as auguries of supernal design in Chaucer. Of course, Spenser differs from Chaucer in that he gives a more explicit account of his divine machinery and Blake could follow his author in rendering the heavenly regions visually.</p>
+        <p>Comparison with the Chaucer <hi rend="i">Pilgrims</hi> cannot but suggest other ways in which the Spenser may be interpreted. The similarities in the depictions of the Prioress and Una (A 4) and the Wife of Bath and the figure we identify as Britomart (A 14) are striking, and the further similarity between the gestures and positions of Harry Bailey and Britomart (A 14) must be meaningful. More extended comparative study will lead the viewer to consider
+<pb id="p08-59" n="59"/>
+that Chaucer&#8217;s <hi rend="i">Pilgrims</hi> are, for the most part, making progress. It is possible to question whether they are going in exactly the right direction, but, with a few exceptions, they are certainly moving ahead. Not so with Spenser&#8217;s <hi rend="i">Characters.</hi> The Lion (A 2) and Una&#8217;s Ass are stepping forward and Guyon&#8217;s horse is probably strutting ahead, but of the other chief mounts, three are rearing and two are shying. If their destination really is the Gothic Jerusalem at the upper left as, following Damon, we suppose to be the case, Spenser&#8217;s Characters are going to have to get moving, overcome external and internal impediments, and, circuitously, redirect their route. Whether they can be imagined able to accomplish this exploit, either as a group or individually, depends on what the viewer is able to gather about the proportions of Good and Evil revealed in the heavens of Spenser.</p>
+        <p>What we offer in this detailed analysis of the <hi rend="i">Characters in Spenser&#8217;s Faerie Queene</hi> is not primarily interpretive. Our chief concerns are accurate description and identification of the Spenserian characters and scenes in the picture. If we have generally succeeded, we will have tended to obviate a number of interpretive possibilities, but in general we have only tried to touch on these matters in an allusive or suggestive manner. For purposes of clarity, we have presented a numbered schematic version of the Spenser picture somewhat like that of Blake&#8217;s drawing of <hi rend="i">A Vision of the Last Judgment</hi> employed by Damon in his <hi rend="i">Dictionary.</hi> When this and the other pictorial aids are compared with the color reproduction of the picture, the viewer can easily locate the area being referred to. The Spenser procession differs from <hi rend="i">The Last Judgment</hi>, however, in that the figures in the foreground seldom interact with those in the background, and both are sharply separated from those in the supernal regions. Thus, we have not employed a consecutive numbering system, such as is suitable for <hi rend="i">The Last Judgment</hi>, but have preferred to label characters and places on the Earth as figures of Row A, either in arabic or roman numerals, depending upon whether they are near or far, and those in the supernal region above the clouds as figures of Row B, always in arabic numerals. Cross-referenced figures within each row are usually identified by code key identification whenever they are mentioned in the exposition; when the row is not explicitly designated, it will be understood that the figure in question is in the same row as is being discussed at that point. We have first provided lists in which all the numbered figures are identified either with characters in <hi rend="i">The Faerie Queene</hi> or other details from that poem, or else briefly described when there seems to be no Spenserian text that elucidates them.</p>
+        <p>In the expository commentary are more detailed, though hardly exhaustive, discussions of the pictures: some aspects are not at all thoroughly considered. Much the most important of these is color: when seen by Grant in 1969, much color was visible and was noted, but many of the blues in particular had faded badly and there were many disfiguring white spots, particularly in the supernal regions. How much these spots were due to the white ground paint showing through in an unintended way was not determined. Because we have been unable to compare our notes with the present condition of the painting, it did not seem helpful to include a full report on the colors as they appeared in 1969. The reader will probably prefer not to be flooded with a mass of uncoordinated data. The other class of information deliberately omitted from this commentary is the flowers and plants that are seen at the feet of many figures in the foreground procession. It is quite possible that these florae had particular significance for Blake but, despite work on this aspect of Blake&#8217;s symbolism begun by Kauver and Erdman, we are not at present able to identify the species of the plants in this picture. Moreover, since we have eschewed most color notes, we could at best provide tedious verbal descriptions of the florae that would not be more informative than what the reader could make out for himself, particularly with the use of a magnifying glass.</p>
+        <p>Our commentary does attempt to provide a quite thorough account of such factors as distinguishable topographic details, and the postures, gestures, sightlines, clothing, and mounts (where there are any) of all the human figures, together with a certain number of cross-references to some other Blake works which contain figures that seem to have resemblances to those in the Spenser procession. On the whole, the analogies that seem most suggestively similar to those in this picture occur in Blake&#8217;s late works, such as the series for <hi rend="i">L&#8217;Allegro</hi> and <hi rend="i">I1 Penseroso</hi> and <hi rend="i">Paradise Regained, Jerusalem</hi>, the <hi rend="i">Book of Job</hi>, and the <hi rend="i">Divine Comedy.</hi> We are grateful to Mary Lynn Johnson for pointing out a number of the most interesting analogies, as well as for making an acute critique of our manuscript. Without her help we would have overlooked many important details. It is hoped that such lacunae as remain will stimulate other scholars to make necessary corrections and amplifications. Anyone who studies this picture for an evening will find himself drawn into further reflections on how Blake read Spenser.</p>
+        <figure/>
+        <pb id="p08-60" n="60"/>
+        <figure>
+          <head>Row B (top); Row A (bottom).</head>
+        </figure>
+        <div2>
+          <head>
+            <title>KEY</title>
+          </head>
+          <table rows="30" cols="2">
+            <head>
+              <hi rend="b">Row A: Arabic Numerals: The Procession</hi>
+            </head>
+            <row>
+              <cell>A1</cell>
+              <cell>The Dwarf</cell>
+            </row>
+            <row>
+              <cell>A2</cell>
+              <cell>Una&#8217;s Lion</cell>
+            </row>
+            <row>
+              <cell>A3</cell>
+              <cell>The Redcrosse Knight</cell>
+            </row>
+            <row>
+              <cell>A4</cell>
+              <cell>Una</cell>
+            </row>
+            <row>
+              <cell>A5</cell>
+              <cell>The Dragon</cell>
+            </row>
+            <row>
+              <cell>A6</cell>
+              <cell>Ruddymane</cell>
+            </row>
+            <row>
+              <cell>A7</cell>
+              <cell>The Palmer</cell>
+            </row>
+            <row>
+              <cell>A8</cell>
+              <cell>Belphoebe</cell>
+            </row>
+            <row>
+              <cell>A9</cell>
+              <cell>Timias</cell>
+            </row>
+            <row>
+              <cell>A10</cell>
+              <cell>Sylvanus</cell>
+            </row>
+            <row>
+              <cell>A11</cell>
+              <cell>Guyon</cell>
+            </row>
+            <row>
+              <cell>A12</cell>
+              <cell>Satyrane</cell>
+            </row>
+            <row>
+              <cell>A13</cell>
+              <cell>Glauce</cell>
+            </row>
+            <row>
+              <cell>A14</cell>
+              <cell>Britomart</cell>
+            </row>
+            <row>
+              <cell>A15</cell>
+              <cell>Marinell(?)</cell>
+            </row>
+            <row>
+              <cell>A16</cell>
+              <cell>Florimell</cell>
+            </row>
+            <row>
+              <cell>A17</cell>
+              <cell>Arthegall</cell>
+            </row>
+            <row>
+              <cell>A18</cell>
+              <cell>Amoretta</cell>
+            </row>
+            <row>
+              <cell>A19</cell>
+              <cell>Scudamore</cell>
+            </row>
+            <row>
+              <cell>A20</cell>
+              <cell>Talus</cell>
+            </row>
+            <row>
+              <cell>A21</cell>
+              <cell>Arthur</cell>
+            </row>
+            <row>
+              <cell>A22</cell>
+              <cell>The Salvage Man</cell>
+            </row>
+            <pb id="p08-61" n="61"/>
+            <row>
+              <cell>A23</cell>
+              <cell>Pastorella</cell>
+            </row>
+            <row>
+              <cell>A24</cell>
+              <cell>Calidore</cell>
+            </row>
+            <row>
+              <cell>A25</cell>
+              <cell>The Captain of the Brigants, or Braggadocchio</cell>
+            </row>
+            <row>
+              <cell>A26</cell>
+              <cell>Flying figures with leading strings to 29</cell>
+            </row>
+            <row>
+              <cell>A27</cell>
+              <cell>Flying figures with leading strings to 30</cell>
+            </row>
+            <row>
+              <cell>A28</cell>
+              <cell>The Blatant Beast, led by a small figure, 28a, with another on its muzzle, 28b, and a third, 28c, on its collar</cell>
+            </row>
+            <row>
+              <cell>A29</cell>
+              <cell>Duessa, with a figure standing on her head</cell>
+            </row>
+            <row>
+              <cell>A30</cell>
+              <cell>Archimago bound, with a figure, 30a, seated on his shoulder</cell>
+            </row>
+          </table>
+          <figure>
+            <head>Row B (top); Row A (bottom).</head>
+          </figure>
+          <table rows="12" cols="2">
+            <head>
+              <hi rend="b">Row A: Roman Numerals: The Background</hi>
+            </head>
+            <row>
+              <cell>AI</cell>
+              <cell>Despaire&#8217;s Cave, with the figures of Despaire and Trevisan</cell>
+            </row>
+            <row>
+              <cell>AII</cell>
+              <cell>Idle Lake, or the Gulfe of Greedinesse</cell>
+            </row>
+            <row>
+              <cell>AIII</cell>
+              <cell>A domed building, perhaps Celia&#8217;s castle</cell>
+            </row>
+            <row>
+              <cell>AIV</cell>
+              <cell>A haloed building with a Gothic port$l. perhaps Eden</cell>
+            </row>
+            <row>
+              <cell>AV</cell>
+              <cell>Mammon&#8217;s Cave, with the figure of Mammon kneeling</cell>
+            </row>
+            <row>
+              <cell>AVI</cell>
+              <cell>An architectural feature, perhaps Alma&#8217;s castle</cell>
+            </row>
+            <row>
+              <cell>AVII</cell>
+              <cell>Busyrane&#8217;s palace, with a prolonged flame before it</cell>
+            </row>
+            <row>
+              <cell>AVIII</cell>
+              <cell>Colin Clout with a pipe, and nude figures</cell>
+            </row>
+            <row>
+              <cell>AIX</cell>
+              <cell>Tree on the horizon, IXa, next to a large, indistinct structure, IXb</cell>
+            </row>
+            <row>
+              <cell>AX</cell>
+              <cell>A small house, perhaps that of the Hermit</cell>
+            </row>
+            <row>
+              <cell>AXI</cell>
+              <cell>A range of trees</cell>
+            </row>
+            <row>
+              <cell>AXII</cell>
+              <cell>Hills and mountains, with various indistinct figures</cell>
+            </row>
+          </table>
+          <pb id="p08-62" n="62"/>
+          <figure>
+            <head>Row B (top); Row A (bottom).</head>
+          </figure>
+          <table rows="22" cols="2">
+            <head>
+              <hi rend="b">Row B: Arabic Numerals: The Supernal Regions</hi>
+            </head>
+            <row>
+              <cell>B1</cell>
+              <cell>A Gothic arched bridge, with vines, and trees above</cell>
+            </row>
+            <row>
+              <cell>B2</cell>
+              <cell>A Gothic cathedral</cell>
+            </row>
+            <row>
+              <cell>B3</cell>
+              <cell>"Cynthia," haloed, with her toe on the crescent beaming Moon, accompanied by an entourage of spirits</cell>
+            </row>
+            <row>
+              <cell>B4</cell>
+              <cell>Airy spirits</cell>
+            </row>
+            <row>
+              <cell>B5</cell>
+              <cell>A dome with spire, 5a, probably St. Paul&#8217;s; riders fly by it.</cell>
+            </row>
+            <row>
+              <cell/>
+              <cell>A Gothic portal, 5b</cell>
+            </row>
+            <row>
+              <cell>B6</cell>
+              <cell>Seated figures, embracing; others agitated or in repose</cell>
+            </row>
+            <row>
+              <cell>B7</cell>
+              <cell>Spirits ascend above a portal</cell>
+            </row>
+            <row>
+              <cell>B8</cell>
+              <cell>"Jove" as "The God of This World," with complex halos and a sceptre</cell>
+            </row>
+            <row>
+              <cell>B9</cell>
+              <cell>The Globe of "This World," supported by three angels</cell>
+            </row>
+            <row>
+              <cell>B10</cell>
+              <cell>Angel ascending above a stand; smaller figures above</cell>
+            </row>
+            <row>
+              <cell>B11</cell>
+              <cell>The Artist seated by a stand, perhaps with another figure in his lap, flanked by a book; smaller figures streaming from them</cell>
+            </row>
+            <row>
+              <cell>B12</cell>
+              <cell>"Nature," as a Spread-winged Presence, whose over-arching wings cover the areas of 11 and 13</cell>
+            </row>
+            <row>
+              <cell>B13</cell>
+              <cell>"Astroea" or Justice as a haloed woman, upholding scales in a starry sky</cell>
+            </row>
+            <row>
+              <cell>B14</cell>
+              <cell>Four or more figures descending a cloud</cell>
+            </row>
+            <row>
+              <cell>B15</cell>
+              <cell>Possible seated figure</cell>
+            </row>
+            <row>
+              <cell>B16</cell>
+              <cell>Two figures between two burning altars; others to the left</cell>
+            </row>
+            <row>
+              <cell>B17</cell>
+              <cell>An Archer within the Sun, discharging his teaming bow</cell>
+            </row>
+            <row>
+              <cell>B18</cell>
+              <cell>Buildings and trees</cell>
+            </row>
+            <row>
+              <cell>B19</cell>
+              <cell>A tower, probably the Tower of Babel</cell>
+            </row>
+            <row>
+              <cell>B20</cell>
+              <cell>An obelisk, possibly connected with another to the right</cell>
+            </row>
+            <row>
+              <cell>B21</cell>
+              <cell>A tower, possibly with a figure on top</cell>
+            </row>
+          </table>
+          <pb id="p08-63" n="63"/>
+          <figure>
+            <head>Row B (top); Row A (bottom).</head>
+          </figure>
+          <table rows="14" cols="2">
+            <head>
+              <hi rend="b">Analysis I: The System of Pairings in Row A, Arabic Numerals</hi>
+            </head>
+            <row>
+              <cell>1+2</cell>
+              <cell>The Dwarf and the Lion</cell>
+            </row>
+            <row>
+              <cell>3+4</cell>
+              <cell>The Redcrosse Knight and Una</cell>
+            </row>
+            <row>
+              <cell>6+(7)+11</cell>
+              <cell>The Palmer, (Ruddymane) and Guyon</cell>
+            </row>
+            <row>
+              <cell>8+9</cell>
+              <cell>Belphoebe and Timias</cell>
+            </row>
+            <row>
+              <cell>10+12</cell>
+              <cell>Sylvanus and Satyrane</cell>
+            </row>
+            <row>
+              <cell>13+14</cell>
+              <cell>Glauce and Britomart} 14+17 Britomart and Arthegall</cell>
+            </row>
+            <row>
+              <cell>15+16</cell>
+              <cell>Marinell and Florimell</cell>
+            </row>
+            <row>
+              <cell>17+20</cell>
+              <cell>Arthegall and Talus} 14+17 Britomart and Arthegall</cell>
+            </row>
+            <row>
+              <cell>18+19</cell>
+              <cell>Amoretta and Scudamore</cell>
+            </row>
+            <row>
+              <cell>21+22</cell>
+              <cell>Arthur and the Salvage Man</cell>
+            </row>
+            <row>
+              <cell>23+24</cell>
+              <cell>Pastorella and Calidore</cell>
+            </row>
+            <row>
+              <cell>5+28</cell>
+              <cell>The Dragon and the Blatant Beast</cell>
+            </row>
+            <row>
+              <cell>(7+25)</cell>
+              <cell>Possible connection: Ruddymane and Braggadocchio</cell>
+            </row>
+            <row>
+              <cell>29+30</cell>
+              <cell>Duessa and Archimago</cell>
+            </row>
+          </table>
+          <table rows="8" cols="2">
+            <head>
+              <hi rend="b">Analysis II: Components of The Female Character</hi>
+            </head>
+            <row>
+              <cell>4</cell>
+              <cell>Una (holiness)</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>Belphoebe (prowess)} Belphoebe and Amoretta, the twin sisters: the opposite aspects of the Diana-Venus dichotomy</cell>
+            </row>
+            <row>
+              <cell>13</cell>
+              <cell>Glauce (experience; necromancy)</cell>
+            </row>
+            <row>
+              <cell>14</cell>
+              <cell>Britomart (central; synthesis)</cell>
+            </row>
+            <row>
+              <cell>16</cell>
+              <cell>Florimell (meekness)</cell>
+            </row>
+            <row>
+              <cell>18</cell>
+              <cell>Amoretta (beauty; chastity)} Belphoebe and Amoretta, the twin sisters: the opposite aspects of the Diana-Venus dichotomy</cell>
+            </row>
+            <row>
+              <cell>23</cell>
+              <cell>Pastorella (innocence)</cell>
+            </row>
+            <row>
+              <cell>30</cell>
+              <cell>Duessa (the negation of all the others)</cell>
+            </row>
+          </table>
+        </div2>
+        <pb id="p08-64" n="64"/>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Row A: Arabic Numerals: The Procession</hi>
+            </title>
+          </head>
+          <list type="ordered">
+            <item>
+              <p><label>1.</label> The Dwarf: he is first described as lagging behind in I, i, 6, but later he leads Una (4) and Arthur (21) to the place of imprisonment of the Redcrosse Knight (3) in Orgoglio&#8217;s castle (see I, viii, 1-2). In Blake&#8217;s representation, the Dwarf, who leads the procession, is given a plate halo and knotted loincloth; he holds a leading string attached to Una&#8217;s Ass.</p>
+            </item>
+            <item>
+              <p><label>2.</label> Una&#8217;s Lion makes his appearance at I, iii, 5-6, when he rushes out to eat her, but is tamed by her virtue. By the end of the same canto (see I, iii, 42) he is dead, slain by Sansloy. In Blake&#8217;s picture he is shaggy as a bison as he matches steps with Una&#8217;s Ass and the Dragon (5).</p>
+            </item>
+            <item>
+              <p><label>3.</label> The Redcrosse Knight is described in the first lines: I, i, 1-2. Blake&#8217;s figure is long-haired and short-bearded, wears a conical helmet with a crest, and gazes at Una (4). The interlined flared red cross on his shield is rather dim. On his short-sleeved shirt the right arm and bottom of another red cross is visible. His spear points up toward the left wing of the Gothic Cathedral, B2. He holds his own reins (extensions of which account for marks on his belly) as his horse rears at the sight of the Dragon (5). In I, x, 61ff., it is prophesied that Redcrosse will be recognized as St. George of England. The famous coin design by Benedetto Pistrucci represents St. George&#8217;s horse rearing above the Dragon while trampling it with one hind foot (as Calidore&#8217;s [24] horse does on figure 25).</p>
+            </item>
+            <item>
+              <p><label>4.</label> Una&#8217;s costume is notably lacking the veil described by Spenser, but is otherwise similar (see I, i, 4) with a simple dress, long dark wimple, and long hair. In <hi rend="i">The Faerie Queene</hi> she is said to lead a "milke white lambe," but no book is mentioned. Her mount is a "lowly asse more white than snow" and she rides sidesaddle with both toes resting on a broad stirrup. Her halo shows eleven main beams; she seems to be speaking as she looks forward and indicates a text with her right hand in her large open book, which has a red decoration in the upper left recto page and a red letter in the upper left verso, as well as two ties hanging from the front cover. With her left she gestures, probably up towards A IV, the castle of Eden, rather than to the indistinct vegetation in the middle distance. Blake would have been wryly amused to learn that in 1839 a gold &#163;5 coin was designed (actually issued in 1887) in which Queen Victoria appears in the character of Una, in company with her tame British lion. Blake&#8217;s Una must be searching the Book of Life for better things in the Spenserian legacy.</p>
+            </item>
+            <item>
+              <p><label>5.</label> The Dragon is described in detail by Spenser: I, xi, 8-15. Blake&#8217;s delineation presents a problem with respect to size: see I, xii, 11: "how many acres." His variegated shape appears in three places: his head leads the procession as he bites the dust; his left foot and scaled shoulder are just in advance of that of the Lion (2) and the Ass and his hooked wings are beneath the Lion&#8217;s muzzle; his scaled rump and looped tail are visible between the legs of the Ass and the Lion. The significance of the Dragon in the total design is appreciated when the uncropped left edge of the picture is studied: this creature is almost certainly the source of the clouds that rise up the left edge of the picture and then extend horizontally across the picture to delimit the Supernal Regions (see the headnote to Row B below). In this way Blake&#8217;s representation accounts for the vastness of Spenser&#8217;s Dragon: among the many Blakean analogies to this Dragon are those that pull the cars of Cotytto-Hecate in <hi rend="i">Comus</hi> 4, Cynthia in <hi rend="i">I1 Penseroso</hi>, and Diana in <hi rend="i">Job</hi> 14, as well as the energetic serpents in <hi rend="i">Thel</hi> 6 and <hi rend="i">America</hi> 11 who transport infants to joy. Instead of acting as vehicular power, however, Spenser&#8217;s Dragon is killed, and with the smoke of his dying breath covers the earth, leaving only dim evidences of heaven to those who hope to move to realms of day. This is one of many signs of Blake&#8217;s reservations as to the clarity of Spenserian vision.</p>
+            </item>
+            <item>
+              <p><label>6.</label> Ruddymane, the child of Amavia and Mordant, is introduced in II, i, 40, playing in his mother&#8217;s blood. The Palmer carries him (see II, ii, 11) to the castle of Medina, where the child is eventually left (see II, iii, 2) to receive instruction. It seems Ruddymane should have red hands, because all attempts to wash his mother&#8217;s blood from them (see II, ii, 2 ff.) fail; Blake&#8217;s small nude figure holds out his hands, but they are not reddened. Though he lacks a halo, he closely resembles the figure of the infant Christ in Blake&#8217;s <hi rend="i">Black Madonna,</hi> while Una (4) closely resembles Mary in that picture. The position of the child in the arms of an elderly man recalls the child and St. Simeon depicted on the first page of Night the Ninth of Blake&#8217;s illustrations to Young&#8217;s <hi rend="i">Night Thoughts</hi> (<hi rend="i">NT</hi> 417); there is also a watercolor of this subject in the Fogg Art Museum.</p>
+            </item>
+            <item>
+              <p><label>7.</label> Guyon&#8217;s attendant, the Palmer, is described in II, i, 7. Blake&#8217;s figure, in a cowled robe, is bald and barefoot; instead of carrying "a staffe," he holds a strap wound on his left hand, with which he leads the horse of Guyon (11). He gazes intensely, and perhaps with a frown, toward Guyon, but the child in his right hand looks at the viewer.</p>
+            </item>
+            <item>
+              <p><label>8.</label> Belphoebe is introduced in II, iii, and described at length, 21-30. She is dressed in "lylly white," and has long blond hair. Blake&#8217;s figure evidently has short curly yellow hair and looks rather masculine; the plain white top of her gown only is visible. Belphoebe is a huntress: the Diana product of a Diana-Venus uprearing with
+<pb id="p08-65" n="65"/>
+her twin sister, Amoretta (18). These two sisters, as female counterparts, are almost equidistant in Blake&#8217;s picture from the integral figure of Britomart (14). Belphoebe is located directly beneath the moon of B 3 (as befits her upbringing by Diana), and appears to exchange looks with Timias (9). Only the eye and muzzle of her horse is visible, to the left of the Palmer&#8217;s (7) right elbow and beneath Una&#8217;s (4) left.</p>
+            </item>
+            <item>
+              <p><label>9.</label> Timias, Arthur&#8217;s squire, might be expected to be located back with Arthur (21), but he also appears in Book II, in cantos 8-11, and must have been advanced in the procession because of his later love for Belphoebe (see III, v, and IV, vii-viii). The first description of Timias by Spenser (I, vii, 37) is not helpful for identification. He is most clearly described when Belphoebe finds him wounded by the Foster and his brothers after having pursued the Foster for an offense he had given to Florimell. Timias wears a hooded "mayled haberieon" with a jerkin over it, but has no "heavy burganet" (III, 5, 31) on his head; this helmet was removed by Belphoebe. He looks intently at Belphoebe (8). The head of his horse is visible by the Palmer&#8217;s (7) right shoulder near Una&#8217;s (4) left forearm.</p>
+            </item>
+            <item>
+              <p><label>10.</label> Sylvanus is also out of his Spenserian location, which is in Book I. But, since the back-to-back attitude of figures 9 and 10 indicates that these two are not together, and since the intersecting eye-lines between figures 10 and 12 could well imply a connection, and, furthermore, since the only other elderly figures likely to be near Guyon would be the Palmer, or possibly Archimago (7 and 31), this identification is proposed. While Spenser does not describe Sylvanus as being mounted, neither are the other possible characters equestrians. Sylvanus is not distinctly described by Spenser, and none of the details pertain to the head; Blake&#8217;s figure 10 is distinguished only by a white gown with raised collar, a sober demeanor, and a white beard. These features are appropriate for Sylvanus, who is described by Spenser merely as "aged" and "old" (see I, vi, 14-16). The shaggy mane of the horse of figure 10 is visible beneath the head of the horse of Guyon (11) and above the left forearm of the Palmer (7).</p>
+            </item>
+            <item>
+              <p><label>11.</label> Guyon, the central character to Book II, is seen covered from head to foot in his "harnesse" (see II, i, 5) and wearing a black helmet with yellowish flowery decorations; his clinging pale blue cloak does not cover his right arm or left calf. Like all the equestrians whose feet are visible in the Spenser (but unlike some in the Chaucer), he wears no spurs. He is the only equestrian in the front line who has no visible saddle. Guyon&#8217;s shield is curiously flattened concave; it has a distinct rib and rim and it may have been decorated. His facial expression might be described as "demure" and "temperate," not to mention "sterne" and "terrible" (see II, i, 6). He looks resolutely backward, presumably at Britomart (14), and his spear is pointed diagonally up toward the group at B 5. Guyon&#8217;s high-stepping
+<figure><head>A 6 &amp; A 7 Palmer and Ruddymane</head></figure><pb id="p08-66" n="66"/><figure><head>A 12 Satyrane</head></figure>
+horse (with uplifted eyes), Brigadore, which is led by the Palmer (7), has a docked tail. Guyon is also depicted, in one of the two episodes from <hi rend="i">The Faerie Queene</hi> in <hi rend="i">Gray</hi> 64: <hi rend="i">Bard</hi> 12, within the cloudy Cave of Mammon. The fact that the shaft of Guyon&#8217;s spear crosses the cave at A V is thus probably not accidental.</p>
+            </item>
+            <item>
+              <p><label>12.</label> Damon refers to this figure as Guyon&#8217;s "own animal nature"; on one level this interpretation may be sustained. The framing of Guyon between the eye-beams of Sylvanus and figure 12, undoubtedly Sir Satyrane, has the effect of undercutting Guyon&#8217;s "temperance" with suggestions of animality. This seems more persuasive because Satyrane is depicted without armor, and scantily clothed in trunks only. His origin and training to emulate wild animals is described at length by Spenser (see I, vi, 20-30). The animality of Blake&#8217;s figure is expressed in his powerful physique, his exceedingly hairy shoulders and thighs, and his uncouth short-bearded face and open mouth (all the other human figures, with the possible exception of 15, are close-mouthed) as he leers at Guyon. There seems to be a cloud over his things; perhaps it is dust stirred up by Britomart&#8217;s (14) horse. Satyrane holds the red lead of her horse wrapped around his left hand, and is probably causing the horse to shy by the gesture he makes with his raised right hand: perhaps he is pointing up toward the embracing figures at B 6. Satyrane&#8217;s only visible accoutrement of knightood is a sword, the handle of which is seen on his right hip. That Satyrane should be holding Britomart&#8217;s horse is explained by the episode in which they are companions on the road (see III, x, 1; III, xi, 1-20). Despite his lineage from a lusty Satyr, on his first appearance in <hi rend="i">The Faerie Queene</hi> he assists Una and fights the Paynim, Sansloy (see I, vi, 21 ff.). Coleridge&#8217;s alter-ego "Satyrane" was a Poet and Philosopher, albeit an iconoclast: see "A Tombless Epitaph," ca. 1809.</p>
+            </item>
+            <item>
+              <p><label>13.</label> This figure must be Britomart&#8217;s "squire," Glauce. Glauce is described by Spenser only as an "aged nurse" (see III, ii, 30). When Britomart dons armor, so does Glauce, and thus she serves her function as travelling companion to Britomart, and, later, to Sir Scudamore. Glauce&#8217;s right hand, upraised at Britomart&#8217;s right side, seems to express reverence, as does her gaze, which is apparently directed above the hat of Britomart into the supernal realm. Glauce&#8217;s left hand, outstretched at Britomart&#8217;s left side, indicates support of Britomart, rather than reverence. Glauce wears a blue gown, apparently over an armored coat, the collar of which is visible. Her wimple resembles both those of Una (4) and Britomart (14).</p>
+            </item>
+            <item>
+              <p><label>14.</label> This figure is identified by Damon as Amoretta, but several considerations make such an identification highly unlikely. First, on a story level, Blake clearly intends figure 14 to be connected with figure 17, who is identified by Damon as Arthegall. All eye-framings (especially those of figures 13 and 19) and arm-framings
+<pb id="p08-67" n="67"/>
+(especially those of figures 11 and 21, as well as of figures 14 and 17 themselves, and also of figure B 8) imply this connection. There is no important relationship in <hi rend="i">The Faerie Queene</hi> between Amoretta and Arthegall, whereas Arthegall&#8217;s love is Britomart. Secondly, as a character, Amoretta is too skittish and timid to assume the wide-open and easily confident posture of figure 14, a posture well suiting the courageous Britomart. Thirdly, Damon&#8217;s justification of his identification by arguing that Britomart is replaced by her more pacific "twin" is factually erroneous: Amoretta&#8217;s twin sister is Belphoebe, not Britomart. Fourthly, Damon&#8217;s justification of his view by reference to the "lodestarre" passage (III, vi, 52) does not prove Amoretta&#8217;s centrality, for it is matched and topped in this panegyric of Britomart: "That peerelesse paterne of Dame natures pride,/ And heuenly image of perfection . . . " (IV, vi, 24). It must, however, be admitted that the elaborate costume Blake gives to Britomart is not described by Spenser; but she does appear without armor in episodes dealing with both present and past events. There is the episode with Malecasta, in which Britomart undresses (III, i, 58-67), and her "locks unbound" (stanza 63) must indicate that she has long hair; this is later confirmed (see IV, i, 13). This passage also describes her as blond (also see IV, vi, 20). Blake&#8217;s figure has yellow hair so long it flows down onto the back of her horse. In flashback manner, Britomart is described before she took up arms (see III, ii, 17 to iii, 58). She is said to be "tall, and large of limbe" (III, iii, 53). Though a metaphorical reference, Spenser&#8217;s mention of "the feather in her loftie crest" (III, ii, 27) may be the inspiration for the elaborate headdress of figure 14: it has three chief white leaves or feathers on top and the white wimple blows to the right. There is, by the way, no text that describes Amoretta as wearing such a curious headdress. The probability that this figure is Britomart is further strengthened by her position as the third frontline mounted figure in the procession, where we would expect to find the central character of Book III. Thus Blake is revealing Britomart either as she was before she took up arms, or as she appears when unarmed, or even possibly as she may appear at some future time when her questing is over. It must be admitted that the points of the collar of her pale pink dress, together with her elaborate girdle and pointed-toed shoes may well imply ethical reservations. One observes that though she is riding sidesaddle, her stirrup, like those of the knights (and unlike that of Una, 4), is for riding astraddle. Blake is not usually fond of high-style people, as evidenced by the Wife of Bath in the <hi rend="i">Canterbury Pilgrims.</hi> Indeed, a close look at her costume reveals that Blake&#8217;s Britomart is not as committed to the arts of peace as she at first appears. What seems to be a garter above her right knee may be taken with another below the knee and other lines on her heavy calf to indicate that she is actually wearing armor beneath her light dress. The lines on her upper arms and midriff similarly imply that armor is the undergarment. Britomart seems to be vaguely smiling and the object of her backward glance is somewhat uncertain; she must be looking either at Arthegall (17) or at Talus (20). With her cuffed right hand, she gestures in the particular direction of Sylvanus (10). With her uncuffed left hand she seems to be reaching for a thong dangling from Arthegall&#8217;s (17) right hand.</p>
+            </item>
+            <item>
+              <p><label>15.</label> This is one of the most problematic identifications: the best guess is that it is Marinell. When he is introduced, Marinell is armed and on horseback (see III, iv, 12 ff.), but he is soon unhorsed by Britomart (III, iv, 16) and is then disarmed by his mother, Cymoent, and her sister nymphs (III, iv, 40). He later appears, healthy and afoot, when he comes upon Florimell making her lament (see IV, xii, 4 ff.), In Blake&#8217;s picture Marinell is on foot among the three figures to whom he is subjected: Britomart (14), for unseating him and humbling his pride; Florimell (16), for purifying him through her love; and Arthegall (17), for helping to restore him to a position as a respected, competent and victorious knight (see V, iii, 10 ff.). He could be holding the lead (a detail variously drawn and never neatly finished by Blake) to Arthegall&#8217;s rearing horse as a sign of favor owed, for the help given him by Arthegall at the tournament. On his naked chest he wears a small cross attached to a string around his neck. He wears white tight knickers or shorts, is bare-footed, and has a rather effeminate appearance. Though afoot, his position at the very center of the procession makes him a significant figure. Marinell is looking up reverently, possibly at Arthegall (17), but more probably at the figure of Justice, B 13, in the supernal realm. Facially Marinell closely resembles the nude man who looks up as he is being healed by Christ in <hi rend="i">Night Thoughts</hi> 148 (IV, 39), i.e. 40 E, p. 90. In Blakean symbolism, Marinell&#8217;s central position among the grooms indicates that he is the Beautiful Man, balanced by Satyrane (12), the Ugly Man, and Talus (20), the Strong Man.</p>
+            </item>
+            <item>
+              <p><label>16.</label> The principal characteristic of Florimell seems to be her whiteness--her fairness (see III, i, 15; III, v, 5; etc.). These passages describe her horse as being very white: "more white than snow" (III, v, 5). From the construction of the False Florimell, it is learned that Florimell&#8217;s eyes are very bright, like "burning lampes," and that her hair is three times as yellow as gold wire (see III, vii, 7). The figure in the procession has a pretty face and braided yellowish hair. She gazes steadfastly at Britomart (14), and is chiefly distinguished by what appears to be a peculiar conical hat on the left side of her head. The bottom of the transparent structure A IX is just above her head, but it has no connection with her peculiar hat.</p>
+            </item>
+            <item>
+              <p><label>17.</label> This identification constitutes one of the most serious displacement problems in Blake&#8217;s <hi rend="i">Faerie Queene</hi> procession. Though Arthegall is present, even important, in Book IV, he is really more central to Book V. Of the trappings given Arthegall by Blake, the one actually described by Spenser is the prophesied crown (see III, iii, 29);
+<pb id="p08-68" n="68"/><figure><head>A 17 Arthegall</head></figure><pb id="p08-69" n="69"/>
+otherwise, Spenser never really describes Arthegall&#8217;s person, only his armor, shield and helmet with the "couchant hound" (III, ii, 25). He is first introduced as the vision in Britomart&#8217;s father&#8217;s mirror in Book III. It is said that he is "portly" (III, ii, 24) and that he has a "lovely face," "tempered with sternesse and stout maiestie" (IV, vi, 26). These characteristics appear sufficiently evident in Blake&#8217;s figure to identify him as Arthegall; moreover, such an identification is practically a necessity. Arthur, never a titular character, and present in all Books, establishes his most vivid presence, perhaps, in Book V. Thus, it is he who takes the fifth prominent position (21) in the painting, thereby displacing Arthegall from the Book that bears his name. Consequently, Arthegall is advanced to the fourth position of prominence, where he can be joined with Britomart and also hailed by Arthur. It is also unlikely that Arthegall&#8217;s "squire," Talus (20), would be present without his master. Arthegall&#8217;s positioning, however, completely displaces the titular firgures of Book IV, Cambell and Triamond. Perhaps Blake felt that although these characters are emblematic of friendship, their actual roles in <hi rend="i">The Faerie Queene</hi> are too insignificant (they are only really important to IV, ii and IV, iii) to justify giving them such a prominent position.</p>
+              <p>Arthegall gestures up toward the supernal projection of this world (B 9) with his right hand, while with his left he points to the supernal scales of Justice (B 13). He looks at Talus (20) as his horse, which has a braided mane, rears and lashes its tail; presumably his horse rears to signify regal gallantry and its braided mane alludes to the weavings of statecraft. Arthegall&#8217;s saddle is very bright with varied areas of red and yellow and has gems studding the blue cinch. The muslin of the picture in the area of the saddle and the horse&#8217;s haunch was mended before paint was applied. Behind the rider the handle and hilt of his sword ("Chrysaor," V, i, 9) is visible, presumably on the right side of the horse. With his long orangered cloak and such characteristics as orange hair, a short curly beard, and yellow leotards, as well as what is either the hemline of a transparent overskirt or a garter above the knee on his left leg (see Britomart&#8217;s [14] right leg "garter"), he is the most ornate and kingly figure in the procession. In Blakean symbolism Arthegall closely resembles the figure of the King or Beautiful Man in design viii for Blair&#8217;s <hi rend="i">Grave.</hi> In the Blair picture this figure is accompanied by the Warrior, a Strong Man much like Calidore (24), and the Counsellor, an Ugly Man much like the God of this World (B 8).</p>
+            </item>
+            <item>
+              <p><label>18.</label> Though Amoretta is "Of grace and beautie noble Paragon," and "Lodestarre of all chaste affectione" (III, vi, 52), she is not necessarily central to the picture, as Damon implied. She would be correctly positioned as figure 18 because her story, particularly as it forms a unit with Scudamore&#8217;s, is important to Book IV, though her primary appearances are in Book III. Except for mentions of her exceeding radiance and beauty, particulars concerning her are rare. In III, xii, 19-21, however, Amoretta, in the Masque of Cupid, appears bare-breasted, and the apparent decollet&#233; of figure 18 is very distinctive; nevertheless, there is a slight suggestion of a higher v-neckline on her garment. She seems to be looking above Scudamore (19); in this respect she is comparable to Glauce (13) and Marinell (15), whose attentions are also directed on high. Amoretta seems to wear two curious antennae on her forehead. Figures 18 and 19 are to be identified as Amoretta and Scudamore for these additional reasons: this pair would be in proper chronological and physical location; they form the most prominent couple not otherwise accounted for; the presence of Amoretta is necessary to complete the "female character"; here Amoretta would be about as far, on one side, from the central figure of Britomart as her sister, Belphoebe, is on the other side.</p>
+            </item>
+            <item>
+              <p><label>19.</label> The identification of this figure as Scudamore is likewise problematic. Scudamore is described by Spenser (III, xi, 7), but Blake shows only a few features of a knightly personage. Spenser rarely describes facial characteristics, so the dark eyes and lightly bearded chin of figure 19 offer no clue. He has a resolutely frontal point of attention and his right hand is raised to his waist and held in a position of rejection toward Talus (20), or possibly Arthur (21). Scudamore&#8217;s shield is described by Spenser as having on it the "winged boy," Cupid, but the rounded triangular shield held by 19 is obscured and no device is discernible. He wears a slightly crested cap, and his resolute attention forward balances that of Guyon (11) backward.</p>
+            </item>
+            <item>
+              <p><label>20.</label> Talus is easy to identify, though his strong pink-touched blue body is humanly iron-like, being fully muscular, rather than a construct of sheet metal. He is left with Arthegall by Astroea (V, i, 12); in the picture he is holding his characteristic "yron flale" in his left hand. In his right hand he holds, in addition to the leash of Arthur&#8217;s (21) horse, a long lance that has a broad point held up, a tapered shaft, and a smaller point (or end handle) that is grounded. His iron-ness may be expressed by his black spiked hair and short beard. He appears to be looking at Arthegall&#8217;s waist with a troubled expression. He bears some resemblance to the foreground figure in <hi rend="i">Milton</hi> 8 (especially the bearded one in copy D, pl. 10), and his flail recalls that of the Goblin in the fifth design for <hi rend="i">L&#8217;Allegro.</hi></p>
+            </item>
+            <item>
+              <p><label>21.</label> Prince Arthur is also easy to identify, not only because his most distinctive exploits occur in Book V, but also because his helmet is described in detail by Spenser (I, vii, 31-32): both the "haires" and the "Dragon" (with a long tongue--which perhaps supports a crouching figure on its tip--and distended lower jaw) mentioned by Spenser are represented. Missing, however, is his "shield" of diamond. He wears a form-fitting garment with a rounded neckline and perhaps a decoration on his chest. There are suggestions of armor here and there, and the fact that his loins are covered
+<pb id="p08-70" n="70"/>
+with a skirt of scaly mail implies a criticism. Like Arthegall (17), he has what appears to be a garter above his left knee. His saddle is bright red with a yellowish seat, and his large sword is prominently attached to his saddle. With his right hand he gestures toward Arthegall (17), and with his left in the direction of the supernal figure B 15. His grey eyes are reverently upcast. His horse is much the darkest in the procession; it is led by a tether held in the right hand of Talus, and it seems to be curiously reluctant to move as it drags its right forefoot. The clump of two or more tree trunks visible beneath the horse&#8217;s belly must have been designed as a further clue to meaning since it is the largest vegetable detail related to the cavalcade.</p>
+            </item>
+            <item>
+              <p><label>22.</label> The Salvage Man is more properly a personage of Book VI than Book V, and this may be one reason that Blake&#8217;s figure looks back over his shoulder towards Calidore (24); his apparently disapproving expression might, however, be directed at the captives (29 and 30). Being somewhat advanced in the procession he is in the position of Arthur&#8217;s companion (a role which he fulfills in <hi rend="i">The Faerie Queene</hi>: see VI, vi and vii) which was vacated by the advance of Timias (9) to accompany Belphoebe (8). This broad-faced, short-bearded figure not only has a savage or uncouth look, but is also "naked without needful vestiments" (VI, iv, 4). Since he is on foot one might expect him to be leading Calidore&#8217;s horse, but there is no evidence of any reins.</p>
+            </item>
+            <item>
+              <p><label>23.</label> This must be Pastorella, although Spenser provides only a vague description of her exceeding beauty (see VI, ix, 9). She has an important role in Book VI, and represents a final positive component of the "female character." She is also the only likely female companion for Sir Calidore. The other possible candidate for figure 23 might be Serena, but her presence would almost necessitate that of Calepine, who is not depicted. Blake&#8217;s Pastorella is mounted, has short hair and a round face; she looks back at Calidore (24) or the captives (28-30) and has her right hand raised in an attitude of prayer or consternation. She wears an orange hat and has curly hair.</p>
+            </item>
+            <item>
+              <p><label>24.</label> Calidore is not precisely described by Spenser, but must be represented as the central figure in Book VI, and the binder of the Blatant Beast (28). Calidore is said to be "stout and tall" (VI, i, 2) and to have armor that is "bright" (VI, ix, 36) and to carry a "steelehead speare" (VI, ix, 36). Blake represents the shaft of his spear as extending down behind the neck on the right side of his horse, while its tip is directed up toward the supernal figures B 16 or B 15. The muscular Calidore, in a complete suit of grey armor, which shows only his face, is the most complete soldier in the procession. Blake can hardly have been attempting to represent in him a beneficent "courtesie"; he would have expected courtiers to be either exploiters or militarists. Calidore is twisted backwards to direct the captives (28-30) with his outstretched right
+<figure><head>A 20 Talus</head></figure><pb id="p08-71" n="71"/><figure><head>A 22 &amp; A 23 Salvage Man and Pastorella</head></figure>
+hand and perhaps particularly to signal the small figure who stands on the head of Duessa (29). His unusual curved "Saracen" sword may be that of the "meanest sort" (VI, xi, 42) which he adopted for his fight with the Brigants. His beautiful reddish, apparently unbridled, "Greek" horse is rearing and stirring up clouds of dust as with its right rear foot it tramples figure 25. The Calidore Blake delineates enacts the ambitions of classical militarism to trample down the proud: however noble the purposes of this warrior, his success looks like a Roman triumph.</p>
+            </item>
+            <item>
+              <p><label>25.</label> This figure resists certain identification. No character in <hi rend="i">The Faerie Queene</hi> is said to occupy a pit or to be stepped on by a horse. The leading candidates for figure 25 are the Brigant chief and Braggadocchio; a third possibility is Malbecco, "Gealousee," (III, x, 55 ff.), which we shall not here discuss. If seen as a Book VI personage, this figure must be the Brigant chief. After claiming the captive Pastorella (23), he is slain by his own men and "buried" under the pile of bodies that fall about him (see VI, xi, 19 ff.). In Blake&#8217;s picture, the figure might be clutching pieces of booty. If, however, he is understood to be one of the "evil" figures relegated to the rear of the procession, he can be identified as Braggadocchio, being trampled for being a false knight. He is introduced in Book II (II, iii, 4) when he steals Guyon&#8217;s horse, Brigadore, and makes his last appearance in Book V (V, iii, 29 ff.) when Guyon reclaims Brigadore, and Braggadocchio is stripped of his knightly trappings and affectations and is dishonored. It might be suggestive that Braggadocchio, a horse thief, should be trampled in clouds of dust by a horse. Figure 25 wears a curious redrawn hat with brim curved up; it is perhaps attached to two diagonal tethers. He has a long white moustache and short jowl beard and he looks up while back-handedly holding what can perhaps most satisfactorily be construed as an open book. Damon conjectured that this figure was among stones but the position of the figure&#8217;s hands makes this seem unlikely. Bearing in mind that his left shoulder is being trampled by the right foot of the horse, it is evident that figure 25 is able to look up as far as the Supernal Regions, either at the God of this World (B 9) or, perhaps, at the Artist (B 11). Illfavored as he is, figure 25 is a kind of Thersites, perhaps, though possibly one given to reading the Book of Life, like Una (A 4), rather than the Book of Death, like Despaire (A I). Being trampled down is, to be sure, the ultimate fate of Hypocrisy in <hi rend="i">The Everlasting Gospel</hi>, but it was also the fortune of Jerusalem (<hi rend="i">J</hi> 62:3) when she could hardly tell herself from Babylon (<hi rend="i">J</hi> 61:35).</p>
+            </item>
+            <item>
+              <p><label>26.</label> Beneath Calidore&#8217;s right arm fly three or more small figures. They hold leading strings, one attached possibly to Archimago&#8217;s (30) loins, the other probably to his right hand.</p>
+            </item>
+            <item>
+              <p><label>27.</label> Above Calidore&#8217;s right arm, also, fly two or more small figures, the clearest of whom looks back. They hold two leading strings, with which they lead Duessa (29). The motif of a flying creature in leading strings is memorably depicted in <hi rend="i">Vala</hi>, p. 42.</p>
+            </item>
+            <item>
+              <p><label>28.</label> The Blatant Beast is represented as having human hands, instead of animal feet, and possibly a pair of eyes within its mouth, characteristics not mentioned by Spenser. The most striking characteristic attributed to it by Spenser is its multiplicity of tongues (see V, xii, 41, "hundred";
+<figure><head>A 25 Capt. of the Brigants, or Braggadochio</head></figure><pb id="p08-72" n="72"/><figure><head>A 28, A 28a, A 28b, A 28c, A 29, A 29a, A 30, A 30a</head></figure><pb id="p08-73" n="73"/>
+VI, i, 9, "did seeme a thousand"; VI, xii, 33, "hundred"). In Blake&#8217;s picture, three or more red flame-like tongues are shown. The Beast is represented after its mouth has been bound by Calidore (VI, xii, 34-35). The human hands of this monster recall both those of Blake&#8217;s Nebuchadnezzar who crawls through the forests of night on all fours and the fantastic crocodile with human hands and gaping mouth in <hi rend="i">Vala</hi> 70. Behind Archimago (30) four webbed points are visible: these must be the ends of wings or spines on the Beast. One small human figure, 28a (which is related to figure #44, "The Inquisition," in Damon&#8217;s Key to <hi rend="i">The Last Judgment</hi>), that is kneeling on the Beast&#8217;s snout strains to draw its mouth shut with the cords of a net. Another, 28 b, with blowing yellow hair, leads the beast by a chain, probably attached to his collar behind its left foreleg. A third small spirit, 28 c, leaning on the Beast&#8217;s shoulders, is tightening its collar.</p>
+            </item>
+            <item>
+              <p><label>29.</label> The two prime evil-doers are relegated to the rear of the procession. Duessa&#8217;s perhaps doubled figure sags strangely: her appearance corresponds to her duplicitous nature. In Spenser she is stripped nude by the Redcrosse Knight and Arthur (see I, viii, 46 ff.). In Blake she is clothed in a white dress, recalling her trial by Mercilla, Arthur, and Arthegall (see V, ix, 38 ff.). Blake&#8217;s Duessa has a curiously curled lower lip, probably because of her toothlessness mentioned in I, viii, 47. She has a receding hairline and short white hair. Spenser describes Duessa as having "wrizled" and "scabby" skin. Her left hand, possibly crippled, seems oddly connected with her body; it is crossed over her gnarled right hand as she perhaps tries to cover over an aperture on her
+<figure><head>A 26 &amp; A 27 Flying figures (photographed without a halftone screen for high contrast)</head></figure>
+front. Blake shows her being led by two strings attached to two or more flying figures (27). Another small figure (29 a), who wears a long gown, stands on Duessa&#8217;s bent head. Many details connected with this figure cannot be clearly distinguished: a diagonal jagged line, which might represent stairs or lightning, connects this figure to what may be a portal visible above figures 27. The standing figure may hold something in its left hand.</p>
+            </item>
+            <item>
+              <p><label>30.</label> Archimago, like Duessa, has the power to change forms. In his first appearance he is an "aged sire," "his beard all hoarie gray" (I, i, 29). In his "proper" form, he is recognized by Atin (see II, vi, 47), and there too he has "hoarie locks." The image of Archimago bound occurs where he intrudes as a messenger into the court of Una&#8217;s parents (see I, xii, 35). In Blake&#8217;s picture this hunchbacked white-bearded figure in a pinkish gown has his forearms bound behind him, probably by one of the leading strings from figures 26, and his gown is gathered into folds at the lower back. The curved and horizontal lines visible behind Archimago are, as said, the wing edges of his companion, the Blatant Beast (28). Archimago&#8217;s head is much bent over, despite his misshapen but powerful back. A small nude figure, 30 a, seated on his right shoulder seems to point to the rear as it looks back over its left shoulder at the figure standing on Duessa&#8217;s head. The first of three exactly drawn curved lines crosses the outstretched right arm of this figure and then continues to the left of the figure&#8217;s head into the background to join with yet a third curve; together these lines may delineate the culverts of a bridge only coincidentally connected with Archimago&#8217;s rider.</p>
+            </item>
+          </list>
+          <pb id="p08-74" n="74"/>
+          <figure>
+            <head>On pp. 74-77: halftone reproductions of the painting, quarter by quarter from left to right, made from large black and white negatives.</head>
+            <figDesc>See p. 86, col. 2, para. 2 for details. The photographs have been cropped only enough to eliminate the picture frame; thus shadows remain at the edges of the picture.</figDesc>
+          </figure>
+          <pb id="p08-75" n="75"/>
+          <pb id="p08-76" n="76"/>
+          <pb id="p08-77" n="77"/>
+          <pb id="p08-78" n="78"/>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Row A: Roman Numerals: The Background</hi>
+            </title>
+          </head>
+          <list type="ordered">
+            <item>
+              <p><label>I.</label> This is Despaire&#8217;s Cave, as described by Spenser in I, ix. The long-haired and bearded figure is Despaire (see I, ix, 35-36), who kneels at the left with his right arm at his back and his left pointing upward as he consults a large open book. This book is probably the "Booke of fate," I, ix, 42, that Despaire claims he possesses. Possibly Blake depicted Despaire as reading because he interpreted Spenser&#8217;s word "areedes," I, ix, 28, as "reads," rather than "advises." To the right of the book are three objects, perhaps stones, and a horizontal dark object that might be the dagger reserved for Redcrosse (see I, ix, 51). Above the bearded Despaire is a dark figure, bent over and with arms raised in what may be a despairing gesture. There is a suggestion of a collar or rope around his neck. This is probably Trevisan (see I, ix, 22) dismayed both by the council of Despaire and the vision of his dead comrade, Sir Terwin, a suicide. The figure of Terwin (see I, ix, 36) seems partly beneath Despaire&#8217;s book; it is evidenced only by a vertical "knife" at the upper right corner of the book and the top of the head of the victim visible just to the right of it and to the left of the muzzle of Redcrosse&#8217;s horse (A 3). The cloudy Cave of Despaire, complete with stabbed victim, is one of the two main episodes from <hi rend="i">The Faerie Queene</hi> depicted in <hi rend="i">Gray</hi> 64: <hi rend="i">Bard</hi> 12. There is no likelihood that any of the figures in this cave represents Spenser, as Damon suggests.</p>
+            </item>
+            <item>
+              <p><label>II.</label> A body of water. This could be either the Idle Lake (II, vi) or the Gulfe of Greedinesse (II, xii). The object near Redcrosse&#8217;s gloved right hand (A 3) is a small sailboat; it might
+<figure><head>A I Despaire&#8217;s Cave</head></figure>
+be either Phaedria&#8217;s boat or the one that takes Guyon to the Bowre of Bliss. It resembles the boat of Phlegyas in <hi rend="i">Donte</hi> 17 for <hi rend="i">Hell</hi> 7. There are objects in the background on either side of Redcrosse&#8217;s spear: at the left is an island, which is likely to contain Acrasia&#8217;s Bowre of Bliss; at the right are distant mountains, perhaps fronted by structures and even a causeway near the head of Redcrosse. A swirl of smoke covers most of the visible left side of the lake.</p>
+            </item>
+            <item>
+              <p><label>III.</label> This domed doorless building, with a wing at the left and vegetation on both sides, is perhaps the castle of Celia (I, ix). Here Redcrosse is restored after his experience in Despaire&#8217;s Cave. The cave-problem, castle-resolution formula also pertains in Guyon&#8217;s story. If Despaire&#8217;s Cave is a sign of affliction, it is possible that Celia&#8217;s castle appears as a sign of healing resolution. The fact that the foremost tree at the right has a peculiar spot of shade makes it look somewhat like the head of an animal--perhaps accidentally. As many as three figures may be seated beside the building and another may be on the dome.</p>
+            </item>
+            <item>
+              <p><label>IV.</label> This haloed building has a flat central tower with set back upper section and Gothic portal. There is a slight suggestion of decoration on the wings on either side. There are trees on both sides, outside the beams of light from the halo. The two dark spots in the right wing, above the head of the Palmer (A 7), may be accidental. Because Una (A 4) gestures toward the building and because both she and it are haloed, the building is probably to be identified as the castle of her parents, "Eden" (I, xii, 26). Part of the halo effect can be accounted for as reflection from Eden&#8217;s brazen tower and gate (I, xi, 3 and I, xii, 3). As mentioned, some
+<figure><head>A II Idle Lake, or Gulfe of Greedinesse</head></figure><pb id="p08-79" n="79"/>
+indistinct objects are visible in front of the building and above the gesturing left hand of Una (A 4).</p>
+            </item>
+            <item>
+              <p><label>V.</label> A cave, with a dark kneeling figure at the right. Three dark pointed objects of uncertain significance are in evidence on the upper back wall of this cave. Another dark area is at the left edge and indistinct objects are indicated within. While there is no close resemblance between this cave and the Mammon episode as depicted at the lower left of <hi rend="i">Gray</hi> 64: <hi rend="i">Bard</hi> 12, "Spenser Creating his Fairies," the crouching figure at the right is probably identifiable as Mammon, who hoards "in his lap a masse of coyne" (II, vii, 4). In posture he closely resembles a miser in <hi rend="i">NT</hi> 115 (IV, 6), who is twisted to protect his money bag. Clouds or vegetation and three boulders separate Mammon from the path to the flame in front of VII. The object behind Mammon may be taken to be Guyon&#8217;s sword, for Guyon swoons upon leaving Mammon&#8217;s cave, and his shield is subsequently taken by Pyrocles, although his sword is held back by the Palmer, and is later used by Arthur (see II, viii, 23 ff.). The fact that the shaft of Guyon&#8217;s spear crosses the cave is suggestive in this context. The object at the left of the cave may be a robed figure, seen from behind and carrying a burden on its right shoulder; the dark spot would be the shadow it cast. As such the figure would resemble the undraped victim of Oppression who labors at the lower right in the mines of "Oppression" in <hi rend="i">NT</hi> 22 (I, 17). To the right of the shadowed figure in Mammon&#8217;s cave a tongue of red flame indicates a small bonfire, which is being tended by this figure. For a fire and a figure resembling these in the cave see "A Little Boy Lost," <hi rend="i">Songs</hi> 50.</p>
+            </item>
+            <item>
+              <p><label>VI.</label> A vague architectural feature with trees, on a distant hillside. This is perhaps the antidote to Mammon&#8217;s Cave--the place where Guyon is restored--the castle of Alma. Spenser says it is a "goodly castle, plast / Foreby a river in a pleasaunt dale" (II, ix, 10). This feature is also crossed by Guyon&#8217;s spear shaft.</p>
+            </item>
+            <item>
+              <p><label>VII.</label> A large building set on a plinth, with four columns in the front, a pitched roof and pediment on the portico, and a lower wing at the left. Vegetation grows up behind and on both sides of it. This is Busyrane&#8217;s palace, where Britomart (A 14) achieves her crowning glory, which is guarded by a protective flame (see III, xi, 21). The cleavage at the top of the flame is indicative that it "did it selfe divide" (III, xi, 25) at the stroke of Britomart&#8217;s sword.</p>
+            </item>
+            <item>
+              <p><label>VIII.</label> A haloed or hatted piper leaning against a tree in a sort of bower, plays for four or more nude dancers. Another cluster of nude figures may be to the left of these. Though Colin Clout is properly a personage of Book IV where his encounter with a company of nude "maidens" and the Graces takes place (see VI, x, 10 ff.), two considerations might explain his advancement. It would put a "poet" in the center of the A-line, not far from the figure of the artist, B 11. Or, possibly, Colin is advanced to help celebrate the conjunction of Britomart and Arthegall. This figure of the piper, in less enchanting company, is familiar from the title page of <hi rend="i">Songs of Innocence</hi> and "On Another&#8217;s Sorrow," <hi rend="i">Songs</hi> 3 and 27.</p>
+            </item>
+            <item>
+              <p><label>IX a.</label> An indistinct object, either a tree or a small building, is on the horizon above Arthegall&#8217;s (A 17) left hand.</p>
+            </item>
+            <figure>
+              <head>A III &amp; A IV Domed building and haloed building</head>
+            </figure>
+            <pb id="p08-80" n="80"/>
+            <figure>
+              <head>A VIII, A IXa, A IXb (plus A 16, B 9): adapted tracings</head>
+            </figure>
+            <item>
+              <p><label>IX b.</label> What may be a large very faint architectural structure looms above the head of Florimell (A 16) and extends up into the bottom of the cloud beneath the figure of the Deity (B 8). It has several tiers at the right edge; the ends of two tiers look like the eyes, noses, and mouths of faces. The structure has a resemblance to the somewhat more arched tiers on B 19, which is probably the Tower of Babel. What this detail is supposed to signify, is perplexing. It is hardly visible in recent photographs, possibly due to further deterioration of the picture in this area. Since IX a may be seen through the right edge of this structure, perhaps this structure is a pentimento. Or perhaps it is an evanescent ideal, "Cleopolis."</p>
+            </item>
+            <item>
+              <p><label>X.</label> Visible above Arthur&#8217;s (A 21) right hand, at the left edge of a copse, is a cottage with a chimney emitting smoke that blows to the left. Trees stand on both sides and behind it. A range of larger trees (the beginning of detail XI) start over the hill to the right, above Arthur&#8217;s right arm. This small house may not be too humble to function as a "little Chappell," another place of restoration and healing: the Hermit&#8217;s Hermitage (see VI, v, 35 ff.). Here Arthur found a refuge for victims of the Blatant Beast.</p>
+            </item>
+            <item>
+              <p><label>XI.</label> A range of trees extending from the top of the hill above Arthur&#8217;s (A 21) wrist and perhaps continuing as far as Calidore&#8217;s (A 24) left forearm.</p>
+            </item>
+            <item>
+              <p><label>XII.</label> Various indistinct figures may be discerned among the mountains and clouds at the right. A further range of high reddish mountains rises behind the duller horizon range. If there were originally no other important features in the much-deteriorated area beneath, it would be remarkable in such a detailed picture. Among details still discernible in this area seem to be trees or a building and a crude staircase or lightning above A 27 and a large bird or kite above the nearer horizon beneath B 20. In connection with the small nude figure (30 a) seated on the shoulder of Archimago (30), we have already mentioned three distinct curves extending to the left: conceivably these could be triple culverts of a bridge. If this feature were indeed delineated, it would balance the large bridge (B 1) at the opposite end of the picture, in the Supernal Regions. These "culvert lines" also cross two much less distinct vertical lines extending upward from Archimago&#8217;s bent-over head almost to the nearer horizon of hills. The two or more entwining bands on this dimly-suggested column recall the entwining vines or snakes that twist about tree trunks elsewhere in Blake: it would not be surprising, considering the source, if the lines were to adumbrate the Tree of Mystery described in "The Human Abstract," <hi rend="i">Songs</hi> 47. But this "tree" is far too shadowy to be recommended to faith. A further complication is that where its foliage would be, above the second horizon, is a curved-edged triangular object that must be flying. Since it seems too triangular to be any bird, it might conceivably be a kite, such as Blake sometimes depicts (e.g., "The Ecchoing Green," 2, <hi rend="i">Songs</hi> 7). It might be flown by the small spirit standing on the head of Duessa (29). In <hi rend="i">Night Thoughts</hi> 11 (I, 6) Blake showed how kite flying need not detract from the dignity of questing.</p>
+            </item>
+          </list>
+          <figure>
+            <head>A XII (plus A 24, 27, 29, 29a, 30, 30a): adapted tracings</head>
+          </figure>
+        </div2>
+        <pb id="p08-81" n="81"/>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Row B: Arabic Numerals: The Supernal Regions</hi>
+            </title>
+          </head>
+          <p>The cloud barrier that delineates the boundary of these regions originates from the open mouth of the Dragon (A 5), billows over the Lake (A II) in such a way as to leave part of the lake visible to the left of this barrier, and, after a diagonal patch, continues horizontally (and perhaps also above some figures) to the right edge of the picture. It is pierced by a few objects above it, notably the Moon (B 3), the right hand of God (B 8), and the left hand of Justice (B 13). Blake appears to be generalizing the dying puff of the Dragon, "that vanisht into smoke and cloudes swift" (I, xi, 54), into a barrier between mundane and supra-mundane levels. Conceivably, this smoke cloud might serve to arrest the progress of Spenser&#8217;s characters. As was observed in our discussion of the Dragon, such an effect would be proportionate to Spenser&#8217;s dragon of many acres, though Blake depicts the beast itself as much smaller. This important feature of the pictorial symbolism is not visible in our large color reproduction because the left edge of the painting has been cropped to eliminate the shadow caused by the frame.</p>
+          <list type="ordered">
+            <item>
+              <p><label>1.</label> A distinct "Gothic" arch of undoubted import. The abutments at the right indicate that the structure must be a bridge; perhaps a path leads from it back to the portal of B 2. Conceivably, it is also a culvert related to the lake (A II), but since it is above the clouds that delineate the supernal realm, such a connection would require an explanation. Some water is in evidence at the very edge of the picture. Vines with green leaves are visible on both sides of the arch, especially at the right, and above it are two delicate trees in front of a distant hill.</p>
+            </item>
+            <item>
+              <p><label>2.</label> A radiant Gothic cathedral, doubtless Jerusalem, as seen in I, x, 56-57, where it is compared by Redcrosse to Cleopolis, the brightest place on earth. The major tower has three steeples, the minor one at the left has seven, and at least eight others are also visible. Vide <hi rend="i">J</hi> 46 [32] and <hi rend="i">J</hi> 84, where Westminster Abbey is a sign of redemption; also the building in the background of <hi rend="i">The Soldiers Casting Lots for Christ&#8217;s Garments</hi> (Bindman, <hi rend="i">Fitzwilliam</hi>, no. 22). The rays above the building are suggestive of the dawn in the East in Blake&#8217;s <hi rend="i">Canterbury Pilgrimage.</hi> Possibly Blake intends to imply that Spenser&#8217;s characters are going south of West during a sunset. Eventually, at least some of them may return to the open Gothic door.</p>
+            </item>
+            <item>
+              <p><label>3.</label> Cynthia (<hi rend="i">Mut.</hi>, VI, 8), the moon spirit, wearing a pale yellow skirt, is in an exultant posture as she leaps from the sharply beaming crescent moon with outspread arms. She is honored with a plate halo which is surrounded by clouds and perhaps by multitudes; possibly a large globe was depicted above her left hand and at least one small head is still visible near her cloud-covered left arm.
+<figure><head>B 1 Gothic arch</head></figure>
+In the train of her outspread arms many indistinct figures are indicated; three winged spirits under her left arm and three under her right are tolerably distinguishable. Her line of sight extends down to Britomart (A 14), at whom she seems to look disapprovingly, conceivably because of some connection between the warrior maid and Mutability in Spenser. This figure must be related to the figure of Queen Elizabeth as Diana seated in the crescent moon in the Portrait of Spenser in Blake&#8217;s <hi rend="i">Heads of the Poets</hi> (Wells, p. 35). The exuberance of Cynthia with outspread arms, however, bears a more functional resemblance to Ololon on the last page of <hi rend="i">Milton</hi>, and to such redemptive figures as the Attendant Spirit in the last design for <hi rend="i">Comus</hi> (<hi rend="i">Huntington</hi> version, pl. XXVII), the Lark in <hi rend="i">L&#8217;Allegro</hi>, illus. 2 (Van Sinderen, p. 63), or Jesus in <hi rend="i">The Spiritual Condition of Man</hi> (Bindman, <hi rend="i">Fitzwilliam</hi>, no. 22). Damon calls this woman "Mercy," but this is an inference derived from the assumption that she is primarily a contrary to Justice (B 13), rather than, as seems more probable, the Archer Sun God (B 17).</p>
+            </item>
+            <item>
+              <p><label>4.</label> Many figures not clearly in Cynthia&#8217;s entourage are variously positioned in the sky. Only a few are distinctly discernible now, but the presence of others is possible in every brightened area. Two spirits above and to the right of the moon embrace. Two figures kneel above and to the right of them, etc.</p>
+            </item>
+            <item>
+              <p><label>5a.</label> A crossed steeple above a dome, certainly intended to recall St. Paul&#8217;s (see again, <hi rend="i">J</hi> 46 [32] and <hi rend="i">J</hi> 84). Two or more elongated horses with riders blowing horns fly by the steeple to the left. Above them are six distinct nearly vertical lines, presumably of radiance. In the foreground from the clouds beside the right shoulder of Jove (B 8) to the area above the left edge of the Cave of Mammon (A V), ten or more nudes (B 6) in various postures of abandon disport themselves or, agitated, attempt to flee. Some analogies to these may be observed amont the Sons and Daughters in <hi rend="i">Job</hi> 2 and 3; others in <hi rend="i">Paradise Regained</hi> 6 (Bindman, <hi rend="i">Fitzwilliam</hi>, no. 28). Damon observes that Guyon&#8217;s (A 11) spear is pointed toward this supernal grouping and identifies it as
+<pb id="p08-82" n="82"/><figure><head>B 5a, B 5b, B 6, B 7, half of B 8 and B 9</head></figure>
+the Bowre of Bliss (see II, xii), which Guyon destroys. The transposition of the Bowre (which is, as was suggested, perhaps more simply located on the island at A II) to the supernal region would not bode well for the purity of Spenser&#8217;s heaven. But there is also a modified Gothic portal (5 b) well to the right of St. Paul&#8217;s, which is indicative of the better way.</p>
+            </item>
+            <item>
+              <p><label>6.</label> The group of ten or more figures described in connection with detail 5 a, above, as being in front of St. Paul&#8217;s and the Gothic portal (5 b). The most distinct are three nudes, a male embracing two females, in the center. The female to the left seems constrained, while another female to her left flees in consternation. To the right of the compliant female another female reclines, perhaps beside water, or a patch of blue sky.</p>
+            </item>
+            <item>
+              <p><label>7.</label> A spiritual procession of six or more figures rises through the sky from the vicinity of St. Paul&#8217;s (5 a), exempted from the sharp beams issuing from the cloud of Jove, the God of this World (B 8), and perhaps aided by the good influence of the dim Gothic portal (5 b) beneath them. Comparable streams of spirits occur in Blake, e.g., <hi rend="i">L&#8217;Allegro</hi> 4 (Van Sinderen, p. 71), <hi rend="i">J</hi> 4, and <hi rend="i">Job</hi> 12 (border).</p>
+            </item>
+            <item>
+              <p><label>8.</label> Jove (<hi rend="i">Mut.</hi>, VI, 15 ff.), the God of this World, in a yellowish and pink gown, looks down to his left toward Arthur (A 21). His eyes are not shut (pace Damon), but distinctly open, and he holds a blunt sceptre (not a sword, pace Damon) in his left hand which seems to emanate a pointed beam that passes just above the upraised forefinger of Arthegall (A 17) toward Arthur. Only his right foot shows clearly, but a v-shape on his instep and another on his ankle are indicative of character: in two of his most important analogies, the nightmare god of <hi rend="i">Job</hi> 11 and Dante&#8217;s tyrant god, <hi rend="i">Dante</hi> 3, God&#8217;s left foot clearly is revealed to be a cloven hoof. Spenser&#8217;s God dangles his right open-handed benediction through the clouds over Britomart (A 14). His elaborately compounded headdress is remarkable: his red plate inner halo emanates six major points, four shadow-tipped, two internally rayed, through his shadowed sky blue halo, which is bounded by an irregular wreath of cloud; this, in turn, emits eight dark smaller beams. Those at the viewer&#8217;s left are broken again by the stream of figures, B 7, but as many as ten thinner dark beams are seen to the left of them. A bright spot at the left of the lowermost of these may have contained still other figures. At the viewer&#8217;s left of the God&#8217;s right elbow, in the cloud halo, is a distinct object that at first seems to be a flower or possibly a bird; however, this is probably the second subgroup of the figures centered at B 6 rather than a special attendant of God per se. Above this group, next to God&#8217;s right shoulder, is the first group of two or more figures, indistinctly blended into the clouds. The fact that this God is <hi rend="i">within</hi> a cloudy cavern, though his influence extends both above and beneath it, indicates that
+<pb id="p08-83" n="83"/><figure><head>Adapted tracing of detail reproduced on p. 82</head></figure>
+he is more in the condition of Job and his companions than of the central regnant God in <hi rend="i">Job</hi> 14.</p>
+            </item>
+            <item>
+              <p><label>9.</label> This World (see <hi rend="i">J</hi> 54 and <hi rend="i">J</hi> 57) is supported by three angels, the one at the right wearing a crown or hat and having a short beard. <hi rend="i">Mut.</hi>, VI, 3, indicates that the two at the left are Hecate and Bellona, the one at the right (<hi rend="i">Mut.</hi>, VI, 14) Mercury.</p>
+            </item>
+            <item>
+              <p><label>10.</label> An angel (perhaps in company with other spirits) departs from the drawing board of the Artist (11); these figures are within a rainbow-roofed enclave made up of a cloud streamer from the cloud halo of Jove, the God of this World (8) and the right wing of Nat&#8217; the Spread-winged Presence (12). The angel&#8217;s left wing cuts the rainbow-enclave and the angel looks back at the curly-headed Artist (11).</p>
+            </item>
+            <item>
+              <p><label>11.</label> The Artist, a "symbol of the beginning of art," says Damon. He seems to be wearing only a pair of shorts (visible next to the book) as he draws or writes without looking at his work. Perhaps he is looking at the viewer of the picture. He is seated on a plinth with his ankles crossed and he rests his left elbow on an almost vertical book. On his left thigh a slightly smaller "double" figure appears to be seated. The double probably does look at the work. An emanative stream of two or more figures seems to issue from the double and then go up the cloud-steps, which are on a wall above the scales of Justice (13), to the bent right leg of the Spread-winged Presence (12). It would appear that the Artist does not need a book open before him to do his work; Blake&#8217;s license with Spenser&#8217;s text is consistent with this principle. But the appearance of a double (Spectre of Los) in the lap of the Artist, together with the evident stream of figures to figure 12, would imply that the Artist is less liberal than he would like to think. Whether this is Blake&#8217;s assessment of Spenser&#8217;s limitation or whether it is Blake&#8217;s confession of his own shortcomings is hard to decide. (See <hi rend="i">Il Penseroso</hi> 11, "Milton&#8217;s Dream," and <hi rend="i">Jerusalem</hi> 37 [41], the small figure at the lower left.) Both contain related symbols that help to clarify details of this enigmatic area of the Spenser picture.</p>
+            </item>
+            <item>
+              <p><label>12.</label> This sinister figure, "Nature" (<hi rend="i">Mut.</hi>, VII, 5) the Spread-winged Presence, is now difficult to see due to the decay of the picture, but may even originally have been indistinct. Its right wing, together with the cloud trail from the cloudy halo of Jove, the God of this World (8), forms the rainbow-enclave of the Artist (11). Its left wing may also over-arch figures not now distinguishable. The earlier photograph made it appear that a line of arabic numerals extended from the top of its right wing to the top of its left. There was either an architectural detail or a bird flying straight up above the Presence&#8217;s head. In the color photograph this line of details looks most like a row
+<pb id="p08-84" n="84"/><figure><head>B 10, B 11, B 12, B 13 Adapted tracings</head></figure>
+of Druidic trilithons. The Presence looks to its right and has its right arm extended but bent. Its bent left leg supports it. All these details were more distinct in earlier than in more recent photographs. The influence of this figure is certainly malevolent, and its position makes it comparable to Satan in the Destroyer in <hi rend="i">Job</hi> 3. Probably it is one of Blake&#8217;s few depictions of the Covering Cherub, most fully described in a text in <hi rend="i">J</hi> 89 and elsewhere depicted in more heroic and serviceable form in <hi rend="i">The Fall of Man</hi> (<hi rend="i">Blake Newsletter</hi> 19, p. 194, pl. 3). The Spread-winged Presence is an amalgamation of the two figures in <hi rend="i">J</hi> 6: the head and wings are like those of the Spectre, while the torso and legs are like those of Los (reversed). The same formula, with the Spectre reversed, is used in "The Flight of Moloch," particularly the Whitworth version. The superintendency of Spenser&#8217;s vision by such a creature as "Nature" in the Mutability Cantos must have been abhorrent to Blake. His late works particularly are filled with denunciations of Nature and her worshippers.</p>
+            </item>
+            <item>
+              <p><label>13.</label> Astroea (V, i, 5), or Justice, who holds up her yellow scales, is cut off by clouds from the left wing of the Presence (12), but her enclave is within its influence. It is, indeed, a star chamber, since some thirteen stars are distinctly visible in the blue sky. Justice wears a white wimple and a pinked blue gown; she has a great white plate halo and white bird wings. Her delicate left hand is visible just above the head of Arthur (A 21). One of her chief analogies is the figure of the female Comforter at the bottom right of the border to <hi rend="i">Job</hi> 17, though that woman holds a pen. A more critical vision of a woman with scales attended by a scribal figure is presented in <hi rend="i">Night Thoughts</hi> 151 (IV, 42), i.e. 41E, p. 92: there "Reason" dictates to "Faith." It may be that the eyes of Spenser&#8217;s Justice are shut, but they seem to be open; if she is looking down (with the suggestion of a smile), it is toward Talus (A 20), who used to be her groom (V, i, 12). Possibly a human figure issues from the leftmost pan of her scales and drifts to the staircase that is surmounted by the Spread-winged Presence (12). The fact that there is no cloud beneath her from her left breast to the end of her left wing is surely significant. Even the cloud above her is parted to provide space for her upraised right hand.</p>
+            </item>
+            <item>
+              <p><label>14.</label> An area containing four or more figures who stand on the descending cloud column. There are at least three more standing figures where the cloud levels off.</p>
+            </item>
+            <item>
+              <p><label>15.</label> Within the area of the three leftmost radiation beams of the Archer God (17) are one or more figures; close to the tip of the beam at 8:30 o&#8217;clock is a dual structure which seems to serve as the pedestal for a seated figure. Suggestions of smaller figures down as far as the 7:30 beam may be illusions caused by cracking of the paint.</p>
+            </item>
+            <item>
+              <p><label>16.</label> Two gowned figures meet before two burning altars; the figure at the left may wear a hat and appears to be departing from the figure at the right (see "Night" 2: <hi rend="i">Songs</hi> 21, for two similar figures and <hi rend="i">Job</hi> 18 for a burning altar) toward a second, broader altar with a horizontal flame that is now uncolored. Perhaps these figures are Cain and Abel (Genesis 4:3), a subject that Blake repeatedly depicted in <hi rend="i">Milton.</hi> The problem of two altars in relation to the favor of the true god is also described in I Kings 18, with respect to the powers of Baal. Dual altars, seen in relation to rows of flames and a tower, are to be seen in <hi rend="i">Dante</hi> 22 for <hi rend="i">Hell</hi> 12, the Minotaur. Three or more other figures stand to the viewer&#8217;s left of these figures and may interact with the group B 14.</p>
+            </item>
+            <item>
+              <p><label>17.</label> The Archer God, nude, discharges his bow, perhaps primarily at the people by the altar (16). There are eleven large red beams and at least seven smaller ones issuing from this figure. What may be a bird is visible between the bolts at 5 and 5:30 o&#8217;clock. His beams are interrupted at the left by the indistinct figure 15, but then resume, as a fusillade of cruder black bolts, toward the area of 14. Among the many analogies to figure 17 is "Hyperion," the archer god in
+<figure><head>B 14, B 15, B 16, B 17 Adapted tracings</head></figure><pb id="p08-85" n="85"/><figure><head>B 19, B 20, B 21 Adapted tracings</head></figure>
+the sun in <hi rend="i">Gray</hi> 46: <hi rend="i">Poesy</hi> 6. Another is the threefold aged equestrian archer god of <hi rend="i">J</hi> 35 [39]. One may also recall the vengeful Christ in <hi rend="i">The Casting of the Rebel Angels Out of Heaven, Paradise Lost</hi> 6 (Huntington and Boston) and Christ the ardent bowman in <hi rend="i">Night Thoughts</hi> 325 (VII, 53). Apollo in <hi rend="i">Job</hi> 14 is crowned with the sun but is no archer, whereas the bowmen in <hi rend="i">Vala</hi>, such as the mischievous Cupid in <hi rend="i">Vala</hi> 19 are not radiant. Damon refers to the Archer God as "Moloch," but he is probably a counterpart of Cynthia, the Moon Goddess (3), and thus an avatar of Apollo. Spenser usually refers to "Phoebus" as the god of poets. Blake has a notable representation of Apollo as archer in the Huntington version of <hi rend="i">The Overthrow of Apollo.</hi></p>
+            </item>
+            <item>
+              <p><label>18.</label> A range of seven or more buildings with domes, arches and columns. No distinct people are
+<figure><head>B 14, B 15, B 16, B 17, B 18, B 19, B 20</head></figure>
+visible among them but hills are visible above them.</p>
+            </item>
+            <item>
+              <p><label>19.</label> The Tower of Babel or Nimrod&#8217;s Tower. It has two setbacks and the lower of the nine levels have flat arches (see A VIII b below). It is erected on a base perhaps located on the nearer side of a stream than B 18. It is closely related to the larger tower in <hi rend="i">Dante</hi> 17 for <hi rend="i">Hell</hi> 7, except that the tower in Dante has attached buttresses and few portals. This tower is evidence that the procession covers the spiritual range from Jerusalem to Babylon.</p>
+            </item>
+            <item>
+              <p><label>20.</label> A thin obelisk, whose base is on the farther side of the stream than the Tower of Babel. See <hi rend="i">Dante</hi> 17 and 18 for <hi rend="i">Hell</hi> 7 for two similarly related towers. This obelisk is perhaps attached, about two-thirds of the way up, by arches to a less distinct tower to its right.</p>
+            </item>
+            <item>
+              <p><label>21.</label> A large indistinct tower in the foreground on this side of the water, next to the Tower of Babel; it is without perceptible columns and retains only the suggestions of arches. It has separate levels and tapers at the top. It is possible that a cross can be found at the top. The much deteriorated upper right corner of the picture may originally have had a stream of figures that curved diagonally to form a kind of wake for the Archer Sun God, Apollo (17). This area of the picture has suffered further deterioration and the tower is hardly visible in recent photographs.</p>
+            </item>
+          </list>
+        </div2>
+      </div1>
+      <pb id="p08-86" n="86"/>
+      <div1 id="BQ-08-3-0004">
+        <head>
+          <title>
+            <hi rend="b">Reproducing <hi rend="i">The Characters of Spenser&#8217;s Faerie Queene</hi></hi>
+          </title>
+        </head>
+        <figure/>
+        <byline>
+          <hi rend="b">by</hi>
+          <docAuthor>
+            <hi rend="b">Morris</hi>
+            <name>
+              <hi rend="b">Eaves</hi>
+            </name>
+            <ref target="n8" type="note">*</ref>
+          </docAuthor>
+        </byline>
+        <p>Late in 1973 the Greater UNM (University of New Mexico) Fund gave the <hi rend="i">Blake Newsletter</hi> enough money to get started on a project we had been thinking about for a long time--reproducing Blake&#8217;s Spenser painting in color and on a scale large enough to give some idea of the effect of the original. Without the help of the Fund, and the cooperation of the National Trust, which kindly gave us permission to reproduce the painting, we would still be dreaming. As it is, we can dream about other pictures and projects.</p>
+        <note id="n8"><hi rend="i">Morris Eaves, University of New Mexico, coedits the</hi> Newsletter <hi rend="i">with Morton Paley.</hi></note>
+        <p>We knew before we began that we would never be able to reproduce the Spenser picture perfectly. Not only is that more than modern printing technology can manage, but also more than our money would ever be able to buy. So we went the middle way, knowing all the time that we were compromising at nearly every step, hoping all the time that we wouldn&#8217;t lose our nerve, and that good luck would bend the compromises in our favor.</p>
+        <p>We didn&#8217;t, and it did for the most part, and we are thankful, but compromises are compromises no matter how much lucky bending there is, and we believe that the readers of the <hi rend="i">Newsletter</hi> deserve at least an account of what was done to get the reproductions that appear in this issue. This is only for readers who want it, of course, and it will be a lot more than most readers will care to have. But the few who may need to make some scholarly use of the reproductions now or later will want to know the limits of their usefulness. An account of this sort is not the custom in fine-art reproduction, but we think it should be.</p>
+        <p>The photography was done by G. H. Roberton of A. C. Cooper Ltd., fine-art photographers, London. Roberton photographed Blake&#8217;s painting in June 1974 at Petworth House in Sussex. Because of its fragility, the painting had to remain behind glass and in its frame. Roberton took a color transparency on Kodak Ektachrome sheet film measuring 6? &#215; 8?. We wanted a large transparency because we had decided to publish the reproduction as a four-page foldout from the center of an issue of the <hi rend="i">Newsletter.</hi> We had 10 &#189;? &#215; 32? of space to use, and we wanted to use all of it. That meant getting a large transparency. The usual projection slide of 2? &#215; 2? (including mount--real picture size much less) would not enlarge well enough. The painting is so wide in proportion to its depth that the actual picture area would have been very small--no larger than about ?? &#215; 1 &#188;?. The size of the picture area in the sheet-film transparency is about 2 ?? &#215; 7 ??. We enlarged that approximately 440% to our printed size of 10 &#189;? &#215; 32?. The detail in the photograph is fine enough to stand that percentage of enlargement.</p>
+        <p>The accuracy of the color is assured by testing each batch of film with color and contrast scales, then correcting with appropriate filters. The camera was a whole-plate (6 &#189;? &#215; 8 &#189;?) Gandolfi, with illumination by two 500-watt lamps.</p>
+        <p>On the same day Roberton also shot for us four black-and-white views of the painting, one of each quarter from left to right. The negatives, from Ilford FP4 film, are large, each 6? &#215; 8?. Two sets of prints were made from these. Contact prints--directly from the negatives, using no enlarger--were made in London by Cooper. An industrial photographer in Albuquerque, New Mexico, made a set of 16? &#215; 20? prints with an 8? &#215; 10? enlarger (one that will accept negatives as large as 8? &#215; 10?). The contact prints are the basis of the black-and-white reproductions of the Spenser painting quarter by quarter (following the introduction of Grant and Brown&#8217;s essay). The 16? &#215; 20? prints are the basis of the other black-and-white details reproduced in the essay. They are all reproduced with 150-line halftone screens--screens of medium fineness, coarse enough to be easily and economically handled by the printer, and yet fine enough to reproduce detail acceptably well.</p>
+        <p>The quality of the photography, both black-and-white and color, is very high. Color and contrast scales on the color transparency show that color and contrast are reproduced accurately. The large black-and-white negatives register fine details in the painting extraordinarily well.</p>
+        <p>Everyone knows that color photographs, even good ones, are seldom strictly true to the objects they reproduce. But as a medium for reproduction, color photography is much more accurate than color printing. So here for the first time we butt our heads against the limits of the process we are using, and the process wins.</p>
+        <p>The color picture in this issue is printed in what is called "process" color, meaning dyes and inks of four (in this case four--sometimes, in more expensive versions, more) standardized shades are used to make the color "separations" and then to print the picture. Since four colors combine to make all the colors found in the printed picture, "separations" must be made to divide all the colors in the photographic transparency into combinations of the four process colors, which are shades of black, blue, yellow,
+<pb id="p08-87" n="87"/>
+and red. Each of the four colors calls for a separate negative, and each negative is used to make a plate that is in turn used to print one of the four colors. The colors are printed one on top of another (actually one beside another, in little groups of four dots) until they combine to reproduce all the shades of color and contrast in the original.</p>
+        <p>Obviously there is far too much room for loss--of detail, color, and contrast. And much is lost. When the separation negatives are excellent, the plates made from them excellent, the registration of one color on another excellent, the paper appropriate, and the colors well controlled, the results are only fairly close to the original--and every stage can never be quite so excellent as that.</p>
+        <p>Harper House, Dallas, Texas, made separations for us in June 1974. The color was checked for accuracy with a partial Geva proof and corrected. A Geva proof is made photographically; it is far superior to no proof at all (unproofed color sometimes called "pleasing" color), but inferior to a press proof, which was too expensive. The color as corrected and shown on the proof was fairly accurate, though a little heavier than the color in the transparency. A 150-line halftone screen was used; 150 lines is fairly standard for color reproduction. More lines to the inch would give more detail and more accurate range of contrast; fewer would give less detail and cruder contrast.</p>
+        <p>We chose Starline Creative Printing of Albuquerque, New Mexico, to make plates from the separations and to do the printing in July 1974. They have won national awards for fine color printing, and their location allowed me to be on hand for the making of a press proof.</p>
+        <p>Cropping is very conservative. It was done freehand, dot by dot, so as to lose as little of the picture as possible. Most of the loss is on the left edge, and is due to the trimming of uneven separation negatives. (The full painting--at least from the edge of one mat to the edge of the other--is visible in the black-and-white photographs.)</p>
+        <p>The printing was done on a four-color press with a large bed, which made it possible to print the picture with the full width across the bed for superior registration. A four-color reproduction can be printed on any press of the necessary size, but the ordinary press can print only one color at a time. Running one piece of paper through a press four times, once for each color, creates problems that it is nice to be able to avoid. The most obvious and serious problem on a single-color press is the unpredictability of the colors in the final version. The color printed first cannot be changed--except by starting over--after the second, third, and fourth colors have been printed, and the same is true for the other colors. Thus no final proof is possible until the fourth color is printed--too late to do anything except wish for better. A four-color press prints all four colors in sequence on one press in a single run, making it possible to adjust the colors and establish a press proof at the beginning.</p>
+        <p>We printed on 80-pound white enamel paper of a size 25? &#215; 38?--heavy, big, and glossy for efficient operation of the press and good reflection.</p>
+        <p>With the plates on the press and the crew ready to make a proof and finish the job, we were all too able to see our compromises shining back at us from heavy enamel paper. There was too little black on the black plate to give us the very best kind of delicate definition without heaviness. Fine details in some parts of the picture and intensest reds in other parts did not want to appear until the red was a bit heavy in yet other parts. And of course changing any one color changes many of the others. A half-hour of adjustment and 500 or so copies of the reproduction brought us what we decided was the best possible combination of compromises. We chose to get some detail, to lose some, to take more red than we wanted but not as much as we would have had to take to get all the detail, and to settle for less black than we would have liked. The color that results is not quite true. The original at Petworth is more muted in tone, and there is more gray and faded yellow there than here. But we had to choose. We hung a proof on the press for reference, and the machine began to chug to hit its stride. 
+                </p>
+      </div1>
+      <pb id="p08-88" n="88"/>
+      <div1 id="BQ-08-3-0005">
+        <head>
+          <title><hi rend="b">Discussion</hi>: With intellectual spears &amp; long winged arrows of thought</title>
+        </head>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">The Accuracy of the Blake Reproductions</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">by</hi>
+            <docAuthor><hi rend="b">G. E.</hi><name><hi rend="b">Bentley</hi></name>, <hi rend="b">Jr.</hi></docAuthor>
+            <ref target="n9" type="note">*</ref>
+          </byline>
+          <p>The unpublished letter to Mr. Arnold Fawcus which is cited at length by Sir Geoffrey Keynes in his note on "The Blake Trust Gray Catalogue and the Blake Trust Facsimiles" in <hi rend="i">Blake Newsletter</hi> 27 (Winter 1973-74), pp. 64-66, reads essentially as follows:<note id="n9"><hi rend="i">G. E. Bentley, Jr. (Univ. of Toronto) is editor of</hi> Vala <hi rend="i">(1963)</hi>, Tiriel <hi rend="i">(1967), and</hi> The Writings of William Blake <hi rend="i">(in the press); and author of</hi> Blake Records <hi rend="i">(1969)</hi>, The Blake Collection of Mrs. Landon K. Thorne <hi rend="i">(1971), and, with M. K. Nurmi, of</hi> A Blake Bibliography <hi rend="i">(1964) (a revised edition by GEB is in the press).</hi></note><q>
+By writing (in <hi rend="i">Blake Newsletter</hi>, VI [1973 (i.e., Feb 1974)], 95-96) of the Blake Trust Gray catalogue as representing "a very remarkable bargain", as being "very markedly superior in faithfulness to the original" to the reproductions in Mrs. Tayler&#8217;s <hi rend="i">Blake&#8217;s Illustrations to the Poems of Gray</hi> (1971), as giving in "The large plates . . . an excellent idea of the originals", as being with other Blake Trust reproductions "excellent substitutes for the originals" for which "Blake students have ample cause to be deeply grateful", I had intended to indicate very high admiration for the productions of The William Blake Trust and The Trianon Press. By pointing out that "A number of the reproductions [<hi rend="i">in the Gray catalogue</hi>] have been significantly cropped" and that the writing in what seems to be "an eighteenth-century hand" on the cover appears in a place where it does not appear at all in the original, and in a hand which is not Blake&#8217;s on the reproduction of the 1780 Gray titlepage opposite the quasifrontispiece portrait of Blake, I meant to give evidence for my conclusion that this Gray catalogue, and by implication other Blake Trust facsimiles, are "beautiful, but not perfect". I had not then realized that the Gray catalogue had, as you write to me, "no pretensions to accuracy", or I should not have judged it thus strictly.<lb/><lb/>
+I am very sorry that my words have caused distress, for I believe that the work of The Trianon Press deserves very high praise indeed, praise which should be qualified by scholars chiefly through reminders that the facsimiles, like all other facsimiles, "must never be trusted in place of the originals for the minute details upon which the most responsible scholarship depends". In the very reliable and useful Blake Trust Gray catalogue, I found examples of Blake&#8217;s handwriting apparently on some twenty-one reproductions, occasionally on plates reproduced more than once. In looking with more care at each of these, I found that two of them, on pages which seem to be faithful reproductions, are <hi rend="i">not</hi> by Blake. I should, perhaps, have noted that these are display-pages, serving in some sense as titlepages, and might therefore have anticipated less fidelity to the original than elsewhere, but I did not know how to anticipate which reproductions would be altered. In fact, however, on looking again at the 20th Century writing on these reproductions of 18th Century originals, I still find them likely to mislead me; even knowing that two are not by Blake, it is not easy to ascertain which two are modern.<lb/><lb/>
+It was, perhaps, precipitate of me to suggest there, without giving more evidence, that we should "question the reliability of the Blake Trust reproductions" in general. My business there was with the Gray catalogue. Evidence does exist elsewhere, however, that the Blake 
+                            <pb id="p08-89" n="89"/>
+Trust facsimiles are admirable but "not perfect". In a review of the Blake Trust facsimile of <hi rend="i">All Religions Are One</hi> in <hi rend="i">Blake Studies</hi>, V (1972), 168-175, Professor Kay Parkhurst Easson wrote of the "unfortunate disparity between the Blake Trust facsimile and the [<hi rend="i">unique</hi>] Huntington original" with which she compared it, a comparison which revealed "a striking divergence" in the colours and "black spots [<hi rend="i">which</hi>] appear without precedent on the lettering of the facsimile plates". She concludes, justly I think: "The Blake Trust/Trianon Press facsimiles may not be perfect facsimiles, but they are the best facsimiles yet devised."<lb/><lb/>
+There is other evidence that they are not "perfect facsimiles". In the black-and-white reproduction of <hi rend="i">Jerusalem</hi> copy C (1952, 1955), the even-numbered plate-numbers have been moved from the top right side, where they appear in the original which is printed on only one side of the leaf, to the top left side in the facsimile, which is printed on both sides of the leaf. In <hi rend="i">For Children</hi> copy D and <hi rend="i">For the Sexes</hi> copy F (1968), the artificial copper-plate-mark sometimes does not quite match the printing margins, so that the engraved lettering falls outside the copper-plate-mark in a way which would, of course, be quite impossible in the originals. The eclectic two-volume facsimile of copies C, F, G, L of <hi rend="i">There is No Natural Religion</hi> Series <hi rend="i">a</hi> and <hi rend="i">b</hi> (1971) has leaves of some 12.5 &#215; 18 cm. for Series <hi rend="i">a</hi> and 23.3 &#215; 29.9 cm. for Series <hi rend="i">b</hi> (measuring width before height), though the dimensions of the original leaves of Series <hi rend="i">a</hi> vary from 10.6 to 11.1 cm. wide (never as much as 12.5 cm.) and 13.4 to 13.9 cm. high (never as much as 18 cm.), and though the width of Series <hi rend="i">b</hi> is 22.0 cm. in most plates (not 23.3 cm.) and the height varies from 29.0 to 30.9 cm. (not a uniform 29.9 cm.).<ref target="n1" type="note">1</ref> Clearly the leaf sizes of the facsimile of <hi rend="i">There is No Natural Religion</hi> are not exactly the same as the originals reproduced, though we might expect exact reproduction of the original leaves in a perfect facsimile. Perhaps other such discrepancies may be found in other facsimiles.<lb/><lb/>
+These are very minor defects in facsimiles which are in most respects major successes--accurate and beautiful. I and all Blake scholars I know are pro-foundly grateful for them and hope that Mr. Arnold Fawcus, The Trianon Press, and The William Blake Trust will continue to produce such splendid facsimiles, to approach yet nearer to perfection in an imperfect world. <note id="n1"><hi rend="s">1</hi> The "Description and Bibliographical Statement" says accurately that "the leaf size used in the facsimile" is "a little larger" than the originals of Series <hi rend="i">a</hi> and "approximately the same" as pl. b10 of Series <hi rend="i">b.</hi></note></q></p>
+          <p>The following paragraphs in response to Sir Geoffrey&#8217;s note were written on 22 May 1974:
+<q>
+I commented on the trimming of the plates and on additions to or alterations of writing on the reproductions in the Gray catalogue. Neither Sir Geoffrey Keynes (in his temperate note in <hi rend="i">Blake Newsletter</hi> 27) nor Mr. Arnold Fawcus (who wrote to me on the subject) disputes the accuracy of the facts reported. The factual basis of my criticism is therefore not "totally erroneous" but is agreed to by all parties.<lb/><lb/>
+The questions are whether such minor alterations as were noticed in the Blake Trust Gray catalogue are likely to be misleading<ref target="n2" type="note">2</ref> (as I thought, and think, they are) and whether the Blake Trust facsimiles are, as various reviews have said over the years, "exactly like an original", "virtually [<hi rend="i">or</hi> practically] indistinguishable" from the originals, exhibiting "perfect" workmanship. I agree heartily with Sir Geoffrey that the Blake Trust facsimiles are "extraordinarily faithful to Blake&#8217;s work" and that the beauty and integrity of the books produced by Mr. Fawcus and the Trianon Press which I have seen are extraordinary and admirable. The question is the "very small degree of imperfection" which may be anticipated even in an excellent facsimile. If what I wrote has been merely solemn and redundant, warning readers of the obvious limits of facsimiles in general, I can only apologize for having taken over-literally some of the reviews quoted in the Blake Trust brochures.<lb/><lb/>
+The facts are not in dispute. As to the conclusion, the Blake Trust facsimiles seem to me to be by a wide margin the best reproductions of Blake which have been made. I have just ordered another Trianon Press Blake Trust facsimile with eager anticipation and great confidence. I hope that other lovers of truth, of beauty, and of Blake will continue to do so as well. <note id="n2"><hi rend="s">2</hi> One difficulty seems to be that some of the Blake Trust publications are "not designed as . . . perfect facsimile[<hi rend="i">s</hi>]", as Sir Geoffrey writes. Perhaps in such cases the reader could be told the modesty of the intention and the changes which have been made.</note></q></p>
+        </div2>
+        <pb id="p08-90" n="90"/>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b">Corrections of the BMPR Handlist</hi>
+            </title>
+          </head>
+          <byline>
+            <hi rend="b">by</hi>
+            <docAuthor>
+              <hi rend="b">Robert N.</hi>
+              <name>
+                <hi rend="b">Essick</hi>
+              </name>
+            </docAuthor>
+            <ref target="n10" type="note">*</ref>
+          </byline>
+          <p>The following are a few additions and corrections to "A Handlist of Works by William Blake in the Department of Prints &amp; Drawings of the British Museum," appearing as the Spring 1972 issue of the <hi rend="i">Blake Newsletter</hi>, vol. 5, no. 4, whole number 20.</p>
+          <note id="n10">
+            <hi rend="i">Bob Essick lives in Pasadena, California, and is not to be confused with Easson of Illinois, Eaves of New Mexico, or Erdman of New York.</hi>
+          </note>
+          <p>P. 226 of the Handlist. Drawings Royal Size Vol. 11.</p>
+          <p>LB3, "The resurrection of the dead" (1806) has been transferred to Drawings Imperial Size, vol. 1A.</p>
+          <p>P. 226. Drawings Royal Size Vol. 12A.</p>
+          <p>LB35, "The Ancient of Days," watercolor, is very probably a copy by someone other than Blake.</p>
+          <p>P. 236. Engravings by Blake: Royal Size Mounted (c2*) vol. I.</p>
+          <p>R30xxvi and R30xxvii, "Caius Julius Caesar" and "Epicurus," are <hi rend="i">not</hi> proofs.</p>
+          <p>The inventory numbers of the four Virgil engravings have been transposed in the Handlist. The proper numbers are as follows: R30xxiii, "Publius Virgilius Maro" (1867. 10. 12. 225); R30xxv, Group of five medallions (1867. 10. 12. 224); R30xxvi, "Caius Julius Caesar" (1874. 12. 12. 381); R30xxvii, "Epicurus" (1874. 12. 12. 382).</p>
+          <p>R32, "The Finding of Moses," is a proof, after the plate was cut down for publication, but before all letters.</p>
+          <p>P. 236. Engravings by Blake: Royal Size Mounted (c2*) vol. III.</p>
+          <p>R34iii and R34iv, two of "five Dante trial proofs," are <hi rend="i">not</hi> proofs, but are in the same state as published impressions.</p>
+          <p>P. 237. Engravings by Blake: Unmounted (c14*) After <hi rend="i">Stothard</hi></p>
+          <p>R48iv, <hi rend="i">John Scott</hi>, tailpiece, is <hi rend="i">not</hi> a proof in the sense that the copperplate is in the same state as published impressions. This impression, however, is printed on a card rather than the paper used in the book.</p>
+          <p>After <hi rend="i">Fuseli</hi></p>
+          <p>R79, "Tornado," is a proof lacking the finish work in the design.</p>
+          <p>Gay, <hi rend="i">Fables</hi> (1793)</p>
+          <p>R80ii, "Fable VI," (1894. 6. 12. 31) is a proof before signature and lacking some finish work in the design.</p>
+          <p>P. 239. Prints after Fuseli (c21*)</p>
+          <p>Add: "Tornado" for Darwin, <hi rend="i">Botanic Garden</hi> (1795), a proof lacking finish work in the design. 1863. 5. 9. 19.</p>
+          <p>P. 241. Engravings after Stothard vol. I (c20) R45, Enfield, <hi rend="i">The Speaker</hi>, is a proof, lacking all letters, with the profile of the angel visible rather than covered by his hair.</p>
+          <p>P. 242. Engravings after Stothard vol. I (c20) R49Ai, <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. VIII, <hi rend="i">Don Quixote</hi> (Mambrino&#8217;s helmet), is a proof before all letters.</p>
+          <p>R49Aii, <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. VIII, <hi rend="i">Don Quixote</hi> (Death of Quixote), is a proof before all letters.</p>
+          <p>Add: R49B, <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. IX, <hi rend="i">Sentimental Journey</hi> (Dance of the Peasants), a proof before all letters. 49. 7. 21. 256.</p>
+          <p>R49Di should be R49C.</p>
+          <p>R49D (not R49Dii), <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. IX, <hi rend="i">Launcelot Greaves</hi> (the hustings), is a proof before all letters.</p>
+          <p>R49Ei, <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. X, <hi rend="i">Sir Charles Grandison</hi> (Miss Byron visiting Miss Irvoise), is a proof before all letters.</p>
+          <p>R49Eii, <hi rend="i">Novelist&#8217;s Magazine</hi>, vol. X, <hi rend="i">Sir Charles Grandison</hi> (duel of Sir Charles, O&#8217;Hare, and Salmonet), is a proof before all letters.</p>
+          <p>R55iii and R55iv, engravings for Ritson, <hi rend="i">Select Collection of English Songs</hi>, pp. 86 and 108, are proofs with the signatures of Stothard and Blake not appearing in the published state. These signatures are not handwritten but are in the plate. 
+                    </p>
+          <pb id="p08-91" n="91"/>
+          <p>Add: R58i, <hi rend="i">The Wit&#8217;s Magazine</hi>, January issue, proof before letters of one of two alternate plates engraved by Blake for this issue. Names of Stothard and Blake added in pencil. 49. 7. 21. 502.</p>
+          <p>R63ii, "The Battle of Ain," is a cropped impression, with remants of the border. There is nothing to indicate that it is a proof as the Handlist states.</p>
+          <p>P. 242. Engravings after Stothard Vol. II (c20) R47, Bonnycastle, <hi rend="i">Introduction to Mensuration</hi>, title-page vignette, is a proof on India paper with a double line border not appearing in the published state, and with signatures of Stothard and Blake not in the published state.</p>
+          <p>Add: John Scott, <hi rend="i">Poetical Works</hi>, plates as follows:</p>
+          <p>R48i, pl. 1 (proof before all letters). 49. 7. 21. 925.</p>
+          <p>R48ii, pl. 2 (proof before all letters). 49. 7. 21. 923.</p>
+          <p>R48ii, pl. 2 (published state). 49. 7. 21. 920.</p>
+          <p>R48iii, pl. 3 (proof before all letters). 49. 7. 21. 924.</p>
+          <p>R48iv, pl. 4 (published state). 49. 7. 21. 926.</p>
+          <p>Addition: Besides the proof before all letters of "The Right Honourable Earl Spencer" engraved by Blake after Phillips listed in the Handlist (p. 239, R104, 1873. 5. 10. 2651), there is another impression of this plate, Portraits Class II, Period 4, inventory number 1863. 8. 8. 73. This impression is signed in the plate <hi rend="i">T. Phillips R.A. pinx</hi> (lower left), <hi rend="i">W. Blake Sculp</hi> (lower right), and <hi rend="i">The Right Honourable Earl Spencer.</hi> This impression is particularly important since its inscriptions are the basis for attributing the plate to Blake.</p>
+        </div2>
+        <div2>
+          <head>
+            <title>
+              <hi rend="b"><hi rend="i">VDA:</hi> The Frontispiece and a Crucial Line</hi>
+            </title>
+          </head>
+          <div3>
+            <figure/>
+            <head>
+              <title>Additional Lines in <hi rend="i">VDA</hi></title>
+            </head>
+            <byline>by <docAuthor>Mary V. <name>Jackson</name></docAuthor><ref target="n11" type="note">*</ref></byline>
+            <p>In "A Crucial Line in <hi rend="i">Visions of the Daughters of Albion</hi>," <hi rend="i">Blake Newsletter</hi> 23 (Winter 1973), pp. pp. 72-73, Roland A. Duerksen suggests that, contrary to the generally accepted view, the bound figures in the frontispiece are not Oothoon and Bromion but rather are representations of the states of terror and meekness bound by a Bromion who is not pictured in the plate. In support of his view Mr. Duerksen points to Bromion&#8217;s assertiveness, his boast of owning slaves and his tyrannical disposition. While it is true that these qualities and acts are Bromion&#8217;s, they do not automatically preclude the depiction of Bromion as a manacled, fear-ridden figure, though they do indeed raise a crucial question about the force that binds him.<note id="n11"><hi rend="i">Mary V. Jackson (City College of New York) has published on Blake in</hi> JEGP <hi rend="i">and is writing a book on Blake.</hi></note></p>
+            <pb id="p08-92" n="92"/>
+            <p>In order to accept this interpretation of the frontispiece, we must accept several questionable assumptions: First, because Bromion is a tyrant, slave-holder and, one should add, rapist, he cannot also be horrified at his own acts, perhaps even at himself. In other words, his face cannot be "fear-distorted." Second, because Theotormon despairs and seems abject, he cannot also be capable of rage, jealousy and the will to bind and thus punish "the adulterate pair." Finally, because Oothoon is freer in plate 4, she cannot be bound in the frontispiece.</p>
+            <p>The problem with this logic is that it imposes too static an interpretation on the illuminations. It does not allow for either the "narrative progression" or the evolving vision clearly conveyed in the words and successive designs of the poem. One might as plausibly argue that Oothoon cannot appear in a cloud above Albion&#8217;s daughters in plates 7 and 8 because there is a chain on her ankle in plate 4.<hi rend="s"><hi rend="i">2</hi></hi> And yet she does. (I do not agree with the assertion that the chain around Oothoon&#8217;s leg "appears loosened" in the detail of plate 4, for it seems securely fitted to her distinctly tapered ankle.)</p>
+            <figure>
+              <head><hi rend="i">p. 91 Visions of the Daughters of Albion</hi> (copy J), frontispiece <hi rend="i">p. 92</hi> title page <hi rend="i">p. 93, col. 1, top</hi> pl. 4, detail <hi rend="i">p. 93, bottom</hi> pl. 8, detail Library of Congress, Rosenwald Collection</head>
+            </figure>
+            <p>I think Bromion is indeed pictured in the frontispiece, just as it is he who appears, bearded, with arms folded in a curiously passive gesture, bearing down upon Oothoon in a thunder-cloud on the title-page; that Oothoon, so daunted initially by her ordeal (Bromion&#8217;s and Theotormon&#8217;s cruelties) that she cannot speak or even weep, is the meek, bound female figure in the plate. If so, who does have the will and the power to bind them? The answer is suggested, in my opinion, in two additional lines of plate 2:
+<q>
+Then storms rent Theotormon&#8217;s limbs: he roll&#8217;d his waves around / And folded his black jealous waters round the adulterate pair. (2:3-4)
+</q>
+It is easy to be deflected by Bromion&#8217;s tauntings and Theotormon&#8217;s representation of himself as a pathetic victim from realizing that he is also a furious, vindictive lover. His rage is clearly indicated in the lines quoted above, and his sadistic pleasure at Oothoon&#8217;s physical suffering and at her brief acceptance of <hi rend="i">his</hi> judgment of her is apparent: He "severely smiles" as the eagles rend her (2:18).</p>
+            <p>There seems to me no convincing reason to assume that Theotormon&#8217;s enfolding of the "adulterate pair" and the binding of terror and meekness are not the same act. Because Theotormon seems passive in the frontispiece, we need not assume that he is powerless. It is reasonable to assume that the illumination depicts the moments after the "folding" or binding and that the apparently passive Theotormon is not so much a helpless onlooker as a brooding, self-pitying participant. If so, then the freedom or enslavement of the three main characters depends upon Theotormon&#8217;s will to accept or resist perversely the wholeness and love Oothoon embodies. In the light of this interpretation, it is right that Bromion should be given no further attention by Blake in the illuminations after the frontispiece or by Oothoon (after 3:1), whose instincts correctly tell her to address Theotormon and Urizen.</p>
+            <p>It is significant that Theotormon&#8217;s feelings toward Oothoon are more consistently punitive and rejecting than are his feelings toward Bromion. There is a curious affinity between aggrieved lover and rapist: Theotormon thinks Oothoon a harlot no less than Bromion. Both are puritanical, and in their view, Oothoon&#8217;s move toward imaginative and sexual freedom (the plucking of the flower) makes her deserve to be raped and then requires that she be punished for her impurity. Theotormon&#8217;s ambiguity toward Bromion stems in part from the fact that he both approves and disapproves of the rape. He is indeed a "sick man&#8217;s dream," a type of spiritually poisoned humanity which must defile in order to be able to reject the innocent, lovely gratification Oothoon offers. Theotormon and Bromion can accept only two categories of existence, good or evil. The freedom of imagination that transcends these categories is worse than either, because dangerous
+<pb id="p08-93" n="93"/><figure/>
+to a narrow vision, and must be annihilated. In a sense, Bromion embodies the spectrous, life-denying impulse within Theotormon, and it may be that he is sent or willed by Theotormon to defile and thereby arrest Oothoon&#8217;s move toward liberty. At the very least, Theotormon endorses Bromion&#8217;s judgment of Oothoon, as his own treatment of her indicates. The relationship between these three characters anticipates Blake&#8217;s concepts of emanation and spectre.</p>
+            <p>This interpretation of Theotormon&#8217;s controlling role in Oothoon&#8217;s ordeal is supported, I think, by two elements in the poem and qualified by a third.
+<figure/>
+The detail of plate 6 shows a female and male figure; the latter holds a scourge as if to strike the distraught female whose hands cover her face. Oothoon&#8217;s words on this plate clearly express her growing awareness, a flowering of the imagination that might deliver her from the death-like single vision of Theotormon and Urizen. But the illumination represents another aspect of the unfolding vision, for Oothoon is still vulnerable to her lover&#8217;s judgment, shamed by his belief that she is a whore. Although she is pictured as physically unshackled and her words show her to be intellectually freer than at any earlier point in the poem, she is not entirely free from Theotormon. Indeed, the final lines of the poem suggest that she cannot be free, that she is doomed--"Thus every morning wail<hi rend="i">s</hi> Oothoon" (8:11, italics mine)--because Theotormon will not hear. As with a man and his emanation, their destinies seem inextricably intertwined. The passion and beauty of Oothoon&#8217;s triumphant final speech would be tragic, chillingly hopeless were it not for the mitigating effect of the design of plate 8. Oothoon appears, David Erdman suggests, in a thundercloud portending storm and change. Also, the clouds to the lower left are funnel shaped, like a tornado. Oothoon flies toward Albion&#8217;s daughters, one might note, from the left or West. She is still the "soft soul of America," though now a stronger impulse toward freedom; she has weathered the deadly storm unleashed upon her precisely because she moved to take her bliss. With the detail of the final plate, the horror of Oothoon&#8217;s relationship to Theotormon is lessened and the work has come full circle: Oothoon has progressed from one pursued by a flame-wrapped terror in a cloud (title page) to the embodiment, mantled in flame, of liberating vision riding apocalyptic clouds.</p>
+          </div3>
+          <pb id="p08-94" n="94"/>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">&#8220;Bound Back to Back in Bromion&#8217;s Cave&#8221;</hi>
+              </title>
+            </head>
+            <byline>
+              <hi rend="b">by</hi>
+              <docAuthor>
+                <hi rend="b">E. B.</hi>
+                <name>
+                  <hi rend="b">Murray</hi>
+                </name>
+              </docAuthor>
+              <ref target="n12" type="note">*</ref>
+            </byline>
+            <p>I would like to reason from the designs alone in order to demonstrate that Professor Duerksen&#8217;s reading of plate 2, line 5 of <hi rend="i">Visions of the Daughters of Albion</hi> represents a misleading alternative to the usual reading. He argues that the line and the design illustrating it refer to "terror and meekness," not Bromion and Oothoon. I see no reason for excluding either set of alternatives--and compelling reasons for accepting both.</p>
+            <note id="n12">
+              <hi rend="i">E. B. Murray (Univ. of Missouri, St. Louis) has published a book on Ann Radcliffe and articles and reviews on Shelley and Keats. He was a contributor to the 1974 Blake Seminar at the MLA.</hi>
+            </note>
+            <p>As Professor Duerksen notes, Oothoon appears in plate 4 with "the chain about her ankle . . . loosened." In the full-plate design showing the two figures bound back to back, we cannot see a chain binding the left ankle of the lady because her left calf and foot are hidden by her kneeling right leg. Blake&#8217;s care in <hi rend="i">not</hi> putting the chain in plate 4 around the <hi rend="i">right</hi> ankle of a lady who is admittedly Oothoon gives us no excuse for refusing an identification of the two ladies which all other indications support: both ladies are loose-haired, slim, and naked. This plate also represents the characteristic meekness of Oothoon which Duerksen denies her--she is "supplicating" (W. H. Stevenson&#8217;s word in <hi rend="i">Complete Poems</hi>) Theotormon.</p>
+            <p>The other relevant designs further attest to the fact that we have only one naked lady pictured here, and that in some way she illustrates a characteristic meekness, even though it is very often a meekness forced on her by terror. In the title-plate Oothoon flees terrified over Theotormon&#8217;s reign while a frosty-fiery Urizen figure huffs and puffs after her in the background; Oothoon kissing the flower sprite in the "Argument" design is a picture of mildly receptive innocence; the half-title plate 1 shows a naked woman supine on a rock;<ref target="n3" type="note">1</ref> a plate 3 design shows a comparably postured woman on a cloud. Since the eagle plucking at a woman&#8217;s breast in the latter plate clearly illustrates what is happening to Oothoon, we should assume that both women are the same woman. Meekness afflicted by terror is again the major representational motif in both plates. Furthermore, the use of rock and cloud to back the supine Oothoon is clear symbolic evidence that she is indeed "bound back to back" with a urizenic figure. Blake should not be deprived of the characteristic subtlety of symbolic transference which lets the cloud and rock stand for Bromion in these two designs. Together they suggest the opake and "lawful" terrors with which Bromion "rapes" spontaneous love. Finally, the design in plate 6 shows a nude Oothoon weeping in the presence of the self-flagellating (so I see it) Theotormon. <note id="n3"><hi rend="s">1</hi> A nude man lies near her; both are either exhausted or, in a Blakean sense, "dead." W. H. Stevenson sees a third figure here (<hi rend="i">Complete Poems</hi>, Longman, 1971, p. 175n) but only a misseeing of the rather ambiguous Trianon facsimile would seem to warrant that addition. The originals I have seen contain only two figures.</note></p>
+            <p>The overwhelming evidence of the designs seems to make any question of the frontispiece (or end-plate) lady&#8217;s identity less than academic.<ref target="n4" type="note">2</ref> We are in fact presented in the plates noted with the "meekness" of Oothoon in its extreme forms--fear, exhaustion, torment, dejection, supplication--all of which suggest that she is in fact oppressed by the terror which initially afflicted her when Bromion raped her. <note id="n4"><hi rend="s">2</hi> A close reading of the text would further confirm this reading from the designs but is beyond the limits of this note and its restricted purpose.</note></p>
+            <p>The design also depicts the very real terror Bromion feels as well as inflicts. The reason for his terror appears in the design as the sun breaking through the urizenic clouds swagging on the deep around it. He is the only one in a position to see it. Theotormon is clearly shutting out vision; Oothoon is dejected and turned away from it. But Bromion is also and perhaps more importantly evidencing horror at something which seems to exist beyond the limits of the design. And I would suggest that the full explanation of his horror lies beyond the limits of the poem as well. Like Urizen elsewhere, Bromion realizes privately that flesh and blood will not abide his law a single minute. He has indeed raped Oothoon by causing Theotormon to take his perspective on man-woman relations--which is the reason why the scene of the plate and text is Bromion&#8217;s caves. But Oothoon&#8217;s questioning of the limits of the five senses, rational dispensations of joy--plus her exuberant paean in praise of happy copulation--signifies the ultimate end of his restrictive codes. Like Urizen, he will seek to keep off the "evil" day for as long as possible. Oothoon&#8217;s morning-sun visions give her the Shelleyan "strength in meekness" to cause and justify his depicted terror. The only question really is--When will Theotormon hear her words without their being filtered through Bromion&#8217;s ears and subject to his distortions and his answers? 
+                        </p>
+          </div3>
+          <pb id="p08-95" n="95"/>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Bromion&#8217;s Usurped Power&#8212;Its Source, Essence, and Effect: A Replication</hi>
+              </title>
+            </head>
+            <byline>by <docAuthor>Roland A. <name>Duerksen</name></docAuthor><ref target="n13" type="note">*</ref></byline>
+            <p>In their respective responses to my note, both Professor Jackson and Professor Murray present some good insights that are conducive to a better understanding of <hi rend="i">Visions of the Daughters of Albion</hi> as a whole. Yet, with reference particularly to the one line in question, I find fewer difficulties when I continue to read it as my note suggests. Let me first point out what I consider the strengths of the two responses.</p>
+            <note id="n13"><hi rend="i">Roland A. Duerksen (Miami University, Oxford, Ohio) has published articles on British and American Romantic writers, including several on Blake. His books include</hi> Shelleyan Ideas in Victorian Literature <hi rend="i">(1966) and editions of various works by Shelley.</hi></note>
+            <p>The relating of Oothoon, Theotormon, and Bromion to Blake&#8217;s emanation-and-spectre concept strikes me as the most solid aspect of Jackson&#8217;s commentary. That Theotormon is essentially aligned with Bromion is also an important insight. And corollary to it is the assertion that the destinies of Oothoon and Theotormon are inextricably inter-twined. Murray&#8217;s best argument, it seems to me, comes in his final paragraph. If Bromion does indeed see in the offing the success of Oothoon&#8217;s address to Theotormon, he has cause (from his limited, ego-oriented perspective) to be terrified because of the coming end of his dominion.</p>
+            <p>But strong though these points are, they do not solve the problem I find in the conventional reading of the crucial line. I am not at all convinced that Theotormon has any strength of his own in the emanation-spectre entity. Separated as he is from his emanation (Oothoon), he has fallen prey to his spectre (Bromion) who has usurped his realm. That is why Bromion rapes with impunity in "Theotormon&#8217;s reign." Bromion is the power ethic that is commissioned from the lofty heaven of reason by Urizen himself. But Theotormon should not be dominated by this power ethic; he should receive his primary direction from Oothoon, the imaginative impulse, and should make a venture parallel to her plucking of the marigold. Bromion would then necessarily find his rightful subservient place as keeper of the outer bound of reason around their life of joyous energy. The question, then, is not about Theotormon&#8217;s power; in himself he has none. Nor does Oothoon stand a chance, by herself, to overpower Bromion. If, however, she could break through to Theotormon, the two together <hi rend="i">could</hi> simply do all that Bromion forbids.</p>
+            <p>And it is this possibility that Murray finds as the terrifying element for Bromion. Yet I find no indication in the poem that Bromion senses any need to fear. His questions (4:13-24) are all of the "Don&#8217;t you know that?" variety--clearly indicating that he does not doubt the reason-oriented basis of his power system. Nor does it seem that the horror at his own acts (Jackson&#8217;s suggestion) would be adequate for the drastic depiction of terror--such horror not being indicated in the text. And since I find no indication in the poem of his losing control over Theotormon, whose hearing shows no signs of being restored, I fail to see coherence in any characterization of Bromion himself as terror bound to meekness.</p>
+            <p>The poem would appear to be considerably weakened by the interpretation that Oothoon&#8217;s spirit is in any sense subdued after once she has plucked the marigold. By that act, symbolically, she has achieved what Herbert Marcuse calls "the end of utopia"<ref target="n5" type="note">1</ref>; that is, she has broken through to the new state of being in which what is generally called utopian (unattainable) is actually achieved. The rape does not defile her or make her feel guilty. She purposefully, "with holy voice," calls the eagles to rend her breast--to demonstrate to Theotormon her absolute invulnerability to the restrictive codes that torment him. Her lamentations are not meek, subdued supplications but, rather, emphatic and desperate argumentations. Granted, there appears to be a certain degree of irony or ambiguity in her situation of being in a new state of freedom and yet wailing and lamenting over Theotormon&#8217;s unresponsiveness. Again Marcuse&#8217;s theory may serve to elucidate:
+<q>
+All the material and intellectual forces which could be put to work for the realization of a free society are at hand. That they are not used for that purpose is to be attributed to the total mobilization of existing society against its own potential for liberation. But this situation in no way makes the idea of radical transformation itself a utopia.<ref target="n6" type="note">2</ref></q>
+Throughout the poem, after her experience of "radical transformation," Oothoon never once appears to doubt the validity and power of that experience. That Theotormon is totally mobilized against this potential for liberation does not obliterate the knowledge that she has gained from her own experience--though it does frustrate her efforts. 
+                            <note id="n5"><hi rend="s">1</hi> "The End of Utopia," in <hi rend="i">Five Lectures: Psychoanalysis, Politics, and Utopia</hi> (Boston: Beacon Press, 1970), pp. 62-69.</note><note id="n6"><hi rend="s">2</hi> "The End of Utopia," p. 64.</note></p>
+            <p>A number of particular points raised by the two respondents deserve individual attention, and I shall now add my commentary on these. 
+                        </p>
+            <pb id="p08-96" n="96"/>
+            <p>I do not agree with Murray that the graphic art needs to have the narrative consistency or coherence that we rightfully expect of the literary art. Since the engraving in question is a full-page representation apparently meant to serve as frontispiece, since the women depicted in the various plates are not individually identifiable by specific traits or features, and since Blake frequently presents the female figures in a similar way (and without more particular identification) throughout his engravings, it does not seem necessary to conclude that he intends the female figure in each of the plates for <hi rend="i">VDA</hi> consistently to represent Oothoon.</p>
+            <p>Unlike Murray, I see on the title page, not an Oothoon fleeing in terror, but a joyous Oothoon, leaping and running in her enjoyment of new-found freedom while a disgruntled Urizen stalks after her.</p>
+            <p>I agree with Murray that the rock and cloud imagery has reference to Bromion. But since the entirety of the poem after the plucking of the marigold (as I see it) takes place in a realm usurped from Theotormon by Bromion, this background symbolism is only a matter of consistency.</p>
+            <p>Both Jackson and Murray deal with the question of the chain depicted in plate 4. In my note I should have referred to the chain not as loosened, but as broken from its mooring or as apparently attached to nothing more solid than the dark wave in which Oothoon appears. My view is that Blake wished, in this particular plate, to symbolize Oothoon&#8217;s former imprisonment--prior to the plucking of the marigold--and that the broken chain achieves this symbolism.</p>
+            <p>Jackson&#8217;s assertion that Oothoon is not entirely free from Theotormon is true enough, but only in the sense of her love for him, not in the sense of her enslavement to him. I do not see any indication that Oothoon accepts Theotormon&#8217;s judgment of her. She knows that the eagles will rend away the appearance of defilement and reveal her "pure transparent breast." When this occurs, Theotormon "severely smiles," indicating not his dominance over her, but a dull, stupified wonder that indicates his lack of both comprehension and identification.</p>
+            <p>In regard to plate 6, I agree with Murray&#8217;s view that Theotormon is depicted in the act of self-flagellation, and it appears that Oothoon is reacting in agonized, pitying love. Consequently, I must disagree with Jackson&#8217;s assertion that this plate has to do with Oothoon&#8217;s being shamed by Theotormon&#8217;s judgment of her.</p>
+            <p>That Oothoon addresses Urizen instead of Bromion in the later portion of the poem would appear to be evidence of her recognition of the source of Bromion&#8217;s power, not evidence (as suggested by Jackson) that Theotormon&#8217;s power is greater than Bromion&#8217;s.</p>
+            <p>Because I think it a critical aspect, I have left until the end my response to Jackson&#8217;s reading of lines 3 and 4 of plate 2. I see the folding of the "adulterate pair" in Theotormon&#8217;s "jealous waters" not as his act of angry assertion, but as his means of avoiding both thought and action. By accepting as substantial the laws of Urizen (whom Oothoon later refers to as "Father of Jealousy"), Theotormon can fold this event from his sight--can in essence wash his hands of the affair. In his jealousy, he does precisely the opposite of what Oothoon (7:28) declares that she would do: "Oothoon shall view his dear delight, nor e&#8217;er with jealous cloud come in the heaven of generous love." Since Theotormon wraps in the dark waters what could be his and Oothoon&#8217;s "heaven of generous love," the realm remains under the usurped control of Bromion, and Theotormon remains at the threshold of the cave in which Bromion&#8217;s control is symbolized by the enslaved juxtaposition of terror and meekness.</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI.2>

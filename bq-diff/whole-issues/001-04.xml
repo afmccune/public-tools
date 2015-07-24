@@ -1,0 +1,286 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>001-04</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">
+                        <hi rend="i">Blake Newsletter</hi>
+                    </hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>March 15, 1968</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1968</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">01.4</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">4</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Contributors</resp>
+                            <name>W.H. Stevenson</name>
+                            <name>David V. Erdman</name>
+                            <name>Michael J. Tolley</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <date when="1968"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <front id="issue_04">
+            <body>
+                <pb id="p01-1" n="1"/>
+                <div1 id="cover">
+                    <figure n="cover.001.04.bqscan" rend="file">
+                        <figTranscr>Blake Newsletter<lb/>
+                            Number 4<lb/>
+                            March 15, 1968<lb/>
+                            With this issue, the <hi rend="u">Blake</hi> <hi rend="u">Newsletter</hi> concludes its first year<lb/>
+                            of publication.  The response from Blake scholars has been generous and<lb/>
+                            enthusiastic, and we thank our many contributors and correspondents for<lb/>
+                            their support, something it has been impossible to do adequately in<lb/>
+                            individual correspondence.<lb/>
+                            Our only serious problem at the moment is, paradoxically, the success<lb/>
+                            of the <hi rend="u">Newsletter</hi>.  We produced 120 copies of #3 and found that this was<lb/>
+                            about the limit that our resources of time, energy and assistance will allow.<lb/>
+                            If most of our original subscribers re-subscribe, and if new subscriptions<lb/>
+                            continue to come in at the present rate, we will soon reach a point where<lb/>
+                            we can no longer fill new orders.  The alternative to this would be to find<lb/>
+                            some institutional support which would allow us to have the physical pro-<lb/>
+                            duction of the <hi rend="u">Newsletter</hi> done professionally, along with perhaps the mailing<lb/>
+                            and addressing of copies.  The point to be emphasized is that we <hi rend="u">can</hi> continue<lb/>
+                            as at present for an indefinite time, but we cannot continue to grow without<lb/>
+                            changing our present arrangements for publication and distribution.  We do<lb/>
+                            not in any event plan to alter the informal nature of the <hi rend="u">Newsletter</hi>.
+                            Most subscriptions to the <hi rend="u">Newsletter</hi> expire with this issue.  If you<lb/>
+                            have received Numbers 1-4 and wish to receive Numbers 5-8, please remember<lb/>
+                            to resubscribe.  Extensive tally-keeping and reminder-sending would<lb/>
+                            seriously interfere with work on our June issue, which is scheduled for<lb/>
+                            June 15.  We once more welcome contributions of news, notes, queries, and<lb/>
+                            discussion items.  The deadline for submissions is June 1.<lb/>
+                            The June issue will include a checklist of recent articles on Blake,<lb/>
+                            including reviews.  If you know of any that are likely to escape us, please<lb/>
+                            let us know.<lb/>
+                            The BLAKE NEWSLETTER is edited by Morton D. Paley, Dept. of English, Univer-<lb/> 
+                            sity of California, Berkeley Calif. 94720.  Subscription price: two dollars<lb/>
+                            for one year (four issues.  Please make checks payable to Morton D. Paley.<lb/>
+                            British subscribers may remit Postal Money Orders for 16/8.  Such money<lb/>
+                            orders must be <hi rend="u">open</hi> and <hi rend="u">uncrossed</hi>.</figTranscr>
+                    </figure>
+                </div1>
+                <div1 id="BQ-01-4-0001">
+                    <p>With this issue, the <hi rend="u">Blake Newsletter</hi> concludes its first year of publication. The response from Blake scholars has been generous and enthusiastic, and we thank our many contributors and correspondents for their support, something it has been impossible to do adequately in individual correspondence.</p>
+                    <p>Our only serious problem at the moment is, paradoxically, the success of the <hi rend="u">Newsletter.</hi> We produced 120 copies of #3 and found that this was about the limit that our resources of time, energy and assistance will allow. If most of our original subscribers re-subscribe, and if new subscriptions continue to come in at the present rate, we will soon reach a point where we can no longer fill new orders. The alternative to this would be to find some institutional support which would allow us to have the physical production of the <hi rend="u">Newsletter</hi> done professionally, along with perhaps the mailing and addressing of copies. The point to be emphasized is that we <hi rend="u">can</hi> continue as at present for an indefinite time, but we cannot continue to grow without changing our present arrangements for publication and distribution. We do not in any event plan to alter the informal nature of the <hi rend="u">Newsletter.</hi>
+                    </p>
+                    <p>Most subscriptions to the <hi rend="u">Newsletter</hi> expire with this issue. If you have received Numbers 1-4 and wish to receive Numbers 5-8, please remember to resubscribe. Extensive tally-keeping and reminder-sending would seriously interfere with work on our June issue, which is scheduled for June 15. We once more welcome contributions of news, notes, queries, and discussion items. The deadline for submissions is June 1.</p>
+                    <p>The June issue will include a checklist of recent articles on Blake, including reviews. If you know of any that are likely to escape us, please let us know. <note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Dept. of English, University of California, Berkeley Calif. 94720. Subscription price: two dollars for one year (four issues. Please make checks payable to Morton D. Paley. British subscribers may remit Postal Money Orders for 16/8. Such money orders must be <hi rend="u">open</hi> and <hi rend="u">uncrossed.</hi>
+                        </note>
+                    </p>
+                </div1>
+                <pb id="p01-2" n="2"/>
+                <div1 id="BQ-01-4-0002">
+                    <head>
+                        <title>
+                            <hi rend="u">NEWS</hi>
+                        </title>
+                    </head>
+                    <div2>
+                        <head>
+                            <title>Further Damoniana</title>
+                        </head>
+                        <p>ALVIN ROSENFELD kindly sends us the following report on the S. Foster Damon Festival, held at Brown University on February 22 and 23 in celebration of Professor Damon’s seventy-fifth birthday: The Festival opened on Thursday afternoon, February 22, with S. Foster Damon offering a reading from his own poetry; there followed a presentation of a scene from his prize-winning play, "Witch of Dogtown"; and a piano recital of some of S. Foster Damon’s musical compositions, including the song "The Garden of Love," after Blake.</p>
+                        <p>On Friday, February 23, the festival continued with a Blake seminar and film. An audience of some 350 people gathered to hear Professors Damon, Harold Bloom, Geoffrey Hartman, and Robert Langbaum discuss "Blake in the Twentieth Century." The discussion centered chiefly on the critical discovery of Blake in our time and emphasized Professor Damon’s pioneering work in the field. Professor Bloom pointed out the absence of any received tradition of commentary on Blake before Damon and paid tribute to the latter’s landmark study, William Blake, His Philosophy and Symbols (1924), a work that he called "almost outrageously magnificent."</p>
+                        <p>Professor Damon spoke of how he came to discover Blake and related some of the problems he encountered in trying to read and understand Blake’s poetry before a proper text was established and without the benefit of reliable scholarship and criticism.</p>
+                        <p>Geoffrey Hartman and Robert Langbaum each spoke about contemporary problems in reading Blake, and both stressed the need for a critical approach that would emphasize the fundamentally human aspects of Blake’s poetry as they are relevant today.</p>
+                        <p>Following the seminar there was a showing of the B.B.C. television film on Blake, "Tyger, Tyger." Most people who watched the film didn’t like it, and from the comments heard--"puerile, silly, long-winded, a bore"--it cannot be highly recommended. Most agreed that the earlier British film on Blake (1957) was far superior.</p>
+                        <p>The festival concluded with a large dinner on Friday evening, which included brief speeches by Virgil Thomson, the composer, and Willard Maas, the poet and film-maker, among others. "A Birthday Garland for S. Foster Damon," a commemorative booklet of reminiscences and tributes collected for the occasion, was distributed to invited guests.</p>
+                        <p>An exhibit of Damoniana with special Blake items, currently featured at the Rockefeller Library at Brown University, provided a fitting backdrop to the S. Foster Damon Festival. Included in the exhibit and of particular interest to Blake scholars are the following: J.G. Stedman’s two-volume <hi rend="u">Narrative of a Five Years’ Expedition</hi> (1796), including eight plates engraved by Blake (and possibly colored by Blake himself); the 1805 reissue of Hayley’s <hi rend="u">Ballads</hi>, with five plates re-engraved (the copy on exhibit, from
+<pb id="p01-3" n="3"/>
+Professor Damon’s personal library, is the only known copy of this book in which Blake colored his own plates); and The Trianon Press facsimile volumes of <hi rend="u">Visions of the Daughters of Albion</hi> (1959), <hi rend="u">Jerusalem</hi> (1963), <hi rend="u">America</hi> (1963), <hi rend="u">Songs of Innocence and Experience</hi> (1967), and <hi rend="u">Milton</hi> (1967).</p>
+                        <p>The "Birthday Garland," edited by Mr. Rosenfeld and Barton Levi St. Armand, is a beautiful booklet of poems, prose, and illustrations. Among the contributors are Edwin Honig, Lincoln Kirstein, Marianne Moore, Winfield Townley Scott, Hyatt Howe Waggoner, and Colin Wilson.</p>
+                        <p>FOSTER DAMON himself writes to say that his <hi rend="u">Blake Dictionary</hi> has been re-issued in what is in effect a second edition, with a number of alterations and some new short articles.</p>
+                        <p>Malcolm Cowley’s article, "The Self-Obliterated Author: S. Foster Damon," appears in the January ’68 <hi rend="u">Southern Review.</hi>
+                        </p>
+                    </div2>
+                    <div2>
+                        <head>
+                            <title>Miscellaneous News</title>
+                        </head>
+                        <p>Mr. Arnold Fawcus, publisher to the William Blake Trust, was in San Francisco recently and kindly showed us proof pages for two forthcoming Trianon Press publications. One is <hi rend="u">The Gates of Paradise</hi>, in two volumes: <hi rend="u">For Children</hi> and <hi rend="u">For the Sexes</hi>, each including some examples of different states of individual plates. The other is the next color facsimile to be issued for the Blake Trust -- <hi rend="u">Europe.</hi> Two copies of the original (belonging to Mrs. Landon Thorne and to Lord Cunliffe) were used, in order to produce the best facsimile possible. The result is, we think, an exceptionally beautiful piece of facsimile reproduction. Both <hi rend="u">The Gates</hi> and <hi rend="u">Europe</hi> will have commentaries by Sir Geoffrey Keynes; the former is scheduled for fall publication, price to be about twenty dollars; the latter will appear in late ’68 or early ’69, price: about 45 guineas. The address of the Trianon Press is 125 avenue du maine, Paris.</p>
+                        <p>Mr. Robert P. Kolker sends the following sad note from London:
+<q>
+A number of months ago the following item appeared in the papers: "A London house in which the poet and artist William Blake lived for about 17 years in the early 19th century will not become a betting shop. The South West-minster Division’s betting licensing committee, sitting at Caxton Hall, decided yesterday that it was not suitable for licensed betting premises. It rejected an application by Mr. Andrew Gordon, of South Molton Street, Mayfair, for a betting licence for part of the Blake House, No. 17, South Molton Street.... Mr. David Fairbairn, who appeared for 25 objectors to the application, said one of the questions to be considered was whether the only surviving house in which Blake had lived should become a betting shop." But, alas, Satan won out and on both BBC radio and television news it was announced that the original decision
+<pb id="p01-4" n="4"/>
+was overthrown, and No. 17, South Molton Street will be given over to a turf accountant. He, however, promises to keep up the original appearance of the house. On the outside, at least.
+</q>
+We ’ve previously mentioned the Preston Blake Library in London. The following description of it is excerpted from a Westminster City Libraries leaflet:
+<q>
+THE PRESTON BLAKE LIBRARY<lb/>
+                                <lb/>
+The Preston Blake Library came into the possession of the Westminster City Libraries in March, 1967 through the generosity of its owner and creator Mr. Kerrison Preston, himself a Blake scholar. It represents fifty years of assiduous acquisition of books.<lb/>
+                                <lb/>
+The collection is housed in the Fine Arts Library of the Westminster Central Reference Library, St. Martin’s Street (off Leicester Square) an appropriate home for a library devoted to a renowned Westminster citizen, for William Blake was born and spent most of his life in the city.<lb/>
+                                <lb/>
+There are approximately 600 volumes in the collection at the present time, including items in French, German, Italian and Japanese. New books and pamphlets about Blake will be added to the collection as they are published.<lb/>
+                                <lb/>
+Many of the books acquired by Mr. Kerrison Preston in the early days of his collecting have become scarce and valuable, although they are not unique. There are two outstanding items given to him by his friend Graham Robertson (1866-1948) whose collection of Blake paintings, now largely in the Tate Gallery, was justly famous. The first of these is a complete series of original autographed letters written by William Blake to his acquaintance, Thomas Butts of Great Marlborough Street in Westminster. The second item is a printed copy of Blake’s <hi rend="u">Poetical Sketches</hi>, 1783, with the author’s own corrections.<lb/>
+                                <lb/>
+The colour facsimiles by the William Blake Trust of books in Illuminated Printing are noteworthy. There are also exhibition and sale catalogues of books and pictures. The Library also includes a few old books known to have influenced Blake in his work; these include Agrippa 1651, Hervey 1746, Behmen 1763 and Ossian 1799.<lb/>
+                                <lb/>
+The Preston Blake Library is available for consultation by all who are interested in William Blake and his work. A card catalogue has been provided to assist readers. It is open from 10 a.m. until 8 p.m. (Monday - Saturday) in the Fine Arts Library, Central Reference Library, St. Martin’s Street, W.C.2. (Tel. 01-930 3274; Telex 261845).
+</q>
+                        </p>
+                        <pb id="p01-5" n="5"/>
+                        <p>Several short items on Blake-&amp;-Milton scholarship have appeared in the <hi rend="u">Milton Newsletter</hi> (1, 11, 58, 59, 61). This handsome and interesting quarterly is edited by Roy C. Flannagan (Dept. of English, Ohio University, Athens, 0. 45701). Subscriptions are $2.00 per year in the US, $2.50 outside (for invoiced subscriptions, add $1.00 per year).</p>
+                        <p>Through Miss Désirée Hirst, we learn that "A ‘Study of William Blake’ course was held in January at Madingley Hall, near Cambridge, by the Extra-Mural Board. Five days of solid work on text and paintings by thirty people of varied nationalities. Miss Kathleen Raine gave one lecture, Professor Nikolaus Pevsner on the art, T. Henn also, and I gave one too. Then Professor D. W. Harding and Stanley Gardner. The rest by Jack Herbert, who is on the Extra-Mural staff and did an M. Litt. on Blake, and Dr. John Beer of Peterhouse, Cambridge."</p>
+                        <p>Scheduled for publication on March 8: <hi rend="u">Blake’s Humanism</hi> by John Beer. (Manchester University Press, with 50 illustrations, price 55s.). According to the publisher’s description,
+<q>
+The author believes that Blake’s thinking, though neither as simple as some of his supporters claim nor as massively extensive as some of the commentaries suggest is nevertheless subtle, coherent and distinctive. It is organized by certain large and comprehensive ideas, the pattern of which must be grasped before the details are understood. In the present book, which concentrates on political and social themes, the author shows how Blake’s concern with his contemporary world drove him constantly to elaborate these ideas in order to account for the nature of the human beings that composed it. He traces Blake’s progression from the time when he expected an imminent political revolution to the period when he decided that there was only one true form of revolution, the revolution in the human imagination which is brought about by the compelling vision of the artist. This is seen reflected also in Blake’s lifelong engagement with John Milton, culminating in the poem which bears his name.<lb/>
+The works which are treated in detail include the <hi rend="u">Songs of Innocence and of Experience, Visions of the Daughters of Albion, The Marriage of Heaven and Hell, America, Europe, The Song of Los and Milton.</hi> Blake’s exploration of similar themes in both his literary and visual art is discussed throughout, notably in connection with the ‘illuminated books’; a separate section is reserved for discussion of the specifically visual works. A further section is devoted to the puzzling group of small engravings entitled <hi rend="u">The Gates of Paradise</hi>, which are interpreted as emblems making up an intricately organized statement about the limitations and possibilities involved in being human.
+</q>
+                        </p>
+                        <p>Dr. Beer informs us that this book will be followed, in about a year’s time, by <hi rend="u">Blake’s Visionary Universe</hi>, in which he concentrates more "on the works which strike me as ‘purer’ mythmakaking."</p>
+                        <p>Blake courses: the latest addition to our list is Karl Kiralis’ graduate seminar on Blake, given at the University of Houston (Texas) in Fall ’67.</p>
+                    </div2>
+                </div1>
+                <pb id="p01-6" n="6"/>
+                <div1 id="BQ-01-4-0003">
+                    <head>
+                        <title>
+                            <hi rend="u">NOTES</hi>
+                        </title>
+                    </head>
+                    <div2>
+                        <head>
+                            <title>1. TWO PROBLEMS IN <hi rend="u">THE FOUR ZOAS</hi>
+                            </title>
+                        </head>
+                        <byline>
+                            <docAuthor>W. H. <name>Stevenson</name>
+                            </docAuthor> University of Ibadan, Nigeria</byline>
+                        <p>My second problem is the place of VIIb, if any. The argument here is well known; is VIIb earlier than VIIa, contemporary, or later? More important; was it rejected or not? On the first question, my conclusions tie in with Margoliouth’s - that VIIb is of the same period as the first, early part of VIIa, and consecutive upon it; and that the later part of VIIa, from the middle of p. 85, is an insertion, or a series of insertions, between p. 85: 25 and VIIb. The famous stitch-marks, which end at p. 85 (not counting the tailpiece design, now p. 112) fit this theory, though they do not confirm it. Margoliouth says (<hi rend="u">Vala</hi>, p. xiii) "But when the accretions have been removed and VIIb<ref target="p6u1" type="note">*</ref> printed in Blake’s original order (i.e. as on the MS, beginning on p. 91, "Thus in the Caverns of the Grave . . . ’ . . . it appears that VIIb follows straight on VIIa". That is to say: VIIa ended when (85: 6-7) "Enitharmon’s Shadow pregnant in the deeps beneath/Brought forth a wonder horrible", a "nameless shadowy" female - Vala, in fact (p. 91: 14) - who is given "Charge over the howling Orc" (85: 22). Night VIIb continues this scene - "The Shadow reard her dismal head over the flaming youth" (p. 91: 3). (It may be noted that Blake here follows his usual technique of changing a scene, not as the Night begins, but soon afterwards. Nights IV to VIIa all begin with the scene of the previous Night, though sometimes this is obscured by the ending of a Night with a lament, so that the actual setting is to be found some little way back.) <note id="p6u1">* I have altered H.M.M’s <hi rend="u">VII</hi> and <hi rend="u">VIIbis</hi> to conform with the now accepted labelling.</note>
+                        </p>
+                        <p>The real question, however, is: Did Blake reject VIIb when he enlarged VIIa? The new VIIa ends with the reconciled Los and Enitharmon working together to redeem the dead; VIII now begins with this (after a few lines, not entirely detached, about the Council of God); and my argument in the last paragraph may be taken to apply here also. On the other hand, there is the simple fact that, although large parts of I are clearly cancelled, Blake left VIIb in the MS, and still unmarked. If he had wished to reject VIIb nothin, would have been easier than to remove the four sheets and either throw them away (as presumably the very first drafts of the poem were thrown away) or put them somewhere separate. That they are still with the MS suggests that, though they might have been an embarrassment, he had not determined to reject them. At any rate, we must be very sure of our ground before we reject them on his behalf.</p>
+                        <pb id="p01-7" n="7"/>
+                        <p>I suspect that the beginning of VIII, as it now is, forms an attempt to reconcile the new narrative of the end of VIIa and the old of VIIb. The old narrative was simple; the "nameless shadowy female" - named as Vala - produces Orc’s release, and a war ensues which covers the rest of VIIb and most of VIII, resulting in the collapse of all the warring powers in a stupor and the triumph of Vala, whose subtlety has undermined the vast structure of Urizen’s power. But Blake’s interest has been taken by other matters, as the additions show. In VIII these are various and complex, developing the theme of the Council of God and its guidance of the catas-trophic situation though the confrontation of the forces of evil by Jesus. In VIIa, which more closely concerns us, the new interest is the study of Los and Enitharmon. They have quarrelled ever since I, although half-reconciled in V: but in the new VIIa, helped by the benevolent Spectre of Urthona, their reconciliation is complete and therefore manifests itself in new and wonderful powers. They are privileged together to take part in the redemption of the dead, a work which is going on even when the war of Urizen and Orc - for which Los and Enitharmon have no little responsibility - is coming to its tragic climax.</p>
+                        <p>The present beginning of VIII shows what seem to me deliberate attempts to introduce both the old and new elements. VIIb now ends with twelve lines about the Daughters of Beulah. (It is interesting but irrelevant to this question, to note that these lines, though apparently of the same date as the <hi rend="u">added</hi> lines at IV, p. 55:10 to 56:27, are an original part of this MS. This should stand as a warning, to those inclined to presuppose a "non-Christian" MS with "Christian" additions, and those inclined to assume that similar themes mean passages of similar date, that the matter is not as simple as it may seem.) The beginning of VIII contains the following references specifically to VIIb: line 3, "Upon the Limit of Contraction" (ref. VIIb 95:13, "Limit of Translucence"; Blake is naming both Limits, as he usually does, together). Line 4, "The Fallen Man stretchd like a Corse" is of course part of Blake’s whole later myth, but is also relevant to the "Promise Divine" of th Lazarus story (<hi rend="u">John</hi> 11:23) referred to in VIIb, 95:4-8. Line 20: the "Shadowy female" barely appears in VIIa and is not so named unti VIIb. Line 21, "the Daughters of Beulah" are not mentioned in VIIa or, indeed, anywhere between IV and the end of VIIb. The descent of the dead "away from" them is derived from the end of VIIb, 95:10-11. Line 22: "Urizens temple" was erected in VIIb, 95:31ff. Finally, 100:1, "the War of Urizen &amp; Tharmas" broke out in VIIb. It is indeed mentioned in the last lines of VIIa (90:29, 44, 59); yet this can only be a slip of memory on Blake’s part, since he had not started the war in VIIa - the threat at the end of VI evaporated.</p>
+                        <p>Thus VIII in its late form is clearly connected to VIIb. It is equally clearly connected to the new end of VIIa, which makes me think that Blake was deliberately trying to reconcile the two states of the narrative. VIII, 99:15 brings back the scene at the end of VIIIa where Los and Enitharmon are working together to redeem and remake "the spectrous dead". 99:19-20, already referred to, brings together VIIb (as shown above) and the work of Los and Enitharmon with the dead. 99:24 refers to "The broken heart Gate of Enitharmon from VIIa 85:13 and 87:41-2; this is an essential part of the story
+<pb id="p01-8" n="8"/>
+since the shattering of the "obdurate gates" made Enitharmon capable of love and sympathy so that she could join Los,’s work (VIIa 87: 40-45, 90:6, VIII, 99:22-27). In p.100 the material of the end of VIIa and the end of VIIb - Enitharmon and the Daughters of Beulah - is mixed and intertwined. As the Night goes on into p. 101 the mixture extends to include material from the whole of Nights VIIa and VIIb.</p>
+                        <p>Thus I conclude that Blake had decided to keep VIIb somehow; but had not solved the problem of the quart of inspiration and the pint pot of nine Nights. The numbering of the Nights was, after all the least of his problems.</p>
+                    </div2>
+                    <div2>
+                        <head>
+                            <title>2. Blake’s Terrible Ease!</title>
+                        </head>
+                        <byline>
+                            <docAuthor>David V. <name>Erdman</name>
+                            </docAuthor>
+                        </byline>
+                        <p>Through an accident of photographic ordering, a second infra-red print of Notebook page 5 has come from the B.M. (in connection with preparations for a new facsimile edition, still some years off); and on this page the bottom lines are surprisingly darker and more legible than had seemed possible from earlier infra and other photographs. One can, in fact, <hi rend="u">see</hi> everything, i.e. complete lines of squiggle for words; the writing is Blake at his unsteadiest (he was probably writing on one knee); and it is now possible to be well nigh definitive in the reading of these deathless lines. (Doubleday pp. 491-2; 781)</p>
+                        <p>I can see now that the apparently random pair of scratches at the bottom of the page are intended to cancel lines 31-32, to be replaced by lines 33-34--with what can be now read as the same rhyme words. Page 492 in a new printing will thus be emended to conclude:
+<q>From pity then he redend round<lb/>
+And the Spell removed unwound<lb/>
+If Blake could do this when he rose up from shite<lb/>
+What might he not do if he sat down to write
+</q>
+The textual notes on p. 781 will read:</p>
+                        <p>29 From pity then] Then after <hi rend="u">1st rdg del</hi> "Then" was mended to "From", "after" was canceled", "pity then" was written above the line; in a faint photograph of this very rubbed pencil page, at one time the outside page of the Notebook, the "pi" looks like a "B", and "then" combining with the ascending stroke of "he" looks like "thing" or "shing" (thus "Blushing" in my earlier reading). In a better photograph this and the following lines are distinctly legible.</p>
+                        <p>30 removed] <hi rend="u">inserted above the line</hi>
+                        </p>
+                        <p>31 rose up from] sat down to <hi rend="u">1st rdg del</hi>
+                        </p>
+                        <p>31-32 written in margin to replace the following two lines, cancelled with two slanting strokes:
+<q>
+If thus Blake could Shite<lb/>
+What Klopstock did write
+</q>
+                        </p>
+                    </div2>
+                    <pb id="p01-9" n="9"/>
+                    <div2>
+                        <head>
+                            <title>3. Some Analogues or Sources</title>
+                        </head>
+                        <byline>
+                            <docAuthor>Michael J. <name>Tolley</name>
+                            </docAuthor> University of Adelaide</byline>
+                        <p>A curious item, not in the British Museum: <hi rend="u">Cain’s Lamentations Over Abel</hi> by R.C. Rogers, London, Sabine &amp; Son, n.d. (1811-25). It is a bad prose-poem-sermon, and fairly short; quite readable, being bad. An interesting point is that the words "Is this death?" are twice repeated by Cain, and are the words of Adam in <hi rend="u">G.A.</hi>: moreover, they express Cain’s first predominant thought, as Adam’s in Blake. Rogers stresses the certainty of divine forgiveness, and his Cain becomes penitent, and dies a venerable old man, beloved of his relations, the further progeny of Adam &amp; Eve. I’ve been able to find out nothing about the author, who seems to be unknown to the reference books. He lived in Warminster, and has a strong scent of parson (or curate).</p>
+                        <p>Joseph Anthony Wittreich, Jr. has an interesting note, "Blake’s Philosophy of Contraries: A New Source", in <hi rend="u">English Language Notes</hi>, Vol. IV, No. 2 (Dec., 1966), pp. 105-110. The "New Source" is in Milton’s <hi rend="u">Reason of Church-Government</hi>, backed up by other statements in Milton’s prose as well as <hi rend="u">Paradise Lost</hi> IX. 120-3. Milton offers a more immediate source than Boehme for the doctrine of contraries put forward by Blake in <hi rend="u">The Marriage of Heaven and Hell.</hi> Both Boehme and Milton point out that the strife of contraries alone produces motion or change; thus they do not stop short at the familiar concept of the contraries as producing harmony. I suspect that further sources or analogues may turn up: for what it is worth, I mention an idea in Sir Thomas Browne’s <hi rend="u">Religio Medici</hi> (1643: Everyman Edition, p. 71):
+<q>
+They that endeavour to abolish Vice, destroy also Virtue; for contraries, though they destroy one another, are yet the life of one another.
+</q>
+                        </p>
+                        <p>In the same note, Wittreich says that <hi rend="u">Areopagitica</hi> (as well as <hi rend="u">Doctrine and Discipline of Divorce</hi>) is behind <hi rend="u">The Marriage.</hi> One particular hint from <hi rend="u">Areopagitica</hi> may perhaps be seen in proverb 45: "Expect poison from the standing water" and its echo in the harper’s song in the fourth "Memorable Fancy": "The man who never alters his opinion is like standing water, &amp; breeds reptiles of the mind." Milton has a similar idea: "Truth is compared in Scripture to a streaming fountain; if her waters flow not in a perpetual progression, they sicken into a muddy pool of conformity and tradition." (Everyman Edition of <hi rend="u">Prose Writings</hi>, 1958, p. 172.)</p>
+                    </div2>
+                </div1>
+                <pb id="p01-10" n="10"/>
+                <div1 id="BQ-01-4-0004">
+                    <head>
+                        <title>
+                            <hi rend="u">QUERIES</hi>
+                        </title>
+                    </head>
+                    <p>1. AN EARLY, HAND-MADE FACSIMILE OF THE <hi rend="u">SONGS OF INNOCENCE AND OF EXPERIENCE</hi> (The following description and query comes to us from a leading rare book dealer, Mr. John Howell [434 Post Street, San Francisco].</p>
+                    <p>An album containing 54 water-colour drawings of very high quality (each about 122 by 78 mm). These drawings tally exactly with those reproduced in William Muir’s two volumes of facsimiles; i.e. <hi rend="u">Songs of Innocence</hi> 28 drawings; <hi rend="u">Songs of Experience</hi> 22 from the Beaconsfield copy in the B.M., plus 4 more from the other B.M. copy. There are separate title-pages to each work and another title-page for the joint volume. The additional plate reproduced by Muir in his Appendix - "A Divine Image" - not included in either book, nor known in any coloured copy, is not present here.</p>
+                    <p>The drawings are lightly mounted onto large sheets of Whatman paper watermarked 1821; the front end-paper is watermarked 1813. The album (13 3/8 by 1/4 ins.) is bound in early 19th century red straight-grained morocco, the sides filled with gilt and blind tooling surrounding a central panel; the spine is divided into compartments by five raised bands and decorated with gilt and blind tooling. Two panels of the spine are lettered in gilt: SONGS OF INNOCENCE AND EXPERIENCE—BY W. BLAKE. Edges gilt. The style of this binding is contemporary with the date in the watermarks; 1821.</p>
+                    <p>The text varies in minute details from the printed version: e.g. a happy song - my happy song, ‘&amp;’ in place of ‘and’, cheer for chear, etc. But the differences in the drawing and colouring are considerable. In ‘Piping Down the Valleys Wild’ the piper wears a pink coat, in the printed version this is brown. In other pages some figures are depicted in a far more finished style; while border patterns sometimes differ considerably in both layout and colour from the printed version.</p>
+                    <p>Mr. Martin Butlin, who specialises in Blake at the Tate Gallery examined the album containing contemporary copies of Blake’s Songs of Innocence and Experience. He did not think that the drawings are by Blake himself. For one thing, Blake was little interested in drawing his figures in the round, his characters having an almos<supplied type="emend">t</supplied> flat surface; while the artist who made these drawings endeavoured to give them both roundness and depth. The drawing is by some person who, although not academy trained, had very considerable abilit<supplied type="emend">y</supplied> and technique. The colouring, on the other hand, is extraordinaril<supplied type="emend">y</supplied> Blakean, and this makes it certain not only that these drawings wer<supplied type="emend">e</supplied> made early in the nineteenth century, but that they are by someone in the circle of Blake himself. It is known, for example, that Linnell himself made copies of Blake’s drawings and set his family to do the same. Thomas Butts, the other of Blake’s major patrons, did a certain amount of amateur engraving, while Blake gave drawing lessons to Butts’ son.</p>
+                    <pb id="p01-11" n="11"/>
+                    <p>It is probable that the person who did the drawings also mounted them in the album, or at least that this was done at much the same time. Evidence for this lies in the second drawing for <hi rend="u">The Little Black Boy</hi> which has been cut rather close (bottom left) and extended in matching water-colour on the mount itself. Incidentally Thomas Butts commissioned Blake to make water-colour Biblical illustrations and someone in the Butts family mounted these, wrote appropriate texts underneath, drew frames around the pictures, and in some cases extended the painted surface to touch the frames.</p>
+                    <p>Mr. Butlin gave it as his opinion that this album is ‘absolutely fascinating’ and calls for a considerable amount of research. He suggested, as a line to follow, that the various copies of the twin edition of <hi rend="u">Songs of Innocence and Experience</hi> are bound up in different orders and the colouring varies. Is it possible to locate an original copy which interlocks with the order and colouring of the drawings in this album, and if so, does it, perhaps, stem from the Linnell or Butts families?</p>
+                    <div2>
+                        <head>
+                            <title>2. A PROJECTED NEW EDITION OF THE GILCHRIST-TODD <hi rend="u">LIFE OF BLAKE</hi>
+                            </title>
+                        </head>
+                        <p>Mr. Ruthven Todd writes that he is planning to revise and augment his edition of Gilchrist’s <hi rend="u">Life</hi>, originally published by Everyman’s Library in 1942. The extensive notes to this edition are, even after 25 years, invaluable, and now Mr. Todd proposes to bring them up-to-date. He writes:
+<q>
+What I would like to do is produce, at first, a hard cover edition which could then be reproduced for cheaper sale. I have also come to an agreement with J.M. Dent so that I can buy the electrotypes of the Virgil woodcuts which, by a private wangle between myself and the Linnell family, were made directly from the blocks in the BM, so that they are <hi rend="u">not</hi> reproductions, but as near to the originals as one can get. Then, too, only Keynes and myself have the right to ask for electrotypes of the <hi rend="u">Songs</hi> which I rediscovered and which are in the BM. I think that these, printed on decent paper, should almost in themselves attract a hard-cover public.<lb/>
+                                <lb/>
+I quite realize that I, unaided, cannot hope to make the book as good as it should be, but I am quite sure that there must be many scholars who have thought of extra notes and corrections, and who, in return for being given full credit, would be willing to help me produce a book which would not again need revising for many years. I would welcome all notes, corrections, and so on, and in every case the donor would receive full credit for his/ her help. I would like, for instance, not only to acknowledge all corrections, but also, in the case of new notes, to sign them by the names of the contributors.
+</q>
+Mr. Todd’s address is: Ca’n Bielo, Galilea, Mallorca, Spain.</p>
+                    </div2>
+                </div1>
+                <pb id="p01-12" n="12"/>
+                <div1 id="BQ-01-4-0005">
+                    <head>
+                        <title>
+                            <hi rend="u">DISCUSSION</hi>: "With intellectual spears, &amp; long winged arrows of thought" On the Newly Rediscovered Blake Letter</title>
+                    </head>
+                    <byline>
+                        <docAuthor>David V. <name>Erdman</name>
+                        </docAuthor> State University of New York Stony Brook</byline>
+                    <p>It is a piece of good fortune that the long missing letter of Blake to Hayley (16 July 1804) which found its way into the hands of Goodspeed’s of Boston recently did then find its way into the generous hands of Frederick W. Hilles, who at once gave the full text to the world in the Autumn 1967 <hi rend="u">Yale Review</hi> (pages 85-89). To top that generosity, Professor Hilles sent, with offprint, a xerox copy of the letter.</p>
+                    <p>Collation turns up two flaws in the transcript. In the 13th line of the letter, as printed, "from" should read "fears", thus: Mr P was at Brighton with Mr Hoare - fears that so good" etc. In the 11th line from the end the ampersand (&amp;) should be an etcetera (&amp;c), thus: "I will again read Clarissa &amp;c [end of line] They must be admirable [space] I was too hasty in my perusal of them to percieve all their beauty." Professor Hilles responds: "You are so right about <hi rend="u">
+                            <hi rend="u">fears</hi>
+                        </hi> . . . . As to ‘Clarissa &amp;c|, you <hi rend="u">may</hi> be right . . . the curve above the line . . . doesn’t <hi rend="u">
+                            <hi rend="u">look</hi>
+                        </hi> like a <hi rend="u">c</hi> but . . . ." With either reading, Blake’s "they" could refer, as Hilles in the <hi rend="u">Yale Review</hi> suggests, to the letters in the Richardson <hi rend="u">Correspondence</hi>--or to that book’s six volumes. But "Clarissa &amp;c" must mean: The novels must be better than I supposed.</p>
+                    <p>The BLAKE NEWSLETTER is copyright 1968 by Morton D. Paley and its contents may not be reproduced without written permission. This is in order to protect our contributors, who are of course welcome to reprint their own material.</p>
+                </div1>
+            </body>
+        </front>
+    </text>
+</TEI.2>

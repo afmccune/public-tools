@@ -54,7 +54,7 @@ $start_time = gettimeofday(true);
 		$granularity = max(min(intval($_POST['granularity']),3),0);
 		}
 	if ( isset($_GET['file']) ) {
-		$from_text = file_get_contents('../../bq/xml/'.$_GET['file'].'.xml');
+		$from_text = file_get_contents('whole-issues/'.$_GET['file'].'.xml');
 		$to_text = file_get_contents('../bq-xmltransform/composite/'.$_GET['file'].'-composite.xml');		
 	}
 	

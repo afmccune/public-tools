@@ -1,0 +1,1455 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>003-03</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">
+                        <hi rend="i">Blake Newsletter</hi>
+                    </hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>December 15, 1969</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1969</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">03.3</biblScope>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope unit="issue">3</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Associate Editors</resp>
+                            <name>Donald D. Ault</name>
+                            <name>Andrew Griffin</name>
+                            <resp>Editorial Assistant</resp>
+                            <name>Patricia Pelfrey</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <date when="1969"/>
+                        <authority/>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_03">
+        <front>
+            <pb id="p03-46" n="46"/>
+            <div1 id="cover">
+                <figure n="cover.003.03.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter<lb/>
+                        <hi rend="u">EDITOR</hi><lb/>
+                        <hi rend="u">ASSOCIATE EDITORS</hi><lb/>
+                        <hi rend="u">EDITORIAL ASSISTANT</hi><lb/>
+                        Morton D. Paley<lb/>
+                        Donald D. Ault<lb/>
+                        Patricia Pelfrey<lb/>
+                        Andrew Griffin<lb/>
+                        Volume III, No. 4<lb/>
+                        Whole #11<lb/>
+                        December 15, 1969<lb/>
+                        The <hi rend="i">Newsletter</hi> sends season's greetings to all its readers<lb/>
+                        and special thanks to its many contributors, whose generous interest<lb/>
+                        in this publication has seen it through another year.  Again we<lb/>
+                        owe a seasonal debt to Robert P. Kolker, whose index to Volume II<lb/>
+                        of the <hi rend="i">Newsletter</hi> appears in this issue.<lb/>
+                        Our publication of Robert Essick's "Finding List of Repro-<lb/>
+                        ductions" continues in this issue with part II (and some addenda<lb/>
+                        to part I).  Parts III and IV will complete the List and will<lb/>
+                        appear as a substantial supplement to a future number, hopefully<lb/>
+                        the March issue.<lb/>
+                        --ALG<lb/>
+                        <hi rend="i">Contents</hi><lb/>
+                        <hi rend="i">News</hi><lb/>
+                        <hi rend="i">Notes</hi><lb/>
+                        1.  "Further Observations on William Rossetti's<lb/>
+                        Annotations to Gilchrist's <hi rend="i">Life of Blake</hi>," by<lb/>
+                        Joseph Anthony Wittreich, Jr.; 2.  "The Auckland<lb/>
+                        Fuselis," by Michael J. Tolley; 3.  "J. Deffett<lb/>
+                        Francis:  The Swansea Blakes," by Victor<lb/> 
+                        46-56<lb/>
+                        Skretkowicz, Jr.; 4.  "J.S. Deville's Life Mask of<lb/>
+                        William Blake," by David Bindman<lb/>
+                        <hi rend="i">Minute Particulars</hi>  "Blake's Illustrations to <hi rend="i">Paradise Lost</hi>,"<lb/>
+                        57<lb/>
+                        by Martin Butlin<lb/>
+                        <hi rend="i">Reviews</hi>  Kathleen Raine:  <hi rend="i">Blake and Tradition</hi>, by Daniel<lb/>
+                        57-63<lb/>
+                        Hughes; William Wells:  <hi rend="i">William Blake's "Heads</hi><lb/>
+                        <hi rend="i">of the Poets,"</hi>and the Da Capo Press:  <hi rend="i">William Blake:</hi><lb/>
+                        <hi rend="i">Illustrations to The Divine Comedy of Dante</hi>, by<lb/>
+                        Morton Paley<lb/>
+                        <hi rend="i">A Finding List of Reproductions of Blake's Art</hi>, addenda to<lb/>
+                        part I, and part II, by Robert N. Essick<lb/>
+                        64-70<lb/>
+                        <hi rend="i">Index to Volume II</hi>, by Robert P. Kolker<lb/>
+                        70-73<lb/>
+                      </figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-03-3-0001">
+                <table rows="3" cols="3">
+                    <row>
+                        <cell>
+                            <hi rend="i">
+                                <hi rend="u">EDITOR</hi>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <hi rend="i">
+                                <hi rend="u">ASSOCIATE EDITORS</hi>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <hi rend="i">
+                                <hi rend="u">EDITORIAL ASSISTANT</hi>
+                            </hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Morton D. Paley</cell>
+                        <cell>Donald D. Ault</cell>
+                        <cell>Patricia Pelfrey</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Andrew Griffin</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>The <hi rend="i">Newsletter</hi> sends season’s greetings to all its readers and special thanks to its many contributors, whose generous interest in this publication has seen it through another year. Again we owe a seasonal debt to Robert P. Kolker, whose index to Volume II of the <hi rend="i">Newsletter</hi> appears in this issue.</p>
+                <p>Our publication of Robert Essick’s "Finding List of Reproductions" continues in this issue with part II (and some addenda to part I). Parts III and IV will complete the List and will appear as a substantial supplement to a future number, hopefully the March issue.</p>
+            </div1>
+            <div1 id="BQ-03-3-0002">
+                <byline>
+                    <docAuthor>ALG</docAuthor>
+                </byline>
+                <head>
+                    <title>
+                        <hi rend="i">Contents</hi>
+                    </title>
+                </head>
+                <table rows="6" cols="3">
+                    <row>
+                        <cell>
+                            <hi rend="i">News</hi>
+                        </cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">Notes</hi>
+                        </cell>
+                        <cell>I. "Further Observations on William Rossetti’s Annotations to Gilchrist’s <hi rend="i">Life of Blake</hi>," by Joseph Anthony Wittreich, Jr.; 2. "The Auckland Fuselis," by Michael J. Tolley; 3. "J. Deffett Francis: The Swansea Blakes," by Victor Skretkowicz, Jr.; 4. "J.S. Deville’s Life Mask of William Blake," by David Bindman</cell>
+                        <cell>46-56</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="i">Minute Particulars</hi> "Blake’s Illustrations to <hi rend="i">Paradise Lost,</hi>" by Martin Butlin</cell>
+                        <cell>57</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">Reviews</hi>
+                        </cell>
+                        <cell>Kathleen Raine: <hi rend="i">Blake and Tradition</hi>, by Daniel Hughes; William Wells: <hi rend="i">William Blake’s "Heads of the Poets,"</hi> and the Da Capo Press: <hi rend="i">William Blake: Illustrations to The Divine Comedy of Dante</hi>, by Morton Paley</cell>
+                        <cell>57-63</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="i">A Finding List of Reproductions of Blake’s Art</hi>, addenda to part I, and part II, by Robert N. Essick</cell>
+                        <cell>64-70</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="i">Index to Volume II</hi>, by Robert P. Kolker</cell>
+                        <cell>70-73</cell>
+                    </row>
+                </table>
+            </div1>
+        </front>
+        <body>
+            <pb id="p03-47" n="47"/>
+            <div1 id="BQ-03-3-0003">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">NEWS</hi>
+                        </hi>
+                    </title>
+                </head>
+                <p>We report with regret the death of Professor Vivian de Sola Pinto.</p>
+                <p>An annotated catalogue of the Fitzwilliam Museum’s Blake collection is being made by Mr. David Bindman, who has kindly given us an excerpt, on Blake’s life mask, for publication in this issue of the <hi rend="i">Newsletter.</hi>
+                </p>
+                <p>Recent publications: David Piper, "Blake Ghosts" [review of the Blake-Varley Sketchbook], <hi rend="i">The Guardian</hi>, 2 October 1969, p. 9 [I III.]; Robert D. Hume, "The Development of Blake’s Psychology," <hi rend="i">Revue des langues vivantes</hi>, XXXV (1969), 240-258; M.D. Paley, ed., <hi rend="i">Twentieth-Century Interpretations of Blake’s</hi> Song of Innocence and Experience (Prentice-Hall, 1969); <hi rend="i">Blake Studies</hi>, 1, 2(Spring 1969); John Crowe Ransom, "Blake Triumphant" [review of <hi rend="i">Blake and Tradition</hi> by Kathleen Raine], <hi rend="i">New York Review of Books</hi>, 23 October 1969, pp. 4-5; Winston Weathers, ed., <hi rend="i">A Casebook on ‘The Tyger,’</hi> (Charles E. Merrill, 1969).</p>
+                <byline>
+                    <docAuthor>MDP</docAuthor>
+                </byline>
+            </div1>
+            <div1 id="BQ-03-3-0004">
+                <byline>
+                    <docAuthor>John E. <name>Grant</name>
+                    </docAuthor>
+                </byline>
+                <p>Seminar 23: Methods of Studying the Illustrations of William Blake, will meet Sunday, 28 December from 10:30-11:45 a.m. in the Georgetown Room of the Brown Palace Hotel at the 1969 Meeting of the Modern Language Association to be held in Denver. As is usual for MLA Seminars, the rubric will include the following information: Attendance limited to 35. Members wishing to participate should write in advance to Professor John E. Grant, Discussion Leader for Seminar 23, Department of English, University of Iowa, Iowa City, Iowa 52240. He will grant requests for admission up to the level of accommodations.</p>
+                <p>The subject this year will be the Arlington Court Picture. Mrs. Janet A. Warner of Glendon College, York University, will make a presentation based on an essay in progress.</p>
+                <p>Those who plan to attend are reminded of the chief interpretations of the picture which have been written by Digby, Keynes, and Miss Raine. Probably a slide of the picture will be shown to facilitate the discussion. Those not particularly gifted with retentive eidetic imaginations may also wish to have another reproduction available to them. The largest in color is included as pl xvi in Geoffrey Keynes, ed., <hi rend="i">Blake</hi>, The Masters Series no. 6, Paulton and London, 1965.</p>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">THE BLAKE-VARLEY SKETCHBOOK</hi>
+                        </title>
+                    </head>
+                    <p>In the facsimile recently published by Heinemann’s a number of the pages have been inadvertently bound the wrong way round (the <hi rend="u">order</hi> is correct). Blake and Varley used the sketchbook both ways up so some of the oblong composition should in fact appear "upside-down". Vertical compositions, as a general rule, were done with the bottom of the drawing at the outside edge of the page.</p>
+                    <pb id="p03-48" n="48"/>
+                    <p>The pages concerned are 9-10, 19-20, 35-6, 63-6, 71-98, 107-10, and 131-2.</p>
+                    <byline>
+                        <docAuthor>Martin <name>Butlin</name>
+                        </docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+            <div1 id="BQ-03-3-0005">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">NOTES</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>1. Further Observations on William Rossetti’s Annotations to Gilchrist’s <hi rend="i">Life of Blake</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>Joseph Anthony <name>Wittreich</name>, Jr.</docAuthor> Summer Fellow Henry E. Huntington Library and Art Gallery</byline>
+                    <p>Martin Butlin has recently drawn attention to William Michael Rossetti’s copy of Gilchrist’s <hi rend="i">Life of William Blake</hi> (1863), now in the Houghton Library, Harvard University, Catalogue No. *EC75 / B5815 / W863g (B);<ref target="n1" type="note">1</ref> and he has suggested, on the basis of annotations to the "Descriptive Catalogue" in Volume II, that these notes -- perhaps written over a period of years<ref target="n2" type="note">2</ref> -- were begun before 1872 and completed by 1876. Rossetti’s annotations to the biography and poems provide evidence in support of different time-limits for these marginalia. A note on "The Crystal Cabinet," referring to Swinburne’s explanation of the poem, indicates that these jottings were begun after the appearance of <hi rend="i">William Blake: A Critical Study</hi> in 1868. The fact that the annotation to Volume II, p. 106, is printed almost verbatim in Rossetti’s <hi rend="i">The Poetical Works of William Blake</hi> and that the annotation to the same volume, p. 77, is greatly expanded in this edition suggests that the marginalia to the biography and poems, at least, were completed by the Autumn of 1873 when Rosetti’s edition with "Prefatory Memoir" was being put together.<ref target="n3" type="note">3</ref>
+                        <note id="n1">
+                            <hi rend="s">1</hi> Rossetti’s marginalia are printed here for the first time by permission of the Harvard College Library. For Mr. Butlin’s description of Rossetti’s copy of Gilchrist, see "William Rossetti’s Annotations to Gilchrist’s <hi rend="i">Life of William Blake," Blake Newsletter</hi>, 11 (1968), 39-40.</note>
+                        <note id="n2">
+                            <hi rend="s">2</hi> Mr. Butlin’s conjecture is borne out by the fact that when Rossetti annotates Volume 1, p. 335, he is aware of only the Butts-Strange set of illustrations to <hi rend="i">Paradise Lost</hi>, now in the Boston Museum of Art; when he annotates Volume 11, p. 210, however, he is conversant with the Aspland set now in the possession of the Henry E. Huntington Library and Art Gallery.</note>
+                        <note id="n3">
+                            <hi rend="s">3</hi> It seems likely that the corrections and emendations to the biography and text were done over a very short period of time with Tatham’s MS in hand; those to "Descriptive Catalogue" occur over a much longer span of time.</note>
+                    </p>
+                    <p>A librarian’s note, inserted into the Houghton copy, indicates that "some annotations &amp; revisions" from the first volume are "included in ed. 2; many more not" (the marginalia referring to Tatham’s manuscript are uniformly ignored); also ignored are the many emendations to the second volume, although "revisions in the Descriptive Catalogue of Blake’s pictures" are "generally included; and these marginalia are very numerous." Moreover, Rossetti’s annotation to Volume II, p. 243, provides a clue as to what occasioned him to reread and heavily annotate this copy. He says, "It would be as well in a second edition, to put these heads into something a little more like order." The librarian’s inference that these marginalia "arise from someone’s request for advice concerning a possible 2nd edition" seems correct.<ref target="n4" type="note">4</ref> The annotations are clearly suggestions, and indeed very few were carried into execution. For the most part, Rossetti is concerned with textual emendation and correction of printing errors and some biographical facts; however, a very few of his marginalia have a critical orientation, and those are printed below.<ref target="n5" type="note">5</ref>
+                        <note id="n4">
+                            <hi rend="s">4</hi> When one considers the use made of these annotations in Rossetti’s edition of Blake, it seems likely that the immediate occasion for reading and correcting Gilchrist was the preparation of Rossetti’s "Prefatory Memoir" and edition.</note>
+                        <note id="n5">
+                            <hi rend="s">5</hi> Rossetti’s remarks are printed in ordinary type; the passages in Gilchrist to which they refer in italics. Editorial comments are bracketed.</note>
+                    </p>
+                    <pb id="p03-49" n="49"/>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, l, 335.</hi>
+                            </title>
+                        </head>
+                        <q>
+                            <hi rend="i">While, in 1825, the designs from Dante were progressing, I find Mr. Linnell a purchaser also of twelve drawings from Milton’s</hi> Paradise Regained, <hi rend="i">a sequel to those from</hi> Paradise Lost, <hi rend="i">executed for Mr. Butts, which are now scattered in various hands.</hi> [<hi rend="i">"a sequel"and "which . . . hands" are underscored by Rossetti</hi>]
+</q>
+                        <p>I don’t know how far this may be correct. Strange (alone to my knowledge) has a set which may or may not be complete -- much <hi rend="i">larger</hi> than the <hi rend="i">Paradise Regained</hi> designs -- some subjects noted p. 255 vol. 2, <hi rend="i">may</hi> belong to the Strange ed. -- I don’t know.<ref target="n6" type="note">6</ref>
+                            <note id="n6">
+                                <hi rend="s">6</hi> Rossetti’s comment explains his reservations regarding the second passage but not the first. A letter to Mrs. Gilchrist, dated 13 Decr. [1862] is suggestive, however; Rossetti writes, "I will consider about the Paradise Regained. The designs were shown to me by John Linnell as being more than usually beautiful, &amp; I do not directly <hi rend="i">dissent</hi> from the terms used in the slip you send me; only my feeling is that Blake has here been less inspired than usual, and the result comparatively tame" (<hi rend="i">Letters of William Michael Rossetti Concerning Whitman, Blake, and Shelley</hi> [Durham, N.C., 1934], p. 11).</note>
+                        </p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, l, 343.</hi>
+                            </title>
+                        </head>
+                        <q>
+[<hi rend="i">In response to Henry Crabb Robinson’s report of Blake saying</hi>,] <hi rend="i">"He</hi> [<hi rend="i">Milton</hi>] <hi rend="i">wished me to expose the falsehood of his doctrine taught in the</hi> Paradise Lost <hi rend="i">that sexual intercourse arose out of the Fall."</hi>
+                        </q>
+                        <p>He did not</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, ll, 77.</hi>
+                            </title>
+                        </head>
+                        <q>
+                            <hi rend="i">This enigmatic-looking poem</hi> [<hi rend="i">"The Crystal Cabinet"</hi>] <hi rend="i">probably does no more than symbolize in a new way the world-old phenomena of a lover’s transfiguration of his mistress and of all things through her, and the reaction when the dream is broken by a too ardent effort to embody it.</hi>
+                        </q>
+                        <p>I differ here, being pretty confident that the poem describes figuratively the physical phenomena of birth: this explanation would probably be repulsive to most readers.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, ll, 88.</hi>
+                            </title>
+                        </head>
+                        <q>
+                            <hi rend="i">THE CRYSTAL CABINET.</hi>
+                            <ref target="p49u1" type="note">*</ref>
+                            <note id="p49u1">*This poem seems to me to represent under a very ideal form the phenomena of gestation and birth. Mr. Swinburne has suggested a different explanation; and another again is offered in the 2nd vol. of Gilchrist’s book.</note>
+                        </q>
+                    </div3>
+                    <pb id="p03-50" n="50"/>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, 11, 106.</hi>
+                            </title>
+                        </head>
+                        <q>
+                            <hi rend="i">THE AGONY OF FAITH.</hi> [<hi rend="i">"AGONY OF FAITH" deleted; "Grey Monk</hi>
+                            <ref target="n7" type="note">1</ref>" <hi rend="i">written above it.</hi>] 
+                            <note id="n7">
+                                <hi rend="s">1</hi> See the verses <hi rend="i">To the Deists,</hi> with which the present poem corresponds to some extent.</note>
+                        </q>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Gilchrist, 11, 199.</hi>
+                            </title>
+                        </head>
+                        <q>
+[<hi rend="i">At the bottom of the page on which the headnote to "Descriptive Catalogue" begins, Rossetti writes:</hi>]
+</q>
+                        <p>I shd be disposed to add a sentence somewhat to the following effect: --</p>
+                        <p>A Catalogue ["such" deleted] on the plan of the ensuing is peculiarly necessary in the case of Blake. His life consisted in imaginative insight &amp; in the embodiment of that insight in the form of art. The list of his paintings &amp; designs is therefore a most important part of his life. I am in hopes that the extraordinary amount of original thought &amp; invention which belongs to these works will be to some extent sensible even thro’ so imperfect a medium as that of an annotated Catalogue, &amp; will render the looking thro’ this somewhat less tedious than would be the case with almost any other artist.</p>
+                    </div3>
+                </div2>
+                <pb id="p03-51" n="51"/>
+                <div2>
+                    <head>
+                        <title>2. The Auckland Fuselis</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Michael J. <name>Tolley</name>
+                        </docAuthor> The University of Adelaide South Australia</byline>
+                    <p>The editor has asked me to comment on the Fuseli drawings that were purchased in January 1965 from a private source in Dunedin, New Zealand, by the Auckland City Art Gallery. The illustrated catalogue, <hi rend="i">A Collection of Drawings by Henry Fuseli</hi>, Auckland: Auckland City Art Gallery (1967), 100 pp., reproduces the 37 main drawings and also several of the verso sketches. The work for the catalogue seems to have been almost entirely the responsibility of P.A. Tomory, who contributes a brief introduction. The drawings are carefully annotated. The collection itself is, I suppose, still on tour: I saw it on exhibition in Cork Street, London, March 1968 (it was mentioned in several newspapers). Unfortunately, the catalogue seems to be little known by Blake scholars. A case in point is Albert S. Roe’s article, "‘The Thunder of Egypt’", in <hi rend="i">William Blake: Essays for S. Foster Damon</hi>, ed. Alvin H. Rosenfeld, Providence (1969), pp. 158-195. On p. 160, Professor Roe argues that the illustration to Darwin’s <hi rend="i">Botanic Garden</hi> entitled "Fertilization of Egypt", which is stated to be designed by Fuseli and engraved by Blake, may have been Blake’s inspiration. Against Roe’s argument is other written evidence, as well as two other Fuseli designs that have figures unmistakably similar to that of Anubis in the Darwin illustration, acknowledged by Roe on p. 444. In the Auckland collection, however, there is a third sketch with (basically) this figure, incidentally on a subject that would have appealed to Blake, "Hephaestus, Bia and Crato securing Prometheus on Mount Caucasus" (c 1810) from Aeschylus, <hi rend="i">Prometheus Bound.</hi> In the catalogue is a note explaining that the figure we are concerned with "is initially taken from the executioner in Andrea del Sarto’s <hi rend="i">Decapitation of St. John</hi> (Courtyard of the Scalzo, Florence)" (p. 68). (The del Sarto painting is conveniently illustrated in Heinrich Wollflin’s <hi rend="i">Classic Art</hi>, now a Phaidon paperback.)</p>
+                    <p>P.A. Tomory concludes his introduction with some remarks on Fuseli’s connection with Blake:
+<q>
+The connection is illustrated here in nos 4, 18, 24, 30, 36. The evidence of nos 4, 30 and 36 seems to support Mason’s opinion that Blake used the older artist as a figurative source, even though his final conceptions were entirely individual. Todd . . .
+<pb id="p03-52" n="52"/>
+suggests it was Fuseli whom Stothard accused when he ‘ . . . allowed he [Blake] had been misled to extravagances in his art and he knew by whom’. While Fuseli freely admitted that Blake was ‘ . . . d--d good to steal from’, one must agree with Mason that it is difficult to find any direct reference to Blake in Fuseli’s work. It would appear that if Fuseli ‘stole’ from Blake it was a ‘painterly’ borrowing. For instance, in general Fuseli’s colour and tones are very similar to Blake’s (cf: <hi rend="i">The Four and Twenty Elders</hi>, c. 1800-5: Tate, London). More specifically, Fuseli adapts Blake’s yellow aura behind a head (cf: <hi rend="i">Glad Day</hi>, c. 1780: British Museum) in such a drawing as no. 25 and Blake’s scallopped cloud from (cf: <hi rend="i">Elohim Creating Adam</hi>, c. 1795: Tate, London) is found in less precise form in nos. 34 and 36. As he confessed, it was colour that eluded Fuseli; and there was none better to turn to than Blake in this field.
+</q>
+No. 4, "Subject from Milton’s L’Allegro" (c1780), has a figure of Laughter "not unlike, in spirit and pose" the figure of Laughter in Blake’s "Mirth" (c1815). No. 18, "Chriemhild throwing herself on the body of Siegfried, assassinated by Trony" (1815) has a central group "found also at the foot of Blake’s title page to <hi rend="i">America</hi>" -- a woman embracing a warrior’s body. No. 24 is the Aeschylus illustration already mentioned. No. 30, "Vergil, Dante and Geryon" (1811) is very different from Blake’s conception in his later Dante illustration. Not much can be made of Blake’s following Fuseli here and Tomory points the difference: Fuseli’s Geryon is "a <hi rend="i">terribilità</hi> image and yet accurately drawn from the text -- Blake’s, a creature of gentle deceit and more arbitrarily conceived". No. 36, "Death and Sin bridging the ‘Waste’ of Chaos and met by Satan on his return from Earth" (c1819-21) also follows Blake: "The same figure of Satan also appears in Blake’s Argument from <hi rend="i">The Daughters of Albion</hi> of 1793 [the figure springing from the sunflower], and in the top section of the title page to his <hi rend="i">America</hi>". That Fuseli follows Blake in this and no. 18 seems to contradict Tomory’s assumption that Fuseli was little indebted to Blake for other than "painterly" qualities.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>3. J. Deffett Francis: THE SWANSEA BLAKES</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Victor <name>Skretkowicz</name>, Jr.,</docAuthor> Canada Council Predoctoral Fellow Department of English University of Southampton</byline>
+                    <p>"Half-a-dozen of William Blake’s finest works, which did belong to his wife, will attract attention by reason of their quaintness and beauty. They bear the date 1793." On 20 September 1878, <hi rend="i">The Cambrian</hi> reported these items in its list of 155 prints, drawings and watercolours in the newly opened J. Deffett Francis Art Gallery. Below, in the main reading room of the Swansea Public Library, were 4,000 volumes from the same benefactor.</p>
+                    <pb id="p03-53" n="53"/>
+                    <p>In 1834, at the age of 19, Francis left Swansea to pursue a successful painting career in London. He immediately befriended Frederick Tatham, from whom he acquired a number of Blake’s works. Francis knew Tatham well enough to identify him as "the man with the umbrella", subject of Haydon’s painting "Waiting for the <hi rend="i">Times</hi>", and to qualify W.M. Rossetti’s statement that "Swedenborgians, <ref target="n8" type="note">1</ref> rvingites, and other extreme sectaries, beset the then youthful custodian of these precious relics [Blake’s manuscripts] and persuaded him to make a holocaust of them."<ref target="n8" type="note">1</ref> In the margin of his copy of Rossetti’s edition of Blake, Francis, a bachelor, sardonically commented: "Fredk. Tatham. Why he was a married man! Old enough to leave Sculpture for Water Col[ou]r portraiture"; but he underlined "Irvingites", affirming that it was this sect in particular which had spurred Tatham to a mass burning of Blake’s writings. 
+                        <note id="n8">
+                            <hi rend="s">1</hi> W.M. Rossetti, introd. to <hi rend="i">The Poetical Works of William Blake</hi>, ed. W.M. Rossetti (London, 1874), p. lvii.</note>
+                    </p>
+                    <p>When Tatham sold the remains of his Blake collection in 1862, many of the miscellaneous drawings were purchased by Mr. Harvey, who seems to have been a dealer. Some of these drawings, listed as Harvey’s by W.M. Rossetti in the 1863 edition of Gilchrist’s <hi rend="i">Life of Blake</hi>, appear to be among those given by Francis to the British Museum.<ref target="n9" type="note">2</ref> As Francis was not mentioned in Rossett’s list of owners, it is probable that prior to 1863 the two collectors did not know one another; however, from presentation autographs in Francis’s library, it is apparent that by 1865 he was acquainted with Thomas Woolner, Dante Gabriel and W.M. Rossetti, and that they knew him as a collector. 
+                        <note id="n9">
+                            <hi rend="s">2</hi> I acknowledge my debt to Martin Butlin for this information. For other details I am indebted to Professor G.E. Bentley, Jr., to David V. Erdman, and to Mr. J. Bunt, Curator, Glynn Vivian Art Gallery, Swansea.</note>
+                    </p>
+                    <p>John Deffett Francis’s donations to the British Museum are recorded in detail in the manuscript ‘Print Room Register’. On 8 November 1873, he deposited 98 items including 7 pencil drawings by Blake. At 58 Francis was planning his retirement from London, and on his return to Swansea in 1876 he gave the town his library and most of those art works he still possessed. In 1875 he sent W.M. Rossetti the "Woe cried the muse" manuscript, to which Rossetti responded with a copy of <hi rend="i">Leaves of Grass</hi> newly autographed by Whitman, and by 1878 he had donated to the British Museum Print Room some 1,500 pieces, including 60 executed by Blake. In that year the Swansea Public Library, incorporating the Francis Gallery, was reopened, <hi rend="i">The Cambrian</hi> duly recording the proceedings. Francis was appointed Honorary Curator, and in 1890 he printed a catalogue which listed the Blakes as "61-6 America: a Prophecy", "67 ‘He descended into Hell’", and "68 Michael Angelo (Buonarroti)".<ref target="n10" type="note">3</ref> Before he died in 1901 Francis had given 8,000 books and 2,500 works of art to the town of Swansea. The library was general enough to be useful, but the prints, drawings, engravings and watercolours, selected by Francis to instruct in method as well as to please the eye, were too sophisticated to have popular appeal, and sunk into storage and oblivion. 
+                        <note id="n10">
+                            <hi rend="s">3</hi> J. Deffett Francis, <hi rend="i">The "Deffett Francis" Collection of Fine-Art Works in the Galleries of the Swansea Public Library</hi> (Swansea, 1890), p. 3.</note>
+                    </p>
+                    <p>In 1913 the Blakes were included in a limited exhibition as numbers 557: "MICHAEL ANGELO", 561-6: "AMERICA: A PROPHECY", and 567: "He Descended Into Hell".<ref target="n11" type="note">4</ref> The Blakes have not been publicly exhibited since, and are now with the rest of the collection in the Glynn Vivian Art Gallery, Swansea. 
+                        <note id="n11">
+                            <hi rend="s">4</hi> W. Grant Murray, <hi rend="i">Catalogue of the Selected Collection of Engravings, Etchings, Lithographs, Woodcuts, Water-Colours and Drawings</hi> [Swansea, 1913], pp. 34-5.</note>
+                    </p>
+                    <p>Francis’s catalogue descriptions of his Blakes are inaccurate and incomplete. "Michael Angelo" is a trimmed and mounted engraving made
+<pb id="p03-54" n="54"/>
+for Fuseli’s <hi rend="i">Lectures on Painting</hi>, 1801. "He descended into Hell" is a misnomer for the top design, trimmed and mounted, of <hi rend="i">Jerusalem</hi>, plate 35, printed in reddish-brown ink.<ref target="n12" type="note">5</ref> Unfortunately, the lower two-thirds of this plate has not been preserved, and as this fragment is stuck to its mounting its verso cannot be examined. The title given by Francis may be a misconstruction of the last line of text on plate 35: "So spoke the voice from the Furnaces, descending into Non-Entity". The six plates called "America: a Prophecy" are <hi rend="i">America</hi>, plates ii, 3, and 13; and <hi rend="i">Europe</hi>, plates 3, 4, and 9. These plates exhibit no textual variants from known copies, but <hi rend="i">America</hi>, ii and 3 are unique as loose proofs. All are printed in reddishbrown ink, but very lightly, and the versos are uniformly blank. <hi rend="i">America</hi>, ii, is the title-page and source of <hi rend="i">The Cambrian’s</hi> reported date, 1793; <hi rend="i">America</hi>, 3, contains the only watermark, "J WHATMAN 1831", indicating posthumous printing. Francis has autographed the verso of <hi rend="i">Europe</hi>, 3, and given the date of acquisition: "J Deffett Francis 1834". Five of the plates are the normal 24 × 17 cm., but <hi rend="i">America</hi>, 13, is 24 × 17·6 cm. Unlike many of the British Museum holdings, none of the Swansea Blakes has been signed by the familiar "FT", Frederick Tatham, but they are embossed with the recognized collector’s seal of their owner, John Deffett Francis.<ref target="n13" type="note">6</ref>
+                        <note id="n12">
+                            <hi rend="s">5</hi> Plate numbers correspond to those of G. Keynes and E. Wolf 2nd, <hi rend="i">William Blake’s Illuminated Books: A Census</hi> (New York, 1953).</note>
+                        <note id="n13">
+                            <hi rend="s">6</hi> Louis Fagan, <hi rend="i">Collectors’ Marks</hi> (London, 1883), no. 295.</note>
+                    </p>
+                </div2>
+                <pb id="p03-55" n="55"/>
+                <div2>
+                    <head>
+                        <title>4. J. S. DEVILLE’S LIFE MASK OF WILLIAM BLAKE<ref target="n14" type="note">1</ref>
+                            <note id="n14">
+                                    <hi rend="s">1</hi> J.S. Deville was an amateur phrenologist, who ‘when a young man was employed by Mr. Nollekens to make casts from moulds’. (J.T. Smith, 1828, p. 371). Despite his French name, Deville was described as a cockney who talked of ‘wirtues’ and ‘wices’. There is an account of a visit to him in Lord John Russell ed., <hi rend="i">Memoirs, Journal and Correspondance of Thomas Moore</hi>, 1854, V, p. 70.: 20th May, 1826: (Deville’s) ‘explanations of the principles of his art, and some of the facts he produced, very striking to us all: instances where the organ was considerably increased by the exercise of the faculty connected with the organ, etc.; but his guesses at the characters of the new subjects I brought him (none of whom he knew) egregious failures. For instance said that Lord Lansdowne gave his opinions without deliberation! In Sydney Smith the chief propensity he discovered was a fondness for natural history, and for making collections of the same. Altogether this was the worst exhibition I have seen him make, though very amusing from Sydney Smith’s inextinguishable and contagious laughter which I joined in ever to tears.’.
+                                <p>Deville exhibited busts at the Royal Academy in 1823, 1824 and 1826.</p>
+                            </note>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>David <name>Bindman</name>
+                        </docAuthor> Lecturer in the History of Art Westfield College, University of London</byline>
+                    <p>This bust, in slightly yellowed plaster measuring 11 ½ × 7 ¼ inches, is one of the two known life-masks of William Blake. The other, from the Linnell Collection, is now in the National Portrait Gallery<ref target="n15" type="note">2</ref>, which also owns a modern bronze cast of it. The Fitzwilliam version is relatively littleknown, but it has some claim to primacy over the National Portrait Gallery example, which is more highly finished and signed as follows: ‘A 66 / PUBd. AUG. 1. 1823 1. DEVILLE / 67 Strand, London’. The present bust was discussed by two writers while in the possession of George Richmond, who had, of course, known Blake in his last years. According to Herbert P. Horne, ‘Much of the forced expression of the nostrils and more particularly of the mouth is due to the discomforture which the taking of the cast involved, many of Blake’s hairs adhering to the plaster until quite recently’<ref target="n16" type="note">3</ref>. If this were so, then the present bust was presumably cast directly from the original mould. This is confirmed by a remark by George Richmond quoted by Anne Gilchrist: ‘The first mask that the phrenologist took: he wished to have a cast of Blake’s head as representative of the imaginative faculty’<ref target="n17" type="note">4</ref>. The Linnell cast may have been intended for sale in Deville’s shop in the Strand: Deville ‘kept a lamp shop at 367 Strand, at the west corner of Burleigh Street, where he exhibited and sold casts and examined heads phrenologically’<ref target="n18" type="note">5</ref>. 
+                        <note id="n15">
+                            <hi rend="s">2</hi> Inventory no. 1809. Purchased by the National Portrait Gallery following the Linnell sale in 1918. For a reproduction see Wilson, 1948, pl. VI opp. p. 304.</note>
+                        <note id="n16">
+                            <hi rend="s">3</hi> op. cit. 1887, p. 27.</note>
+                        <note id="n17">
+                            <hi rend="s">4</hi> see note 6 below.</note>
+                        <note id="n18">
+                            <hi rend="s">5</hi> J. T. Smith, <hi rend="i">Nollekens and His Times</hi>, 1920, 1, 322n.</note>
+                    </p>
+                    <p>The authority of the life-mask as a likeness of Blake is confirmed by H.H. Gilchrist’s account of his visit to George Richmond, presumably in 1887: ‘Before bidding adieu to Blake in the present volume it will not be out of place if we give the reader the chat that we enjoyed the other day with Mr. George Richmond; the only living man who has conversed with William Blake -- when a student, closed the poet’s eyes and kissed William Blake in death, as he lay upon his bed, in the enchanted work-room at Fountain Court.</p>
+                    <p>‘The Academician showed us a cast of Blake’s head and face, taken by Deville, when Blake was about fifty years old.</p>
+                    <p>‘"The first mask that the phrenologist took: he wished to have a cast of Blake’s head as representative of the imaginative faculty."</p>
+                    <p>‘Deville’s wish was not surprising; (when regarding the mask) we ask if any man ever possessed a fuller temple or a more finely packed brow? -- the quivering intensity in the closed eyes and dilated nostrils is wonderful; and when we pass our hand over his stubborn English chin, we understand Hayley’s surprise, when calling at the cottage at Felpham, at finding Blake grinding away, graver in hand, during a hot day in August; and the quiet pluck with which he always buckled to etching (for Bookseller Johnson) when Mrs. Blake placed the "empty plate" upon the little round oak table.</p>
+                    <p>‘Mr. Richmond drew our attention to the position of Blake’s ear, which is low down; away from the face near the back of the neck, showing an immense height of head above:- "I have noticed this relation of ear finely characterized
+<pb id="p03-56" n="56"/>
+in three men -- Cardinal Newman, William Blake and Henry Hallam." Mr. Richmond pointed out an engraving after his portrait of Newman, which instanced the noble characteristic happily. "I told Mr. Gladstone that I never understood his character, until the day when I sat in church behind him; that I saw the tremendous bulwark of the statesman’s neck".</p>
+                    <p>‘"That is not like dear Blake’s mouth, such a look of severity was foreign to him -- an expression of sweetness and sensibility being habitual: but Blake experienced a good deal of pain when the cast was taken, as the plaster pulled out a quantity of his hair. Mrs. Blake did not like the mask, perhaps the reason being that she was familiar with varying expressions of her husband’s fine face, from daily observation: indeed it was difficult to please her with any portrait -- she never liked Phillips’s portrait; but Blake’s friends liked the mask"’.<ref target="n19" type="note">6</ref><ref target="n23" type="note">*</ref>
+                        <note id="n19">
+                            <hi rend="s">6</hi> H.H. Gilchrist, op.cit., pp. 258-60.</note>
+                        <note id="n23">Lit.: Herbert P. Horne, Century Guild Hobby Horse, 1887, p. 27; H.H. Gilchrist, ed., <hi rend="i">Anne Gilchrist: her life and writings</hi>, 1887, pp. 258-260; A.M.W. Sterling, ed., <hi rend="i">The Richmond Papers</hi>, 1926, p. 26; Geoffrey Keynes, <hi rend="i">A Bibliography of William Blake</hi>, 1921, p. 479, no. I (described as replica or copy of the Linnell version).</note>
+                    </p>
+                </div2>
+            </div1>
+            <pb id="p03-57" n="57"/>
+            <div1 id="BQ-03-3-0006">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">MINUTE PARTICULARS</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>Blake’s Illustrations to <hi rend="i">Paradise Lost</hi>
+                        </title>
+                    </head>
+                    <p>May I point out a small error in Joseph Wittreich’s article on Blake and Fuseli in your Summer issue 1969 (III, i)? In the note on the differences between Blake’s first two sets of illustrations to <hi rend="i">Paradise Lost</hi> it is stated that the second, large set of 1808 lacks any illustrations to Milton’s first two books. This is incorrect. Although only nine of the series are in the Boston Museum of Fine Arts three more exist, bringing the total up to twelve as in the small Huntington Library set of 1807, though "Satan spying on Adam and Raphael’s Descent into Paradise" was replaced by "Adam and Eve sleeping". The large version of "Satan arousing the Rebel Angels", illustrating Book I, lines 300-334, is in the Victoria and Albert Museum, and both small and large versions of "Satan comes to the Gates of Hell", Book II, lines 645-734, are in the Huntington Library. The third of the dispersed 1808 watercolours, "The Judgment of Adam and Eve: ‘So judged the Man’", is in the Houghton Library.</p>
+                    <byline>
+                        <docAuthor>Martin <name>Butlin</name>
+                        </docAuthor> Keeper of the British Collection The Tate Gallery</byline>
+                </div2>
+            </div1>
+            <div1 id="BQ-03-3-0007">
+                <head>
+                    <title>
+                        <hi rend="i">REVIEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Blake and Tradition</hi> The Bollingen Series: XXXV: II Princeton, Vol. I, 460 pp., Vol. 11. 367 pp., $22.50 the set</title>
+                    </head>
+                    <p>What Blake would you have? The "wild pet for the super cultivated" whom Eliot warned us about, the blazing humanitarian in love with mankind’s heuristic life, the guru of the body and physician of the ailing intellect, the hero of the counter-culture? None of these? None. But Blake as <hi rend="i">mystagogos</hi> can be too easily dismissed by the anxious humanist or the technical critic of language and line. Mylonas in his book on Eleusis defines the <hi rend="i">mystagogos</hi> as "the sponsor of a <hi rend="i">mystes</hi>, the person who introduced the initiate and even performed some of the rites of preparation and initiation" and, as the Blakean <hi rend="i">mystai</hi> continue their search for hidden source and secret ceremony, one begins to understand that, for whatever reasons, there is something in Blake himself of the mystagogue despite his detestation of mystery. His allegory addressed to the intellectual powers demands not only the
+<pb id="p03-58" n="58"/>
+resources of literary history and criticism but other rites and ranges of meaning. The long-delayed publication of Kathleen Raine’s <hi rend="i">Blake and Tradition</hi> sets forth more acutely and problematically than any previous book the problem of who you are and what you are doing when you experience Blake, and what Blake you want him to be. If Miss Raine herself sometimes adopts the mystagogic role, she does so only in imitation of Blake, and her central ritual is, finally, no more remote than the elucidation of poetry itself. This book, with its labor of years, its learning, the battles it fights and the skirmishes it avoids, offers essentially a <hi rend="i">poet’s</hi> view of Blake, not as the critical technocrats would limit it: to a knowledge of verse and hints from the workshop, but a poet’s book in terms of its participation in and sensitivity to a poet’s likely motivations and meanings; these are very wide and very mysterious and what we are shown about them will likely do us good.</p>
+                    <p>Like some other Blakeans, then, Miss Raine has more to do than add another explication, vast or little, to the roaring industry of Blake hermeneutics. Her wider motive is probably best approached in her later collection of essays, <hi rend="i">Defending Ancient Springs</hi>, 1967, a series of passionate yet graceful studies of English visionary poets in relation to the very Tradition: Platonic, Neo-Platonic, Gnostic, etc. in which, in her larger work, she seeks to place Blake. Miss Raine’s concern with the quality of consciousness as this is maintained in Blake, Coleridge, Shelley, Yeats and a few other modern poets is further illuminated by more general essays which, I think, serve as excellent preparation for <hi rend="i">Blake and Tradition</hi>: "On the Symbol," "On the Mythological," and "The Use of the Beautiful", endeavors best summed up in her title; she is defending those ancient sources -- the continuing power of symbols -- from modern demythologized naturalism and materialism. Miss Raine has a mission; she would not merely get Blake right or read him in the context of the late eighteenth and early nineteenth centuries and in the perspective of English literature; she would <hi rend="i">use</hi> Blake as he himself saw his prophetic role. His words, her interpretation of those words -- mark them well! -- are of your eternal salvation.</p>
+                    <p>So <hi rend="i">Blake and Tradition</hi>, in addition to bearing the normal load of controversial explication and embattled interpretation asks a larger commitment yet: to visionary poetry as Miss Raine understands it and writes it herself. I, for one, am sympathetic to this envelope and find Miss Raine refreshing: profound without hysteria, serious without rancor, and somehow freed from the nervous claustrophobia of the current American academic marketplace; let’s say her reading of Blake raises the spiritual level and improves the tone of Blake studies one noticeable notch. But this does not mean that her book, so handsomely produced by Princeton in two impressive volumes, is conclusive or resolving or absolutely new in its position; as a document of belief it is one thing; as a definitive study of Blake, it is another. Grave problems abound. For one thing, the delayed appearance of this book, first finished in 1961, but not published until last year, means that some of the scholarship seems already out of date, and the critical interpretation sometimes lags behind new readings and discoveries. Just what the overwhelmed scholar should attend to will remain a matter of debate and difficult choice, but one sometimes has the sense in reading Miss Raine that what she writes is neither new or startling or particularly hers. This is a familiar problem in scholarship and criticism -- have you seen so-and-so’s latest and where can you fit it in? -- but it becomes more complicated when the endeavor is as comprehensive as this one. In studying the lyrics particularly, including
+<pb id="p03-59" n="59"/>
+such central works as "The Mental Traveller" or "The Tyger", Miss Raine ignores much valuable explication that would, one feels, enforce or clarify her position; to the reader knowing this other work, her indifference may seem excessively blithe on the one hand or cursorily arrogant on the other, even though one recognizes that she has more to do than to protect tenderly established reputations. A more serious problem in assessing the work -- not as a private and poetic document in the tradition of Swinburne’s Blake, but as a contribution to Blake scholarship in its own right -- is an examination of just what is meant by tradition in this book and just what place it is supposed to have in Blake’s work.</p>
+                    <p>One knew where Miss Raine stood from the articles she has published over the years: firmly within the camp of which George Mills Harper is the other leading representative: this "tradition" is Greek, it is Platonic and Neo-Platonic; it opts for the mystagogue and his mysteries, and the Perennial Philosophy itself. Knowing this, this reviewer must nonetheless admit to purprise at the importance given to Thomas Taylor in <hi rend="i">Blake and Tradition.</hi> Although Miss Raine locates Blake’s greatest interest in Taylor’s translations and adaptations from the Greek in his work of the 1780’s and 1790’s, the influence of Taylor on Blake is certainly regarded as pervasive and significant throughout his career. She is definite: "Without the aids of Plotinus and Porphyry, the <hi rend="i">Pymander</hi> of Hermes, and, above all, Taylor, Blake’s Christianity itself would have been a more limited and lesser matter." One might assent to that more readily if one knew more or believed more about Taylor himself, but the concurrent publication of the Raine-Harper <hi rend="i">Thomas Taylor the Platonist</hi>, which fills an undoubted gap in our knowledge of this obscure figure, still will not convince many students that he is a crucial missing piece in the intricate puzzle of the backgrounds of English Romanticism. One senses readily the identification that is made between the beleaguered Platonist of the late eighteenth century and the oppressed poet-critic of our own time, but, in reading Taylor’s crabbed and deliberately obscurantist writings (including his less than awesome translation of the Orphic hymns), one balks at finding him an important source for Blake. Admittedly, many artists have found fructifying materials in strange places, but did Blake find motivations in Taylor? Miss Raine’s emphatic claims for the Taylor-Blake relationship, does prevent one from fully accepting <hi rend="i">Blake and Tradition</hi> as the clarifying and central work it is intended to be. I am less concerned with the actual "facts," although we must note that Blake nowhere refers to Taylor in his work, including his letters; Gilchrist is silent on Taylor in any edition; probably Taylor is Sipsop the Pythagorean in <hi rend="i">An Island in the Moon</hi>, but it is hard to see how that satiric portrait demonstrates a personal and intellectual bond between the men. It is unlikely, perhaps, that Blake did not attend Taylor’s lectures on Platonism in Flaxman’s house but he may not have. Finally, however, such nigglings will only mystify some and anger others; he who would deny any connection between Taylor and Blake for lack of concrete historical evidence would lose Miss Raine’s important poetic and philosophical understanding of Blake; he who would insist too much on Blake the Platonist (as a welcome relief from Blake the Hebraist) has a difficult case to prove. The issue becomes not scholarly but critical. What does the juxtaposition of Thomas Taylor and William Blake do for our understanding of Blake’s difficult work? If that is enhanced and we come to a more precise appreciation of what kind of poet and artist Blake was, then the rescue of Taylor’s work and reputation will have been worth while.</p>
+                    <pb id="p03-60" n="60"/>
+                    <p>According to Miss Raine, "Taylor’s greatest service to the romantic poets was in teaching the use of symbolic discourse as the language of metaphysical thought." This indeed is an important contribution -- even if Thomas Taylor did not make it. In recent years critical interest in the Romantics has moved away from the political and the historical to the study of those methods of composition and structuring of symbologies that lead to such extraordinary and still imperfectly described works as <hi rend="i">Jerusalem</hi> and <hi rend="i">Prometheus Unbound.</hi> The poem as "an essay in mythological composition", argues Miss Raine, required the structural levels of myth which Taylor, in his <hi rend="i">A Dissertation on the Eleusinian and Bacchic Mysteries</hi>, set forth from Sallust. The levels of fable suggested by Sallust and adopted by Taylor in his exposition of the Mysteries: the fable itself, the physical interpretation of the fable (Proserpina as blossoming earth), the animastic level (Prosperina as the descent of the soul), and the theological-metaphysical level ("who knows if to live is not to die, and to die to live?") -- these give the "fullest possible content" to the poet’s material. The raising of curtains here is swift and subtle: one has to assume, for example, that the Neo-Platonic allegorizing of Homer gives us the richest view of the Homeric poems, that Thomas Taylor’s resuscitation of Homeric commentaries by Proclus and Porphyry is valuable in itself and of even greater value in showing Blake how to write symbolic verse. Finally, Miss Raine seems to aver, in recognizing the abstracting and Platonizing impulse of Blake’s mind we come closer to his basic poetic Method than we have before. Yes and no. Miss Raine’s marked ability to write uncluttered exposition of uncertain visibilities makes nearly all her material attractive in itself, but whether it is all relevant to Blake is a different and often controversial matter. She is at her best, I think, in offering possible but undogmatic resonances to Blake’s work when that work itself seems particularly to require extension and comparison as in her interpretation of the late painting at Arlington Court, "The Sea of Time and Space" or in her reading of "The Little Girl Lost" and "The Little Girl Found." The painting is examined as an illustration of Porphyry’s treatise on Homer’s <hi rend="i">Cave of the Nymphs</hi>, translated by Taylor in 1788-1789, although neither Geoffrey Keynes nor George Digby agrees that Blake is illustrating Porphyry’s view of Homer in this beautiful and complicated work, nor does a careful reading of Taylor’s translation of <hi rend="i">De Antro Nympharum</hi> in its new appearance resolve the issue. What Miss Raine establishes by these speculations is, I think, the appropriate spiritual and symbolic level on which Blake was operating most of the time. Once again, the range of "abstraction" must be appreciated. The episode in Book Thirteen of <hi rend="i">The Odyssey</hi> in which Odysseus returns to Ithaca through the Cave of the Nymphs must assume a symbolic meaning; Porphyry in a typical Neo-Platonic allegorizing must see Odysseus as the soul crossing and freeing itself from the stormy sea of generation; Taylor’s translation must convey the full arching weight of an arguable interpretation and Blake, of course, must read Taylor in a sympathetic spirit. If any one these steps is a misadventure, does Miss Raine’s further Platonizing fail? I think not.</p>
+                    <p>Paradoxically, the linking of Blake to the Tradition as Miss Raine understands it helps in rescuing Blake’s complex poems and pictures from the charges of the private and the arbitrary that have been lodged against them. The poet who may seem self-indulgent, the reader who may appear anxious and cultish both gain from Miss Raine’s reading. What has sometimes seemed overdetermined, too casually allusive, and certainly hard to discover in Blake’s course is revealed, at the least, to be part of, indeed, clarified and ennobled
+<pb id="p03-61" n="61"/>
+by a tradition of speculative thought that shaped itself in the second and third centuries of our era, found new life in the fifteenth century and continues to run in a significant if underground current through the present time of troubles. Miss Raine’s reading of the Lyca poems can serve, I think, as a good example of the enriching range she brings to Blake studies even as we hem and haw. Once again the route is perilous, for we have to believe that Blake was drawing on his knowledge of the Portland Vase whose figures he engraved for Darwin’s <hi rend="i">Botanic Garden</hi> in 1791, that the vase does depict the Mysteries of Eleusis, and that Blake is drawing on Taylor’s exposition of the Mysteries. It is true, as Irene Chayes has pointed out,<ref target="p61u1" type="note">*</ref> that Kathleen Raine, in her reading of these poems, fails to distinguish between the primordial image of the Lost Maiden, the Kore Prosperpina, and the Neo-Platonic allegory of what the Kore means, but that "fullest possible content" Miss Raine is anxious to discover for Blake depends heavily on a tradition in which Neo-Platonic extrapolations play an important part. I know of no other discussion of these crabbed and teasing stanzas that better accounts for the poetic process in these poems. What, at first, may seem confused or even careless in Blake’s "allegorical waver", as Edwin Honig would call it, takes on body and meaningful connection with other poems by Blake; "Introduction" to <hi rend="i">Experience</hi>, "Earth’s Answer", and the fallen Ahania of <hi rend="i">The Book of Ahania</hi> assume new meaning in Blake’s various and elaborate presentation of the archetype. This graceful density continues to operate through Miss Raine’s presentation of motifs, sources, and analogues in the Prophetic Books, where we can even see Thomas Taylor start to fade into his significant and interesting but not conclusive role. 
+                        <note id="p61u1">* "Little Girls Lost: Problems of a Romantic Archetype", <hi rend="i">Bulletin of the New York Public Library</hi>, LXVII, 9 (November 1963) 579-92. Reprinted in <hi rend="i">Blake: A Collection of Critical Essays</hi>, ed. Northrop Frye (Spectrum Books 1966), 65-78.</note>
+                    </p>
+                    <p>
+                        <hi rend="i">Blake and Tradition</hi> is a far more personal work than it might look at first -- the quality and commitment of Kathleen Raine’s mind and imagination must be engaged at every point. But the subtle boundary between the personal: the alert and steady pressure of a particular outreaching mind and the eccentric: the half-glimpsed display of hidden sources and events -- this line is not always as well defined as it should be in a work of undoubtedly major intentions. Yet the comprehensive works on Blake, starting with Ellis-Yeats, have inevitably swung between the personal and the eccentric and away from the strictly literary-academic because Blake’s position in literary and cultural history, a wholly ambiguous matter in his own time, has been only slightly better defined in this century. The "big" books like Foster Damon’s and Northrop Frye’s did not and could not seek neatly sanctioned solutions to be passed on to the Oxford Histories. Damon, in his time, performed the essential first task of showing that Blake might, after all, be intelligible; Frye, in what is still the best study, demonstrates how consistent in itself and how challenging to our whole view of literature that intelligibility might be; yet both authors, while never losing sight of their larger purposes are often "personal" in the sense in which I have defined the term. Kathleen Raine belongs here but to what degree and to what end is likely to stir the
+<pb id="p03-62" n="62"/>
+passions for some time to come. I want to come back to the poet, <hi rend="i">sui generis</hi>, not as handbooks and workshops understand him, but as Shelley did, "the hierophant of an unapprehended inspiration." Miss Raine’s Blake is no dogmatic geometer-humanist whose wheels, within or without, were set in motion for the critic and propagandist of a terrible time; he is a poet, obsessed with line and verb, requiring and making symbols to which his interpreter must be true. After the elucidation of the Mysteries, we yet remain in the presence of secrets honored, secrets kept.</p>
+                    <byline>
+                        <docAuthor>Daniel <name>Hughes</name>
+                        </docAuthor> Wayne State University</byline>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">William Blake’s "Heads of the Poets"</hi> (by William Wells). Manchester: City Art Gallery (1969) 43 pp . . . No price listed.; <hi rend="i">William Blake: Illustrations to</hi> The Divine Comedy <hi rend="i">of Dante.</hi> New York: Da Capo Press, pp. iii + 109 plates. $100.00.</title>
+                    </head>
+                    <p>These two publications, one a large portfolio, the other a booklet, both reproduce series of pictures by Blake not otherwise available at present, although in neither case is the series reproduced for the first time. The Dante series is a "second edition" of the facsimile produced for the National Art-Collections Fund in 1922,<ref target="n20" type="note">1</ref> (see announcement in <hi rend="i">BNL</hi> 11, no. 4 [whole #8], p. 61). The Manchester booklet includes photographic reproductions of a series to be found complete only in a long out-of-print Blake Society pamphlet of 1925. 
+                        <note id="n20">
+                            <hi rend="s">1</hi> The Dante illustrations are also reproduced from this facsimile in <hi rend="i">Blake’s Illustrations to</hi> The Divine Comedy by Albert S. Roe (Princeton, 1953), along with the seven engravings.</note>
+                    </p>
+                    <p>The name of William Wells, Keeper of the Burrell Collection, Glasgow, does not appear on the cover of the Manchester pamphlet, and there is no title page; the author is identified only in the foreward to the booklet. This is regrettable, for Mr. Wells deserves credit for giving us a valuable little study of Blake’s least-known series of pictures. This booklet, prepared in conjunction with a Blake-Hayley exhibition<ref target="n21" type="note">2</ref> at the City Art Gallery, includes reproductions of all eighteen heads, thirty subsidiary reproductions, and a handsome cover drawing of Hayley’s Turret. In almost all respects, this <hi rend="i">Heads of the Poets</hi> is superior to the Blake Society’s 1925 production. The latter had only a cursory introduction by Thomas Wright, while in this one Mr. Wells presents twenty-five pages of concise information. Five Heads given incorrect titles in 1925 are retitled now, following the corrections made by the late Kenneth Povey. Much detail appears only in the new reproductions: for example, the figure of Ugolino in "Dante" is virtually invisible in the Blake Society’s reproduction but well defined in Mr. Wells’s; in the earlier "Spenser" the delightful figures on the left side of the picture cannot be seen at all. In one respect, however, the earlier reproductions have an advantage -- in being printed one to a page. They have considerably more effect this way than they do in the present booklet, where they are crowded two to a page. 
+                        <note id="n21">
+                            <hi rend="s">2</hi> "For Friendship’s Sake" 29 April -- 18 May 1969.</note>
+                    </p>
+                    <pb id="p03-63" n="63"/>
+                    <p>Since the new edition of Blake’s Dante illustrations is not a fresh reproduction of the originals but rather a reproduction of the Emery Walker collotype facsimile of 1922<ref target="n22" type="note">3</ref>, it might be thought that the new production would be necessarily less accurate than its antecedent. Having had the opportunity, through the kindness of Mr. Martin Butlin, to compare the two sets page for page, I can report that in most respects this is not so. In each set detail comes through with about equal clarity; handwriting is equally legible. In fact, the darks of 2 seem at times to show more sensitive variation than those of 1 -- the rock in plate 22 ("The Minotaur"0, for example; and the darks of plate 16 ("Goddess of Fortune") are sharper in 2 than in 1. As far as outline and detail are concerned, one gets about as good an idea of Blake’s drawings from 2 and from 1, and there are even times when 2 is preferable: in plate 5 ("The Vestibule of Hell . . . ") the frieze of figures at the top is if anything clearer in 2. Nevertheless, there are two important respects in which the Da Capo edition is decidedly less satisfactory than the Emery Walker one. 
+                        <note id="n22">
+                            <hi rend="s">3</hi> For the sake of brevity, I will refer to the Walker and Da Capo editions as 1 and 2 respectively.</note>
+                    </p>
+                    <p>The whites of I are very close to Blake’s. In 2, however, there is frequently a strangely yellowish tone which creates an effect far different from that of Blake’s originals. This makes a tremendous difference in the tone of some of the pictures -- 10, for example ("The Circle of the Lustful"). In 54 ("Donati Transformed into a Serpent"), the picture as a whole seems decidedly darker as a result, while in 72 ("The Angelic Boat . . . ") the radiance of the angelic presence is entirely lost by the absence of white. Similarly, in 80 ("The Rock Sculptured . . . ") the contrast between dark sea and light rock is spoiled. Whether intentional or accidental, the failure to reproduce white as white in these pictures is a serious one.</p>
+                    <p>A second point: the texture of the hand-made laid paper of the Emery Walker set is very similar to that of the drawing-paper Blake actually used. The paper of 2, however, has no visible texture, but as the texture of 1 is reproduced in the facsimile the result is an anomaly: the drawings appear to have texture but the white borders do not. 2 <hi rend="u">looks</hi> like a reproduction, while in 1 the effect of versimilitude is further increased by edges cut with slight, but discernible, irregularity.</p>
+                    <p>It should be said that in one respect <hi rend="u">both</hi> facsimiles leave something to be desired. Someone who knew these pictures only through facsimile would have no idea of the role color plays in the originals. Of the nineteen Dante illustrations displayed at the Tate Gallery, not one is without some important use of color. The loss is of course greatest in finished or almost finished water colors like "Beatrice Addressing Dante" or "The Serpent Attacking Buso Donati." (I does include a single color illustration, "The Inscription Over Hell-Gate"). The loss is not only of artistic effect but of symbolic meaning as well -- it would be unfortunate if someone were to rely on a black-and-white facsimile in interpreting a picture like "Beatrice Addressing Dante." And even in pictures in which only a little color has been used, it can make a tremendous difference, as in "The Ascent of the Mountain of Purgatory," where Virgil wears a pale blue garment, Dante a rose-colored one. Or consider "Dante and Virgil approaching the Angel who guards the Entrance of Purgatory," where deep red clouds contrast strikingly with green grass in
+<pb id="p03-64" n="64"/>
+the foreground. At this stage of the study of Blake, should we settle for less than full-color reproductions of major works?</p>
+                    <byline>
+                        <docAuthor>Morton D. <name>Paley</name>
+                        </docAuthor>
+                    </byline>
+                </div2>
+            </div1>
+            <div1 id="BQ-03-3-0008">
+                <head>
+                    <title>A FINDING LIST OF REPRODUCTIONS OF BLAKE’S ART</title>
+                </head>
+                <byline>Compiled by <docAuthor>Robert N. <name>Essick</name>
+                    </docAuthor>
+                </byline>
+                <div2>
+                    <head>
+                        <title>Addenda to Part I: The Illuminated Books</title>
+                    </head>
+                    <p>Further searches have uncovered a few reproductions of copies of plates not reproduced elsewhere and not recorded in Part 1 of this list.</p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">America</hi>
+                            </title>
+                        </head>
+                        <p>3. Connoisseur, CLVI (July, 1964), 183 (color, M).</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Book of Urizen</hi>
+                            </title>
+                        </head>
+                        <p>22. Newton, A Magnificent Farce, frontispiece (color, probably B).</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Jerusalem</hi>
+                            </title>
+                        </head>
+                        <p>Apollo, LXVII (1958), 3-7 contains reproductions of the Br. Museum fragments" of plates 25, 32, 41, 47.</p>
+                    </div3>
+                </div2>
+                <div2>
+                    <head>
+                        <title>Part II: Illustrations to Blake’s Non-illuminated Writings</title>
+                    </head>
+                    <p>This section includes the engraved Gates of Paradise and illustrated manuscripts and notebooks, but complete facsimiles listed in the Bentley and Nurmi Bibliography or the recent Blake Newsletter supplement are generally excluded. A list of reproductions of unillustrated manuscripts, letters, and pages from first editions of Blake’s printed verse and prose is appended to this section.</p>
+                    <pb id="p03-65" n="65"/>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Blake-Varley Sketchbook</hi>
+                            </title>
+                        </head>
+                        <p>Complete. Facsimile edition by Heinemann, Notes by Butlin, 2 vols., 1969.</p>
+                        <p>Selected sketches. Lithographs by W. B. Scott, Portfolio, 11 (1871), 104. Includes a landscape, ghost of a flea (full length and head as used in Varley’s Zodiacal Physiognomy), Milton’s first wife, dogfaced men, a vignette of a mourning woman similar to the figure above the title of "Holy Thursday" in Songs of Experience, and another vignette of a mourning woman inscribed "Yet can I not persuade me thou art Dead. Milton."</p>
+                        <p>Ghost of a Flea, full length. BNYPL, LXIV (1960), 567 (from the Scott lithograph, showing also the head of a flea, second vignette, and dog-faced man); Time Magazine, April 21, 1967, page 72.</p>
+                        <p>See also <hi rend="i">Visionary Heads</hi>, Part III of this list, particularly those taken from this sketchbook: Blake’s visionary portrait of himself, Caractacus, and Ghost of a Flea.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">William Blake’s Notebook</hi>
+                            </title>
+                        </head>
+                        <p>Selection, Pages 99-115, containing the MS for some Songs of Experience, Wicksteed, Blake’s Innocence and Experience.</p>
+                        <p>Note: "Keynes, Gates of Paradise" refers to the facsimile edition issued in 3 vols. by the Blake Trust, 1968.</p>
+                        <list type="simple">
+                            <item>
+                                <p>
+                                    <label>2.</label> Design only, Ellis and Yeats, Works of Blake, 111, upper left corner of first page of reproductions; design only, Raine, Blake and Tradition, pl. 138.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4.</label> Design only, Ellis and Yeats, Works of Blake, 111, lower section of first page of reproductions; Wilson, Life of Blake (1927), 16.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>9.</label> (probably by Robert Blake). Cary, Art of Blake, pl. XLI; Keynes, Blake Studies, pl. 3.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>13.</label> (probably by Robert Blake). Cary, Art of Blake, pl. XL; Wilson, Life of Blake (1927), 36; Keynes, Blake Studies, pl. 4. See also Song of Los, pl. 5.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>15.</label> Upper right and right center designs, Ellis and Yeats, Works of Blake, 111, upper and lower right sections of second page of reproductions; center design, Keynes, Gates of Paradise, 1 (sketch for pl. 14).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>16.</label> Upper design, Ellis and Yeats, Works of Blake, 111, center of second page of reproductions; Keynes, Drawings by Blake (1927), pl. 12.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>17.</label> Upper design, Ellis and Yeats, Works of Blake, 111, lower left two figures on second page of reproductions; center design, Keynes, Gates of Paradise, 1 (rejected design for pl. 15).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>19.</label> Design only, Raine, Blake and Tradition, pl. 109; design only, Keynes, Gates of Paradise, 1 (sketch for pl. 7).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>21.</label> Raine, Blake and Tradition, pl. 47.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>28.</label> Cary, Art of Blake, pl. XVI. See also Visions of the Daughters of Albion, pl. iii.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>34.</label> Keynes, Gates of Paradise, 1 (sketch for pl. 8).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>40.</label> Erdman, Prophet Against Empire, 187; design only, Keynes, Gates of Paradise, 1 (sketch for pl. 9).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>44.</label> Cary, Art of Blake, pl. XLIII; Keynes, Drawings by Blake (1927), pl. 13. See also Marriage of Heaven and Hell, pl. 24.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>45.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 16).</p>
+                            </item>
+                            <pb id="p03-66" n="66"/>
+                            <item>
+                                <p>
+                                    <label>52.</label> Sampson, Poetical Works of Blake (1905), 242; design only, Keynes, Gates of Paradise, 1 (sketch for pl. 11).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>54.</label> Lower design, Ellis and Yeats, Works of Blake, 111, lower section of third page of reproductions; Keynes, Drawings by Blake (1927), pl. 14 and Blake Studies, pl. 6. See also Jerusalem, pl. 84 and "London" in Songs of Experience.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>58.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 10).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>59.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 12).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>61.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 13).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>63.</label> Cary, Art of Blake, pl. IV; Philadelphia Catalogue, 8; design only, Keynes, Gates of Paradise, 1 (sketch for pl. 1).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>65.</label> Keynes, Drawings by Blake (1927), pl. 15. See also "The Angel" in Songs of Experience.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>67.</label> Engraving after the design, Gilchrist, Life of Blake, 1, 374 top (1880); Keynes, Bibliography of Blake, 31, Blake Studies, pl. 7 and Blake: Poet, Printer, Prophet, dust jacket of trade edition; Bronowski, Blake and the Age of Revolution, pl. 1.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>68.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for frontispiece).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>69.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 6).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>71.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 15).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>74.</label> Lower design, Ellis and Yeats, Works of Blake, 111, upper section of third page of reproductions. See also Europe, pl. 1.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>75.</label> Upper right figure, Ellis and Yeats, Works of Blake, 111, middle right figure on third page of reproductions. See also America, pl. 5.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>80.</label> Gardner, Blake (Lit. in Perspective), 73.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>82.</label> Engraving after the design, Gilchrist, Life of Blake, 1, 374 bottom (1880).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>85.</label> Cary, Art of Blake, XLII.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>91.</label> Design only, Ellis and Yeats, Works of Blake, 111, upper right section of first page of reproductions; Cary, Art of Blake; design only, Keynes, Gates of Paradise, 1 (sketch for pl. 5).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>93.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 3).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>94.</label> Design only, Keynes, Gates of Paradise, 1 (sketch for pl. 2).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>102.</label> Cary, Art of Blake, pl. XIII; Keynes, Drawings of Blake (1927), pl. 16; Philadelphia Catalogue, 7.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>104.</label> Keynes, Drawings by Blake (1927), pl. 17; Greenough, Home Bible, 376 second section; Philadelphia Catalogue 6.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>109.</label> Sampson, Poetical Works of Blake (1905), frontispiece; Keynes, Blake Studies, pl. 8.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>112.</label> Keynes, Drawings by Blake (1927), pl. 18. See also the color print of "Satan Exulting over Eve."</p>
+                            </item>
+                        </list>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Robert Blake’s Sketchbook</hi>
+                            </title>
+                        </head>
+                        <p>Heads and torsos, perhaps some by W. Blake. Baker, Huntington Catalogue of Blake, pl. XXXVII; another group, Keynes, Blake Studies, pl. 2.</p>
+                        <p>See also the following sketches by R. Blake: W. BLake’s Notebook, 9, 13; figure study, Robertson, ed., Gilchrist’s Life of Blake, 60; figures in a grove, Kenyes, Blake Studies, pl. 5; "The Preaching of Warning," Butlin, Tate Catalogue of Blake, pl. 5 bottom.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">For Children: The Gates of Paradise</hi>
+                            </title>
+                        </head>
+                        <p>Complete drawings and engravings. Keynes, Gates of Paradise, 1, 111.</p>
+                        <pb id="p03-67" n="67"/>
+                        <p>Sketch for an unused title page. Keynes, Gates of Paradise, 1, last reproduction.</p>
+                        <p>See also the frontispiece and pls. 1-16 of For the Sexes: The Gates of Paradise.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">For the Sexes: The Gates of Paradise</hi>
+                            </title>
+                        </head>
+                        <p>Complete drawings and engravings. Keynes, Gates of Paradise, 1, 111.</p>
+                        <p>Complete engravings. Plowman, Poems and Prophecies of Blake, 291-311; Tinker, Poet and Painter, 108-9 (excludes pls. 17-19); Erdman, Poetry and Prose of Blake, 257-265 (excludes title page, pls. 17-19, and text on 19); Beer, Blake’s Humanism, pls. 4-10, 12-23 (excludes pls. 17, 18, and text on 19).</p>
+                        <p>Frontispiece. Design only, Gilchrist, Life of Blake, 1, 100 (1863), 102 (1880, mistitled "Alas"); design only, Robertson, ed., Gilchrist’s Life of Blake, 104; Raine, Blake and Tradition, pl. 153.</p>
+                        <p>Sketch. Notebook, 68.</p>
+                        <p>Title page. Keynes, Blake’s Engravings, pl. 28.</p>
+                        <list type="ordered">
+                            <item>
+                                <p>
+                                    <label>1.</label> Cary, Art of Blake, pl. 111a; Russell, Engravings of Blake, pl. 5; Philadelphia Catalogue, 18; Raine, Blake and Tradition, pl. 137 (mistitled "plate 8").</p>
+                                <p>Sketch. Notebook, 63; Cary, Art of Blake, pl. IV; Philadelphia Catalogue, 9.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>2.</label> Design only, Gilchrist, Life of Blake, 1, 101 (1863), 98 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 102; Binyon, Drawings and Engravings of Blake, pl. 18 (design only) and Engraved Designs of Blake, pl. 6; Raine, Blake and Tradition, pl. 140.</p>
+                                <p>Sketch. Notebook, 95.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>3.</label> Design only, Binyon, Drawings and Engravings of Blake, pl. 17.</p>
+                                <p>Sketches. Notebook, 75, 93.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4.</label> Design only, Gilchrist, Life of Blake, 1, 101 (1863), 98 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 102; Binyon, Drawings and Engravings of Blake, pl. 17 (design only) and Engraved Designs of Blake, pl. 6; design only, Adams, Blake: Reading of the Shorter Poems, 288.</p>
+                                <p>Sketch. Notebook, 94.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>5.</label> Cary, Art of Blake, pl. 111b; Binyon, Drawings and Engravings of Blake, pl. 18 (design only) and Engraved Designs of Blake, pl. 7 (second and third states); Philadelphia Catalogue, 18; Print Collector’s Quarterly, XXVI (1939), 72.</p>
+                                <p>Sketch. Notebook, 91; Ellis and Yeats, Works of Blake, 111, upper right figure on first page of reproductions; Cary, Art of Blake, pl. 11.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>6.</label> Raine, Blake and Tradition, pl. 170.</p>
+                                <p>Sketch. Notebook, 69.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>7.</label> Design only, Gilchrist, Life of Blake, 1, 99 (1863), 100 (1880, mistitled "What is Man?"); design only, Robertson, ed., Gilchrist’s Life of Blake, 104.</p>
+                                <p>Sketch. Notebook, 19; Raine, Blake and Tradition, pl. 109.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>8.</label> Russell, Engravings of Blake, pl. 5; design only, Blunt, Art of Blake, pl. 43c.</p>
+                                <pb id="p03-68" n="68"/>
+                                <p>Sketch. Notebook, 34.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>9.</label> Design only, Gilchrist, Life of Blake, 1, 102 (1863), 100 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 104; Langridge, Blake, 94; Bruce, Blake in this World, frontispience; Newton, A Magnificent Farce, 214; Binyon, Engraved Designs of Blake, pl. 8; Van Sinderen, Blake: The Mystic Genius, 43.</p>
+                                <p>Sketch. Notebook, 40; Erdman, Prophet Against Empire, 187.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>10.</label> Design only, Gilchrist, Life of Blake, 1, 103 (1863), 102 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 104; Van Sinderen, Blake: The Mystic Genius, 43.</p>
+                                <p>Sketch. Notebook, 19.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>11.</label> Binyon, Engraved Designs of Blake, pl. 9; design only, Raine, Blake and Tradition, pl. 15.</p>
+                                <p>Sketch. Notebook, 52; Sampson, Poetical Works of Blake (1905), 242.</p>
+                                <p>Perhaps a rejected design. Notebook, 42.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>12.</label> Russell, Engravings of Blake, pl. 5; Binyon, Engraved Designs of Blake, pl. 9; Philadelphia Catalogue, 61.</p>
+                                <p>Sketch. Notebook, 59. See also Marriage of Heaven and Hell, pl. 16.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>13.</label> Philadelphia Catalogue, 63.</p>
+                                <p>Sketch. Notebook, 61.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>14.</label> Design only, Gilchrist, Life of Blake, 1, 103 (1863), 100 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 104; Binyon, Engraved Designs of Blake, pl. 8; Raine, Blake and Tradition, pl. 183.</p>
+                                <p>Sketch. Notebook, 15.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>15.</label> Hagstrum, Blake: Poet and Painter, pl. VA.</p>
+                                <p>Sketch. Notebook, 71. See also America, pl. 12, Blair’s Grave, pl. 11, and the separate plate of "Death’s Door." Perhaps a rejected design. Notebook, 17.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>16.</label> Design only, Gilchrist, Life of Blake, 1, 103 (1863), 102 (1880); design only, Robertson, ed., Gilchrist’s Life of Blake, 104; Russell, Engravings of Blake, pl. 5; Raine, Blake and Tradition, pl. 57.</p>
+                                <p>Sketch. Notebook, 45.</p>
+                                <p>Water color. Keynes, Gates of Paradise, 1.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>17.</label> Keynes, Blake’s Engravings, pl. 25.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>18.</label> Keynes, Blake’s Engravings, pl. 26.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>19.</label> Keynes, Blake’s Engravings, pl. 27; Hagstrum, Blake: Poet and Painter, pl. 11; Raine, Blake and Tradition, pl. 101.</p>
+                            </item>
+                        </list>
+                        <p>According to Wilson, Life of Blake, the following pages in the Notebook may contain rejected designs for the Gates of Paradise: 23, 24, 27, 30, 31, 35, 37, 39, 41, 84.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">The Four Zoas Manuscript</hi>
+                            </title>
+                        </head>
+                        <p>Note: Pages are numbered according to Bentley, ed., Vala or The Four Zoas.</p>
+                        <p>Selection. Ellis and Yeats, Works of Blake, 111, in the following order: 66, 3, 4, 6, 26, 27, 60, 70, 72, 78, 82, 98, 92, 100, 102, 104, 108, 118, 124.</p>
+                        <list type="simple">
+                            <item>
+                                <p>
+                                    <label>1.</label> (title page). Sampson, Blake’s Poetical Works (1913), 348.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>3.</label> Sloss and Wallis, Blake’s Prophetic Writings, 1, 146.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4.</label> Raine, Blake and Tradition, pl. 83.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>26.</label> Design only, Wright, Life of Blake, pl. 43 top; Raine, Blake and Tradition, pl. 79; Rosenfeld, ed., Blake: Essays for Damon, pl. XXII.</p>
+                            </item>
+                            <pb id="p03-69" n="69"/>
+                            <item>
+                                <p>
+                                    <label>27.</label> Keynes, Bibliography of Blake, 34; design only, Plowman, Introduction to Blake, 112; design only, Pinto, ed., William Blake, pl. 5; design only, Wicksteed, Blake’s Jerusalem, pl. VII.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>37.</label> Gardner, Blake (Lit. in Perspective), 73.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>44.</label> Saurat, Blake and Modern Thought, frontispiece; detail of design, Raine, Blake and Tradition, pl. 82.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>60.</label> Keynes, Bibliography of Blake, 36.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>66.</label> Keynes, Bibliography of Blake, 37; Wicksteed, Blake’s Jerusalem, pl. VI.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>72.</label> Sloss and Wallis, Blake’s Prophetic Writings, 1, 232.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>82.</label> Design only, Wright, Life of Blake, pl. 44 top; design only, Raine, Blake and Tradition, pl. 100.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>86.</label> Keynes, Bibliography of Blake, 38 and design only, Drawings by Blake (1927), pl. 22; Wilson, Life of Blake (1927), 120; design only, Pinto, ed., William Blake, pl. 6.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>100.</label> Design only, Wright, Life of Blake, pl. 43 bottom.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>104.</label> Design only, Wright, Life of Blake, pl. 44 bottom.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>128.</label> Sloss and Wallis, Blake’s Prophetic Writings, 1, 308</p>
+                            </item>
+                        </list>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Tiriel</hi> Illustrations</title>
+                        </head>
+                        <p>Note: Illustrations are numbered according to Bentley, ed., Tiriel.</p>
+                        <list type="simple">
+                            <item>
+                                <p>
+                                    <label>1</label> (Tiriel Supporting Myratana). Raine, Blake and Tradition, pl. 11; Burlington Mag., C (1958), 44, pl. 2.</p>
+                                <p>Sketch. Butlin, Tate Catalogue of Blake, pl. 5 top.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>2</label> (Har and Heva Bathing). Connoisseur, XXXII (1912), 104, no. 11; Keynes, Bibliography of Blake, 24 and Writings of Blake (1925), 1, 134; Binyon, Drawings and Engravings of Blake, pl. 4; Figgis, Paintings of Blake, pl. 94; Wright, Life of Blake, pl. 8 bottom; JWCI, VI (1943), 194 pl. d; Raine, Blake and Tradition, pl. 19.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4</label> (Har Blessing Tiriel). Binyon, Drawings and Engravings of Blake, pl. 5; Wright, Life of Blake, pl. 8 top.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>7</label> (Tiriel Carried by Ijim). Wright, Life of Blake, pl. 9.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>10</label> (Tiriel Walking with Hela). Raine, Blake and Tradition, pl. 14.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>11</label> (Har and Heva Asleep). Keynes, Bibliotheca Bibliographici, pl. X.</p>
+                            </item>
+                        </list>
+                        <p>Sketch, perhaps of Tiriel. Wright, Life of Blake, pl. 7.</p>
+                        <p>Sketch, perhaps of Tiriel, wife, and daughters. Wright, Life of Blake, pl. 6 bottom.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Unillustrated Manuscripts</hi>
+                            </title>
+                        </head>
+                        <p>An Island in the Moon. Three pages, containing some Songs of Innocence, Wicksteed, Blake’s Innocence and Experience, 208; two pages, Ellis, The Real Blake, 80.</p>
+                        <p>Pickering MS. Pages 13-14, Keynes, Bibliography of Blake, 44, 45.</p>
+                        <p>Poetical Sketches. One page receipt and drawing on verso, perhaps related to the publication of the Poetical Sketches, Lowery, Windows of the Morning, 50, 51.</p>
+                        <p>"Then She Bore Pale desire" MS in the Berg Collection. BNYPL, LXII (1958), 202.</p>
+                        <p>Annotations to Bacon. First page "of Truth," Keynes, Bibliotheca Bibliographici, pl. XIII.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Letters</hi>
+                            </title>
+                        </head>
+                        <p>To Comberland, 23 Dec. 1796, Russell, Letters of Blake, 56.</p>
+                        <p>To Hayley, 16 Sept. 1800. Keynes, Letters of Blake, 50(first ed.), 48(second ed.).</p>
+                        <p>To Butts, 16 Aug. 1803. Robertson, ed., Gilchrist’s Life of Blake, 194.</p>
+                        <pb id="p03-70" n="70"/>
+                        <p>
+                            <hi rend="i">Printed Verse and Prose</hi>, first editions.</p>
+                        <p>Poetical Sketches, 1783. Title page, Keynes, Bibliography of Blake, 76 and Blake Studies, 22; page 15 ("Mad Song"), with Blake’s corrections, Keynes, Blake Studies, pl. 9.</p>
+                        <p>The French Revolution, 1791. Title page, Keynes, Bibliography of Blake, 82.</p>
+                        <p>Prospectus of A Descriptive Catalogue, 1809. Keynes, Blake Studies, pl. 25.</p>
+                        <p>A Descriptive Catalogue of Pictures, 1809. Title page, Sloss and Wallis, Blake’s Prophetic Writings, 11, 302; title page, Keynes, Bibliography of Blake, 86 and Blake Studies, pl. 26.</p>
+                        <p>Advertisement to an Exhibition of Paintings in Fresco, 1809. Sloss and Wallis, Blake’s Prophetic Writings, 11, 302; Keynes, Bibliography of Blake, 84, 85 and Blake Studies, pl. 24 (first page only).</p>
+                        <p>The Prologue and Characters of Chaucer’s Pilgrims, 1812. Title page, Keynes, Bibliography of Blake, 210.</p>
+                    </div3>
+                </div2>
+            </div1>
+            <div1 id="BQ-03-3-0009">
+                <head>
+                    <title>
+                        <hi rend="i">Index to Vol. II, nos. 1-4 (whole #5-8)</hi>
+                    </title>
+                </head>
+                <byline>by <docAuthor>Robert Phillip <name>Kolker</name>
+                    </docAuthor>
+                </byline>
+                <table rows="1" cols="2">
+                    <row>
+                        <cell>Allentuch, Marcia, Lady Asquith on Blake</cell>
+                        <cell>4(8): 72</cell>
+                    </row>
+                </table>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Announcements of Publications &amp; Papers</hi>
+                        </title>
+                    </head>
+                    <table rows="13" cols="2">
+                        <row>
+                            <cell>Blake papers to be read at English Institute</cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Blake Studies</hi>, Kay Long &amp; Roger R. Easson</cell>
+                            <cell>1(5):4</cell>
+                        </row>
+                        <row>
+                            <cell>Contents of first <hi rend="i">Blake Studies</hi>
+                            </cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>Erdman, David V., "The Binding . . . of <hi rend="i">Vala</hi>"</cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Illustrations to the Divine Comedy</hi>, Alan J. Marks</cell>
+                            <cell>4(8):61</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Johnsonian Newsletter</hi>, works in progress edition</cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>Keynes, Sir Geoffrey, <hi rend="i">Letters</hi>, new edition</cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>Paley, Morton D., <hi rend="i">Energy and Imagination</hi>
+                            </cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>Parris, Leslie, "William Blake’s Mr. Thomas"</cell>
+                            <cell>3(7):48</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Studies in Burke and His Time</hi>
+                            </cell>
+                            <cell>2(6):16</cell>
+                        </row>
+                        <row>
+                            <cell>Swinburne, <hi rend="i">William Blake</hi>, new edition</cell>
+                            <cell>4(8):60-61</cell>
+                        </row>
+                        <row>
+                            <cell>Todd, Ruthven, "Blake’s Dante Plates" reprinted</cell>
+                            <cell>3(7):35</cell>
+                        </row>
+                        <row>
+                            <cell>Trianon facsimile of "Gates of Paradise"</cell>
+                            <cell>3(7):38</cell>
+                        </row>
+                    </table>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Answers to Queries:</hi>
+                        </title>
+                    </head>
+                    <table rows="7" cols="2">
+                        <row>
+                            <cell>Bentley, G.E., Jr., Where Butts lived</cell>
+                            <cell>3(7):58</cell>
+                        </row>
+                        <row>
+                            <cell>Measurements of <hi rend="i">Songs</hi> facsimile</cell>
+                            <cell>1(5):14</cell>
+                        </row>
+                        <row>
+                            <cell>Bentley, G.E., Jr. "All the Evidence that’s Fit to Print," (R.C. Jackson on Blake)</cell>
+                            <cell>1(5):11-13</cell>
+                        </row>
+                        <row>
+                            <cell>—,"A Census of Coloured Copies of Young’s <hi rend="i">Night Thoughts (1797)</hi>"</cell>
+                            <cell>3(7):41-45</cell>
+                        </row>
+                        <row>
+                            <cell>Emendation</cell>
+                            <cell>4(8):72</cell>
+                        </row>
+                        <row>
+                            <cell>—,"Sterne and Blake"</cell>
+                            <cell>4(8):64-65</cell>
+                        </row>
+                        <row>
+                            <cell>—, Supplement to <hi rend="i">A Blake Bibliography</hi>
+                            </cell>
+                            <cell>4(8):part ii</cell>
+                        </row>
+                    </table>
+                </div2>
+                <pb id="p03-71" n="71"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Bibliography:</hi>
+                        </title>
+                    </head>
+                    <table rows="32" cols="2">
+                        <row>
+                            <cell>Bentley, G.E., Jr., Supplement to <hi rend="i">A Blake Bibliography</hi>
+                            </cell>
+                            <cell>4(8):part ii</cell>
+                        </row>
+                        <row>
+                            <cell>Checklist of Blake Publications, June ’67-May ’68 Karen Walowit</cell>
+                            <cell>1(5):6-8,14</cell>
+                        </row>
+                        <row>
+                            <cell>Checklist, additions, Erdman, Ryskamp, Easson</cell>
+                            <cell>2(6):16,34</cell>
+                        </row>
+                        <row>
+                            <cell>Further addition</cell>
+                            <cell>3(7):36</cell>
+                        </row>
+                        <row>
+                            <cell>Emendation to June ’67 Checklist, G.E. Bentley, Jr.</cell>
+                            <cell>3(7):36</cell>
+                        </row>
+                        <row>
+                            <cell>Tolley, Michael J. "Three Bibliographical Additions"</cell>
+                            <cell>1(5):10</cell>
+                        </row>
+                        <row>
+                            <cell>"Blake’s Last Picture," poem by George P. Thomas, Leslie Parris</cell>
+                            <cell>4(8):68</cell>
+                        </row>
+                        <row>
+                            <cell>Blake section at English Institute, report R.P. Kolker</cell>
+                            <cell>3(7):36-37</cell>
+                        </row>
+                        <row>
+                            <cell>Blake seminar at ’68 MLA, announced, David V. Erdman</cell>
+                            <cell>3(7):37-38</cell>
+                        </row>
+                        <row>
+                            <cell>Reviewed, Janet A. Warner</cell>
+                            <cell>4(8):60</cell>
+                        </row>
+                        <row>
+                            <cell>Buck, John, "Miss Groggery," a Tyger in the Tower</cell>
+                            <cell>3(7):40-41</cell>
+                        </row>
+                        <row>
+                            <cell>Butlin, Martin, note on Kostelanetz review</cell>
+                            <cell>2(6):34</cell>
+                        </row>
+                        <row>
+                            <cell>—, "William Rossetti’s Annotations to Gilchrist’s <hi rend="i">Life of William Blake</hi>"</cell>
+                            <cell>3(7):39-40</cell>
+                        </row>
+                        <row>
+                            <cell>Celebration of "Blake’s Day" at U. of lowa</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Cummings, Frederic, "Blake at Detroit and Philadelphia"</cell>
+                            <cell>3(7):46-48</cell>
+                        </row>
+                        <row>
+                            <cell>Damon, S. Foster, <hi rend="i">Dictionary</hi>, changes, additions, and deletions for second printing</cell>
+                            <cell>1(5):2</cell>
+                        </row>
+                        <row>
+                            <cell>—, Festchrift, table of contents</cell>
+                            <cell>1(5):2</cell>
+                        </row>
+                        <row>
+                            <cell>Damoniana</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Dissertation on Rossetti by Roger W. Peattie, Michael J. Tolley</cell>
+                            <cell>1(5):4</cell>
+                        </row>
+                        <row>
+                            <cell>Erdman, David V., Announcement of Blake semenar at ’68 MLA</cell>
+                            <cell>3(7):37-38</cell>
+                        </row>
+                        <row>
+                            <cell>—, "Every Thing Has Its Vermin"</cell>
+                            <cell>4(8):68</cell>
+                        </row>
+                        <row>
+                            <cell>—, Honorable mentions, English Institute papers</cell>
+                            <cell>3(7):37</cell>
+                        </row>
+                        <row>
+                            <cell>—, Jerusalem 95:2-20</cell>
+                            <cell>3(7):49</cell>
+                        </row>
+                        <row>
+                            <cell>Grant, John E., "Nother of Invention, Father in Drag"</cell>
+                            <cell>2(6):29-32</cell>
+                        </row>
+                        <row>
+                            <cell>—, "Mothers and Methodology"</cell>
+                            <cell>3(7):50-54</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Jerusalem</hi> 43:28, "locks" to rd. "rocks," Joanne Witke</cell>
+                            <cell>4(8):72</cell>
+                        </row>
+                        <row>
+                            <cell>Kolker, Robert P., "Blake in the Institute"</cell>
+                            <cell>3(7):36-37</cell>
+                        </row>
+                        <row>
+                            <cell>—, postscript to 17 South Molton Street</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>"The Little Boy Lost," controversy on breast size continued, John E. Grant</cell>
+                            <cell>2(6):29-31;3(7):54</cell>
+                        </row>
+                        <row>
+                            <cell>Biblical Allusion to same, Niels Christian Hetz</cell>
+                            <cell>3(7):54</cell>
+                        </row>
+                        <row>
+                            <cell>Moss, W.E., "The Coloured Copies of Blake’s ‘Night Thoughts’"</cell>
+                            <cell>2(6):19-23</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Newsletter</hi> congratulates MLA on moving convention</cell>
+                            <cell>4(8):61</cell>
+                        </row>
+                    </table>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Night Thoughts:</hi>
+                        </title>
+                    </head>
+                    <table rows="9" cols="2">
+                        <row>
+                            <cell>previously unpublished article on colored copies, W.E. Moss</cell>
+                            <cell>2(6):19-23</cell>
+                        </row>
+                        <row>
+                            <cell>Census of colored copies, G.E. Bentley, Jr.</cell>
+                            <cell>3(7):41-45</cell>
+                        </row>
+                        <row>
+                            <cell>Emendation</cell>
+                            <cell>4(8):72</cell>
+                        </row>
+                        <row>
+                            <cell>John E. Grant awarded ACLS fellowship for edition (with Rose and Tolley)</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Nineteenth Century reference to Blake, Joseph A. Wittreich, Jr.</cell>
+                            <cell>1(5):13-14</cell>
+                        </row>
+                        <row>
+                            <cell>Paley, Morton, D., "Front Matter"</cell>
+                            <cell>1(5):1</cell>
+                        </row>
+                        <row>
+                            <cell>—, "Business"</cell>
+                            <cell>2(6):15</cell>
+                        </row>
+                        <row>
+                            <cell>—, "Thomas Johnes, ‘Ancient Guardian of Wales’"</cell>
+                            <cell>4(8):65-66</cell>
+                        </row>
+                        <row>
+                            <cell>see Erdman, "Every Thing Has Its Vermin"</cell>
+                            <cell>4(8):68</cell>
+                        </row>
+                    </table>
+                </div2>
+                <pb id="p03-72" n="72"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Queries:</hi>
+                        </title>
+                    </head>
+                    <table rows="10" cols="2">
+                        <row>
+                            <cell>Adlard, John, "<hi rend="i">Milton</hi> 29: A Retort to William Frend?"</cell>
+                            <cell>4(8):73</cell>
+                        </row>
+                        <row>
+                            <cell>Bentley, G.E., Jr., "A Fügitive or Apocryphal Blake Engraving?"</cell>
+                            <cell>4(8):74</cell>
+                        </row>
+                        <row>
+                            <cell>Erdman, David V., eight queries for revised <hi rend="i">Blake:Prophet</hi>
+                            </cell>
+                            <cell>2(6):24-25</cell>
+                        </row>
+                        <row>
+                            <cell>Knowledge of contemporary Blake facsimiles?</cell>
+                            <cell>1(5):14</cell>
+                        </row>
+                        <row>
+                            <cell>Miner, Paul, information on Blake &amp; London?</cell>
+                            <cell>4(8):74</cell>
+                        </row>
+                        <row>
+                            <cell>Paley, Morton D., Pun in "English Encouragement of Art"?</cell>
+                            <cell>3(7):58</cell>
+                        </row>
+                        <row>
+                            <cell>Stevenson, Warren, dates for Haley’s possession of <hi rend="i">Jubilate Agno?</hi>
+                            </cell>
+                            <cell>1(5):14</cell>
+                        </row>
+                        <row>
+                            <cell>Todd, Ruthven, 1802-1803 Exhibit?</cell>
+                            <cell>3(7):58</cell>
+                        </row>
+                        <row>
+                            <cell>—, more queries about 1821 <hi rend="i">Songs</hi> facsimile</cell>
+                            <cell>1(5):14</cell>
+                        </row>
+                        <row>
+                            <cell>—, various queries for new Gilchrist edition</cell>
+                            <cell>2(6):25-28</cell>
+                        </row>
+                    </table>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Reviews:</hi>
+                        </title>
+                    </head>
+                    <table rows="20" cols="2">
+                        <row>
+                            <cell>Callahan, Patrick J., review of John Beer’s <hi rend="i">Blake’s Humanism</hi>
+                            </cell>
+                            <cell>4(8):69-70</cell>
+                        </row>
+                        <row>
+                            <cell>Kostelanetz, Anne T., review of <hi rend="i">Romantic Art in Britain, catalogue by Cummings and Staley</hi>
+                            </cell>
+                            <cell>1(5):4-6</cell>
+                        </row>
+                        <row>
+                            <cell>Paley, Morton D., review of Blake <hi rend="i">Concordance</hi>
+                            </cell>
+                            <cell>2(6):33</cell>
+                        </row>
+                        <row>
+                            <cell>Stevenson, W.E., review of <hi rend="i">The LEtters of William Blake</hi>, ed. Keynes</cell>
+                            <cell>4(8):71-72</cell>
+                        </row>
+                        <row>
+                            <cell>Tolley, Michael J., review of John W. Ehrstine’s William Blake’s <hi rend="i">Poetical Sketches</hi>
+                            </cell>
+                            <cell>3(7):55-57</cell>
+                        </row>
+                        <row>
+                            <cell>Rosenfeld, Alvin, a Yiddish poem on Blake by Reuban Iceland</cell>
+                            <cell>1(5):9</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="i">Songs</hi>, list of four critical items in <hi rend="i">Theoria</hi>
+                            </cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Stevenson, Warren, poem</cell>
+                            <cell>2(6):34</cell>
+                        </row>
+                        <row>
+                            <cell>Thompson, E.P., report on Columbia U. lecture, Fred A. Whitehead</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Todd, Ruthven, Gilchrist articles presented to Preston Library</cell>
+                            <cell>3(7):35-36</cell>
+                        </row>
+                        <row>
+                            <cell>—, on new edition of Gilchrist</cell>
+                            <cell>2(6):25-28</cell>
+                        </row>
+                        <row>
+                            <cell>Tolley, Michael J., "Blake"s Debt to Pope"</cell>
+                            <cell>4(8):62-64</cell>
+                        </row>
+                        <row>
+                            <cell>—, "Three Bibliographical Additions"</cell>
+                            <cell>1(5):10</cell>
+                        </row>
+                        <row>
+                            <cell>Tyger in Tower Blake may have seen or read about, John Buck</cell>
+                            <cell>3(7):40-41</cell>
+                        </row>
+                        <row>
+                            <cell>Warner, Janet, report on MLA Blake seminar</cell>
+                            <cell>4(8):60</cell>
+                        </row>
+                        <row>
+                            <cell>Whitehead, Fred A., E.P. Thompson’s lecture at Columbia</cell>
+                            <cell>1(5):3</cell>
+                        </row>
+                        <row>
+                            <cell>Witke, Joanne, <hi rend="u">Jer.</hi> 43:28, "locks" to rd. "rocks"</cell>
+                            <cell>4(8):72</cell>
+                        </row>
+                        <row>
+                            <cell>Wittreich, Joseph A., Jr., "A Note on Blake &amp; Milton"</cell>
+                            <cell>2(6):17-18</cell>
+                        </row>
+                        <row>
+                            <cell>—, a nineteenth century reference to Blake</cell>
+                            <cell>1(5):13-14</cell>
+                        </row>
+                        <row>
+                            <cell>Yiddish poem on Blake by Reuben Iceland, Alvin Rosenfeld</cell>
+                            <cell>1(5):9</cell>
+                        </row>
+                    </table>
+                    <note type="unreferenced" place="footer">The BLAKE NEWSLETTER, Department of English, University of California, Berkeley, California 94720. Subscription price: $2.00 for one year; involced subscriptions $3.00; overseas subscriptions by air $3.00, by surface mail $2.00 Please send checks or money orders<ref target="p72u1" type="note">*</ref> payable to "Blake Newsletter." Residents of Britain may pay by Postal Money Order for 16/9 (£ 10s by air) if money order is open and uncrossed, but these must be sent to Morton Paley, 24, West Heath Drive, London, N.W. 11, England. Please do not send checks on foreign banks either to Morton Paley or to the Associate Editors in Berkeley. American currency is preferable if possible. <note id="p72u1">* to the Associate Editors in Berkeley</note>
+                    </note>
+                    <note type="unreferenced" place="footer">Copyright © 1969 Morton D. Paley</note>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>
