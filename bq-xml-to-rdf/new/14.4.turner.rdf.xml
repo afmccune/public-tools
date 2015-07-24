@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.4.turner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.4.turner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.4.turner"/>
-		<dc:title>At The British Art Center: Turner & Shakespeare</dc:title>
+		<dc:title>At The British Art Center: Turner and Shakespeare</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

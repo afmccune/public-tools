@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.3.dorrbecker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.3.dorrbecker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.3.dorrbecker"/>
-		<dc:title>Innocence Lost & Found: An Untraced Copy Traced</dc:title>
+		<dc:title>Innocence Lost and Found: An Untraced Copy Traced</dc:title>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.1.lister">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.1.lister"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.1.lister"/>
-		<dc:title>Calvert’s “Lady & the Rooks” & Cornish Scenes</dc:title>
+		<dc:title>Calvert’s “Lady and the Rooks” and Cornish Scenes</dc:title>
 		<role:AUT>Raymond Lister</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

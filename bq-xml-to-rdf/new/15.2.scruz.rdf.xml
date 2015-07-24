@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.2.scruz">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.2.scruz"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.2.scruz"/>
-		<dc:title>Santa Cruz Conference: Blake & Criticism</dc:title>
+		<dc:title>Santa Cruz Conference: Blake and Criticism</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

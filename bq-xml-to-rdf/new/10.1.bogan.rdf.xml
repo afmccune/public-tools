@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.1.bogan">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.1.bogan"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.1.bogan"/>
-		<dc:title>Vampire Bats & Blake’s Spectre</dc:title>
+		<dc:title>Vampire Bats and Blake’s Spectre</dc:title>
 		<role:AUT>James Bogan</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

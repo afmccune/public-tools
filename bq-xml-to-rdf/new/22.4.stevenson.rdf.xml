@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.4.stevenson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.4.stevenson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.4.stevenson"/>
-		<dc:title>LOCK / LUCK</dc:title>
+		<dc:title>Lock / Luck</dc:title>
 		<role:AUT>Warren Stevenson</role:AUT>
 		<collex:genre>Poetry</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

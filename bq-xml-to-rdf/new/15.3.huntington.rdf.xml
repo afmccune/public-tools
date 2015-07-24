@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.3.huntington">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.3.huntington"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.3.huntington"/>
-		<dc:title>Huntington Symposium & Exhibition</dc:title>
+		<dc:title>Huntington Symposium and Exhibition</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

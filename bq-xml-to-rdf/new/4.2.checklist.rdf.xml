@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.2.checklist">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.2.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.2.checklist"/>
-		<dc:title>A CHECKLIST OF BLAKE SCHOLARSHIP/JUNE 1969-SEPTEMBER 1970</dc:title>
+		<dc:title>A Checklist of Blake Scholarship/June 1969-September 1970</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.4.wright">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.4.wright"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.4.wright"/>
-		<dc:title>The Scholars & A Grain of Sand</dc:title>
+		<dc:title>The Scholars and A Grain of Sand</dc:title>
 		<role:AUT>Warren Keith Wright</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

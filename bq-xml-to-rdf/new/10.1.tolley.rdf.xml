@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.1.tolley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.1.tolley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.1.tolley"/>
-		<dc:title>“Thel’s Motto”: Likely & Unlikely Sources</dc:title>
+		<dc:title>“Thel’s Motto”: Likely and Unlikely Sources</dc:title>
 		<role:AUT>Michael Tolley</role:AUT>
 		<role:AUT>Michael Ferber</role:AUT>
 		<collex:genre>Criticism</collex:genre>

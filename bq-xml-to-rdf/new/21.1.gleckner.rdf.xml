@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.1.gleckner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.1.gleckner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.1.gleckner"/>
-		<dc:title>Kenneth Gross. Spenserian Poetics: Idolatry, Iconoclasm, & Magic</dc:title>
+		<dc:title>Kenneth Gross. Spenserian Poetics: Idolatry, Iconoclasm, and Magic</dc:title>
 		<role:AUT>Robert F. Gleckner</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

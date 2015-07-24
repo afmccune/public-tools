@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.3.exhibitions">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.3.exhibitions"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.3.exhibitions"/>
-		<dc:title>Blake Exhibition 1975—Hamburg & Frankfurt</dc:title>
+		<dc:title>Blake Exhibition 1975—Hamburg and Frankfurt</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

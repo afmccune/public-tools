@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/13.2.minnick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.2.minnick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.2.minnick"/>
-		<dc:title>Blake & His Circle: A Checklist of Recent Scholarship</dc:title>
+		<dc:title>Blake and His Circle: A Checklist of Recent Scholarship</dc:title>
 		<role:AUT>Thomas L. Minnick</role:AUT>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<role:AUT>Kazumitsu Watarai</role:AUT>

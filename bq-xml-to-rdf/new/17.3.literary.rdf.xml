@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.3.literary">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.3.literary"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.3.literary"/>
-		<dc:title>Literary Theory & the Romantic Self</dc:title>
+		<dc:title>Literary Theory and the Romantic Self</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

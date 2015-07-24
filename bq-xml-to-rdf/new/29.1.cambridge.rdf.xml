@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.1.cambridge">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.1.cambridge"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.1.cambridge"/>
-		<dc:title>“In... Cambridge & in Oxford, places of Thought”</dc:title>
+		<dc:title>“In... Cambridge and in Oxford, places of Thought”</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
 		<dc:date>

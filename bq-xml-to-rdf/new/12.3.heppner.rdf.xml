@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.3.heppner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.3.heppner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.3.heppner"/>
-		<dc:title>Another “New” Blake Engraving: More About Blake & William Nicholson</dc:title>
+		<dc:title>Another “New” Blake Engraving: More About Blake and William Nicholson</dc:title>
 		<role:AUT>Christopher Heppner</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>

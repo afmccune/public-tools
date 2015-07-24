@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.1.johnson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.1.johnson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.1.johnson"/>
-		<dc:title>Choosing Textbooks for Blake Courses: A Survey & Checklist</dc:title>
+		<dc:title>Choosing Textbooks for Blake Courses: A Survey and Checklist</dc:title>
 		<role:AUT>Mary Lynn Johnson</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
