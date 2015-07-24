@@ -100,7 +100,7 @@ function issueCover($volIss) {
 								$XMLseasonYear = $FullXML->xpath('//editionStmt/edition');
 								$fn_t['seasonYear'] = $XMLseasonYear[0];
 								$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
-								$fn_t['year'] = $XMLyear[0];
+								$fn_t['year'] = substr($XMLyear[0], 0, 4);
 								
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
