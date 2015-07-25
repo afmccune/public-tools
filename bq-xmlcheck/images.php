@@ -7,6 +7,8 @@
 	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost:8888/bq/';
 	$base_url_local = 'http://localhost:8888/bq/';
 	
+	$numMissing = 0;
+	
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -85,6 +87,7 @@
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcWBA.'">'.$srcWBA.'</a></p>';
 							} else {
 								$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a>';
+								$numMissing = $numMissing + 1;
 							}
 						}
 					} else {
@@ -106,6 +109,8 @@
 					}
 				}
 			}
+			
+			print '<h3>Total missing images: '.$numMissing.'</h3>';
 			?>
 							
 						</div> <!-- #articles-reviews-index -->

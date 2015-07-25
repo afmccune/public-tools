@@ -6,6 +6,8 @@
 	require('include/functions.php');
 	require('include/head.php');
 	
+	$numBlank = 0;
+	
 	?>
 	<body>
        <div id="outer">
@@ -50,8 +52,10 @@
 					
 					if($fn_t['type'] != 'review' && $missing > 0) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing;
+						$numBlank = $numBlank + $missing;
 					} else if($fn_t['type'] == 'review' && $missing > 1) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
+						$numBlank = $numBlank + $missing;
 					} else {
 						//
 					}
@@ -69,6 +73,8 @@
 					}
 				}
 			}
+			
+			print '<h3>Total blank images: '.$numBlank.'</h3>';
 			?>
 							
 						</div> <!-- #articles-reviews-index -->
