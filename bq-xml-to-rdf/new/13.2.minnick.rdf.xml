@@ -22,6 +22,7 @@
 			</collex:date>
 		</dc:date>
 		
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/13.2.toc"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>
@@ -29,5 +30,5 @@
 		<collex:discipline>Literature</collex:discipline>
 		<collex:discipline>Art History</collex:discipline>
 		<collex:discipline>History</collex:discipline>
-		</bq:TEI.2>
+	</bq:TEI.2>
 </rdf:RDF>
