@@ -111,7 +111,11 @@ function dateFromSeasonYear($date) {
 								$fn_t['issue'] = ($HTMLissue[0] == '') ? $fn_t['fileIss'] : $HTMLissue[0];
 								$fn_t['title'] = '';
 								if($fn_t['fileSplit'] == 'toc') {
-									$fn_t['title'] = 'Volume '.$fn_t['volNum'].' &middot; Issue '.$fn_t['issueNum'];
+								  if($fn_t['volIss'] == 'bonus') {
+									$fn_t['title'] = 'Bonus Content';
+								  } else {
+									$fn_t['title'] = 'Volume '.$fn_t['volume'].' &middot; Issue '.$fn_t['issue'];
+								  }
 								} else {
 									$HTMLtitle = getHtmlElementArray($FullHTML, 'meta[name=DC.Title]', 'content');
 									$fn_t['title'] = $HTMLtitle[0];
