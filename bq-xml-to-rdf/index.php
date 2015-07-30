@@ -102,8 +102,8 @@ function issueCover($volIss) {
 								$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
 								$fn_t['year'] = substr($XMLyear[0], 0, 4);
 								
-								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
-								
+								$XMLissueCover = issueCover($fn_t['volIss']);
+								$fn_t['issueCover'] = $XMLissueCover[0];
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
