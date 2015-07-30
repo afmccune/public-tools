@@ -12,7 +12,7 @@
 		<dc:title>More British Blake Notes</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 1971</rdfs:label>

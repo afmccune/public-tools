@@ -12,7 +12,7 @@
 		<dc:title>Blake in American Almanacs</dc:title>
 		<role:AUT>Thomas V. Lange</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 1980</rdfs:label>

@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/42.1.toc"/>
 		<dc:title>Contents</dc:title>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 2008</rdfs:label>

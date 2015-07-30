@@ -12,7 +12,7 @@
 		<dc:title>A Possible Source for a Blake Sketch and Drawing</dc:title>
 		<role:AUT>Philip B. Grant</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 1976-77</rdfs:label>

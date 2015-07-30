@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.1.miner"/>
 		<dc:title>Paul Miner on Blake’s star-moon symbolism</dc:title>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>June 15, 1967</rdfs:label>

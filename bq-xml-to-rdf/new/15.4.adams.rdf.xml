@@ -12,7 +12,7 @@
 		<dc:title>Kathleen Raine, From Blake to A Vision</dc:title>
 		<role:AUT>Hazard Adams</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 1982</rdfs:label>

@@ -12,7 +12,7 @@
 		<dc:title>Stanley Kunitz, ed. The Essential Blake, Michael Mason, ed., William Blake, David Punter, ed. William Blake: Selected Poetry and Prose</dc:title>
 		<role:AUT>E. B. Murray</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 1991</rdfs:label>

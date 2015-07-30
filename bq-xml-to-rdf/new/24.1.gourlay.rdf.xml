@@ -13,7 +13,7 @@
 		<role:AUT>Alexander S. Gourlay</role:AUT>
 		<role:AUT>John E. Grant</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 1990</rdfs:label>

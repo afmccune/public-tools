@@ -13,7 +13,7 @@
 		<role:AUT>Morton D. Paley</role:AUT>
 		<role:AUT>Michael Davies</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 1978</rdfs:label>

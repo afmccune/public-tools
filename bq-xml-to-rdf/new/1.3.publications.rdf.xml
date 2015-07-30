@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.3.publications"/>
 		<dc:title>Publications Received</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>December 15, 1967</rdfs:label>

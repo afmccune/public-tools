@@ -14,7 +14,7 @@
 		<role:AUT>Charles Ryskamp</role:AUT>
 		<role:AUT>Roger R. Easson</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>September 15, 1968</rdfs:label>

@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.3.correction"/>
 		<dc:title>A Correction to the review of the dance-drama, The Mental Traveller</dc:title>
 		<collex:genre>Reference Works</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 1976-77</rdfs:label>

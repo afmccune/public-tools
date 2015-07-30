@@ -12,7 +12,7 @@
 		<dc:title>Newsletter</dc:title>
 		<role:AUT>Prabu David</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 1988</rdfs:label>

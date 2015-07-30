@@ -12,7 +12,7 @@
 		<dc:title>Ruthven Todd, William Blake the Artist</dc:title>
 		<role:AUT>David Bindman</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter, 1971-72</rdfs:label>

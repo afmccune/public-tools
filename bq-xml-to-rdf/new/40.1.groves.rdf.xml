@@ -12,7 +12,7 @@
 		<dc:title>“This Class of Impostors”: Robert Cromek’s View of London Booksellers and Engravers</dc:title>
 		<role:AUT>David Groves</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 2006</rdfs:label>

@@ -12,7 +12,7 @@
 		<dc:title>More Than Music Composed After Blake by Arthur Farwell</dc:title>
 		<role:AUT>Brice Farwell</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 1977</rdfs:label>

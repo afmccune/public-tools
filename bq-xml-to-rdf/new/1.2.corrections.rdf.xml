@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.2.corrections"/>
 		<dc:title>Corrections to Previous Issue</dc:title>
 		<collex:genre>Reference Works</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>October 1, 1967</rdfs:label>

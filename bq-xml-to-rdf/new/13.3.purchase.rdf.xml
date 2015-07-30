@@ -10,8 +10,9 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.3.purchase"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.3.purchase"/>
 		<dc:title>Blake Purchase</dc:title>
+		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 1979-1980</rdfs:label>

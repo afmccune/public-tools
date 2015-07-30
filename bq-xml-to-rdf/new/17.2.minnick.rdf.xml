@@ -13,7 +13,7 @@
 		<role:AUT>Thomas L. Minnick</role:AUT>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 1983</rdfs:label>

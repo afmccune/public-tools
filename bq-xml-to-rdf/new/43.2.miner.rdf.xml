@@ -12,7 +12,7 @@
 		<dc:title>A Possible Sketch of Blake’s Napoleon</dc:title>
 		<role:AUT>Paul Miner</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.043.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2009</rdfs:label>

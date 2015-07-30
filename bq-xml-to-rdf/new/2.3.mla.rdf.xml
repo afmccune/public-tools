@@ -12,7 +12,7 @@
 		<dc:title>MLA: Seminar 55</dc:title>
 		<role:AUT>David V. Erdman</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>December 15, 1968</rdfs:label>

@@ -13,7 +13,7 @@
 		<role:AUT>John E. Grant</role:AUT>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>June 15, 1967</rdfs:label>

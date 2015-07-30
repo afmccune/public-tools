@@ -12,7 +12,7 @@
 		<dc:title>Toward a More Accurate Description of the Tiriel Manuscript</dc:title>
 		<role:AUT>Francis Wood Metcalf</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>August 1970</rdfs:label>

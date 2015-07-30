@@ -12,7 +12,7 @@
 		<dc:title>W. H. Stevenson, ed. Blake: The Complete Poems. 3rd ed.</dc:title>
 		<role:AUT>Justin Van Kleeck</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2008</rdfs:label>

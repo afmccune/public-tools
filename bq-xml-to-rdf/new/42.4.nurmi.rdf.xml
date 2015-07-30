@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/42.4.nurmi"/>
 		<dc:title>Martin K. Nurmi, 1920-2008</dc:title>
 		<collex:genre>Life Writing</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 2009</rdfs:label>

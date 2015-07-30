@@ -13,7 +13,7 @@
 		<role:AUT>Kay Long</role:AUT>
 		<role:AUT>Roger R. Easson</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>June 1, 1968</rdfs:label>

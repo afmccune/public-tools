@@ -12,7 +12,7 @@
 		<dc:title>Thanks Newton</dc:title>
 		<role:AUT>Shawn Thompson</role:AUT>
 		<collex:genre>Poetry</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 1979</rdfs:label>

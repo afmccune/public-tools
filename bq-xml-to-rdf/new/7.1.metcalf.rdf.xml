@@ -12,7 +12,7 @@
 		<dc:title>The Brown University Press-New York Public Library facsimile of The Book of Thel edited by Nancy Bogen</dc:title>
 		<role:AUT>Francis Wood Metcalf</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 1973</rdfs:label>

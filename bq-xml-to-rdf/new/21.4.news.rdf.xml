@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.4.news"/>
 		<dc:title>News Fit to Print</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 1988</rdfs:label>

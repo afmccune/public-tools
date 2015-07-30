@@ -12,7 +12,7 @@
 		<dc:title>Blake in the Nineteenth Century, by Deborah Dorfman</dc:title>
 		<role:AUT>Irene H. Chayes</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>May, 1970</rdfs:label>

@@ -14,7 +14,7 @@
 		<role:AUT>Troy Patenaude</role:AUT>
 		<role:AUT>Angus Whitehead</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2006</rdfs:label>

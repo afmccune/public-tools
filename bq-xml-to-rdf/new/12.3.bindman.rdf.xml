@@ -12,7 +12,7 @@
 		<dc:title>A New Blake Drawing in the Boston Museum of Fine Art</dc:title>
 		<role:AUT>David Bindman</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 1978-79</rdfs:label>

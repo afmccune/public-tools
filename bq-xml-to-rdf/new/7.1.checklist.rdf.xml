@@ -14,7 +14,7 @@
 		<role:AUT>Marta Field</role:AUT>
 		<role:AUT>Foster Foreman</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 1973</rdfs:label>

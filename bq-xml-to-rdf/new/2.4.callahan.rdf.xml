@@ -12,7 +12,7 @@
 		<dc:title>Blake’s Humanism, by John B. Beer</dc:title>
 		<role:AUT>Patrick J. Callahan</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>April 1, 1969</rdfs:label>

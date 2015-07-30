@@ -13,7 +13,7 @@
 		<role:AUT>Claude Jannoud</role:AUT>
 		<role:AUT>Katharyn R. Gabriella</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 1975</rdfs:label>

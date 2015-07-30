@@ -12,7 +12,7 @@
 		<dc:title>The Book of Ahania: A Metatext</dc:title>
 		<role:AUT>Hatsuko Niimi</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.034.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2000</rdfs:label>
