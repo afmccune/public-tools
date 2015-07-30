@@ -109,7 +109,7 @@ function issueCover($volIss) {
 								
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
-								$articles = $XMLtoc->xpath('//table//ref/@issue');
+								$articles = $FullXML->xpath('//table//ref/@issue');
 								$fn_t['articles'] = $articles; // array
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
