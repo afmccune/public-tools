@@ -19,7 +19,21 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/1.3.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.damoniana"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.damon"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.rosenfeld"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.goldstein"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.institute"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.princeton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.publications"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.miscellaneous"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.raine"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.rose"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.stevenson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.europe"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.connolly"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/1.3.query"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

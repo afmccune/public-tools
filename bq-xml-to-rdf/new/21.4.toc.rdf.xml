@@ -19,7 +19,23 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/21.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.eaves"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.weinglass"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.spector"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.goyder"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.salvo"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.jonsson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.slawek"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.reiman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.simpson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.coleridge"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.british"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.news"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/21.4.book"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

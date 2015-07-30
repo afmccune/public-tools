@@ -19,7 +19,20 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/15.2.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.herrstrom"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.minnick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.winn"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.harding"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.davidson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.yale"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.huntington"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.morgan"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.scruz"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.2.index"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

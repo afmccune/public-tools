@@ -19,7 +19,25 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/8.3.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.subscriptions"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.reprints"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.bronowski"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.symposium"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.conference"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.exhibitions"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.glasgow"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.druid"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.music"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.taurus"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.wedding"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.work"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.grant"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.eaves"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.jackson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.murray"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.3.duerksen"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

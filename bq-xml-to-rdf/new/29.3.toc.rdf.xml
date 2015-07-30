@@ -19,7 +19,17 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/29.3.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.browne"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.ima"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.ferber"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.read"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.linkin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.lincoln"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.warner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.hayes"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.cox"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.davies"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

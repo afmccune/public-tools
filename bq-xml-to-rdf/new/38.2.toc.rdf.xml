@@ -19,7 +19,11 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/38.2.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/38.2.johnson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/38.2.michael"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/38.2.mcclenahan"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/38.2.taylor"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/38.2.lundeen"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

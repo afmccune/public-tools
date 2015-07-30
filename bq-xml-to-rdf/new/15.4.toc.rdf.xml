@@ -19,7 +19,24 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/15.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.bogan"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.gleckner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.lyle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.edwards"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.norvig"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.adams"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.punter"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.mann"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.heppner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.helms"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.keynes"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.yale"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.rosenwald"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.edmonton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.4.santacruz"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

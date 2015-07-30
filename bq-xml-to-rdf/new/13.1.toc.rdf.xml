@@ -19,7 +19,27 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/13.1.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.welch"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.malmqvist"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.thompson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.tener"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.lange"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.gleckner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.stevenson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.frosch"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.wittreich"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.fox"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.alverthorpe"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.rainbow"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.doonesbury"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.ohio"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.ruthven"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.sale"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.winter"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/13.1.corban"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

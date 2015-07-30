@@ -19,7 +19,21 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/3.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.publications"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.catalogues"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.periodicals"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.news"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.reed"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.betz"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.minnick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.raine"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.chayes"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.johnson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.grant"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.preston"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/3.4.works"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

@@ -19,7 +19,32 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/11.2.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.jackson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.farwell"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.minnick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.fine"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.wittreich"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.ott"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.nouvelles"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.carey"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.deck"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.doerrbecker"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.gleckner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.schorer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.tate"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.angels"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.faerie"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.thames"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.correction"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.milos"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.fitzwilliam"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.works"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.bestiary"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.prose"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.clq"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.lavater"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.2.taurus"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

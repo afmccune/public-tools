@@ -19,7 +19,10 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/43.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/43.4.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/43.4.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/43.4.petrov"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/43.4.conferences"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

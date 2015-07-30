@@ -19,7 +19,23 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/2.1.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.damon"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.fellowship"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.day"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.guardian"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.lecture"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.theoria"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.dissertation"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.long"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.kostelanetz"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.checklist"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.rosenfeld"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.tolley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.wittreich"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.songs"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.todd"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.1.stevenson"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

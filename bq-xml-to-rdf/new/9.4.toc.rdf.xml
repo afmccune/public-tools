@@ -19,7 +19,33 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/9.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.erratum"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.museum"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.annual"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.constable"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.cards"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.albion"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.faerie"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.exchange"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.percival"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.bulletin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.colby"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.wip"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.bibliographer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.wright"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.pignard"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.baine"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.dorrbecker"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.murray"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.adlard"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.lister"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.eaves"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.warner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.tannenbaum"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.parisi"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.4.gleckner"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

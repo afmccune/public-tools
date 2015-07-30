@@ -19,7 +19,23 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/29.1.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.henry"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.viscomi"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.latham"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.stevenson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.behrendt"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.punter"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.gourlay"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.luca"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.cambridge"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.secular"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.picadilly"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.wordsworth"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.journal"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.urthona"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.opera"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.1.keats"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

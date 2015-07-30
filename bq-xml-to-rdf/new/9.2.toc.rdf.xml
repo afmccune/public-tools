@@ -19,7 +19,25 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/9.2.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.america"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.allentuck"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.journal"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.metcalf"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.keynes"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.ober"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.tyson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.ferber"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.reiman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.folsom"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.sanzo"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.wardle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.evans"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.rose"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.zall"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.wagenknecht"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

@@ -19,7 +19,20 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/11.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.lyle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.fischer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.goldstein"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.worrall"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.fox"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.paulson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.theft"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.swedenborg"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.job"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.jefferys"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.jung"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

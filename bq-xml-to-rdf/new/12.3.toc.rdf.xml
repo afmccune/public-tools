@@ -19,7 +19,25 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/12.3.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.franson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.cheskin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.bouwer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.heppner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.doerrbecker"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.watarai"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.weber"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.bindman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.gebentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.ebbentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.wark"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.irwin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.england"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.mla"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.blake"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/12.3.letter"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

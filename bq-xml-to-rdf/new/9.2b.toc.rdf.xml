@@ -19,7 +19,9 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/9.2b.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2b.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2b.plates"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2b.mitchell"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

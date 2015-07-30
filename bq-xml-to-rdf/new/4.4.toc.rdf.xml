@@ -19,7 +19,25 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/4.4.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.sales"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.phillipsnews"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.payne"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.house"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.eassonnews"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.eassoncatalogue"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.pierce"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.works"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.grant"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.rhodes"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.easson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.helmstadter"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.beer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.middleman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.adlard"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.phillips"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.todd"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.4.fawcus"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

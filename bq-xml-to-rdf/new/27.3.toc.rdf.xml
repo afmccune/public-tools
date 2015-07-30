@@ -19,7 +19,25 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/27.3.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.feldman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.stevenson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.rubinstein"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.esterhammer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.mellor"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.kiely"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.cox"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.rosso"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.welch"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.simpson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.huntington"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.conference"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.soul"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.index"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/27.3.correction"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

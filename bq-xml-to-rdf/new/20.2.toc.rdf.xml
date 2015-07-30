@@ -19,7 +19,22 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/20.2.toc"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.larrissy"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.taylor"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.lister"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.erdman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.butlin"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.paley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.jackson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.punter"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.simpson"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.scrase"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.hilton"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.hoyer"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.society"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.beinecke"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.2.designer"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>
