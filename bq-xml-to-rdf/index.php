@@ -128,6 +128,7 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '			</collex:date>'.$nl;
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'.toc"/>'.$nl;
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
