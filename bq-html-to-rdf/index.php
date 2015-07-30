@@ -87,6 +87,8 @@ function articlesFromToc($tocFile) {
 	
 	# TRANSFORM
 	$transformed = htmlentities_savetags($xslt->transformToXML( $HTMLdoc ));
+	print '<h4>'.$tocFile.'</h4>';
+	print '<pre>'.$transformed.'</pre>';
 	
 	# String to HTML DOM
 	$transHtml = str_get_html($transformed);
@@ -165,7 +167,16 @@ function articlesFromToc($tocFile) {
 								
 								$fn_t['articles'] = array();
 								if($fn_t['fileSplit'] == 'toc') {
+								  if($fn_t['volIss'] == 'bonus') {
+								    $XMLarticles = getHtmlElementArray($FullHTML, 'a', 'href');
+								    foreach($XMLarticles as $a) {
+								    	if(strpos($a, 'bonus') !== false) {
+										  	$fn_t['articles'][] = $a;
+										}
+									}
+								  } else {
 									$fn_t['articles'] = articlesFromToc($fn_t['file']);
+								  }
 								}
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;

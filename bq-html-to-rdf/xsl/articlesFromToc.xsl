@@ -25,7 +25,15 @@
                 <xsl:variable name="newKey"><xsl:value-of select="substring($idno, 1, 4)"/>.<xsl:value-of select="$keySplit"/></xsl:variable>
                 <xsl:attribute name="href"><xsl:value-of select="$newKey"/></xsl:attribute>
             </xsl:when>
-            <xsl:otherwise/>
+            <xsl:when test="parent::a = 'PDF'"/>
+            <xsl:otherwise>
+                <xsl:variable name="oldKey"><xsl:value-of select="substring-after($oldHref, 'article/view/')"/></xsl:variable>
+                <xsl:variable name="oldKeyLength"><xsl:value-of select="string-length($oldKey)"/></xsl:variable>
+                <xsl:variable name="idx"><xsl:value-of select="$oldKeyLength - 2"/></xsl:variable>
+                <xsl:variable name="keySplit"><xsl:value-of select="substring($oldKey,0,$idx)"/></xsl:variable>
+                <xsl:variable name="newKey"><xsl:value-of select="substring($idno, 1, 4)"/>.<xsl:value-of select="$keySplit"/></xsl:variable>
+                <xsl:attribute name="href"><xsl:value-of select="$newKey"/></xsl:attribute>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <xsl:template match="div[@id='custFooter']"/>
