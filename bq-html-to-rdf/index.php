@@ -70,6 +70,33 @@ function dateFromSeasonYear($date) {
 	return $year.'-'.$seasons[$season].'-01';
 }
 
+function articlesFromToc($tocFile) {
+	// Prep HTML file
+	$HTML = file_get_html('../../bq/html/'.$tocFile.'.html');
+	
+	# LOAD HTML FILE
+	$HTMLbody = getHtmlElementArray($HTML, 'div[id=artInfo]', 'outertext');
+	$HTMLstring = $HTMLbody[0];
+	$HTMLdoc = DOMDocument::loadHTML ($HTMLstring);
+	
+	# START XSLT 
+	$xslt = new XSLTProcessor(); 
+	$XSL = new DOMDocument();
+	$XSL->load('xsl/articlesFromToc.xsl'); 
+	$xslt->importStylesheet( $XSL );
+	
+	# TRANSFORM
+	$transformed = htmlentities_savetags($xslt->transformToXML( $HTMLdoc ));
+	
+	# String to HTML DOM
+	$transHtml = str_get_html($transformed);
+	
+	# Array
+	$articles = getHtmlElementArray($transHtml, 'a', 'href');
+	
+	return $articles;
+}
+
 ?>
 	<body>
         <div id="outer">
@@ -136,6 +163,11 @@ function dateFromSeasonYear($date) {
 
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
+								$fn_t['articles'] = array();
+								if($fn_t['fileSplit'] == 'toc') {
+									$fn_t['articles'] = articlesFromToc($fn_t['file']);
+								}
+								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"'.$nl;
@@ -160,9 +192,15 @@ function dateFromSeasonYear($date) {
 								$fn_t['rdf'] .= '			</collex:date>'.$nl;
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
+								if($fn_t['fileSplit'] == 'toc') {
+								 foreach($fn_t['articles'] as $article) {
+								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/'.$article.'"/>'.$nl;
+								 }
+								} else {
 								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volume'].'.'.$fn_t['issue'].'.toc"/>'.$nl;
-								if($fn_t['volIss'] == 'bonus') {
+								 if($fn_t['volIss'] == 'bonus') {
 								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/bonus.toc"/>'.$nl;
+								 }
 								}
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
