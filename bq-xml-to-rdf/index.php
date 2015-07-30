@@ -121,8 +121,10 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/'.$fn_t['file'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/'.$fn_t['idno'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:title>'.$fn_t['title'].'</dc:title>'.$nl;
-								foreach ($fn_t['authors'] as $author) {
+								if($fn_t['fileSplit'] != 'toc') { // in our RDF, the TOC masquerades as the whole issue, and the author of material in the TOC did not author the whole issue
+								 foreach ($fn_t['authors'] as $author) {
 								$fn_t['rdf'] .= '		<role:AUT>'.$author.'</role:AUT>'.$nl;
+								 }
 								}
 								$fn_t['rdf'] .= '		<collex:genre>'.$fn_t['collexGenre'].'</collex:genre>'.$nl;
 								$fn_t['rdf'] .= '		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/'.$fn_t['issueCover'].'.thumb.png"/>'.$nl;
