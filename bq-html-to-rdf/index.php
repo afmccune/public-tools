@@ -155,7 +155,7 @@ function dateFromSeasonYear($date) {
 								$fn_t['rdf'] .= '		<collex:discipline>Literature</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>Art History</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>History</collex:discipline>'.$nl;
-								$fn_t['rdf'] .= '		</bq:TEI.2>'.$nl;
+								$fn_t['rdf'] .= '	</bq:TEI.2>'.$nl;
 								$fn_t['rdf'] .= '</rdf:RDF>'.$nl;
 
 								
