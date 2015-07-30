@@ -7,6 +7,13 @@
 	require('include/head.php');
 	
 	$numBlank = 0;
+	$blankByDecade = array();
+	$blankByDecade['1960s'] = 0;
+	$blankByDecade['1970s'] = 0;
+	$blankByDecade['1980s'] = 0;
+	$blankByDecade['1990s'] = 0;
+	$blankByDecade['2000s'] = 0;
+	$blankByDecade['2010s'] = 0;
 	
 	?>
 	<body>
@@ -46,6 +53,9 @@
 					$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
 					$fn_t['type'] = $XMLtype[0];
 					
+					$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
+					$decade = substr($XMLyear[0], 0, 3).'0s';
+					
 					$fn_t['errors'] = array();
 					
 					$missing = count($fn_t['img']) - count($fn_t['src']);
@@ -53,9 +63,11 @@
 					if($fn_t['type'] != 'review' && $missing > 0) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing;
 						$numBlank = $numBlank + $missing;
+						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
 					} else if($fn_t['type'] == 'review' && $missing > 1) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
 						$numBlank = $numBlank + $missing;
+						$blankByDecade[$fn_t['decade']] = $blankByDecade[$fn_t['decade']] + $missing;
 					} else {
 						//
 					}
@@ -74,6 +86,12 @@
 				}
 			}
 			
+			print '<h3>Blank images (1960s): '.$blankByDecade['1960s'].'</h3>';
+			print '<h3>Blank images (1970s): '.$blankByDecade['1970s'].'</h3>';
+			print '<h3>Blank images (1980s): '.$blankByDecade['1980s'].'</h3>';
+			print '<h3>Blank images (1990s): '.$blankByDecade['1990s'].'</h3>';
+			print '<h3>Blank images (2000s): '.$blankByDecade['2000s'].'</h3>';
+			print '<h3>Blank images (2010s): '.$blankByDecade['2010s'].'</h3>';
 			print '<h3>Total blank images: '.$numBlank.'</h3>';
 			?>
 							
