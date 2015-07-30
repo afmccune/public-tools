@@ -53,7 +53,7 @@ function standardBQtype($thisType) {
 function issueCover($volIss) {
 	$tocHTML = file_get_html('../../bq/html/'.$volIss.'.toc.html'); 
 	$HTMLimg = getHtmlElementArray($tocHTML, 'div[id=issueCoverImage] img', 'src');
-	return $HTMLimg;
+	return $HTMLimg[0];
 }
 
 function dateFromSeasonYear($date) {

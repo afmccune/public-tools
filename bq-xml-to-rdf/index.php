@@ -52,7 +52,7 @@ function standardBQtype($thisType) {
 function issueCover($volIss) {
 	$tocXML = simplexml_load_file('../../bq/docs/'.$volIss.'.toc.xml'); 
 	$XMLimg = $tocXML->xpath('//div1[@id="cover"]/figure/@n');
-	return $XMLimg;
+	return $XMLimg[0];
 }
 ?>
 	<body>
@@ -102,8 +102,7 @@ function issueCover($volIss) {
 								$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
 								$fn_t['year'] = substr($XMLyear[0], 0, 4);
 								
-								$XMLissueCover = issueCover($fn_t['volIss']);
-								$fn_t['issueCover'] = $XMLissueCover[0];
+								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
