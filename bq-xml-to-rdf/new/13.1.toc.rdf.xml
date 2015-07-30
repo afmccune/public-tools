@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/13.1.toc">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.1.toc"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.1.toc"/>
-		<dc:title>Contents</dc:title>
+		<dc:title>Volume 13 · Issue 1</dc:title>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.01.bqscan.thumb.png"/>
 		<dc:date>

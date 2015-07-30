@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.2.toc">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.2.toc"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.2.toc"/>
-		<dc:title>Contents</dc:title>
+		<dc:title>Volume 3 · Issue 2</dc:title>
 		<role:AUT>Donald D. Ault</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.02.bqscan.thumb.png"/>

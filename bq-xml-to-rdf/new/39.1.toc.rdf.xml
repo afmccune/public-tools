@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/39.1.toc">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/39.1.toc"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/39.1.toc"/>
-		<dc:title>Contents</dc:title>
+		<dc:title>Volume 39 · Issue 1</dc:title>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.039.01.bqscan.thumb.png"/>
 		<dc:date>

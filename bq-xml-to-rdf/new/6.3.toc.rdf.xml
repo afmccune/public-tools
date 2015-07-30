@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.3.toc">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.3.toc"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.3.toc"/>
-		<dc:title>Contents</dc:title>
+		<dc:title>Volume 6 · Issue 3</dc:title>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.03.bqscan.thumb.png"/>
 		<dc:date>
