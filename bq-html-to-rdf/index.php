@@ -105,8 +105,17 @@ function dateFromSeasonYear($date) {
 								$HTMLtype = getHtmlElementArray($FullHTML, 'meta[name=DC.Type.articleType]', 'content');
 								$fn_t['type'] = ($HTMLtype[0] == '' && $fn_t['fileSplit'] == 'toc') ? 'toc' : $HTMLtype[0];
 								$fn_t['collexGenre'] = collexGenre($fn_t['type']);
-								$HTMLtitle = getHtmlElementArray($FullHTML, 'meta[name=DC.Title]', 'content');
-								$fn_t['title'] = $HTMLtitle[0];
+								$HTMLvolume = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Volume]', 'content');
+								$fn_t['volume'] = ($HTMLvolume[0] == '') ? $fn_t['fileVol'] : $HTMLvolume[0];
+								$HTMLissue = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Issue]', 'content');
+								$fn_t['issue'] = ($HTMLissue[0] == '') ? $fn_t['fileIss'] : $HTMLissue[0];
+								$fn_t['title'] = '';
+								if($fn_t['fileSplit'] == 'toc') {
+									$fn_t['title'] = 'Volume '.$fn_t['volNum'].' &middot; Issue '.$fn_t['issueNum'];
+								} else {
+									$HTMLtitle = getHtmlElementArray($FullHTML, 'meta[name=DC.Title]', 'content');
+									$fn_t['title'] = $HTMLtitle[0];
+								}
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = str_replace('&', 'and', $fn_t['title']);
@@ -122,11 +131,6 @@ function dateFromSeasonYear($date) {
 								$fn_t['fullDate'] = (count($HTMLfullDate)>0) ? $HTMLfullDate[0] : dateFromSeasonYear($fn_t['seasonYear']);
 
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
-								
-								$HTMLvolume = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Volume]', 'content');
-								$fn_t['volume'] = ($HTMLvolume[0] == '') ? $fn_t['fileVol'] : $HTMLvolume[0];
-								$HTMLissue = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Issue]', 'content');
-								$fn_t['issue'] = ($HTMLissue[0] == '') ? $fn_t['fileIss'] : $HTMLissue[0];
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
