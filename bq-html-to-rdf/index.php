@@ -123,6 +123,10 @@ function dateFromSeasonYear($date) {
 
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
+								$HTMLvolume = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Volume]', 'content');
+								$fn_t['volume'] = ($HTMLvolume[0] == '') ? $fn_t['fileVol'] : $HTMLvolume[0];
+								$HTMLissue = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Issue]', 'content');
+								$fn_t['issue'] = ($HTMLissue[0] == '') ? $fn_t['fileIss'] : $HTMLissue[0];
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
@@ -148,6 +152,7 @@ function dateFromSeasonYear($date) {
 								$fn_t['rdf'] .= '			</collex:date>'.$nl;
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volume'].'.'.$fn_t['issue'].'.toc"/>'.$nl;
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
