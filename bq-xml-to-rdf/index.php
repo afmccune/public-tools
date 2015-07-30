@@ -109,6 +109,9 @@ function issueCover($volIss) {
 								
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
+								$articles = $XMLtoc->xpath('//table//ref/@issue');
+								$fn_t['articles'] = $articles; // array
+								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"'.$nl;
@@ -135,7 +138,13 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '			</collex:date>'.$nl;
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
+								if($fn_t['fileSplit'] != 'toc') {
 								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'.toc"/>'.$nl;
+								} else {
+								 foreach($fn_t['articles'] as $article) {
+								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/'.$article.'"/>'.$nl;
+								 }
+								}
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
