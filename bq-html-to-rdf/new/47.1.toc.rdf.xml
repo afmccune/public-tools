@@ -19,7 +19,12 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.bentley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.fosso"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.freedman"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.serdechnaya"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.serdechnayaSongs"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/47.1.mertz"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

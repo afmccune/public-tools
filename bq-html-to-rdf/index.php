@@ -70,13 +70,14 @@ function dateFromSeasonYear($date) {
 	return $year.'-'.$seasons[$season].'-01';
 }
 
-function articlesFromToc($tocFile) {
+function articlesFromToc($tocFile, $volIss) {
 	// Prep HTML file
 	$HTML = file_get_html('../../bq/html/'.$tocFile.'.html');
 	
 	# LOAD HTML FILE
 	$HTMLbody = getHtmlElementArray($HTML, 'div[id=artInfo]', 'outertext');
 	$HTMLstring = $HTMLbody[0];
+	$HTMLstring = str_replace('<div id="artInfo">', '<div id="artInfo"><div id="idno">'.$volIss.'</div>', $HTMLstring); // for toc
 	$HTMLdoc = DOMDocument::loadHTML ($HTMLstring);
 	
 	# START XSLT 
@@ -87,14 +88,13 @@ function articlesFromToc($tocFile) {
 	
 	# TRANSFORM
 	$transformed = htmlentities_savetags($xslt->transformToXML( $HTMLdoc ));
-	print '<h4>'.$tocFile.'</h4>';
-	print '<pre>'.$transformed.'</pre>';
 	
 	# String to HTML DOM
 	$transHtml = str_get_html($transformed);
 	
 	# Array
 	$articles = getHtmlElementArray($transHtml, 'a', 'href');
+	$articles = array_filter($articles); // removes empty entries
 	
 	return $articles;
 }
@@ -175,7 +175,7 @@ function articlesFromToc($tocFile) {
 										}
 									}
 								  } else {
-									$fn_t['articles'] = articlesFromToc($fn_t['file']);
+									$fn_t['articles'] = articlesFromToc($fn_t['file'], $fn_t['volIss']);
 								  }
 								}
 								

@@ -19,7 +19,10 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.4.essick"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.4.whitehead"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.4.miner"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.4.online"/>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>
