@@ -12,7 +12,7 @@
 		<dc:title>Inscriptions by Blake for His Designs</dc:title>
 		<role:AUT>G. E. Bentley</role:AUT>
 		<collex:genre>Reference Works</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_53_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2014</rdfs:label>

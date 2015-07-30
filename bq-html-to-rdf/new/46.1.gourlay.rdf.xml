@@ -12,7 +12,7 @@
 		<dc:title>Robert N. Essick, ed.,  William Blake.  Songs of Innocence and of Experience</dc:title>
 		<role:AUT>Alexander S. Gourlay</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_44_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 2012</rdfs:label>

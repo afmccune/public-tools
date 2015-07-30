@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/47.4.toc"/>
 		<dc:title></dc:title>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_51_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 2014</rdfs:label>

@@ -12,7 +12,7 @@
 		<dc:title>Contents</dc:title>
 		<role:AUT></role:AUT>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/InnoYShepherd.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label></rdfs:label>

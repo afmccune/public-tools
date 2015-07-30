@@ -12,7 +12,7 @@
 		<dc:title>Quaritch catalogue, August 1883</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Visual Art</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_38_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 2011</rdfs:label>

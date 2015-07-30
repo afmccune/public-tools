@@ -12,7 +12,7 @@
 		<dc:title>Blake and the Xenoglots</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/InnoYShepherd.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Winter 2004-05</rdfs:label>

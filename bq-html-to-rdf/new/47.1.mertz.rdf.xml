@@ -12,7 +12,7 @@
 		<dc:title>William Blake,  The Marriage of Heaven and Hell , ed. Michael Phillips</dc:title>
 		<role:AUT>J. B. Mertz</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/Array"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_48_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Summer 2013</rdfs:label>
