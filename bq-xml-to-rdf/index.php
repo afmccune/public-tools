@@ -90,8 +90,13 @@ function issueCover($volIss) {
 								$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
 								$fn_t['type'] = $XMLtype[0];
 								$fn_t['collexGenre'] = collexGenre($fn_t['type']);
-								$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
-								$fn_t['title'] = $XMLtitle[0];
+								$fn_t['title'] = '';
+								if($fn_t['fileSplit'] == 'toc') {
+									$fn_t['title'] = 'Volume '.$fn_t['volNum'].' &middot; Issue '.$fn_t['issueNum'];
+								} else {
+									$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
+									$fn_t['title'] = $XMLtitle[0];
+								}
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = str_replace('&', 'and', $fn_t['title']);
 								$XMLauthors = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author');
