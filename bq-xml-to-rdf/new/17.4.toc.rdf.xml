@@ -36,6 +36,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.special"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.subscription"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.mla"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

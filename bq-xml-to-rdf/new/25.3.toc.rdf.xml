@@ -26,6 +26,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.stothard"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.belle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.bonasone"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

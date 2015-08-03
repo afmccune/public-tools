@@ -29,6 +29,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.4.wittreich"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.4.gleckner"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.4.shaefer"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

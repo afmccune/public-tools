@@ -29,6 +29,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/16.4.woodring"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/16.4.paley"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/16.4.wilcox"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

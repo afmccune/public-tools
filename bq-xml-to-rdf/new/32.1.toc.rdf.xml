@@ -24,6 +24,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/32.1.ferber"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/32.1.hilton"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/32.1.news"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

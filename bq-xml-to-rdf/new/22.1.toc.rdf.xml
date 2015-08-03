@@ -31,6 +31,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/22.1.birthday"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/22.1.lecture"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/22.1.britain"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

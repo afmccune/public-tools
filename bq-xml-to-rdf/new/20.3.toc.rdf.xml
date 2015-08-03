@@ -28,6 +28,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.3.errata"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.3.play"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/20.3.energy"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

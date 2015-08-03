@@ -35,6 +35,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.4.miner"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.4.fugitive"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/2.4b.bentley"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

@@ -33,6 +33,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.3.huntington"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.3.scruz"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/15.3.night"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

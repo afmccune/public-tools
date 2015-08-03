@@ -24,6 +24,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/34.3.diamond"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/34.3.wobble"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/34.3.stjames"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>

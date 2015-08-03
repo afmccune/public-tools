@@ -34,6 +34,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.3.butlin"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.3.hoover"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/6.3.paley"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
 		<collex:archive>bq</collex:archive>
 		<collex:federation>NINES</collex:federation>
