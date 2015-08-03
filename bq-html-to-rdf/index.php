@@ -188,7 +188,7 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['rdf'] .= ' xmlns:dcterms="http://purl.org/dc/terms/">'.$nl;
 								$fn_t['rdf'] .= $nl;
 								$fn_t['rdf'] .= '	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/'.$fn_t['idno'].'">'.$nl;
-								$fn_t['rdf'] .= '		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/'.$fn_t['file'].'"/>'.$nl;
+								$fn_t['rdf'] .= '		<collex:source_html rdf:resource="http://bq.blakearchive.org/docs/'.$fn_t['file'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/'.$fn_t['idno'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:title>'.$fn_t['title'].'</dc:title>'.$nl;
 								foreach ($fn_t['authors'] as $author) {
@@ -213,6 +213,8 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/bonus.toc"/>'.$nl;
 								 }
 								}
+								$fn_t['rdf'] .= '		<dc:type>Periodical</dc:type>'.$nl;
+								$fn_t['rdf'] .= '		<dc:source>Blake/An Illustrated Quarterly</dc:source>'.$nl;
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;

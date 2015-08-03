@@ -145,6 +145,8 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/'.$article.'"/>'.$nl;
 								 }
 								}
+								$fn_t['rdf'] .= '		<dc:type>Periodical</dc:type>'.$nl;
+								$fn_t['rdf'] .= '		<dc:source>Blake/An Illustrated Quarterly</dc:source>'.$nl;
 								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
 								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
