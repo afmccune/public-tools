@@ -8,6 +8,14 @@
 	$base_url_local = 'http://localhost:8888/bq/';
 	
 	$numMissing = 0;
+	$missingByDecade = array();
+	$missingByDecade['1960s'] = 0;
+	$missingByDecade['1970s'] = 0;
+	$missingByDecade['1980s'] = 0;
+	$missingByDecade['1990s'] = 0;
+	$missingByDecade['2000s'] = 0;
+	$missingByDecade['2010s'] = 0;
+
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -67,6 +75,9 @@
 					$FullXML = simplexml_load_file($base_path.'docs/'.$fn_t['fn']); 
 					$fn_t['src'] = $FullXML->xpath('//text//figure/@n'); // array
 					
+					$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
+					$decade = substr($XMLyear[0], 0, 3).'0s';
+
 					$fn_t['errors'] = array();
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
@@ -88,6 +99,7 @@
 							} else {
 								$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a>';
 								$numMissing = $numMissing + 1;
+								$missingByDecade[$decade] = $missingByDecade[$decade] + 1;
 							}
 						}
 					} else {
@@ -110,6 +122,12 @@
 				}
 			}
 			
+			print '<h3>Missing images (1960s): '.$missingByDecade['1960s'].'</h3>';
+			print '<h3>Missing images (1970s): '.$missingByDecade['1970s'].'</h3>';
+			print '<h3>Missing images (1980s): '.$missingByDecade['1980s'].'</h3>';
+			print '<h3>Missing images (1990s): '.$missingByDecade['1990s'].'</h3>';
+			print '<h3>Missing images (2000s): '.$missingByDecade['2000s'].'</h3>';
+			print '<h3>Missing images (2010s): '.$missingByDecade['2010s'].'</h3>';
 			print '<h3>Total missing images: '.$numMissing.'</h3>';
 			?>
 							
