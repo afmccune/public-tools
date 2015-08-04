@@ -49,6 +49,13 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['img'] = $FullXML->xpath('//text//figure'); // array
 					$fn_t['src'] = $FullXML->xpath('//text//figure/@n'); // array
+					$fn_t['imgTypes'] = $FullXML->xpath('//text//figure/@type'); // array
+					$fn_t['adsAndCovers'] = array();
+					foreach($fn_t['imgTypes'] as $imgType) {
+						if($imgType == 'ad' || $imgType == 'reviewed-cover') {
+							$fn_t['adsAndCovers'][] = $imgType;
+						}
+					}
 					
 					$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
 					$fn_t['type'] = $XMLtype[0];
@@ -58,7 +65,7 @@
 					
 					$fn_t['errors'] = array();
 					
-					$missing = count($fn_t['img']) - count($fn_t['src']);
+					$missing = count($fn_t['img']) - (count($fn_t['src']) + count($fn_t['adsAndCovers']));
 					
 					if($fn_t['type'] == 'review' && $missing == 1) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
