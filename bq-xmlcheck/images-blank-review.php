@@ -23,7 +23,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Images with no filepath given</h1>
+							<h1>Reviews containing a single image with no filepath given</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -60,11 +60,7 @@
 					
 					$missing = count($fn_t['img']) - count($fn_t['src']);
 					
-					if($fn_t['type'] != 'review' && $missing > 0) {
-						$fn_t['errors'][] = 'Images missing filepath: '.$missing;
-						$numBlank = $numBlank + $missing;
-						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
-					} else if($fn_t['type'] == 'review' && $missing > 1) {
+					if($fn_t['type'] == 'review' && $missing == 1) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
 						$numBlank = $numBlank + $missing;
 						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
