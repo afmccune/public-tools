@@ -71,7 +71,7 @@
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing;
 						$numBlank = $numBlank + $missing;
 						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
-					} else if($fn_t['type'] == 'review' && $missing > 1) {
+					} else if($fn_t['type'] == 'review') {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
 						$numBlank = $numBlank + $missing;
 						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
