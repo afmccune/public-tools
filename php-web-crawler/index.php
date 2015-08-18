@@ -7,12 +7,15 @@
   <div id="content" style="margin-top:10px;height:100%;">
    <center><h1>Web Crawler in PHP</h1></center>
    <form action="index.php" method="POST">
-    URL : <input name="url" size="35" placeholder="http://www.subinsb.com"/>
+    URL : <input name="url" size="35" placeholder="http://www.blakearchive.org/blake/"/>
     <input type="submit" name="submit" value="Start Crawling"/>
    </form>
    <br/>
    <b>The URL's you submit for crawling are recorded.</b><br/>See All Crawled URL's <a href="url-crawled.html">here</a>.
    <?
+   $nl = '
+';
+   
    include("simple_html_dom.php");
    $crawled_urls=array();
    $found_urls=array();
@@ -30,10 +33,12 @@
    }
    function perfect_url($u,$b){
     $bp=parse_url($b);
+    /*
     if(($bp['path']!="/" && $bp['path']!="") || $bp['path']==''){
      if($bp['scheme']==""){$scheme="http";}else{$scheme=$bp['scheme'];}
      $b=$scheme."://".$bp['host']."/";
     }
+    */
     if(substr($u,0,2)=="//"){
      $u="http:".$u;
     }
@@ -44,19 +49,47 @@
    }
    function crawl_site($u){
     global $crawled_urls;
+    global $found_urls;
     $uen=urlencode($u);
     if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
       $url=perfect_url($li->href,$u);
-      $enurl=urlencode($url);
-      if($url!='' && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
-       $found_urls[$enurl]=1;
-       echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
+      if(strpos($url, 'www.blakearchive.org') !== false) {
+      	$enurl=urlencode($url);
+      	if($url!='' && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
+      	 if(url_exists($url)) {
+      	  $found_urls[$enurl]=1;
+      	  echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
+      	  crawl_site($url);
+      	 } else {
+      	  echo "<li>Does not exist: ".$url."</li>";
+      	 }
+    	}
       }
      }
     }
+   }
+   function url_exists($url){
+        $url = str_replace("http://", "", $url);
+        if (strstr($url, "/")) {
+            $url = explode("/", $url, 2);
+            $url[1] = "/".$url[1];
+        } else {
+            $url = array($url, "/");
+        }
+
+        $fh = fsockopen($url[0], 80);
+        if ($fh) {
+            fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
+            if (fread($fh, 22) == "HTTP/1.1 404 Not Found") { return FALSE; }
+            else { 
+            	//echo fread($fh, 100);
+            	return TRUE;
+            }
+
+        } else { return FALSE;}
    }
    if(isset($_POST['submit'])){
     $url=$_POST['url'];
@@ -64,7 +97,7 @@
      echo "<h2>A valid URL please.</h2>";
     }else{
      $f=fopen("url-crawled.html","a+");
-     fwrite($f,"<div><a href='$url'>$url</a> - ".date("Y-m-d H:i:s")."</div>");
+     fwrite($f,"<div><a href='$url'>$url</a> - ".date("Y-m-d H:i:s")."</div>".$nl);
      fclose($f);
      echo "<h2>Result - URL's Found</h2><ul style='word-wrap: break-word;width: 400px;line-height: 25px;'>";
      crawl_site($url);
