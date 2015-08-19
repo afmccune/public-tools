@@ -83,9 +83,10 @@
         $fh = fsockopen($url[0], 80);
         if ($fh) {
             fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
-            if (fread($fh, 22) == "HTTP/1.1 404 Not Found") { return FALSE; }
-            else { 
-            	//echo fread($fh, 100);
+            if (strpos(fread($fh, 200), "<title>404 Not Found</title>") === true ) { return FALSE; }
+            else if (strpos(fread($fh, 200), "<title>403 Forbidden</title>")  === true) { return FALSE; }
+            else {
+            	//echo fread($fh, 200);
             	return TRUE;
             }
 
