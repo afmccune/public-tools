@@ -43,6 +43,9 @@
     	$u_arr = explode('#', $u);
     	$u = $u_arr[0];
     }
+    if(strpos($u, '&java=') !== false) {
+    	$u = preg_replace('/&java\=(yes|no)?/', '', $u);
+    }
     if(substr($u,0,2)=="//"){
      $u="http:".$u;
     }
@@ -88,10 +91,10 @@
         if ($fh) {
             fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
             $fileStr = htmlentities(fread($fh, 22));
-            if ($fileStr == "HTTP/1.1 404 Not Found") { return FALSE; }
-            else if ($fileStr == "HTTP/1.1 403 Forbidden") { return FALSE; }
-            else {
-            	//echo '<pre>'.$fileStr.'</pre>';
+            if (substr($fileStr, 0, 15) != "HTTP/1.1 200 OK") { 
+            	echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
+            	return FALSE; 
+            } else {
             	return TRUE;
             }
 
