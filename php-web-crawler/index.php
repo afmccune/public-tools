@@ -39,6 +39,10 @@
      $b=$scheme."://".$bp['host']."/";
     }
     */
+    if(strpos($u, '#') !== false) {
+    	$u_arr = explode('#', $u);
+    	$u = $u_arr[0];
+    }
     if(substr($u,0,2)=="//"){
      $u="http:".$u;
     }
