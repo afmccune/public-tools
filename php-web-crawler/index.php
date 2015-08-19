@@ -64,7 +64,7 @@
       	  echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
       	  crawl_site($url);
       	 } else {
-      	  echo "<li>Does not exist: ".$url."</li>";
+      	  //echo "<li>Does not exist: ".$url."</li>";
       	 }
     	}
       }
@@ -83,10 +83,11 @@
         $fh = fsockopen($url[0], 80);
         if ($fh) {
             fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
-            if (strpos(fread($fh, 200), "<title>404 Not Found</title>") === true ) { return FALSE; }
-            else if (strpos(fread($fh, 200), "<title>403 Forbidden</title>")  === true) { return FALSE; }
+            $fileStr = htmlentities(fread($fh, 22));
+            if ($fileStr == "HTTP/1.1 404 Not Found") { return FALSE; }
+            else if ($fileStr == "HTTP/1.1 403 Forbidden") { return FALSE; }
             else {
-            	//echo fread($fh, 200);
+            	//echo '<pre>'.$fileStr.'</pre>';
             	return TRUE;
             }
 
