@@ -15,7 +15,7 @@
    See All Crawled URLs <a href="url-crawled.html">here</a>.<br/>
    See All Found URLs <a href="url-found.html">here</a>.<br/>
    See All Bad URLs <a href="url-bad.html">here</a>.
-   <?
+   <?php
    $nl = '
 ';
    
