@@ -11,7 +11,8 @@
     <input type="submit" name="submit" value="Start Crawling"/>
    </form>
    <br/>
-   <b>The URL's you submit for crawling are recorded.</b><br/>See All Crawled URL's <a href="url-crawled.html">here</a>.
+   <b>The URLs you submit for crawling are recorded.</b><br/>
+   See All Crawled URLs <a href="url-crawled.html">here</a>.
    <?
    $nl = '
 ';
