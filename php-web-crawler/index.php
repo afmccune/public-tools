@@ -86,7 +86,9 @@
     }
    }
    function url_exists($url){
+   		global $bad_urls;
     	global $nl;
+    	$origUrl = $url;
     	$uen = urlencode($url);
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -104,7 +106,7 @@
             	//echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
             	$bad_urls[$uen]=$fileStr;
           		$f=fopen("url-bad.html","a+");
-          		fwrite($f,'<a class="'.$fileStr.'">'.$uen.'</a>'.$nl);
+          		fwrite($f,'<a class="'.$fileStr.'">'.$origUrl.'</a>'.$nl);
           		fclose($f);
             	return FALSE; 
             } else {
@@ -114,7 +116,7 @@
         } else { 
         	$bad_urls[$uen]='fsockopen failed';
         	$f=fopen("url-bad.html","a+");
-          	fwrite($f,'<a class="fsockopen failed">'.$uen.'</a>'.$nl);
+          	fwrite($f,'<a class="fsockopen failed">'.$origUrl.'</a>'.$nl);
           	fclose($f);
           	return FALSE;
         }
