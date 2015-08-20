@@ -20,6 +20,7 @@
    include("simple_html_dom.php");
    $crawled_urls=array();
    $found_urls=array();
+   $bad_urls=array();
    function rel2abs($rel, $base){
     if (parse_url($rel, PHP_URL_SCHEME) != '') return $rel;
     if ($rel[0]=='#' || $rel[0]=='?') return $base.$rel;
@@ -59,7 +60,7 @@
     global $crawled_urls;
     global $found_urls;
     $uen=urlencode($u);
-    if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time()))) && (array_key_exists($uen,$found_urls)==0){
+    if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())) && (array_key_exists($uen,$found_urls)==0) && (array_key_exists($uen,$bad_urls)==0)){
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
@@ -97,12 +98,16 @@
             $fileStr = htmlentities(fread($fh, 22));
             if (substr($fileStr, 0, 15) != "HTTP/1.1 200 OK") { 
             	echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
+            	$bad_urls[$url[0]]=$fileStr;
             	return FALSE; 
             } else {
             	return TRUE;
             }
 
-        } else { return FALSE;}
+        } else { 
+        	$bad_urls[$url[0]]='fsockopen failed';
+        	return FALSE;
+        }
    }
    function loadFoundList() {
      $html = file_get_html("url-found.html");
