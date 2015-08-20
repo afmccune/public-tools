@@ -59,6 +59,8 @@
    function crawl_site($u){
     global $crawled_urls;
     global $found_urls;
+    global $bad_urls;
+    global $nl;
     $uen=urlencode($u);
     if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time()))) && (array_key_exists($uen,$found_urls)==0) && (array_key_exists($uen,$bad_urls)==0)){
      $html = file_get_html($u);
@@ -110,6 +112,7 @@
         }
    }
    function loadFoundList() {
+     global $found_urls;
      $html = file_get_html("url-found.html");
      foreach($html->find("a") as $li){
      	$url = $li->innertext;
