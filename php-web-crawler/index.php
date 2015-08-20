@@ -62,22 +62,21 @@
     global $bad_urls;
     global $nl;
     $uen=urlencode($u);
-    if(array_key_exists($uen,$found_urls)==0 && array_key_exists($uen,$bad_urls)==0){ 
-     //if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time()))))
+    if(array_key_exists($uen,$bad_urls)==0 && (array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){ 
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
       $url=perfect_url($li->href,$u);
       if(strpos($url, 'www.blakearchive.org') !== false) {
       	$enurl=urlencode($url);
-      	if($url!='' && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
+      	if($url!='' && array_key_exists($uen,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
-          $f=fopen("url-found.html","a+");
+      	  $f=fopen("url-found.html","a+");
           fwrite($f,'<a>'.$url.'</a>'.$nl);
           fclose($f);
       	  echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
-      	  crawl_site($url);
+      	  crawl_site($url);          
       	 } else {
       	  //echo "<li>Does not exist: ".$url."</li>";
       	 }
@@ -87,6 +86,7 @@
     }
    }
    function url_exists($url){
+    	global $nl;
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
             $url = explode("/", $url, 2);
@@ -100,10 +100,10 @@
             fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
             $fileStr = htmlentities(fread($fh, 22));
             if (substr($fileStr, 0, 15) != "HTTP/1.1 200 OK") { 
-            	echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
+            	//echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
             	$bad_urls[$url[0]]=$fileStr;
           		$f=fopen("url-bad.html","a+");
-          		fwrite($f,'<a class="'.$fileStr.'">'.$url.'</a>'.$nl);
+          		fwrite($f,'<a class="'.$fileStr.'">'.$url[0].'</a>'.$nl);
           		fclose($f);
             	return FALSE; 
             } else {
