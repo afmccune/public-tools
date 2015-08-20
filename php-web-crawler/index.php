@@ -62,14 +62,14 @@
     global $bad_urls;
     global $nl;
     $uen=urlencode($u);
-    if(array_key_exists($uen,$bad_urls)==0 && (array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){ 
+    if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){ 
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
       $url=perfect_url($li->href,$u);
       if(strpos($url, 'www.blakearchive.org') !== false) {
       	$enurl=urlencode($url);
-      	if($url!='' && array_key_exists($enurl,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
+      	if($url!='' && array_key_exists($enurl,$found_urls)==0 && array_key_exists($uen,$bad_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
       	  $f=fopen("url-found.html","a+");
