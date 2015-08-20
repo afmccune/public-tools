@@ -71,7 +71,7 @@
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
           $f=fopen("url-found.html","a+");
-          fwrite($f,$nl."<a>$enurl</a>");
+          fwrite($f,'<a>'.$url.'</a>'.$nl);
           fclose($f);
       	  echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
       	  crawl_site($url);
