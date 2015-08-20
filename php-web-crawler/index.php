@@ -102,6 +102,9 @@
             if (substr($fileStr, 0, 15) != "HTTP/1.1 200 OK") { 
             	echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
             	$bad_urls[$url[0]]=$fileStr;
+          		$f=fopen("url-bad.html","a+");
+          		fwrite($f,'<a class="'.$fileStr.'">'.$url.'</a>'.$nl);
+          		fclose($f);
             	return FALSE; 
             } else {
             	return TRUE;
@@ -109,7 +112,10 @@
 
         } else { 
         	$bad_urls[$url[0]]='fsockopen failed';
-        	return FALSE;
+        	$f=fopen("url-bad.html","a+");
+          	fwrite($f,'<a class="fsockopen failed">'.$url.'</a>'.$nl);
+          	fclose($f);
+          	return FALSE;
         }
    }
    function loadFoundList() {
@@ -119,6 +125,15 @@
      	$url = $li->innertext;
      	$uen=urlencode($url);
      	$found_urls[$uen]=1;
+     }
+   }
+   function loadBadList() {
+     global $bad_urls;
+     $html = file_get_html("url-bad.html");
+     foreach($html->find("a") as $li){
+     	$url = $li->innertext;
+     	$uen=urlencode($url);
+     	$bad_urls[$uen]=$li->class;
      }
    }
    if(isset($_POST['submit'])){
