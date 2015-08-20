@@ -59,7 +59,7 @@
     global $crawled_urls;
     global $found_urls;
     $uen=urlencode($u);
-    if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){
+    if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time()))) && (array_key_exists($uen,$found_urls)==0){
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
@@ -69,6 +69,9 @@
       	if($url!='' && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
+          $f=fopen("url-found.html","a+");
+          fwrite($f,$nl."<a>$enurl</a>");
+          fclose($f);
       	  echo "<li><a target='_blank' href='".$url."'>".$url."</a></li>";
       	  crawl_site($url);
       	 } else {
@@ -101,6 +104,13 @@
 
         } else { return FALSE;}
    }
+   function loadFoundList() {
+     $html = file_get_html("url-found.html");
+     foreach($html->find("a") as $li){
+     	$url = $li->innertext;
+     	$found_urls[$url]=1;
+     }
+   }
    if(isset($_POST['submit'])){
     $url=$_POST['url'];
     if($url==''){
@@ -109,6 +119,7 @@
      $f=fopen("url-crawled.html","a+");
      fwrite($f,"<div><a href='$url'>$url</a> - ".date("Y-m-d H:i:s")."</div>".$nl);
      fclose($f);
+     loadFoundList();
      echo "<h2>Result - URL's Found</h2><ul style='word-wrap: break-word;width: 400px;line-height: 25px;'>";
      crawl_site($url);
      echo "</ul>";
