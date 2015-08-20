@@ -58,16 +58,25 @@
    }
    function crawl_site($u){
     global $crawled_urls;
-    global $found_urls;
-    global $bad_urls;
-    global $nl;
     $uen=urlencode($u);
     if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){ 
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
      foreach($html->find("a") as $li){
       $url=perfect_url($li->href,$u);
-      if(strpos($url, 'www.blakearchive.org') !== false) {
+      crawl_further($url);
+     }
+     foreach($html->find("frame") as $fr){
+      $url=perfect_url($fr->src,$u);
+      crawl_further($url);
+     }
+    }
+   }
+   function crawl_further($url) {
+	  global $found_urls;
+      global $bad_urls;
+      global $nl;
+	  if(strpos($url, 'www.blakearchive.org') !== false) {
       	$enurl=urlencode($url);
       	if($url!='' && array_key_exists($enurl,$found_urls)==0 && array_key_exists($enurl,$bad_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
@@ -82,8 +91,6 @@
       	 }
     	}
       }
-     }
-    }
    }
    function url_exists($url){
    		global $bad_urls;
