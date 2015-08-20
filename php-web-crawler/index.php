@@ -69,7 +69,7 @@
       $url=perfect_url($li->href,$u);
       if(strpos($url, 'www.blakearchive.org') !== false) {
       	$enurl=urlencode($url);
-      	if($url!='' && array_key_exists($uen,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
+      	if($url!='' && array_key_exists($url,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
       	  $f=fopen("url-found.html","a+");
@@ -145,7 +145,7 @@
      fwrite($f,"<div><a href='$url'>$url</a> - ".date("Y-m-d H:i:s")."</div>".$nl);
      fclose($f);
      loadFoundList();
-     echo "<h2>Result - URL's Found</h2><ul style='word-wrap: break-word;width: 400px;line-height: 25px;'>";
+     echo "<h2>Result - URLs Found</h2><ul style='word-wrap: break-word;width: 400px;line-height: 25px;'>";
      crawl_site($url);
      echo "</ul>";
     }
