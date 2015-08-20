@@ -45,8 +45,8 @@
     	$u_arr = explode('#', $u);
     	$u = $u_arr[0];
     }
-    if(strpos($u, '&java=') !== false) {
-    	$u = preg_replace('/&java\=(yes|no)?/', '', $u);
+    if(strpos($u, '&amp;java=') !== false) {
+    	$u = preg_replace('/&amp;java\=(yes|no)?/', '', $u);
     }
     if(substr($u,0,2)=="//"){
      $u="http:".$u;
@@ -69,7 +69,7 @@
       $url=perfect_url($li->href,$u);
       if(strpos($url, 'www.blakearchive.org') !== false) {
       	$enurl=urlencode($url);
-      	if($url!='' && array_key_exists($url,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
+      	if($url!='' && array_key_exists($enurl,$found_urls)==0 && substr($url,0,4)!="mail" && substr($url,0,4)!="java" && array_key_exists($enurl,$found_urls)==0){
       	 if(url_exists($url)) {
       	  $found_urls[$enurl]=1;
       	  $f=fopen("url-found.html","a+");
@@ -87,6 +87,7 @@
    }
    function url_exists($url){
     	global $nl;
+    	$uen = urlencode($url);
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
             $url = explode("/", $url, 2);
@@ -101,9 +102,9 @@
             $fileStr = htmlentities(fread($fh, 22));
             if (substr($fileStr, 0, 15) != "HTTP/1.1 200 OK") { 
             	//echo '<pre>'.$fileStr.': '.$url[0].'</pre>';
-            	$bad_urls[$url[0]]=$fileStr;
+            	$bad_urls[$uen]=$fileStr;
           		$f=fopen("url-bad.html","a+");
-          		fwrite($f,'<a class="'.$fileStr.'">'.$url[0].'</a>'.$nl);
+          		fwrite($f,'<a class="'.$fileStr.'">'.$uen.'</a>'.$nl);
           		fclose($f);
             	return FALSE; 
             } else {
@@ -111,9 +112,9 @@
             }
 
         } else { 
-        	$bad_urls[$url[0]]='fsockopen failed';
+        	$bad_urls[$uen]='fsockopen failed';
         	$f=fopen("url-bad.html","a+");
-          	fwrite($f,'<a class="fsockopen failed">'.$url.'</a>'.$nl);
+          	fwrite($f,'<a class="fsockopen failed">'.$uen.'</a>'.$nl);
           	fclose($f);
           	return FALSE;
         }
