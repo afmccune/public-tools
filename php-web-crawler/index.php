@@ -12,7 +12,9 @@
    </form>
    <br/>
    <b>The URLs you submit for crawling are recorded.</b><br/>
-   See All Crawled URLs <a href="url-crawled.html">here</a>.
+   See All Crawled URLs <a href="url-crawled.html">here</a>.<br/>
+   See All Found URLs <a href="url-found.html">here</a>.<br/>
+   See All Bad URLs <a href="url-bad.html">here</a>.
    <?
    $nl = '
 ';
@@ -62,13 +64,17 @@
     if((array_key_exists($uen,$crawled_urls)==0 || $crawled_urls[$uen] < date("YmdHis",strtotime('-25 seconds', time())))){ 
      $html = file_get_html($u);
      $crawled_urls[$uen]=date("YmdHis");
-     foreach($html->find("a") as $li){
-      $url=perfect_url($li->href,$u);
-      crawl_further($url);
-     }
-     foreach($html->find("frame") as $fr){
-      $url=perfect_url($fr->src,$u);
-      crawl_further($url);
+     if($html === false) {
+     	foreach($html->find("a") as $li){
+     	 $url=perfect_url($li->href,$u);
+     	 crawl_further($url);
+    	}
+     	foreach($html->find("frame") as $fr){
+     	 $url=perfect_url($fr->src,$u);
+     	 crawl_further($url);
+     	}
+     } else {
+     	echo '<li>Error: file_get_html returns false for '.$u.'</li>';
      }
     }
    }
