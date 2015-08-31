@@ -103,8 +103,11 @@
 							if(strpos($src, 'http://') === false) {
 								$srcFull = $base_path.$src;
 								$srcLocalLink = $base_url_local.$src;
+								$srcPublic = 'http://bq.blakearchive.org/'.$src;
 								if(file_exists($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
+								} else if(url_exists($srcPublic)) {
+									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcPublic.'">'.$srcPublic.'</a></p>';
 								} else {
 									$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a>';
 									$numMissing = $numMissing + 1;
