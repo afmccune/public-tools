@@ -54,6 +54,14 @@
 					} else {
 						//
 					}
+					
+					foreach($fn_t['rend'] as $r) {
+						if($r=='db' || $r=='file') {
+							//fine
+						} else {
+							$fn_t['errors'][] = 'Image with invalid rend: '.$r;
+						}
+					}
 
 					$docsXml[] = $fn_t;
 					
