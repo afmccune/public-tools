@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<?php
+	ini_set('max_execution_time', 300); //300 seconds = 5 minutes
+	
 	$pt = "";
 	
 	require('include/functions.php');
@@ -20,7 +22,8 @@
 						<div id="articles-reviews-index">
 			<?php
 				
-			$sorted = array();
+			$masterCharList = array();
+			$noCharacteristics = array();
 			
 			foreach (new DirectoryIterator("./wba/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
@@ -32,22 +35,40 @@
 						
 					$FullXML = simplexml_load_file('./wba/'.$fn_t['fn']); 
 						
-					//$fn_t['badIDs'] = $FullXML->xpath('//bad/@id');
-					//$fn_t['badID'] = (count($fn_t['badIDs'] > 0) ? $fn_t['badIDs'][0] : '';
+					$fn_t['badIDs'] = $FullXML->xpath('//bad/@id');
+					$fn_t['badID'] = (count($fn_t['badIDs']) > 0) ? $fn_t['badIDs'][0] : '';
+					
 					$fn_t['characteristics'] = $FullXML->xpath('//characteristic');
-					$fn_t['charlist'] = '';
-						
-					for($i=0; $i<count($fn_t['characteristics']); $i++) {
-						$fn_t['charlist'] .= $fn_t['characteristics'][$i].$nl;
-					}
-						
-					file_put_contents('characteristics/'.$fn_t['fn'], $fn_t['charlist']);
+					$fn_t['characteristics'] = array_unique($fn_t['characteristics']);
+					sort($fn_t['characteristics'], SORT_NATURAL | SORT_FLAG_CASE);
 					
-					print '<p>Processed characteristics for '.$fn_t['fn'].'</p>';
+					$masterCharList = array_merge($masterCharList, $fn_t['characteristics']);
+					$fn_t['charlist'] = (count($fn_t['characteristics']) > 0) ? implode($nl, $fn_t['characteristics']) : '';
 					
+					if($fn_t['badID'] != '' && $fn_t['charlist'] != '') {
+						file_put_contents('characteristics/'.$fn_t['badID'].'.txt', $fn_t['charlist']);
+						print '<p>Processed characteristics for '.$fn_t['fn'].'</p>';
+					} else if ($fn_t['charlist'] == ''){
+						$noCharacteristics[] = $fn_t['fn'];
+						//print '<p>'.$fn_t['fn'].' has no characteristics.</p>';
+					} else {
+						print '<p>'.$fn_t['fn'].' is missing BAD id. Saving characteristics to '.$fn_t['fn'].'.txt</p>';
+						file_put_contents('characteristics/'.$fn_t['fn'].'.txt', $fn_t['charlist']);
+						print '<p>Processed characteristics for '.$fn_t['fn'].'</p>';
+					} 
 				}
-			}						
+			}
+			
+			$masterCharList = array_unique($masterCharList);
+			sort($masterCharList, SORT_NATURAL | SORT_FLAG_CASE);
+			$mcl_string = implode($nl, $masterCharList);
+			file_put_contents('characteristics/_masterCharList.txt', $mcl_string);
+			print '<p>Master Characteristic List saved to _masterCharList.txt</p>';
 
+			print '<p>The following files contain no characteristics:</p>';
+			foreach($noCharacteristics as $filename) {
+				print '<p>'.$filename.'</p>';
+			}
 
 			?>
 							
