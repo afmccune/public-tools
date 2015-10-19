@@ -43,20 +43,29 @@ $nl = "
 								$fn_t['text'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 								$fn_t['text'] = strip_tags($fn_t['text']);
 								//$fn_t['text'] = preg_replace('/[ 	\n\r]{1,}/', ' ', $fn_t['text']);
-								$fn_t['wordlist'] = preg_split('/[\s—]+/', $fn_t['text']);
+								
+								mb_regex_encoding('UTF-8');
+								mb_internal_encoding("UTF-8");
+								
+								$fn_t['wordlist'] = mb_split('[\s—]+', $fn_t['text']);
 								$fn_t['wordlist'] = array_unique($fn_t['wordlist']);
 								
 								for($i=0; $i<count($fn_t['wordlist']); $i++) {
 									if(preg_match('/[a-zA-Z]/', $fn_t['wordlist'][$i])) {
+										echo '<p>'.$fn_t['wordlist'][$i];
 										// if contains letters, strip punctuation off beginning and end
-										$fn_t['wordlist'][$i] = preg_replace('/^[\[\(“"‘]{0,}(.+?)[,!\.\?;’"”\)\]]{0,}$/', '$1', $fn_t['wordlist'][$i]);
+										$fn_t['wordlist'][$i] = mb_ereg_replace('^[\*\[\(“"‘]{1,}', '', $fn_t['wordlist'][$i]);
+										$fn_t['wordlist'][$i] = mb_ereg_replace('[,!\.\?;:’"”\)\]\*]{1,}$', '', $fn_t['wordlist'][$i]);
+										echo ' becomes '.$fn_t['wordlist'][$i].'</p>';
 									} else {
+										echo '<p>Deleted: '.$fn_t['wordlist'][$i].'</p>';
 										unset($fn_t['wordlist'][$i]);
 									}
 								}
 								
 								$masterList = array_merge($masterList, $fn_t['wordlist']);
 								$masterList = array_unique($masterList);
+								sort($masterList);
 								
 								/*
 								# LOAD XML FILE 
