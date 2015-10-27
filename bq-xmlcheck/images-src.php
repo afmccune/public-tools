@@ -3,7 +3,7 @@
 	<?php
 	$pt = '';
 	
-	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? '' : '../../bq/';
+	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
 	$base_url_local = 'http://localhost:8888/bq/';
 	
 	$numMissing = 0;
