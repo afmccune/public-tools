@@ -27,6 +27,8 @@ $nl = "
 						$filesList = file_get_contents('wordlist/_scannedFiles.txt');
 						$scannedFiles = split($nl, $filesList);
 						
+						$start = date('Y.m.d.H.i');
+						
 						$masterList = array();
 						
 						$docsHtml = array(); 
@@ -99,7 +101,7 @@ $nl = "
 									//echo '<span>'.$fn_t['fn'].' added to composite. </span>';
 								
 									$listStr = implode($nl, $masterList);
-									file_put_contents('wordlist/_wordlist.txt', $listStr);
+									file_put_contents('wordlist/_wordlist-'.$start.'.txt', $listStr);
 								
 									echo '<h4>'.$fn_t['fn'].'</h4>';
 									$scannedFiles[] = $fn_t['file'];
