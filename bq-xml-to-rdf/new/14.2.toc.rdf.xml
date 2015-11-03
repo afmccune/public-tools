@@ -21,7 +21,7 @@
 		
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.warner"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.read"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.labelle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.minnick"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.lange"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/14.2.erdman"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.2.herrstrom">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.2.herrstrom"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.2.herrstrom"/>
-		<dc:title>Blake’s Transformations of Ezekiel’s Cherubim Vision in Jerusalem</dc:title>
+		<dc:title>Blake’s Transformations of Ezekiel’s Cherubim Vision in
+          Jerusalem</dc:title>
 		<role:AUT>David Sten Herrstrom</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.02.bqscan.thumb.png"/>

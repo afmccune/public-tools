@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.3.boyette">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.3.boyette"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.3.boyette"/>
-		<dc:title>Joseph Anthony Wittreich, Jr., Angel of the Apocalypse: Blake’s Idea of Milton</dc:title>
+		<dc:title>Joseph Anthony Wittreich, Jr., Angel of Apocalypse: Blake’s Idea of Milton</dc:title>
 		<role:AUT>Purvis E. Boyette</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.03.bqscan.thumb.png"/>

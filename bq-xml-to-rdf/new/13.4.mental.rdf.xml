@@ -9,7 +9,9 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/13.4.mental">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.4.mental"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.4.mental"/>
-		<dc:title>The Mental Traveller</dc:title>
+		<dc:title>The Mental Traveller, presented by Theatre of Man</dc:title>
+		<role:AUT>Misha Berson</role:AUT>
+		<role:AUT>Charles Pelton</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.04.bqscan.thumb.png"/>
 		<dc:date>

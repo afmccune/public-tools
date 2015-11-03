@@ -11,6 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.2.nouvelles"/>
 		<dc:title>Pour Les Sexes: Les Grilles de Paradise</dc:title>
 		<role:AUT>Les Nouvelles Littéraires</role:AUT>
+		<role:AUT>Claude-Marie Senninger</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.02.bqscan.thumb.png"/>
 		<dc:date>

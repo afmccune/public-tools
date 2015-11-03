@@ -36,6 +36,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.encyclopedia"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.news"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.revolution"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.victoria"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

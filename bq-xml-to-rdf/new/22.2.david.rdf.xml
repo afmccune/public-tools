@@ -6,22 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.1.erdman">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.1.erdman"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.1.erdman"/>
-		<dc:title>David V. Erdman, ed., The Complete Poetry and Prose of William
-          Blake</dc:title>
-		<role:AUT>Santa Cruz Blake Study Group</role:AUT>
-		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.01.bqscan.thumb.png"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.2.david">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.2.david"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.2.david"/>
+		<dc:title>Ministry Continues...</dc:title>
+		<role:AUT>Prabu David</role:AUT>
+		<collex:genre>Nonfiction</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Summer 1984</rdfs:label>
-				<rdf:value>1984</rdf:value>
+				<rdfs:label>Fall 1988</rdfs:label>
+				<rdf:value>1988</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/18.1.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/22.2.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

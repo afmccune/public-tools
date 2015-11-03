@@ -19,8 +19,8 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.essick"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.lyle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.essick"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.paley"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.fischer"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/11.4.goldstein"/>
