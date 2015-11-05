@@ -1,16 +1,16 @@
 [BETWEEN 20.3.energy AND 34.4.erdman]
 ”Blake’s
-”Every
-”Remarkable
-”The
-”Writing
+”Every	[33.1.perkins — sic, but fixed with emendation]
+”Remarkable	[34.1.worrall — sic, but fixed with emendation]
+”The		[34.3.peter — sic, but fixed with emendation]
+”Writing	[34.2.johnson — sic, but fixed with emendation]
 ”an
 ”in
 ”to
 
 [BETWEEN 34.4.essick AND 43.4.toc]
-”Martin
-”their“
+”Martin	[43.3.whitehead — fixed]
+”their“	[43.3.ripley — fixed]
 
 [BETWEEN 43.4.toc AND 44.4.toc] — [these have been FIXED in cardinale]
 ”most“
