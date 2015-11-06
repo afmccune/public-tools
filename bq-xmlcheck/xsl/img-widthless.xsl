@@ -16,11 +16,13 @@
     </xsl:template>
 -->
     <xsl:template match="@*|node()">
-      <xsl:copy>
-            	<xsl:apply-templates select="@*|node()"/>
-      </xsl:copy>
+      <xsl:if test="descendant-or-self::figure">
+		  <xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		  </xsl:copy>
+	  </xsl:if>
     </xsl:template>
-    <xsl:template match="text()">
+    <xsl:template match="p|q|hi|lb|text()">
       <xsl:choose>
     	<xsl:when test="ancestor::figure">
     		<xsl:copy>
@@ -49,9 +51,11 @@
 		<date><xsl:value-of select="."/></date>
 	</xsl:template>
 -->
-	
-    <xsl:template match="figure">
-     <xsl:if test="./@width or ./@height">
+
+   <xsl:template match="figure">
+    <xsl:choose>
+     <xsl:when test="./@width or ./@height"/>
+     <xsl:otherwise>
 	  <xsl:choose>
 	   <xsl:when test="ancestor::table">
         <img>
@@ -191,12 +195,13 @@
 		</xsl:if>
 	   </xsl:otherwise>
 	  </xsl:choose>
-	 </xsl:if>
-    </xsl:template>
-    <xsl:template match="figDesc">
+	 </xsl:otherwise>
+	</xsl:choose>
+   </xsl:template>
+   <xsl:template match="figDesc">
         <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="figTranscr"/>
+   </xsl:template>
+   <xsl:template match="figTranscr"/>
 
 
 	<!--
