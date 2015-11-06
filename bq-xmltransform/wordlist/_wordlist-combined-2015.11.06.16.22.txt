@@ -109065,7 +109065,7 @@ Aziluthical
 Aziluthick
 Año
 Ȧnd
-Ȧtlánti̇c
+Ȧtlánti̇c
 B&H
 B&K
 B&L
@@ -109911,7 +109911,7 @@ Boyvin
 Boyvin’s
 Boz
 Boëce
-Bóok
+Bóok
 Bracelets
 Braces
 Bracewell
@@ -110200,7 +110200,7 @@ Böhlau
 Böhler
 Börsenvereins
 Bücher-Preise
-Ḃetwéen
+Ḃetwéen
 C#-C
 C(hristian
 C*******m
@@ -111244,7 +111244,7 @@ Cryes
 Crypsis
 Crítica
 Crítico
-Cṙeátȯr
+Cṙeátȯr
 Csikós
 Cuadernos
 Cubes
@@ -113914,7 +113914,7 @@ Hewitson
 Hex-
 Heydinger
 Heylands
-Héavėns
+Héavėns
 Hg
 Hibbert
 Hibino
@@ -115868,7 +115868,7 @@ Lovers(
 Love’--Blake’s
 Lowth--supports
 Loyola
-Lós
+Lós
 Lstrl
 Ltd./Station
 Ltr
@@ -121502,7 +121502,7 @@ Utilities
 Utinam
 Utmost
 Uttara
-Úri̇zén
+Úri̇zén
 V-W’s
 V.5.22
 V.S
@@ -121930,7 +121930,7 @@ Watsuji
 Waudby
 Waxed
 Way”“The
-Wákiṅg
+Wákiṅg
 We're
 Weakened
 Weakest
@@ -123805,7 +123805,7 @@ cavedweller
 cavern--a
 cavilling
 cavils
-cáll’d
+cáll’d
 cccccxxvii-cccccl
 cccccxxxiv
 ceding
@@ -123885,7 +123885,7 @@ chastity)}
 chastity--a
 chasuble
 chattery
-cháins
+cháins
 checklister
 checklists/updates
 chen
@@ -124040,7 +124040,7 @@ cloud-steps
 cloud-unfolding
 cloven-hoofed
 clownish
-clóuds
+clóuds
 club-like
 clucking
 clude
@@ -124466,7 +124466,7 @@ cowpuncher
 cowritten
 cowrote
 coyne
-cȯmmánds
+cȯmmánds
 crack.1010
 cradled
 craft.5
@@ -125141,7 +125141,7 @@ dreamworlds
 dren
 dress.”70
 dressed-up
-dréad
+dréad
 drilled
 drinkers
 driv'n
@@ -125779,7 +125779,7 @@ eyeballed
 eyeballs
 eyes.”23
 eyes/Shall
-énv̇y
+énv̇y
 e’en
 f138
 f44
@@ -125925,8 +125925,8 @@ fettering
 fetuses
 feuerbach
 few(
-féediṅg
-féet
+féediṅg
+féet
 ff.).2
 ffebruary
 ffinisher
@@ -126023,7 +126023,7 @@ flat.88
 flatten[ed
 flatterer
 flatters
-flámes
+flámes
 fleck
 fleeted
 fleeth
@@ -126856,8 +126856,8 @@ heuenly
 heureux
 hewd
 hews
-héavėn
-héavẏ
+héavėn
+héavẏ
 he’ll
 hg
 hieratic
@@ -127226,7 +127226,7 @@ improbability
 improvisator/reader
 improvise
 impudent
-iṁmórtȧl
+iṁmórtȧl
 in)famous
 in-betweening
 in-joke
@@ -127650,7 +127650,7 @@ joy.”12
 joyce.townsend@tate.org.uk
 joyeux
 joylessness
-jóy
+jóy
 jsv6s@virginia.edu
 jsvk13@vt.edu
 jubilee
@@ -128528,8 +128528,8 @@ mezzo-
 mezzo-tint
 mezzo/contralto
 mezzotint/etching
-méltėd
-mén
+méltėd
+mén
 me”4343
 mferber@cisunix.unh.edu
 mfischer@trinity.edu
@@ -129433,7 +129433,7 @@ outnumbers
 outstretch'd
 outstripped
 outwards--in
-oút
+oút
 oval-shaped
 oval.11
 ovens
@@ -129502,7 +129502,7 @@ ownership.2
 ownership.3028
 oxgall
 oxidization
-ón
+ón
 ȯf
 o’er-arching
 p.20
@@ -129802,7 +129802,7 @@ petual
 petually
 peuples
 peut-elle
-pėrvértėd
+pėrvértėd
 phalli
 phallus.41
 phallus.5757
@@ -131248,7 +131248,7 @@ rounder
 roundhand
 roundup
 routing
-roúnd
+roúnd
 rowdy
 rowed
 rozumu
@@ -131346,8 +131346,8 @@ savors
 savoureth
 saxes
 say.”50
-sát
-sáw
+sát
+sáw
 scabbard
 scabby
 scale--now
@@ -132036,11 +132036,11 @@ sourly
 south-east
 south.85
 southerly
-soúth
+soúth
 sowie
 soznanie
-sóns
-sóul
+sóns
+sóul
 sp
 sp]arkles
 space--time
@@ -132200,7 +132200,7 @@ staymakers
 staymaker’s
 staymaking
 stays.”42
-stárs
+stárs
 stealth
 stealthy
 stedfast
@@ -132695,7 +132695,7 @@ textualist
 texture,4
 texture-map
 textures--which
-tén
+tén
 tfrosch@nyc.rr.com
 th[eir
 thankful.”22
@@ -132758,7 +132758,7 @@ thesis--better
 thesis--the
 they}
 the}
-théir
+théir
 thick-ankled
 thick-flaming
 thin-spun
@@ -133447,8 +133447,8 @@ utopian--the
 utter'd
 utter[ed
 utøvende
-u̇ncláspd
-u̇nlóos’d
+u̇ncláspd
+u̇nlóos’d
 v(2x
 v-neckline
 v-shape
