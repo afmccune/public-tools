@@ -30,15 +30,36 @@
 
 	require('include/functions.php');
 	
+	$vols = '[1-5]';
+
+	if($_GET["vols"]) {
+		$vols = $_GET["vols"];
+	}
+	
+	$nav  = '<div id="global_nav">';
+    $nav .=		'<strong>Volumes:</strong> ';
+    $nav .=		'<a href="images-widthless.php?vols=[1-5]">1-5</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=[6-9]">6-9</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=1[0-5]">10-15</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=1[6-9]">16-19</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=2[0-5]">20-25</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=2[6-9]">26-29</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=3[0-5]">30-35</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=3[6-9]">36-39</a> | ';
+    $nav .=		'<a href="images-widthless.php?vols=4[0-4]">40-44</a>';
+    $nav .=		'<div class="clear"></div>';
+    $nav .=	'</div>';
+	
 	?>
 	<body>
        <div id="outer">
-				
+			<?php print $nav; ?>
 			<div id="content">
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>Images (widthless or heightless): can check images displayed too large</h1>
+							<h2>(Volumes <?php echo $vols; ?>)</h2>
 						</div>
 					</div>
 					<div id="main">
@@ -48,7 +69,8 @@
 			$docsXml = array();
 			
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				//if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/^'.$vols.'.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
 					
@@ -107,8 +129,9 @@
 			print '<h3>Missing images (2000s): '.$missingByDecade['2000s'].'</h3>';
 			print '<h3>Missing images (2010s): '.$missingByDecade['2010s'].'</h3>';
 			*/
-			print '<h3>Total widthless/heightless images: '.$numWidthless.'</h3>';
+			print '<h3>Total widthless/heightless images (volumes '.$vols.'): '.$numWidthless.'</h3>';
 
+			print $nav;
 			?>
 							
 						</div> <!-- #articles-reviews-index -->
