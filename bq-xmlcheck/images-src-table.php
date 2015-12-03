@@ -102,21 +102,23 @@
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
 							if(strpos($src, 'http://') === false) {
+								$srcFile = str_replace('img/illustrations/', '', $src);
 								$srcFull = $base_path.$src;
 								$srcLocalLink = $base_url_local.$src;
 								if(file_exists($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
 								} else {
-									$fn_t['errors'][] = $src;
+									$fn_t['errors'][] = $srcFile;
 									$numMissing = $numMissing + 1;
 									$missingByDecade[$decade] = $missingByDecade[$decade] + 1;
 								}
 							} else {
+								$srcFile = str_replace('img/illustrations/', '', $src);
 								$srcFull = $src;
 								if(url_exists($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcFull.'">'.$srcFull.'</a></p>';
 								} else {
-									$fn_t['errors'][] = $src;
+									$fn_t['errors'][] = $srcFile;
 									$numMissing = $numMissing + 1;
 									$missingByDecade[$decade] = $missingByDecade[$decade] + 1;
 								}
