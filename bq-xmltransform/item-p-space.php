@@ -40,6 +40,9 @@ $nl = "
 							$XMLstringNew = $XMLstring;
 							
 							$XMLstringNew = str_replace("</item><item", "</item>".$nl."	<item", $XMLstringNew);
+							$XMLstringNew = str_replace('<list type="ordered"><item', '<list type="ordered">'.$nl.'	<item', $XMLstringNew);
+							$XMLstringNew = str_replace('<list type="simple"><item', '<list type="simple">'.$nl.'	<item', $XMLstringNew);
+							$XMLstringNew = str_replace('</item></list>', '</item>'.$nl.'</list>', $XMLstringNew);
 							$XMLstringNew = str_replace("</p><p>", "</p>".$nl."	<p>", $XMLstringNew);
 							
 							if($XMLstring != $XMLstringNew) {
