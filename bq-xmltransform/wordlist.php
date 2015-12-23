@@ -33,7 +33,7 @@ $nl = "
 						
 						$docsHtml = array(); 
 						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-							if (preg_match('/.xml/', $fn->getFilename())) {
+							if (preg_match('/.xml/', $fn->getFilename()) && !preg_match('/Emend/', $fn->getFilename())) {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
@@ -57,7 +57,7 @@ $nl = "
 									mb_regex_encoding('UTF-8');
 									mb_internal_encoding("UTF-8");
 								
-									$fn_t['wordlist'] = mb_split('[\s—-/]+', $fn_t['text']);
+									$fn_t['wordlist'] = mb_split('[\s—-]+', $fn_t['text']);
 									$fn_t['wordlist'] = array_unique($fn_t['wordlist']);
 								
 									for($i=0; $i<count($fn_t['wordlist']); $i++) {
@@ -65,7 +65,7 @@ $nl = "
 											//echo '<p>'.$fn_t['wordlist'][$i];
 											// if contains letters, strip punctuation off beginning and end
 											$fn_t['wordlist'][$i] = str_replace('"', '', $fn_t['wordlist'][$i]);
-											$fn_t['wordlist'][$i] = mb_ereg_replace("^[\*\[\(“'‘]{1,}", '', $fn_t['wordlist'][$i]);
+											$fn_t['wordlist'][$i] = mb_ereg_replace("^[#\$£\*\[\(“'‘]{1,}", '', $fn_t['wordlist'][$i]);
 											$fn_t['wordlist'][$i] = mb_ereg_replace("[,!\.\?;:’'”\)\]\*]{1,}$", '', $fn_t['wordlist'][$i]);
 											//echo ' becomes '.$fn_t['wordlist'][$i].'</p>';
 										} else {
