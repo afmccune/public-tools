@@ -57,7 +57,7 @@ $nl = "
 									mb_regex_encoding('UTF-8');
 									mb_internal_encoding("UTF-8");
 								
-									$fn_t['wordlist'] = mb_split('[\s—]+', $fn_t['text']);
+									$fn_t['wordlist'] = mb_split('[\s—-/]+', $fn_t['text']);
 									$fn_t['wordlist'] = array_unique($fn_t['wordlist']);
 								
 									for($i=0; $i<count($fn_t['wordlist']); $i++) {
