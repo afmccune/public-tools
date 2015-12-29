@@ -25,7 +25,7 @@ $nl = "
 			
 						<?php
 						$filesList = file_get_contents('wordlist/_scannedFilesNonRoman.txt');
-						$scannedFiles = split($nl, $filesList);
+						$scannedFiles = explode($nl, $filesList);
 						
 						$start = date('Y.m.d.H.i');
 						

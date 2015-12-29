@@ -32,7 +32,7 @@ $nl = "
 						foreach (new DirectoryIterator("wordlist/") as $fn) {
 							if (preg_match('/_wordlist/', $fn->getFilename())) {
 								$wordsHere = file_get_contents('wordlist/'.$fn->getFilename());
-								$wordlist = split($nl, $wordsHere);
+								$wordlist = explode($nl, $wordsHere);
 							
 									$masterList = array_merge($masterList, $wordlist);
 									$masterList = array_unique($masterList);
