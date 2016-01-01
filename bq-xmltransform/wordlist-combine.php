@@ -36,6 +36,7 @@ $nl = "
 							
 									$masterList = array_merge($masterList, $wordlist);
 									$masterList = array_unique($masterList);
+									sort($masterList);
 								
 									$listStr = implode($nl, $masterList);
 									file_put_contents('wordlist/_wordlist-combined-'.$start.'.txt', $listStr);
