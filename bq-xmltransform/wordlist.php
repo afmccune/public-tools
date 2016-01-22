@@ -65,7 +65,7 @@ $nl = "
 											//echo '<p>'.$fn_t['wordlist'][$i];
 											// if contains letters, strip punctuation off beginning and end
 											$fn_t['wordlist'][$i] = str_replace('"', '', $fn_t['wordlist'][$i]);
-											$fn_t['wordlist'][$i] = mb_ereg_replace("^[#\$£\*\[\(“'‘]{1,}", '', $fn_t['wordlist'][$i]);
+											$fn_t['wordlist'][$i] = mb_ereg_replace("^[#\$£§\*\[\(“'‘]{1,}", '', $fn_t['wordlist'][$i]);
 											$fn_t['wordlist'][$i] = mb_ereg_replace("[,!\.\?;:’'”\)\]\*]{1,}$", '', $fn_t['wordlist'][$i]);
 											//echo ' becomes '.$fn_t['wordlist'][$i].'</p>';
 										} else {
