@@ -5,6 +5,20 @@ require('include/functions.php');
 	
 $nl = "
 ";
+
+function copyImg ($oldSrc, $newSrc, $volIss) {
+	$newImgDir = 'new/'.$volIss;
+	if (file_exists($newImgDir)) {
+		// okay
+	} else {
+		mkdir($newImgDir);
+	}
+	if (!copy ('old/'.substr($oldSrc, 2), $newImgDir.'/'.$newSrc)) {
+		echo '<p>Failed to copy old/'.substr($oldSrc, 2).'</p>';
+	} else {
+		echo '<p>Copied old/'.substr($oldSrc, 2).' to '.$newImgDir.'/'.$newSrc.'</p>';
+	}
+}
 ?>
 	<body>
         <div id="outer">
@@ -27,6 +41,8 @@ $nl = "
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
+								$fileParts = explode('.', $fn_t['fn']);
+								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);
 								
 								$HTMLstring = file_get_contents('old/'.$fn_t['fn']);
@@ -38,13 +54,25 @@ $nl = "
 									file_put_contents('new/'.$fn_t['fn'], $HTMLstring); // unchanged
 								} else {
 								
+									// add id to body
 									$HTMLstring = str_replace('<body', '<body id="'.$fn_t['file'].'" ', $HTMLstring);
-									//$HTMLstring = str_replace('<div id="articlecontent">', '<div id="articlecontent"><div id="idno">'.$fn_t['file'].'</div>', $HTMLstring);
+									
+									// fix weird cover image code glitch
+									$HTMLstring = preg_replace('/<img src="([\.\/0-9a-zA-Z_]{1,})" \<\="" div\=""\>/', '<img src="$1" />', $HTMLstring);
+									
+									$FullHTMLmiddle = str_get_html($HTMLstring);
 								
-									$srcs = getHtmlElementArray($FullHTMLold, 'img', 'src');
+									$srcs = getHtmlElementArray($FullHTMLmiddle, 'img', 'src');
 									foreach($srcs as $oldSrc) {
 										$newSrc = (strpos($oldSrc, '/') !== false) ? substr($oldSrc, strrpos($oldSrc, '/') + 1) : $oldSrc;
+										$newSrc = (preg_match('/[.flv|.gif|.png|.jpg|.jpeg]/', $newSrc)) ? $newSrc : $newSrc.'.jpg';
 										$HTMLstring = str_replace('src="'.$oldSrc.'"', 'src="'.$newSrc.'"', $HTMLstring);
+										echo '<p>'.$fn_t['file'].'.html: image filepath '.$oldSrc.' changed to '.$newSrc.'</p>';
+										if($newSrc == 'homeHeaderTitleImage_en_US.flv' || $newSrc == 'UofR.gif' || $newSrc == 'fulltext_open_medium.gif' || $newSrc == 'fulltext_restricted_medium.gif') {
+											// do not copy--not part of the article proper
+										} else {
+											copyImg($oldSrc, $newSrc, $fn_t['volIss']);
+										}
 									}
 									
 									file_put_contents('new/'.$fn_t['file'].'.html', $HTMLstring);
