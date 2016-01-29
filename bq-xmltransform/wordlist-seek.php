@@ -10,6 +10,8 @@ $nl = "
 ";
 
 $seek = array();
+$seek[] = 'cavernl';
+/*
 $seek[] = '16“further';
 $seek[] = '2008])(“These';
 $seek[] = '40“Denen';
@@ -90,7 +92,8 @@ $seek[] = 'woman:“.H';
 $seek[] = 'works.”35';			
 $seek[] = 'wound.”14';			
 $seek[] = '§”Mythology';			
-$seek[] = 'utmost”(';			
+$seek[] = 'utmost”(';	
+*/		
 ?>
 	<body>
         <div id="outer">
