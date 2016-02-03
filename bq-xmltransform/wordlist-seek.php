@@ -10,8 +10,7 @@ $nl = "
 ";
 
 $seek = array();
-$seek[] = ' alan';	
-//$seek[] = 'alan ';	
+$seek[] = 'annihilation.”“Void';	
 ?>
 	<body>
         <div id="outer">
