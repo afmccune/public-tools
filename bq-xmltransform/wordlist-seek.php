@@ -10,90 +10,8 @@ $nl = "
 ";
 
 $seek = array();
-$seek[] = 'cavernl';
-/*
-$seek[] = '16“further';
-$seek[] = '2008])(“These';
-$seek[] = '40“Denen';
-$seek[] = '46“Ryusei';
-$seek[] = 'Albion”[';
-$seek[] = 'Amateur.”13';
-$seek[] = 'Argument”’s';
-$seek[] = 'Arte”/4';
-$seek[] = 'B.§”Four';
-$seek[] = 'Blake”s';
-$seek[] = 'Christiana”(';			
-$seek[] = 'Employer”in';			
-$seek[] = 'E”s';			
-$seek[] = 'Fate”(';			
-$seek[] = 'G”s';			
-$seek[] = 'HC“';			
-$seek[] = 'Holdgate.”1';			
-$seek[] = 'Introduction,”“The';			
-$seek[] = 'Lamb’”s';			
-$seek[] = 'Life”(3';			
-$seek[] = 'Los”[';			
-$seek[] = 'Luvah”(';			
-$seek[] = 'Mutton.”35';			
-$seek[] = 'Peace”5';			
-$seek[] = 'Sexuality”of';			
-$seek[] = 'Sweeper”s';			
-$seek[] = 'Thel”[';			
-$seek[] = 'Thursday”s';			
-$seek[] = 'VIIb.“';			
-$seek[] = 'William”(';			
-$seek[] = 'all”(22';			
-$seek[] = 'annihilation.”“Void';			
-$seek[] = 'barbarism”[128';			
-$seek[] = 'boards”(';			
-$seek[] = 'cloth”(';			
-$seek[] = 'commitments”(15';			
-$seek[] = 'culture:“he';			
-$seek[] = 'delay”(PL';			
-$seek[] = 'do.’”11';			
-$seek[] = 'd’”s';			
-$seek[] = 'd”s';			
-$seek[] = 'edition”(';			
-$seek[] = 'enimy.”51';			
-$seek[] = 'equalled.”6';			
-$seek[] = 'flowers”(3.12';			
-$seek[] = 'folio”(';			
-$seek[] = 'form”(The';			
-$seek[] = 'g”s';			
-$seek[] = 'history.“';			
-$seek[] = 'his“[E';			
-$seek[] = 'h”s';			
-$seek[] = 'if“Harmitage';			
-$seek[] = 'improvement”(as';			
-$seek[] = 'i”s';			
-$seek[] = 'make.”4';			
-$seek[] = 'matches,”“m/';			
-$seek[] = 'misunderstood.”30';			
-$seek[] = 'mythology”(94';			
-$seek[] = 'neologisms.”16';			
-$seek[] = 'of‘Four';			
-$seek[] = 'of“Pity';			
-$seek[] = 'of“female';			
-$seek[] = 'original”(';			
-$seek[] = 'own.”43';			
-$seek[] = 'pleasant”(';			
-$seek[] = 'processes”(262';			
-$seek[] = 'profession.”10';			
-$seek[] = 'region.”9';			
-$seek[] = 'say,”29';			
-$seek[] = 'sense,”“empiricism,”“practice';			
-$seek[] = 'spring”(p';			
-$seek[] = 'term[“Finishd';			
-$seek[] = 'them.”12';			
-$seek[] = 'thought.”17';			
-$seek[] = 'utmost”(';			
-$seek[] = 'v’”s';			
-$seek[] = 'woman:“.H';			
-$seek[] = 'works.”35';			
-$seek[] = 'wound.”14';			
-$seek[] = '§”Mythology';			
-$seek[] = 'utmost”(';	
-*/		
+$seek[] = ' alan';	
+//$seek[] = 'alan ';	
 ?>
 	<body>
         <div id="outer">
@@ -153,7 +71,7 @@ $seek[] = 'utmost”(';
 										sort($masterList);
 																
 										$listStr = implode($nl, $masterList);
-										file_put_contents('wordlist/_wordlist-seek-'.$start.'.txt', $listStr);
+										file_put_contents('wordlist/_seek-'.$start.'.txt', $listStr);
 								
 										//echo '<h4>'.$fn_t['fn'].'</h4>';
 									}
