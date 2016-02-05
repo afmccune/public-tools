@@ -10,7 +10,31 @@ $nl = "
 ";
 
 $seek = array();
-$seek[] = 'Word\$\$';
+$seek[] = 'Afterwork';
+$seek[] = 'Aguest';
+$seek[] = 'Ahitherto';
+$seek[] = 'AlMustafa';
+$seek[] = 'Albany:State';
+$seek[] = 'Allfree';
+$seek[] = 'AlmaTadema';
+$seek[] = 'Altarwise';
+$seek[] = 'AnnualDirectory';
+$seek[] = 'Anticapitalism';
+$seek[] = 'Anticycle';
+$seek[] = 'Antifantasy';
+$seek[] = 'Antiform';
+$seek[] = 'Antifoundationalist';
+$seek[] = 'Archprelate';
+$seek[] = 'Armfelt';
+$seek[] = 'Artmagazine';
+$seek[] = 'Artscribe';
+$seek[] = 'Asmodel';
+$seek[] = 'Assman';
+$seek[] = 'Atin';
+$seek[] = 'Attneave';
+$seek[] = 'Avantgarde';
+$seek[] = 'Awaremi';
+$seek[] = 'Awooing';
 
 ?>
 	<body>
