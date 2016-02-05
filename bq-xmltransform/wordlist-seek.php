@@ -10,7 +10,7 @@ $nl = "
 ";
 
 $seek = array();
-$seek[] = 'Poets,"and';
+$seek[] = 'Word\$\$';
 
 ?>
 	<body>
