@@ -10,33 +10,7 @@ $nl = "
 ";
 
 $seek = array();
-$seek[] = 'Anon.,‘Pictor';
-$seek[] = 'B[enedict].C[hastanier';
-$seek[] = 'Bibliography(ed';
-$seek[] = 'Bleik(1962';
-$seek[] = 'D)Huntington';
-$seek[] = 'Etching(';
-$seek[] = 'Europe(the';
-$seek[] = 'F)Princeton';
-$seek[] = 'G)Trinity';
-$seek[] = 'Poets,and';
-$seek[] = 'decieve[sic';
-$seek[] = 'next.^afterwards';
-$seek[] = 'of?November';
-$seek[] = 'term[“Finishd';
-$seek[] = 'the?Spectre?within';
-$seek[] = 'thel)and';
-$seek[] = 'Londonare';
-$seek[] = 'Primrosehill[';
-$seek[] = 'papiermâché';
-$seek[] = 'patronprotégé';
-$seek[] = 'sonfor';
-$seek[] = 'C[omplimen';
-$seek[] = 'Macmillam/St';
-$seek[] = 'Ottomar[';
-$seek[] = 'seper[ated';
-$seek[] = 'sequeland';
-$seek[] = 'chan”>';
+$seek[] = 'Poets,"and';
 
 ?>
 	<body>
