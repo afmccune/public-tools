@@ -57,11 +57,12 @@ $nl = "
 								
 									// All delimiters (newline, tab, mdash, hyphen, space) are now space
 									$fn_t['text'] = mb_ereg_replace('[\s—-]+', ' ', $fn_t['text']);
-									// Strip punctuation from beginnings of words (after space)
-									$fn_t['text'] = mb_ereg_replace(" [†\|\{#\$£§\*\[\(“'‘]{1,}", ' ', $fn_t['text']);
+									$fn_t['text'] = ' '.$fn_t['text'].' ';
+									// Strip punctuation from beginnings of words (after space) and/or from ends of words (before space)
 									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
-									// Strip punctuation from ends of words (before space)
-									$fn_t['text'] = mb_ereg_replace("[†\|,!\.\?;:’'”\)\]\*\}]{1,} ", ' ', $fn_t['text']);
+									$fn_t['text'] = str_replace('" ', ' ', $fn_t['text']);
+									$fn_t['text'] = mb_ereg_replace("[†\|,!\.\?;:’'”\)\]\*\} ]{0,} [†\|\{#\$£§\*\[\(“'‘ ]{0,}", ' ', $fn_t['text']);
+									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
 									$fn_t['text'] = str_replace('" ', ' ', $fn_t['text']);
 									// Remove "words" that consist only of numbers and symbols
 									$fn_t['text'] = mb_ereg_replace(" [\$¢£¥€0-9⅛⅙⅕¼⅖⅜⅓½⅝¾⅞\*\{\[\(“'‘,!\.\?;:’'”\)\]\}#\+&\/%:°;§©×•∞–−\-′″‴=<>·º\|_¶ ]{1,} ", ' ', $fn_t['text']);
