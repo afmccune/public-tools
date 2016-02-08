@@ -10,6 +10,8 @@ $nl = "
 ";
 
 $seek = array();
+$seek[] = '1975\)\.';
+/*
 $seek[] = 'ALexander';
 $seek[] = 'Ablion';
 $seek[] = 'Abstrait';
@@ -87,7 +89,7 @@ $seek[] = 'Augeries';
 $seek[] = 'Auriolus';
 $seek[] = 'Authur';
 $seek[] = 'Aven’t';
-
+*/
 ?>
 	<body>
         <div id="outer">
