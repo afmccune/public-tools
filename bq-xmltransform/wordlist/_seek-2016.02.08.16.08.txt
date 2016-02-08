@@ -1,8 +1,3 @@
-[3.1.curran] Antedeluvian
-[5.1-2.essick] Achland
-[5.3.paley] Armes
-[8.1-2.hoover] Appollonian
-[9.2.reiman] Aven’t
 [16.2.minnick] Athenaion
 [16.3.ostriker] Aion
 [17.2.heppner] Adultress
