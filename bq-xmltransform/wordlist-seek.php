@@ -9,87 +9,46 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seek = array();
-$seek[] = '1975\)\.';
-/*
-$seek[] = 'ALexander';
-$seek[] = 'Ablion';
-$seek[] = 'Abstrait';
-$seek[] = 'Accomanied';
-$seek[] = 'Accomodations';
-$seek[] = 'Accorde';
-$seek[] = 'Accot';
-$seek[] = 'Accroding';
-$seek[] = 'Acedemy';
-$seek[] = 'Achilleus';
-$seek[] = 'Achland';
-$seek[] = 'Acidale';
-$seek[] = 'Ackryod';
-$seek[] = 'Ackw';
-$seek[] = 'Admite';
-$seek[] = 'Adresse';
-$seek[] = 'Adultress';
-$seek[] = 'Advancemt';
-$seek[] = 'Aechylus';
-$seek[] = 'Aeschylos';
-$seek[] = 'Agence';
-$seek[] = 'Ahanie';
-$seek[] = 'AioloZ';
-$seek[] = 'Aion';
-$seek[] = 'Alamanac';
-$seek[] = 'Albatros';
-$seek[] = 'Albemarl';
-$seek[] = 'Albione';
-$seek[] = 'Albrect';
-$seek[] = 'Alerta';
-$seek[] = 'Alibon';
-$seek[] = 'Alighiere';
-$seek[] = 'Allgory';
-$seek[] = 'Allt';
-$seek[] = 'Alohim';
-$seek[] = 'Amenadatory';
-$seek[] = 'Amonites';
-$seek[] = 'Anarch';
-$seek[] = 'Annagrama';
-$seek[] = 'Annubis';
-$seek[] = 'Anonymus';
-$seek[] = 'Anonyomous';
-$seek[] = 'Antartic';
-$seek[] = 'Antedeluvian';
-$seek[] = 'Anthny';
-$seek[] = 'Anthonio';
-$seek[] = 'Antiq';
-$seek[] = 'Apolcalypse';
-$seek[] = 'Apoll';
-$seek[] = 'Apollp';
-$seek[] = 'Appelton';
-$seek[] = 'Appollonian';
-$seek[] = 'Archivo';
-$seek[] = 'Arethmatician';
-$seek[] = 'Ariasto';
-$seek[] = 'Aristocrate';
-$seek[] = 'Arme';
-$seek[] = 'Armes';
-$seek[] = 'Armore';
-$seek[] = 'Arography';
-$seek[] = 'Arslan';
-$seek[] = 'Artemus';
-$seek[] = 'Artext';
-$seek[] = 'Arther';
-$seek[] = 'Artigraphics';
-$seek[] = 'Asiathical';
-$seek[] = 'Askin';
-$seek[] = 'Assistent';
-$seek[] = 'Assualt';
-$seek[] = 'Athenaian';
-$seek[] = 'Athenaion';
-$seek[] = 'Atilla';
-$seek[] = 'Att';
-$seek[] = 'Augeries';
-$seek[] = 'Auriolus';
-$seek[] = 'Authur';
-$seek[] = 'Aven’t';
-*/
+$seekStr = '104Observations
+10Biographia
+12Jerusalem
+13Mysterium
+14Reprints
+15America
+16Thel
+17Blake
+17Reprints
+1Fearful
+1See
+1The
+1f
+1instead
+20Winter
+22Sporting
+23Sporting
+2Nor
+31SHOE
+32The
+3Blake’s
+3Erasmus
+3Jerusalem
+3Taken
+3To
+46Macbeth
+4America
+4Visions
+5Feet
+5Jerusalem
+5Milton’s
+5The
+6America
+6Blake
+74Schuchard
+8Jerusalem
+9The
+Alberich.9';
+
+$seek = explode($nl, $seekStr);
 ?>
 	<body>
         <div id="outer">
@@ -137,7 +96,7 @@ $seek[] = 'Aven’t';
 									mb_internal_encoding("UTF-8");
 									
 									foreach($seek as $keyword) {
-										if(mb_ereg_match('.*'.$keyword, $fn_t['text'])) {
+										if(mb_ereg_match('.*\b'.$keyword.'\b', $fn_t['text'])) {
 											echo '<h4>'.$fn_t['fn'].' contains: '.$keyword.'</h4>';
 											// indicate file in which it appears
 											$masterList[] = '['.$fn_t['file'].'] '.$keyword;
