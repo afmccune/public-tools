@@ -1,0 +1,11 @@
+[14.3.lindberg] </ref><hi rend="i">
+[14.4.hilton] </ref><hi rend="i">
+[18.3.warner] </ref><hi rend="i">
+[23.2.viscomi] </ref><hi rend="i">
+[30.2.toc] </ref><hi rend="i">
+[33.2.davies] </ref><hi rend="i">
+[36.1.bentley] </ref><hi rend="i">
+[37.2.paice] </ref><hi rend="i">
+[37.2.spector] </ref><hi rend="i">
+[40.4.mertz] </ref><hi rend="i">
+[41.2.viscomi] </ref><hi rend="i">
