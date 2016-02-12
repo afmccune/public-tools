@@ -1,17 +1,7 @@
-[16.2.reiman] 1Fearful
-[16.2.reiman] 3Blake’s
-[19.2.viscomi] 17Blake
 [23.1.schuchard] 74Schuchard
-[23.4.spector] 13Mysterium
-[24.1.pedley] 22Sporting
-[24.1.pedley] 23Sporting
 [28.4.bentley] 31SHOE
 [32.3.hoagwood] 1instead
 [34.3.ferber] 2Nor
 [34.3.ferber] 3Taken
 [34.3.ferber] 5Feet
-[34.4.bentley] 3To
 [35.1.otto] 32The
-[35.2.stauffer] 10Biographia
-[35.2.stauffer] 3Erasmus
-[35.2.stauffer] 9The
