@@ -1,7 +1,0 @@
-[23.1.schuchard] 74Schuchard
-[28.4.bentley] 31SHOE
-[32.3.hoagwood] 1instead
-[34.3.ferber] 2Nor
-[34.3.ferber] 3Taken
-[34.3.ferber] 5Feet
-[35.1.otto] 32The
