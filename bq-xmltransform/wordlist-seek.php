@@ -9,7 +9,51 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = 'Blake12';
+$seekStr = 'a,d,e,b,f
+antiCartesians
+antiNewtonian
+antiSwedenborgian
+antiacademic
+antiallegory
+antiatlantick
+antibook
+anticapitalism
+anticathexis
+anticlericalist
+antiempire
+antiformalism
+antifoundationalism
+antihierarchial
+antiideological
+antiimperialiste
+antiimpérialiste
+antimimetic
+antimodernism
+antiorganicist
+antiswan
+antisystemizing
+antitextual
+antitheory
+antivisionaries
+aptsounding
+arbetssituation
+archrebel
+archtropal
+argumentfrom
+armspread
+artcounter
+arthistorical
+artificialis
+artisthero
+artisticcommercial
+artistmember
+artistpoet’s
+artistswho
+astroturf
+attentiongetter
+authorfunction
+avantgarde
+avantgardist';
 
 $seek = explode($nl, $seekStr);
 ?>
