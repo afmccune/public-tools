@@ -9,49 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = 'B.§“Four
-Babchina
-Beggarman
-Bellringer
-Bentley,Jr
-Beulahlike
-Biofictions
-Biog:IWWM
-BiogY
-Biopolitics
-Blake:Book
-Blake:Prophet
-BlakeBooks
-BlakeVarley
-Blakeends
-Blakemystic
-Blakespotting
-Blakestudies
-Blakesware
-Blake’sFour
-Blake’sHuman
-Boardfunded
-Bodycheck
-Bonmot
-Bookbarn
-Bookbrowsers
-Bookcellar
-Bookchin
-Bookillustration
-Booton
-Bopeep
-Boradcasting
-Bornand
-Brainsucker
-Brassfounders
-Brazilwood
-Breadon
-Broadwas
-Buckmaster
-Burnquest
-BuschReisinger
-Bvii
-ByG';
+$seekStr = 'Blake12';
 
 $seek = explode($nl, $seekStr);
 ?>
