@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '<note id="n[0-9]{1,4}"><hi rend="s">[0-9]{1,4}</hi><hi rend="i">';
+$seekStr = '<hi rend="s">*</hi><hi rend="sub">*</hi><hi rend="s">*</hi>';
 
 $seek = explode($nl, $seekStr);
 ?>
