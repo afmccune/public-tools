@@ -61,9 +61,7 @@ $nl = "
 									// Strip punctuation from beginnings of words (after space) and/or from ends of words (before space)
 									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
 									$fn_t['text'] = str_replace('" ', ' ', $fn_t['text']);
-									$fn_t['text'] = mb_ereg_replace("[†\|,!\.\?;:’'”\)\]\*\} ]{0,} [†\|\{#\$£§\*\[\(“'‘ ]{0,}", ' ', $fn_t['text']);
-									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
-									$fn_t['text'] = str_replace('" ', ' ', $fn_t['text']);
+									$fn_t['text'] = mb_ereg_replace("[".'"'."†\|,!\.\?;:’'”\)\]\*\} ]{0,} [".'"'."†\|\{#\$£§\*\[\(“'‘ ]{0,}", ' ', $fn_t['text']);
 									// Remove "words" that consist only of numbers and symbols
 									$fn_t['text'] = mb_ereg_replace(" [\$¢£¥€0-9⅛⅙⅕¼⅖⅜⅓½⅝¾⅞\*\{\[\(“'‘,!\.\?;:’'”\)\]\}#\+&\/%:°;§©×•∞–−\-′″‴=<>·º\|_¶ ]{1,} ", ' ', $fn_t['text']);
 									

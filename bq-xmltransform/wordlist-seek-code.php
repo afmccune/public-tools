@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '<hi rend="s">*</hi><hi rend="sub">*</hi><hi rend="s">*</hi>';
+$seekStr = '';
 
 $seek = explode($nl, $seekStr);
 ?>
