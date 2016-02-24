@@ -19,7 +19,7 @@ $nl = "
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Word List: Combine all articles into one huge file</h1>
+							<h1>Word List: Combine all articles (except Emend) into one huge file</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -37,7 +37,7 @@ $nl = "
 						
 						$docsHtml = array(); 
 						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-							if (preg_match('/.xml/', $fn->getFilename())) {
+							if (preg_match('/.xml/', $fn->getFilename()) && $fn->getFilename() != "Emend.xml") {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	

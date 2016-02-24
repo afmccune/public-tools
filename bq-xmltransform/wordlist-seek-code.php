@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '';
+$seekStr = 'Virgilwood\.2\-5.Rosenwald\-corr\.bqscan';
 
 $seek = explode($nl, $seekStr);
 ?>

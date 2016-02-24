@@ -41,7 +41,7 @@ $nl = "
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();									
-								$fn_t['text'] = file_get_contents('wordlist/'.$fn_t['fn']);
+								$fn_t['text'] = preg_quote(file_get_contents('wordlist/'.$fn_t['fn']));
 								
 								$seek = explode($nl, $fn_t['text']);
 							}
