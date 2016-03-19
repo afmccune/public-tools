@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "'";
+$seekStr = "\b[a-zA-Z]{1,}'[a-zA-Z]{1,}\b";
 
 $seek = explode($nl, $seekStr);
 ?>
@@ -20,7 +20,7 @@ $seek = explode($nl, $seekStr);
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Word List: Seek (code)</h1>
+							<h1>Word List: Seek (return matches)</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -58,10 +58,13 @@ $seek = explode($nl, $seekStr);
 									mb_internal_encoding("UTF-8");
 									
 									foreach($seek as $keyword) {
-										if(mb_ereg_match('.*'.$keyword.'', $fn_t['text'])) {
-											echo '<h4>'.$fn_t['fn'].' contains: '.$keyword.'</h4>';
+										if(preg_match('/'.$keyword.'/', $fn_t['text'])) 
+										{
+											preg_match('/'.$keyword.'/', $fn_t['text'], $matches);
+											$matchStr = implode('|', $matches);
+											echo '<h4>'.$fn_t['fn'].' contains: '.$matchStr.'</h4>';
 											// indicate file in which it appears
-											$masterList[] = '['.$fn_t['file'].'] '.$keyword;
+											$masterList[] = '['.$fn_t['file'].'] '.$matchStr;
 										} else {
 											// if does not contain keyword
 											echo '<p>'.$fn_t['fn'].' does not contain: '.$keyword.'</p>';
