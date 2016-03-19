@@ -48,33 +48,58 @@ $nl = "
 									$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 									$fn_t['newVolIss'] = $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
+									//$compositeText .= file_get_contents('../../bq/docs/'.$fn_t['fn']);
 									$fn_t['text'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 									$fn_t['text'] = strip_tags($fn_t['text']);
 									$fn_t['text'] = html_entity_decode($fn_t['text']);
+									//$fn_t['text'] = preg_replace('/[ 	\n\r]{1,}/', ' ', $fn_t['text']);
 								
 									mb_regex_encoding('UTF-8');
 									mb_internal_encoding("UTF-8");
 								
-									// All delimiters (newline, tab, mdash, hyphen, space) are now space
-									$fn_t['text'] = mb_ereg_replace('[\s—-]+', ' ', $fn_t['text']);
-									$fn_t['text'] = ' '.$fn_t['text'].' ';
-									// Strip punctuation from beginnings of words (after space) and/or from ends of words (before space)
-									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
-									$fn_t['text'] = str_replace('" ', ' ', $fn_t['text']);
-									$fn_t['text'] = mb_ereg_replace("[".'"'."†\|,!\.\?;:’'”\)\]\*\} ]{0,} [".'"'."†\|\{#\$£§\*\[\(“'‘ ]{0,}", ' ', $fn_t['text']);
-									// Remove "words" that consist only of numbers and symbols
-									$fn_t['text'] = mb_ereg_replace(" [\$¢£¥€0-9⅛⅙⅕¼⅖⅜⅓½⅝¾⅞\*\{\[\(“'‘,!\.\?;:’'”\)\]\}#\+&\/%:°;§©×•∞–−\-′″‴=<>·º\|_¶ ]{1,} ", ' ', $fn_t['text']);
-									
-									// Split into array and make unique
-									$fn_t['wordlist'] = explode(' ', $fn_t['text']);
+									$fn_t['wordlist'] = mb_split('[\s—-]+', $fn_t['text']);
 									$fn_t['wordlist'] = array_unique($fn_t['wordlist']);
 								
-									// Join to master list
+									for($i=0; $i<count($fn_t['wordlist']); $i++) {
+										if(preg_match('/[a-zA-Z]/', $fn_t['wordlist'][$i])) {
+											//echo '<p>'.$fn_t['wordlist'][$i];
+											// if contains letters, strip punctuation off beginning and end
+											$fn_t['wordlist'][$i] = str_replace('"', '', $fn_t['wordlist'][$i]);
+											$fn_t['wordlist'][$i] = mb_ereg_replace("^[†\|\{#\$£§\*\[\(“'‘]{1,}", '', $fn_t['wordlist'][$i]);
+											$fn_t['wordlist'][$i] = mb_ereg_replace("[†\|,!\.\?;:’'”\)\]\*\}]{1,}$", '', $fn_t['wordlist'][$i]);
+											//echo ' becomes '.$fn_t['wordlist'][$i].'</p>';
+										} else {
+											// if contains no letters
+											//unset($fn_t['wordlist'][$i]);
+											$fn_t['wordlist'][$i] = '';
+											//echo '<p>Deleted: '.$fn_t['wordlist'][$i].'</p>';
+										}
+									}
+								
 									$masterList = array_merge($masterList, $fn_t['wordlist']);
 									$masterList = array_unique($masterList);
 									sort($masterList);
 								
-									// Store list in file								
+									/*
+									# LOAD XML FILE 
+									$XML = new DOMDocument(); 
+									$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									//$XMLstring = str_replace($nl, "\r", $XMLstring);
+									$XML->loadXML($XMLstring);
+
+									# START XSLT 
+									$xslt = new XSLTProcessor(); 
+									$XSL = new DOMDocument(); 
+									$XSL->load( 'xsl/text.xsl'); // This should convert to tagless text
+									$xslt->importStylesheet( $XSL ); 
+										
+									# ADD TO COMPOSITE 
+									$compositeText .= $xslt->transformToXML( $XML );			
+									*/
+								
+									//echo '<p>'.$fn_t['fn'].' added to composite.</p>';
+									//echo '<span>'.$fn_t['fn'].' added to composite. </span>';
+								
 									$listStr = implode($nl, $masterList);
 									file_put_contents('wordlist/_wordlist-'.$start.'.txt', $listStr);
 								
@@ -84,9 +109,33 @@ $nl = "
 									file_put_contents('wordlist/_scannedFiles.txt', $filesStr);
 
 						
+									/*
+									print '<pre>';
+									print_r($masterList);
+									print '</pre>';
+									*/
 								}						
 							}	
 						}
+						
+						/*
+						print '<pre>';
+						print_r($masterList);
+						print '</pre>';
+						*/
+						
+						/*
+						$compositeText = preg_replace('/[ ]{2,}/', ' ', $compositeText);
+
+						file_put_contents('composite/_all.txt', $compositeText);
+
+						$allWords = explode(' ', $compositeText);
+						$allWordsUnique = array_unique($allWords);
+						
+						print '<pre>';
+						print_r($allWords);
+						print '</pre>';
+						*/
 						
 						?>
 						</div> <!-- #allIssues -->
