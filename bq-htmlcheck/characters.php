@@ -7,13 +7,31 @@
 require('include/functions.php');
 
 			function strip_chars($str_in) {
+				$str_out = strip_regular_chars($str_in);
+				$str_out = strip_special_chars($str_out);
+				return $str_out;
+			}
+
+			function strip_regular_chars($str_in) {
+				$search = "A-Za-z0-9 !\-\?=:\.\|,\(\)\/;_\{}%'#\[\]\*\$\+\@\^~\r\n	";
+				//$search = utf8_encode($search);
+				//$search = iconv(mb_detect_encoding($search, mb_detect_order(), true), "UTF-8", $search);
+
+				//$str_out = preg_replace('/['.$search.']{1,}[\\]?/', '', $str_in);
+				$str_out = preg_replace('/['.$search.']{1,}/', '', $str_in);
+				$str_out = str_replace('\\', '', $str_out);
+				return $str_out;
+			}
+			
+			function strip_special_chars($str_in) {
 				$list = get_html_translation_table(HTML_ENTITIES);
 				unset($list['[']);
 				unset($list[']']);
 				unset($list['-']);
 				$list['​'] = '&#8203;'; // Zero Width Space
 				$list['﻿'] = '&#65279;'; // Byte Order Mark
-				$list['А'] = '&#1040;';
+				$list[' '] = ''; // ?
+				$list['А'] = '&#1040;'; // Cyrillic alphabet
 				$list['Б'] = '&#1041;';
 				$list['В'] = '&#1042;';
 				$list['Г'] = '&#1043;';
@@ -77,7 +95,8 @@ require('include/functions.php');
 				$list['э'] = '&#1101;';
 				$list['ю'] = '&#1102;';
 				$list['я'] = '&#1103;';
-				$list['Ć'] = '&#262;';
+				$list['ſ'] = '&#383;'; // Long s
+				$list['Ć'] = '&#262;'; // Extended Roman characters
 				$list['ć'] = '&#263;';
 				$list['Č'] = '&#268;';
 				$list['č'] = '&#269;';
@@ -87,7 +106,6 @@ require('include/functions.php');
 				$list['š'] = '&#353;';
 				$list['Ž'] = '&#381;';
 				$list['ž'] = '&#382;';
-				$list[' '] = '';
 				$list['ǚ'] = '&#474;';
 				$list['Ă'] = '&#258;';
 				$list['ă'] = '&#259;';
@@ -95,7 +113,9 @@ require('include/functions.php');
 				$list['ș'] = '&#x219;';
 				$list['Ț'] = '&#538;';
 				$list['ț'] = '&#539;';
-				$list['א'] = '&#1488;';
+				$list['Ḳ'] = '&#7730;';
+				$list['ḳ'] = '&#7731;';
+				$list['א'] = '&#1488;'; // Hebrew alphabet
 				$list['ב'] = '&#1489;';
 				$list['ג'] = '&#1490;';
 				$list['ד'] = '&#1491;';
@@ -130,7 +150,7 @@ require('include/functions.php');
 				$list['וּ'] = '&#64309;';
 				$list['תּ'] = '&#64330;';
 				$list['וֹ'] = '&#64331;';
-				$list['ְ'] = '&#1456;';
+				$list['ְ'] = '&#1456;'; // Hebrew vowels and special characters
 				$list['ִ'] = '&#1460;';
 				$list['ֵ'] = '&#1461;';
 				$list['ֶ'] = '&#1462;';
@@ -140,23 +160,88 @@ require('include/functions.php');
 				$list['ֺ'] = '&#1466;';
 				$list['ֻ'] = '&#1467;';
 				$list['ּ'] = '&#1468;';
-				$list['耿'] = '&#32831;';
+				$list['耿'] = '&#32831;'; // Selected Chinese, Japanese and Korean ideographs
 				$list['力'] = '&#21147;';
 				$list['平'] = '&#24179;';
-				$list['ʼ'] = '&#700;';
-				$list['ʻ'] = '&#699;';
-				$list['Ḳ'] = '&#7730;';
-				$list['ḳ'] = '&#7731;';
-				$list['̣'] = '&#803;';
+				$list['ʼ'] = '&#700;'; // modifier apostrophe / glottal stop
+				$list['ʻ'] = '&#699;'; // turned comma / okina
+				$list['̣'] = '&#803;'; // combining dot below
+				$list['♈'] = '&#9800;'; // Astrological signs
+				$list['♉'] = '&#9801;';
+				$list['♊'] = '&#9802;';
+				$list['♋'] = '&#9803;';
+				$list['♌'] = '&#9804;';
+				$list['♍'] = '&#9805;';
+				$list['♎'] = '&#9806;';
+				$list['♏'] = '&#9807;';
+				$list['♐'] = '&#9808;';
+				$list['♑'] = '&#9809;';
+				$list['♒'] = '&#9810;';
+				$list['♓'] = '&#9811;';
+				$list['█'] = '&#9608;'; // full block (which renders just fine without encoding)
+				$list['ł'] = '&#322;'; // 
+				$list['ń'] = '&#324;'; //
+				$list['ę'] = '&#281;'; //
+				$list['ą'] = '&#261;'; //
+				$list['‑'] = '&#8209;'; // non-breaking hyphen
+			
+				$search = array_keys($list);
+				$values = array_values($list);
+				//$search = array_map('utf8_encode', $search);
 				
-				$search = implode('', array_keys($list));
-				$search .= "A-Za-z0-9 !\-\?=:\.\|,\(\)\/;_\{}%'#\[\]\*\$\+\@\^~\r\n	";
-				//$search = utf8_encode($search);
-				//$search = iconv(mb_detect_encoding($search, mb_detect_order(), true), "UTF-8", $search);
+				/*
+				print('<div style="red"><h1>SEARCH</h1><pre>');
+				print_r($search);
+				print('</pre></div>');
+				*/
+				
+				$str_out = $str_in;
+				//$str_out = array_map('utf8_encode', $str_out);
 
-				$str_out = preg_replace('/['.$search.']{1,}[\\]?/', '', $str_in);
+				//$str_out = mb_str_replace($search, $values, $str_out);
+				$str_out = mb_str_replace($search, '', $str_in);
+
 				return $str_out;
 			}
+			
+			
+
+			/**
+			 * Replace all occurrences of the search string with the replacement string.
+			 *
+			 * @author Sean Murphy <sean@iamseanmurphy.com>
+			 * @copyright Copyright 2012 Sean Murphy. All rights reserved.
+			 * @license http://creativecommons.org/publicdomain/zero/1.0/
+			 * @link http://php.net/manual/function.str-replace.php
+			 *
+			 * @param mixed $search
+			 * @param mixed $replace
+			 * @param mixed $subject
+			 * @param int $count
+			 * @return mixed
+			 */
+			if (!function_exists('mb_str_replace')) {
+				function mb_str_replace($search, $replace, $subject, &$count = 0) {
+					if (!is_array($subject)) {
+						// Normalize $search and $replace so they are both arrays of the same length
+						$searches = is_array($search) ? array_values($search) : array($search);
+						$replacements = is_array($replace) ? array_values($replace) : array($replace);
+						$replacements = array_pad($replacements, count($searches), '');
+						foreach ($searches as $key => $search) {
+							$parts = mb_split(preg_quote($search), $subject);
+							$count += count($parts) - 1;
+							$subject = implode($replacements[$key], $parts);
+						}
+					} else {
+						// Call mb_str_replace for each subject in array, recursively
+						foreach ($subject as $key => $value) {
+							$subject[$key] = mb_str_replace($search, $replace, $value, $count);
+						}
+					}
+					return $subject;
+				}
+			}
+
 						
 $nl = "
 ";
