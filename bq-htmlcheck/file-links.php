@@ -28,7 +28,7 @@ function linkCmp(array $a, array $b) {
 						<?php
 												
 						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
-							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
+							if (preg_match('/[.a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
