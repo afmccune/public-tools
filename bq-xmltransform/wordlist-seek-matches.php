@@ -9,7 +9,8 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "\b[a-zA-Z]{1,}'[a-zA-Z]{1,}\b";
+$seekStr = "\b[a-zA-Z0-9]{1,}--[a-zA-Z0-9]{1,}\b";
+//"\b[a-zA-Z]{1,}'[a-zA-Z]{1,}\b";
 
 $seek = explode($nl, $seekStr);
 ?>

@@ -7,42 +7,7 @@ $nl = "
 ";
 
 $replace = array();
-$replace["Astrologer's"] = "Astrologer’s";
-$replace["BLAKE'S"] = "BLAKE’S";
-$replace["Blake's"] = "Blake’s";
-$replace["Bride's"] = "Bride’s";
-$replace["Cowper's"] = "Cowper’s";
-$replace["DIDN'T"] = "DIDN’T";
-$replace["Enamel'd"] = "Enamel’d";
-$replace["Engrav'd"] = "Engrav’d";
-$replace["Erdman's"] = "Erdman’s";
-$replace["HE'S"] = "HE’S";
-$replace["I'll"] = "I’ll";
-$replace["L'Allegro"] = "L’Allegro";
-$replace["MILTON'S"] = "MILTON’S";
-$replace["Martin's"] = "Martin’s";
-$replace["Nature's"] = "Nature’s";
-$replace["PARRY'S"] = "PARRY’S";
-$replace["Publish'd"] = "Publish’d";
-$replace["Rossetti's"] = "Rossetti’s";
-$replace["Rossetti's"] = "Rossetti’s";
-$replace["SAMBO'S"] = "SAMBO’S";
-$replace["Sotheby's"] = "Sotheby’s";
-$replace["Unnam'd"] = "Unnam’d";
-$replace["Wordsworth's"] = "Wordsworth’s";
-$replace["YOUNG'S"] = "YOUNG’S";
-$replace["Zoa's"] = "Zoa’s";
-$replace["appear'd"] = "appear’d";
-$replace["bow'd"] = "bow’d";
-$replace["don't"] = "don’t";
-$replace["enslav'd"] = "enslav’d";
-$replace["escap'd"] = "escap’d";
-$replace["l'etablie"] = "l’etablie";
-$replace["men's"] = "men’s";
-$replace["quench'd"] = "quench’d";
-$replace["w'd"] = "w’d";
-$replace["we'd"] = "we’d";
-$replace["world's"] = "world’s";
+$replace['([a-zA-Z0-9\.:’"\(\)> '.$nl.'\?!\]%,&;″]{1,})--([a-zA-Z0-9\.:‘"\(< '.$nl.'\$&]{1,})'] = '$1—$2';
 
 ?>
 	<body>
@@ -52,7 +17,7 @@ $replace["world's"] = "world’s";
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>XML Transform (Replace)</h1>
+							<h1>XML Transform (Replace Double Hyphen with M-Dash)</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -78,7 +43,7 @@ $replace["world's"] = "world’s";
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {
-								$XMLstringNew = preg_replace("/".$key."/", "".$value."", $XMLstringNew);
+								$XMLstringNew = preg_replace("/".$key."/U", "".$value."", $XMLstringNew);
 							}
 							
 							if($XMLstring !== $XMLstringNew) {
