@@ -29,8 +29,6 @@ $nl = "
 						
 						$start = date('Y.m.d.H.i');
 						
-						$hugeText = '';
-						
 						$seek = array(); // for keywords
 						//$seek[] = 'the';
 						
@@ -42,6 +40,7 @@ $nl = "
 								
 								$fn_t['fn'] = $fn->getFilename();									
 								$fn_t['text'] = preg_quote(file_get_contents('wordlist/'.$fn_t['fn']));
+								$fn_t['text'] = str_replace ('’', 'RSQUO', $fn_t['text']);
 								
 								$seek = explode($nl, $fn_t['text']);
 							}
@@ -53,6 +52,7 @@ $nl = "
 								
 								$fn_t['fn'] = $fn->getFilename();									
 								$fn_t['text'] = file_get_contents('wordlist/'.$fn_t['fn']);
+								$fn_t['text'] = str_replace ('’', 'RSQUO', $fn_t['text']);
 								//$fn_t['text'] = html_entity_decode($fn_t['text']);
 							
 								mb_regex_encoding('UTF-8');
@@ -70,6 +70,8 @@ $nl = "
 										sort($masterList);
 															
 										$listStr = implode($nl, $masterList);
+										$listStr = str_replace ('RSQUO', '’', $listStr);
+										$listStr = str_replace ('\\', '', $listStr);
 										file_put_contents('wordlist/_count-'.$start.'.txt', $listStr);
 							
 										$countedWords[] = $keyword;
