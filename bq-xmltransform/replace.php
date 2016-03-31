@@ -7,42 +7,9 @@ $nl = "
 ";
 
 $replace = array();
-$replace["Astrologer's"] = "Astrologer’s";
-$replace["BLAKE'S"] = "BLAKE’S";
-$replace["Blake's"] = "Blake’s";
-$replace["Bride's"] = "Bride’s";
-$replace["Cowper's"] = "Cowper’s";
-$replace["DIDN'T"] = "DIDN’T";
-$replace["Enamel'd"] = "Enamel’d";
-$replace["Engrav'd"] = "Engrav’d";
-$replace["Erdman's"] = "Erdman’s";
-$replace["HE'S"] = "HE’S";
-$replace["I'll"] = "I’ll";
-$replace["L'Allegro"] = "L’Allegro";
-$replace["MILTON'S"] = "MILTON’S";
-$replace["Martin's"] = "Martin’s";
-$replace["Nature's"] = "Nature’s";
-$replace["PARRY'S"] = "PARRY’S";
-$replace["Publish'd"] = "Publish’d";
-$replace["Rossetti's"] = "Rossetti’s";
-$replace["Rossetti's"] = "Rossetti’s";
-$replace["SAMBO'S"] = "SAMBO’S";
-$replace["Sotheby's"] = "Sotheby’s";
-$replace["Unnam'd"] = "Unnam’d";
-$replace["Wordsworth's"] = "Wordsworth’s";
-$replace["YOUNG'S"] = "YOUNG’S";
-$replace["Zoa's"] = "Zoa’s";
-$replace["appear'd"] = "appear’d";
-$replace["bow'd"] = "bow’d";
-$replace["don't"] = "don’t";
-$replace["enslav'd"] = "enslav’d";
-$replace["escap'd"] = "escap’d";
-$replace["l'etablie"] = "l’etablie";
-$replace["men's"] = "men’s";
-$replace["quench'd"] = "quench’d";
-$replace["w'd"] = "w’d";
-$replace["we'd"] = "we’d";
-$replace["world's"] = "world’s";
+$replace["Doerrbecker"] = "Dörrbecker";
+$replace["DOERRBECKER"] = "DÖRRBECKER";
+$replace["Döerrbecker"] = "Dörrbecker";
 
 ?>
 	<body>

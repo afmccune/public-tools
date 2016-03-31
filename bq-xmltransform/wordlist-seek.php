@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "[\w’]+";
+$seekStr = "";
 
 $seek = explode($nl, $seekStr);
 ?>
