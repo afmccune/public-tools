@@ -72,7 +72,11 @@
 				if($emend == $note && $emend != 0) {
 					//echo '<p>'.$k.': '.$emend.' emendation(s), '.$note.' note(s)</p>';
 				} else {
-					echo '<h4>'.$k.': '.$emend.' emendation(s), '.$note.' note(s)</h4>';
+					echo '<h4>'.$k.': '.$emend.' emendation(s), '.$note.' note(s)';
+					if($note > $emend) {
+						echo '*';
+					}
+					echo '</h4>';
 				}
 			}
 			
