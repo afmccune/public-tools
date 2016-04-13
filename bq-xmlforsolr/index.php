@@ -49,6 +49,8 @@ $nl = '
 								$fn_t['issue'] = $fn_t['fileIss'];
 								$XMLdate = $FullXML->xpath('//editionStmt/edition');
 								$fn_t['date'] = $XMLdate[0];
+								$XMLyear = $FullXML->xpath('//teiHeader/fileDesc/publicationStmt/date');
+								$fn_t['year'] = $XMLyear[0];
 								$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
 								$fn_t['type'] = $XMLtype[0];
 								$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
@@ -89,17 +91,18 @@ $nl = '
 								//print('</pre>');
 								
 								$fn_t['XML']  = '<doc>'.$nl;
-								foreach ($XMLauthors as $author) {
-								$fn_t['XML'] .= '		<field name="author">'.$author.'</field>'.$nl;
-								}
-								$fn_t['XML'] .= '		<field name="authorLast">'.$fn_t['authorLast'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="idno">'.$fn_t['file'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="volIss">'.$fn_t['volIss'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="volume">'.$fn_t['volume'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="issue">'.$fn_t['issue'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="date">'.$fn_t['date'].'</field>'.$nl;
+								$fn_t['XML'] .= '		<field name="year">'.$fn_t['year'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="title">'.$fn_t['title'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="type">'.$fn_t['type'].'</field>'.$nl;
+								foreach ($XMLauthors as $author) {
+								$fn_t['XML'] .= '		<field name="author">'.$author.'</field>'.$nl;
+								}
+								$fn_t['XML'] .= '		<field name="authorLast">'.$fn_t['authorLast'].'</field>'.$nl;
 								$fn_t['XML'] .= '		<field name="fulltext">'.$fn_t['fulltext'];
 								$fn_t['XML'] .= '		</field>'.$nl;
 								$fn_t['XML'] .= '</doc>'.$nl;
