@@ -173,6 +173,8 @@ $nl = "
 								//$fn_t['fulltext'] = mb_convert_encoding($fn_t['fulltext'], 'HTML-ENTITIES', "UTF-8");
 								
 								/* Strip HTML tags and invisible text */
+								$fn_t['fulltext'] = str_replace ('<br/>', $nl, $fn_t['fulltext']);
+								$fn_t['fulltext'] = str_replace ('<br />', $nl, $fn_t['fulltext']);
 								$fn_t['fulltext'] = strip_html_tags( $fn_t['fulltext'] );
 								
 								/* Decode HTML entities */
