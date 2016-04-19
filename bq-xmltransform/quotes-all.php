@@ -46,9 +46,9 @@ $nl = "
 							if($quotes % 2 == 0) {
 								// even
 							} else {
-								$ws = '<p>WARNING: Number of quotes in '.$fn_t['file'].' is odd.</p>'.$nl;
-								$warningDoc .= $ws;
-								echo $ws;
+								$ws = $fn_t['file'].' : Number of quotes is odd.';
+								$warningDoc .= $ws.$nl;
+								echo '<h4>'.$ws.'</h4>';
 							}
 							
 							$quote_pairs = ceil($quotes/2);
@@ -63,15 +63,15 @@ $nl = "
 							$XMLstringNew = preg_replace('/=“volume_([0-9]{1,3})”/', '="volume_$1"', $XMLstringNew);
 							$XMLstringNew = preg_replace('/=“issue_([0-9]{1,3})”/', '="issue_$1"', $XMLstringNew);
 							
-							$quoteMisplacements1 = substr_count($XMLstringNew, '“ ');
-							$quoteMisplacements2 = substr_count($XMLstringNew, '“'.$nl);
-							$quoteMisplacements3 = substr_count($XMLstringNew, ' ”');
-							$quoteMisplacements4 = substr_count($XMLstringNew, $nl.'”');
+							$quoteMisplacements1 = preg_match_all('/[a-zA-Z,!\?\.]“/', $XMLstringNew);
+							$quoteMisplacements2 = preg_match_all('/“[ '.$nl.',!\?\.]/', $XMLstringNew);
+							$quoteMisplacements3 = preg_match_all('/”[a-zA-Z]/', $XMLstringNew);
+							$quoteMisplacements4 = preg_match_all('/[ '.$nl.']”/', $XMLstringNew);
 							$quoteMisplacements = $quoteMisplacements1 + $quoteMisplacements2 + $quoteMisplacements3 + $quoteMisplacements4;
 							if($quoteMisplacements > 0) {
-								$ws = '<p>WARNING: Number of quote misplacements in '.$fn_t['file'].' is '.$quoteMisplacements.' ('.$quoteMisplacements1.' + '.$quoteMisplacements2.' + '.$quoteMisplacements3.' + '.$quoteMisplacements4.').</p>'.$nl;
-								$warningDoc .= $ws;
-								echo $ws;
+								$ws = $fn_t['file'].' : '.$quoteMisplacements.' quote misplacements ('.$quoteMisplacements1.' + '.$quoteMisplacements2.' + '.$quoteMisplacements3.' + '.$quoteMisplacements4.').';
+								$warningDoc .= $ws.$nl;
+								echo '<h4>'.$ws.'</h4>';
 							}
 							
 							/*
@@ -80,7 +80,7 @@ $nl = "
 							$XMLstringNew = preg_replace("/'s /", "’s ", $XMLstringNew);
 							*/
 							
-							file_put_contents('new/_quoteWarnings.xml', $warningDoc);
+							file_put_contents('new/_quoteWarnings.txt', $warningDoc);
 							
 							if($XMLstring != $XMLstringNew) {
 								file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
