@@ -1,6 +1,3 @@
 [20.2.paley] --		[------- (figTranscr)]
-[23.2.worrall] --	[Cartridge[…] --paper (quote from OED, now: … cartridge-paper)]
-[41.3.michael] --	[---. (bibliography)]
 [42.4.crosby] --	[<-- --> (comments)]
 [43.3.paley] --		[---------- (figTranscr)]
-[43.4.paley] --		[---. (bibliography)]
