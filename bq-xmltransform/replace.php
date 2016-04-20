@@ -7,9 +7,9 @@ $nl = "
 ";
 
 $replace = array();
-$replace["Doerrbecker"] = "Dörrbecker";
-$replace["DOERRBECKER"] = "DÖRRBECKER";
-$replace["Döerrbecker"] = "Dörrbecker";
+$replace['([0-9⅛¼½¾⅞]{1,}[ ]{0,1})["″] [x×] ([0-9]{1,}[ 0-9\/-⅛¼½⅝¾⅞\.]{0,}[ ]{0,1})["″]'] = "$1″ × $2″";
+//$replace['([0-9⅛¼½⅝¾⅞]{1,}[ ]{0,1})"'] = "$1″";
+$replace['([⅛¼½⅝¾⅞]{1,}[ ]{0,1})"'] = "$1″";
 
 ?>
 	<body>

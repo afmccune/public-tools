@@ -9,7 +9,10 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "\b[a-zA-Z0-9]{1,}--[a-zA-Z0-9]{1,}\b";
+$seekStr = '[0-9⅛¼½¾⅞]{1,}[ ]{0,1}["″] [x×] [0-9]{1,}[ 0-9\/⅛¼½¾⅞]{0,}[ ]{0,1}["″]
+ x 
+ × ';
+//"\b[a-zA-Z0-9]{1,}--[a-zA-Z0-9]{1,}\b";
 //"\b[a-zA-Z]{1,}'[a-zA-Z]{1,}\b";
 
 $seek = explode($nl, $seekStr);
@@ -62,6 +65,7 @@ $seek = explode($nl, $seekStr);
 										if(preg_match('/'.$keyword.'/', $fn_t['text'])) 
 										{
 											preg_match('/'.$keyword.'/', $fn_t['text'], $matches);
+											//mb_ereg_match('.*'.$keyword.'', $fn_t['text']);
 											$matchStr = implode('|', $matches);
 											echo '<h4>'.$fn_t['fn'].' contains: '.$matchStr.'</h4>';
 											// indicate file in which it appears
