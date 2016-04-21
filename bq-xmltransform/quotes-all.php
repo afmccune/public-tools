@@ -26,7 +26,8 @@ $nl = "
 					$docsXml = array(); 
 					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
 						//if (preg_match('/4[3-4].[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
-						if (preg_match('/.xml/', $fn->getFilename())) {
+						//if (preg_match('/.xml/', $fn->getFilename())) {
+						if (preg_match('/^[1]{0,1}[0-9]\.[0-9]{1}[-a-z0-9]{0,3}\.[-a-z0-9]{1,20}\.xml$/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 							
@@ -64,9 +65,15 @@ $nl = "
 							$XMLstringNew = preg_replace('/=“issue_([0-9]{1,3})”/', '="issue_$1"', $XMLstringNew);
 							
 							$quoteMisplacements1 = preg_match_all('/[a-zA-Z,!\?\.]“/', $XMLstringNew);
-							$quoteMisplacements2 = preg_match_all('/“[ '.$nl.',!\?\.]/', $XMLstringNew);
+							$quoteMisplacements2raw = preg_match_all('/“[ '.$nl.',!\?\.]/', $XMLstringNew);
+								$quoteMisplacements2offset1 = preg_match_all('/“[ ]{0,1}\.[ ]{0,1}\.[ ]{0,1}\./', $XMLstringNew); // quote beginning with ellipsis
+								$quoteMisplacements2offset2 = preg_match_all('/“ ‘/', $XMLstringNew);
+								$quoteMisplacements2 = $quoteMisplacements2raw - ($quoteMisplacements2offset1 + $quoteMisplacements2offset2);
 							$quoteMisplacements3 = preg_match_all('/”[a-zA-Z]/', $XMLstringNew);
-							$quoteMisplacements4 = preg_match_all('/[ '.$nl.']”/', $XMLstringNew);
+							$quoteMisplacements4raw = preg_match_all('/[ '.$nl.']”/', $XMLstringNew);
+								$quoteMisplacements4offset1 = preg_match_all('/\.[ ]{0,1}\.[ ]{0,1}\. ”/', $XMLstringNew);
+								$quoteMisplacements4offset2 = preg_match_all('/’ ”/', $XMLstringNew);
+								$quoteMisplacements4 = $quoteMisplacements4raw - ($quoteMisplacements4offset1 + $quoteMisplacements4offset2);
 							$quoteMisplacements = $quoteMisplacements1 + $quoteMisplacements2 + $quoteMisplacements3 + $quoteMisplacements4;
 							if($quoteMisplacements > 0) {
 								$ws = $fn_t['file'].' : '.$quoteMisplacements.' quote misplacements ('.$quoteMisplacements1.' + '.$quoteMisplacements2.' + '.$quoteMisplacements3.' + '.$quoteMisplacements4.').';
