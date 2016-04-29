@@ -9,8 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "[a-zA-Z,!\?\.]“
-“[ ,!\?\.]";
+$seekStr = " x ";
 
 $seek = explode($nl, $seekStr);
 ?>
