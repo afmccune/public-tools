@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = "x";
+$seekStr = '[0-9⅛¼½¾⅞]{1,}"';
 
 $seek = explode($nl, $seekStr);
 ?>

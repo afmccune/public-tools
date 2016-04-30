@@ -9,9 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '[0-9⅛¼½¾⅞]{1,}[ ]{0,1}["″] [x×] [0-9]{1,}[ 0-9\/⅛¼½¾⅞]{0,}[ ]{0,1}["″]';
-//"\b[a-zA-Z0-9]{1,}--[a-zA-Z0-9]{1,}\b";
-//"\b[a-zA-Z]{1,}'[a-zA-Z]{1,}\b";
+$seekStr = '= "';
 
 $seek = explode($nl, $seekStr);
 ?>
@@ -22,7 +20,7 @@ $seek = explode($nl, $seekStr);
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Word List: Seek (return matches)</h1>
+							<h1>Word List: Seek</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -54,20 +52,17 @@ $seek = explode($nl, $seekStr);
 									$fn_t['newVolIss'] = $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
 									$fn_t['text'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									$fn_t['text'] = strip_tags($fn_t['text']);
 									$fn_t['text'] = html_entity_decode($fn_t['text']);
 								
 									mb_regex_encoding('UTF-8');
 									mb_internal_encoding("UTF-8");
 									
 									foreach($seek as $keyword) {
-										if(preg_match('/'.$keyword.'/', $fn_t['text'])) 
-										{
-											preg_match('/'.$keyword.'/', $fn_t['text'], $matches);
-											//mb_ereg_match('.*'.$keyword.'', $fn_t['text']);
-											$matchStr = implode('|', $matches);
-											echo '<h4>'.$fn_t['fn'].' contains: '.$matchStr.'</h4>';
+										if(mb_ereg_match('.*'.$keyword.'', $fn_t['text'])) {
+											echo '<h4>'.$fn_t['fn'].' contains: '.$keyword.'</h4>';
 											// indicate file in which it appears
-											$masterList[] = '['.$fn_t['file'].'] '.$matchStr;
+											$masterList[] = '['.$fn_t['file'].'] '.$keyword;
 										} else {
 											// if does not contain keyword
 											echo '<p>'.$fn_t['fn'].' does not contain: '.$keyword.'</p>';
