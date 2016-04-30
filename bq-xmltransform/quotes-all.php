@@ -58,8 +58,11 @@ $nl = "
 								$XMLstringNew = preg_replace('/"/', '”', preg_replace('/"/', '“', $XMLstringNew, 1), 1);
 							}
 							
-							$XMLstringNew = preg_replace('/=[ ]{0,1}“([ -\/_:@a-zA-Z0-9\.łö]{1,})”/', '="$1"', $XMLstringNew);
-							$XMLstringNew = preg_replace('/=[ ]{0,1}”([ -\/_:@a-zA-Z0-9\.łö]{1,})“/', '="$1"', $XMLstringNew); // quotes are backwards--e.g., for quotes in pb tag between two quotes in text
+							// repeat for up to four quote pairs in each tag
+							for($i=0; $i<4; $i++) {
+								$XMLstringNew = preg_replace('/=[ ]{0,1}“([ -\/_:@a-zA-Z0-9\.łöéá]{1,})”([ 	-\/_:@a-zA-Z0-9\.łöéá="“”\?\r\n]{0,})>/', '="$1"$2>', $XMLstringNew);
+								$XMLstringNew = preg_replace('/=[ ]{0,1}”([ -\/_:@a-zA-Z0-9\.łöéá]{1,})“([ 	-\/_:@a-zA-Z0-9\.łöéá="“”\?\r\n]{0,})>/', '="$1"$2>', $XMLstringNew); // quotes are backwards--e.g., for quotes in pb tag between two quotes in text
+							}
 							$XMLstringNew = preg_replace('/=“BQ_Documents, vols. 1-([0-9]{1,3})”/', '="BQ_Documents, vols. 1-$1"', $XMLstringNew);
 							$XMLstringNew = preg_replace('/=“volume_([0-9]{1,3})”/', '="volume_$1"', $XMLstringNew);
 							$XMLstringNew = preg_replace('/=“issue_([0-9]{1,3})”/', '="issue_$1"', $XMLstringNew);
