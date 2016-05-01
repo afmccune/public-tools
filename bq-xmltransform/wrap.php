@@ -5,11 +5,6 @@ require('include/functions.php');
 	
 $nl = "
 ";
-
-$replace = array();
-$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
-
-
 ?>
 	<body>
         <div id="outer">
@@ -18,7 +13,7 @@ $replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="space
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>XML Transform (Replace)</h1>
+							<h1>XML Transform (Word Wrap)</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -28,32 +23,31 @@ $replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="space
 						
 					$docsXml = array(); 
 					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-						if (preg_match('/.xml/', $fn->getFilename())) {
+						if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 							
+							/*
 							$fileParts = explode('.', $fn_t['fn']);
 							//$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 							$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
 							$fn_t['volNum'] = $fileParts[0];
 							$fn_t['issueNum'] = $fileParts[1];
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
-							//$fn_t['fileSplit'] = $fileParts[2];
-
+							$fn_t['fileSplit'] = $fileParts[2];
+							*/
+							
 							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
-							foreach($replace as $key => $value) {
-								$XMLstringNew = preg_replace("/".$key."/", "".$value."", $XMLstringNew);
-							}
-							
-							if($XMLstring !== $XMLstringNew) {
+							$XMLstringNew = wordwrap($XMLstringNew, 110, $nl);
+					
+							if($XMLstring != $XMLstringNew) {
 								file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
-								echo '<h4>Converted '.$fn_t['fn'].'</h4>';
+								echo '<p>Converted '.$fn_t['fn'].'</p>';
 							} else {
-								echo '<p>'.$fn_t['fn'].': no change</p>';
+								echo '<p>Unchanged: '.$fn_t['fn'].'</p>';
 							}
-
 						}	
 					}
 						
