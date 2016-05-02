@@ -7,7 +7,8 @@ $nl = "
 ";
 
 $replace = array();
-$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
+$replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛¼½¾⅞]{1,})"'] = '$1“$2”'; //
+//$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
 
 
 ?>
