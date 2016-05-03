@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.4.erle">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.4.erle"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.4.erle"/>
-		<dc:title>David Weir, Brahma in the West: William Blake and the Oriental Renaissance</dc:title>
+		<dc:title>David Weir, Brahma in the West: William Blake and the Oriental
+Renaissance</dc:title>
 		<role:AUT>Sibylle Erle</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.038.04.bqscan.thumb.png"/>

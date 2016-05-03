@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/35.1.mazzeo">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/35.1.mazzeo"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/35.1.mazzeo"/>
-		<dc:title>Verbal Echoes of Cumberland’s Thoughts on Outline, Sculpture, and the System that Guided the Ancients (1796) in Jerusalem</dc:title>
+		<dc:title>Verbal Echoes of Cumberland’s Thoughts on Outline, Sculpture, and the System
+that Guided the Ancients (1796) in Jerusalem</dc:title>
 		<role:AUT>Tilar Jenon Mazzeo</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.035.01.bqscan.thumb.png"/>

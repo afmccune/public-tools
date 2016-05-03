@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.4.shroyer">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.4.shroyer"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.4.shroyer"/>
-		<dc:title>Mr. Jacko “Knows What Riding Is” in 1785: Dating Blake’s Island in the Moon</dc:title>
+		<dc:title>Mr. Jacko “Knows What Riding Is” in 1785: Dating Blake’s Island in the
+Moon</dc:title>
 		<role:AUT>R. J. Shroyer</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.04.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.1.otto">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.1.otto"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.1.otto"/>
-		<dc:title>Reply to De Luca’s review of Constructive Vision and Visionary Deconstruction</dc:title>
+		<dc:title>Reply to De Luca’s review of Constructive Vision and Visionary
+Deconstruction</dc:title>
 		<role:AUT>Peter Otto</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.01.bqscan.thumb.png"/>

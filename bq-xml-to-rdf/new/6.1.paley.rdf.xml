@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.paley"/>
-		<dc:title>William Blake’s Water-Colour Designs for Gray’s Poems by Sir Geoffrey Keynes</dc:title>
+		<dc:title>William Blake’s Water-Colour Designs for Gray’s Poems by Sir Geoffrey
+Keynes</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

@@ -9,7 +9,9 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/26.2.wittreich">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/26.2.wittreich"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/26.2.wittreich"/>
-		<dc:title>“An Unperishing Sun ... This Golden Age”: Joachimism and Heaven in the Age of Blake; Marjorie Reeves and Warwick Gould, Joachim of Fiore and the Myth of the Eternal Evangel in the Nineteenth Century and Colleen McDannell and Bernhard Lang, Heaven: A History</dc:title>
+		<dc:title>“An Unperishing Sun ... This Golden Age”: Joachimism and Heaven in the Age of
+Blake; Marjorie Reeves and Warwick Gould, Joachim of Fiore and the Myth of the Eternal Evangel in the
+Nineteenth Century and Colleen McDannell and Bernhard Lang, Heaven: A History</dc:title>
 		<role:AUT>Joseph Wittreich</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.026.02.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.1.punter">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.1.punter"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.1.punter"/>
-		<dc:title>David G. Riede, Oracles and Hierophants: Constructions of Romantic Authority</dc:title>
+		<dc:title>David G. Riede, Oracles and Hierophants: Constructions of Romantic
+Authority</dc:title>
 		<role:AUT>David Punter</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.01.bqscan.thumb.png"/>

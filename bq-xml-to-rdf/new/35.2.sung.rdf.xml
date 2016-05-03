@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/35.2.sung">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/35.2.sung"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/35.2.sung"/>
-		<dc:title>Frances Carey, ed. The Apocalypse and the Shape of Things to Come. Catalogue of the British Museum exhibition, 17 December 1999-24 April 2000</dc:title>
+		<dc:title>Frances Carey, ed. The Apocalypse and the Shape of Things to Come. Catalogue of
+the British Museum exhibition, 17 December 1999-24 April 2000</dc:title>
 		<role:AUT>Mei-Ying Sung</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.035.02.bqscan.thumb.png"/>

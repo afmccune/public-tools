@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/43.4.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/43.4.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/43.4.paley"/>
-		<dc:title>William Blake’s World: “A New Heaven Is Begun,” Morgan Library and Museum, 11 September 2009-3 January 2010</dc:title>
+		<dc:title>William Blake’s World: “A New Heaven Is Begun,” Morgan Library and Museum,
+11 September 2009-3 January 2010</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.043.04.bqscan.thumb.png"/>

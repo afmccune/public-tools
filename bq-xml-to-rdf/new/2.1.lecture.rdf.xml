@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.1.lecture">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.1.lecture"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.1.lecture"/>
-		<dc:title>E.P. Thompson lecture on Blake’s background in artisan, radical dissent</dc:title>
+		<dc:title>E.P. Thompson lecture on Blake’s background in artisan, radical
+dissent</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>
 		<dc:date>

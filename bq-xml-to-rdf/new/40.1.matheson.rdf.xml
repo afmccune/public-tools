@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.1.matheson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.1.matheson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.1.matheson"/>
-		<dc:title>Samuel Palmer 1805-1881: Vision and Landscape, catalogue of the exhibition at the British Museum and at the Metropolitan Museum of Art</dc:title>
+		<dc:title>Samuel Palmer 1805-1881: Vision and Landscape, catalogue of the exhibition at the
+British Museum and at the Metropolitan Museum of Art</dc:title>
 		<role:AUT>C. S. Matheson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.01.bqscan.thumb.png"/>

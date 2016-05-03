@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/9.2.erdman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/9.2.erdman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/9.2.erdman"/>
-		<dc:title>Errors in the 1973 Edition of The Notebook of William Blake and in the First Printing of The Illuminated Blake</dc:title>
+		<dc:title>Errors in the 1973 Edition of The Notebook of William Blake and in the First
+Printing of The Illuminated Blake</dc:title>
 		<role:AUT>David V. Erdman</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.009.02.bqscan.thumb.png"/>

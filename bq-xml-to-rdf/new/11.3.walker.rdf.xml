@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.3.walker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.3.walker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.3.walker"/>
-		<dc:title>Raymond Lister, Infernal Methods: A Study of William Blake’s Art Technique</dc:title>
+		<dc:title>Raymond Lister, Infernal Methods: A Study of William Blake’s Art
+Technique</dc:title>
 		<role:AUT>Corlette Walker</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.03.bqscan.thumb.png"/>

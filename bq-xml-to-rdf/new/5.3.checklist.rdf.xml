@@ -10,6 +10,14 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.checklist"/>
 		<dc:title>A Checklist of Blake Scholarship October 1970 - March 1972</dc:title>
+		<role:AUT>Foster Foreman</role:AUT>
+		<role:AUT>Susan Grossman</role:AUT>
+		<role:AUT>David Wyatt</role:AUT>
+		<role:AUT>Roberta Goetsch</role:AUT>
+		<role:AUT>Kenji Nakamura</role:AUT>
+		<role:AUT>Andre Le Vot</role:AUT>
+		<role:AUT>Michael A. Keller</role:AUT>
+		<role:AUT>Thomas Connolly</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>
 		<dc:date>

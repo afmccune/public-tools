@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/41.1.ankarsjo">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/41.1.ankarsjo"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/41.1.ankarsjo"/>
-		<dc:title>Blake Society Annual Lecture, 28 November 2006: Patti Smith at St. James’s Church, Piccadilly</dc:title>
+		<dc:title>Blake Society Annual Lecture, 28 November 2006: Patti Smith at St. James’s
+Church, Piccadilly</dc:title>
 		<role:AUT>Magnus Ankarsjö</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.041.01.bqscan.thumb.png"/>

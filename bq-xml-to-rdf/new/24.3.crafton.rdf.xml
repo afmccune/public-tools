@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.3.crafton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.3.crafton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.3.crafton"/>
-		<dc:title>Steven Blakemore, Burke and the Fall of Language: The French Revolution as Linguistic Event</dc:title>
+		<dc:title>Steven Blakemore, Burke and the Fall of Language: The French Revolution as
+Linguistic Event</dc:title>
 		<role:AUT>Lisa Plummer Crafton</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.03.bqscan.thumb.png"/>

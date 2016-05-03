@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/41.3.viscomi">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/41.3.viscomi"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/41.3.viscomi"/>
-		<dc:title>Correction to “Blake’s ‘Annus Mirabilis’: The Productions of 1795”</dc:title>
+		<dc:title>Correction to “Blake’s ‘Annus Mirabilis’: The Productions of
+1795”</dc:title>
 		<role:AUT>Joseph Viscomi</role:AUT>
 		<collex:genre>Reference Works</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.041.03.bqscan.thumb.png"/>

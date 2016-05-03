@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.3.abley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.3.abley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.3.abley"/>
-		<dc:title>New Blake Documents: Job, Oedipus, and the Songs of Innocence and of Experience</dc:title>
+		<dc:title>New Blake Documents: Job, Oedipus, and the Songs of Innocence and of
+Experience</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<role:AUT>Mark Abley</role:AUT>
 		<collex:genre>Criticism</collex:genre>

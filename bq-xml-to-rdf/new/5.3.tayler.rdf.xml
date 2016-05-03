@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.tayler">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.tayler"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.tayler"/>
-		<dc:title>The Source of Bring out number, weight and measure in a year of dearth</dc:title>
+		<dc:title>The Source of Bring out number, weight and measure in a year of
+dearth</dc:title>
 		<role:AUT>Edward W. Tayler</role:AUT>
 		<role:AUT>Everett C. Frost</role:AUT>
 		<collex:genre>Criticism</collex:genre>

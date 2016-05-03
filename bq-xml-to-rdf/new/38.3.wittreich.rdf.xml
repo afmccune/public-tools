@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.3.wittreich">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.3.wittreich"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.3.wittreich"/>
-		<dc:title>Alexander S. Gourlay, ed., Prophetic Character: Essays on William Blake in Honor of John E. Grant</dc:title>
+		<dc:title>Alexander S. Gourlay, ed., Prophetic Character: Essays on William Blake in Honor
+of John E. Grant</dc:title>
 		<role:AUT>Joseph Wittreich</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.038.03.bqscan.thumb.png"/>

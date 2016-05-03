@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.1.toomey">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.1.toomey"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.1.toomey"/>
-		<dc:title>Roger R. Easson and Robert N. Essick, William Blake: Book Illustrator, Volume I</dc:title>
+		<dc:title>Roger R. Easson and Robert N. Essick, William Blake: Book Illustrator,
+Volume I</dc:title>
 		<role:AUT>Deirdre Toomey</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.01.bqscan.thumb.png"/>

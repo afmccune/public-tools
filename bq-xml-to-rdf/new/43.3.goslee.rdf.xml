@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/43.3.goslee">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/43.3.goslee"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/43.3.goslee"/>
-		<dc:title>Matthew J. A. Green, Visionary Materialism in the Early Works of William Blake: The Intersection of Enthusiasm and Empiricism</dc:title>
+		<dc:title>Matthew J. A. Green, Visionary Materialism in the Early Works of William Blake:
+The Intersection of Enthusiasm and Empiricism</dc:title>
 		<role:AUT>Nancy M. Goslee</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.43.3.bqscan.thumb.png"/>

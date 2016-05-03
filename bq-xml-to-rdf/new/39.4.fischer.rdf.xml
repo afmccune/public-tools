@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/39.4.fischer">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/39.4.fischer"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/39.4.fischer"/>
-		<dc:title>Robert D. Denham, Northrop Frye: Religious Visionary and Architect of the Spiritual World</dc:title>
+		<dc:title>Robert D. Denham, Northrop Frye: Religious Visionary and Architect of the
+Spiritual World</dc:title>
 		<role:AUT>Michael Fischer</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.039.04.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.1.briggs">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.1.briggs"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.1.briggs"/>
-		<dc:title>The Sports of Cruelty: Fairies, Folk-songs, Charms, and Other Country Matters in the Work of William Blake by John Adlard</dc:title>
+		<dc:title>The Sports of Cruelty: Fairies, Folk-songs, Charms, and Other Country
+Matters in the Work of William Blake by John Adlard</dc:title>
 		<role:AUT>Katharine M. Briggs</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.01.bqscan.thumb.png"/>

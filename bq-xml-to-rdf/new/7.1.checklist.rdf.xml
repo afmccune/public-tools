@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.1.checklist">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.1.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.1.checklist"/>
-		<dc:title>A Checklist of Recent Blake Scholarship, August 1972-September 1973</dc:title>
+		<dc:title>A Checklist of Recent Blake Scholarship, August 1972-September
+1973</dc:title>
 		<role:AUT>Gregory Candela</role:AUT>
 		<role:AUT>Marta Field</role:AUT>
 		<role:AUT>Foster Foreman</role:AUT>

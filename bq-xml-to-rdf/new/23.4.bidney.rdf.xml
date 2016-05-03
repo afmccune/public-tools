@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.4.bidney">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.4.bidney"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.4.bidney"/>
-		<dc:title>Urizen and Orc, Cortés and Guatimozin: Mexican History and The Four Zoas VII</dc:title>
+		<dc:title>Urizen and Orc, Cortés and Guatimozin: Mexican History and The Four Zoas
+VII</dc:title>
 		<role:AUT>Martin Bidney</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.04.bqscan.thumb.png"/>

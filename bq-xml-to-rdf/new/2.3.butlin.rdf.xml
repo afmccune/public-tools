@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.3.butlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.3.butlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.3.butlin"/>
-		<dc:title>William Rossetti’s Annotations to Gilchrist’s Life of William Blake</dc:title>
+		<dc:title>William Rossetti’s Annotations to Gilchrist’s Life of William
+Blake</dc:title>
 		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.03.bqscan.thumb.png"/>

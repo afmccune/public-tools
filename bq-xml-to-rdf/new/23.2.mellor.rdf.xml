@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.2.mellor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.2.mellor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.2.mellor"/>
-		<dc:title>Dan Miller, Mark Bracher, and Donald Ault, eds., Critical Paths: Blake and the Argument of Method</dc:title>
+		<dc:title>Dan Miller, Mark Bracher, and Donald Ault, eds., Critical Paths: Blake and the
+Argument of Method</dc:title>
 		<role:AUT>Anne K. Mellor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.02.bqscan.thumb.png"/>

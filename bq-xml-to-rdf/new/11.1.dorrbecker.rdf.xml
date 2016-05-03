@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.1.dorrbecker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.1.dorrbecker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.1.dorrbecker"/>
-		<dc:title>Blake Goes German: A Critical Review of Exhibitions in Hamburg and Frankfurt 1975</dc:title>
+		<dc:title>Blake Goes German: A Critical Review of Exhibitions in Hamburg and
+Frankfurt 1975</dc:title>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.01.bqscan.thumb.png"/>

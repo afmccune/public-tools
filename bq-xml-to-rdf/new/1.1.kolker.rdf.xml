@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/1.1.kolker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/1.1.kolker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.1.kolker"/>
-		<dc:title>Blake’s parody of a couplet from Dryden’s Absalom and Achitophel</dc:title>
+		<dc:title>Blake’s parody of a couplet from Dryden’s Absalom and
+Achitophel</dc:title>
 		<role:AUT>Robert P. Kolker</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.01.bqscan.thumb.png"/>

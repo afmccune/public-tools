@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.1.guardian">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.1.guardian"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.1.guardian"/>
-		<dc:title>The Guardian on the transformation of no. 17 South Molton Street to a betting shop</dc:title>
+		<dc:title>The Guardian on the transformation of no. 17 South Molton Street to a
+betting shop</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>
 		<dc:date>

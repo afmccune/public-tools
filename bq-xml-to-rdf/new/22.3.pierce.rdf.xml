@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.3.pierce">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.3.pierce"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.3.pierce"/>
-		<dc:title>The Shifting Characterization of Tharmas and Enion in Pages 3-7 of Blake’s Vala or The Four Zoas</dc:title>
+		<dc:title>The Shifting Characterization of Tharmas and Enion in Pages 3-7 of Blake’s
+Vala or The Four Zoas</dc:title>
 		<role:AUT>John B. Pierce</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.03.bqscan.thumb.png"/>

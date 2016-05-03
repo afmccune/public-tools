@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.3.miller">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.3.miller"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.3.miller"/>
-		<dc:title>Nelson Hilton and Thomas A. Vogler, eds. Unnam’d Forms: Blake and Textuality</dc:title>
+		<dc:title>Nelson Hilton and Thomas A. Vogler, eds. Unnam’d Forms: Blake and
+Textuality</dc:title>
 		<role:AUT>Dan Miller</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.03.bqscan.thumb.png"/>

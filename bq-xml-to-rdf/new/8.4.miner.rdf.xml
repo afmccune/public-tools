@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.miner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.miner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.miner"/>
-		<dc:title>Morton D. Paley and Michael Phillips, eds., William Blake: Essays in Honour of Sir Geoffrey Keynes, and Geoffrey Keynes, Blake Studies, 2nd ed.</dc:title>
+		<dc:title>Morton D. Paley and Michael Phillips, eds., William Blake: Essays in Honour of
+Sir Geoffrey Keynes, and Geoffrey Keynes, Blake Studies, 2nd ed.</dc:title>
 		<role:AUT>Paul Miner</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

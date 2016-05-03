@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.1.behrendt">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.1.behrendt"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.1.behrendt"/>
-		<dc:title>Gerda S. Norvig, Dark Figures in the Desired Country: Blake’s Illustrations to The Pilgrim’s Progress</dc:title>
+		<dc:title>Gerda S. Norvig, Dark Figures in the Desired Country: Blake’s Illustrations to
+The Pilgrim’s Progress</dc:title>
 		<role:AUT>Stephen C. Behrendt</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.01.bqscan.thumb.png"/>

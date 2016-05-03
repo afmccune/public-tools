@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.2.minnick"/>
 		<dc:title>Recent Blake Scholarship 1976-1977</dc:title>
 		<role:AUT>Thomas L. Minnick</role:AUT>
-		<role:AUT>Detlef W. Doerrbecker</role:AUT>
+		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.02.bqscan.thumb.png"/>
 		<dc:date>

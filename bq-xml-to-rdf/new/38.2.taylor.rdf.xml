@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.2.taylor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.2.taylor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.2.taylor"/>
-		<dc:title>Sheila A. Spector, “Wonders Divine”: The Development of Blake’s Kabbalistic Myth</dc:title>
+		<dc:title>Sheila A. Spector, “Wonders Divine”: The Development of Blake’s Kabbalistic
+Myth</dc:title>
 		<role:AUT>Dena Bain Taylor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.038.02.bqscan.thumb.png"/>

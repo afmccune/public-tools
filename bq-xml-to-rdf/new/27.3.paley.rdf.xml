@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.3.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.3.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.3.paley"/>
-		<dc:title>Jon Mee, Dangerous Enthusiasm: William Blake and the Culture of Radicalism in the 1790s</dc:title>
+		<dc:title>Jon Mee, Dangerous Enthusiasm: William Blake and the Culture of Radicalism in the
+1790s</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.03.bqscan.thumb.png"/>

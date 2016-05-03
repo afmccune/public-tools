@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.2.mcgann">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.2.mcgann"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.2.mcgann"/>
-		<dc:title>Leslie Tannenbaum, Biblical Tradition in Blake’s Early Prophecies: The Great Code of Art</dc:title>
+		<dc:title>Leslie Tannenbaum, Biblical Tradition in Blake’s Early Prophecies: The Great
+Code of Art</dc:title>
 		<role:AUT>Jerome J. McGann</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.02.bqscan.thumb.png"/>

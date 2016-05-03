@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.2.bentley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.2.bentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.2.bentley"/>
-		<dc:title>Grave Indignities: Greed, Hucksterism, and Oblivion Blake’s Watercolors for Blair’s Grave</dc:title>
+		<dc:title>Grave Indignities: Greed, Hucksterism, and Oblivion Blake’s Watercolors for
+Blair’s Grave</dc:title>
 		<role:AUT>E. B. Bentley</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.02.bqscan.thumb.png"/>

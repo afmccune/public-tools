@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.4.weinglass">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.4.weinglass"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.4.weinglass"/>
-		<dc:title>Henry Fuseli’s Letter of Enquiry to Paris on Behalf of Mary Wollstonecraft’s Sister, Everina</dc:title>
+		<dc:title>Henry Fuseli’s Letter of Enquiry to Paris on Behalf of Mary Wollstonecraft’s
+Sister, Everina</dc:title>
 		<role:AUT>D. H. Weinglass</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.04.bqscan.thumb.png"/>

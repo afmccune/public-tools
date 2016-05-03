@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.essick"/>
-		<dc:title>What is the price of Experience do men buy it for a Song: Blake at Auction 1971</dc:title>
+		<dc:title>What is the price of Experience do men buy it for a Song: Blake at Auction
+1971</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>

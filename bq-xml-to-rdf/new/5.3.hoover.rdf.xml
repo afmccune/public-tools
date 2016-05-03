@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.hoover">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.hoover"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.hoover"/>
-		<dc:title>Fifty Additions to Blake Bibliography: Further Data for the Study of His Reputation in the Nineteenth Century</dc:title>
+		<dc:title>Fifty Additions to Blake Bibliography: Further Data for the Study of His
+Reputation in the Nineteenth Century</dc:title>
 		<role:AUT>Suzanne R. Hoover</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>

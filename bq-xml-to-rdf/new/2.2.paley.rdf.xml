@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.2.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.2.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.2.paley"/>
-		<dc:title>A Concordance to the Writings of William Blake, ed. David V. Erdman et al.</dc:title>
+		<dc:title>A Concordance to the Writings of William Blake, ed. David V. Erdman et
+al.</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.02.bqscan.thumb.png"/>

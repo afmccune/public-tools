@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.2.oskamp">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.oskamp"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.oskamp"/>
-		<dc:title>Bethlehem Hospital: William Blake in Hell, Opera by Huib Emmer and Ken Hollings</dc:title>
+		<dc:title>Bethlehem Hospital: William Blake in Hell, Opera by Huib Emmer and Ken
+Hollings</dc:title>
 		<role:AUT>Frits van der Waa</role:AUT>
 		<role:AUT>Jules van Lieshout</role:AUT>
 		<role:AUT>Jacqueline Oskamp</role:AUT>

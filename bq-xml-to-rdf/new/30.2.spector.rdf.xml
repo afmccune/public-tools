@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/30.2.spector">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/30.2.spector"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/30.2.spector"/>
-		<dc:title>Eugenie R. Freed, “A Portion of His Life”: William Blake’s Miltonic Vision of Woman</dc:title>
+		<dc:title>Eugenie R. Freed, “A Portion of His Life”: William Blake’s Miltonic Vision
+of Woman</dc:title>
 		<role:AUT>Sheila A. Spector</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.030.02.bqscan.thumb.png"/>

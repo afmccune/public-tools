@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.3.grant">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.3.grant"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.3.grant"/>
-		<dc:title>S. Foster Damon, A Blake Dictionary: The Ideas and Symbols of William Blake, with a new index by Morris Eaves</dc:title>
+		<dc:title>S. Foster Damon, A Blake Dictionary: The Ideas and Symbols of William Blake, with
+a new index by Morris Eaves</dc:title>
 		<role:AUT>John E. Grant</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.03.bqscan.thumb.png"/>

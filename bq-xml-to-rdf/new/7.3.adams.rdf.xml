@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.3.adams">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.3.adams"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.3.adams"/>
-		<dc:title>Curran and Wittreich, Blake’s Sublime Allegory: Essays on the Four Zoas, Milton, and Jerusalem</dc:title>
+		<dc:title>Curran and Wittreich, Blake’s Sublime Allegory: Essays on the Four
+Zoas, Milton, and Jerusalem</dc:title>
 		<role:AUT>Hazard Adams</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.03.bqscan.thumb.png"/>

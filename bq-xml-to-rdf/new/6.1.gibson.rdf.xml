@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.gibson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.gibson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.gibson"/>
-		<dc:title>William Blake and Henry Emlyn’s Proposition for a New Order in Architecture: A New Plate</dc:title>
+		<dc:title>William Blake and Henry Emlyn’s Proposition for a New Order in
+Architecture: A New Plate</dc:title>
 		<role:AUT>William A. Gibson</role:AUT>
 		<role:AUT>Thomas L. Minnick</role:AUT>
 		<collex:genre>Criticism</collex:genre>

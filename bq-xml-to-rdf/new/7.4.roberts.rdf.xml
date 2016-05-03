@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.4.roberts">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.4.roberts"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.4.roberts"/>
-		<dc:title>On Tame High Finishers of Paltry Harmonies: A Blake Music Review and Checklist</dc:title>
+		<dc:title>On Tame High Finishers of Paltry Harmonies: A Blake Music Review and
+Checklist</dc:title>
 		<role:AUT>Peter Roberts</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.04.bqscan.thumb.png"/>

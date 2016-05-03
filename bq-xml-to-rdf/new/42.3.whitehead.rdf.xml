@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/42.3.whitehead">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/42.3.whitehead"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/42.3.whitehead"/>
-		<dc:title>“this extraordinary performance”: William Blake’s Use of Gold and Silver in the Creation of His Paintings and Illuminated Books</dc:title>
+		<dc:title>“this extraordinary performance”: William Blake’s Use of Gold and Silver
+in the Creation of His Paintings and Illuminated Books</dc:title>
 		<role:AUT>Angus Whitehead</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.03.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.1.salemi">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.1.salemi"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.1.salemi"/>
-		<dc:title>Aquilino Sanchez Perez, Blake’s Graphic Work and the Emblematic Tradition</dc:title>
+		<dc:title>Aquilino Sanchez Perez, Blake’s Graphic Work and the Emblematic
+Tradition</dc:title>
 		<role:AUT>Joseph S. Salemi</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.01.bqscan.thumb.png"/>

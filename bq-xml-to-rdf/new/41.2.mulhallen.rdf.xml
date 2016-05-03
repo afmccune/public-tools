@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/41.2.mulhallen">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/41.2.mulhallen"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/41.2.mulhallen"/>
-		<dc:title>Folio Society Edition of Night Thoughts: The Poem by Edward Young Illustrated with Watercolours by William Blake</dc:title>
+		<dc:title>Folio Society Edition of Night Thoughts: The Poem by Edward Young Illustrated
+with Watercolours by William Blake</dc:title>
 		<role:AUT>Karen Mulhallen</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.041.02.bqscan.thumb.png"/>

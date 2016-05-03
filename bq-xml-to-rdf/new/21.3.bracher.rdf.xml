@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.3.bracher">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.3.bracher"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.3.bracher"/>
-		<dc:title>Terence Allan Hoagwood, Prophecy and the Philosophy of Mind: Traditions of Blake and Shelley</dc:title>
+		<dc:title>Terence Allan Hoagwood, Prophecy and the Philosophy of Mind: Traditions of Blake
+and Shelley</dc:title>
 		<role:AUT>Mark Bracher</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.03.bqscan.thumb.png"/>

@@ -35,6 +35,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.symposium"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.morgan"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.docudrama"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.sambos"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.paley"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.stratford"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.1.papers"/>

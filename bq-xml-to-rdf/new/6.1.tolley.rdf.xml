@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.tolley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.tolley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.tolley"/>
-		<dc:title>William Blake: A Complete Catalogue of the Works in the Tate Gallery by Martin Butlin, and on William Blake by Kathleen Raine</dc:title>
+		<dc:title>William Blake: A Complete Catalogue of the Works in the Tate Gallery by
+Martin Butlin, and on William Blake by Kathleen Raine</dc:title>
 		<role:AUT>Michael J. Tolley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.1.butlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.1.butlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.1.butlin"/>
-		<dc:title>A Concordance Between William Rossetti’s Annotated Lists, W. Graham Robertson’s Supplementary List, and Butlin’s Catalogue Numbers</dc:title>
+		<dc:title>A Concordance Between William Rossetti’s Annotated Lists, W. Graham
+Robertson’s Supplementary List, and Butlin’s Catalogue Numbers</dc:title>
 		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.01.bqscan.thumb.png"/>

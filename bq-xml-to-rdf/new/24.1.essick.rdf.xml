@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.1.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.1.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.1.essick"/>
-		<dc:title>Blake in the Marketplace, 1989, Including a Report on the Recently Discovered Blake-Varley Sketchbook</dc:title>
+		<dc:title>Blake in the Marketplace, 1989, Including a Report on the Recently Discovered
+Blake-Varley Sketchbook</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.01.bqscan.thumb.png"/>

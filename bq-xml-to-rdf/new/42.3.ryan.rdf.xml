@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/42.3.ryan">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/42.3.ryan"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/42.3.ryan"/>
-		<dc:title>Christopher Rowland, “Wheels within Wheels”: William Blake and the Ezekiel’s Merkabah in Text and Image</dc:title>
+		<dc:title>Christopher Rowland, “Wheels within Wheels”: William Blake and the
+Ezekiel’s Merkabah in Text and Image</dc:title>
 		<role:AUT>Robert M. Ryan</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.03.bqscan.thumb.png"/>

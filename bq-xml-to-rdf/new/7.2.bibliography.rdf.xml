@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.2.bibliography">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.2.bibliography"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.2.bibliography"/>
-		<dc:title>A Bibliography of Blake Scholarship in the United Kingdom, 1972-73</dc:title>
+		<dc:title>A Bibliography of Blake Scholarship in the United Kingdom,
+1972-73</dc:title>
 		<role:AUT>James B. Ferguson</role:AUT>
 		<role:AUT>Frank M. Parisi</role:AUT>
 		<role:AUT>Michael Phillips</role:AUT>

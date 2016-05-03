@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.3.frosch">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.3.frosch"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.3.frosch"/>
-		<dc:title>An Analogue to the “Greatest Men” Passage in The Marriage of Heaven and Hell</dc:title>
+		<dc:title>An Analogue to the “Greatest Men” Passage in The Marriage of Heaven and
+Hell</dc:title>
 		<role:AUT>Thomas R. Frosch</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.03.bqscan.thumb.png"/>

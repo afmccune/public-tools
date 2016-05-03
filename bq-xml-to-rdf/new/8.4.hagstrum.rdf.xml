@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.hagstrum">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.hagstrum"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.hagstrum"/>
-		<dc:title>Blake and Visionary Art and The Romantic Rebellion by Kenneth Clark, and British Romantic Art by Raymond Lister</dc:title>
+		<dc:title>Blake and Visionary Art and The Romantic Rebellion by Kenneth Clark, and British
+Romantic Art by Raymond Lister</dc:title>
 		<role:AUT>Jean H. Hagstrum</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

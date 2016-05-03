@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.3.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.3.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.3.paley"/>
-		<dc:title>The Tonner Collection Pamphlet by Martin Butlin and the Pickering Manuscript facsimile published by the Morgan Library</dc:title>
+		<dc:title>The Tonner Collection Pamphlet by Martin Butlin and the Pickering Manuscript
+facsimile published by the Morgan Library</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.03.bqscan.thumb.png"/>

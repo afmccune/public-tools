@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.1.eldridge">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.1.eldridge"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.1.eldridge"/>
-		<dc:title>Reply to Morris Eaves' Review of The Dick and Jane</dc:title>
+		<dc:title>Reply to Morris Eaves’ Review of The Dick and Jane</dc:title>
 		<role:AUT>Aethelred Eldridge</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.01.bqscan.thumb.png"/>

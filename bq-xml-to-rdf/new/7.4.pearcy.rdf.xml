@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.4.pearcy">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.4.pearcy"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.4.pearcy"/>
-		<dc:title>Blake’s Tyger and Richard Crashaw’s Paraphrase of Thomas of Celano’s Dies Irae</dc:title>
+		<dc:title>Blake’s Tyger and Richard Crashaw’s Paraphrase of Thomas of
+Celano’s Dies Irae</dc:title>
 		<role:AUT>Roy J. Pearcy</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.04.bqscan.thumb.png"/>

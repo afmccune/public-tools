@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.2.dramatic">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.2.dramatic"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.2.dramatic"/>
-		<dc:title>Blake’s Visionary Forms Dramatic, edited by David V. Erdman and John E. Grant</dc:title>
+		<dc:title>Blake’s Visionary Forms Dramatic, edited by David V. Erdman and John E.
+Grant</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.02.bqscan.thumb.png"/>
 		<dc:date>

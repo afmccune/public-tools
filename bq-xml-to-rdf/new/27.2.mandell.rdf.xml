@@ -9,7 +9,9 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.2.mandell">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.2.mandell"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.2.mandell"/>
-		<dc:title>Rehistoricizing Romantic Ideology: New Perspectives an Class and Gender Conflict, 1730-1800; Henry Abelove, The Evangelist of Desire: John Wesley and the Methodists; and Donna Landry, The Muses of Resistance: Laboring-Class Women’s Poetry in Britain, 1739-1796</dc:title>
+		<dc:title>Rehistoricizing Romantic Ideology: New Perspectives an Class and Gender Conflict,
+1730-1800; Henry Abelove, The Evangelist of Desire: John Wesley and the Methodists; and Donna Landry, The
+Muses of Resistance: Laboring-Class Women’s Poetry in Britain, 1739-1796</dc:title>
 		<role:AUT>Laura Mandell</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.02.bqscan.thumb.png"/>

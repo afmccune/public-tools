@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.3.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.3.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.3.essick"/>
-		<dc:title>A Finding List of Reproductions of Blake’s Art, addenda to part I, and part II</dc:title>
+		<dc:title>A Finding List of Reproductions of Blake’s Art, addenda to part I, and
+part II</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.03.bqscan.thumb.png"/>

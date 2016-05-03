@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.4.morkan">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.4.morkan"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.4.morkan"/>
-		<dc:title>Milton’s Eikonoklastes and Blake’s Mythic Geography: A Parallel</dc:title>
+		<dc:title>Milton’s Eikonoklastes and Blake’s Mythic Geography: A
+Parallel</dc:title>
 		<role:AUT>Joel Morkan</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.04.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.2.heppner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.2.heppner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.2.heppner"/>
-		<dc:title>The Woman Taken in Adultery: An Essay on Blake’s “Style of Designing”</dc:title>
+		<dc:title>The Woman Taken in Adultery: An Essay on Blake’s “Style of
+Designing”</dc:title>
 		<role:AUT>Christopher Heppner</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.02.bqscan.thumb.png"/>

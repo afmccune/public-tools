@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/36.2.butlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/36.2.butlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/36.2.butlin"/>
-		<dc:title>“Is This a Private War or Can Anyone Join In?”: A Plea for a Broader Look at Blake’s Color-Printing Techniques</dc:title>
+		<dc:title>“Is This a Private War or Can Anyone Join In?”: A Plea for a Broader Look
+at Blake’s Color-Printing Techniques</dc:title>
 		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.036.02.bqscan.thumb.png"/>

@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.3.ginsberg">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.3.ginsberg"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.3.ginsberg"/>
-		<dc:title>To Young or Old Listeners: Setting Blake’s Songs to Music, and a Commentary on the Songs</dc:title>
+		<dc:title>To Young or Old Listeners: Setting Blake’s Songs to Music, and a
+Commentary on the Songs</dc:title>
 		<role:AUT>Allen Ginsberg</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.03.bqscan.thumb.png"/>

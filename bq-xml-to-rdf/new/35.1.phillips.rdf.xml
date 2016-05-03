@@ -9,7 +9,9 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/35.1.phillips">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/35.1.phillips"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/35.1.phillips"/>
-		<dc:title>William Blake The Creation of the Songs From Manuscript to Illuminated Printing Corrigenda and a Note on the Publication of Gilbert Imlay’s A Topographical Description of the Western Territory of North America</dc:title>
+		<dc:title>William Blake The Creation of the Songs From Manuscript to Illuminated
+Printing Corrigenda and a Note on the Publication of Gilbert Imlay’s A Topographical Description of the
+Western Territory of North America</dc:title>
 		<role:AUT>Michael Phillips</role:AUT>
 		<collex:genre>Reference Works</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.035.01.bqscan.thumb.png"/>

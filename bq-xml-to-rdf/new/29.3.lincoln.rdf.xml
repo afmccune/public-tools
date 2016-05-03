@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.3.lincoln">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.3.lincoln"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.3.lincoln"/>
-		<dc:title>George Anthony Rosso, Jr., Blake’s Prophetic Workshop: A Study of The Four Zoas</dc:title>
+		<dc:title>George Anthony Rosso, Jr., Blake’s Prophetic Workshop: A Study of The Four
+Zoas</dc:title>
 		<role:AUT>Andrew Lincoln</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.03.bqscan.thumb.png"/>

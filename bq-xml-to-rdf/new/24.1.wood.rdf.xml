@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.1.wood">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.1.wood"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.1.wood"/>
-		<dc:title>A Caricature Source for One of Blake’s Illustrations to Hayley’s Ballads</dc:title>
+		<dc:title>A Caricature Source for One of Blake’s Illustrations to Hayley’s
+Ballads</dc:title>
 		<role:AUT>Marcus Wood</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.01.bqscan.thumb.png"/>

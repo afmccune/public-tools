@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.1.mulhallen">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.1.mulhallen"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.1.mulhallen"/>
-		<dc:title>Robert Essick and Jenijoy La Belle, eds., Night Thoughts on the Complaint and Consolation</dc:title>
+		<dc:title>Robert Essick and Jenijoy La Belle, eds., Night Thoughts on the Complaint
+and Consolation</dc:title>
 		<role:AUT>Karen Mulhallen</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.01.bqscan.thumb.png"/>

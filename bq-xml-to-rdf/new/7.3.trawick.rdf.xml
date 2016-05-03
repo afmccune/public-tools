@@ -9,7 +9,8 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/7.3.trawick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/7.3.trawick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/7.3.trawick"/>
-		<dc:title>Nature and Art in Milton: Afterthoughts on the 1973 MLA Seminar</dc:title>
+		<dc:title>Nature and Art in Milton: Afterthoughts on the 1973 MLA
+Seminar</dc:title>
 		<role:AUT>Leonard Trawick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.007.03.bqscan.thumb.png"/>
