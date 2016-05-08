@@ -29,18 +29,21 @@ $replace['<\/q>[\r\n]{1,}'] = '</q>'.$nl;
 $replace['[\r\n]{1,}[ ]{1,}[\r\n]{1,}'] = $nl;
 */
 //$replace['<q>(.*)([\r\n]{1,}[	 ]{0,})<note (.*)<\/note>(.*)<\/q>'] = '<q>$1$4</q>$2<note $3</note>';
-$replace['(<q>.*)([\r\n]{1,}[	 ]{0,}<note .*<\/note>)(.*<\/q>)'] = '$1$3$2';
 
 $replaceRepeat1 = array();
+$replaceRepeat1['(<q>.*<lb\/>.*)([\r\n]{1,}[	 ]{0,}<note .*<\/note>)([\r\n	 a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\)\[\]\/\.]{0,}<\/q>)'] = '$1$3$2';
 $replaceRepeat1['<q>(.*)[\r\n]{1,}(.*)<lb\/>(.*)<\/q>'] = '<q>$1 $2<lb/>$3</q>';
 $replaceRepeat1['<q>(.*)<lb\/>(.*)[\r\n]{1,}(.*)<\/q>'] = '<q>$1<lb/>$2 $3</q>';
 
 $replaceRepeat2 = array();
 //$replaceRepeat2['<q>(.*)<lb\/>(.*)<\/q>'] = '<q>$1<lb/>'.$nl.'$2</q>';
 $replaceRepeat2['<q>(.*)<lb\/>(.*)<\/q>'] = '<q>$1<lb/>'.$nl.'$2<lb/></q>'; // for some perverse reason this breaks without the second line break; fixed below
+$replaceRepeat2['<q>(.*)<lb\/>[\r\n]{1,}(.*)<\/q>'] = '<q>$1<lb/>'.$nl.'$2</q>';
 
 $replace2 = array();
-$replace2['<[<lb\/> \r\n]{4,}<\/q>'] = $nl.'</q>';
+$replace2['<q>[\r\n]{0,}(.*<lb\/>)'] = '<q>'.$nl.'$1';
+$replace2['[ ]{0,}<[<lb\/> \r\n]{4,}<\/q>'] = $nl.'</q>';
+$replace2['([\r\n])([ 	]{1,})([a-zA-Z].*)[\r\n]{1,]<\/q>'] = '$1$2$3'.$nl.'$2</q>';
 $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\)\[\]\/\.<>])'] = '<lb/>'.$nl.'$1';
 
 ?>
@@ -65,6 +68,7 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 							
+							/*
 							$fileParts = explode('.', $fn_t['fn']);
 							//$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 							$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
@@ -72,6 +76,7 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 							$fn_t['issueNum'] = $fileParts[1];
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							//$fn_t['fileSplit'] = $fileParts[2];
+							*/
 
 							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
@@ -80,7 +85,7 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 								$XMLstringNew = preg_replace("/".$key."/s", "".$value."", $XMLstringNew);
 							}
 							
-							for($i=0; $i<50; $i++) {
+							for($i=0; $i<20; $i++) {
 								foreach($replaceRepeat1 as $key => $value) {
 									$XMLstringNew = preg_replace("/".$key."/s", "".$value."", $XMLstringNew);
 								}
@@ -90,10 +95,12 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 							}
 							
 							foreach($replace2 as $key => $value) {
-								$XMLstringNew = preg_replace("/".$key."/s", "".$value."", $XMLstringNew);
+								$XMLstringNew = preg_replace("/".$key."/", "".$value."", $XMLstringNew);
 							}
 							
-							if($XMLstring !== $XMLstringNew) {
+							if ($XMLstringNew == '') {
+								echo '<p style="color: red;">'.$fn_t['fn'].': ERROR (blank)</p>';
+							} else if($XMLstring !== $XMLstringNew) {
 								file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
 								echo '<h4>Converted '.$fn_t['fn'].'</h4>';
 							} else {
