@@ -58,10 +58,13 @@
 				$headFix = preg_replace('/[,’” \r\n	]{0,}(p|n)(age[s]{0,}|ote)[ \r\n	]{0,}/', '|$1', $emendNoteSubheadings[$i]);
 				$splitHead = explode('|', $headFix);
 				$splitHead[0] = mb_ereg_replace('^(“[ ‘]{0,2}|Review of )', '', $splitHead[0]);
-				$emendNoteTextTitles[$i] = ($splitHead[0] == '') ? '' : $splitHead[0];
-				$emendNoteTextTargets[$i] = ($splitHead[1] == '') ? '' : $splitHead[1];
-				//echo "<p>".$splitHead[0]."|".$splitHead[1]."</p>";
+				$emendNoteTextTitles[$i] = ($splitHead[0] !== '') ? $splitHead[0] : '';
+				$emendNoteTextTargets[$i] = ($splitHead[1] !== '') ? $splitHead[1] : '';
+				//echo "<p>".$headFix." => ".$splitHead[0]."|".$splitHead[1]."</p>";
 			}
+			
+			
+			// check pages/notes against text
 			
 			$emendNoteTargets = $emendXML->xpath('//p/ref[1]/@target'); // array
 			$emendNoteTargetsStr = array();
@@ -77,8 +80,10 @@
 				}
 			}
 			
-			/*
-			$emendNoteDocs = $emendXML->xpath('//p/ref[1]/@issue'); // array
+			
+			// get titles from individual docs (XML files)
+			
+			$emendNoteDocs = $emendXML->xpath('//p/ref[1][@target]/@issue'); // array
 			$emendNoteDocsStr = array();
 			
 			foreach($emendNoteDocs as $note) {
@@ -86,35 +91,62 @@
 				$emendNoteDocsStr[] = $noteArr['@attributes']['issue'];
 			}
 			
-			$emendNoteDocsUnique = array_unique($emendNoteDocsStr);
-			$emendNotesByDoc = array();
-			
-			foreach($emendNoteDocsUnique as $item) {
-				$emendNotesByDoc[$item] = 0;
-			}
-			
-			foreach($emendNoteDocsStr as $note) {
-				$emendNotesByDoc[$note] = $emendNotesByDoc[$note] + 1;
-			}
-			
-			$keys = array_merge (array_keys($docs), array_keys($emendNotesByDoc));
-			$keys = array_unique($keys);
-			sort($keys);
-			foreach($keys as $k) {
-				$emend = (array_key_exists($k, $docs)) ? $docs[$k]['emends'] : 0;
-				$note = (array_key_exists($k, $emendNotesByDoc)) ? $emendNotesByDoc[$k] : 0;
-				if($emend == $note && $emend != 0) {
-					//echo '<p>'.$k.': '.$emend.' emendation(s), '.$note.' note(s)</p>';
+			$emendNoteTitles = array();
+
+			for($i=0; $i<count($emendNoteDocsStr); $i++) {
+				if(($emendNoteDocsStr[$i] < '45.1' || $emendNoteDocsStr[$i] > '49.1') && !preg_match('/bonus/', $emendNoteDocsStr[$i])) {
+					$FullXML = simplexml_load_file('../../bq/docs/'.$emendNoteDocsStr[$i].'.xml'); 
+					$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
+					$emendNoteTitles[$i] = $XMLtitle[0];
 				} else {
-					echo '<h4>'.$k.': '.$emend.' emendation(s), '.$note.' note(s)';
-					if($note > $emend) {
-						echo '*';
-					}
-					echo '</h4>';
+					$emendNoteTitles[$i] = '';
+					//$emendNoteDocsStr[$i] = '';
+					//unset($emendNoteDocsStr[$i]);
 				}
 			}
+			
+			// compare emendation note titles to doc titles
+			
+			/*
+			$numTextTitles = count($emendNoteTextTitles);
+			$numDocTitles = count($emendNoteTitles);
+			$titleDiff = $numTextTitles-$numDocTitles;
+			echo '<h4>'.$numTextTitles.'-'.$numDocTitles.' = '.$titleDiff.' [docs: '.count($emendNoteDocsStr).']</h4>';
+			
+			echo "<table>";
+			for($i=0; $i<count($emendNoteTextTitles); $i++) {
+				echo "<tr><td>".$emendNoteTextTitles[$i]."</td><td>".$emendNoteTitles[$i]."</td><td>".$emendNoteDocsStr[$i]."</td></tr>";
+			}
+			echo "</table>";
 			*/
 			
+			for($i=0; $i<count($emendNoteTextTitles); $i++) {
+				//$emendNoteTitles[$i] vs. $emendNoteTextTitles[$i]
+				$textTitle = preg_replace('/[\r\n	 ]{1,}/', ' ', $emendNoteTextTitles[$i]);
+				$textTitle = str_replace(',', '', $textTitle);
+				$textTitle = str_replace(';', '', $textTitle);
+				$textTitle = str_replace(':', '', $textTitle);
+				$textTitle = str_replace('?', '', $textTitle);
+				$textTitle = str_replace('“', '', $textTitle);
+				$textTitle = str_replace('”', '', $textTitle);
+				$textTitle = str_replace('(', '', $textTitle);
+				$textTitle = str_replace(')', '', $textTitle);
+				$textTitle = str_replace('’s ', ' ', $textTitle);
+				$textTitle = str_replace('‘', '', $textTitle);
+				$textTitle = str_replace('’ ', ' ', $textTitle);
+				$textTitle = preg_replace('/’$/', '', $textTitle);
+				$textTitle = preg_replace('/edition (of |by )?/', '', $textTitle);
+				$textTitle = str_replace('edited by ', '', $textTitle);
+				$textTitle = str_replace(' and ', ' ', $textTitle);
+				$textTitleWords = (strstr($textTitle, ' ') === false) ? array($textTitle) : explode(' ', $textTitle);
+				foreach($textTitleWords as $word) {
+					//if (strpos($a, 'are') !== false) {
+					if(!preg_match('/'.preg_quote($word, '/').'/i', $emendNoteTitles[$i])) {
+						echo "<p>Word (".$word.") in emendation note title (".$emendNoteTextTitles[$i].") does not match doc title (".$emendNoteTitles[$i].")</p>";
+					}
+				}
+			}
+						
 			?>
 							
 						</div> <!-- #articles-reviews-index -->
