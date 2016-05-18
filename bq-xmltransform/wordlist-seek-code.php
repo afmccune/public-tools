@@ -9,7 +9,8 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = $nl."[.]{200,}".$nl;
+$seekStr = ']“
+[”';
 
 $seek = explode($nl, $seekStr);
 ?>
