@@ -28,7 +28,7 @@ $nl = "
 						//if (preg_match('/4[3-4].[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 						//if (preg_match('/.xml/', $fn->getFilename())) {
 						//if (preg_match('/^[1-4]{0,1}[0-9]\.[0-9]{1}[-a-z0-9]{0,3}\.[-a-z0-9]{1,20}\.xml$/', $fn->getFilename())) {
-						if (preg_match('/^[4-9]\.[0-9]{1}[-a-z0-9]{0,3}\.[-a-z0-9]{1,20}\.xml$/', $fn->getFilename())) {
+						if (preg_match('/^[7-9]\.[0-9]{1}[-a-z0-9]{0,3}\.[-a-z0-9]{1,20}\.xml$/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 							
