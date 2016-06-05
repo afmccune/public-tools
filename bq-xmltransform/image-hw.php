@@ -33,6 +33,60 @@ function url_exists($url){
 	}
 }
 
+function newWH($src, $rend, $w, $h) {
+	global $base_path;
+	global $base_url_local;
+	
+	if($src == '') {
+		return array('', '');
+	} else {
+		$maxWidth = ($w == '') ? 958 : $w;
+		$maxHeight = ($h == '') ? 1000 : $h;
+
+		$fullSrc = '';
+		
+		if($rend=='db') {
+			$fullSrc = 'http://www.blakearchive.org/blake/images/'.$src.'.300.jpg';
+		} else if (strpos($src, 'bqscan') !== false) {
+			$fullSrc = '../../bq/img/illustrations/'.$src.'.png';
+		} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
+			$fullSrc = '../../bq/img/illustrations/'.$src.'.jpg';
+		} else {
+			$fullSrc = '../../bq/img/illustrations/'.$src.'.300.jpg';
+		}
+	
+		$imageinfo = getimagesize($fullSrc);
+		
+		if($imageinfo) {
+			$ix=$imageinfo[0];
+			$iy=$imageinfo[1];
+			
+			$return = resize_dimensions($maxWidth,$maxHeight,$ix,$iy);
+	
+			return $return;
+		} else {
+			return array('', '');
+		}
+	}
+}
+
+function resize_dimensions($goal_width,$goal_height,$width,$height) { 
+    $return = array('width' => $width, 'height' => $height); 
+    
+    // If the ratio > goal ratio and the width > goal width resize down to goal width 
+    if ($width/$height > $goal_width/$goal_height && $width > $goal_width) { 
+        $return['width'] = $goal_width; 
+        $return['height'] = $goal_width/$width * $height; 
+    } 
+    // Otherwise, if the height > goal, resize down to goal height 
+    else if ($height > $goal_height) { 
+        $return['width'] = $goal_height/$height * $width; 
+        $return['height'] = $goal_height; 
+    } 
+    
+    return $return; 
+}
+
 $replace = array();
 $replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height=""$3>';
 $replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height=""$4>';
@@ -51,7 +105,7 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>Set image display dimensions based on image file dimensions</h1>
-							<p>(Use image-std.php first to standardize format of figure tags.)</p>
+							<p><strong>(Use image-std.php first to standardize format of figure tags.)</strong></p>
 						</div>
 					</div>
 					<div id="main">
@@ -98,9 +152,25 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) && (count($fn_t['height']) == count($fn_t['id'])) && (count($fn_t['id']) == count($fn_t['type'])) ) {
 						// fine
 						for($i=0; $i<count($fn_t['src']); $i++) {
-							$newWidth = $fn_t['width'][$i];
-							$newHeight = $fn_t['height'][$i];
-							$XMLstringNew = preg_replace('/<figure n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'" width="'.$fn_t['width'][$i].'" height="'.$fn_t['height'][$i].'" ([\/]{0,})>/', '<figure n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'" width="'.$newWidth.'" height="'.$newHeight.'" $1>', $XMLstringNew);
+							//$newWidth = $fn_t['width'][$i];
+							//$newHeight = $fn_t['height'][$i];
+							list($newWidth, $newHeight) = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i]);
+							/*
+							$srcCode = ($fn_t['src'][$i] == '') ? '' : ' n="'.$fn_t['src'][$i].'"';
+							$idCode = ($fn_t['id'][$i] == '') ? '' : ' id="'.$fn_t['id'][$i].'"';
+							$rendCode = ($fn_t['rend'][$i] == '') ? '' : ' id="'.$fn_t['rend'][$i].'"';
+							$typeCode = ($fn_t['type'][$i] == '') ? '' : ' id="'.$fn_t['type'][$i].'"';
+							$oldWidthCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['width'][$i].'"';
+							$oldHeightCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['height'][$i].'"';
+							*/
+							$srcCode = ' n="'.$fn_t['src'][$i].'"';
+							$idCode = ' id="'.$fn_t['id'][$i].'"';
+							$rendCode = ' rend="'.$fn_t['rend'][$i].'"';
+							$typeCode = ' type="'.$fn_t['type'][$i].'"';
+							$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
+							$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
+
+							$XMLstringNew = preg_replace('/<figure'.$srcCode.$idCode.$rendCode.$typeCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$srcCode.$idCode.$rendCode.$typeCode.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
 						}
 						$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
 						$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
