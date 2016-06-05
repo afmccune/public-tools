@@ -7,7 +7,10 @@ $nl = "
 ";
 
 $replace = array();
-$replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛¼½¾⅞]{1,})"'] = '$1“$2”'; //
+$replace['([a-zA-Z0-9-\.,\)\/”;:\?]) <pb '] = '$1 '.$nl.'<pb ';
+$replace['(<pb id="p[0-9-]{3,}" n="[0-9-]{1,}"\/>) ([a-zA-Z0-9“\(])'] = '$1'.$nl.'$2';
+$replace['><figure'] = '>'.$nl.'<figure';
+//$replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛¼½¾⅞]{1,})"'] = '$1“$2”'; //
 //$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
 
 
@@ -48,9 +51,11 @@ $replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛
 								$XMLstringNew = preg_replace("/".$key."/", "".$value."", $XMLstringNew);
 							}
 							
-							if($XMLstring !== $XMLstringNew) {
+							if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') {
 								file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
 								echo '<h4>Converted '.$fn_t['fn'].'</h4>';
+							} else if ($XMLstringNew == '') {
+								echo '<p style="color: red;">ERROR: transformed '.$fn_t['fn'].' is blank.</p>';
 							} else {
 								echo '<p>'.$fn_t['fn'].': no change</p>';
 							}

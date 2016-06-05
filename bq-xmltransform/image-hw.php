@@ -34,18 +34,13 @@ function url_exists($url){
 }
 
 $replace = array();
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" width="0" height="0" $3>';
-$replace['<figure[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$2" rend="$1" width="0" height="0" $3>';
-$replace['<figure[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$2" rend="$1" width="$3" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" width="$3" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}height="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" width="0" height="$3" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}type="reviewed-cover"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" type="reviewed-cover" width="$3" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$3" id="$2" width="0" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" id="$3" width="0" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$2" rend="$3" id="$1" width="0" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$3" rend="$2" id="$1" width="0" height="0" $4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$3" id="$2" width="$4" height="0" $5>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([\/]{0,1})>'] = '<figure n="$1" rend="$2" id="$3" width="$4" height="0" $5>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height=""$3>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height=""$4>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}height="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height="$3"$4>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}type="reviewed-cover"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height=""$4>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="" height=""$4>';
+$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height=""$5>';
+$replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="" id="" rend="" type="$1" width="" height=""$2>';
 
 ?>
 	<body>
@@ -56,6 +51,7 @@ $replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>Set image display dimensions based on image file dimensions</h1>
+							<p>(Use image-std.php first to standardize format of figure tags.)</p>
 						</div>
 					</div>
 					<div id="main">
@@ -94,15 +90,28 @@ $replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|
 					$fn_t['rend'] = $FullXML->xpath('//text//figure/@rend'); // array
 					$fn_t['width'] = $FullXML->xpath('//text//figure/@width'); // array
 					$fn_t['height'] = $FullXML->xpath('//text//figure/@height'); // array
+					$fn_t['id'] = $FullXML->xpath('//text//figure/@id'); // array
+					$fn_t['type'] = $FullXML->xpath('//text//figure/@type'); // array
 
 					$errors = false;
 
-					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) ) {
+					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) && (count($fn_t['height']) == count($fn_t['id'])) && (count($fn_t['id']) == count($fn_t['type'])) ) {
 						// fine
+						for($i=0; $i<count($fn_t['src']); $i++) {
+							$newWidth = $fn_t['width'][$i];
+							$newHeight = $fn_t['height'][$i];
+							$XMLstringNew = preg_replace('/<figure n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'" width="'.$fn_t['width'][$i].'" height="'.$fn_t['height'][$i].'" ([\/]{0,})>/', '<figure n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'" width="'.$newWidth.'" height="'.$newHeight.'" $1>', $XMLstringNew);
+						}
+						$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
+						$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
+						$XMLstringNew = str_replace(' width=""', '', $XMLstringNew);
+						$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
+						$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
+						$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
 					} else {
 						$errors = true;
-						echo '<p style="color: red;">ERROR: '.$fn_t['fn'].': unequal numbers of src/rend/width/height</p>';
-					}
+						echo '<p style="color: red;">ERROR: '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src']).')/rend('.count($fn_t['rend']).')/width('.count($fn_t['width']).')/height('.count($fn_t['height']).')/id('.count($fn_t['id']).')/type('.count($fn_t['type']).')</p>';
+					}				
 
 					if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') { // && $errors == false
 						file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
