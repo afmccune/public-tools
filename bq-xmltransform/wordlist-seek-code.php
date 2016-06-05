@@ -9,10 +9,10 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = ']“
-[”';
+$seekStr = '';
 
 $seek = explode($nl, $seekStr);
+//$seek = array($seekStr);
 ?>
 	<body>
         <div id="outer">
