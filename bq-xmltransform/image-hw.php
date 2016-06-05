@@ -62,7 +62,7 @@ function newWH($src, $rend, $w, $h) {
 			$iy=$imageinfo[1];
 			
 			$return = resize_dimensions($maxWidth,$maxHeight,$ix,$iy);
-	
+			
 			return $return;
 		} else {
 			return array('', '');
@@ -70,17 +70,17 @@ function newWH($src, $rend, $w, $h) {
 	}
 }
 
-function resize_dimensions($goal_width,$goal_height,$width,$height) { 
+function resize_dimensions($goal_width,$goal_height,$width,$height) {
     $return = array('width' => $width, 'height' => $height); 
     
     // If the ratio > goal ratio and the width > goal width resize down to goal width 
     if ($width/$height > $goal_width/$goal_height && $width > $goal_width) { 
         $return['width'] = $goal_width; 
-        $return['height'] = $goal_width/$width * $height; 
+        $return['height'] = ceil($goal_width/$width * $height); 
     } 
     // Otherwise, if the height > goal, resize down to goal height 
     else if ($height > $goal_height) { 
-        $return['width'] = $goal_height/$height * $width; 
+        $return['width'] = ceil($goal_height/$height * $width); 
         $return['height'] = $goal_height; 
     } 
     
@@ -112,24 +112,10 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 						<div id="articles-reviews-index">
 			<?php
 				
-			//$docsXml = array();
-			
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
-					
-					/*
-					$fileParts = explode('.', $fn_t['fn']);
-					//$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
-					$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
-					$fn_t['volNum'] = $fileParts[0];
-					$fn_t['issueNum'] = $fileParts[1];
-					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
-					$fn_t['fileSplit'] = $fileParts[2];
-					
-					$FullXML = simplexml_load_file($base_path.'docs/'.$fn_t['fn']);
-					*/
 					
 					$XMLstring = file_get_contents($base_path.'docs/'.$fn_t['fn']);
 					$XMLstringNew = $XMLstring;
@@ -147,30 +133,35 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					$fn_t['id'] = $FullXML->xpath('//text//figure/@id'); // array
 					$fn_t['type'] = $FullXML->xpath('//text//figure/@type'); // array
 
+					$fn_t['coverSrc'] = $FullXML->xpath('//text//div1[@id="cover"]//figure/@n'); // array
+
 					$errors = false;
 
 					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) && (count($fn_t['height']) == count($fn_t['id'])) && (count($fn_t['id']) == count($fn_t['type'])) ) {
 						// fine
 						for($i=0; $i<count($fn_t['src']); $i++) {
-							//$newWidth = $fn_t['width'][$i];
-							//$newHeight = $fn_t['height'][$i];
-							list($newWidth, $newHeight) = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i]);
-							/*
-							$srcCode = ($fn_t['src'][$i] == '') ? '' : ' n="'.$fn_t['src'][$i].'"';
-							$idCode = ($fn_t['id'][$i] == '') ? '' : ' id="'.$fn_t['id'][$i].'"';
-							$rendCode = ($fn_t['rend'][$i] == '') ? '' : ' id="'.$fn_t['rend'][$i].'"';
-							$typeCode = ($fn_t['type'][$i] == '') ? '' : ' id="'.$fn_t['type'][$i].'"';
-							$oldWidthCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['width'][$i].'"';
-							$oldHeightCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['height'][$i].'"';
-							*/
-							$srcCode = ' n="'.$fn_t['src'][$i].'"';
-							$idCode = ' id="'.$fn_t['id'][$i].'"';
-							$rendCode = ' rend="'.$fn_t['rend'][$i].'"';
-							$typeCode = ' type="'.$fn_t['type'][$i].'"';
-							$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
-							$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
+							//if(count($fn_t['coverSrc']) < 1 || $fn_t['src'][$i] !== $fn_t['coverSrc'][0]) { // this weirdly DOES NOT WORK
+								//print('<p>"'.$fn_t['src'][$i].'" !== "'.$fn_t['coverSrc'][0].'"</p>'); // literally says: "cover.001.01.bqscan" !== "cover.001.01.bqscan"
+								$wh = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i]);
+								$newWidth = $wh['width'];
+								$newHeight = $wh['height'];
+								/*
+								$srcCode = ($fn_t['src'][$i] == '') ? '' : ' n="'.$fn_t['src'][$i].'"';
+								$idCode = ($fn_t['id'][$i] == '') ? '' : ' id="'.$fn_t['id'][$i].'"';
+								$rendCode = ($fn_t['rend'][$i] == '') ? '' : ' id="'.$fn_t['rend'][$i].'"';
+								$typeCode = ($fn_t['type'][$i] == '') ? '' : ' id="'.$fn_t['type'][$i].'"';
+								$oldWidthCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['width'][$i].'"';
+								$oldHeightCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['height'][$i].'"';
+								*/
+								$srcCode = ' n="'.$fn_t['src'][$i].'"';
+								$idCode = ' id="'.$fn_t['id'][$i].'"';
+								$rendCode = ' rend="'.$fn_t['rend'][$i].'"';
+								$typeCode = ' type="'.$fn_t['type'][$i].'"';
+								$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
+								$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
 
-							$XMLstringNew = preg_replace('/<figure'.$srcCode.$idCode.$rendCode.$typeCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$srcCode.$idCode.$rendCode.$typeCode.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
+								$XMLstringNew = preg_replace('/<figure'.$srcCode.$idCode.$rendCode.$typeCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$srcCode.$idCode.$rendCode.$typeCode.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
+							//}
 						}
 						$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
 						$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
@@ -193,55 +184,9 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					
 					
 
-					/*
-					
-					$fn_t['src'] = $FullXML->xpath('//text//figure/@n'); // array
-										
-					$fn_t['errors'] = array();
-
-					if(count($fn_t['src']) > 0) {
-						foreach($fn_t['src'] as $src) {
-							if(strpos($src, 'http://') === false) {
-								$srcFull = $base_path.$src;
-								$srcLocalLink = $base_url_local.$src;
-								if(file_exists($srcFull)) {
-									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
-								} else {
-									$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a>';
-									$numMissing = $numMissing + 1;
-									$missingByDecade[$decade] = $missingByDecade[$decade] + 1;
-								}
-							} else {
-								$srcFull = $src;
-								if(url_exists($srcFull)) {
-									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcFull.'">'.$srcFull.'</a></p>';
-								} else {
-									$fn_t['errors'][] = 'Missing image: <a href="'.$srcFull.'">'.$srcFull.'</a>';
-								}
-							}
-							
-						}
-					} else {
-						//echo '<p>'.$fn_t['file'].': No images.</p>';
-					}
-					*/
-
-					//$docsXml[] = $fn_t;
-	
 					
 				}
 			}
-			
-			/*			
-			for ($i=0; $i<count($docsXml); $i++) {
-				if(count($docsXml[$i]['errors']) > 0) {
-					print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
-					foreach($docsXml[$i]['errors'] as $error) {
-						print '<p>'.$error.'</p>';
-					}
-				}
-			}
-			*/
 			
 			?>
 							
