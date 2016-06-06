@@ -33,7 +33,7 @@ function url_exists($url){
 	}
 }
 
-function newWH($src, $rend, $w, $h) {
+function newWH($src, $rend, $w, $h, $isCover) {
 	global $base_path;
 	global $base_url_local;
 	
@@ -42,6 +42,11 @@ function newWH($src, $rend, $w, $h) {
 	} else {
 		$maxWidth = ($w == '') ? 958 : $w;
 		$maxHeight = ($h == '') ? 1000 : $h;
+		
+		if($isCover) {
+			$maxWidth = 258;
+			$maxHeight = 500;
+		}
 
 		$fullSrc = '';
 		
@@ -113,8 +118,8 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 			<?php
 				
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				//if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
-				if (preg_match('/10.1.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				//if (preg_match('/10.1.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 					
@@ -144,49 +149,34 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) && (count($fn_t['height']) == count($fn_t['id'])) && (count($fn_t['id']) == count($fn_t['type'])) ) {
 						// fine
 						for($i=0; $i<count($fn_t['src']); $i++) {
-							//if(count($fn_t['coverSrc']) < 1 || (string)$fn_t['src'][$i] !== (string)$fn_t['coverSrc'][0]) { // this weirdly DOES NOT WORK
-							if(count($fn_t['cover']) < 1 || $i > 0) {
-								//print('<p>"'.$fn_t['src'][$i].'" !== "'.$fn_t['coverSrc'][0].'"</p>'); // literally says: "cover.001.01.bqscan" !== "cover.001.01.bqscan"
-								/*
-								if((string)$fn_t['src'][$i] !== (string)$fn_t['coverSrc'][0]) {
-									print('<p style="color: red;">');
-									print_r($fn_t['src']);
-									print('</p><p style="color: green;">');
-									print_r($fn_t['src']);
-									print('</p>');
-								}
-								*/
-								$wh = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i]);
+							if($fn_t['width'][$i] > 958) {
+								'<p style="color: red;">ERROR: '.$fn_t['fn'].': '.$fn_t['src'][$i].' set to width of '.$fn_t['width'][$i].'</p>';
+							}
+							if($fn_t['width'][$i] == '' || $fn_t['width'][$i] == '') {
+								$isCover = (count($fn_t['cover']) < 1 || $i > 0) ? false : true;
+								
+								$wh = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i], $isCover);
 								$newWidth = $wh['width'];
 								$newHeight = $wh['height'];
-								/*
-								$srcCode = ($fn_t['src'][$i] == '') ? '' : ' n="'.$fn_t['src'][$i].'"';
-								$idCode = ($fn_t['id'][$i] == '') ? '' : ' id="'.$fn_t['id'][$i].'"';
-								$rendCode = ($fn_t['rend'][$i] == '') ? '' : ' id="'.$fn_t['rend'][$i].'"';
-								$typeCode = ($fn_t['type'][$i] == '') ? '' : ' id="'.$fn_t['type'][$i].'"';
-								$oldWidthCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['width'][$i].'"';
-								$oldHeightCode = ($fn_t['width'][$i] == '') ? '' : ' id="'.$fn_t['height'][$i].'"';
-								*/
-								$srcCode = ' n="'.$fn_t['src'][$i].'"';
-								$idCode = ' id="'.$fn_t['id'][$i].'"';
-								$rendCode = ' rend="'.$fn_t['rend'][$i].'"';
-								$typeCode = ' type="'.$fn_t['type'][$i].'"';
+
+								$code = ' n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
 								$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
 								$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
 
-								$XMLstringNew = preg_replace('/<figure'.$srcCode.$idCode.$rendCode.$typeCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$srcCode.$idCode.$rendCode.$typeCode.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
+								$XMLstringNew = preg_replace('/<figure'.$code.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$code.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
 							}
 						}
-						$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
-						$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
-						$XMLstringNew = str_replace(' width=""', '', $XMLstringNew);
-						$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
-						$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
-						$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
 					} else {
 						$errors = true;
 						echo '<p style="color: red;">ERROR: '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src']).')/rend('.count($fn_t['rend']).')/width('.count($fn_t['width']).')/height('.count($fn_t['height']).')/id('.count($fn_t['id']).')/type('.count($fn_t['type']).')</p>';
 					}				
+
+					$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' width=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
 
 					if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') { // && $errors == false
 						file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
