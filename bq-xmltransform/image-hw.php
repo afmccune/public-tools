@@ -113,7 +113,8 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 			<?php
 				
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				//if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/10.1.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 					
@@ -133,15 +134,28 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					$fn_t['id'] = $FullXML->xpath('//text//figure/@id'); // array
 					$fn_t['type'] = $FullXML->xpath('//text//figure/@type'); // array
 
-					$fn_t['coverSrc'] = $FullXML->xpath('//text//div1[@id="cover"]//figure/@n'); // array
+					$fn_t['cover'] = $FullXML->xpath('//text//div1[@id="cover"]'); // array
+					//$fn_t['coverSrc'] = $FullXML->xpath('//text//div1[@id="cover"]//figure/@n'); // array
+
+					//print('<p style="color: red;">'.count($fn_t['cover']).'</p>');
 
 					$errors = false;
 
 					if ( (count($fn_t['src']) == count($fn_t['rend'])) && (count($fn_t['rend']) == count($fn_t['width'])) && (count($fn_t['width']) == count($fn_t['height'])) && (count($fn_t['height']) == count($fn_t['id'])) && (count($fn_t['id']) == count($fn_t['type'])) ) {
 						// fine
 						for($i=0; $i<count($fn_t['src']); $i++) {
-							//if(count($fn_t['coverSrc']) < 1 || $fn_t['src'][$i] !== $fn_t['coverSrc'][0]) { // this weirdly DOES NOT WORK
+							//if(count($fn_t['coverSrc']) < 1 || (string)$fn_t['src'][$i] !== (string)$fn_t['coverSrc'][0]) { // this weirdly DOES NOT WORK
+							if(count($fn_t['cover']) < 1 || $i > 0) {
 								//print('<p>"'.$fn_t['src'][$i].'" !== "'.$fn_t['coverSrc'][0].'"</p>'); // literally says: "cover.001.01.bqscan" !== "cover.001.01.bqscan"
+								/*
+								if((string)$fn_t['src'][$i] !== (string)$fn_t['coverSrc'][0]) {
+									print('<p style="color: red;">');
+									print_r($fn_t['src']);
+									print('</p><p style="color: green;">');
+									print_r($fn_t['src']);
+									print('</p>');
+								}
+								*/
 								$wh = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i]);
 								$newWidth = $wh['width'];
 								$newHeight = $wh['height'];
@@ -161,7 +175,7 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 								$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
 
 								$XMLstringNew = preg_replace('/<figure'.$srcCode.$idCode.$rendCode.$typeCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$srcCode.$idCode.$rendCode.$typeCode.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
-							//}
+							}
 						}
 						$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
 						$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
