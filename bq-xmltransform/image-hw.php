@@ -70,7 +70,7 @@ function newWH($src, $rend, $w, $h, $isCover) {
 			
 			return $return;
 		} else {
-			return array('', '');
+			return array($w, $h);
 		}
 	}
 }
