@@ -38,7 +38,10 @@ function newWH($src, $rend, $w, $h, $isCover) {
 	global $base_url_local;
 	
 	if($src == '') {
-		return array('', '');
+		$return = array();
+		$return['width'] = $w; 
+		$return['height'] = $h; 
+		return $return;
 	} else {
 		$maxWidth = ($w == '') ? 958 : $w;
 		$maxHeight = ($h == '') ? 1000 : $h;
@@ -65,12 +68,16 @@ function newWH($src, $rend, $w, $h, $isCover) {
 		if($imageinfo) {
 			$ix=$imageinfo[0];
 			$iy=$imageinfo[1];
+			//echo '<p>'.$src.': '.$ix.' x '.$iy.'</p>';
 			
 			$return = resize_dimensions($maxWidth,$maxHeight,$ix,$iy);
 			
 			return $return;
 		} else {
-			return array($w, $h);
+			$return = array();
+			$return['width'] = $w; 
+        	$return['height'] = $h; 
+			return $return;
 		}
 	}
 }
