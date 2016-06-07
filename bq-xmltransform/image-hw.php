@@ -93,13 +93,16 @@ function resize_dimensions($goal_width,$goal_height,$width,$height) {
 }
 
 $replace = array();
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height=""$3>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height=""$4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}height="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height="$3"$4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}type="reviewed-cover"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height=""$4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="" height=""$4>';
-$replace['<figure[ 	\n\r]{1,}n="([a-zA-Z0-9-_\.\+]{1,})"[ 	\n\r]{1,}id="([a-zA-Z0-9-_\.]{1,})"[ 	\n\r]{1,}rend="(file|db)"[ 	\n\r]{1,}width="([0-9]{1,})"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height=""$5>';
-$replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{0,1})>'] = '<figure n="" id="" rend="" type="$1" width="" height=""$2>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height=""$3>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height="$3"$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height="$4"$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height="$4"$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height=""$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height="$5"$6>';
+$replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="" id="" rend="" type="$1" width="" height=""$2>';
 
 ?>
 	<body>
@@ -150,6 +153,7 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 						// fine
 						for($i=0; $i<count($fn_t['src']); $i++) {
 							if($fn_t['width'][$i] > 958) {
+								$errors = true;
 								'<p style="color: red;">ERROR: '.$fn_t['fn'].': '.$fn_t['src'][$i].' set to width of '.$fn_t['width'][$i].'</p>';
 							}
 							if($fn_t['width'][$i] == '' || $fn_t['height'][$i] == '') {
@@ -168,7 +172,7 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 						}
 					} else {
 						$errors = true;
-						echo '<p style="color: red;">ERROR: '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src']).')/rend('.count($fn_t['rend']).')/width('.count($fn_t['width']).')/height('.count($fn_t['height']).')/id('.count($fn_t['id']).')/type('.count($fn_t['type']).')</p>';
+						echo '<p style="color: red;">ERROR (mid-process): '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src']).')/rend('.count($fn_t['rend']).')/width('.count($fn_t['width']).')/height('.count($fn_t['height']).')/id('.count($fn_t['id']).')/type('.count($fn_t['type']).')</p>';
 					}				
 
 					$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
@@ -177,6 +181,19 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 					$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
+					
+					$FullXML2 = simplexml_load_string($XMLstringNew);
+					$fn_t['src2'] = $FullXML2->xpath('//text//figure/@n'); // array
+					$fn_t['rend2'] = $FullXML2->xpath('//text//figure/@rend'); // array
+					$fn_t['width2'] = $FullXML2->xpath('//text//figure/@width'); // array
+					$fn_t['height2'] = $FullXML2->xpath('//text//figure/@height'); // array
+
+					if ( (count($fn_t['src2']) == count($fn_t['rend2'])) && (count($fn_t['rend2']) == count($fn_t['width2'])) && (count($fn_t['width2']) == count($fn_t['height2'])) ) {
+						// fine
+					} else {
+						$errors = true;
+						echo '<p style="color: red;">ERROR (end): '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src2']).')/rend('.count($fn_t['rend2']).')/width('.count($fn_t['width2']).')/height('.count($fn_t['height2']).')</p>';
+					}
 
 					if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') { // && $errors == false
 						file_put_contents('new/'.$fn_t['fn'], $XMLstringNew);
