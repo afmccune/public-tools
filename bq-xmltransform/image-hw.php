@@ -152,7 +152,7 @@ $replace['<figure[ 	\n\r]{1,}type="(reviewed-cover|ad)"[ 	\n\r]{0,}([ ]{0,}[\/]{
 							if($fn_t['width'][$i] > 958) {
 								'<p style="color: red;">ERROR: '.$fn_t['fn'].': '.$fn_t['src'][$i].' set to width of '.$fn_t['width'][$i].'</p>';
 							}
-							if($fn_t['width'][$i] == '' || $fn_t['width'][$i] == '') {
+							if($fn_t['width'][$i] == '' || $fn_t['height'][$i] == '') {
 								$isCover = (count($fn_t['cover']) < 1 || $i > 0) ? false : true;
 								
 								$wh = newWH($fn_t['src'][$i], $fn_t['rend'][$i], $fn_t['width'][$i], $fn_t['height'][$i], $isCover);
