@@ -129,7 +129,6 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 				
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
-				//if (preg_match('/10.1.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 					
@@ -170,17 +169,18 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 								$newWidth = $wh['width'];
 								$newHeight = $wh['height'];
 
+								$escCode = ' n="'.preg_quote($fn_t['src'][$i]).'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
 								$code = ' n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
 								$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
 								$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
 
-								$XMLstringNew = preg_replace('/<figure'.$code.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$code.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
+								$XMLstringNew = preg_replace('/<figure'.$escCode.$oldWidthCode.$oldHeightCode.'([ ]{0,}[\/]{0,})>/', '<figure'.$code.' width="'.$newWidth.'" height="'.$newHeight.'"$1>', $XMLstringNew);
 							}
 						}
 					} else {
 						$errors = true;
 						echo '<p style="color: red;">ERROR (mid-process): '.$fn_t['fn'].': unequal numbers of src('.count($fn_t['src']).')/rend('.count($fn_t['rend']).')/width('.count($fn_t['width']).')/height('.count($fn_t['height']).')/id('.count($fn_t['id']).')/type('.count($fn_t['type']).')</p>';
-					}				
+					}
 
 					$XMLstringNew = str_replace(' n=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' rend=""', '', $XMLstringNew);
@@ -188,7 +188,7 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 					$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
-					
+										
 					$FullXML2 = simplexml_load_string($XMLstringNew);
 					$fn_t['src2'] = $FullXML2->xpath('//text//figure/@n'); // array
 					$fn_t['rend2'] = $FullXML2->xpath('//text//figure/@rend'); // array
