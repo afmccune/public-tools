@@ -47,7 +47,7 @@ $nl = '
 								$fn_t['volume'] = $fn_t['fileVol'];
 								$fn_t['issue'] = $fn_t['fileIss'];
 								$XMLvolIss = $FullXML->xpath("//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/biblScope[@unit='volIss']");
-								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+								$fn_t['volIss'] = $XMLvolIss[0];
 								$XMLdate = $FullXML->xpath('//editionStmt/edition');
 								$fn_t['date'] = $XMLdate[0];
 								$XMLyear = $FullXML->xpath('//teiHeader/fileDesc/publicationStmt/date');
