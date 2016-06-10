@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.2.minnick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.2.minnick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.2.minnick"/>
-		<dc:title>Recent Blake Scholarship 1976-1977</dc:title>
+		<dc:title>A Checklist of Recent Blake Scholarship 1976-1977</dc:title>
 		<role:AUT>Thomas L. Minnick</role:AUT>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Bibliography</collex:genre>

@@ -6,23 +6,20 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.eaves">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.eaves"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.eaves"/>
-		<dc:title>On Reflection: Adrian Mitchell on William Blake 
-        produced by London Weekend Television, and The Clouded Hills: 
-        Selections from William Blake edited by Catharine Hughes</dc:title>
-		<role:AUT>Morris Eaves</role:AUT>
-		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.2.progress">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.2.correction"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.2.progress"/>
+		<dc:title>Works in Progress: A Correction</dc:title>
+		<collex:genre>Reference Works</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Spring 1975</rdfs:label>
-				<rdf:value>1975</rdf:value>
+				<rdfs:label>Fall 1970</rdfs:label>
+				<rdf:value>1970</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/8.4.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/4.2.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

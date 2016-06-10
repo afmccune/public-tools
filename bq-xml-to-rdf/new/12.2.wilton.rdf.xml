@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.2.wilton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.2.wilton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.2.wilton"/>
-		<dc:title>Raymond Lister’s Letters of Samuel Palmer and Samuel Palmer A Biography</dc:title>
+		<dc:title>Raymond Lister’s The Letters of Samuel Palmer and Samuel Palmer A Biography</dc:title>
 		<role:AUT>Andrew Wilton</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.02.bqscan.thumb.png"/>

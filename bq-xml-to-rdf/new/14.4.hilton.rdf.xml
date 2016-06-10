@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.4.hilton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.4.hilton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.4.hilton"/>
-		<dc:title>Blake and the Mountain of the Mind</dc:title>
+		<dc:title>Blake and the Mountains of the Mind</dc:title>
 		<role:AUT>Nelson Hilton</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.04.bqscan.thumb.png"/>

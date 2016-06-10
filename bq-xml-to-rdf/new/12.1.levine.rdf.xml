@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.1.levine"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.1.levine"/>
 		<dc:title>Levine’s Blake Caricature</dc:title>
-		<collex:genre>Nonfiction</collex:genre>
+		<collex:genre>Reference Works</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>

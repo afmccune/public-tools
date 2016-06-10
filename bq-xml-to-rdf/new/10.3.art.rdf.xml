@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.3.art">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.3.art"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.3.art"/>
-		<dc:title>Scripting a City of Art</dc:title>
+		<dc:title>Scripting a City of Art: Golgonooza</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.03.bqscan.thumb.png"/>
 		<dc:date>

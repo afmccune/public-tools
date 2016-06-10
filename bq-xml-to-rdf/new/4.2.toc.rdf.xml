@@ -24,6 +24,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.easson"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.erdman"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.progress"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.correction"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.complaint"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.bindman"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/4.2.phillips"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.4.bentley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.4.bentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.4.bentley"/>
-		<dc:title>Shelley Bennett, Thomas Stothard: Mechanisms of Art Patronage c. 1800</dc:title>
+		<dc:title>Shelley Bennett, Thomas Stothard: The Mechanisms of Art Patronage c. 1800</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.04.bqscan.thumb.png"/>

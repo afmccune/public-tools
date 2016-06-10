@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/13.1.frosch">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.1.frosch"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.1.frosch"/>
-		<dc:title>W.J.T Mitchell’s Blake’s Composite Art: A Study of the Illuminated
+		<dc:title>W.J.T. Mitchell’s Blake’s Composite Art: A Study of the Illuminated
 Poetry</dc:title>
 		<role:AUT>Thomas Frosch</role:AUT>
 		<collex:genre>Review</collex:genre>

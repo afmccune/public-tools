@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/9.2.reiman"/>
 		<dc:title>A Significant New Blakean Fragment</dc:title>
 		<role:AUT>Donald H. Reiman</role:AUT>
-		<collex:genre>Criticism</collex:genre>
+		<collex:genre>Poetry</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.009.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
