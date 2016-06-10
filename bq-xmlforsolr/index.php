@@ -36,7 +36,6 @@ $nl = '
 								
 								$fn_t['fn'] = $fn->getFilename();	
 								$fileParts = explode('.', $fn_t['fn']);
-								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$fn_t['fileVol'] = $fileParts[0];
 								$fn_t['fileIss'] = $fileParts[1];
 								$fn_t['fileSplit'] = $fileParts[2];
@@ -47,6 +46,8 @@ $nl = '
 								$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 								$fn_t['volume'] = $fn_t['fileVol'];
 								$fn_t['issue'] = $fn_t['fileIss'];
+								$XMLvolIss = $FullXML->xpath("//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/biblScope[@unit='volIss']");
+								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$XMLdate = $FullXML->xpath('//editionStmt/edition');
 								$fn_t['date'] = $XMLdate[0];
 								$XMLyear = $FullXML->xpath('//teiHeader/fileDesc/publicationStmt/date');
