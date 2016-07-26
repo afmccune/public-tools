@@ -23,13 +23,13 @@ $nl = "
 						
 						$docsHtml = array(); 
 						foreach (new DirectoryIterator("../bq-xmltransform/new/") as $fn) {
-							if (preg_match('/.xml/', $fn->getFilename())) {
+							if (preg_match('/(.xml|.txt)/', $fn->getFilename())) {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
-								$fn_t['file'] = str_replace('.xml', '', $fn_t['fn']);
+								//$fn_t['file'] = str_replace('.xml', '', $fn_t['fn']);
 								
-								echo '<p><a target="_blank" href="old-new-diff.php?file='.$fn_t['file'].'">'.$fn_t['file'].'</a></p>';
+								echo '<p><a target="_blank" href="old-new-diff.php?file='.$fn_t['fn'].'">'.$fn_t['fn'].'</a></p>';
 							}	
 						}
 						
