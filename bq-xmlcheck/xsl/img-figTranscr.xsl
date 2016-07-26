@@ -204,6 +204,34 @@
    <xsl:template match="figTranscr"/>
 
 
+    <xsl:template match="head">
+        <xsl:choose>
+            <xsl:when test="following-sibling::table[@id='contents'] and child::title = 'CONTENTS' and ancestor::text//div1[@id='cover']/figure"/>
+			<xsl:when test="parent::figure">
+				<span class="caption-head">
+					<xsl:apply-templates/>
+				</span> &#160; 
+			</xsl:when>
+            <xsl:when test="ancestor::table and @type = 'table-header'">
+            	<th>
+            		<xsl:if test="@rowspan">
+                		<xsl:attribute name="rowspan">
+                    		<xsl:value-of select="@rowspan"/>
+                		</xsl:attribute>
+                	</xsl:if>
+                	<xsl:if test="@colspan">
+                		<xsl:attribute name="colspan">
+                			<xsl:value-of select="@colspan"/>
+                		</xsl:attribute>
+                	</xsl:if>
+            		<xsl:apply-templates/>
+            	</th>
+            </xsl:when>
+			<xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>        
+    </xsl:template>
 	<!--
     <xsl:template match="@*|node()">
 		<xsl:copy-of select="." />
