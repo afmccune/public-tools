@@ -51,6 +51,7 @@
 						<div class="issue-heading-inner">
 							<h1>Checking image for correct rend value</h1>
 							<p>If image exists both locally and on public WBA site, rend value may point to local file ("file") when it should point to WBA ("db").</p>
+							<p>(Note: filename converted to lowercase for comparison with WBA.)</p>
 						</div>
 					</div>
 					<div id="main">
@@ -92,7 +93,10 @@
 							}
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
-							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBase;
+							
+							$srcBaseSm = strtolower($srcBase);
+							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBaseSm;
+							
 							if(file_exists($srcFull)) {
 								if (url_exists($srcWBA)) {
 									$fn_t['errors'][] = 'Image exists both locally and on public WBA site: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a>';
