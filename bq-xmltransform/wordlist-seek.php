@@ -9,7 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '×';
+$seekStr = 'XVIe—XIXe';
 //'[0-9⅛¼½¾⅞]{1,}"';
 
 $seek = explode($nl, $seekStr);
