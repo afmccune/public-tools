@@ -163,6 +163,8 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['seasonYear'] = (preg_match('/(Spring)|(Summer)|(Fall)|(Winter)/', $fn_t['seasonYear'])) ? $fn_t['seasonYear'] : '';
 								$fn_t['fullDate'] = (count($HTMLfullDate)>0) ? $HTMLfullDate[0] : dateFromSeasonYear($fn_t['seasonYear']);
 
+								$fn_t['year'] = substr($fn_t['fullDate'], 0, 4);
+
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
 								$fn_t['articles'] = array();
@@ -199,7 +201,7 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['rdf'] .= '		<dc:date>'.$nl;
 								$fn_t['rdf'] .= '			<collex:date>'.$nl;
 								$fn_t['rdf'] .= '				<rdfs:label>'.$fn_t['seasonYear'].'</rdfs:label>'.$nl;
-								$fn_t['rdf'] .= '				<rdf:value>'.$fn_t['fullDate'].'</rdf:value>'.$nl;
+								$fn_t['rdf'] .= '				<rdf:value>'.$fn_t['year'].'</rdf:value>'.$nl; // '<rdf:value>'.$fn_t['fullDate'].'</rdf:value>'
 								$fn_t['rdf'] .= '			</collex:date>'.$nl;
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
