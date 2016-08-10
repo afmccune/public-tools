@@ -12,7 +12,7 @@
 		<dc:title>Mark Crosby and Robert N. Essick, eds.,  Genesis: William Blake’s Last Illuminated Work </dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_53_en_US.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/48.2/cover_issue_53_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2014</rdfs:label>

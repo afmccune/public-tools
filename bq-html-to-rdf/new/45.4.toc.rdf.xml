@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/45.4.toc"/>
 		<dc:title>Volume 45 · Issue 4</dc:title>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_43_en_US.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/45.4/cover_issue_43_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 2012</rdfs:label>

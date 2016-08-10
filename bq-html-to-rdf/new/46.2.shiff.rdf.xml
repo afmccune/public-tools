@@ -12,7 +12,7 @@
 		<dc:title>Blake’s Hebrew Calligraphy</dc:title>
 		<role:AUT>Abraham Samuel Shiff</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_45_en_US.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/46.2/cover_issue_45_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2012</rdfs:label>

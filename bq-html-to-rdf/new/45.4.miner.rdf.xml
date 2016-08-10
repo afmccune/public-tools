@@ -12,7 +12,7 @@
 		<dc:title> denouement </dc:title>
 		<role:AUT>Paul Miner</role:AUT>
 		<collex:genre>Poetry</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_43_en_US.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/45.4/cover_issue_43_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Spring 2012</rdfs:label>

@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/48.2.toc"/>
 		<dc:title>Volume 48 · Issue 2</dc:title>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_53_en_US.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/48.2/cover_issue_53_en_US.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2014</rdfs:label>

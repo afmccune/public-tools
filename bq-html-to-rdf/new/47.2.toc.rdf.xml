@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/47.2.toc"/>
 		<dc:title>Volume 47 · Issue 2</dc:title>
 		<collex:genre>Bibliography</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover_issue_49_en_US-top.jpg"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/47.2/cover_issue_49_en_US-top.jpg"/>
 		<dc:date>
 			<collex:date>
 				<rdfs:label>Fall 2013</rdfs:label>
