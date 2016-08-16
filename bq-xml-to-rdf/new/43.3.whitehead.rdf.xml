@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/43.3.whitehead">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/43.3.whitehead"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/43.3.whitehead"/>
-		<dc:title>Mark and Eleanor Martin, the Blakes’ French Fellow Inhabitants at 17 South
-Molton Street, 1805-21</dc:title>
+		<dc:title>Mark and Eleanor Martin, the Blakes’ French Fellow Inhabitants at 17 South Molton Street, 1805-21</dc:title>
 		<role:AUT>Angus Whitehead</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.43.3.bqscan.thumb.png"/>

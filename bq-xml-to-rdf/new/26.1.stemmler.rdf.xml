@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/26.1.stemmler">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/26.1.stemmler"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/26.1.stemmler"/>
-		<dc:title>“Undisturbed above once in a Lustre”: Francis Douce, George Cumberland and
-William Blake at the Bodleian Library and Ashmolean Museum</dc:title>
+		<dc:title>“Undisturbed above once in a Lustre”: Francis Douce, George Cumberland and William Blake at the Bodleian Library and Ashmolean Museum</dc:title>
 		<role:AUT>Joan K. Stemmler</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.026.01.bqscan.thumb.png"/>

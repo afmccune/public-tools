@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.4.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.4.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.4.paley"/>
-		<dc:title>Ronald Paulson, Book and Painting: Shakespeare, Milton, and the Bible: Literary
-Texts and the Emergence of Painting and Literary Landscape: Turner and Constable</dc:title>
+		<dc:title>Ronald Paulson, Book and Painting: Shakespeare, Milton, and the Bible: Literary Texts and the Emergence of Painting and Literary Landscape: Turner and Constable</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.04.bqscan.thumb.png"/>

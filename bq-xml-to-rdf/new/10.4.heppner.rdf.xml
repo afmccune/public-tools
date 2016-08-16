@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.4.heppner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.4.heppner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.4.heppner"/>
-		<dc:title>Notes on some items in the Blake Collection at McGill, with a few speculations
-around William Roscoe</dc:title>
+		<dc:title>Notes on some items in the Blake Collection at McGill, with a few speculations around William Roscoe</dc:title>
 		<role:AUT>Christopher Heppner</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.04.bqscan.thumb.png"/>

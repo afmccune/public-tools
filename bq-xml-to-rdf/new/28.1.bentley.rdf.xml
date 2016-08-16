@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/28.1.bentley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/28.1.bentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/28.1.bentley"/>
-		<dc:title>William Blake and His Circle: A Checklist of Publications and Discoveries in
-1992-1993</dc:title>
+		<dc:title>William Blake and His Circle: A Checklist of Publications and Discoveries in 1992-1993</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<role:AUT>Keiko Aoyama</role:AUT>
 		<collex:genre>Bibliography</collex:genre>

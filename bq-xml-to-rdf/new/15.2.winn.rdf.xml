@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.2.winn">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.2.winn"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.2.winn"/>
-		<dc:title>B. H. Fairchild, Such Holy Song: Music as Idea, Form, and Image in the Poetry of
-William Blake</dc:title>
+		<dc:title>B. H. Fairchild, Such Holy Song: Music as Idea, Form, and Image in the Poetry of William Blake</dc:title>
 		<role:AUT>James A. Winn</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.02.bqscan.thumb.png"/>

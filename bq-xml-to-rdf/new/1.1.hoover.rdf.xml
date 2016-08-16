@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/1.1.hoover">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/1.1.hoover"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.1.hoover"/>
-		<dc:title>Blake’s engravings for Captain John Steadman’s Narrative of a five
-years’ expedition</dc:title>
+		<dc:title>Blake’s engravings for Captain John Steadman’s Narrative of a five years’ expedition</dc:title>
 		<role:AUT>Suzanne R. Hoover</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.01.bqscan.thumb.png"/>

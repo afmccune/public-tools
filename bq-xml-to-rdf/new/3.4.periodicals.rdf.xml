@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.4.periodicals">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.4.periodicals"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.4.periodicals"/>
-		<dc:title>Blake and Calvert’s illustrations sold, Newsom on Blake and Shaw, Bentley
-publishes unknown Blake engravings</dc:title>
+		<dc:title>Blake and Calvert’s illustrations sold, Newsom on Blake and Shaw, Bentley publishes unknown Blake engravings</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.04.bqscan.thumb.png"/>
 		<dc:date>

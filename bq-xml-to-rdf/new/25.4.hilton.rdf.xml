@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.4.hilton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.4.hilton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.4.hilton"/>
-		<dc:title>Margaret Storch, Sons and Adversaries: Women in William Blake and D. H.
-Lawrence</dc:title>
+		<dc:title>Margaret Storch, Sons and Adversaries: Women in William Blake and D. H. Lawrence</dc:title>
 		<role:AUT>Nelson Hilton</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.04.bqscan.thumb.png"/>

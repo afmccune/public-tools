@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.4.nurmi">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.4.nurmi"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.4.nurmi"/>
-		<dc:title>Blake Music at the Santa Barbara Conference and Everett Frost’s production of
-Island in the Moon</dc:title>
+		<dc:title>Blake Music at the Santa Barbara Conference and Everett Frost, production of Island in the Moon</dc:title>
 		<role:AUT>Martin K. Nurmi</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.04.bqscan.thumb.png"/>

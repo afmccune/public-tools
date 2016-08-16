@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.1.otto">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.1.otto"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.1.otto"/>
-		<dc:title>Harold Bloom, ed. William Blake: Modern Critical Views Nelson Hilton, ed.
-Essential Article for the Study of William Blake, 1970-1984</dc:title>
+		<dc:title>Harold Bloom, ed. William Blake: Modern Critical Views Nelson Hilton, ed. Essential Article for the Study of William Blake, 1970-1984</dc:title>
 		<role:AUT>Peter Otto</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.01.bqscan.thumb.png"/>

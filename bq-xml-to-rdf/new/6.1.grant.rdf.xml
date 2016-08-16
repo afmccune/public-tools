@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.grant">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.grant"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.grant"/>
-		<dc:title>On Mary Ellen Reisner’s Locations of Copy U of Songs of Innocence
-and Copy d of Songs of Innocence and of Experience</dc:title>
+		<dc:title>On Mary Ellen Reisner’s Locations of Copy U of Songs of Innocence and Copy d of Songs of Innocence and of Experience</dc:title>
 		<role:AUT>John E. Grant</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.mitchell">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.mitchell"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.mitchell"/>
-		<dc:title>Blake’s Human Form Divine by Anne Kostelanetz Mellor</dc:title>
+		<dc:title>Anne Kostelanetz Mellor, Blake’s Human Form Divine</dc:title>
 		<role:AUT>W. J. T. Mitchell</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

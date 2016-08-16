@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.1.johnson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.1.johnson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.1.johnson"/>
-		<dc:title>Observations on Blake’s Paintings and Drawings (Based on Butlin’s Catalogue
-Raisonné)</dc:title>
+		<dc:title>Observations on Blake’s Paintings and Drawings (Based on Butlin’s Catalogue Raisonné)</dc:title>
 		<role:AUT>Mary Lynn Johnson</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.01.bqscan.thumb.png"/>

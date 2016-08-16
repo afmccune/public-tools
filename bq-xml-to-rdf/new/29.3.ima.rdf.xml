@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.3.ima">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.3.ima"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.3.ima"/>
-		<dc:title>G. E. Bentley, Jr., Blake Studies in Japan: A Bibliography of Works on William
-Blake Published in Japan 1893-1993</dc:title>
+		<dc:title>G. E. Bentley, Jr., Blake Studies in Japan: A Bibliography of Works on William Blake Published in Japan 1893-1993</dc:title>
 		<role:AUT>Yoko Ima-Izumi</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.03.bqscan.thumb.png"/>

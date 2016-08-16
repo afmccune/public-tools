@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.macmillan">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.macmillan"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.macmillan"/>
-		<dc:title>Catalogue of the Blake Collection of the Fitzwilliam Museum compiled by
-David Bindman—And Some Thoughts on Blake’s Exhibition and Descriptive Catalogue</dc:title>
+		<dc:title>Catalogue of the Blake Collection of the Fitzwilliam Museum compiled by David Bindman—And Some Thoughts on Blake’s Exhibition and Descriptive Catalogue</dc:title>
 		<role:AUT>Duncan Macmillan</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>

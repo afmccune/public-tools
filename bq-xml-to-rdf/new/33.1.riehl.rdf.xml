@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/33.1.riehl">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/33.1.riehl"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/33.1.riehl"/>
-		<dc:title>Bernard Barton’s Contribution to Cunningham’s “Life of Blake”: A New
-Letter</dc:title>
+		<dc:title>Bernard Barton’s Contribution to Cunningham’s “Life of Blake”: A New Letter</dc:title>
 		<role:AUT>Joe Riehl</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.033.01.bqscan.thumb.png"/>

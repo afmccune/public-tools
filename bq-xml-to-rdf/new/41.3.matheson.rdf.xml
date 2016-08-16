@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/41.3.matheson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/41.3.matheson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/41.3.matheson"/>
-		<dc:title>Robert C. Brandeis, William Blake and His Contemporaries: An Exhibition Selected
-from the Bentley Collection at Victoria University, Victoria University Library, Toronto</dc:title>
+		<dc:title>Robert C. Brandeis, William Blake and His Contemporaries: An Exhibition Selected from the Bentley Collection at Victoria University, Victoria University Library, Toronto</dc:title>
 		<role:AUT>C. S. Matheson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.041.03.bqscan.thumb.png"/>

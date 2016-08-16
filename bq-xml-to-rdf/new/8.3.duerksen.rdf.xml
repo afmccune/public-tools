@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.3.duerksen">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.3.duerksen"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.3.duerksen"/>
-		<dc:title>Bromion’s Usurped Power—Its Source, Essence, and Effect: A
-Replication</dc:title>
+		<dc:title>Bromion’s Usurped Power—Its Source, Essence, and Effect: A Replication</dc:title>
 		<role:AUT>Roland A. Duerksen</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.03.bqscan.thumb.png"/>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/31.1.correction">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/31.1.correction"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/31.1.correction"/>
-		<dc:title>Corrections for Deborah McCollister’s article and contributor’s
-note</dc:title>
+		<dc:title>Corrections for Deborah McCollister’s article and contributor’s note</dc:title>
 		<collex:genre>Reference Works</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.031.01.bqscan.thumb.png"/>
 		<dc:date>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.4.edmonton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.4.edmonton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.4.edmonton"/>
-		<dc:title>Edmonton Art Gallery Exhibition: “William Hayley and His Circle,” 17
-September-30 October 1982</dc:title>
+		<dc:title>Edmonton Art Gallery Exhibition: “William Hayley and His Circle,” 17 September-30 October 1982</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.04.bqscan.thumb.png"/>
 		<dc:date>

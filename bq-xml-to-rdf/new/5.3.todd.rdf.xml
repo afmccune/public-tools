@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.todd">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.todd"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.todd"/>
-		<dc:title>Two Blake Prints and Two Fuseli Drawings with some possibly pertinent
-speculations</dc:title>
+		<dc:title>Two Blake Prints and Two Fuseli Drawings with some possibly pertinent speculations</dc:title>
 		<role:AUT>Ruthven Todd</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.005.03.bqscan.thumb.png"/>

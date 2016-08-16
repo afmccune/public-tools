@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.3.freed">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.3.freed"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.3.freed"/>
-		<dc:title>“Sun-Clad Chastity” and Blake’s “Maiden Queens”: Comus, Thel, and
-“The Angel”</dc:title>
+		<dc:title>“Sun-Clad Chastity” and Blake’s “Maiden Queens”: Comus, Thel, and “The Angel”</dc:title>
 		<role:AUT>Eugenie R. Freed</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.03.bqscan.thumb.png"/>

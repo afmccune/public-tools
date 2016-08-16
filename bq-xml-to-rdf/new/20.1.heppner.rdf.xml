@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/20.1.heppner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/20.1.heppner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/20.1.heppner"/>
-		<dc:title>Blake’s “The New Jerusalem Descending”: A Drawing (Butlin #92)
-Identified</dc:title>
+		<dc:title>Blake’s “The New Jerusalem Descending”: A Drawing (Butlin #92) Identified</dc:title>
 		<role:AUT>Christopher Heppner</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.020.01.bqscan.thumb.png"/>

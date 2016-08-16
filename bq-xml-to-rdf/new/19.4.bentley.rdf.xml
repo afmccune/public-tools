@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/19.4.bentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/19.4.bentley"/>
 		<dc:title>From Sketch to Text in Blake: The Case of The Book of Thel</dc:title>
-		<role:AUT>G.E. Bentley, Jr.</role:AUT>
+		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.019.04.bqscan.thumb.png"/>
 		<dc:date>

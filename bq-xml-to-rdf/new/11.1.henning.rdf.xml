@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.1.henning"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.1.henning"/>
 		<dc:title>Blake’s Baptismal Font</dc:title>
-		<role:AUT>C.M. Henning</role:AUT>
+		<role:AUT>C. M. Henning</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.01.bqscan.thumb.png"/>
 		<dc:date>

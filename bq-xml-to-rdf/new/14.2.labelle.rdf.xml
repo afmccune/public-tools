@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.2.labelle">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.2.labelle"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.2.labelle"/>
-		<dc:title>Michelangelo’s Sistine Frescoes and Blake’s 1795 Color-printed
-          Drawings: A Study in Structural Relationships</dc:title>
+		<dc:title>Michelangelo’s Sistine Frescoes and Blake’s 1795 Color-printed    Drawings: A Study in Structural Relationships</dc:title>
 		<role:AUT>Jenijoy La Belle</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/19.3.johnson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/19.3.johnson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/19.3.johnson"/>
-		<dc:title>Leonard W. Deen, Conversin in Paradise: Poetic Genius and Identity-as-Community
-in Blake’s Los</dc:title>
+		<dc:title>Leonard W. Deen, Conversin in Paradise: Poetic Genius and Identity-as-Community in Blake’s Los</dc:title>
 		<role:AUT>Mary Lynn Johnson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.019.03.bqscan.thumb.png"/>

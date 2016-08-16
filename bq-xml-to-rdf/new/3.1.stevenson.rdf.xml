@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.1.stevenson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.1.stevenson"/>
 		<dc:title>Blake and William Frend</dc:title>
-		<role:AUT>W.H. Stevenson</role:AUT>
+		<role:AUT>W. H. Stevenson</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.01.bqscan.thumb.png"/>
 		<dc:date>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.3.england">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.3.england"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.3.england"/>
-		<dc:title>Donald Davie’s A Gathered Church: The Literature of the English
-Dissenting Interest, 1700-1930</dc:title>
+		<dc:title>Donald Davie’s A Gathered Church: The Literature of the English Dissenting Interest, 1700-1930</dc:title>
 		<role:AUT>Martha W. England</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.03.bqscan.thumb.png"/>

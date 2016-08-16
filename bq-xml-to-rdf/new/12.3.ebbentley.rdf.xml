@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.3.ebbentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.3.ebbentley"/>
 		<dc:title>Vision in Fiction: Two Novels About William Blake</dc:title>
-		<role:AUT>E. B. Bentley</role:AUT>
+		<role:AUT>Elizabeth B. Bentley</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.03.bqscan.thumb.png"/>
 		<dc:date>

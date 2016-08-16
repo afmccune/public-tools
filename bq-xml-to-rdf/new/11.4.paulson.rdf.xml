@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.4.paulson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.4.paulson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.4.paulson"/>
-		<dc:title>Joan Dolmetsch’s Rebellion and Reconciliation and Gary Kelly’s The English
-Jacobin Novel 1780-1805</dc:title>
+		<dc:title>Joan Dolmetsch’s Rebellion and Reconciliation and Gary Kelly’s The English Jacobin Novel 1780-1805</dc:title>
 		<role:AUT>Ronald Paulson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.04.bqscan.thumb.png"/>

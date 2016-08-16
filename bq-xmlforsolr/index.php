@@ -56,6 +56,7 @@ $nl = '
 								$fn_t['type'] = $XMLtype[0];
 								$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
 								$fn_t['title'] = $XMLtitle[0];
+								$fn_t['title'] = preg_replace('/[ \r\n]{1,3}/', ' ', $fn_t['title']);
 								$fn_t['title'] = html_entity_decode( $fn_t['title'], ENT_QUOTES, "UTF-8" ); 
 								$fn_t['title'] = str_replace('&', 'and', $fn_t['title']);
 								$XMLfirstAuthorLastName = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author/@n');

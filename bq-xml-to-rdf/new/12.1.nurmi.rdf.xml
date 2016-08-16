@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.1.nurmi">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.1.nurmi"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.1.nurmi"/>
-		<dc:title>John Howard, Blake’s Milton; John Karl Franson, ed., Milton
-Reconsidered</dc:title>
+		<dc:title>John Howard, Blake’s Milton; John Karl Franson, ed., Milton Reconsidered</dc:title>
 		<role:AUT>Martin K. Nurmi</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.01.bqscan.thumb.png"/>

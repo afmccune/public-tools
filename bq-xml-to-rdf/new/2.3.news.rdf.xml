@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.3.news">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.3.news"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.3.news"/>
-		<dc:title>Ruthven Todd: “Blake’s Dante Plates,” Gilchrist’s Life, article
-collection</dc:title>
+		<dc:title>Ruthven Todd: “Blake’s Dante Plates,” Gilchrist’s Life, article collection</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.03.bqscan.thumb.png"/>
 		<dc:date>

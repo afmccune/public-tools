@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.4.reed">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.4.reed"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.4.reed"/>
-		<dc:title>Blake, Wordsworth, Lamb, Etc.: Further Information from Henry Crabb
-Robinson</dc:title>
+		<dc:title>Blake, Wordsworth, Lamb, Etc.: Further Information from Henry Crabb Robinson</dc:title>
 		<role:AUT>Mark L. Reed</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.04.bqscan.thumb.png"/>

@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.2.moss"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.2.moss"/>
 		<dc:title>The Coloured Copies of Blake’s “Night Thoughts”</dc:title>
-		<role:AUT>W.E. Moss</role:AUT>
+		<role:AUT>W. E. Moss</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.02.bqscan.thumb.png"/>
 		<dc:date>

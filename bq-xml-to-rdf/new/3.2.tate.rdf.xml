@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.2.tate">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.2.tate"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.2.tate"/>
-		<dc:title>Blake-Varley sketchbook and “An Allegory of the Bible” at the Tate
-Gallery</dc:title>
+		<dc:title>Blake-Varley sketchbook and “An Allegory of the Bible” at the Tate Gallery</dc:title>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.02.bqscan.thumb.png"/>
 		<dc:date>

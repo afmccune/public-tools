@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.2.harding">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.2.harding"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.2.harding"/>
-		<dc:title>Mike Westbrook, Bright As Fire, a recording  of jazz settings of Blake</dc:title>
+		<dc:title>Mike Westbrook, Bright As Fire, a recording of jazz settings of Blake</dc:title>
 		<role:AUT>Anthony J. Harding</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.02.bqscan.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.1.kostelanetz">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.1.kostelanetz"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.1.kostelanetz"/>
-		<dc:title>Romantic Art in Britain: Drawings and Paintings 1760-1860</dc:title>
+		<dc:title>Frederick Cummings and Allen Staley, eds., Romantic Art in Britain: Drawings and Paintings 1760-1860</dc:title>
 		<role:AUT>Anne T. Kostelanetz</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>

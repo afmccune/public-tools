@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.3.mitchell">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.3.mitchell"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.3.mitchell"/>
-		<dc:title>Robert N. Essick and Donald Pearce’s Blake in His Time</dc:title>
+		<dc:title>Robert N. Essick and Donald Pearce, Blake in His Time</dc:title>
 		<role:AUT>W. J. T. Mitchell</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.03.bqscan.thumb.png"/>

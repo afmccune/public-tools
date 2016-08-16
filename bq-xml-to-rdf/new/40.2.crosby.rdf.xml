@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.2.crosby">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.2.crosby"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.2.crosby"/>
-		<dc:title>William Blake and the Age of Revolution: An Appreciation, Checklist of
-Dissertations and Publications</dc:title>
+		<dc:title>William Blake and the Age of Revolution: An Appreciation, Checklist of Dissertations and Publications</dc:title>
 		<role:AUT>Mark Crosby</role:AUT>
 		<role:AUT>Troy Patenaude</role:AUT>
 		<role:AUT>Angus Whitehead</role:AUT>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.1.wittreich">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.1.wittreich"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.1.wittreich"/>
-		<dc:title>“Far yet extend that biographic page!”: Some Thoughts on Donald Reiman’s
-Hayley</dc:title>
+		<dc:title>“Far yet extend that biographic page!”: Some Thoughts on Donald Reiman’s Hayley</dc:title>
 		<role:AUT>Joseph Wittreich</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.01.bqscan.thumb.png"/>

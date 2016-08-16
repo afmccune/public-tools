@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/44.3.cardinale">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/44.3.cardinale"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/44.3.cardinale"/>
-		<dc:title>A Newly Discovered Blake Book: William Blake’s Copy of Thomas Taylor’s The
-Mystical Initiations; or, Hymns of Orpheus (1787)</dc:title>
+		<dc:title>A Newly Discovered Blake Book: William Blake’s Copy of Thomas Taylor’s The Mystical Initiations; or, Hymns of Orpheus (1787)</dc:title>
 		<role:AUT>Philip J. Cardinale</role:AUT>
 		<role:AUT>Joseph R. Cardinale</role:AUT>
 		<collex:genre>Criticism</collex:genre>

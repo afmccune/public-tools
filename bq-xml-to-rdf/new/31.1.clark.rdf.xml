@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/31.1.clark">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/31.1.clark"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/31.1.clark"/>
-		<dc:title>Angela Esterhammer, Creating States: Studies in the Performative Language of John
-Milton and William Blake</dc:title>
+		<dc:title>Angela Esterhammer, Creating States: Studies in the Performative Language of John Milton and William Blake</dc:title>
 		<role:AUT>David L. Clark</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.031.01.bqscan.thumb.png"/>

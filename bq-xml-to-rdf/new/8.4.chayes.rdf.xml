@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.chayes">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.chayes"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.chayes"/>
-		<dc:title>The Awakening of Albion by Thomas Frosch</dc:title>
+		<dc:title>Thomas Frosch, The Awakening of Albion</dc:title>
 		<role:AUT>Irene H. Chayes</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

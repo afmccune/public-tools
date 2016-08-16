@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.3.davies">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.3.davies"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.3.davies"/>
-		<dc:title>Jonathan Spilsbury and the Lost Moravian History of William Blake’s
-Family</dc:title>
+		<dc:title>Jonathan Spilsbury and the Lost Moravian History of William Blake’s Family</dc:title>
 		<role:AUT>Keri Davies</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.03.bqscan.thumb.png"/>

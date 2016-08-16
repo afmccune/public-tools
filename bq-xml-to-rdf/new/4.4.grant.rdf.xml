@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.4.grant">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.4.grant"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.4.grant"/>
-		<dc:title>Blake’s Designs for L’Allegro and Il Penseroso, Part 1: A Survey of the
-Designs</dc:title>
+		<dc:title>Blake’s Designs for L’Allegro and Il Penseroso, Part 1: A Survey of the Designs</dc:title>
 		<role:AUT>John E. Grant</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.04.bqscan.thumb.png"/>

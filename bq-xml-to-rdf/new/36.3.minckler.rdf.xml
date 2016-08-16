@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/36.3.minckler">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/36.3.minckler"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/36.3.minckler"/>
-		<dc:title>The Tygers of Wrath, concert held in conjunction with an exhibition of Blake’s
-works at Tate Britain, 2 February 2001</dc:title>
+		<dc:title>The Tygers of Wrath, concert held in conjunction with an exhibition of Blake’s works at Tate Britain, 2 February 2001</dc:title>
 		<role:AUT>David Minckler</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.036.03.bqscan.thumb.png"/>

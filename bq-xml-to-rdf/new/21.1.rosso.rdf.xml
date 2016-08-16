@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.1.rosso">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.1.rosso"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.1.rosso"/>
-		<dc:title>Robert Gleckner. Blake and Spenser</dc:title>
+		<dc:title>Robert Gleckner, Blake and Spenser</dc:title>
 		<role:AUT>George Anthony Rosso, Jr.</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.01.bqscan.thumb.png"/>

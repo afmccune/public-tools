@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.4.murray">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.4.murray"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.4.murray"/>
-		<dc:title>Stanley Kunitz, ed. The Essential Blake, Michael Mason, ed., William Blake, David
-Punter, ed. William Blake: Selected Poetry and Prose</dc:title>
+		<dc:title>Stanley Kunitz, ed., The Essential Blake; Michael Mason, ed., William Blake; David Punter, ed., William Blake: Selected Poetry and Prose</dc:title>
 		<role:AUT>E. B. Murray</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.04.bqscan.thumb.png"/>

@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.3.dorrbecker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.3.dorrbecker"/>
 		<dc:title>Grant’s “Problems in Understanding”: Some Marginalia</dc:title>
-		<role:AUT>D.W. Dörrbecker</role:AUT>
+		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.03.bqscan.thumb.png"/>
 		<dc:date>

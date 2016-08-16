@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/31.3.michael">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/31.3.michael"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/31.3.michael"/>
-		<dc:title>Mark L. Greenberg, ed., Speak Silence: Rhetoric and Culture in Blake’s Poetical
-Sketches</dc:title>
+		<dc:title>Mark L. Greenberg, ed., Speak Silence: Rhetoric and Culture in Blake’s Poetical Sketches</dc:title>
 		<role:AUT>Jennifer Davis Michael</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.031.03.bqscan.thumb.png"/>

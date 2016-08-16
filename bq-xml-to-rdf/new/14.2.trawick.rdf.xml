@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.2.trawick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.2.trawick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.2.trawick"/>
-		<dc:title>Joseph Anthony Wittreich, Jr., Visionary Poetics: Milton’s Tradition and His
-Legacy</dc:title>
+		<dc:title>Joseph Anthony Wittreich, Jr., Visionary Poetics: Milton’s Tradition and His Legacy</dc:title>
 		<role:AUT>Leonard Trawick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>

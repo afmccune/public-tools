@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.2.reiman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.reiman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.reiman"/>
-		<dc:title>Warren Stevenson, Poetic Friends: A Study of Literary Relations During the
-English Romantic Period</dc:title>
+		<dc:title>Warren Stevenson, Poetic Friends: A Study of Literary Relations During the English Romantic Period</dc:title>
 		<role:AUT>Donald H. Reiman</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.02.bqscan.thumb.png"/>

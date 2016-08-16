@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.1.stedman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.1.stedman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.1.stedman"/>
-		<dc:title>John Gabriel Stedman, Narrative of a Five Years Expedition against the
-          Revolted Negroes of Surinam</dc:title>
+		<dc:title>John Gabriel Stedman, Narrative of a Five Years Expedition against the    Revolted Negroes of Surinam</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.01.bqscan.thumb.png"/>

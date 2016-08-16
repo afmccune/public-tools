@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/35.1.spector">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/35.1.spector"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/35.1.spector"/>
-		<dc:title>Steve Clark and David Worrall, eds. Blake in the Nineties</dc:title>
+		<dc:title>Steve Clark and David Worrall, eds., Blake in the Nineties</dc:title>
 		<role:AUT>Sheila A. Spector</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.035.01.bqscan.thumb.png"/>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.1.luca">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.1.luca"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.1.luca"/>
-		<dc:title>Peter Otto, Constructive Vision and Visionary Deconstruction: Los, Eternity, and
-the Productions of Time in the Later Poetry of William Blake</dc:title>
+		<dc:title>Peter Otto, Constructive Vision and Visionary Deconstruction: Los, Eternity, and the Productions of Time in the Later Poetry of William Blake</dc:title>
 		<role:AUT>V. A. De Luca</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.01.bqscan.thumb.png"/>

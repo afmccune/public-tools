@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.erdman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.erdman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.erdman"/>
-		<dc:title>Visionary Physics by Donald Ault</dc:title>
+		<dc:title>Donald Ault, Visionary Physics</dc:title>
 		<role:AUT>David V. Erdman</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

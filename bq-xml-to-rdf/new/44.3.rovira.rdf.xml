@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/44.3.rovira">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/44.3.rovira"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/44.3.rovira"/>
-		<dc:title>Michael Phillips and the Infernal Method of William Blake, Cornell Fine Arts
-Museum, Rollins College, 12 September 2009-3 January 2010</dc:title>
+		<dc:title>Michael Phillips and the Infernal Method of William Blake, Cornell Fine Arts Museum, Rollins College, 12 September 2009-3 January 2010</dc:title>
 		<role:AUT>James Rovira</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.044.03.bqscan.thumb.png"/>

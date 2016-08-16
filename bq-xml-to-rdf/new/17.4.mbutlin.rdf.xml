@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.4.mbutlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.4.mbutlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.4.mbutlin"/>
-		<dc:title>Blake e Dante, an exhibition organized by Corrado Gizzi</dc:title>
+		<dc:title>Corrado Gizzi, Blake e Dante, an exhibition</dc:title>
 		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.04.bqscan.thumb.png"/>

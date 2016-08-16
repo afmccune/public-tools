@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/39.3.fuller">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/39.3.fuller"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/39.3.fuller"/>
-		<dc:title>Morton D. Paley, The Traveller in the Evening: The Last Works of William
-Blake</dc:title>
+		<dc:title>Morton D. Paley, The Traveller in the Evening: The Last Works of William Blake</dc:title>
 		<role:AUT>David Fuller</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.039.03.bqscan.thumb.png"/>

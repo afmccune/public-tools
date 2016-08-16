@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.wittreich">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.wittreich"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.wittreich"/>
-		<dc:title>Fearful Joy: Papers from The Thomas Gray Bicentenary Conference at Carleton
-University edited by James Downey and Ben Jones</dc:title>
+		<dc:title>James Downey and Ben Jones, eds., Fearful Joy: Papers from The Thomas Gray Bicentenary Conference at Carleton University</dc:title>
 		<role:AUT>Joseph Anthony Wittreich, Jr.</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.2.johnson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.2.johnson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.2.johnson"/>
-		<dc:title>Blake’s Engravings for Lavater’s Physiognomy: Overdue Credit to Chodowiecki,
-Schellenberg, and Lips</dc:title>
+		<dc:title>Blake’s Engravings for Lavater’s Physiognomy: Overdue Credit to Chodowiecki, Schellenberg, and Lips</dc:title>
 		<role:AUT>Mary Lynn Johnson</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.038.02.bqscan.thumb.png"/>

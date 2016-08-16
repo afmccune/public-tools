@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.2.simpson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.simpson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.simpson"/>
-		<dc:title>G. A. Rosso and Daniel P. Watkins, eds., Spirits of Fire: English Romantic
-Writers and Contemporary Historical Methods</dc:title>
+		<dc:title>G. A. Rosso and Daniel P. Watkins, eds., Spirits of Fire: English Romantic Writers and Contemporary Historical Methods</dc:title>
 		<role:AUT>David Simpson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.02.bqscan.thumb.png"/>

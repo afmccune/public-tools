@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.4.punter">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.4.punter"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.4.punter"/>
-		<dc:title>War and the Uses of Myth: Betty T. Bennet, ed., British War Poetry in the Age of
-Romanticism: 1793-1815</dc:title>
+		<dc:title>War and the Uses of Myth: Betty T. Bennet, ed., British War Poetry in the Age of Romanticism: 1793-1815</dc:title>
 		<role:AUT>David Punter</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.04.bqscan.thumb.png"/>

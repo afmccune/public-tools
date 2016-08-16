@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.4.jackson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.4.jackson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.4.jackson"/>
-		<dc:title>Syndy McMillen Conger, ed. Sensibility in Transformation: Creative Resistance to
-Sentiment from the Augustans to the Romantics</dc:title>
+		<dc:title>Syndy McMillen Conger, ed., Sensibility in Transformation: Creative Resistance to Sentiment from the Augustans to the Romantics</dc:title>
 		<role:AUT>Wallace Jackson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.024.04.bqscan.thumb.png"/>

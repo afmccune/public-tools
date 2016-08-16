@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.4.mellor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.4.mellor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.4.mellor"/>
-		<dc:title>Karl Kroeber and William Walling’s Images of Romanticism: Verbal and Visual
-Affinities</dc:title>
+		<dc:title>Karl Kroeber and William Walling, eds., Images of Romanticism: Verbal and Visual Affinities</dc:title>
 		<role:AUT>Anne K. Mellor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.04.bqscan.thumb.png"/>

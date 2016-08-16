@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/36.2.phillips">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/36.2.phillips"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/36.2.phillips"/>
-		<dc:title>Color-Printing Songs of Experience and Blake’s Method of Registration: A
-Correction</dc:title>
+		<dc:title>Color-Printing Songs of Experience and Blake’s Method of Registration: A Correction</dc:title>
 		<role:AUT>Michael Phillips</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.036.02.bqscan.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.4.luca">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.4.luca"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.4.luca"/>
-		<dc:title>Blake: Innocence and Experience, a play by Elliott Hayes</dc:title>
+		<dc:title>Elliott Hayes, Blake: Innocence and Experience, a play</dc:title>
 		<role:AUT>V. A. De Luca</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.04.bqscan.thumb.png"/>

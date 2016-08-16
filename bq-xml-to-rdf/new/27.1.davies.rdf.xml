@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.1.davies">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.1.davies"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.1.davies"/>
-		<dc:title>William Muir and the Blake Press at Edmonton with Muir’s letters to Kerrison
-Preston</dc:title>
+		<dc:title>William Muir and the Blake Press at Edmonton with Muir’s letters to Kerrison Preston</dc:title>
 		<role:AUT>Keri Davies</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.01.bqscan.thumb.png"/>

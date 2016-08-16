@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/11.3.mitchell">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/11.3.mitchell"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/11.3.mitchell"/>
-		<dc:title>Robert Rosenblum, Modern Painting and the Northern Tradition: Friedrich to
-Rothko</dc:title>
+		<dc:title>Robert Rosenblum, Modern Painting and the Northern Tradition: Friedrich to Rothko</dc:title>
 		<role:AUT>W. J. T. Mitchell</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.011.03.bqscan.thumb.png"/>

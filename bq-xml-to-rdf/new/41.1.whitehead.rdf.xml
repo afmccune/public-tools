@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/41.1.whitehead">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/41.1.whitehead"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/41.1.whitehead"/>
-		<dc:title>“Visions of Blake, the Artist”: An Early Reference to William Blake in the
-Times</dc:title>
+		<dc:title>“Visions of Blake, the Artist”: An Early Reference to William Blake in the Times</dc:title>
 		<role:AUT>Angus Whitehead</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.041.01.bqscan.thumb.png"/>

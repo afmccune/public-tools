@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.4.woodring">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.4.woodring"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.4.woodring"/>
-		<dc:title>Marilyn Butler, Romantics, Rebels and Reactionaries: English Literature and its
-Background 1760-1830</dc:title>
+		<dc:title>Marilyn Butler, Romantics, Rebels and Reactionaries: English Literature and its Background 1760-1830</dc:title>
 		<role:AUT>Carl Woodring</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.04.bqscan.thumb.png"/>

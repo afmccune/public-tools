@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.1.mellor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.1.mellor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.1.mellor"/>
-		<dc:title>Jean H. Hagstrum. The Romantic Body: Love and Sexuality in Keats, Wordsworth, and
-Blake</dc:title>
+		<dc:title>Jean H. Hagstrum. The Romantic Body: Love and Sexuality in Keats, Wordsworth, and Blake</dc:title>
 		<role:AUT>Anne K. Mellor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.01.bqscan.thumb.png"/>

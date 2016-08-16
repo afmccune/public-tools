@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.4.salvo">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.4.salvo"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.4.salvo"/>
-		<dc:title>William Bolcom, composer, Songs of Innocence and of Experience, A Musical
-Illumination of the Poems of William Blake</dc:title>
+		<dc:title>William Bolcom, composer, Songs of Innocence and of Experience, A Musical Illumination of the Poems of William Blake</dc:title>
 		<role:AUT>Jackie Di Salvo</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.04.bqscan.thumb.png"/>

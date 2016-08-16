@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.3.hughes">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.3.hughes"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.3.hughes"/>
-		<dc:title>Blake and Tradition, by Kathleen Raine</dc:title>
+		<dc:title>Kathleen Raine, Blake and Tradition</dc:title>
 		<role:AUT>Daniel Hughes</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.03.bqscan.thumb.png"/>

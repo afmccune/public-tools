@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.4.atkins">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.4.atkins"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.4.atkins"/>
-		<dc:title>“Both Turk and Jew”: Notes on the Poetry of Henry Fuseli; with Some
-Translations</dc:title>
+		<dc:title>“Both Turk and Jew”: Notes on the Poetry of Henry Fuseli; with Some Translations</dc:title>
 		<role:AUT>A. M. Atkins</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.04.bqscan.thumb.png"/>

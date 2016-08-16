@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.1.hoagwood">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.1.hoagwood"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.1.hoagwood"/>
-		<dc:title>Rodney M. Baine, The Scattered Portions: William Blake’s Biological
-Symbolism</dc:title>
+		<dc:title>Rodney M. Baine, The Scattered Portions: William Blake’s Biological Symbolism</dc:title>
 		<role:AUT>Terence Allan Hoagwood</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.01.bqscan.thumb.png"/>

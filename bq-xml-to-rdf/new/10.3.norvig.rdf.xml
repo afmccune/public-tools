@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.3.norvig">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.3.norvig"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.3.norvig"/>
-		<dc:title>Carolyn Keay’s William Blake Selected Engravings</dc:title>
+		<dc:title>Carolyn Keay, William Blake Selected Engravings</dc:title>
 		<role:AUT>Gerda Norvig</role:AUT>
 		<role:AUT>Myra Glazer Schotz</role:AUT>
 		<collex:genre>Review</collex:genre>

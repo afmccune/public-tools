@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.4.mann">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.4.mann"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.4.mann"/>
-		<dc:title>Margaret Bottrall, “A Lecture on William Blake’s Songs of Innocence and
-Experience”</dc:title>
+		<dc:title>Margaret Bottrall, “A Lecture on William Blake’s Songs of Innocence and Experience”</dc:title>
 		<role:AUT>Paul Mann</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.04.bqscan.thumb.png"/>

@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/32.1.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/32.1.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/32.1.essick"/>
-		<dc:title>“Dear Generous Cumberland”: A Newly Discovered Letter and Poem by William
-Blake</dc:title>
+		<dc:title>“Dear Generous Cumberland”: A Newly Discovered Letter and Poem by William Blake</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Criticism</collex:genre>

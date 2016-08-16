@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.sandler">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.sandler"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.sandler"/>
-		<dc:title>Milton’s Poetry of Choice and Its Romantic Heirs by Leslie Brisman</dc:title>
+		<dc:title>Leslie Brisman, Milton’s Poetry of Choice and Its Romantic Heirs</dc:title>
 		<role:AUT>Florence Sandler</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

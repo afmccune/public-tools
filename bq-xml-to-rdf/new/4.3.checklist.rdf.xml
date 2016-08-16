@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.3.checklist">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.3.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.3.checklist"/>
-		<dc:title>A Checklist of Blake Scholarship, June 1969-September 1970: Additions
-and Corrections</dc:title>
+		<dc:title>A Checklist of Blake Scholarship, June 1969-September 1970: Additions and Corrections</dc:title>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.03.bqscan.thumb.png"/>
 		<dc:date>

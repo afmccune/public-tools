@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.2.page">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.2.page"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.2.page"/>
-		<dc:title>T. V. F. Brogan, English Versification, 1570-1980: A Reference Guide with a
-Global Appendix</dc:title>
+		<dc:title>T. V. F. Brogan, English Versification, 1570-1980: A Reference Guide with a Global Appendix</dc:title>
 		<role:AUT>Judith W. Page</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.02.bqscan.thumb.png"/>

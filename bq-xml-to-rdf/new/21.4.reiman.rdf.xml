@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.4.reiman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.4.reiman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.4.reiman"/>
-		<dc:title>James King. William Cowper: A Biography</dc:title>
+		<dc:title>James King, William Cowper: A Biography</dc:title>
 		<role:AUT>Donald H. Reiman</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.04.bqscan.thumb.png"/>

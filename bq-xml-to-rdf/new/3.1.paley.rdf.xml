@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.1.paley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.1.paley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.1.paley"/>
-		<dc:title>Songs of Innocence and of Experience: Twentieth Century
-Interpretations</dc:title>
+		<dc:title>Songs of Innocence and of Experience: Twentieth Century Interpretations</dc:title>
 		<role:AUT>Morton D. Paley</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.01.bqscan.thumb.png"/>

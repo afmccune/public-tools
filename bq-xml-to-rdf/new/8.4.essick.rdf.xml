@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.essick"/>
-		<dc:title>The Notebook of William Blake edited by David Erdman with the assistance of
-Donald Moore</dc:title>
+		<dc:title>David Erdman, ed., with the assistance of Donald Moore, The Notebook of William Blake</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

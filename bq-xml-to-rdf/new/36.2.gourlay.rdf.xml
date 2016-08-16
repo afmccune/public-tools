@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/36.2.gourlay">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/36.2.gourlay"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/36.2.gourlay"/>
-		<dc:title>Michael Phillips, William Blake: The Creation of the Songs from Manuscript to
-Illuminated Printing</dc:title>
+		<dc:title>Michael Phillips, William Blake: The Creation of the Songs from Manuscript to Illuminated Printing</dc:title>
 		<role:AUT>Alexander S. Gourlay</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.036.02.bqscan.thumb.png"/>

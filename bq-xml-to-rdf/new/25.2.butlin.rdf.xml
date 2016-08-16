@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.2.butlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.butlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.butlin"/>
-		<dc:title>Martin Butlin and Ted Gott, William Blake in the Collection of the National
-Gallery of Victoria</dc:title>
+		<dc:title>Martin Butlin and Ted Gott, William Blake in the Collection of the National Gallery of Victoria</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.02.bqscan.thumb.png"/>

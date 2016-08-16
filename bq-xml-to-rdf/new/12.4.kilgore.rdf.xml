@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.4.kilgore">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.4.kilgore"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.4.kilgore"/>
-		<dc:title>Alicia Ostriker’s William Blake: The Complete Poems</dc:title>
+		<dc:title>Alicia Ostriker, ed., William Blake: The Complete Poems</dc:title>
 		<role:AUT>John Kilgore</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.04.bqscan.thumb.png"/>

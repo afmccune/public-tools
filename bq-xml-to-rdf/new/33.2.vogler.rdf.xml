@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/33.2.vogler">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/33.2.vogler"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/33.2.vogler"/>
-		<dc:title>John B. Pierce, Flexible Design: Revisionary Poetics in Blake’s Vala or The
-Four Zoas</dc:title>
+		<dc:title>John B. Pierce, Flexible Design: Revisionary Poetics in Blake’s Vala or The Four Zoas</dc:title>
 		<role:AUT>Thomas A. Vogler</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.033.02.bqscan.thumb.png"/>

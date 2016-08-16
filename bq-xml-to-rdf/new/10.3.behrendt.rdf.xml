@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.3.behrendt">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.3.behrendt"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.3.behrendt"/>
-		<dc:title>Eleanor Wilner, Gathering the Winds: Visionary Imagination and Radical
-Transformation of Self and Society</dc:title>
+		<dc:title>Eleanor Wilner, Gathering the Winds: Visionary Imagination and Radical Transformation of Self and Society</dc:title>
 		<role:AUT>Stephen C. Behrendt</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.03.bqscan.thumb.png"/>

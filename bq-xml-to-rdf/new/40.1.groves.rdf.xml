@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/40.1.groves">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/40.1.groves"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/40.1.groves"/>
-		<dc:title>“This Class of Impostors”: Robert Cromek’s View of London Booksellers and
-Engravers</dc:title>
+		<dc:title>“This Class of Impostors”: Robert Cromek’s View of London Booksellers and Engravers</dc:title>
 		<role:AUT>David Groves</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.040.01.bqscan.thumb.png"/>

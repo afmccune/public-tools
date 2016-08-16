@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.4.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.4.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.4.essick"/>
-		<dc:title>Blake in the Marketplace, 1995, Including a Survey of Blakes in Private
-Ownership</dc:title>
+		<dc:title>Blake in the Marketplace, 1995, Including a Survey of Blakes in Private Ownership</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.04.bqscan.thumb.png"/>

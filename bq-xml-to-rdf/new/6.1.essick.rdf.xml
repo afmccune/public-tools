@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.essick"/>
-		<dc:title>The Blake Collection of Mrs. Landon K. Thorne by G. E. Bentley,
-Jr.</dc:title>
+		<dc:title>The Blake Collection of Mrs. Landon K. Thorne by G. E. Bentley, Jr.</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

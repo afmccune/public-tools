@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.4.hodgson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.4.hodgson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.4.hodgson"/>
-		<dc:title>Lucy Newlyn. Coleridge, Wordsworth, and the Language of Allusion</dc:title>
+		<dc:title>Lucy Newlyn, Coleridge, Wordsworth, and the Language of Allusion</dc:title>
 		<role:AUT>John Hodgson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.04.bqscan.thumb.png"/>

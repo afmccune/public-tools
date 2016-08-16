@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.3.doerrbecker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.3.doerrbecker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.3.doerrbecker"/>
-		<dc:title>Some Minor Additions to Bentley’s “Blake Among the
-Slavs”</dc:title>
+		<dc:title>Some Minor Additions to Bentley’s “Blake Among the Slavs”</dc:title>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<role:AUT>Marta Slowiková</role:AUT>
 		<collex:genre>Bibliography</collex:genre>

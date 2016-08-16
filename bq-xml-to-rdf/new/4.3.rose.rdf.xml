@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/4.3.rose">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/4.3.rose"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/4.3.rose"/>
-		<dc:title>The 1839-Wilkinson Edition of Blake’s Songs in Transcendental
-America</dc:title>
+		<dc:title>The 1839-Wilkinson Edition of Blake’s Songs in Transcendental America</dc:title>
 		<role:AUT>Edward J. Rose</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.004.03.bqscan.thumb.png"/>

@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.3.bronowski"/>
 		<dc:title>Bronowski Dead at 66</dc:title>
 		<role:AUT>Victor H. McElheny</role:AUT>
-		<collex:genre>Nonfiction</collex:genre>
+		<collex:genre>Life Writing</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.03.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>

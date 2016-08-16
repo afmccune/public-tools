@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/35.4.lindberg">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/35.4.lindberg"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/35.4.lindberg"/>
-		<dc:title>David Bindman and Simon Baker, William Blake 1757-1827. Catalogue of the
-exhibition at the Helsinki Art Museum, 11 April-25 June 2000</dc:title>
+		<dc:title>David Bindman and Simon Baker, William Blake 1757-1827. Catalogue of the exhibition at the Helsinki Art Museum, 11 April-25 June 2000</dc:title>
 		<role:AUT>Bo Ossian Lindberg</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.035.04.bqscan.thumb.png"/>

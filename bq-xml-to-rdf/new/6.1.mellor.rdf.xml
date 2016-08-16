@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.mellor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.mellor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.mellor"/>
-		<dc:title>The Poems of William Blake edited by W. H. Stevenson</dc:title>
+		<dc:title>W. H. Stevenson, ed., The Poems of William Blake</dc:title>
 		<role:AUT>Anne Kostelanetz Mellor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

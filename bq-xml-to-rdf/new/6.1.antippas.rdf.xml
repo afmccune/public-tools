@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.1.antippas">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.1.antippas"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.1.antippas"/>
-		<dc:title>Preludes to Vision by Thomas A. Vogler</dc:title>
+		<dc:title>Thomas A. Vogler, Preludes to Vision</dc:title>
 		<role:AUT>Andy P. Antippas</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.01.bqscan.thumb.png"/>

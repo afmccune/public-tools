@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.3.esterhammer">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.3.esterhammer"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.3.esterhammer"/>
-		<dc:title>D. W. Dörrbecker, Konvention und Innovation: Eigenes und Entliehenes in der
-Bildform bei William Blake und in der britischen Kunst seiner Zeit</dc:title>
+		<dc:title>D. W. Dörrbecker, Konvention und Innovation: Eigenes und Entliehenes in der Bildform bei William Blake und in der britischen Kunst seiner Zeit</dc:title>
 		<role:AUT>Angela Esterhammer</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.03.bqscan.thumb.png"/>

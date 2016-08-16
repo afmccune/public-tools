@@ -9,8 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.1.bentley">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.1.bentley"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.1.bentley"/>
-		<dc:title>William Blake and His Circle: A Checklist of Publications and Discoveries in
-2003</dc:title>
+		<dc:title>William Blake and His Circle: A Checklist of Publications and Discoveries in 2003</dc:title>
 		<role:AUT>G. E. Bentley, Jr.</role:AUT>
 		<role:AUT>Hikari Sato</role:AUT>
 		<role:AUT>Ching-erh Chang</role:AUT>
