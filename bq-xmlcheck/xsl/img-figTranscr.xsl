@@ -60,7 +60,7 @@
 	   <xsl:when test="ancestor::table">
         <img>
             <xsl:attribute name="class">table-image</xsl:attribute>
-            <xsl:attribute name="src">img/illustrations/<xsl:value-of select="./@n"/>.png</xsl:attribute>
+            <xsl:attribute name="src">../../bq/img/illustrations/<xsl:value-of select="./@n"/>.png</xsl:attribute>
 			<xsl:if test="./@height">
 			 <xsl:attribute name="height"><xsl:value-of select="./@height"/></xsl:attribute>
 			</xsl:if>
