@@ -22,7 +22,6 @@
 		  </xsl:copy>
 	  </xsl:if>
     </xsl:template>
-    <!--<xsl:template match="p|q|hi|lb|text()">-->
     <xsl:template match="text()">
       <xsl:choose>
     	<xsl:when test="ancestor::figure">
@@ -31,6 +30,114 @@
         	</xsl:copy>
     	</xsl:when>
     	<xsl:otherwise/>
+      </xsl:choose>
+    </xsl:template>
+    <xsl:template match="p|q|lb">
+      <xsl:choose>
+    	<xsl:when test="ancestor::figure">
+    		<xsl:copy>
+            	<xsl:apply-templates select="@*|node()"/>
+        	</xsl:copy>
+    	</xsl:when>
+    	<xsl:when test="descendant::figure">
+    		<xsl:copy>
+            	<xsl:apply-templates select="@*|node()"/>
+        	</xsl:copy>
+    	</xsl:when>
+    	<xsl:otherwise/>
+      </xsl:choose>
+    </xsl:template>
+    <xsl:template match="hi">
+      <xsl:choose>
+    	<xsl:when test="ancestor::figure">
+          <xsl:choose>
+            <xsl:when test="@rend = 'b'">
+				<xsl:choose>
+					<xsl:when test="ancestor::title[@type='section'] or ancestor::title[@type='section-subtitle'] or ancestor::title[ancestor::table[@id='contents']]">
+						<xsl:apply-templates/>
+					</xsl:when>
+					<xsl:otherwise>
+						<strong>
+							<xsl:apply-templates/>
+						</strong>
+					</xsl:otherwise>
+				</xsl:choose>
+            </xsl:when>
+            <xsl:when test="@rend = 'i'">
+				<xsl:choose>
+					<xsl:when test="ancestor::title[@type='section'] or ancestor::title[@type='section-subtitle'] or ancestor::title[ancestor::table[@id='contents']]">
+						<xsl:apply-templates/>
+					</xsl:when>
+					<xsl:otherwise>
+						<em>
+							<xsl:apply-templates/>
+						</em>
+					</xsl:otherwise>
+				</xsl:choose>
+            </xsl:when>
+            <xsl:when test="@rend = 'u'">
+				<xsl:choose>
+					<xsl:when test="ancestor::title[@type='section'] or ancestor::title[@type='section-subtitle'] or ancestor::title[ancestor::table[@id='contents']]">
+						<xsl:apply-templates/>
+					</xsl:when>
+					<xsl:otherwise>
+						<span class="underline">
+							<xsl:apply-templates/>
+						</span>
+					</xsl:otherwise>
+				</xsl:choose>
+            </xsl:when>
+            <xsl:when test="@rend = 'uu'">
+				<span class="double-underline">
+					<xsl:apply-templates/>
+				</span>
+            </xsl:when>
+            <xsl:when test="@rend = 'uthick'">
+				<span class="thick-underline">
+					<xsl:apply-templates/>
+				</span>
+            </xsl:when>
+            <xsl:when test="@rend = 'overline'">
+				<span class="overline">
+					<xsl:apply-templates/>
+				</span>
+            </xsl:when>
+            <xsl:when test="@rend = 's'">
+                <sup>
+                    <xsl:apply-templates/>
+                </sup>
+            </xsl:when>
+            <xsl:when test="@rend = 'sub'">
+                <sub>
+                    <xsl:apply-templates/>
+                </sub>
+            </xsl:when>
+            <xsl:when test="@rend = 'smallcaps'">
+                <span class="small-caps">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@rend = 'strike'">
+                <strike>
+                    <xsl:apply-templates/>
+                </strike>
+            </xsl:when>
+            <xsl:when test="@rend = 'gray'">
+				<span class="gray">
+					<xsl:apply-templates/>
+				</span>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+        <xsl:when test="descendant::figure">
+    		<xsl:copy>
+            	<xsl:apply-templates select="@*|node()"/>
+        	</xsl:copy>
+        </xsl:when>
+        <xsl:otherwise/>
       </xsl:choose>
     </xsl:template>
 <!--
