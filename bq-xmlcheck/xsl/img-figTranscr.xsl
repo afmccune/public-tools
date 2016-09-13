@@ -22,6 +22,47 @@
 		  </xsl:copy>
 	  </xsl:if>
     </xsl:template>
+    <xsl:template match="TEI.2">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei.2">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="div1">
+        <xsl:choose>
+            <xsl:when test="@id='cover'"/>
+            <xsl:when test="@id != ''">
+				<div>
+					<xsl:attribute name="id">
+                        <xsl:value-of select="@id"/>
+                    </xsl:attribute>
+					<xsl:apply-templates/>
+				</div>
+			</xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="div2">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="div3">
+        <xsl:choose>
+            <xsl:when test="@type != ''">
+				<div>
+					<xsl:attribute name="class">
+                        <xsl:value-of select="@type"/>
+                    </xsl:attribute>
+					<xsl:apply-templates/>
+				</div>
+			</xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="text()">
       <xsl:choose>
     	<xsl:when test="ancestor::figure">
