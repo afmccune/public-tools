@@ -1,0 +1,72 @@
+[2.1.bentley] </hi>y		OK
+[2.2.todd] </hi>n		OK
+[2.4b.bentley] </hi>e	OK
+[3.1.erdman] </hi>e		OK
+[4.3.chayes] </hi>v		OK
+[4.4.beer] </hi>v		OK
+[5.3.chayes] </hi>v		OK
+[5.4.handlist] </hi>x	OK
+[6.1.metcalf] </hi>s		OK
+[9.4.adlard] </hi>F		X
+[9.4.wright] </hi>T		X
+[10.1.butlin] </hi>T
+[10.1.lister] </hi>L
+[10.1.tolley] </hi>T
+[10.3.tayler] </hi>a
+[11.3.bentley] </hi>o
+[12.2.lincoln] </hi>O
+[12.3.weber] </hi>a
+[12.4.bentley] </hi>h
+[13.2.minnick] </hi>b
+[14.3.hilton] </hi>p
+[14.3.murray] </hi>s
+[14.4.hilton] </hi>l
+[14.4.lentricchia] </hi>b
+[15.3.lindberg] </hi>c
+[15.4.edwards] </hi>c
+[15.4.hilton] </hi>u
+[16.3.toc] </hi>b
+[16.4.toc] </hi>b
+[17.1.erdman] </hi>C
+[17.1.toc] </hi>b
+[17.2.toc] </hi>b
+[17.3.lister] </hi>d
+[17.3.toc] </hi>b
+[18.1.erdman] </hi>a
+[18.1.vogler] </hi>i
+[18.2.minnick] </hi>C
+[18.3.dorrbecker] </hi>r
+[18.3.grant] </hi>s
+[18.4.bentley] </hi>O
+[18.4.paley] </hi>s
+[19.4.bentley] </hi>e
+[22.3.ward] </hi>A
+[23.3.dorrbecker] </hi>n
+[23.4.linkin] </hi>s
+[25.2.heppner] </hi>a
+[26.2.wittreich] </hi>a
+[26.3.dorrbecker] </hi>s
+[27.1.bentley] </hi>b
+[27.1.davies] </hi>M
+[27.3.welch] </hi>e
+[28.1.bentley] </hi>h
+[28.2.hilton] </hi>w
+[28.2.viscomi] </hi>s
+[28.4.bentley] </hi>s
+[29.1.behrendt] </hi>s
+[29.4.bentley] </hi>a
+[30.1.viscomi] </hi>s
+[30.4.bentley] </hi>e
+[31.3.hilton] </hi>a
+[31.4.bentley] </hi>A
+[33.1.hilton] </hi>U
+[34.1.colebrook] </hi>I
+[34.4.bentley] </hi>e
+[35.1.otto] </hi>J
+[36.1.bentley] </hi>h
+[37.2.spector] </hi>s
+[39.1.bentley] </hi>Q
+[39.2.whitehead] </hi>m
+[40.1.bentley] </hi>t
+[44.3.cardinale] </hi>h
+[Emend] </hi>e
