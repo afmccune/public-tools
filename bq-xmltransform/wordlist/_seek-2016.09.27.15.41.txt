@@ -1,0 +1,40 @@
+[1.2.tolley] </hi>1		X
+[2.2.erdman] </hi>1	X
+[7.4.essick] </hi>1		X
+[12.2.johnson] </hi>6	OK
+[12.2.lincoln] </hi>7	OK?
+[16.2.reiman] </hi>1	OK
+[16.4.lange] </hi>7		X
+[17.1.erdman] </hi>1	OK
+[18.1.erdman] </hi>1	X
+[18.2.minnick] </hi>1	X
+[20.2.erdman] </hi>7	OK
+[23.3.dorrbecker] </hi>8	X
+[23.4.bidney] </hi>3	X
+[23.4.hilton] </hi>9
+[23.4.pierce] </hi>1
+[23.4.tolley] </hi>2
+[24.2.hilton] </hi>5
+[24.4.murray] </hi>3
+[24.4.paley] </hi>8
+[25.1.dorrbecker] </hi>4
+[25.1.toc] </hi>9
+[25.2.behrendt] </hi>4
+[25.2.heppner] </hi>1
+[25.3.freed] </hi>8
+[25.4.hilton] </hi>6
+[26.1.stemmler] </hi>1
+[26.2.cox] </hi>9
+[26.3.dorrbecker] </hi>2
+[27.2.mandell] </hi>5
+[27.4.essick] </hi>6
+[29.2.clark] </hi>9
+[30.4.essick] </hi>6
+[31.4.essick] </hi>6
+[32.3.freed] </hi>7
+[32.4.bentley] </hi>5
+[33.3.grant] </hi>2
+[35.4.essick] </hi>6
+[37.1.bentley] </hi>6
+[40.1.bentley] </hi>1
+[43.2.ripley] </hi>8
