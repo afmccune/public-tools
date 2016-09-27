@@ -11,7 +11,7 @@
 [20.2.erdman] </hi>7	OK
 [23.3.dorrbecker] </hi>8	X
 [23.4.bidney] </hi>3	X
-[23.4.hilton] </hi>9
+[23.4.hilton] </hi>9		X
 [23.4.pierce] </hi>1
 [23.4.tolley] </hi>2
 [24.2.hilton] </hi>5
