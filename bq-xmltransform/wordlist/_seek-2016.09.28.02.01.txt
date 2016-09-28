@@ -1,0 +1,22 @@
+[2.2.erdman] </hi>7	OK?
+[12.2.johnson] </hi>6	OK
+[12.2.lincoln] </hi>7	OK?
+[16.2.reiman] </hi>1	OK
+[17.1.erdman] </hi>1	OK
+[20.2.erdman] </hi>7	OK
+[23.3.dorrbecker] </hi>7
+[23.4.bidney] </hi>9
+[25.1.dorrbecker] </hi>8
+[25.1.toc] </hi>9		OK?
+[26.3.dorrbecker] </hi>8
+[27.4.essick] </hi>6	OK
+[30.4.essick] </hi>6
+[31.4.essick] </hi>6
+[32.3.freed] </hi>7
+[32.4.bentley] </hi>5
+[33.3.grant] </hi>2
+[35.4.essick] </hi>6
+[37.1.bentley] </hi>6
+[40.1.bentley] </hi>1
+[43.2.ripley] </hi>8
+[Emend] </hi>1

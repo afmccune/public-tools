@@ -9,9 +9,7 @@ require('include/functions.php');
 $nl = "
 ";
 
-$seekStr = '<\/hi>[a-z]
-<\/hi>[A-Z]
-<\/hi>[0-9]';
+$seekStr = '<\/hi>[0-9]';
 
 $seek = explode($nl, $seekStr);
 //$seek = array($seekStr);
