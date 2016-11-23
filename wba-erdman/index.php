@@ -29,20 +29,13 @@ $nl = "
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 							
-							$fileParts = explode('.', $fn_t['fn']);
-							//$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
-							$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
-							$fn_t['volNum'] = $fileParts[0];
-							$fn_t['issueNum'] = $fileParts[1];
-							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
-							//$fn_t['fileSplit'] = $fileParts[2];
-
 							$FullXML = simplexml_load_file('old/'.$fn_t['fn']); 
 							$fn_t['pbs'] = $FullXML->xpath('//pb/@n'); // array
 
 							$XMLstring = file_get_contents('old/'.$fn_t['fn']);
-							$pages = preg_split('@<pb n="[0-9]{1,}"[ ]{0,1}/>@', $XMLstring);
+							$pages = preg_split('@<pb n="[0-9a-zA-Z]{1,}"[ ]{0,1}/>@', $XMLstring);
 							$XMLstringNew = $pages[0];
+							// note that page values need to be added manually for divs before the first pb
 												
 							for($x=0; $x<count($fn_t['pbs']); $x++) {
 								$pages[$x+1] = preg_replace('@<div([1-9]) @', '<div$1 page="'.$fn_t['pbs'][$x].'" ', $pages[$x+1]);
