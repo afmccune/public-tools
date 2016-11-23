@@ -6,6 +6,14 @@ require('include/functions.php');
 $nl = "
 ";
 
+$replace = array();
+$replace[''] = '';
+// $replace['<pb n="([0-9]{1,})"/>)'] = '</page><page n="$1">'; 
+// This won't work: it will create overlapping tags because
+// <pb> is just stuck wherever inside of <div>s.
+// Actually, that right there sinks the whole thing. 
+// <pb>s inside of <div>s.
+
 
 ?>
 	<body>
@@ -24,7 +32,7 @@ $nl = "
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("old/") as $fn) {
+					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -37,16 +45,11 @@ $nl = "
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							//$fn_t['fileSplit'] = $fileParts[2];
 
-							$FullXML = simplexml_load_file('old/'.$fn_t['fn']); 
-							$fn_t['pbs'] = $FullXML->xpath('//pb/@n'); // array
-
-							$XMLstring = file_get_contents('old/'.$fn_t['fn']);
-							$pages = preg_split('@<pb n="[0-9]{1,}"[ ]{0,1}/>@', $XMLstring);
-							$XMLstringNew = $pages[0];
-												
-							for($x=0; $x<count($fn_t['pbs']); $x++) {
-								$pages[$x+1] = preg_replace('@<div([1-9]) @', '<div$1 page="'.$fn_t['pbs'][$x].'" ', $pages[$x+1]);
-								$XMLstringNew .= '<pb n="'.$fn_t['pbs'][$x].'"/>'.$pages[$x+1];
+							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstringNew = $XMLstring;
+							
+							foreach($replace as $key => $value) {
+								$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
 							}
 							
 							if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') {
