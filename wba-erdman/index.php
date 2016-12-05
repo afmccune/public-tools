@@ -33,12 +33,15 @@ $nl = "
 							$fn_t['pbs'] = $FullXML->xpath('//pb/@n'); // array
 
 							$XMLstring = file_get_contents('old/'.$fn_t['fn']);
+							$XMLstring = preg_replace('@<div([1-9]) ([a-zA-Z0-9="\. ]{0,})><pb n="([0-9a-zA-Z]{1,})"[ ]{0,1}/>@', '<div$1 page="$3" $2><pb n="$3"/>', $XMLstring); // for div right before pb
+							
 							$pages = preg_split('@<pb n="[0-9a-zA-Z]{1,}"[ ]{0,1}/>@', $XMLstring);
 							$XMLstringNew = $pages[0];
 							// note that page values need to be added manually for divs before the first pb
 												
 							for($x=0; $x<count($fn_t['pbs']); $x++) {
 								$pages[$x+1] = preg_replace('@<div([1-9]) @', '<div$1 page="'.$fn_t['pbs'][$x].'" ', $pages[$x+1]);
+								$pages[$x+1] = preg_replace('@<div([1-9]) page="'.$fn_t['pbs'][$x].'" page="([0-9a-zA-Z]{1,})"@', '<div$1 page="$2"', $pages[$x+1]); // remove doubling for div right before pb
 								$XMLstringNew .= '<pb n="'.$fn_t['pbs'][$x].'"/>'.$pages[$x+1];
 							}
 							
