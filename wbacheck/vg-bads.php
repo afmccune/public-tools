@@ -21,24 +21,38 @@
 			<?php
 				
 			//print '<p>$vg_for = array();</p>';
+			$vgs = array();
+			$vgs[] = 'allegropenseroso';
+			$vgs[] = 'biblicaltemperas';
+			$vgs[] = 'biblicalwc';
+			$vgs[] = 'but543';
+			$vgs[] = 'cpd';
+			$vgs[] = 'gravepd';
+			$vgs[] = 'gravewc';
+			$vgs[] = 'gravewd';
+			$vgs[] = 'letters';
+			$vgs[] = 'miltons';
+			$vgs[] = 'pid';
 			
-			foreach (new DirectoryIterator("./vg/") as $fn) {
+			foreach (new DirectoryIterator("./wba/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 					$fn_t['file'] = str_replace('.xml', '', $fn_t['fn']);
 
-					$FullXML = simplexml_load_file('./vg/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file('./wba/'.$fn_t['fn']); 
 					
 					$nl = '
 ';
-					//print '<h4>'.$fn_t['file'].'</h4>';
+					print '<h4>'.$fn_t['file'].'</h4>';
 					
-					$fn_t['bads'] = $FullXML->xpath('//include/@bad'); // array
-					foreach($fn_t['bads'] as $bad) {
-						//print '<p>'.$bad.'</p>';
-						//print '<p>$vg_for["'.$bad.'"] = "'.$fn_t['file'].'";</p>';
-						print '$replace[\'work-copy="'.$bad.'"\'] = \'work-copy="'.$fn_t['file'].'"\';<br/>';
+					$fn_t['types'] = $FullXML->xpath('//bad/@type'); // array
+					foreach($fn_t['types'] as $type) {
+						//if(in_array($type, $vgs)) {
+							print '<p>'.$type.'</p>';
+							//print '<p>$vg_for["'.$bad.'"] = "'.$fn_t['file'].'";</p>';
+							//print '$replace[\'work-copy="'.$bad.'"\'] = \'work-copy="'.$fn_t['file'].'"\';<br/>';
+						//}
 					}
 					
 				}
