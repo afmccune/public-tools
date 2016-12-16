@@ -76,7 +76,8 @@
 							if(url_exists($linkWBA)) {
 								echo '<p>'.$fn_t['file'].': Link found: <a href="'.$linkWBA.'">'.$linkWBA.'</a></p>';
 							} else {
-								$fn_t['errors'][] = 'Broken link: <a href="'.$linkWBA.'">'.$linkWBA.'</a>';
+								echo '<p><strong>'.$fn_t['file'].': Broken link: <a href="'.$linkWBA.'">'.$linkWBA.'</a></strong></p>';
+								//$fn_t['errors'][] = 'Broken link: <a href="'.$linkWBA.'">'.$linkWBA.'</a>';
 								$numMissing = $numMissing + 1;
 							}
 						}
@@ -88,7 +89,7 @@
 					
 				}
 			}
-			
+			/*
 			usort($docsXml, 'filecmp');
 						
 			for ($i=0; $i<count($docsXml); $i++) {
@@ -99,6 +100,7 @@
 					}
 				}
 			}
+			*/
 			
 			print '<h3>Total missing URLs: '.$numMissing.'</h3>';
 			?>
