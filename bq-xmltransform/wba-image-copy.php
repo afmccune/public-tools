@@ -8,7 +8,7 @@ $nl = "
 
 $replace = array();
 $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_]{1,}\.[0-9]{1,})(\.[a-zA-Z0-9-_\.]{1,})"'] = '<figure n="$1" id="$2$3" work-copy="$2"';
-//$replace['work-copy="([a-zA-Z0-9-_]{1,}\.[0-9]{1,})" work-copy="[a-zA-Z0-9-_]{1,}\.[0-9]{1,}"'] = 'work-copy="$1"';
+$replace['work-copy="([a-zA-Z0-9-_]{1,}\.[0-9]{1,})" work-copy="[a-zA-Z0-9-_]{1,}\.[0-9]{1,}"'] = 'work-copy="$1"';
 // virtual groups
 $replace['work-copy="but543.1"'] = 'work-copy="allegropenseroso"';
 $replace['work-copy="bb69.1"'] = 'work-copy="allegropenseroso"';

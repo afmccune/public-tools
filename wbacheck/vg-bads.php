@@ -20,7 +20,7 @@
 						<div id="articles-reviews-index">
 			<?php
 				
-			print '<p>$vg_for = array();</p>';
+			//print '<p>$vg_for = array();</p>';
 			
 			foreach (new DirectoryIterator("./vg/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
@@ -37,7 +37,8 @@
 					$fn_t['bads'] = $FullXML->xpath('//include/@bad'); // array
 					foreach($fn_t['bads'] as $bad) {
 						//print '<p>'.$bad.'</p>';
-						print '<p>$vg_for["'.$bad.'"] = "'.$fn_t['file'].'";</p>';
+						//print '<p>$vg_for["'.$bad.'"] = "'.$fn_t['file'].'";</p>';
+						print '$replace[\'work-copy="'.$bad.'"\'] = \'work-copy="'.$fn_t['file'].'"\';<br/>';
 					}
 					
 				}
