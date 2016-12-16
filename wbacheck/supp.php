@@ -24,7 +24,7 @@
 				
 			$sorted = array();
 			
-			foreach (new DirectoryIterator("./wbaFull/") as $fn) {
+			foreach (new DirectoryIterator("./wba/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
@@ -34,8 +34,8 @@
 
 						# LOAD XML FILE 
 						$XML = new DOMDocument(); 
-						//$XML->load( './wbaFull/'.$fn_t['fn'] );
-						$XMLstring = file_get_contents( './wbaFull/'.$fn_t['fn'] );
+						//$XML->load( './wba/'.$fn_t['fn'] );
+						$XMLstring = file_get_contents( './wba/'.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
 						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
