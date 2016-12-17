@@ -17,7 +17,7 @@ $vg_bads['gravewd'] = array('but612.1', 'but636.1');
 $vg_bads['pid'] = array('but1.1', 'but6.1', 'but85v.1', 'but86v.1', 'btu94.1', 'but99.1', 'but100.1', 'but118r.1', 'but119Ar.1', 'but120r.1', 'but122v.1', 'but174.1', 'but175.1', 'but178r.1', 'but370.1', 'but773.1', 'but801.1');
 
 $replace = array();
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_]{1,}\.[0-9]{1,})(\.[a-zA-Z0-9-_\.]{1,})"'] = '<figure n="$1" id="$2$3" work-copy="$2"';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_]{1,}\.[a-zA-Z0-9]{1,})(\.[a-zA-Z0-9-_\.]{1,})"'] = '<figure n="$1" id="$2$3" work-copy="$2"';
 $replace['work-copy="([a-zA-Z0-9-_\.]{1,})" work-copy="[a-zA-Z0-9-_\.]{1,}"'] = 'work-copy="$1"';
 // virtual groups
 foreach($vg_bads as $key => $value) {
