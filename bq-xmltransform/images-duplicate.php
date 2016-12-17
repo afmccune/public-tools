@@ -17,7 +17,7 @@
 			$image = $imageArr[$i];
 			$figTranscr = $figTranscrArr[$i];
 			
-			//print '<p>file: '.$file.'; image: '.$image.'</p>';
+			print '<p>file: '.$file.'; image: '.$image.'</p>';
 		
 			$image = str_replace('.','\.',$image);
 
