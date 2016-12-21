@@ -24,6 +24,10 @@ $nl = "
 						$HTMLstring = file_get_contents('manual-index/index.html');
 						$HTMLstring = str_replace('<em>', '', $HTMLstring);
 						$HTMLstring = str_replace('</em>', '', $HTMLstring);
+						$HTMLstring = str_replace('<p>', '', $HTMLstring);
+						$HTMLstring = str_replace('</p>', '', $HTMLstring);
+						$HTMLstring = str_replace('<sup>', '', $HTMLstring);
+						$HTMLstring = str_replace('</sup>', '', $HTMLstring);
 						
 						$FullHTML = str_get_html($HTMLstring);
 						
@@ -52,6 +56,7 @@ $nl = "
 								
 								$manualIndexTitle = $titles[$i];
 								$manualIndexTitle = preg_replace('/[ ]{2,}/', ' ', $manualIndexTitle);
+								$manualIndexTitle = str_replace('&amp;', '&', $manualIndexTitle);
 								
 								if($XMLtitle != $manualIndexTitle) {
 									echo '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$titles[$i].'" (manual index)</p>';

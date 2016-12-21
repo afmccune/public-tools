@@ -55,8 +55,8 @@ $nl = "
 									mb_regex_encoding('UTF-8');
 									mb_internal_encoding("UTF-8");
 								
-									// All delimiters (newline, tab, mdash, hyphen, space) are now space
-									$fn_t['text'] = mb_ereg_replace('[\s—-]+', ' ', $fn_t['text']);
+									// All delimiters (newline, tab, mdash, hyphen, slash, space) are now space
+									$fn_t['text'] = mb_ereg_replace('[\s—-\/]+', ' ', $fn_t['text']);
 									$fn_t['text'] = ' '.$fn_t['text'].' ';
 									// Strip punctuation from beginnings of words (after space) and/or from ends of words (before space)
 									$fn_t['text'] = str_replace(' "', ' ', $fn_t['text']);
