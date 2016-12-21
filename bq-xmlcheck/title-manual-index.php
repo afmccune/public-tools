@@ -57,7 +57,7 @@ $nl = "
 								$XMLtitle = preg_replace('/['.$nl.'	 ]{1,}/', ' ', $XMLtitle);
 								
 								$manualIndexTitle = $titles[$i];
-								//$manualIndexTitle = preg_replace('/['.$nl.'	 ]{1,}/', ' ', $manualIndexTitle);
+								$manualIndexTitle = preg_replace('/['.$nl.'	 ]{1,}/', ' ', $manualIndexTitle);
 								$manualIndexTitle = preg_replace('/[ ]{2,}/', ' ', $manualIndexTitle);
 								$manualIndexTitle = preg_replace('/ $/', '', $manualIndexTitle); // remove space at end of title
 								$manualIndexTitle = preg_replace('/^ /', '', $manualIndexTitle); // remove space at beginning of title
