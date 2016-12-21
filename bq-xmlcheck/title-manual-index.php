@@ -34,6 +34,8 @@ $nl = "
 						$links = array();
 						$titles = array();
 						
+						$messages = array();
+						
 						if (getHtmlElementArray($FullHTML, 'a', 'href')) {
 							$links = getHtmlElementArray($FullHTML, 'a', 'href');
 							$titles = getHtmlElementArray($FullHTML, 'a', 'innertext');
@@ -55,16 +57,32 @@ $nl = "
 								$XMLtitle = preg_replace('/['.$nl.'	 ]{1,}/', ' ', $XMLtitle);
 								
 								$manualIndexTitle = $titles[$i];
+								//$manualIndexTitle = preg_replace('/['.$nl.'	 ]{1,}/', ' ', $manualIndexTitle);
 								$manualIndexTitle = preg_replace('/[ ]{2,}/', ' ', $manualIndexTitle);
+								$manualIndexTitle = preg_replace('/ $/', '', $manualIndexTitle); // remove space at end of title
 								$manualIndexTitle = str_replace('&amp;', '&', $manualIndexTitle);
 								
-								if($XMLtitle != $manualIndexTitle) {
-									echo '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$titles[$i].'" (manual index)</p>';
+								$unpickyXMLtitle = strtoupper($XMLtitle);
+								$unpickyXMLtitle = str_replace(' AND ', ' & ', $unpickyXMLtitle);
+								
+								$unpickyManualIndexTitle = strtoupper($manualIndexTitle);
+								$unpickyManualIndexTitle = str_replace(' AND ', ' & ', $unpickyManualIndexTitle);
+								
+								if($unpickyXMLtitle != $unpickyManualIndexTitle) {
+									$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$manualIndexTitle.'" (manual index)</p>';
+									//$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$unpickyXMLtitle.'" (XML) vs "'.$unpickyManualIndexTitle.'" (manual index)</p>';
+								} else if($XMLtitle != $manualIndexTitle) {
+									$messages[] = '<p>Non-matching capitalization (or &) for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$manualIndexTitle.'" (manual index)</p>';
 								} else {
-									//echo '<p>Titles match: '.$links[$i].'</p>';
-								}
-						
+									//$messages[] = '<p>Titles match: '.$links[$i].'</p>';
+								}								
 							}
+						}
+						
+						sort($messages);
+						
+						foreach($messages as $m) {
+							echo $m.$nl;
 						}
 				
 						?>
