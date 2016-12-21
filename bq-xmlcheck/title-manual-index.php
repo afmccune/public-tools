@@ -70,10 +70,10 @@ $nl = "
 								$unpickyManualIndexTitle = str_replace(' AND ', ' & ', $unpickyManualIndexTitle);
 								
 								if($unpickyXMLtitle != $unpickyManualIndexTitle) {
-									$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$manualIndexTitle.'" (manual index)</p>';
-									//$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$unpickyXMLtitle.'" (XML) vs "'.$unpickyManualIndexTitle.'" (manual index)</p>';
+									$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: <br/>"'.$XMLtitle.'" (XML) vs <br/>"'.$manualIndexTitle.'" (manual index)</p>';
+									//$messages[] = '<p>MISMATCH for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: <br/>"'.$unpickyXMLtitle.'" (XML) vs <br/>"'.$unpickyManualIndexTitle.'" (manual index)</p>';
 								} else if($XMLtitle != $manualIndexTitle) {
-									$messages[] = '<p>Non-matching capitalization (or &) for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: "'.$XMLtitle.'" (XML) vs "'.$manualIndexTitle.'" (manual index)</p>';
+									$messages[] = '<p>Non-matching capitalization (or &) for <a href="http://localhost:8888/bq/'.$file.'" target="_blank">'.$file.'</a>: <br/>"'.$XMLtitle.'" (XML) vs <br/>"'.$manualIndexTitle.'" (manual index)</p>';
 								} else {
 									//$messages[] = '<p>Titles match: '.$links[$i].'</p>';
 								}								
