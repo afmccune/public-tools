@@ -28,6 +28,7 @@ $nl = "
 						$HTMLstring = str_replace('</p>', '', $HTMLstring);
 						$HTMLstring = str_replace('<sup>', '', $HTMLstring);
 						$HTMLstring = str_replace('</sup>', '', $HTMLstring);
+						$HTMLstring = str_replace('<br>', '', $HTMLstring);
 						
 						$FullHTML = str_get_html($HTMLstring);
 						
