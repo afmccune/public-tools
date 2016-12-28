@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.4.hilton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.4.hilton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.4.hilton"/>
-		<dc:title>Tadeusz Sławek. The Outlined Shadow: Phenomenology, Grammatology, Blake</dc:title>
+		<dc:title>Tadeusz Sławek, The Outlined Shadow: Phenomenology, Grammatology, Blake</dc:title>
 		<role:AUT>Nelson Hilton</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.04.bqscan.thumb.png"/>

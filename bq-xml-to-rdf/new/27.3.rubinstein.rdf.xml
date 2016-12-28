@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.3.rubinstein">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.3.rubinstein"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.3.rubinstein"/>
-		<dc:title>William Blake: A Man without Marx...?</dc:title>
+		<dc:title>William Blake: A Man without Marx . . . ?</dc:title>
 		<role:AUT>Chris Rubinstein</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.03.bqscan.thumb.png"/>

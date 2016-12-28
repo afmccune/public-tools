@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/32.4.singer">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/32.4.singer"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/32.4.singer"/>
-		<dc:title>Blake Books for G. E. Bentley, Jr.</dc:title>
+		<dc:title>Blake Books, for G. E. Bentley, Jr.</dc:title>
 		<role:AUT>Ian Singer</role:AUT>
 		<collex:genre>Poetry</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.032.04.bqscan.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.3.rosso">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.3.rosso"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.3.rosso"/>
-		<dc:title>Linda Lewis, The Promethean Politics of Milton, Blake and Shelley</dc:title>
+		<dc:title>Linda Lewis, The Promethean Politics of Milton, Blake, and Shelley</dc:title>
 		<role:AUT>George Anthony Rosso</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.03.bqscan.thumb.png"/>

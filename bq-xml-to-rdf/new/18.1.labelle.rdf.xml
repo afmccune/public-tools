@@ -6,21 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.4.luca">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.4.luca"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.4.luca"/>
-		<dc:title>The Changing Order of Plates in Jerusalem, Chapter II</dc:title>
-		<role:AUT>V. A. De Luca</role:AUT>
-		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.04.bqscan.thumb.png"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.1.labelle">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.1.labelle"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.1.labelle"/>
+		<dc:title>James Bogan and Fred Goss, eds., Sparks of Fire: Blake in a New Age</dc:title>
+		<role:AUT>Jenijoy La Belle</role:AUT>
+		<collex:genre>Review</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Spring 1983</rdfs:label>
-				<rdf:value>1983</rdf:value>
+				<rdfs:label>Summer 1984</rdfs:label>
+				<rdf:value>1984</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/16.4.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/18.1.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

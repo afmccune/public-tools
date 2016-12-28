@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/43.2.kinser">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/43.2.kinser"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/43.2.kinser"/>
-		<dc:title>Kevin Hutchings, Songs of William Blake [CD]</dc:title>
+		<dc:title>Kevin Hutchings, Songs of William Blake (CD)</dc:title>
 		<role:AUT>Brent E. Kinser</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.043.02.bqscan.thumb.png"/>

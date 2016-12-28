@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.1.page">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.1.page"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.1.page"/>
-		<dc:title>The Garland Facsimiles of the Poetry of James       Montgomery</dc:title>
+		<dc:title>Donald H. Reiman, ed., The Garland Facsimiles of the Poetry of James Montgomery</dc:title>
 		<role:AUT>Judy Page</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.01.bqscan.thumb.png"/>

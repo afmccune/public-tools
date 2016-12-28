@@ -25,10 +25,10 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.stemmler"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.ott"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.bentley"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.jing"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.jingyu"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.butlin"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.mbutlin"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.luca"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.deluca"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.martinb"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.hilton"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/17.4.mann"/>

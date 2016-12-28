@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.3.hayes">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.3.hayes"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.3.hayes"/>
-		<dc:title>Elliot Hayes, Blake: Innocence and Experience</dc:title>
+		<dc:title>Elliott Hayes, Blake: Innocence and Experience, dir. Valerie Doulton</dc:title>
 		<role:AUT>Andrew Lincoln</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.03.bqscan.thumb.png"/>

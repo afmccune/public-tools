@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.3.ferber">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.3.ferber"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.3.ferber"/>
-		<dc:title>William Blake, The Early Illuminated Books</dc:title>
+		<dc:title>Morris Eaves, Robert N. Essick, and Joseph Viscomi, eds., William Blake, The Early Illuminated Books</dc:title>
 		<role:AUT>Michael Ferber</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.03.bqscan.thumb.png"/>

@@ -20,6 +20,7 @@
 		</dc:date>
 		
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.4.subscriptions"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.4.exhibition"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.4.reprints"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.4.ault"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/8.4.poster"/>

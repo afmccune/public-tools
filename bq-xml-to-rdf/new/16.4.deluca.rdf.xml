@@ -6,21 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.4.jing">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.4.jing"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.4.jing"/>
-		<dc:title>Unlisted Articles on Blake Published in China</dc:title>
-		<role:AUT>Gu Jing-yu</role:AUT>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.4.deluca">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.4.deluca"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.4.deluca"/>
+		<dc:title>The Changing Order of Plates in Jerusalem, Chapter II</dc:title>
+		<role:AUT>V. A. De Luca</role:AUT>
 		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.04.bqscan.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Spring 1984</rdfs:label>
-				<rdf:value>1984</rdf:value>
+				<rdfs:label>Spring 1983</rdfs:label>
+				<rdf:value>1983</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/17.4.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/16.4.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

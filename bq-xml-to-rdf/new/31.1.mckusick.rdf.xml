@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/31.1.mckusick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/31.1.mckusick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/31.1.mckusick"/>
-		<dc:title>20/20 Blake, written and directed by George Coates</dc:title>
+		<dc:title>George Coates, 20/20 Blake</dc:title>
 		<role:AUT>James McKusick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.031.01.bqscan.thumb.png"/>

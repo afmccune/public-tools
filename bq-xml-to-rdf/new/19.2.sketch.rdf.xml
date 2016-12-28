@@ -6,20 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.1.luca">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.1.luca"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.1.luca"/>
-		<dc:title>First Annua; Vincent A De Luca Memorial Lecture</dc:title>
-		<collex:genre>Nonfiction</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.01.bqscan.thumb.png"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/19.2.sketch">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/19.2.sketch"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/19.2.sketch"/>
+		<dc:title>A Pencil Sketch for Blake’s Dante Illustrations</dc:title>
+		<role:AUT>Jenijoy La Belle</role:AUT>
+		<collex:genre>Criticism</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.019.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Summer 1995</rdfs:label>
-				<rdf:value>1995</rdf:value>
+				<rdfs:label>Fall 1985</rdfs:label>
+				<rdf:value>1985</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/29.1.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/19.2.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

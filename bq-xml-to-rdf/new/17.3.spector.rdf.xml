@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.3.spector">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.3.spector"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.3.spector"/>
-		<dc:title>Kabbalistic Sources—Blake’s and His Critics</dc:title>
+		<dc:title>Kabbalistic Sources—Blake’s and His Critics’</dc:title>
 		<role:AUT>Sheila Spector</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.03.bqscan.thumb.png"/>

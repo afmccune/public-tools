@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/5.3.checklist">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/5.3.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/5.3.checklist"/>
-		<dc:title>A Checklist of Blake Scholarship October 1970 - March 1972</dc:title>
+		<dc:title>A Checklist of Blake Scholarship, October 1970 - March 1972</dc:title>
 		<role:AUT>Foster Foreman</role:AUT>
 		<role:AUT>Susan Grossman</role:AUT>
 		<role:AUT>David Wyatt</role:AUT>

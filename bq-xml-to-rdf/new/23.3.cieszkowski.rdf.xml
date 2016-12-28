@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.3.cieszkowski">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.3.cieszkowski"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.3.cieszkowski"/>
-		<dc:title>The Dispersal of the Illustrations to Dante’s Divine Comedy</dc:title>
+		<dc:title>“They murmuring divide; while the wind sleeps beneath, and the numbers are counted in silence”: The Dispersal of the Illustrations to Dante’s Divine Comedy</dc:title>
 		<role:AUT>Krzysztof Z. Cieszkowski</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.03.bqscan.thumb.png"/>

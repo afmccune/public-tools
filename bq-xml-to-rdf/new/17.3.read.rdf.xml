@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.3.read">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.3.read"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.3.read"/>
-		<dc:title>Michel Le Bris, Romantics and Romanticism</dc:title>
+		<dc:title>Barbara Bray and Bernard C. Swift, trans., Michel Le Bris, Romantics and Romanticism</dc:title>
 		<role:AUT>Dennis M. Read</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.03.bqscan.thumb.png"/>

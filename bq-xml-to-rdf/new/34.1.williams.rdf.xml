@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/34.1.williams">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/34.1.williams"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/34.1.williams"/>
-		<dc:title>Jackie DiSalvo, G. A. Rosso, and Christopher Z. Hobson, editors, Blake, Politics, and History</dc:title>
+		<dc:title>Jackie DiSalvo, G. A. Rosso, and Christopher Z. Hobson, eds., Blake, Politics, and History</dc:title>
 		<role:AUT>Nicholas M. Williams</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.034.01.bqscan.thumb.png"/>

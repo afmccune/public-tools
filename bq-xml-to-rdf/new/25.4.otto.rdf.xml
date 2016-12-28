@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.4.otto">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.4.otto"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.4.otto"/>
-		<dc:title>Hazard Adams, Antithetical Essays in Literary and Liberal Education</dc:title>
+		<dc:title>Hazard Adams, Antithetical Essays in Literary Criticism and Liberal Education</dc:title>
 		<role:AUT>Peter Otto</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.04.bqscan.thumb.png"/>

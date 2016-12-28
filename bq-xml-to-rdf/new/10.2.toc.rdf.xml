@@ -23,6 +23,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.colby"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.wip"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.barbara"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.golgonooza"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.ott"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.baine"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/10.2.essick"/>

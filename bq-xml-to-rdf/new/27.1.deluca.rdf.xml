@@ -6,21 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.2.luca">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.2.luca"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.2.luca"/>
-		<dc:title>Blake and Burke in Astonishment!</dc:title>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/27.1.deluca">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/27.1.deluca"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/27.1.deluca"/>
+		<dc:title>Peter Otto, Constructive Vision and Visionary Deconstruction: Los, Eternity, and the Productions of Time in the Later Poetry of William Blake</dc:title>
 		<role:AUT>V. A. De Luca</role:AUT>
-		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.02.bqscan.thumb.png"/>
+		<collex:genre>Review</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.027.01.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Fall 1989</rdfs:label>
-				<rdf:value>1989</rdf:value>
+				<rdfs:label>Summer 1993</rdfs:label>
+				<rdf:value>1993</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/23.2.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/27.1.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

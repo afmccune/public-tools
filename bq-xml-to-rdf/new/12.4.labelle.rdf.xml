@@ -6,9 +6,9 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.4.belle">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.4.belle"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.4.belle"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.4.labelle">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.4.labelle"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.4.labelle"/>
 		<dc:title>Blake and Morland: The First State of “The Industrious Cottager”</dc:title>
 		<role:AUT>Jenijoy La Belle</role:AUT>
 		<collex:genre>Criticism</collex:genre>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.4.simpson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.4.simpson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.4.simpson"/>
-		<dc:title>Jon P. Klancher. The Making of English Reading Audiences, 1790-1832</dc:title>
+		<dc:title>Jon P. Klancher, The Making of English Reading Audiences, 1790-1832</dc:title>
 		<role:AUT>David Simpson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.04.bqscan.thumb.png"/>

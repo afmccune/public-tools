@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/1.1.stevenson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/1.1.stevenson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.1.stevenson"/>
-		<dc:title>Dura, Countess of Egremont, Cratetos</dc:title>
+		<dc:title>Dura; Countess of Egremont; Cratetos</dc:title>
 		<role:AUT>W. H. Stevenson</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.01.bqscan.thumb.png"/>

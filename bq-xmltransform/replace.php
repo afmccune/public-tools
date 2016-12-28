@@ -7,12 +7,7 @@ $nl = "
 ";
 
 $replace = array();
-$replace['"34.1.ulrich"'] = '"34.1.mohring"';
-$replace['"21.4.salvo"'] = '"21.4.disalvo"';
-$replace['"10.4.johnson"'] = '"10.4.johnsongrant"';
-$replace['"17.4.jing"'] = '"17.4.jingyu"';
-$replace['"23.2.king"'] = '"23.2.kinghele"';
-$replace['"29.3.ima"'] = '"29.3.imaizumi"';
+$replace['([0-9]{2}\.[1-4])\.luca'] = '$1.deluca';
 //$replace['([a-zA-Z0-9-\.,\)\/”;:\?]) <pb '] = '$1 '.$nl.'<pb ';
 //$replace['(<pb id="p[0-9-]{3,}" n="[0-9-]{1,}"\/>) ([a-zA-Z0-9“\(])'] = '$1'.$nl.'$2';
 //$replace['><figure'] = '>'.$nl.'<figure';
@@ -54,7 +49,7 @@ $replace['"29.3.ima"'] = '"29.3.imaizumi"';
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {
-								$XMLstringNew = preg_replace("/".$key."/", "".$value."", $XMLstringNew);
+								$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
 							}
 							
 							if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') {

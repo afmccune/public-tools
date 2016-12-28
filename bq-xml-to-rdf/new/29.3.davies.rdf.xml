@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/29.3.davies">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/29.3.davies"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/29.3.davies"/>
-		<dc:title>Exhibition: “The Genitals are Beauty”</dc:title>
+		<dc:title>The Genitals are Beauty, An Exhibition</dc:title>
 		<role:AUT>Keri Davies</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.029.03.bqscan.thumb.png"/>

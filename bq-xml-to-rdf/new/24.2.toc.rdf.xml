@@ -19,7 +19,7 @@
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/24.2.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/24.2.labelle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/24.2.kamusikiri"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/24.2.bentley"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/24.2.gleckner"/>

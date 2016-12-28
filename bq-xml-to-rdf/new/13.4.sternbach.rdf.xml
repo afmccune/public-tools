@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/13.4.sternbach">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.4.sternbach"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.4.sternbach"/>
-		<dc:title>Donald H. Reiman, The Evidence of the Imagination: Studies of Interactions between Life and Art in English Romantic Literature</dc:title>
+		<dc:title>Donald H. Reiman, Michael C. Jaye, and Betty T. Bennett, eds., The Evidence of the Imagination: Studies of Interactions between Life and Art in English Romantic Literature</dc:title>
 		<role:AUT>Robert Sternbach</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.04.bqscan.thumb.png"/>

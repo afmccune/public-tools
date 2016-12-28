@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/31.3.joyce">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/31.3.joyce"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/31.3.joyce"/>
-		<dc:title>South Bank Show Documentary on Blake, directed by David Thomas, ITV (U.K.)</dc:title>
+		<dc:title>David Thomas, dir., South Bank Show Documentary on Blake</dc:title>
 		<role:AUT>Sarah Joyce</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.031.03.bqscan.thumb.png"/>

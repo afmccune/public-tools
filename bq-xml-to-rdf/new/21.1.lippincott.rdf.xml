@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/21.1.lippincott">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/21.1.lippincott"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/21.1.lippincott"/>
-		<dc:title>Sven Bruntjen, John Boydell, A Study of Art Patronage and Printselling in Georgian London</dc:title>
+		<dc:title>Sven Bruntjen, John Boydell: A Study of Art Patronage and Printselling in Georgian London</dc:title>
 		<role:AUT>Louise Lippincott</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.021.01.bqscan.thumb.png"/>

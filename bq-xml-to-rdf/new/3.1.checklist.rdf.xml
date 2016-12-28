@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.1.checklist">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.1.checklist"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.1.checklist"/>
-		<dc:title>A Checklist of Blake Scholarship: June ’68 to May ’69</dc:title>
+		<dc:title>A Checklist of Blake Scholarship, June ’68 to May ’69</dc:title>
 		<role:AUT>Sharon Flitterman</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.01.bqscan.thumb.png"/>

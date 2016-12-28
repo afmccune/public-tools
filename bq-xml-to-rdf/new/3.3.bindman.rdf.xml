@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.3.bindman">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.3.bindman"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.3.bindman"/>
-		<dc:title>J.S. Deville’s Life Mask of William Blake</dc:title>
+		<dc:title>J. S. Deville’s Life Mask of William Blake</dc:title>
 		<role:AUT>David Bindman</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.03.bqscan.thumb.png"/>

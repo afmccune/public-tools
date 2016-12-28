@@ -24,7 +24,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.heppner"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.groves"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.stothard"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.labelle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.3.bonasone"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>

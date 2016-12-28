@@ -10,6 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/13.1.ohio"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/13.1.ohio"/>
 		<dc:title>Golgonooza, Ohio</dc:title>
+		<role:AUT>Aethelred Eldridge</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.013.01.bqscan.thumb.png"/>
 		<dc:date>

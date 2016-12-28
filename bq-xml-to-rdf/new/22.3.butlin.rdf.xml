@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.3.butlin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.3.butlin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.3.butlin"/>
-		<dc:title>David Bindman, ed., William Blake’s Illustrations of the Book of Job,    and Colour Versions of William Blake’s Book of Job Designs from the Circle of John    Linnell</dc:title>
+		<dc:title>David Bindman, ed., William Blake’s Illustrations to the Book of Job; David Bindman, ed., Colour Versions of William Blake’s Book of Job Designs from the Circle of John Linnell</dc:title>
 		<role:AUT>Martin Butlin</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.03.bqscan.thumb.png"/>

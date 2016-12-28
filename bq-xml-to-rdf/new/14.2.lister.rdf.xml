@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.2.lister">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.2.lister"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.2.lister"/>
-		<dc:title>A Letter From Benjamin Disraeli to Anne Gilchrist</dc:title>
+		<dc:title>A Letter from Benjamin Disraeli to Anne Gilchrist</dc:title>
 		<role:AUT>Raymond Lister</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>

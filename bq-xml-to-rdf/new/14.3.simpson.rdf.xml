@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.3.simpson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.3.simpson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.3.simpson"/>
-		<dc:title>Michael Phillips, Interpreting Blake</dc:title>
+		<dc:title>Michael Phillips, ed., Interpreting Blake</dc:title>
 		<role:AUT>David Simpson</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.03.bqscan.thumb.png"/>

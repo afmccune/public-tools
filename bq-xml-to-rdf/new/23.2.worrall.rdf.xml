@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/23.2.worrall">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/23.2.worrall"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/23.2.worrall"/>
-		<dc:title>Jacques Derrida, The Truth in Painting</dc:title>
+		<dc:title>Geoff Bennington and Ian McLeod, trans., Jacques Derrida, The Truth in Painting</dc:title>
 		<role:AUT>David Worrall</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.023.02.bqscan.thumb.png"/>

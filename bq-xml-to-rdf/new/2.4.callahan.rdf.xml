@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.4.callahan">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.4.callahan"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.4.callahan"/>
-		<dc:title>John B. Beer, Blake’s Humanism</dc:title>
+		<dc:title>John Beer, Blake’s Humanism</dc:title>
 		<role:AUT>Patrick J. Callahan</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.04.bqscan.thumb.png"/>

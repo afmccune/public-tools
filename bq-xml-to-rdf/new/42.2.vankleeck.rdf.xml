@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/42.2.vankleeck">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/42.2.vankleeck"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/42.2.vankleeck"/>
-		<dc:title>W. H. Stevenson, ed., Blake: The Complete Poems, third edition</dc:title>
+		<dc:title>W. H. Stevenson, ed., Blake: The Complete Poems, 3rd ed.</dc:title>
 		<role:AUT>Justin Van Kleeck</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.042.02.bqscan.thumb.png"/>

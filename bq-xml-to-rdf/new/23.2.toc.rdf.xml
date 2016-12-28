@@ -28,8 +28,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.grenfell"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.gourlay"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.mellor"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.luca"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.king"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.deluca"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.kinghele"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.butlin"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.travel"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/23.2.pictures"/>

@@ -24,9 +24,9 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.bentley"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.mulhallen"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.mcquail"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.sketch"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.kroeber"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.luca"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.deluca"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.lister"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.labelle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/19.2.viscomi"/>

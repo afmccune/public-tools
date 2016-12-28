@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.3.miller">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.3.miller"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.3.miller"/>
-		<dc:title>Andrew Wilton, Constable’s ‘English Landscape Scenery’</dc:title>
+		<dc:title>Andrew Wilton, Constable’s “English Landscape Scenery”</dc:title>
 		<role:AUT>Ann Bermingham Miller</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.03.bqscan.thumb.png"/>

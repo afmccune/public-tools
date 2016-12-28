@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/38.3.shaddock">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/38.3.shaddock"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/38.3.shaddock"/>
-		<dc:title>Nobodaddy Wakes from His Slumber (After Blake 12)</dc:title>
+		<dc:title>Nobodaddy Wakes from His Slumber</dc:title>
 		<role:AUT>David Shaddock</role:AUT>
 		<collex:genre>Poetry</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.038.03.bqscan.thumb.png"/>

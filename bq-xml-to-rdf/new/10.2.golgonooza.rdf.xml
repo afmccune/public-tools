@@ -6,21 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.4.johnson">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.4.johnson"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.4.johnson"/>
-		<dc:title>Mapping Blake’s London</dc:title>
-		<role:AUT>Mary Lynn Johnson-Grant</role:AUT>
-		<collex:genre>Criticism</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.04.bqscan.thumb.png"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/10.2.golgonooza">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/10.2.golgonooza"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/10.2.golgonooza"/>
+		<dc:title>Golgonooza</dc:title>
+		<role:AUT>Aethelred Eldridge</role:AUT>
+		<collex:genre>Nonfiction</collex:genre>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.010.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Spring 1977</rdfs:label>
-				<rdf:value>1977</rdf:value>
+				<rdfs:label>Fall 1976</rdfs:label>
+				<rdf:value>1976</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/10.4.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/10.2.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

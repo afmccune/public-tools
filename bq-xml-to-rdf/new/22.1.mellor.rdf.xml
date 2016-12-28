@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/22.1.mellor">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/22.1.mellor"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/22.1.mellor"/>
-		<dc:title>A Symposium on Blake and His Circle</dc:title>
+		<dc:title>William Blake and His Circle, A Symposium</dc:title>
 		<role:AUT>Anne K. Mellor</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.022.01.bqscan.thumb.png"/>

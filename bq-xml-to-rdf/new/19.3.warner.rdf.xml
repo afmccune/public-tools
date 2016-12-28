@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/19.3.warner">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/19.3.warner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/19.3.warner"/>
-		<dc:title>G. Ingli James, ed., Blake’s Annotations to Richard Watson</dc:title>
+		<dc:title>G. Ingli James, ed., William Blake, Annotations to Richard Watson</dc:title>
 		<role:AUT>Nicholas O. Warner</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.019.03.bqscan.thumb.png"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/14.2.wilton">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.2.wilton"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.2.wilton"/>
-		<dc:title>Richard T. Godfrey, Printmaking in Britain, A General History from Its Beginnings to the Present Day</dc:title>
+		<dc:title>Richard T. Godfrey, Printmaking in Britain: A General History from Its Beginnings to the Present Day</dc:title>
 		<role:AUT>Andrew Wilton</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>

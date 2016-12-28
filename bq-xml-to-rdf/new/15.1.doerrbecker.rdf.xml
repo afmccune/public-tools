@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/15.1.doerrbecker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/15.1.doerrbecker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/15.1.doerrbecker"/>
-		<dc:title>Fuseli, The Swiss, And The British: Some Recent Publications</dc:title>
+		<dc:title>Fuseli, the Swiss, and the British: Some Recent Publications</dc:title>
 		<role:AUT>Detlef W. Dörrbecker</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.015.01.bqscan.thumb.png"/>

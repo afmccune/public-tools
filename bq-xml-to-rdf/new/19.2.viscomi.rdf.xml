@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/19.2.viscomi">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/19.2.viscomi"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/19.2.viscomi"/>
-		<dc:title>Gregory Forbes, Selections from William Blake’s Songs of Innocence and of Experience; Musical Settings by Gregory Forbes</dc:title>
+		<dc:title>Selections from William Blake’s Songs of Innocence and of Experience, musical settings by Gregory Forbes; Gregory Forbes, A Companion to the New Musical Settings</dc:title>
 		<role:AUT>Joseph Viscomi</role:AUT>
 		<role:AUT>Margaret LaFrance</role:AUT>
 		<collex:genre>Review</collex:genre>

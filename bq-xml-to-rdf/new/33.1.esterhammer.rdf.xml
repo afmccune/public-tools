@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/33.1.esterhammer">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/33.1.esterhammer"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/33.1.esterhammer"/>
-		<dc:title>William Blake, Zwischen Feuer und Feuer (trans. Thomas Eichhorn); William Blake, Milton (trans. Hans-Ulrich Möhring)</dc:title>
+		<dc:title>Thomas Eichhorn, trans., William Blake, Zwischen Feuer und Feuer: Poetische Werke; Hans-Ulrich Möhring, trans., William Blake, Milton: Ein Gedicht</dc:title>
 		<role:AUT>Angela Esterhammer</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.033.01.bqscan.thumb.png"/>

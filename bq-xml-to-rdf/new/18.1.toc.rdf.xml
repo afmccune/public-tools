@@ -24,11 +24,11 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.werner"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.carr"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.vogler"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.belle"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.labelle"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.salemi"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.ostriker"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.wilton"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.luca"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.deluca"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/18.1.punter"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/44.3.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/44.3.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/44.3.essick"/>
-		<dc:title>Martin Butlin, ed., William Blake’s Watercolour Inventions in Illustration of The Grave by Robert Blair, William Blake, Songs of Innocence and of Experience, a Portfolio of Eighteen Facsimile Impressions (Flying Horse Editions)</dc:title>
+		<dc:title>Martin Butlin, ed., William Blake’s Watercolour Inventions in Illustration of The Grave by Robert Blair; William Blake, Songs of Innocence and of Experience, a Portfolio of Eighteen Facsimile Impressions (Flying Horse Editions)</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.044.03.bqscan.thumb.png"/>

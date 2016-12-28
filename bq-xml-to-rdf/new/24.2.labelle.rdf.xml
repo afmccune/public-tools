@@ -6,9 +6,9 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.2.belle">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.2.belle"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.2.belle"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/24.2.labelle">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/24.2.labelle"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/24.2.labelle"/>
 		<dc:title>Blake’s Bald Nudes</dc:title>
 		<role:AUT>Jenijoy La Belle</role:AUT>
 		<collex:genre>Criticism</collex:genre>

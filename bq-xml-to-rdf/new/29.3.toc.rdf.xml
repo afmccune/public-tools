@@ -21,7 +21,7 @@
 		
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.butlin"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.browne"/>
-		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.ima"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.imaizumi"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.ferber"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.read"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/29.3.linkin"/>

@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/16.2.essick">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/16.2.essick"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/16.2.essick"/>
-		<dc:title>Blake in the Marketplace 1980-1981</dc:title>
+		<dc:title>Blake in the Marketplace, 1980-1981</dc:title>
 		<role:AUT>Robert N. Essick</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.016.02.bqscan.thumb.png"/>

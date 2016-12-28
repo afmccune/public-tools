@@ -6,21 +6,21 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.1.bennett">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.1.bennett"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.1.bennett"/>
-		<dc:title>Raymond Lister, George Richmond: A Critical Biography; William L. Pressly, The Life and Art of James Barry</dc:title>
-		<role:AUT>Shelley M. Bennett</role:AUT>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/17.4.deluca">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/17.4.deluca"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/17.4.deluca"/>
+		<dc:title>Elliott Hayes, Blake: Innocence and Experience, a play</dc:title>
+		<role:AUT>V. A. De Luca</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.01.bqscan.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.017.04.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Summer 1983</rdfs:label>
-				<rdf:value>1983</rdf:value>
+				<rdfs:label>Spring 1984</rdfs:label>
+				<rdf:value>1984</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/17.1.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/17.4.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
