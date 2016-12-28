@@ -7,9 +7,15 @@ $nl = "
 ";
 
 $replace = array();
-$replace['([a-zA-Z0-9-\.,\)\/”;:\?]) <pb '] = '$1 '.$nl.'<pb ';
-$replace['(<pb id="p[0-9-]{3,}" n="[0-9-]{1,}"\/>) ([a-zA-Z0-9“\(])'] = '$1'.$nl.'$2';
-$replace['><figure'] = '>'.$nl.'<figure';
+$replace['"34.1.ulrich"'] = '"34.1.mohring"';
+$replace['"21.4.salvo"'] = '"21.4.disalvo"';
+$replace['"10.4.johnson"'] = '"10.4.johnsongrant"';
+$replace['"17.4.jing"'] = '"17.4.jingyu"';
+$replace['"23.2.king"'] = '"23.2.kinghele"';
+$replace['"29.3.ima"'] = '"29.3.imaizumi"';
+//$replace['([a-zA-Z0-9-\.,\)\/”;:\?]) <pb '] = '$1 '.$nl.'<pb ';
+//$replace['(<pb id="p[0-9-]{3,}" n="[0-9-]{1,}"\/>) ([a-zA-Z0-9“\(])'] = '$1'.$nl.'$2';
+//$replace['><figure'] = '>'.$nl.'<figure';
 //$replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛¼½¾⅞]{1,})"'] = '$1“$2”'; //
 //$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
 
