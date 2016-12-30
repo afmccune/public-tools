@@ -10,9 +10,8 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.oskamp"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.oskamp"/>
 		<dc:title>Huib Emmer and Ken Hollings, Bethlehem Hospital: William Blake in Hell, an opera</dc:title>
-		<role:AUT>Frits van der Waa</role:AUT>
-		<role:AUT>Jules van Lieshout</role:AUT>
 		<role:AUT>Jacqueline Oskamp</role:AUT>
+		<role:AUT>Jules van Lieshout</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.02.bqscan.thumb.png"/>
 		<dc:date>

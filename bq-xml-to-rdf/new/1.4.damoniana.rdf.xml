@@ -11,7 +11,7 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/1.4.damoniana"/>
 		<dc:title>Further Damoniana</dc:title>
 		<role:AUT>Alvin Rosenfeld</role:AUT>
-		<role:AUT>Foster Damon</role:AUT>
+		<role:AUT>S. Foster Damon</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.001.04.bqscan.thumb.png"/>
 		<dc:date>

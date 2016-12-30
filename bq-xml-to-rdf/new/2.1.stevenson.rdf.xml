@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.1.stevenson">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.1.stevenson"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.1.stevenson"/>
-		<dc:title>Hayley and Smart’s Jubilate Agne</dc:title>
+		<dc:title>Hayley’s possession of Smart’s Jubilate Agno</dc:title>
 		<role:AUT>Warren Stevenson</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>

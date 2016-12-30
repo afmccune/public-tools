@@ -6,21 +6,22 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.tolley">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.tolley"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.tolley"/>
-		<dc:title>G. R. Sabri-Tabrizi, The “Heaven” and “Hell” of William Blake</dc:title>
-		<role:AUT>Michael J. Tolley</role:AUT>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/25.2.vanderwaa">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/25.2.vanderwaa"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/25.2.vanderwaa"/>
+		<dc:title>Huib Emmer and Ken Hollings, Bethlehem Hospital: William Blake in Hell, an opera</dc:title>
+		<role:AUT>Frits van der Waa</role:AUT>
+		<role:AUT>Jules van Lieshout</role:AUT>
 		<collex:genre>Review</collex:genre>
-		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>
+		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.025.02.bqscan.thumb.png"/>
 		<dc:date>
 			<collex:date>
-				<rdfs:label>Spring 1975</rdfs:label>
-				<rdf:value>1975</rdf:value>
+				<rdfs:label>Fall 1991</rdfs:label>
+				<rdf:value>1991</rdf:value>
 			</collex:date>
 		</dc:date>
 		
-		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/8.4.toc"/>
+		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/25.2.toc"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>

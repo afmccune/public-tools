@@ -28,6 +28,7 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.behrendt"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.reiman"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.tolley"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.vanderwaa"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.oskamp"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.shabetai"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/25.2.butlin"/>

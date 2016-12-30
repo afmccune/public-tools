@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/8.4.pignard">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.4.pignard"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.4.pignard"/>
-		<dc:title>William Blake, émerveillement et profanation by Jacques Blondel</dc:title>
+		<dc:title>Jacques Blondel, William Blake: émerveillement et profanation</dc:title>
 		<role:AUT>Simone Pignard</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.04.bqscan.thumb.png"/>

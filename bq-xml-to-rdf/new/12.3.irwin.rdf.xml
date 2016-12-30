@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.3.irwin">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.3.irwin"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.3.irwin"/>
-		<dc:title>Joseph Burke’s English Art 1714-1800</dc:title>
+		<dc:title>Joseph Burke, English Art 1714-1800</dc:title>
 		<role:AUT>David Irwin</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.03.bqscan.thumb.png"/>

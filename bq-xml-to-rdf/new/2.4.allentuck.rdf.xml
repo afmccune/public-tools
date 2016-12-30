@@ -6,11 +6,11 @@
  xmlns:collex="http://www.collex.org/schema#"
  xmlns:dcterms="http://purl.org/dc/terms/">
 
-	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.4.allentuch">
-		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.4.allentuch"/>
-		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.4.allentuch"/>
+	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/2.4.allentuck">
+		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/2.4.allentuck"/>
+		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.4.allentuck"/>
 		<dc:title>Lady Cynthia Asquith at a Blake Sale</dc:title>
-		<role:AUT>Marcia Allentuch</role:AUT>
+		<role:AUT>Marcia Allentuck</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.04.bqscan.thumb.png"/>
 		<dc:date>

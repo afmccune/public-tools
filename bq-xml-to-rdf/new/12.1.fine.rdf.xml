@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/12.1.fine">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/12.1.fine"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/12.1.fine"/>
-		<dc:title>Blake at the Tate</dc:title>
+		<dc:title>Martin Butlin, William Blake (Tate Gallery)</dc:title>
 		<role:AUT>Ruth E. Fine</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.012.01.bqscan.thumb.png"/>

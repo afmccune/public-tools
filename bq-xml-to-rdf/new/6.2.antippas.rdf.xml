@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/6.2.antippas">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.2.antippas"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.2.antippas"/>
-		<dc:title>The Romantics on Milton edited by Joseph A. Wittreich, Jr.</dc:title>
+		<dc:title>Joseph A. Wittreich, Jr., ed., The Romantics on Milton</dc:title>
 		<role:AUT>Andy P. Antippas</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.02.bqscan.thumb.png"/>
