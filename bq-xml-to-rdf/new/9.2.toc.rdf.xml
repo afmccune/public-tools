@@ -19,10 +19,12 @@
 			</collex:date>
 		</dc:date>
 		
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.interlandi"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.mla"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.america"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.allentuck"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.journal"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.eldridge"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.erdman"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.metcalf"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/9.2.keynes"/>
