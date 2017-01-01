@@ -22,8 +22,8 @@
 			$image = str_replace('.','\.',$image);
 
 			$figTranscr = str_replace($nl,'<lb/>'.$nl,$figTranscr);
-			$figTranscr = str_replace('( |	)& ','$1&amp; ',$figTranscr);
-			$figTranscr = str_replace(' &c( |\.)',' &amp;c$1',$figTranscr);
+			$figTranscr = preg_replace('@( |	)& @','$1&amp; ',$figTranscr);
+			$figTranscr = preg_replace('@ &c( |\.)@',' &amp;c$1',$figTranscr);
 	
 			// ***
 	
