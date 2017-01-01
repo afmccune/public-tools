@@ -28,8 +28,8 @@
         } else { return FALSE;}
     }
     
-    function filecmp(array $a, array $b) {
-					return strcmp($a['file'], $b['file']);
+    function countcmp(array $a, array $b) {
+					return strcmp($b['fileCount'], $a['fileCount']);
 			}
 	?>
 	<body>
@@ -50,6 +50,7 @@
 			
 			$filesWithImage = array();
 			$filesWithDupImage = array();
+			$filesWithDupImage2 = array();
 			$dupImagesInFile = array();
 			$transcrCountsForImg = array();
 			
@@ -95,9 +96,14 @@
 			// we create a new array of images with array counts > 1 (all duplicate images)
 			// we create another array of articles with duplicate images
 			
+			$n = 0;
 			foreach($filesWithImage as $img => $fileArray) {
 				if(count($fileArray) > 1) {
-					$filesWithDupImage[$img] = $fileArray;
+					$filesWithDupImage[$n] = array();
+					$filesWithDupImage[$n]['img'] = $img;
+					$filesWithDupImage[$n]['fileCount'] = count($fileArray);
+					$filesWithDupImage[$n]['fileArray'] = $fileArray;
+					$n = $n + 1;
 					foreach($fileArray as $file) {
 						if(isset($dupImagesInFile[(string)$file])) {
 							// nothing
@@ -107,6 +113,17 @@
 						$dupImagesInFile[(string)$file][] = $img;
 					}
 				}
+			}
+			
+			// sort images by number of duplicates, then put in new array with image as key
+			
+			usort($filesWithDupImage, 'countcmp');
+			
+			foreach ($filesWithDupImage as $dup) {
+				$filesWithDupImage2[$dup['img']] = array();
+				$filesWithDupImage2[$dup['img']]['fileCount'] = $dup['fileCount'];
+				$filesWithDupImage2[$dup['img']]['fileArray'] = $dup['fileArray'];
+				$filesWithDupImage2[$dup['img']]['transcrCounts'] = array();
 			}
 			
 			/*
@@ -132,6 +149,7 @@
 						$transcrCountsForImg[$img] = array();
 					}
 					$transcrCountsForImg[$img][] = array('file' => $file, 'count' => count($figTranscr));
+					$filesWithDupImage2[$img]['transcrCounts'][] = count($figTranscr);
 				}
 					
 			}
@@ -156,19 +174,23 @@
 			
 			print '</pre>';
 			
-			/*
-			usort($docsXml, 'filecmp');
-						
-			for ($i=0; $i<count($docsXml); $i++) {
-				if(count($docsXml[$i]['errors']) > 0) {
-					print '<h4><a href="'.$base_url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
-					foreach($docsXml[$i]['errors'] as $error) {
-						print '<p>'.$error.'</p>';
+			foreach ($filesWithDupImage2 as $img => $dup) {
+				print '<h4>'.$img.' (in '.$dup['fileCount'].' files with the following counts of figTranscr: '.implode(', ', $dup['transcrCounts']).')</h4>';
+				foreach($dup['fileArray'] as $fn) {
+					/*
+					$transcrCount = 0;
+					foreach($transcrCountsForImg[$dup['img']] as $fileAndTranscrCount) {
+						if((string)$fileAndTranscrCount['file'] == (string)$fn) {
+							$transcrCount = $fileAndTranscrCount['count'];
+						}
 					}
+					*/
+					$fileParts = explode('.', $fn);
+					$file = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
+					//print '<p><a href="'.$base_url.$file.'">'.$file.'</a> ('.$transcrCount.' figTranscr)</p>';
+					print '<p><a href="'.$base_url.$file.'">'.$file.'</a></p>';
 				}
 			}
-			*/
-			
 			?>
 							
 						</div> <!-- #articles-reviews-index -->
