@@ -32,6 +32,7 @@
 			$replace['<figure n="('.$image.')" id="([a-zA-Z0-9-_\.]{1,})" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
 			$replace['<figure n="('.$image.')" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" rend="$2" width="$3" height="$4">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
 			$replace['<figure n="('.$image.')" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" rend="$2" width="$3" height="$4">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
+			$replace['<figTranscr></figTranscr>'] = '<figTranscr/>';
 
 			foreach($replace as $key => $value) {
 				$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
