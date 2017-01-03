@@ -175,7 +175,9 @@
 			print '</pre>';
 			
 			foreach ($filesWithDupImage2 as $img => $dup) {
-				print '<h4>'.$img.' (in '.$dup['fileCount'].' files with the following counts of figTranscr: '.implode(', ', $dup['transcrCounts']).')</h4>';
+				$srcLocalLink = $base_url_local.'img/illustrations/'.$img.'.png';
+				$srcWBA = 'http://www.blakearchive.org/images/'.$img.'.300.jpg';
+				print '<h4>'.$img.' (<a href="'.$srcLocalLink.'">local</a> / <a href="'.$srcWBA.'">WBA</a>) (in '.$dup['fileCount'].' files with the following counts of figTranscr: '.implode(', ', $dup['transcrCounts']).')</h4>';
 				foreach($dup['fileArray'] as $fn) {
 					/*
 					$transcrCount = 0;
