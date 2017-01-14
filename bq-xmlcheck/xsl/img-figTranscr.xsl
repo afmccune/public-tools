@@ -229,7 +229,7 @@
 					<xsl:choose>
 						<xsl:when test="@n = ''"/>
 						<xsl:when test="@rend = 'db'">
-							<xsl:variable name="src">http://www.blakearchive.org/blake/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
+							<xsl:variable name="src">http://www.blakearchive.org/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
 							<a>
 								<xsl:attribute name="class">image-expand</xsl:attribute>
 								<xsl:attribute name="href">
@@ -329,11 +329,11 @@
 				<div class="caption">
 					<!--<div style="color: #FF0000;"><xsl:apply-templates select="./figTranscr"/></div>-->
 					<xsl:apply-templates/>
-					<xsl:if test="@id">
+					<xsl:if test="@id and @work-copy">
 						<!--and @rend = 'db'-->
 						<br/>
 						<a>
-							<xsl:attribute name="href">http://www.blakearchive.org/exist/blake/archive/object.xq?objectid=<xsl:value-of select="@id"/>&amp;java=no</xsl:attribute>
+							<xsl:attribute name="href">http://blakearchive.org/copy/<xsl:value-of select="@work-copy"/>?descId=<xsl:value-of select="@id"/></xsl:attribute>
 							<xsl:attribute name="target">_blank</xsl:attribute>
 							[View this object in the William Blake Archive]
 						</a>
