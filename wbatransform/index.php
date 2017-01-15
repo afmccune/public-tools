@@ -23,7 +23,7 @@
 			$sorted = array();
 			
 			foreach (new DirectoryIterator("./wba/") as $fn) {
-				if (preg_match('/.xml/', $fn->getFilename())) {
+				if (preg_match('/[a-zA-Z0-9].xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 
