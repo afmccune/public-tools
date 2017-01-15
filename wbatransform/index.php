@@ -23,7 +23,7 @@
 			$sorted = array();
 			
 			foreach (new DirectoryIterator("./wba/") as $fn) {
-				if (preg_match('/[a-zA-Z0-9].xml/', $fn->getFilename())) {
+				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 
@@ -50,20 +50,22 @@
 						#PRINT 
 						$stripped = $xslt->transformToXML( $XML ); 
 
-						//file_put_contents('new/'.$fn_t['fn'], $stripped);
+						if(strpos($stripped, '<desc ') !== false) {
+							$FullXML = simplexml_load_string($stripped);
 						
-						$FullXML = simplexml_load_string($stripped);
+							$fn_t['descIDs'] = $FullXML->xpath('//desc/@id');
+							$fn_t['transcripts'] = $FullXML->xpath('//desc');
 						
-						$fn_t['descIDs'] = $FullXML->xpath('//desc/@id');
-						$fn_t['transcripts'] = $FullXML->xpath('//desc');
-						
-						for($i=0; $i<count($fn_t['transcripts']); $i++) {
-							if(isset($fn_t['descIDs'][$i])) {
-								file_put_contents('new/'.$fn_t['descIDs'][$i].'.txt', $fn_t['transcripts'][$i]);
-								echo "<p>Success: ".$fn_t['descIDs'][$i]." processed.</p>";
-							} else {
-								echo "<p>ERROR: ".$fn_t['fn']." missing a descID (#".$i.").</p>";
+							for($i=0; $i<count($fn_t['transcripts']); $i++) {
+								if(isset($fn_t['descIDs'][$i])) {
+									file_put_contents('new/'.$fn_t['descIDs'][$i].'.txt', $fn_t['transcripts'][$i]);
+									echo "<p>Success: ".$fn_t['descIDs'][$i]." processed.</p>";
+								} else {
+									echo "<p>ERROR: ".$fn_t['fn']." missing a descID (#".$i.").</p>";
+								}
 							}
+						} else {
+							echo "<p>ERROR: ".$fn_t['fn']." contains no &lt;desc&gt; tags.</p>";
 						}
 						
 						/*
