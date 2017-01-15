@@ -17,6 +17,7 @@
 	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
 	$base_url_local = 'http://localhost:8888/bq/';
 	
+	$numFig = 0;
 	$numNoFigTranscr = 0;
 	/*
 	$missingByDecade = array();
@@ -29,37 +30,15 @@
 	*/
 
 	require('include/functions.php');
-	
-	$vols = '[1-5]';
-
-	if($_GET["vols"]) {
-		$vols = $_GET["vols"];
-	}
-	
-	$nav  = '<div id="global_nav">';
-    $nav .=		'<strong>Volumes:</strong> ';
-    $nav .=		'<a href="images-figTranscr.php?vols=[1-5]">1-5</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=[6-9]">6-9</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=1[0-5]">10-15</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=1[6-9]">16-19</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=2[0-5]">20-25</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=2[6-9]">26-29</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=3[0-5]">30-35</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=3[6-9]">36-39</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=4[0-4]">40-44</a>';
-    $nav .=		'<div class="clear"></div>';
-    $nav .=	'</div>';
-	
+		
 	?>
 	<body>
        <div id="outer">
-			<?php print $nav; ?>
 			<div id="content">
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>Images (no figTranscr)</h1>
-							<h2>(Volumes <?php echo $vols; ?>)</h2>
 						</div>
 					</div>
 					<div id="main">
@@ -69,8 +48,7 @@
 			$docsXml = array();
 			
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				//if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
-				if (preg_match('/^'.$vols.'.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
 					
@@ -88,31 +66,12 @@
 					
 					$noFigTranscrInFile = count($fn_t['figure']) - count($fn_t['figTranscr']);
 					
+					$numFig = $numFig + count($fn_t['figure']);
 					$numNoFigTranscr = $numNoFigTranscr + $noFigTranscrInFile;
 					
-					if($noFigTranscrInFile > 0) {
-
-						# LOAD XML FILE 
-						$XML = new DOMDocument(); 
-						$XMLstring = file_get_contents( '../../bq/docs/'.$fn_t['fn'] );
-						$remove = array("\n", "\r\n", "\r");
-						$XMLstring = str_replace($remove, ' ', $XMLstring);
-						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
-						$XML->loadXML($XMLstring);
-					
-						# START XSLT 
-						$xslt = new XSLTProcessor(); 
-						$XSL = new DOMDocument(); 
-						$XSL->load( 'xsl/img-figTranscr.xsl'); 
-						$xslt->importStylesheet( $XSL ); 
-						#PRINT 
-						$stripped = $xslt->transformToXML( $XML ); 
-						//file_put_contents('new/'.$fn_t['fn'], $stripped);
-
-						//$FullXML = simplexml_load_string($stripped);
-						
+					if($noFigTranscrInFile > 0) {						
 						print '<h4><a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a></h4>';
-						echo $stripped;
+						echo '<p>'.count($fn_t['figure']).' images, '.$noFigTranscrInFile.' missing transcripts.</p>';
 					}	
 					
 				}
@@ -126,7 +85,8 @@
 			print '<h3>Missing images (2000s): '.$missingByDecade['2000s'].'</h3>';
 			print '<h3>Missing images (2010s): '.$missingByDecade['2010s'].'</h3>';
 			*/
-			print '<h3>Total images without figTranscr (volumes '.$vols.'): '.$numNoFigTranscr.'</h3>';
+			print '<h3>Total images: '.$numFig.'</h3>';
+			print '<h3>Total images without figTranscr: '.$numNoFigTranscr.'</h3>';
 
 			print $nav;
 			?>
