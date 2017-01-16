@@ -27,6 +27,7 @@
 
 			$figTranscr = change_quotes($figTranscr);
 			$figTranscr = str_replace(' '.$nl,$nl,$figTranscr);
+			/*
 			$figTranscr = str_replace('atmo-'.$nl.'-sphere ','atmosphere'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('eve-'.$nl.'-ry ','every'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('unact-'.$nl.'-ed ','unacted'.$nl.'',$figTranscr);
@@ -42,11 +43,13 @@
 			$figTranscr = str_replace('im-'.$nl.'-agines ','seven'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('to-'.$nl.'-gether ','together'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('unre-'.$nl.'-deemable ','unredeemable'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('lea-'.$nl.'-ving ','unredeemable'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('lea-'.$nl.'ving ','leaving'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('Hea-'.$nl.'-ven ','Heaven'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('des-'.$nl.'-pise ','despise'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('Gos-'.$nl.'-pel ','Gospel'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('Jerusa-'.$nl.'-lem ','Jerusalem'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Gos-'.$nl.'-pel','Gospel'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Jerusa-'.$nl.'-lem','Jerusalem'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('count'.$nl.'ting','counting'.$nl.'',$figTranscr);
+			*/
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
