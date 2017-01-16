@@ -55,8 +55,9 @@
 			$figTranscr = str_replace('Eter'.$nl.'-nity','Eternity',$figTranscr);
 			$figTranscr = str_replace('(vision'.$nl.'The King of England looking westward trembles at the','The King of England looking westward trembles at the vision',$figTranscr);
 			$figTranscr = str_replace('-tion'.$nl.'1. Earth was not: nor globes of attrac-','1. Earth was not: nor globes of attraction',$figTranscr);
-			$figTranscr = str_replace('(woe'.$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by',$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by woe',$figTranscr);
+			//$figTranscr = str_replace('(woe'.$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by',$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by woe',$figTranscr); // 16.3.ackland
 			$figTranscr = str_replace('(drop'.$nl.'Where the cold miser spreads his gold? or does the bright cloud',$nl.'Where the cold miser spreads his gold? or does the bright cloud drop',$figTranscr);
+			$figTranscr = str_replace($nl.'(mild'.$nl.'The Golden nymph replied; pluck thou my flower Oothoon the',$nl.'The Golden nymph replied; pluck thou my flower Oothoon the mild',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = preg_replace('@([ 	'.$nl.'])&([ '.$nl.'])@','$1&amp;$2',$figTranscr);
