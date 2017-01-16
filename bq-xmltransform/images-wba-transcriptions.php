@@ -55,8 +55,8 @@
 			$figTranscr = str_replace('-tion'.$nl.'1. Earth was not: nor globes of attrac-','1. Earth was not: nor globes of attraction',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
-			$figTranscr = preg_replace('@([ 	])&([ '.$nl.'])@','$1&amp;$2',$figTranscr);
-			$figTranscr = preg_replace('@ &c( |\.)@',' &amp;c$1',$figTranscr);
+			$figTranscr = preg_replace('@([ 	'.$nl.'])&([ '.$nl.'])@','$1&amp;$2',$figTranscr);
+			$figTranscr = preg_replace('@ &c([ \.])@',' &amp;c$1',$figTranscr);
 			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
 			$figTranscr = str_replace(" th' ",' th’ ',$figTranscr);
 			$figTranscr = str_replace(" thro' ",' thro’ ',$figTranscr);
