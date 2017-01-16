@@ -26,6 +26,27 @@
 			$image = str_replace('.','\.',$image);
 
 			$figTranscr = change_quotes($figTranscr);
+			$figTranscr = str_replace(' '.$nl,$nl,$figTranscr);
+			$figTranscr = str_replace('atmo-'.$nl.'-sphere ','atmosphere'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('eve-'.$nl.'-ry ','every'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('unact-'.$nl.'-ed ','unacted'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('A-'.$nl.'-merican ','American'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('thun-'.$nl.'-derous ','thunderous'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('unbuck-'.$nl.'-led ','unbuckled'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('councel-'.$nl.'-lors ','councellors'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('gol-'.$nl.'-den ','golden'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('vani-'.$nl.'-ty ','vanity'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('systema-'.$nl.'-tic ','systematic'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('be-'.$nl.'-cause ','because'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('se-'.$nl.'-ven ','seven'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('im-'.$nl.'-agines ','seven'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('to-'.$nl.'-gether ','together'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('unre-'.$nl.'-deemable ','unredeemable'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('lea-'.$nl.'-ving ','unredeemable'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Hea-'.$nl.'-ven ','Heaven'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('des-'.$nl.'-pise ','despise'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Gos-'.$nl.'-pel ','Gospel'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Jerusa-'.$nl.'-lem ','Jerusalem'.$nl.'',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
@@ -33,6 +54,10 @@
 			$figTranscr = preg_replace('@ &c( |\.)@',' &amp;c$1',$figTranscr);
 			$figTranscr = str_replace(" th' ",' th’ ',$figTranscr);
 			$figTranscr = str_replace(" thro' ",' thro’ ',$figTranscr);
+			$figTranscr = str_replace("Subscribers'","Subscribers’",$figTranscr);
+			$figTranscr = str_replace(" 'tis "," ’tis ",$figTranscr);
+			$figTranscr = str_replace(" tho' "," tho’ ",$figTranscr);
+			$figTranscr = str_replace("Tho'","Tho’",$figTranscr);
 			$figTranscr = preg_replace("@([a-zA-Z])'([a-zA-Z])@",'$1’$2',$figTranscr);
 			$figTranscr = preg_replace("@[ ]{2,}@",' ',$figTranscr);
 			$figTranscr = str_replace("	 ",'	',$figTranscr); // tab space replaced with tab
@@ -43,8 +68,8 @@
 			// ***
 	
 			$replace = array();
-			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
-			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
+			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" id="$2" work-copy="$3" rend="db" width="$4" height="$5">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
+			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="db" width="$4" height="$5">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
 			$replace['<figTranscr></figTranscr>'] = '<figTranscr/>';
 			$replace[$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'] = $nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'; // if an id appears twice in a file (say, for a full image and a detail), we could get duplicate transcripts; this will eliminate them
 
@@ -139,7 +164,11 @@
 			
 			foreach($transcrFixesForFile as $file => $arr) {
 				//addFigTranscr($file, $arr['imageArr'], $arr['figTranscrArr']);
-				addFigTranscr($file, $arr['imageArr']);
+				if(count($arr['imageArr']) > 0) {
+					addFigTranscr($file, $arr['imageArr']);
+				} else {
+					//print '<p>'.$file.' has no untranscribed images with WBA IDs.</p>';
+				}
 			}
 			
 			?>
