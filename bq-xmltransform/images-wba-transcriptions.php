@@ -20,23 +20,33 @@
 			
 			$figTranscr = file_get_contents('../wbatransform/new/'.$image.'.txt');
 			
+			print '<pre>';
 			print '<p>file: '.$file.'; image: '.$image.'</p>';
-			print '<p>transcription: '.$figTranscr.'</p>';
 			
 			$image = str_replace('.','\.',$image);
 
-			$figTranscr = preg_replace('@[\r\n]{1,}$@','',$figTranscr);
+			$figTranscr = change_quotes($figTranscr);
+			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
+			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
-			$figTranscr = preg_replace('@( |	)& @','$1&amp; ',$figTranscr);
+			$figTranscr = preg_replace('@( |	)&( |'.$nl.')@','$1&amp;$2',$figTranscr);
 			$figTranscr = preg_replace('@ &c( |\.)@',' &amp;c$1',$figTranscr);
+			$figTranscr = str_replace(" th' ",' th’ ',$figTranscr);
+			$figTranscr = str_replace(" thro' ",' thro’ ',$figTranscr);
 			$figTranscr = preg_replace("@([a-zA-Z])'([a-zA-Z])@",'$1’$2',$figTranscr);
+			$figTranscr = preg_replace("@[ ]{2,}@",' ',$figTranscr);
+			$figTranscr = str_replace("	 ",'	',$figTranscr); // tab space replaced with tab
 	
+			print '<p>transcription: '.$figTranscr.'</p>';
+			print '</pre>';
+			
 			// ***
 	
 			$replace = array();
-			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
-			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
+			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
+			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" width="$5" height="$6">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
 			$replace['<figTranscr></figTranscr>'] = '<figTranscr/>';
+			$replace[$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'] = $nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'; // if an id appears twice in a file (say, for a full image and a detail), we could get duplicate transcripts; this will eliminate them
 
 			foreach($replace as $key => $value) {
 				$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
@@ -47,12 +57,30 @@
 			file_put_contents('new/'.$file, $XMLstringNew);
 			
 			$fileId = str_replace('.xml','',$file);
-			echo '<h4>Added figTranscr to <a href="/bq/'.$fileId.'">'.$fileId.'</a></h4>';
+			echo '<h4>Added figTranscr to <a href="/bq/'.$fileId.'" target="_blank">'.$fileId.'</a></h4>';
 		} else if ($XMLstringNew == '') {
 			echo '<p>'.$file.': ERROR, blank</p>';
 		} else {
 			echo '<p>'.$file.': no change</p>';
 		}
+    }
+    
+    function change_quotes($string){
+		$quotes = substr_count($string, '"');
+		
+		if($quotes % 2 == 0) {
+			// even
+		} else {
+			echo '<p>WARNING: Number of quotes is odd.';
+		}
+		
+		$quote_pairs = ceil($quotes/2);
+		
+		for($i=0; $i<$quote_pairs; $i++) {
+			$string = preg_replace('/"/', '”', preg_replace('/"/', '“', $string, 1), 1);
+		}
+		
+		return $string;
     }
     
 	?>
@@ -95,22 +123,17 @@
 					
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['id'] = $FullXML->xpath('//text//figure/@id'); // array
-
+					
+					$fn_t['imageArr'] = array();
+					
 					foreach($fn_t['id'] as $id) {
 						$transcr = $FullXML->xpath('//text//figure[@id="'.$id.'"]/figTranscr'); // array
 						if(count($transcr) < 1 && in_array($id,$wbaTranscrIDs)) {
-							if(isset($transcrFixesForFile[$fn_t['fn']])) {
-								//nothing
-							} else {
-								$transcrFixesForFile[$fn_t['fn']] = array();
-								$transcrFixesForFile[$fn_t['fn']]['imageArr'] = array();
-								//$transcrFixesForFile[$fn_t['fn']]['figTranscrArr'] = array();
-							}
-							$transcrFixesForFile[$fn_t['fn']]['imageArr'][] = $id;
-							//$transcrFixesForFile[$fn_t['fn']]['figTranscrArr'][] = $wbaTranscr[$id];							
+							$fn_t['imageArr'][] = $id;
 						}
 					}
 					
+					$transcrFixesForFile[$fn_t['fn']]['imageArr'] = $fn_t['imageArr'];	
 				}
 			}
 			
