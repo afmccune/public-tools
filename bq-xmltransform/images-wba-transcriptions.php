@@ -27,14 +27,13 @@
 
 			$figTranscr = change_quotes($figTranscr);
 			$figTranscr = str_replace(' '.$nl,$nl,$figTranscr);
-			/*
-			$figTranscr = str_replace('atmo-'.$nl.'-sphere ','atmosphere'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('atmo-'.$nl.'-sphere'.$nl,'atmosphere'.$nl.$nl,$figTranscr);
 			$figTranscr = str_replace('eve-'.$nl.'-ry ','every'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('unact-'.$nl.'-ed ','unacted'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('A-'.$nl.'-merican ','American'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('thun-'.$nl.'-derous ','thunderous'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('unbuck-'.$nl.'-led ','unbuckled'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('councel-'.$nl.'-lors ','councellors'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('councel-'.$nl.'-lors,','councellors,'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('gol-'.$nl.'-den ','golden'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('vani-'.$nl.'-ty ','vanity'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('systema-'.$nl.'-tic ','systematic'.$nl.'',$figTranscr);
@@ -46,10 +45,10 @@
 			$figTranscr = str_replace('lea-'.$nl.'ving ','leaving'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('Hea-'.$nl.'-ven ','Heaven'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('des-'.$nl.'-pise ','despise'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('Gos-'.$nl.'-pel','Gospel'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('Jerusa-'.$nl.'-lem','Jerusalem'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Gos-'.$nl.'-pel:','Gospel:'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Jerusa-'.$nl.'-lem:','Jerusalem:'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('count'.$nl.'ting','counting'.$nl.'',$figTranscr);
-			*/
+			$figTranscr = str_replace('in-'.$nl.'coherent ','incoherent'.$nl.'',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
