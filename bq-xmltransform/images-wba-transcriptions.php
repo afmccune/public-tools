@@ -26,6 +26,7 @@
 			$image = str_replace('.','\.',$image);
 
 			$figTranscr = change_quotes($figTranscr);
+			$figTranscr = preg_replace('@[\r\n]{1,}@',$nl,$figTranscr);
 			$figTranscr = str_replace(' '.$nl,$nl,$figTranscr);
 			$figTranscr = str_replace('atmo-'.$nl.'-sphere'.$nl,'atmosphere'.$nl.$nl,$figTranscr);
 			$figTranscr = str_replace('eve-'.$nl.'-ry ','every'.$nl.'',$figTranscr);
@@ -39,7 +40,7 @@
 			$figTranscr = str_replace('systema-'.$nl.'-tic ','systematic'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('be-'.$nl.'-cause ','because'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('se-'.$nl.'-ven ','seven'.$nl.'',$figTranscr);
-			$figTranscr = str_replace('im-'.$nl.'-agines ','seven'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('im-'.$nl.'-agines ','imagines'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('to-'.$nl.'-gether ','together'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('unre-'.$nl.'-deemable ','unredeemable'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('lea-'.$nl.'ving ','leaving'.$nl.'',$figTranscr);
@@ -49,11 +50,14 @@
 			$figTranscr = str_replace('Jerusa-'.$nl.'-lem:','Jerusalem:'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('count'.$nl.'ting','counting'.$nl.'',$figTranscr);
 			$figTranscr = str_replace('in-'.$nl.'coherent ','incoherent'.$nl.'',$figTranscr);
+			$figTranscr = str_replace('Eter'.$nl.'-nity','Eternity',$figTranscr);
+			$figTranscr = str_replace('(vision'.$nl.'The King of England looking westward trembles at the','The King of England looking westward trembles at the vision',$figTranscr);
+			$figTranscr = str_replace('-tion'.$nl.'1. Earth was not: nor globes of attrac-','1. Earth was not: nor globes of attraction',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
-			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
-			$figTranscr = preg_replace('@( |	)&( |'.$nl.')@','$1&amp;$2',$figTranscr);
+			$figTranscr = preg_replace('@([ 	])&([ '.$nl.'])@','$1&amp;$2',$figTranscr);
 			$figTranscr = preg_replace('@ &c( |\.)@',' &amp;c$1',$figTranscr);
+			$figTranscr = str_replace($nl,'<lb/>'.$nl.'	',$figTranscr);
 			$figTranscr = str_replace(" th' ",' th’ ',$figTranscr);
 			$figTranscr = str_replace(" thro' ",' thro’ ',$figTranscr);
 			$figTranscr = str_replace("Subscribers'","Subscribers’",$figTranscr);
