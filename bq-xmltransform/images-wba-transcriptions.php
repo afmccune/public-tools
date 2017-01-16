@@ -15,6 +15,8 @@
 		$XMLstring = file_get_contents('../../bq/docs/'.$file);
 		$XMLstringNew = $XMLstring;
 		
+		//print_r($imageArr);
+		
 		for($i=0; $i<count($imageArr); $i++) {
 			$image = $imageArr[$i];
 			
@@ -53,6 +55,8 @@
 			$figTranscr = str_replace('Eter'.$nl.'-nity','Eternity',$figTranscr);
 			$figTranscr = str_replace('(vision'.$nl.'The King of England looking westward trembles at the','The King of England looking westward trembles at the vision',$figTranscr);
 			$figTranscr = str_replace('-tion'.$nl.'1. Earth was not: nor globes of attrac-','1. Earth was not: nor globes of attraction',$figTranscr);
+			$figTranscr = str_replace('(woe'.$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by',$nl.'Sweetest the fruit that the worm feeds on. & the soul prey’d on by woe',$figTranscr);
+			$figTranscr = str_replace('(drop'.$nl.'Where the cold miser spreads his gold? or does the bright cloud',$nl.'Where the cold miser spreads his gold? or does the bright cloud drop',$figTranscr);
 			$figTranscr = preg_replace('@^[\r\n ]{1,}@','',$figTranscr);
 			$figTranscr = preg_replace('@[\r\n ]{1,}$@','',$figTranscr);
 			$figTranscr = preg_replace('@([ 	'.$nl.'])&([ '.$nl.'])@','$1&amp;$2',$figTranscr);
@@ -67,7 +71,7 @@
 			$figTranscr = preg_replace("@([a-zA-Z])'([a-zA-Z])@",'$1’$2',$figTranscr);
 			$figTranscr = preg_replace("@[ ]{2,}@",' ',$figTranscr);
 			$figTranscr = str_replace("	 ",'	',$figTranscr); // tab space replaced with tab
-	
+				
 			print '<p>transcription: '.$figTranscr.'</p>';
 			print '</pre>';
 			
@@ -77,7 +81,10 @@
 			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}>'] = '<figure n="$1" id="$2" work-copy="$3" rend="db" width="$4" height="$5">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>';
 			$replace['<figure n="([a-zA-Z0-9-_\.]{1,})" id="('.$image.')" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="db" width="([0-9]{1,})" height="([0-9]{1,})"[ ]{0,}/>'] = '<figure n="$1" id="$2" work-copy="$3" rend="db" width="$4" height="$5">'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'</figure>';
 			$replace['<figTranscr></figTranscr>'] = '<figTranscr/>';
-			$replace[$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'] = $nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'; // if an id appears twice in a file (say, for a full image and a detail), we could get duplicate transcripts; this will eliminate them
+			//$replace[$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'.$nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'] = $nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'; // if an id appears twice in a file (say, for a full image and a detail), we could get duplicate transcripts; this will eliminate them
+			
+			$figTranscrRegex = preg_quote($figTranscr);
+			$replace[$nl.'	<figTranscr>'.$figTranscrRegex.'</figTranscr>'.$nl.'	<figTranscr>'.$figTranscrRegex.'</figTranscr>'] = $nl.'	<figTranscr>'.$figTranscr.'</figTranscr>'; // if an id appears twice in a file (say, for a full image and a detail), we could get duplicate transcripts; this will eliminate them
 
 			foreach($replace as $key => $value) {
 				$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
@@ -158,13 +165,20 @@
 					$fn_t['imageArr'] = array();
 					
 					foreach($fn_t['id'] as $id) {
-						$transcr = $FullXML->xpath('//text//figure[@id="'.$id.'"]/figTranscr'); // array
-						if(count($transcr) < 1 && in_array($id,$wbaTranscrIDs)) {
-							$fn_t['imageArr'][] = $id;
+						if($id != '') {
+							$transcr = $FullXML->xpath('//text//figure[@id="'.$id.'"]/figTranscr'); // array
+							if(count($transcr) < 1 && in_array($id,$wbaTranscrIDs)) {
+								$fn_t['imageArr'][] = $id;
+							}
+						} else {
+							print '<p>'.$fn_t['fn'].' contains a blank figure ID.</p>';
 						}
 					}
 					
-					$transcrFixesForFile[$fn_t['fn']]['imageArr'] = $fn_t['imageArr'];	
+					if(count($fn_t['imageArr']) > 0) {
+						$transcrFixesForFile[$fn_t['fn']]['imageArr'] = $fn_t['imageArr'];	
+						//$transcrFixesForFile[$fn_t['fn']]['imageArr'] = array($fn_t['imageArr'][0]);
+					}
 				}
 			}
 			
