@@ -100,6 +100,7 @@ $nl = "
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>HTML &amp; XML for Solr</h1>
+							<p>(creates or updates bq/solr/solrFile.xml)</p>
 						</div>
 					</div>
 					<div id="main">
@@ -213,7 +214,7 @@ $nl = "
 								$fn_t['HTML'] .= '</doc>'.$nl;
 
 								//print($fn_t['HTML']);
-								//file_put_contents('new/'.$fn_t['file'].'.xml', $fn_t['HTML']);
+								//file_put_contents('../../bq/solr/'.$fn_t['file'].'.xml', $fn_t['HTML']);
 								echo '<p>Processed '.$fn_t['file'].'</p>';
 
 								//$firstTime = false;
@@ -304,7 +305,7 @@ $nl = "
 								$fn_t['XML'] .= '</doc>'.$nl;
 
 								//print($fn_t['XML']);
-								//file_put_contents('new/'.$fn_t['file'].'.xml', $fn_t['XML']);
+								//file_put_contents('../../bq/solr/'.$fn_t['file'].'.xml', $fn_t['XML']);
 								echo '<p>Processed '.$fn_t['file'].'</p>';
 
 								//$firstTime = false;
@@ -314,7 +315,7 @@ $nl = "
 						}
 						
 						$solrFile .= '</add>';
-						file_put_contents('new/solrFile.xml', $solrFile);
+						file_put_contents('../../bq/solr/solrFile.xml', $solrFile);
 						
 						?>
 						</div> <!-- #allIssues -->
