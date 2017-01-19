@@ -20,6 +20,38 @@
 	require('include/functions.php');
 	require('include/head.php');
 	
+	function isImage($url) {
+		 $params = array('http' => array(
+					  'method' => 'HEAD'
+				   ));
+		 $ctx = stream_context_create($params);
+		 $fp = @fopen($url, 'rb', false, $ctx);
+		 if (!$fp) 
+			return false;  // Problem with url
+
+		$meta = stream_get_meta_data($fp);
+		if ($meta === false)
+		{
+			fclose($fp);
+			return false;  // Problem reading data from url
+		}
+
+		$wrapper_data = $meta["wrapper_data"];
+		if(is_array($wrapper_data)){
+		  foreach(array_keys($wrapper_data) as $hh){
+			  if (substr($wrapper_data[$hh], 0, 19) == "Content-Type: image") // strlen("Content-Type: image") == 19 
+			  {
+				fclose($fp);
+				return true;
+			  }
+		  }
+		}
+
+		fclose($fp);
+		return false;
+	  }
+	
+	// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
 	function url_exists($url){
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -98,7 +130,7 @@
 							$srcWBA = 'http://www.blakearchive.org/images/'.$srcBaseSm;
 							
 							if(file_exists($srcFull)) {
-								if (url_exists($srcWBA)) {
+								if (isImage($srcWBA)) {
 									$fn_t['errors'][] = 'Image exists both locally and on public WBA site: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a>';
 									$numDouble = $numDouble + 1;
 									$doubleByDecade[$decade] = $doubleByDecade[$decade] + 1;

@@ -46,7 +46,7 @@
 					<xsl:choose>
 						<xsl:when test="@n = ''"/>
 						<xsl:when test="@rend = 'db'">
-							<xsl:variable name="src">http://www.blakearchive.org/blake/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
+							<xsl:variable name="src">http://www.blakearchive.org/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
 								<img>
 									<xsl:attribute name="src">
 										<xsl:value-of select="$src"/>
