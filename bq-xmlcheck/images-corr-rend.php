@@ -95,7 +95,7 @@
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
 							
 							$srcBaseSm = strtolower($srcBase);
-							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBaseSm;
+							$srcWBA = 'http://www.blakearchive.org/images/'.$srcBaseSm;
 							
 							if(file_exists($srcFull)) {
 								if (url_exists($srcWBA)) {
