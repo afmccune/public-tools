@@ -72,7 +72,7 @@
 						foreach($fn_t['link'] as $link) {
 							$linkParts = explode('.', $link);
 							$copy = $linkParts[0].'.'.$linkParts[1];
-							$linkWBA = 'http://blakearchive.org/blake/copy/'.$copy.'?descId='.$link;
+							$linkWBA = 'http://blakearchive.org/copy/'.$copy.'?descId='.$link;
 							if(url_exists($linkWBA)) {
 								echo '<p>'.$fn_t['file'].': Link found: <a href="'.$linkWBA.'">'.$linkWBA.'</a></p>';
 							} else {
