@@ -37,14 +37,37 @@
 					$fn_t['fileSplit'] = $fileParts[2];
 
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
-					$fn_t['articles'] = $FullXML->xpath("//text//table[@id]//ref/@issue"); // array
-					$fn_t['article-pages'] = $FullXML->xpath("//text//table[@id]//cell[preceding-sibling::cell//ref/@issue]"); // array
-					
-					//$fn_t['pbs'] = $FullXML->xpath('//pb/@n'); // array
+					$fn_t['articles'] = $FullXML->xpath('//text//table[@id="contents"]//cell//ref[1]/@issue'); // array 
+					// We use "cell//ref[1]" to try to get only the first link in a cell, since if there are multiple news  
+					// items in one cell, only the first will definitely start on the page in the neighboring cell. However, 
+					// "cell//ref[1]" also matches the first ref in (say) a <corr> tag inside a cell, which may result in 
+					// two refs from the same cell being processed.
 					
 					print '<table>';
 					for($i=0; $i<count($fn_t['articles']); $i++) {
-						print '<tr><td>'.$fn_t['articles'][$i].'</td><td>'.$fn_t['article-pages'][$i].'</td></tr>';
+						$pageArr = $FullXML->xpath('//text//table[@id="contents"]//cell[preceding-sibling::cell//ref[@issue="'.$fn_t['articles'][$i].'"]]'); // array
+						$page = $pageArr[0];
+						
+						if(preg_match('/[0-9]/', $page)) {
+							if(strpos($page, '-') === false) {
+								// nothing
+							} else {
+								// if there is a hyphen, take page before hyphen
+								$pageParts = explode('-', $page);
+								$page = $pageParts[0];
+							}
+						
+							$articleXML = simplexml_load_file('../../bq/docs/'.$fn_t['articles'][$i].'.xml'); 
+							$articlePbs = $articleXML->xpath('//pb/@n'); // array
+							
+							if(intval($articlePbs[0]) != intval($page)) {
+								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
+							}
+						
+							//print '<tr><td>'.$fn_t['articles'][$i].'</td><td>'.$page.'</td></tr>';
+						} else {
+							// nothing
+						}
 					}
 					print '</table>';
 					
