@@ -83,7 +83,7 @@
 								}
 								
 								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
-							} else if($articlePbs[0] != $page) { // 15.1.hilton
+							} else if($articlePbs[0] != $page) {
 								$message = '<span style="color:red;">page present but not first</span>';
 								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
 							}
