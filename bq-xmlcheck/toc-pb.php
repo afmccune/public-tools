@@ -72,9 +72,22 @@
 								$articlePbs[] = intval($pb);
 							}
 							
-							if(intval($articlePbs[0]) != $page) {
-								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
+							if(!in_array($page, $articlePbs)) {
+								$message = '';
+								
+								// doesn't work
+								if($page+1 == $articlePbs[0]) {
+									$message = '<strong>Missing first pb?</strong>';
+								} else {
+									$message = '<span style="color:red;">ODD</span>';
+								}
+								
+								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
+							} else if($articlePbs[0] != $page) { // 15.1.hilton
+								$message = '<span style="color:red;">page present but not first</span>';
+								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
 							}
+
 						
 							//print '<tr><td>'.$fn_t['articles'][$i].'</td><td>'.$page.'</td></tr>';
 						} else {
