@@ -56,11 +56,23 @@
 								$pageParts = explode('-', $page);
 								$page = $pageParts[0];
 							}
+							$page = intval($page);
 						
 							$articleXML = simplexml_load_file('../../bq/docs/'.$fn_t['articles'][$i].'.xml'); 
-							$articlePbs = $articleXML->xpath('//pb/@n'); // array
+							$articlePbsXML = $articleXML->xpath('//pb/@n'); // array
+							$articlePbs = array();
+							foreach($articlePbsXML as $pb) {
+								if(strpos($pb, '-') === false) {
+								// nothing
+								} else {
+									// if there is a hyphen, take page before hyphen
+									$pageParts = explode('-', $pb);
+									$pb = $pageParts[0];
+								}
+								$articlePbs[] = intval($pb);
+							}
 							
-							if(intval($articlePbs[0]) != intval($page)) {
+							if(intval($articlePbs[0]) != $page) {
 								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
 							}
 						
