@@ -14,8 +14,6 @@
 		}
 	}
 	
-	$vol_pages = array();
-
 	/*
 	[To refresh the following data, use the following commands in Terminal:]
 	cd ../../../Applications/MAMP/htdocs/bq/pdfs
@@ -288,6 +286,8 @@
 	
 	$pdf_pages_lines = preg_split('/[\n\r]{1,2}/', $pdf_pages_str);
 	
+	$vol_pages = array();
+	
 	foreach($pdf_pages_lines as $line) {
 		$parts = explode('"', $line);
 		$pdf = $parts[0];
@@ -324,10 +324,9 @@
 						<div id="articles-reviews-index">
 			<?php
 				
-			$docsXml = array();
-			$issueSections = array();
-			
 			$volCount = 0;
+
+			$all_pages = array();
 			
 			foreach($vol_pages as $arr) {
 				$vol = $arr['vol'];
@@ -341,24 +340,28 @@
 						$pdfRange = range($oldVolCount+1, $volCount);
 						
 						$vol_pages[$vol][$iss]['pdf-page-range'] = $pdfRange;
+						
+						foreach($pdfRange as $pdfPage) {
+							$volTwoDig = sprintf('%02d', $vol);
+							$pdfPageThreeDig = sprintf('%03d', $pdfPage);
+							$id = $volTwoDig.'.'.$iss.'.'.$pdfPageThreeDig;
+							$pageInfo = array('id' => $id, 'vol' => $vol, 'iss' => $iss, 'page' => $pdfPage, 'pdf' => $vol.'.'.$iss.'.pdf');
+							
+							$all_pages[] = $pageInfo;
+						}
+						
+						print '<pre>';
+						//print_r($pages);
+						print '</pre>';
 					}
 				}
 			}
 
 			
 			print '<table>';
-			print '<tr><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
-			foreach($vol_pages as $arr) {
-				$vol = $arr['vol'];
-				foreach($arr as $iss => $items) {
-					if($iss != 'vol') {
-						$pdf = $vol.'.'.$iss.'.pdf';
-						$pdfRange = $items['pdf-page-range'];
-						foreach($pdfRange as $pdfPage) {
-							print '<tr><td><a href="/bq/pdfs/'.$pdf.'" target="_blank">'.$pdf.'</a></td><td>'.$vol.'</td><td>'.$iss.'</td><td>'.$pdfPage.'</td></tr>';
-						}
-					}
-				}
+			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
+			foreach($all_pages as $arr) {
+				print '<tr><td>'.$arr['id'].'</td><td><a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a></td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td></tr>';
 			}
 			print '</table>';
 			
