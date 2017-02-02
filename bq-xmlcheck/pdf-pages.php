@@ -6,14 +6,6 @@
 	require('include/functions.php');
 	require('include/head.php');
 	
-	function pdf_cmp(array $a, array $b) {
-		if (($a['vol'] - $b['vol']) !== 0) {
-			return $a['vol'] - $b['vol'];
-		} else {
-			return strcmp($a['pdf'], $b['pdf']);
-		}
-	}
-	
 	function vol_cmp(array $a, array $b) {
 		if (($a['vol'] - $b['vol']) !== 0) {
 			return $a['vol'] - $b['vol'];
@@ -295,7 +287,6 @@
 	//print '<pre>'.$pdf_pages_str.'</pre>';
 	
 	$pdf_pages_lines = preg_split('/[\n\r]{1,2}/', $pdf_pages_str);
-	$pdf_pages = array();
 	
 	foreach($pdf_pages_lines as $line) {
 		$parts = explode('"', $line);
@@ -305,7 +296,6 @@
 		$iss = $pdfParts[1];
 		$pages = $parts[1];
 		if($vol<45) { // exclude HTML issues, which have PDFs for each article
-			$pdf_pages[] = array('pdf' => $pdf, 'vol' => $vol, 'iss' => $iss, 'pages' => $pages);
 			if(isset($vol_pages[$vol])) {
 				// nothing
 			} else {
@@ -317,8 +307,6 @@
 		}
 	}
 	
-	usort($pdf_pages, 'pdf_cmp');
-
 	usort($vol_pages, 'vol_cmp');
 
 	?>
@@ -339,37 +327,8 @@
 			$docsXml = array();
 			$issueSections = array();
 			
-			/*
-			foreach (new DirectoryIterator("../../bq/pdfs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.pdf/', $fn->getFilename())) {
-					$fn_t = array();
-					$fn_t['fn'] = $fn->getFilename();	
-					
-					$fileParts = explode('.', $fn_t['fn']);
-					$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
-					$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1]));
-					$fn_t['volNum'] = $fileParts[0];
-					$fn_t['issueNum'] = $fileParts[1];
-					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
-					
-					///
-
-					print '<table>';
-					print '<tr><td><a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a></td><td>'.$pages.'</td></tr>';
-					print '</table>';
-					
-				}
-			}*/
 			
 			print '<table>';
-			/*
-			foreach($pdf_pages as $arr) {
-				$pdf = $arr['pdf'];
-				$vol = $arr['vol'];
-				$pages = $arr['pages'];
-				print '<tr><td><a href="/bq/pdfs/'.$pdf.'" target="_blank">'.$pdf.'</a></td><td>'.$vol.'</td><td>'.$pages.'</td></tr>';
-			}
-			*/
 			foreach($vol_pages as $arr) {
 				$vol = $arr['vol'];
 				foreach($arr as $iss => $items) {
