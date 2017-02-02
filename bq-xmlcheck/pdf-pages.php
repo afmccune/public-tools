@@ -327,15 +327,36 @@
 			$docsXml = array();
 			$issueSections = array();
 			
+			$volCount = 0;
+			
+			foreach($vol_pages as $arr) {
+				$vol = $arr['vol'];
+				$volCount = 0;
+				$pdfRange = array();
+				foreach($arr as $iss => $items) {
+					if($iss != 'vol') {
+						$pages = $items['pdf-page-count'];
+						$oldVolCount = $volCount;
+						$volCount += $pages;
+						$pdfRange = range($oldVolCount+1, $volCount);
+						
+						$vol_pages[$vol][$iss]['pdf-page-range'] = $pdfRange;
+					}
+				}
+			}
+
 			
 			print '<table>';
+			print '<tr><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
 			foreach($vol_pages as $arr) {
 				$vol = $arr['vol'];
 				foreach($arr as $iss => $items) {
 					if($iss != 'vol') {
 						$pdf = $vol.'.'.$iss.'.pdf';
-						$pages = $items['pdf-page-count'];
-						print '<tr><td><a href="/bq/pdfs/'.$pdf.'" target="_blank">'.$pdf.'</a></td><td>'.$vol.'</td><td>'.$pages.'</td></tr>';
+						$pdfRange = $items['pdf-page-range'];
+						foreach($pdfRange as $pdfPage) {
+							print '<tr><td><a href="/bq/pdfs/'.$pdf.'" target="_blank">'.$pdf.'</a></td><td>'.$vol.'</td><td>'.$iss.'</td><td>'.$pdfPage.'</td></tr>';
+						}
 					}
 				}
 			}
