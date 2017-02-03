@@ -347,9 +347,9 @@
 						if($vol == 1) {
 							$pdfRange = range(1, $pages); // 1.2, 1.3, and 1.4 all restart at page 1
 						} else if ($vol == 2 && $iss === '4b') {
-							$pdfRange = array_merge(array('I','II','III'), range(1, $pages));
+							$pdfRange = array_merge(array('I','II','III'), range(1, ($pages-3)));
 						} else if ($vol == 9 && $iss === '2b') {
-							$pdfRange = array_merge(array('i'), range(1, $pages));
+							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
 						} else if ($vol == 24 && $iss == 1) {
 							$pdfRange = range(217, 216+$pages);
@@ -421,7 +421,11 @@
 			foreach($all_pages as $arr) {
 				$articles = '';
 				if(count($arr['articles']) > 0) {
-					$articles = implode (', ', $arr['articles']);
+					$art_arr = array();
+					foreach($arr['articles'] as $art) {
+						$art_arr[] = '<a href="/bq/'.$art.'#p'.$arr['page'].'" target="_blank">'.$art.'</a>';
+					}
+					$articles = implode (', ', $art_arr);
 				} else {
 					$articles = '<span style="color:red;">NO ARTICLES!</span>';
 				}
