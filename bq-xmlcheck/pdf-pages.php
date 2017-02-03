@@ -345,10 +345,10 @@
 						$volCount += $pages;
 						$pdfRange = range($oldVolCount+1, $volCount);
 						if($vol == 1) {
-							$pdfRange = range(1, $volCount); // 1.2, 1.3, and 1.4 all restart at page 1
+							$pdfRange = range(1, $pages); // 1.2, 1.3, and 1.4 all restart at page 1
 						} else if ($vol == 2 && $iss === '4b') {
 							$pdfRange = array_merge(array('I','II','III'), range(1, $pages));
-						} else if ($vol == 9 && $iss == '2b') {
+						} else if ($vol == 9 && $iss === '2b') {
 							$pdfRange = array_merge(array('i'), range(1, $pages));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
 						} else if ($vol == 24 && $iss == 1) {
@@ -409,8 +409,18 @@
 			print '<table>';
 			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
 			foreach($all_pages as $arr) {
-				$articles = implode (', ', $arr['articles']);
-				print '<tr><td>'.$arr['id'].'</td><td><a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a></td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
+				$articles = '';
+				if(count($arr['articles']) > 0) {
+					$articles = implode (', ', $arr['articles']);
+				} else {
+					$articles = '<span style="color:red;">NO ARTICLES!</span>';
+				}
+				if($arr['pdf'] == '') {
+					$arr['pdf'] = '<span style="color:red;">NO PDF!</span>';
+				} else {
+					$arr['pdf'] = '<a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a>';
+				}
+				print '<tr><td>'.$arr['id'].'</td><td>'.$arr['pdf'].'</td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
 			}
 			print '</table>';
 			
