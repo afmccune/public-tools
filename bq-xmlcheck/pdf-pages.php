@@ -311,6 +311,8 @@
 		}
 	}
 	
+	unset($vol_pages['23']['4a']); // 23.4a.pdf is a duplicate of 23.4.pdf (UNLIKE 2.4b and 9.2b which are distinct supplements)
+	
 	usort($vol_pages, 'vol_cmp');
 
 	?>
@@ -342,12 +344,24 @@
 						$oldVolCount = $volCount;
 						$volCount += $pages;
 						$pdfRange = range($oldVolCount+1, $volCount);
+						if($vol == 1) {
+							$pdfRange = range(1, $volCount); // 1.2, 1.3, and 1.4 all restart at page 1
+						} else if ($vol == 2 && $iss === '4b') {
+							$pdfRange = array_merge(array('I','II','III'), range(1, $pages));
+						} else if ($vol == 9 && $iss == '2b') {
+							$pdfRange = array_merge(array('i'), range(1, $pages));
+							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
+						} else if ($vol == 24 && $iss == 1) {
+							$pdfRange = range(217, 216+$pages);
+						} else if ($vol == 24 && $iss == 2) {
+							$pdfRange = range(49, $volCount);
+						}
 						
 						$vol_pages[$vol][$iss]['pdf-page-range'] = $pdfRange;
 						
 						foreach($pdfRange as $pdfPage) {
-							$volTwoDig = sprintf('%02d', $vol);
-							$pdfPageThreeDig = sprintf('%03d', $pdfPage);
+							$volTwoDig = str_pad($vol, 2, '0', STR_PAD_LEFT); // sprintf('%02d', $vol);
+							$pdfPageThreeDig = str_pad($pdfPage, 3, '0', STR_PAD_LEFT); // sprintf('%03d', $pdfPage);
 							$id = $volTwoDig.'.'.$iss.'.'.$pdfPageThreeDig;
 							$pageInfo = array('id' => $id, 'vol' => $vol, 'iss' => $iss, 'page' => $pdfPage, 'pdf' => $vol.'.'.$iss.'.pdf', 'articles' => array());
 							
@@ -373,10 +387,10 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					
-					$volTwoDig = sprintf('%02d', $fn_t['volNum']);
+					$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT); // sprintf('%02d', $fn_t['volNum']);
 					
 					foreach($fn_t['pb'] as $p) {
-						$pThreeDig = sprintf('%03d', $p);
+						$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT); // sprintf('%03d', $p);
 						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 
 						if(isset($all_pages[$id])) {
@@ -393,7 +407,7 @@
 			usort($all_pages, 'page_cmp');
 			
 			print '<table>';
-			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
+			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
 			foreach($all_pages as $arr) {
 				$articles = implode (', ', $arr['articles']);
 				print '<tr><td>'.$arr['id'].'</td><td><a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a></td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
