@@ -375,13 +375,20 @@
 							// 9.2 begins on page 33, for some reason
 							$volCount = 32 + $pages;
 							$pdfRange = range(33, $volCount);
-						} else if ($vol == 9 && $iss == '2b') {
+						} else if ($vol == 9 && $iss === '2b') {
 							// 9.2b starts with i, then 1
 							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
+						} else if ($vol == 11 && $iss == 2) {
+							// 11.1 ends on page 66, but 11.2 begins on page 69 (not 67)
+							$oldVolCount = $oldVolCount+2;
+							$volCount = $volCount+2;
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
+							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
 						} else if ($vol == 24 && $iss == 2) {
+							// 24.2 is numbered as if 24.1 had been numbered correctly
 							$pdfRange = range(49, $volCount);
 						}
 						
