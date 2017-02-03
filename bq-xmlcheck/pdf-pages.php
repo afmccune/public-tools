@@ -409,6 +409,10 @@
 							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
 							// but the last two pages are an ad (for an exhibition)
 							// and a wordless back cover (need -2).
+						} else if ($vol == 14 && $iss == 1) {
+							// 14.1 includes an index numbered i-ii
+							$volCount = $volCount-2;
+							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
