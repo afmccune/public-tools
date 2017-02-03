@@ -400,6 +400,15 @@
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 13 && $iss == 3) {
+							// 13.3 has a 158-159 spread
+							$volCount = $volCount+1;
+							$pdfRange = range($oldVolCount+1, $volCount);
+						// } else if ($vol == 13 && $iss == 4) {
+							// Leave it alone.
+							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
+							// but the last two pages are an ad (for an exhibition)
+							// and a wordless back cover (need -2).
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
