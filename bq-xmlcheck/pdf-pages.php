@@ -345,14 +345,37 @@
 							$volTwoDig = sprintf('%02d', $vol);
 							$pdfPageThreeDig = sprintf('%03d', $pdfPage);
 							$id = $volTwoDig.'.'.$iss.'.'.$pdfPageThreeDig;
-							$pageInfo = array('id' => $id, 'vol' => $vol, 'iss' => $iss, 'page' => $pdfPage, 'pdf' => $vol.'.'.$iss.'.pdf');
+							$pageInfo = array('id' => $id, 'vol' => $vol, 'iss' => $iss, 'page' => $pdfPage, 'pdf' => $vol.'.'.$iss.'.pdf', 'articles' => array());
 							
-							$all_pages[] = $pageInfo;
+							$all_pages[$id] = $pageInfo;
 						}
+					}
+				}
+			}
+			
+			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+					$fn_t = array();
+					$fn_t['fn'] = $fn->getFilename();	
+					
+					$fileParts = explode('.', $fn_t['fn']);
+					$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+					$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
+					$fn_t['volNum'] = $fileParts[0];
+					$fn_t['issueNum'] = $fileParts[1];
+					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
+					$fn_t['fileSplit'] = $fileParts[2];
+
+					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
+					
+					$volTwoDig = sprintf('%02d', $fn_t['volNum']);
+					
+					foreach($fn_t['pb'] as $p) {
+						$pThreeDig = sprintf('%03d', $p);
+						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 						
-						print '<pre>';
-						//print_r($pages);
-						print '</pre>';
+						$all_pages[$id]['articles'][] = $fn_t['file'];
 					}
 				}
 			}
@@ -361,7 +384,8 @@
 			print '<table>';
 			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
 			foreach($all_pages as $arr) {
-				print '<tr><td>'.$arr['id'].'</td><td><a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a></td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td></tr>';
+				$articles = implode (', ', $arr['articles']);
+				print '<tr><td>'.$arr['id'].'</td><td><a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a></td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
 			}
 			print '</table>';
 			
