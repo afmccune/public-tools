@@ -346,8 +346,10 @@
 						$pdfRange = range($oldVolCount+1, $volCount);
 						// ADJUSTMENTS
 						if($vol == 1) {
-							$pdfRange = range(1, $pages); // 1.2, 1.3, and 1.4 all restart at page 1
+							// 1.2, 1.3, and 1.4 all restart at page 1
+							$pdfRange = range(1, $pages);
 						} else if ($vol == 2 && $iss === '4b') {
+							// 2.4b begins with I-III, then 1
 							$pdfRange = array_merge(array('I','II','III'), range(1, ($pages-3)));
 						} else if ($vol == 3 && $iss == 2) {
 							// 3.1 ends on page 20, but 3.2 begins on page 22 (not 21)
@@ -366,7 +368,15 @@
 							// 6.2 has a foldout
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('37b', '37c'), range($oldVolCount+1, $volCount));
+						} else if ($vol == 9 && $iss == 1) {
+							// 9.1 ends on page 28, followed by a blank page and then a wordless back cover
+							$pdfRange = range(1, $pages-2);
+						} else if ($vol == 9 && $iss == 2) {
+							// 9.2 begins on page 33, for some reason
+							$volCount = 32 + $pages;
+							$pdfRange = range(33, $volCount);
 						} else if ($vol == 9 && $iss === '2b') {
+							// 9.2b starts with i, then 1
 							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
 						} else if ($vol == 24 && $iss == 1) {
