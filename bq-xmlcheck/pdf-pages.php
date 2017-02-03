@@ -384,6 +384,18 @@
 							$oldVolCount = $oldVolCount+2;
 							$volCount = $volCount+2;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						// } else if ($vol == 11 && $iss == 3) {
+							// Leave it alone.
+							// 11.3 would normally be two PDF pages short, since
+							// 158-159 are scanned as a single PDF page, and
+							// 170-171 are scanned as a single PDF page.
+							// But the content ends on page 208, and is followed
+							// by two non-content pages (an ad and a wordless back cover),
+							// cancelling out the two double-page scans.
+						} else if ($vol == 11 && $iss == 4) {
+							// 11.4 begins 213; who even knows how this screwy volume works
+							$volCount = 212 + $pages;
+							$pdfRange = range(213, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
