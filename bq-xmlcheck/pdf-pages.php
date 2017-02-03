@@ -396,6 +396,10 @@
 							// 11.4 begins 213; who even knows how this screwy volume works
 							$volCount = 212 + $pages;
 							$pdfRange = range(213, $volCount);
+						} else if ($vol == 13 && $iss == 1) {
+							// 13.1 ends on two non-BQ pages (an ad insert?)
+							$volCount = $volCount-2;
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
