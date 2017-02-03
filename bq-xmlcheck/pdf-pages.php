@@ -387,9 +387,19 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					
+					$pbs = array();
+					foreach($fn_t['pb'] as $pb) {
+						if (strpos($pb, '-') === false) {
+							$pbs[] = $pb;
+						} else {
+							$pbMinMax = explode('-', $pb);
+							$pbs = array_merge($pbs, range($pbMinMax[0], $pbMinMax[1]));
+						}
+					}
+					
 					$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT); // sprintf('%02d', $fn_t['volNum']);
 					
-					foreach($fn_t['pb'] as $p) {
+					foreach($pbs as $p) {
 						$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT); // sprintf('%03d', $p);
 						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 
