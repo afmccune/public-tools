@@ -14,6 +14,10 @@
 		}
 	}
 	
+	function page_cmp(array $a, array $b) {
+		return strcmp($a['id'], $b['id']);
+	}
+	
 	/*
 	[To refresh the following data, use the following commands in Terminal:]
 	cd ../../../Applications/MAMP/htdocs/bq/pdfs
@@ -374,12 +378,19 @@
 					foreach($fn_t['pb'] as $p) {
 						$pThreeDig = sprintf('%03d', $p);
 						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
-						
+
+						if(isset($all_pages[$id])) {
+							// nothing
+						} else {
+							$all_pages[$id] = array('id' => $id, 'vol' => $fn_t['volNum'], 'iss' => $fn_t['issueNum'], 'page' => $p, 'pdf' => '', 'articles' => array());
+						}
+
 						$all_pages[$id]['articles'][] = $fn_t['file'];
 					}
 				}
 			}
 
+			usort($all_pages, 'page_cmp');
 			
 			print '<table>';
 			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td></tr>';
