@@ -413,6 +413,10 @@
 							// 14.1 includes an index numbered i-ii
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+						} else if ($vol == 15 && $iss == 2) {
+							// 15.2 includes an index numbered i-ii
+							$volCount = $volCount-2;
+							$pdfRange = array_merge(range($oldVolCount+1, $oldVolCount+2), array('i', 'ii'), range($oldVolCount+3, $volCount));
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
