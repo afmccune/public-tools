@@ -434,6 +434,12 @@
 							$volCount = $volCount-4;
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
 							$volCount = $volCount+3;
+						} else if ($vol == 18 && $iss == 2) {
+							// 18.2 includes an index numbered i-ii.
+							// Also, the last page is a full-page ad, which counts but is not transcribed.
+							$volCount = $volCount-3; // omit index and ad pages
+							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+							$volCount = $volCount+1; // add ad page back in for next issue's count
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
