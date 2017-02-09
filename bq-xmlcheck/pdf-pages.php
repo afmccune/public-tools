@@ -417,6 +417,23 @@
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(range($oldVolCount+1, $oldVolCount+2), array('i', 'ii'), range($oldVolCount+3, $volCount));
+						} else if ($vol == 16 && $iss == 3) {
+							// The last three regular (unnumbered) print pages (186-188) count, but are not transcribed.
+							// They consist of two PDF pages (a 186-187 spread and a blank 188).
+							// (The 186-187 spread is a simple image motif that does not seem to be an illustration.)
+							// These should count so that the next issue begins at 189.
+							// The final two irregular pages are the index, numbered i-ii in the transcription.
+							// These do not count towards the start page of the next issue.
+							// FOR MATCHING THIS ISSUE'S TRANSCRIPTION:
+							// Two index pages do not count (-2), but i-ii is added to the page range.
+							// The 186-187 page spread and blank 188 are not transcribed (-2).
+							// Total -4.
+							// FOR MATCHING THE PAGE COUNT OF THE NEXT ISSUE:
+							// Two index pages do not count (-2), but the 186-187 spread counts for two pages (+1).
+							// Total -1 (+3 compared to the -4 total).
+							$volCount = $volCount-4;
+							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+							$volCount = $volCount+3;
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
