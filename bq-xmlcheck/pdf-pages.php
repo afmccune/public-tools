@@ -440,6 +440,16 @@
 							$volCount = $volCount-3; // omit index and ad pages
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
 							$volCount = $volCount+1; // add ad page back in for next issue's count
+						} else if ($vol == 19 && $iss == 2) {
+							// 19.2 has a wordless back cover, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 19 && $iss == 3) {
+							// 19.3 starts on page 93, although the previous issue ends on page 90. Who knows why.
+							$oldVolCount = $oldVolCount+2;
+							$volCount = $oldVolCount + $pages;
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							$pdfRange = range(217, 216+$pages);
