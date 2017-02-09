@@ -312,6 +312,9 @@
 	}
 	
 	unset($vol_pages['23']['4a']); // 23.4a.pdf is a duplicate of 23.4.pdf (UNLIKE 2.4b and 9.2b which are distinct supplements)
+	unset($vol_pages['21']['2b']); // 21.2b.pdf is a duplicate of 21.2.pdf (UNLIKE 2.4b and 9.2b which are distinct supplements)
+	unset($vol_pages['26']['3a']); // 26.3a.pdf is a duplicate of 26.3.pdf (UNLIKE 2.4b and 9.2b which are distinct supplements)
+	
 	
 	usort($vol_pages, 'vol_cmp');
 
@@ -456,6 +459,26 @@
 						} else if ($vol == 24 && $iss == 2) {
 							// 24.2 is numbered as if 24.1 had been numbered correctly
 							$pdfRange = range(49, $volCount);
+						} else if ($vol == 26 && $iss == 3) {
+							// 26.3 has a full-page ad on the last page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 26 && $iss == 4) {
+							// 26.4 starts on page 137, although the previous issue ends on page 134.
+							$oldVolCount = $oldVolCount+2;
+							$volCount = $oldVolCount + $pages;
+							$pdfRange = range($oldVolCount+1, $volCount);							
+						} else if ($vol == 32 && $iss == 1) {
+							// 32.1 has a blank back page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 32 && $iss == 2) {
+							// 32.2 starts on page 29, although the previous issue ends on page 24.
+							$oldVolCount = $oldVolCount+4;
+							$volCount = $oldVolCount + $pages;
+							$pdfRange = range($oldVolCount+1, $volCount);							
 						}
 						
 						$vol_pages[$vol][$iss]['pdf-page-range'] = $pdfRange;
