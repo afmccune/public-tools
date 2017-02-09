@@ -476,6 +476,14 @@
 							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 32 && $iss == 2) {
 							// 32.2 starts on page 29, although the previous issue ends on page 24.
+							// 32.2 has a blank back page, which counts but is not transcribed.
+							$oldVolCount = $oldVolCount+4; // skip non-existent pages between last issue and this one
+							$volCount = $oldVolCount + $pages;
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);							
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 32 && $iss == 3) {
+							// 32.3 starts on page 57, although the previous issue ends on page 52.
 							$oldVolCount = $oldVolCount+4;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);							
