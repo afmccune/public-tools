@@ -348,7 +348,10 @@
 						$volCount += $pages;
 						$pdfRange = range($oldVolCount+1, $volCount);
 						// ADJUSTMENTS
-						if($vol == 1) {
+						if($vol == 1 && $iss == 1) {
+							// 1.1 ends on a blank page, which is not transcribed
+							$pdfRange = range(1, ($pages-1));
+						} else if($vol == 1) {
 							// 1.2, 1.3, and 1.4 all restart at page 1
 							$pdfRange = range(1, $pages);
 						} else if ($vol == 2 && $iss === '4b') {
