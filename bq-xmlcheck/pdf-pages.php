@@ -407,9 +407,18 @@
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 13 && $iss == 3) {
-							// 13.3 has a 158-159 spread
+							// In print, 13.3 ends with four non-content pages--three in the PDF.
+							// 157: ad
+							// 158-159 spread: repetition of illus. on page 118
+							// 160: back cover--wordless extension of front cover design
+							// SO:
+							// Add additional page to the count for the two-page spread (counted as one because it is one in the PDF)
 							$volCount = $volCount+1;
+							// Omit back pages
+							$volCount = $volCount-4;
 							$pdfRange = range($oldVolCount+1, $volCount);
+							// Add back page back in for next issue's count
+							$volCount = $volCount+4;
 						// } else if ($vol == 13 && $iss == 4) {
 							// Leave it alone.
 							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
@@ -417,8 +426,11 @@
 							// and a wordless back cover (need -2).
 						} else if ($vol == 14 && $iss == 1) {
 							// 14.1 includes an index numbered i-ii
-							$volCount = $volCount-2;
-							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+							// The last regular page is a blank page, which counts but is not transcribed.
+							$volCount = $volCount-2; // omit index pages (from Arabic numeral count)
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = array_merge(range($oldVolCount+1, $volCount), array('i', 'ii'));
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 14 && $iss == 2) {
 							// 14.2 includes a 68-69 spread (two print pages as one PDF page)
 							$volCount = $volCount+1;
