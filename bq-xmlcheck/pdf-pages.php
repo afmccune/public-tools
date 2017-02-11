@@ -462,6 +462,34 @@
 						} else if ($vol == 24 && $iss == 2) {
 							// 24.2 is numbered as if 24.1 had been numbered correctly
 							$pdfRange = range(49, $volCount);
+						} else if ($vol == 24 && $iss == 3) {
+							// 24.3 has a blank penultimate page, which counts but is not transcribed.
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 24 && $iss == 4) {
+							// 24.4 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 25 && $iss == 1) {
+							// 25.1 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 25 && $iss == 2) {
+							// 25.2 ends with an ad page and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 25 && $iss == 3) {
+							// 25.3 ends with an ad page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 26 && $iss == 1) {
+							// 26.1 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 26 && $iss == 2) {
 							// 26.2 ends with an ad page and two blank pages, which count but are not transcribed.
 							$volCount = $volCount-3; // omit back pages
