@@ -446,6 +446,11 @@
 							$volCount = $volCount-3; // omit index and ad pages
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
 							$volCount = $volCount+1; // add ad page back in for next issue's count
+						} else if ($vol == 18 && $iss == 4) {
+							// 18.4 ends with two ad pages, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 19 && $iss == 1) {
 							// 19.1 has a non-content back cover (repetition of illustration on page 44), which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
@@ -468,7 +473,6 @@
 							// 19.4 ends with a non-content page (detail of illustration on page 130), which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
 							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 20 && $iss == 1) {
 							// 20.1 ends with a non-content page (repetition of illustration on page 29), which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
