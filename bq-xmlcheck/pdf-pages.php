@@ -902,7 +902,8 @@
 				}
 			}
 
-			usort($all_pages, 'page_cmp');
+			// only do this if there are "no PDF!" messages; if all page numbers come from the PDF, they are in order already
+			// usort($all_pages, 'page_cmp');
 			
 			print '<table>';
 			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
