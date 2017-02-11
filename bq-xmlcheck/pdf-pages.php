@@ -375,16 +375,29 @@
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('37b', '37c'), range($oldVolCount+1, $volCount));
 						} else if ($vol == 9 && $iss == 1) {
-							// 9.1 ends on page 28, followed by a blank page and then a wordless back cover
-							$pdfRange = range(1, $pages-2);
+							// 9.1 ends with a blank page and then a wordless back cover, which count but are not transcribed
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 9 && $iss.'' == '2') {
-							// 9.2 begins on page 33, for some reason
-							$volCount = 32 + $pages;
-							$pdfRange = range(33, $volCount);
+							// 9.2 begins on page 33, for some reason, although 9.1 ends on page 30
+							// 9.2 ends on a blank page, which counts but is not transcribed
+							$oldVolCount = $oldVolCount+2;
+							$volCount = $oldVolCount + $pages;
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 9 && $iss === '2b') {
 							// 9.2b starts with i, then 1
+							// 9.2b ends with an ad page, which is not transcribed
+							$pages = $pages-1; // omit back page
 							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
+						} else if ($vol == 9 && $iss == 3) {
+							// 9.3 ends on two ad pages and a blank page, which count but are not transcribed.
+							$volCount = $volCount-3; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+3; // add back pages back in for next issue's count
 						} else if ($vol == 9 && $iss == 4) {
 							// 9.4 has three ad pages (or something like ads) near (but not at) the end, which count but are not transcribed.
 							// (note: each time we remove one, another becomes the second-to-last)
