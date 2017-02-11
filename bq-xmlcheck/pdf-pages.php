@@ -423,6 +423,15 @@
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(range($oldVolCount+1, $oldVolCount+2), array('i', 'ii'), range($oldVolCount+3, $volCount));
+						} else if ($vol == 16 && $iss == 2) {
+							// 16.2 has some pages near (but not at) the end, which count but are not transcribed:
+							// - page 141 (fourth from the last page): an ad page
+							// - page 142 (third from the last page): repetition of illustration on page 76
+							// - page 143 (second to last page): repetition of illustration on page 75
+							// (note: each time we remove one, another becomes the second-to-last)
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 						} else if ($vol == 16 && $iss == 3) {
 							// The last three regular (unnumbered) print pages (186-188) count, but are not transcribed.
 							// They consist of two PDF pages (a 186-187 spread and a blank 188).
