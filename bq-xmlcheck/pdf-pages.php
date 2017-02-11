@@ -458,8 +458,10 @@
 							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
+							// 24.1 ends with an ad page and a blank page, which count but are not transcribed.
 							$oldVolCount = 216;
 							$volCount = $oldVolCount + $pages;
+							$volCount = $volCount-2; // omit back pages
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $pages; // reset count for next issue (24.2 is numbered as if 24.1 had been numbered correctly)
 						} else if ($vol == 24 && $iss == 2) {
