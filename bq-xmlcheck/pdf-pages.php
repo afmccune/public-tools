@@ -490,6 +490,23 @@
 							$oldVolCount = $oldVolCount+4;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);							
+						} else if ($vol == 39 && $iss == 1) {
+							// 39.1 ends with a full page ad and then a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 39 && $iss == 3) {
+							// 39.3 starts on page 105, although the previous issue ends on page 103.
+							// 39.3 has a back page ad, which counts but is not transcribed.
+							$oldVolCount = $oldVolCount+1;
+							$volCount = $oldVolCount + $pages;
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);							
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 39 && $iss == 4) {
+							// 39.4 has a blank back page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 40 && $iss == 3) {
 							// 40.3 has a back page ad, which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
