@@ -463,7 +463,10 @@
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $pages; // reset count for next issue (24.2 is numbered as if 24.1 had been numbered correctly)
 						} else if ($vol == 24 && $iss == 2) {
-							// 24.2 is numbered as if 24.1 had been numbered correctly
+							// 24.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 24 && $iss == 3) {
 							// 24.3 has a blank penultimate page, which counts but is not transcribed.
 							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
