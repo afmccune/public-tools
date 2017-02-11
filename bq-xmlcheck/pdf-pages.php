@@ -456,8 +456,28 @@
 							$oldVolCount = $oldVolCount+2;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 20 && $iss == 1) {
+							// 20.1 ends with a non-content page (repetition of illustration on page 29), which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 20 && $iss == 2) {
+							// 20.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 20 && $iss == 3) {
+							// 20.3 ends with an ad page and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 20 && $iss == 4) {
+							// 20.4 ends with an ad page and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 21 && $iss == 1) {
-							// 21.1 ends with an ad pages and a blank page, which count but are not transcribed.
+							// 21.1 ends with an ad page and a blank page, which count but are not transcribed.
 							$volCount = $volCount-2; // omit back pages
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $volCount+2; // add back pages back in for next issue's count
