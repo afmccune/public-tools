@@ -374,6 +374,15 @@
 							// 6.2 has a foldout
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('37b', '37c'), range($oldVolCount+1, $volCount));
+						} else if ($vol == 8 && $iss == 3) {
+							// 8.3 ends with a repeated illus., two blank pages, and a repeated illus., which count but are not transcribed
+							$volCount = $volCount-4; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+4; // add back pages back in for next issue's count
+						} else if ($vol == 8 && $iss == 4) {
+							// 8.4 ends with two blank pages, which count but are not transcribed
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 9 && $iss == 1) {
 							// 9.1 ends with a blank page and then a wordless back cover, which count but are not transcribed
 							$volCount = $volCount-2; // omit back pages
