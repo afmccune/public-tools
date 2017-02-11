@@ -419,6 +419,13 @@
 							// 14.1 includes an index numbered i-ii
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+						} else if ($vol == 14 && $iss == 2) {
+							// 14.2 includes a 68-69 spread (two print pages as one PDF page)
+							$volCount = $volCount+1;
+							// 14.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 15 && $iss == 2) {
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
