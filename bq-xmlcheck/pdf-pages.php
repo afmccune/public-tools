@@ -444,7 +444,7 @@
 							// 18.2 includes an index numbered i-ii.
 							// Also, the last page is a full-page ad, which counts but is not transcribed.
 							$volCount = $volCount-3; // omit index and ad pages
-							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
+							$pdfRange = array_merge(range($oldVolCount+1, $volCount), array('i', 'ii'));
 							$volCount = $volCount+1; // add ad page back in for next issue's count
 						} else if ($vol == 18 && $iss == 4) {
 							// 18.4 ends with two ad pages, which count but are not transcribed.
