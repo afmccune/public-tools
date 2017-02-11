@@ -456,6 +456,64 @@
 							$oldVolCount = $oldVolCount+2;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 21 && $iss == 1) {
+							// 21.1 ends with an ad pages and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 21 && $iss == 2) {
+							// 21.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 21 && $iss == 3) {
+							// 21.3 ends with three ad pages and a non-content page, which count but are not transcribed.
+							$volCount = $volCount-4; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+4; // add back pages back in for next issue's count
+						} else if ($vol == 21 && $iss == 4) {
+							// 21.4 ends with two ad pages and a blank page, which count but are not transcribed.
+							$volCount = $volCount-3; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+3; // add back pages back in for next issue's count
+						} else if ($vol == 22 && $iss == 1) {
+							// 22.1 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 22 && $iss == 2) {
+							// 22.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 22 && $iss == 3) {
+							// 22.3 ends with a wordless back page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 22 && $iss == 4) {
+							// 22.4 ends with an ad page and a non-content page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 23 && $iss == 1) {
+							// 24.3 has a penultimate ad page, which counts but is not transcribed.
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 23 && $iss == 2) {
+							// 23.2 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 23 && $iss == 3) {
+							// 23.3 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 23 && $iss == 4) {
+							// 23.4 ends with an ad page and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
 							// 24.1 ends with an ad page and a blank page, which count but are not transcribed.
