@@ -490,6 +490,15 @@
 							$oldVolCount = $oldVolCount+4;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);							
+						} else if ($vol == 40 && $iss == 3) {
+							// 40.3 has a back page ad, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 40 && $iss == 4) {
+							// 40.4 has a back page ad, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 41 && $iss == 3) {
 							// 41.3 has a blank back page, which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
