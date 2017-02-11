@@ -385,6 +385,27 @@
 							// 9.2b starts with i, then 1
 							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
+						} else if ($vol == 9 && $iss == 4) {
+							// 9.4 has three ad pages (or something like ads) near (but not at) the end, which count but are not transcribed.
+							// (note: each time we remove one, another becomes the second-to-last)
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 10 && $iss == 1) {
+							// 10.1 ends on an ad page and a non-content page (extension of front cover design), which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 10 && $iss == 2) {
+							// 10.2 ends on an ad page and a non-content page (extension of front cover design), which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
+						} else if ($vol == 10 && $iss == 3) {
+							// 10.3 ends on a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 11 && $iss == 1) {
 							// 11.1 ends on a non-content page (repetition of illus. on page 34), which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
