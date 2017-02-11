@@ -423,6 +423,16 @@
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(range($oldVolCount+1, $oldVolCount+2), array('i', 'ii'), range($oldVolCount+3, $volCount));
+						} else if ($vol == 15 && $iss == 3) {
+							// 15.3 ends with a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 16 && $iss == 1) {
+							// 16.1 ends with an ad page and a blank page, which count but are not transcribed.
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 16 && $iss == 2) {
 							// 16.2 has some pages near (but not at) the end, which count but are not transcribed:
 							// - page 141 (fourth from the last page): an ad page
@@ -519,7 +529,6 @@
 							// 20.4 ends with an ad page and a blank page, which count but are not transcribed.
 							$volCount = $volCount-2; // omit back pages
 							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 21 && $iss == 1) {
 							// 21.1 ends with an ad page and a blank page, which count but are not transcribed.
 							$volCount = $volCount-2; // omit back pages
