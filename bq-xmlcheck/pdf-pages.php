@@ -458,10 +458,12 @@
 							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 24 && $iss == 1) {
 							// 24.1 was accidentally numbered continuing from the last page of the previous volume
-							$pdfRange = range(217, 216+$pages);
+							$oldVolCount = 216;
+							$volCount = $oldVolCount + $pages;
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $pages; // reset count for next issue (24.2 is numbered as if 24.1 had been numbered correctly)
 						} else if ($vol == 24 && $iss == 2) {
 							// 24.2 is numbered as if 24.1 had been numbered correctly
-							$pdfRange = range(49, $volCount);
 						} else if ($vol == 24 && $iss == 3) {
 							// 24.3 has a blank penultimate page, which counts but is not transcribed.
 							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
