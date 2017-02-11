@@ -406,6 +406,13 @@
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
+							// 13.1 also has some pages near (but not at) the end, which count but are not transcribed:
+							// ("from the last page" is based on the page count when the non-BQ pages are removed)
+							// - page 58 (third from the last page): an ad page
+							// - page 59 (second from the last page): an ad page
+							// (note: each time we remove one, another becomes the second-to-last)
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 						} else if ($vol == 13 && $iss == 3) {
 							// In print, 13.3 ends with four non-content pages--three in the PDF.
 							// 157: ad
