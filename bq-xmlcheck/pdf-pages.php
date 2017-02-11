@@ -385,6 +385,11 @@
 							// 9.2b starts with i, then 1
 							$pdfRange = array_merge(array('i'), range(1, ($pages-1)));
 							$volCount = $oldVolCount; // 9.3 starts where 9.2 left off
+						} else if ($vol == 11 && $iss == 1) {
+							// 11.1 ends on a non-content page (repetition of illus. on page 34), which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 11 && $iss == 2) {
 							// 11.1 ends on page 66, but 11.2 begins on page 69 (not 67)
 							$oldVolCount = $oldVolCount+2;
@@ -402,6 +407,16 @@
 							// 11.4 begins 213; who even knows how this screwy volume works
 							$volCount = 212 + $pages;
 							$pdfRange = range(213, $volCount);
+						} else if ($vol == 12 && $iss == 1) {
+							// 12.1 ends with two ad pages and a blank page, which count but are not transcribed.
+							$volCount = $volCount-3; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+3; // add back pages back in for next issue's count
+						} else if ($vol == 12 && $iss == 3) {
+							// 12.3 ends with an ad page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 13 && $iss == 1) {
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
