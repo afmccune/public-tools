@@ -1131,6 +1131,7 @@
 				if($p == range($p[0], $p[(count($p)-1)])) {
 					$parts = explode('.', $a);
 					$vol = $parts[0];
+					$iss = $parts[1];
 					$volTwoDig = str_pad($vol, 2, '0', STR_PAD_LEFT);
 					$r = '';
 					if(count($p) > 1) {
@@ -1140,6 +1141,7 @@
 					}
 					$tag = '<pb id="p'.$volTwoDig.'-'.$r.'" n="'.$r.'" rend="hidden"/>';
 					replaceInFile('([\r\n]{1,}[	 ]{1,})</body>', $nl.'	'.$tag.'$1</body>', $a.'.xml');
+					print '<p>'.$a.': <a href="/bq/'.$a.'" target="_blank">OLD</a> <a href="/bq-tools/bq-diff/trans-diff.php?file='.$a.'" target="_blank">DIFF</a> <a href="/bq/pdfs/'.$vol.'.'.$iss.'.pdf" target="_blank">PDF</a></p>';
 				} else {
 					print '<p>'.$a.' pages to add are discontinuous.</p>';
 				}
