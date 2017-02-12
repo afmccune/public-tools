@@ -2,6 +2,8 @@
 <html>
 	<?php
 	$pt = '';
+	$nl = '
+';
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -16,6 +18,22 @@
 	
 	function page_cmp(array $a, array $b) {
 		return strcmp($a['id'], $b['id']);
+	}
+	
+	function replaceInFile($key, $value, $filename) {
+		$XMLstring = file_get_contents('../../bq/docs/'.$filename);
+		$XMLstringNew = $XMLstring;
+		
+		$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
+		
+		if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') {
+			file_put_contents('new/'.$filename, $XMLstringNew);
+			echo '<h4>Converted '.$filename.'</h4>';
+		} else if ($XMLstringNew == '') {
+			echo '<p style="color: red;">ERROR: transformed '.$filename.' is blank.</p>';
+		} else {
+			echo '<p>'.$filename.': no change</p>';
+		}
 	}
 	
 	/*
@@ -1066,6 +1084,8 @@
 			// only do usort if there are "no PDF!" messages; if all page numbers come from the PDF, they are in order already
 			// usort($all_pages, 'page_cmp');
 			
+			$articlesGettingPages = array();
+			
 			$last_pdf = '';
 			$last_article = '';
 			
@@ -1089,7 +1109,13 @@
 				} else {
 					$articles = '<span style="color:red;">NO ARTICLES!</span>';
 					if($last_article != '' && $last_pdf == $arr['pdf']) {
-						$articles .= ' <span style="color:red;">(add to '.$last_article.'?)</span>';
+						if(isset($articlesGettingPages[$last_article])) {
+							// nothing
+						} else {
+							$articlesGettingPages[$last_article] = array();
+						}
+						$articlesGettingPages[$last_article][] = $arr['page'];
+						$articles .= ' <span style="color:red;">(adding to '.$last_article.')</span>';
 					}
 				}
 				if($arr['pdf'] == '') {
@@ -1101,6 +1127,23 @@
 			}
 			print '</table>';
 			
+			foreach($articlesGettingPages as $a => $p) {
+				if($p == range($p[0], $p[(count($p)-1)])) {
+					$parts = explode('.', $a);
+					$vol = $parts[0];
+					$volTwoDig = str_pad($vol, 2, '0', STR_PAD_LEFT);
+					$r = '';
+					if(count($p) > 1) {
+						$r = $p[0].'-'.$p[(count($p)-1)];
+					} else {
+						$r = $p[0];
+					}
+					$tag = '<pb id="p'.$volTwoDig.'-'.$r.'" n="'.$r.'" rend="hidden"/>';
+					replaceInFile('([\r\n]{1,}[	 ]{1,})</body>', $nl.'	'.$tag.'$1</body>', $a.'.xml');
+				} else {
+					print '<p>'.$a.' pages to add are discontinuous.</p>';
+				}
+			}
 			
 			?>
 			
