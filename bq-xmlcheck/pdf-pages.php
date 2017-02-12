@@ -370,6 +370,19 @@
 							// 4.3 ends on two blank (unnumbered) pages
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 4 && $iss == 4) {
+							// 4.4 ends on two non-content pages: one blank, 
+							// the other an extension of the front cover design / an elaboration 
+							// of the illus. on page 135 (AND with the unique caption 
+							// "In this issue John Grant (p. 117) and Judith Rhodes (p. 135) 
+							// discuss Blake's designs for L'Allegro and Il Penseroso"
+							$volCount = $volCount-2;
+							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 5 && $iss == 4) {
+							// 5.4 ends with two blank pages, which count but are not transcribed
+							$volCount = $volCount-2; // omit back pages
+							$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+2; // add back pages back in for next issue's count
 						} else if ($vol == 6 && $iss == 2) {
 							// 6.2 has a foldout
 							$volCount = $volCount-2;
