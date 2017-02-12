@@ -374,6 +374,29 @@
 							// 6.2 has a foldout
 							$volCount = $volCount-2;
 							$pdfRange = array_merge(array('37b', '37c'), range($oldVolCount+1, $volCount));
+						} else if ($vol == 6 && $iss == 3) {
+							// 6.3 ends on a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 7 && $iss == 1) {
+							// 7.1 ends on a non-content page (repetition of illus. on page 4), which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 7 && $iss == '2') {
+							// 7.2 has an ad near (but not at) the end, which counts but is not transcribed.
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 7 && $iss == 4) {
+							// 7.4 ends on a blank page, which counts but is not transcribed.
+							$volCount = $volCount-1; // omit back page
+							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 8 && $iss == '1-2') {
+							// 8.1-2 has two non-content pages (repetitions of the motif of the inside front cover) 
+							// near (but not at) the end, which count but are not transcribed.
+							// (note: each time we remove one, another becomes the second-to-last)
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 						} else if ($vol == 8 && $iss == 3) {
 							// 8.3 ends with a repeated illus., two blank pages, and a repeated illus., which count but are not transcribed
 							$volCount = $volCount-4; // omit back pages
