@@ -366,6 +366,11 @@
 							// 3.3 ends on a blank (unnumbered) page
 							$volCount = $volCount-1;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 4 && $iss == 2) {
+							// 4.2 has two blank pages, one at the end and the other third from the end,
+							// which count but are not transcribed.
+							unset($pdfRange[count($pdfRange)-1]); // remove the last page; third-to-last is now second-to-last
+							unset($pdfRange[count($pdfRange)-2]); // remove new second-to-last (formerly third-to-last) page
 						} else if ($vol == 4 && $iss == 3) {
 							// 4.3 ends on two blank (unnumbered) pages
 							$volCount = $volCount-2;
