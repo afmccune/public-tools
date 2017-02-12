@@ -1063,8 +1063,11 @@
 				}
 			}
 
-			// only do this if there are "no PDF!" messages; if all page numbers come from the PDF, they are in order already
+			// only do usort if there are "no PDF!" messages; if all page numbers come from the PDF, they are in order already
 			// usort($all_pages, 'page_cmp');
+			
+			$last_pdf = '';
+			$last_article = '';
 			
 			print '<table>';
 			print '<tr><td>ID</td><td>PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
@@ -1076,8 +1079,18 @@
 						$art_arr[] = '<a href="/bq/'.$art.'#p'.$arr['page'].'" target="_blank">'.$art.'</a>';
 					}
 					$articles = implode (', ', $art_arr);
+					
+					if(count($arr['articles']) == 1) {
+						$last_article = $arr['articles'][0];
+					} else {
+						$last_article = '';
+					}
+					$last_pdf = $arr['pdf'];
 				} else {
 					$articles = '<span style="color:red;">NO ARTICLES!</span>';
+					if($last_article != '' && $last_pdf == $arr['pdf']) {
+						$articles .= ' <span style="color:red;">(add to '.$last_article.'?)</span>';
+					}
 				}
 				if($arr['pdf'] == '') {
 					$arr['pdf'] = '<span style="color:red;">NO PDF!</span>';
