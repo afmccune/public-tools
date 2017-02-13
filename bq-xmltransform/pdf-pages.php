@@ -519,6 +519,11 @@
 							$volCount = $volCount-1; // omit back page
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 12 && $iss == 4) {
+							// 12.4 has an ad page in the middle (page 257, 36th page in PDF), which counts but is not transcribed.
+							unset($pdfRange[36]);
+							// 12.4 has an ad page in the middle (page 263, 42nd page in PDF), which counts but is not transcribed.
+							unset($pdfRange[42]);
 						} else if ($vol == 13 && $iss == 1) {
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
