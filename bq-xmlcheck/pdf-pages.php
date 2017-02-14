@@ -699,6 +699,8 @@
 							$volCount = $volCount-2; // omit back pages
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $volCount+2; // add back pages back in for next issue's count
+							// 22.4 has an ad page in the middle (page 135, 23rd page in PDF), which counts but is not transcribed.
+							unset($pdfRange[22]);
 						} else if ($vol == 23 && $iss == 1) {
 							// 24.3 has a penultimate ad page, which counts but is not transcribed.
 							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
