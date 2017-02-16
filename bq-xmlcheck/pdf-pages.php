@@ -558,6 +558,8 @@
 						} else if ($vol == 14 && $iss == 4) {
 							// 14.4 has an ad page in the middle--page 195 (19th in PDF)--which counts but is not transcribed.
 							unset($pdfRange[18]);
+							// 14.4 also has a blank page, page 205 (29th in PDF), which counts but is not transcribed.
+							unset($pdfRange[28]);
 						} else if ($vol == 15 && $iss == 2) {
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
