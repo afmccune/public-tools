@@ -612,10 +612,12 @@
 							$pdfRange = array_merge(array('i', 'ii'), range($oldVolCount+1, $volCount));
 							$volCount = $volCount+3;
 						} else if ($vol == 17 && $iss == 2) {
-							// 17.2 ends with an ad page, which counts but is not transcribed.
-							$volCount = $volCount-1; // omit back page
-							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+1; // add back page back in for next issue's count
+							// 17.2 has three ad pages at and near the end, which count but are not transcribed: 
+							// print pages 77-78 (37th and 38th in PDF)
+							// print page 80 (40th in PDF), the back page
+							unset($pdfRange[36]);
+							unset($pdfRange[37]);
+							unset($pdfRange[39]);
 						} else if ($vol == 17 && $iss == 3) {
 							// 17.3 ends with an ad page, which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
