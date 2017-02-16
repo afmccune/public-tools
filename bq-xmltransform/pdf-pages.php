@@ -548,6 +548,8 @@
 							$pdfRange = range($oldVolCount+1, $volCount);
 							// Add back page back in for next issue's count
 							$volCount = $volCount+4;
+							// Also, page 139 (the 27th page in the PDF) is an ad page, which counts but is not transcribed
+							unset($pdfRange[26]);
 						// } else if ($vol == 13 && $iss == 4) {
 							// Leave it alone.
 							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
