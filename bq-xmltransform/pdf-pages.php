@@ -571,6 +571,8 @@
 							$volCount = $volCount-1; // omit back page
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $volCount+1; // add back page back in for next issue's count
+							// 14.2 also has an ad page in the middle--page 65 (25th in PDF)--which counts but is not transcribed.
+							unset($pdfRange[24]);
 						} else if ($vol == 15 && $iss == 2) {
 							// 15.2 includes an index numbered i-ii
 							$volCount = $volCount-2;
