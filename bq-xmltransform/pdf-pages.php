@@ -487,6 +487,9 @@
 							$volCount = $volCount-1; // omit back page
 							$pdfRange = range($oldVolCount+1, $volCount);
 							$volCount = $volCount+1; // add back page back in for next issue's count
+						// } else if ($vol == 10 && $iss == 4) {
+							// 10.4 has a 120-121 page spread (one PDF page), but this doesn't seem to have created page count problems--
+							// perhaps because the final page is a non-content back cover, which counts but is not transcribed.
 						} else if ($vol == 11 && $iss == 1) {
 							// 11.1 ends on a non-content page (repetition of illus. on page 34), which counts but is not transcribed.
 							$volCount = $volCount-1; // omit back page
