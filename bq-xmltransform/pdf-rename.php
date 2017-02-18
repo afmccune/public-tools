@@ -36,6 +36,20 @@
 		}
 	}
 	
+	function copyFile ($oldPath, $newPath, $volIss) {
+		$newDir = 'pdf-rename/'.$volIss;
+		if (file_exists($newDir)) {
+			// okay
+		} else {
+			mkdir($newDir);
+		}
+		if (!copy ('pdf-split/'.$oldPath, $newDir.'/'.$newPath)) {
+			echo '<p>Failed to copy pdf-split/'.substr($oldPath, 2).'</p>';
+		} else {
+			//echo '<p>Copied pdf-split/'.substr($oldPath, 2).' to '.$newDir.'/'.$newPath.'</p>';
+		}
+	}
+	
 		
 	$vol_pages = array();
 	
@@ -860,7 +874,7 @@
 			// usort($all_pages, 'page_cmp');
 			
 			print '<table>';
-			print '<tr><td>ID</td><td>PDF</td><td>SPLIT-PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
+			print '<tr><td>ID</td><td>PDF</td><td>SPLIT-PDF</td><td>RENAMED-PDF</td><td>VOL</td><td>ISS</td><td>PAGE</td><td>ARTICLES</td></tr>';
 			foreach($all_pages as $arr) {
 				$articles = '';
 				if(count($arr['articles']) > 0) {
@@ -877,17 +891,23 @@
 				} else {
 					$arr['pdf'] = '<a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a>';
 				}
+				
+				$newPDF = '';
 				if($arr['splitPDF'] == '') {
 					$arr['splitPDF'] = '<span style="color:red;">NO PDF!</span>';
 				} else if (in_array($arr['splitPDF'], $vol_pages[$arr['vol']][$arr['iss']])) {
+					$newPDF = $arr['id'].'.pdf';
+					copyFile($arr['splitPDF'], $newPDF, $arr['vol'].'.'.$arr['iss']);
+					$newPDF = '<a href="/bq-tools/bq-xmltransform/pdf-rename/'.$arr['vol'].'.'.$arr['iss'].'/'.$newPDF.'" target="_blank">'.$newPDF.'</a>';
 					$arr['splitPDF'] = '<a href="/bq-tools/bq-xmltransform/pdf-split/'.$arr['splitPDF'].'" target="_blank">'.$arr['splitPDF'].'</a>';
 				} else {
 					$val = $arr['splitPDF'];
-					$arr['splitPDF'] = '<span style="color:red;">PDF name error!</span>'.$nl;
-					$arr['splitPDF'] .= "\$arr['splitPDF'] = ".$val.$nl;
-					$arr['splitPDF'] .= "\$vol_pages[".$arr['vol']."][".$arr['iss']."] = ".implode(',',$vol_pages[$arr['vol']][$arr['iss']]);
-				}				
-				print '<tr><td>'.$arr['id'].'</td><td>'.$arr['pdf'].'</td><td>'.$arr['splitPDF'].'</td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
+					$arr['splitPDF'] = '<span style="color:red;">PDF name error!</span>';
+					//$arr['splitPDF'] .= $nl;
+					//$arr['splitPDF'] .= "\$arr['splitPDF'] = ".$val.$nl;
+					//$arr['splitPDF'] .= "\$vol_pages[".$arr['vol']."][".$arr['iss']."] = ".implode(',',$vol_pages[$arr['vol']][$arr['iss']]);
+				}
+				print '<tr><td>'.$arr['id'].'</td><td>'.$arr['pdf'].'</td><td>'.$arr['splitPDF'].'</td><td>'.$newPDF.'</td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
 			}
 			print '</table>';
 			
