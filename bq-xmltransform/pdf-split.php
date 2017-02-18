@@ -23,16 +23,19 @@
 						<div id="articles-reviews-index">
 			<?php
 			
-			$fileArray = array('2.1.pdf','2.2.pdf');
+			$fileArray = array();
 			
 			$input_dir = '/Applications/MAMP/htdocs/bq/pdfs/';
 			$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/';
 
 			$cmd = '#!/bin/bash'.$nl.$nl;
-			//Add each pdf file to the end of the command
-			foreach($fileArray as $file) {
-				$fileShort = str_replace('.pdf','',$file);
-				$cmd .= 'gs -sDEVICE=pdfwrite -dSAFER -o '.$output_dir.$fileShort.'.p%d.pdf '.$input_dir.$file.$nl;
+			
+			foreach (new DirectoryIterator('../../bq/pdfs/') as $fn) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.pdf/', $fn->getFilename())) {
+					$file = $fn->getFilename();	
+					$fileShort = str_replace('.pdf','',$file);
+					$cmd .= 'gs -sDEVICE=pdfwrite -dSAFER -o '.$output_dir.$fileShort.'.p%d.pdf '.$input_dir.$file.$nl;
+				}
 			}
 			
 			// Create bash file
