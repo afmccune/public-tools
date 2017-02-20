@@ -248,25 +248,26 @@
 							// perhaps because the final page is a non-content back cover, which counts but is not transcribed.
 							$pdfRange[23] = '120-121';
 							unset($pdfRange[24]);
-				// *** This is as far as I have gone through this--and we need to fix to check for this kind of hyphenated range in the XML
 						} else if ($vol == 11 && $iss == 1) {
 							// 11.1 ends on a non-content page (repetition of illus. on page 34), which counts but is not transcribed.
-							$volCount = $volCount-1; // omit back page
-							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+1; // add back page back in for next issue's count
+							//$volCount = $volCount-1; // omit back page
+							//$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 11 && $iss == 2) {
 							// 11.1 ends on page 66, but 11.2 begins on page 69 (not 67)
 							$oldVolCount = $oldVolCount+2;
 							$volCount = $volCount+2;
 							$pdfRange = range($oldVolCount+1, $volCount);
-						// } else if ($vol == 11 && $iss == 3) {
-							// Leave it alone.
-							// 11.3 would normally be two PDF pages short, since
-							// 158-159 are scanned as a single PDF page, and
-							// 170-171 are scanned as a single PDF page.
-							// But the content ends on page 208, and is followed
-							// by two non-content pages (an ad and a wordless back cover),
-							// cancelling out the two double-page scans.
+						} else if ($vol == 11 && $iss == 3) {
+							// In 11.3, there are two spreads:
+							// 158-159 are scanned as a single PDF page (26th in PDF),
+							$pdfRange[25] = '158-159';
+							unset($pdfRange[26]);
+							// and 170-171 are scanned as a single PDF page (37th in PDF).
+							$pdfRange[37] = '170-171';
+							unset($pdfRange[38]);
+							// The content ends on page 208, and is followed
+							// by two non-content pages (an ad and a wordless back cover).
 						} else if ($vol == 11 && $iss == 4) {
 							// 11.4 begins 213; who even knows how this screwy volume works
 							$volCount = 212 + $pages;
