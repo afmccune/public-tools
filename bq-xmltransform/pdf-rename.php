@@ -246,7 +246,12 @@
 						} else if ($vol == 10 && $iss == 4) {
 							// 10.4 has a 120-121 page spread (one PDF page, 24th in PDF), but this doesn't seem to have created page count problems--
 							// perhaps because the final page is a non-content back cover, which counts but is not transcribed.
+							// replace page 120
 							$pdfRange[23] = '120-121';
+							// since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// remove page 121
 							unset($pdfRange[24]);
 						} else if ($vol == 11 && $iss == 1) {
 							// 11.1 ends on a non-content page (repetition of illus. on page 34), which counts but is not transcribed.
@@ -259,12 +264,22 @@
 							$volCount = $volCount+2;
 							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 11 && $iss == 3) {
-							// In 11.3, there are two spreads:
+							// In 11.3, there are two spreads.
+							// Since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and again for the other spread
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
 							// 158-159 are scanned as a single PDF page (26th in PDF),
+							// replace page 158
 							$pdfRange[25] = '158-159';
+							// remove page 159
 							unset($pdfRange[26]);
 							// and 170-171 are scanned as a single PDF page (37th in PDF).
+							// replace page 170
 							$pdfRange[37] = '170-171';
+							// remove page 171
 							unset($pdfRange[38]);
 							// The content ends on page 208, and is followed
 							// by two non-content pages (an ad and a wordless back cover).
