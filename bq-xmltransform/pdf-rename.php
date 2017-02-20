@@ -302,23 +302,23 @@
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 							//$volCount = $volCount+1; // add back page back in for next issue's count
-				// *** This is as far as I have gone through this.
 						} else if ($vol == 12 && $iss == 4) {
 							// 12.4 has an ad page in the middle (page 257, 36th page in PDF), which counts but is not transcribed.
-							unset($pdfRange[36]);
+							//unset($pdfRange[36]);
 							// 12.4 has an ad page in the middle (page 263, 42nd page in PDF), which counts but is not transcribed.
-							unset($pdfRange[42]);
+							//unset($pdfRange[42]);
 						} else if ($vol == 13 && $iss == 1) {
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
-							$pdfRange = range($oldVolCount+1, $volCount);
+							$pdfRange = array_merge(range($oldVolCount+1, $volCount), array('extra1','extra2'));
 							// 13.1 also has some pages near (but not at) the end, which count but are not transcribed:
 							// ("from the last page" is based on the page count when the non-BQ pages are removed)
 							// - page 58 (third from the last page): an ad page
 							// - page 59 (second from the last page): an ad page
 							// (note: each time we remove one, another becomes the second-to-last)
-							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
-							unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+				// *** This is as far as I have gone through this.
 						} else if ($vol == 13 && $iss == 3) {
 							// In print, 13.3 ends with four non-content pages--three in the PDF.
 							// 157: ad
