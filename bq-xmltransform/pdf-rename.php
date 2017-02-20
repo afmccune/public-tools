@@ -251,6 +251,8 @@
 							// since the count is off, add a number onto the end
 							$addPage = $pdfRange[count($pdfRange)-1] + 1;
 							$pdfRange[] = $addPage;
+							// and also add to the volCount
+							$volCount = $volCount + 1;
 							// remove page 121
 							unset($pdfRange[24]);
 						} else if ($vol == 11 && $iss == 1) {
@@ -271,6 +273,8 @@
 							// and again for the other spread
 							$addPage = $pdfRange[count($pdfRange)-1] + 1;
 							$pdfRange[] = $addPage;
+							// and also add these to the volCount
+							$volCount = $volCount + 2;
 							// 158-159 are scanned as a single PDF page (26th in PDF),
 							// replace page 158
 							$pdfRange[25] = '158-159';
@@ -284,19 +288,21 @@
 							// The content ends on page 208, and is followed
 							// by two non-content pages (an ad and a wordless back cover).
 						} else if ($vol == 11 && $iss == 4) {
-							// 11.4 begins 213; who even knows how this screwy volume works
-							$volCount = 212 + $pages;
-							$pdfRange = range(213, $volCount);
+							// 11.4 begins on 213 even though 11.3 ends on 210.
+							$oldVolCount = $oldVolCount+2;
+							$volCount = $oldVolCount + $pages;
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 12 && $iss == 1) {
 							// 12.1 ends with two ad pages and a blank page, which count but are not transcribed.
-							$volCount = $volCount-3; // omit back pages
-							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+3; // add back pages back in for next issue's count
+							//$volCount = $volCount-3; // omit back pages
+							//$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+3; // add back pages back in for next issue's count
 						} else if ($vol == 12 && $iss == 3) {
 							// 12.3 ends with an ad page, which counts but is not transcribed.
-							$volCount = $volCount-1; // omit back page
-							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+1; // add back page back in for next issue's count
+							//$volCount = $volCount-1; // omit back page
+							//$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+1; // add back page back in for next issue's count
+				// *** This is as far as I have gone through this.
 						} else if ($vol == 12 && $iss == 4) {
 							// 12.4 has an ad page in the middle (page 257, 36th page in PDF), which counts but is not transcribed.
 							unset($pdfRange[36]);
