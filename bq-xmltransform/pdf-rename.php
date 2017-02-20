@@ -849,6 +849,8 @@
 					foreach($fn_t['pb'] as $pb) {
 						if (strpos($pb, '-') === false) {
 							$pbs[] = $pb;
+						} else if(in_array($pb.'', $vol_pages[$fn_t['volNum']][$fn_t['issueNum']]['pdf-page-range'], TRUE)) {
+							$pbs[] = $pb;
 						} else {
 							$pbMinMax = explode('-', $pb);
 							$pbs = array_merge($pbs, range($pbMinMax[0], $pbMinMax[1]));
