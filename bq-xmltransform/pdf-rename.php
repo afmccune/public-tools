@@ -318,22 +318,29 @@
 							// (note: each time we remove one, another becomes the second-to-last)
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
-				// *** This is as far as I have gone through this.
 						} else if ($vol == 13 && $iss == 3) {
 							// In print, 13.3 ends with four non-content pages--three in the PDF.
 							// 157: ad
-							// 158-159 spread: repetition of illus. on page 118
+							// 158-159 spread: repetition of illus. on page 118 (46th page in PDF)
 							// 160: back cover--wordless extension of front cover design
 							// SO:
 							// Add additional page to the count for the two-page spread (counted as one because it is one in the PDF)
 							$volCount = $volCount+1;
+							// and add it to the range
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// replace page 158
+							$pdfRange[45] = '158-159';
+							// remove page 159
+							unset($pdfRange[46]);
 							// Omit back pages
-							$volCount = $volCount-4;
-							$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount-4;
+							//$pdfRange = range($oldVolCount+1, $volCount);
 							// Add back page back in for next issue's count
-							$volCount = $volCount+4;
+							//$volCount = $volCount+4;
 							// Also, page 139 (the 27th page in the PDF) is an ad page, which counts but is not transcribed
-							unset($pdfRange[26]);
+							//unset($pdfRange[26]);
+				// *** This is as far as I have gone through this.
 						} else if ($vol == 13 && $iss == 4) {
 							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
 							// but the last two pages are an ad (for an exhibition)
