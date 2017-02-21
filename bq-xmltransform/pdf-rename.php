@@ -315,6 +315,8 @@
 							//$volCount = $volCount-3; // omit back pages
 							//$pdfRange = range($oldVolCount+1, $volCount);
 							//$volCount = $volCount+3; // add back pages back in for next issue's count
+						} else if ($vol == 12 && $iss == 2) {
+							// 12.2 seems to lack both spreads and non-content pages
 						} else if ($vol == 12 && $iss == 3) {
 							// 12.3 ends with an ad page, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
@@ -336,6 +338,8 @@
 							// (note: each time we remove one, another becomes the second-to-last)
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 13 && $iss == 2) {
+							// 13.2 seems to lack both spreads and non-content pages
 						} else if ($vol == 13 && $iss == 3) {
 							// In print, 13.3 ends with four non-content pages--three in the PDF.
 							// 157: ad
@@ -404,6 +408,8 @@
 							//$volCount = $volCount+1; // add back page back in for next issue's count
 							// 14.2 also has an ad page in the middle--page 65 (25th in PDF)--which counts but is not transcribed.
 							//unset($pdfRange[24]);
+						} else if ($vol == 14 && $iss == 3) {
+							// 14.3 seems to lack both spreads and non-content pages
 						} else if ($vol == 14 && $iss == 4) {
 							// 14.4 has an ad page in the middle--page 195 (19th in PDF)--which counts but is not transcribed.
 							//unset($pdfRange[18]);
@@ -421,6 +427,8 @@
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 							//$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 15 && $iss == 4) {
+							// 15.4 seems to lack both spreads and non-content pages
 						} else if ($vol == 16 && $iss == 1) {
 							// 16.1 ends with an ad page and a blank page, which count but are not transcribed.
 							//$volCount = $volCount-2; // omit back pages
@@ -459,6 +467,10 @@
 							// FOR MATCHING THE PAGE COUNT OF THE NEXT ISSUE:
 							// Add back in the two PDF pages that count but are not transcribed, for the count for the next issue.
 							//$volCount = $volCount+2;
+						} else if ($vol == 16 && $iss == 4) {
+							// 16.4 seems to lack both spreads and non-content pages
+						} else if ($vol == 17 && $iss == 1) {
+							// 17.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 17 && $iss == 2) {
 							// 17.2 has three ad pages at and near the end, which count but are not transcribed: 
 							// print pages 77-78 (37th and 38th in PDF)
@@ -487,6 +499,10 @@
 							//$volCount = $volCount-1; // omit ad page
 							$pdfRange = array_merge(range($oldVolCount+1, $volCount), array('i', 'ii'));
 							//$volCount = $volCount+1; // add ad page back in for next issue's count
+						} else if ($vol == 18 && $iss == 3) {
+							// 18.3 ends with a wordless back cover, which counts but is not transcribed.
+							// This back cover and the front cover are details of the illustration at
+							// 18.3.bennett#p133.
 						} else if ($vol == 18 && $iss == 4) {
 							// 18.4 ends with two ad pages, which count but are not transcribed.
 							//$volCount = $volCount-2; // omit back pages
