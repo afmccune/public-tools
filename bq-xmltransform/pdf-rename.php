@@ -363,23 +363,30 @@
 							//unset($pdfRange[30]); // At this point the print page count is two ahead of the PDF page count because of the two spreads.
 							// The last two pages are an ad (for an exhibition)
 							// and a wordless back cover.
-				// *** This is as far as I have gone through this.
 						} else if ($vol == 14 && $iss == 1) {
 							// 14.1 includes an index numbered i-ii
-							// The last regular page is a blank page, which counts but is not transcribed.
 							$volCount = $volCount-2; // omit index pages (from Arabic numeral count)
-							$volCount = $volCount-1; // omit back page
+							// The last regular page is a blank page, which counts but is not transcribed.
+							//$volCount = $volCount-1; // omit back page
 							$pdfRange = array_merge(range($oldVolCount+1, $volCount), array('i', 'ii'));
-							$volCount = $volCount+1; // add back page back in for next issue's count
+							//$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 14 && $iss == 2) {
-							// 14.2 includes a 68-69 spread (two print pages as one PDF page)
+							// 14.2 includes a 68-69 spread (27th in PDF)
 							$volCount = $volCount+1;
+							// Since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// replace page 68
+							$pdfRange[27] = '68-69';
+							// remove page 69
+							unset($pdfRange[28]);
 							// 14.2 ends with a blank page, which counts but is not transcribed.
-							$volCount = $volCount-1; // omit back page
-							$pdfRange = range($oldVolCount+1, $volCount);
-							$volCount = $volCount+1; // add back page back in for next issue's count
+							//$volCount = $volCount-1; // omit back page
+							//$pdfRange = range($oldVolCount+1, $volCount);
+							//$volCount = $volCount+1; // add back page back in for next issue's count
 							// 14.2 also has an ad page in the middle--page 65 (25th in PDF)--which counts but is not transcribed.
-							unset($pdfRange[24]);
+							//unset($pdfRange[24]);
+				// *** This is as far as I have gone through this.
 						} else if ($vol == 14 && $iss == 4) {
 							// 14.4 has an ad page in the middle--page 195 (19th in PDF)--which counts but is not transcribed.
 							unset($pdfRange[18]);
