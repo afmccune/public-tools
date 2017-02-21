@@ -340,14 +340,30 @@
 							//$volCount = $volCount+4;
 							// Also, page 139 (the 27th page in the PDF) is an ad page, which counts but is not transcribed
 							//unset($pdfRange[26]);
-				// *** This is as far as I have gone through this.
 						} else if ($vol == 13 && $iss == 4) {
-							// 13.4 has a 166-167 spread and a 174-175 spread (need +2),
-							// but the last two pages are an ad (for an exhibition)
-							// and a wordless back cover (need -2).
-							// Those cancel out as far as page count, but there is also
-							// an ad page on page 191 (29th page in PDF), which counts but is not transcribed.
-							unset($pdfRange[30]); // At this point the print page count is two ahead of the PDF page count because of the two spreads.
+							// 13.4 has a 166-167 spread (6th page in PDF) 
+							// and a 174-175 spread (13th page in PDF).
+							// Since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and again for the other spread
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and also add these to the volCount
+							$volCount = $volCount + 2;
+							// replace page 166
+							$pdfRange[5] = '166-167';
+							// remove page 167
+							unset($pdfRange[6]);
+							// replace page 174
+							$pdfRange[13] = '174-175';
+							// remove page 175
+							unset($pdfRange[14]);
+							// There is also an ad page on page 191 (29th page in PDF), which counts but is not transcribed.
+							//unset($pdfRange[30]); // At this point the print page count is two ahead of the PDF page count because of the two spreads.
+							// The last two pages are an ad (for an exhibition)
+							// and a wordless back cover.
+				// *** This is as far as I have gone through this.
 						} else if ($vol == 14 && $iss == 1) {
 							// 14.1 includes an index numbered i-ii
 							// The last regular page is a blank page, which counts but is not transcribed.
