@@ -894,9 +894,9 @@
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 41 && $iss == 1) {
-							// 41.1
+							// 41.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 41 && $iss == 2) {
-							// 41.2
+							// 41.2 seems to lack both spreads and non-content pages
 						} else if ($vol == 41 && $iss == 3) {
 							// 41.3 has a blank back page, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
@@ -907,7 +907,7 @@
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 42 && $iss == 1) {
-							// 42.1
+							// 42.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 42 && $iss == 2) {
 							// 42.2 has a blank back page, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
@@ -922,20 +922,20 @@
 							// 42.4 has a full-page ad on the penultimate page, which counts but is not transcribed.
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
 						} else if ($vol == 43 && $iss == 1) {
-							// 43.1
+							// 43.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 43 && $iss == 2) {
 							// 43.2 has a back page ad, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 							//$volCount = $volCount+1; // add back page back in for next issue's count
 						} else if ($vol == 43 && $iss == 3) {
-							// 43.3
+							// 43.3 seems to lack both spreads and non-content pages
 						} else if ($vol == 43 && $iss == 4) {
 							// 43.4 has a back page ad, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 44 && $iss == 1) {
-							// 44.1
+							// 44.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 44 && $iss == 2) {
 							// 44.2 has ads on the last two pages, which count but are not transcribed.
 							//$volCount = $volCount-2; // omit back pages
