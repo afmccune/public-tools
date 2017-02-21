@@ -23,17 +23,48 @@
 						<div id="articles-reviews-index">
 			<?php
 			
-			$fileArray = array('2.1.pdf','2.2.pdf');
-			
-			$input_dir = '/Applications/MAMP/htdocs/bq/pdfs/';
-			$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/new/';
-			$outputName = $output_dir.'merged.pdf';
-
 			$cmd = '#!/bin/bash'.$nl.$nl;
-			$cmd .= 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile='.$outputName.' ';
-			//Add each pdf file to the end of the command
-			foreach($fileArray as $file) {
-				$cmd .= $input_dir.$file.' ';
+			
+			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+					$fn_t = array();
+					$fn_t['fn'] = $fn->getFilename();	
+					
+					$fileParts = explode('.', $fn_t['fn']);
+					$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+					$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
+					$fn_t['volNum'] = $fileParts[0];
+					$fn_t['issueNum'] = $fileParts[1];
+					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
+					$fn_t['fileSplit'] = $fileParts[2];
+
+					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
+
+					$fileArray = array();
+					//$fileArray = array('2.1.pdf','2.2.pdf');
+					
+					$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT); // sprintf('%02d', $fn_t['volNum']);
+					
+					foreach($fn_t['pb'] as $p) {
+						$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT); // sprintf('%03d', $p);
+						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
+						
+						$fileArray[] = $id.'.pdf';
+					}
+			
+					$input_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volIss'].'/';
+					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/';
+					$outputName = $output_dir.$fn_t['file'].'.pdf';
+
+					$cmd .= 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile='.$outputName.' ';
+					//Add each pdf file to the end of the command
+					foreach($fileArray as $file) {
+						$cmd .= $input_dir.$file.' ';
+					}
+					
+					$cmd .= $nl;
+				}
 			}
 			
 			// Create bash file
