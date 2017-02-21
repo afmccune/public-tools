@@ -132,6 +132,10 @@
 						} else if ($vol == 2 && $iss === '4b') {
 							// 2.4b begins with I-III, then 1
 							$pdfRange = array_merge(array('I','II','III'), range(1, ($pages-3)));
+						} else if ($vol == 2) {
+							// The rest of volume 2 seems to lack both spreads and non-content pages
+						} else if ($vol == 3 && $iss == 1) {
+							// 3.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 3 && $iss == 2) {
 							// 3.1 ends on page 20, but 3.2 begins on page 22 (not 21)
 							$oldVolCount = $oldVolCount+1;
@@ -141,6 +145,10 @@
 							// 3.3 ends on a blank (unnumbered) page
 							$volCount = $volCount-1;
 							$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 3 && $iss == 4) {
+							// 3.4 seems to lack both spreads and non-content pages
+						} else if ($vol == 4 && $iss == 1) {
+							// 4.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 4 && $iss == 2) {
 							// 4.2 has two blank pages, one at the end and the other third from the end,
 							// which count but are not transcribed.
@@ -158,10 +166,16 @@
 							// discuss Blake's designs for L'Allegro and Il Penseroso"
 							//$volCount = $volCount-2;
 							//$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 5 && $iss === '1-2') {
+							// 5.1-2 seems to lack both spreads and non-content pages
+						} else if ($vol == 5 && $iss == 3) {
+							// 5.3 seems to lack both spreads and non-content pages
 						} else if ($vol == 5 && $iss == 4) {
 							// 5.4 ends with two blank pages, which count but are not transcribed
 							//$volCount = $volCount-2; // omit back pages
 							//$pdfRange = range($oldVolCount+1, $volCount);
+						} else if ($vol == 6 && $iss == 1) {
+							// 6.1 seems to lack both spreads and non-content pages
 						} else if ($vol == 6 && $iss == 2) {
 							// 6.2 has a foldout (37b and 37c, following 37, which is the cover)
 							$volCount = $volCount-2;
@@ -171,6 +185,8 @@
 							//$volCount = $volCount-1; // omit back page
 							//$pdfRange = range($oldVolCount+1, $volCount);
 							//$volCount = $volCount+1; // add back page back in for next issue's count
+						} else if ($vol == 6 && $iss == 4) {
+							// 6.4 seems to lack both spreads and non-content pages
 						} else if ($vol == 7 && $iss == 1) {
 							// 7.1 ends on a non-content page (repetition of illus. on page 4), which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
@@ -179,6 +195,8 @@
 						} else if ($vol == 7 && $iss == '2') {
 							// 7.2 has an ad near (but not at) the end, which counts but is not transcribed.
 							//unset($pdfRange[count($pdfRange)-2]); // $pdfRange[count($pdfRange)-1] would be the last page
+						} else if ($vol == 7 && $iss == 3) {
+							// 7.3 seems to lack both spreads and non-content pages
 						} else if ($vol == 7 && $iss == 4) {
 							// 7.4 ends on a blank page, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
