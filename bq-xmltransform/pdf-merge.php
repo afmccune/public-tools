@@ -33,20 +33,22 @@
 					$pdfs[$volIss] = array();
 					
 					foreach (new DirectoryIterator("pdf-rename/".$volIss."/") as $fn) {
-						$fn_t = array();
-						$fn_t['fn'] = $fn->getFilename();	
+						if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-0-9]{3,7}.pdf/', $fn->getFilename())) {
+							$fn_t = array();
+							$fn_t['fn'] = $fn->getFilename();	
 					
-						$fileParts = explode('.', $fn_t['fn']);
-						/*
-						$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
-						$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
-						$fn_t['volNum'] = $fileParts[0];
-						$fn_t['issueNum'] = $fileParts[1];
-						$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
-						*/
-						$fn_t['p'] = $fileParts[2];
+							$fileParts = explode('.', $fn_t['fn']);
+							/*
+							$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+							$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
+							$fn_t['volNum'] = $fileParts[0];
+							$fn_t['issueNum'] = $fileParts[1];
+							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
+							*/
+							$fn_t['p'] = $fileParts[2];
 						
-						$pdfs[$volIss][] = $fn_t['p'];
+							$pdfs[$volIss][] = $fn_t['p'];
+						}
 					}
 				}
 			}
