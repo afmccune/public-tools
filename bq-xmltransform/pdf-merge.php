@@ -94,7 +94,6 @@
 									print '<p style="color:red;">'.$fn_t['volIss'].': No PDF for '.$rp.'</p>';
 								}
 							}
-							$fileArray = array_merge($fileArray, $range);
 						}
 					}
 					
