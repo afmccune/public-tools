@@ -310,6 +310,16 @@
 							$oldVolCount = $oldVolCount+2;
 							$volCount = $oldVolCount + $pages;
 							$pdfRange = range($oldVolCount+1, $volCount);
+							// 11.4 also has a 226-227 spread (14th page in PDF)
+							// replace page 226
+							$pdfRange[13] = '226-227';
+							// since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and also add to the volCount
+							$volCount = $volCount + 1;
+							// remove page 227
+							unset($pdfRange[14]);
 						} else if ($vol == 12 && $iss == 1) {
 							// 12.1 ends with two ad pages and a blank page, which count but are not transcribed.
 							//$volCount = $volCount-3; // omit back pages
