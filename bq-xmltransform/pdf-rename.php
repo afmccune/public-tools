@@ -664,6 +664,17 @@
 							//unset($pdfRange[31]);
 							// 25.3 ends with an ad page (page 140, 40th page in PDF), which counts but is not transcribed.
 							//unset($pdfRange[39]);
+						} else if ($vol == 25 && $iss == 4) {
+							// 25.4 has 152-153 spread (12th page in PDF)
+							// replace page 152
+							$pdfRange[11] = '152-153';
+							// since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and also add to the volCount
+							$volCount = $volCount + 1;
+							// remove page 153
+							unset($pdfRange[12]);
 						} else if ($vol == 26 && $iss == 1) {
 							// 26.1 ends with a blank page, which counts but is not transcribed.
 							//$volCount = $volCount-1; // omit back page
