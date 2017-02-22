@@ -25,6 +25,32 @@
 			
 			$cmd = '#!/bin/bash'.$nl.$nl;
 			
+			$pdfs = array();
+
+			foreach (new DirectoryIterator("pdf-rename/") as $fn) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}/', $fn->getFilename())) {
+					$volIss = $fn->getFilename();
+					$pdfs[$volIss] = array();
+					
+					foreach (new DirectoryIterator("pdf-rename/".$volIss."/") as $fn) {
+						$fn_t = array();
+						$fn_t['fn'] = $fn->getFilename();	
+					
+						$fileParts = explode('.', $fn_t['fn']);
+						/*
+						$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+						$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
+						$fn_t['volNum'] = $fileParts[0];
+						$fn_t['issueNum'] = $fileParts[1];
+						$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
+						*/
+						$fn_t['p'] = $fileParts[2];
+						
+						$pdfs[$volIss][] = $fn_t['p'];
+					}
+				}
+			}
+			
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
@@ -42,17 +68,34 @@
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 
 					$fileArray = array();
-					//$fileArray = array('2.1.pdf','2.2.pdf');
 					
 					$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT); // sprintf('%02d', $fn_t['volNum']);
 					
 					foreach($fn_t['pb'] as $p) {
 						$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT); // sprintf('%03d', $p);
-						$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 						
-						$fileArray[] = $id.'.pdf';
+						if (strpos($p, '-') === false) {
+							$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
+							$fileArray[] = $id.'.pdf';
+						} else if (in_array($pThreeDig.'', $pdfs[$fn_t['volIss']], TRUE)) {
+							$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
+							$fileArray[] = $id.'.pdf';
+						} else {
+							$pbMinMax = explode('-', $p);
+							$range = range($pbMinMax[0], $pbMinMax[1]);
+							foreach($range as $rp) {
+								$rpThreeDig = str_pad($rp, 3, '0', STR_PAD_LEFT);
+								if(in_array($rpThreeDig.'', $pdfs[$fn_t['volIss']], TRUE)) {
+									$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$rpThreeDig;
+									$fileArray[] = $id.'.pdf';
+								} else {
+									print '<p style="color:red;">'.$fn_t['volIss'].': No PDF for '.$rp.'</p>';
+								}
+							}
+							$fileArray = array_merge($fileArray, $range);
+						}
 					}
-			
+					
 					$input_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volIss'].'/';
 					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/';
 					$outputName = $output_dir.$fn_t['file'].'.pdf';
