@@ -337,6 +337,16 @@
 							//unset($pdfRange[36]);
 							// 12.4 has an ad page in the middle (page 263, 42nd page in PDF), which counts but is not transcribed.
 							//unset($pdfRange[42]);
+							// 12.4 also has a 252-253 spread (32nd page in PDF)
+							// replace page 252
+							$pdfRange[31] = '252-253';
+							// since the count is off, add a number onto the end
+							$addPage = $pdfRange[count($pdfRange)-1] + 1;
+							$pdfRange[] = $addPage;
+							// and also add to the volCount
+							$volCount = $volCount + 1;
+							// remove page 253
+							unset($pdfRange[32]);
 						} else if ($vol == 13 && $iss == 1) {
 							// 13.1 ends on two non-BQ pages (an ad insert?)
 							$volCount = $volCount-2;
