@@ -155,9 +155,9 @@
 							//unset($pdfRange[count($pdfRange)-1]); // remove the last page; third-to-last is now second-to-last
 							//unset($pdfRange[count($pdfRange)-2]); // remove new second-to-last (formerly third-to-last) page
 						} else if ($vol == 4 && $iss == 3) {
-							// 4.3 ends on two blank (unnumbered) pages
-							//$volCount = $volCount-2;
-							//$pdfRange = range($oldVolCount+1, $volCount);
+							// 4.3 ends on two blank pages WHICH DO NOT COUNT
+							$volCount = $volCount-2;
+							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 4 && $iss == 4) {
 							// 4.4 ends on two non-content pages: one blank, 
 							// the other an extension of the front cover design / an elaboration 
