@@ -88,9 +88,9 @@
 								} else {
 									$pbMinMax = explode('-', $p);
 									$pThreeDig1 = str_pad($pbMinMax[0], 3, '0', STR_PAD_LEFT);
-									$pdf1 = '/bq-tools/bq-xmltransform/pdf-rename/'.$volTwoDig.'.'.$fn_t['issueNum'].'/'.$volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig1.'.pdf';
+									$pdf1 = '/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'/'.$volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig1.'.pdf';
 									$pThreeDig2 = str_pad($pbMinMax[1], 3, '0', STR_PAD_LEFT);
-									$pdf2 = '/bq-tools/bq-xmltransform/pdf-rename/'.$volTwoDig.'.'.$fn_t['issueNum'].'/'.$volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig2.'.pdf';
+									$pdf2 = '/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'/'.$volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig2.'.pdf';
 									print '<p style="color:red;"><a href="/bq/'.$fn_t['file'].'#p'.$p.'" target="_blank">'.$fn_t['file'].'</a>: No PDF for '.$p.'. (<a href="'.$pdf1.'" target="_blank">PDF for '.$pbMinMax[0].'</a>; <a href="'.$pdf2.'" target="_blank">PDF for '.$pbMinMax[1].'</a>)</p>';
 
 									if(count($fn_t['pbHidden']) > 0) {
