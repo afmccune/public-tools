@@ -61,22 +61,27 @@
 
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
+					$fn_t['pbFront'] = $FullXML->xpath('//front//pb/@n'); // array
 					
-					$prev = $fn_t['pb'][0] - 1;
-					$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
+					//if(count($fn_t['pbFront']) > 1 && $fn_t['pbFront'][0] == $fn_t['pb'][0]) {
+						// ignore if first pb is in <front> instead of <body>
+					//} else {
+						$prev = $fn_t['pb'][0] - 1;
+						$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
 					
-					$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
-					$XMLstringTest = $XMLstring;
+						$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+						$XMLstringTest = $XMLstring;
 					
-					$XMLstringTest = preg_replace('@<div[0-9][- a-zA-Z0-9="/]{0,}>@', '', $XMLstringTest);
-					$XMLstringTest = preg_replace('@[	 ]{0,}[\r\n]{1,}[	 ]{0,}@', '', $XMLstringTest);
+						$XMLstringTest = preg_replace('@<div[0-9][- a-zA-Z0-9="/]{0,}>@', '', $XMLstringTest);
+						$XMLstringTest = preg_replace('@[	 ]{0,}[\r\n]{1,}[	 ]{0,}@', '', $XMLstringTest);
 					
-					if (strpos($XMLstringTest, '<body><pb') !== false) {
-						print '<p>'.$fn_t['file'].': Page break at top.</p>';
-					} else {
-						//print '<pre>'.$XMLstringTest.'</pre>';
-					    replaceInFile('<body>', '<body>'.$nl.'	<pb id="'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
-					}
+						if (strpos($XMLstringTest, '<body><pb') !== false) {
+							//print '<p>'.$fn_t['file'].': Page break at top.</p>';
+						} else {
+							replaceInFile('<body>', '<body>'.$nl.'	<pb id="'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
+							print '<p><a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> <a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> <a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a></p>';
+						}
+					//}
 				}
 			}
 

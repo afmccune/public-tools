@@ -7,13 +7,7 @@ $nl = "
 ";
 
 $replace = array();
-$replace['([0-9]{2}\.[1-4])\.luca'] = '$1.deluca';
-//$replace['([a-zA-Z0-9-\.,\)\/”;:\?]) <pb '] = '$1 '.$nl.'<pb ';
-//$replace['(<pb id="p[0-9-]{3,}" n="[0-9-]{1,}"\/>) ([a-zA-Z0-9“\(])'] = '$1'.$nl.'$2';
-//$replace['><figure'] = '>'.$nl.'<figure';
-//$replace['([ \r\n>\(])"([a-zA-Z0-9- 	—‘’£:&;,\(\)\[\]\/\.\r\n]{0,}[0-9⅛¼½¾⅞]{1,})"'] = '$1“$2”'; //
-//$replace['<supplied type="spacer">'.$nl.'<\/supplied>'] = '<supplied type="spacer"> </supplied>';
-
+$replace['(<pb id="p[-0-9]{1,}" n="[-0-9]{1,}"/>)([ 	\r\n]{0,})<body>'] = '<body>$2$1';
 
 ?>
 	<body>
