@@ -104,7 +104,7 @@
 							$prevPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $prev);
 							print '<p>';
 							print '<a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
+							print '<a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['volIss'].'/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
 							print '<a href="'.$prevPdfLink.'" target="_blank">(prev page)</a> ';
 							print '<a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
 							print '<a href="/bq-tools/bq-xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">APPROVE</a> ';
