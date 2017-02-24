@@ -84,10 +84,12 @@
 						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb @';
 						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb @';
 						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'</div[0-9]>'.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb @';
+						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'</div[0-9]>'.$sp.')<pb @';
 						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'<title type="section-subtitle">'.$sp.'[\r\n 	a-zA-Z</>="&;]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb @';
 						//$patterns[] = '@[\r\n]{1,}[ 	]{0,}[\r\n]{1,}@';
 						
 						$rep = array();
+						$rep[] = '<body>$1$2<pb ';
 						$rep[] = '<body>$1$2<pb ';
 						$rep[] = '<body>$1$2<pb ';
 						$rep[] = '<body>$1$2<pb ';
