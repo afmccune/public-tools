@@ -7,7 +7,7 @@ $nl = "
 ";
 
 $replace = array();
-$replace['(<pb id="p[-0-9]{1,}" n="[-0-9]{1,}"/>)([ 	\r\n]{0,})<body>'] = '<body>$2$1';
+$replace['[\r\n]{1,}[ 	]{0,}[\r\n]{1,}'] = $nl;
 
 ?>
 	<body>
