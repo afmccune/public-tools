@@ -7,6 +7,7 @@ $nl = "
 ";
 
 $replace = array();
+$replace['[ 	]{0,}<div1[- a-zA-Z0-9="/]{0,}>[\r\n 	]{0,}</div1>'] = '';
 $replace['[\r\n]{1,}[ 	]{0,}[\r\n]{1,}'] = $nl;
 
 ?>
