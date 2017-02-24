@@ -25,6 +25,17 @@
 		}
 	}
 	
+	function pdfForPage($vol, $iss, $p) {
+		$volTwoDig = str_pad($vol, 2, '0', STR_PAD_LEFT);
+		$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT);
+		
+		//$dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
+		$dir = '/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
+		$fn = $volTwoDig.'.'.$iss.'.'.$pThreeDig.'.pdf';
+		
+		return $dir.$fn;
+	}
+	
 
 	?>
 	<body>
@@ -63,9 +74,9 @@
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					$fn_t['pbFront'] = $FullXML->xpath('//front//pb/@n'); // array
 					
-					//if(count($fn_t['pbFront']) > 1 && $fn_t['pbFront'][0] == $fn_t['pb'][0]) {
-						// ignore if first pb is in <front> instead of <body>
-					//} else {
+					if(count($fn_t['pbFront']) > 0) {
+						// ignore if there are pbs in <front> (instead of <body>)
+					} else {
 						$prev = $fn_t['pb'][0] - 1;
 						$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
 					
@@ -79,9 +90,10 @@
 							//print '<p>'.$fn_t['file'].': Page break at top.</p>';
 						} else {
 							replaceInFile('<body>', '<body>'.$nl.'	<pb id="'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
-							print '<p><a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> <a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> <a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a></p>';
+							$prevPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $prev);
+							print '<p><a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> <a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> <a href="'.$prevPdfLink.'" target="_blank">(prev page)</a> <a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a></p>';
 						}
-					//}
+					}
 				}
 			}
 
