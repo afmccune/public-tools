@@ -45,7 +45,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Make sure there is a page break at the top of each article</h1>
+							<h1>Remove section heading if it precedes first page break</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -77,19 +77,15 @@
 					if(count($fn_t['pbFront']) > 0) {
 						// ignore if there are pbs in <front> (instead of <body>)
 					} else {
-						$prev = $fn_t['pb'][0] - 1;
-						$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
-					
 						$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
-						$XMLstringTest = $XMLstring;
-					
-						$XMLstringTest = preg_replace('@<div[0-9][- a-zA-Z0-9="/]{0,}>@', '', $XMLstringTest);
-						$XMLstringTest = preg_replace('@[	 ]{0,}[\r\n]{1,}[	 ]{0,}@', '', $XMLstringTest);
-					
-						if (strpos($XMLstringTest, '<body><pb') !== false) {
-							//print '<p>'.$fn_t['file'].': Page break at top.</p>';
-						} else {
-							replaceInFile('<body>', '<body>'.$nl.'	<pb id="'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
+						
+						$sp = '[ 	\r\n]{0,}';
+						$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ a-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb ';
+						
+						if(preg_match('@'.$pattern.'@', $XMLstring)) {
+							replaceInFile($pattern, '<body>$1$2<pb ', $fn_t['fn']);
+						
+							$prev = $fn_t['pb'][0] - 1;
 							$prevPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $prev);
 							print '<p>';
 							print '<a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> ';
