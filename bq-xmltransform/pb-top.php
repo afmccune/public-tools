@@ -73,9 +73,12 @@
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					$fn_t['pbFront'] = $FullXML->xpath('//front//pb/@n'); // array
+					$fn_t['pbBack'] = $FullXML->xpath('//back//pb/@n'); // array
 					
 					if(count($fn_t['pbFront']) > 0) {
 						// ignore if there are pbs in <front> (instead of <body>)
+					} else if(count($fn_t['pbBack']) > 0) {
+						// ignore if there are pbs in <back> (instead of <body>)
 					} else {
 						$prev = $fn_t['pb'][0] - 1;
 						$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
