@@ -9,11 +9,11 @@
 	require('include/functions.php');
 	require('include/head.php');
 			
-	function replaceInFile($key, $value, $filename) {
+	function replaceInFile($keys, $values, $filename) {
 		$XMLstring = file_get_contents('../../bq/docs/'.$filename);
 		$XMLstringNew = $XMLstring;
 		
-		$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
+		$XMLstringNew = preg_replace($keys, $values, $XMLstringNew);
 		
 		if($XMLstring !== $XMLstringNew && $XMLstringNew !== '') {
 			file_put_contents('new/'.$filename, $XMLstringNew);
@@ -80,11 +80,21 @@
 						$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
 						
 						$sp = '[ 	\r\n]{0,}';
-						//$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ a-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb ';
-						$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb ';
+						$patterns = array();
+						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ a-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb @';
+						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb @';
+						$patterns[] = '@<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'<title type="section-subtitle">'.$sp.'[\r\n 	a-zA-Z</>="&;]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb @';
+						//$patterns[] = '@[\r\n]{1,}[ 	]{0,}[\r\n]{1,}@';
 						
-						if(preg_match('@'.$pattern.'@', $XMLstring)) {
-							replaceInFile($pattern, '<body>$1$2<pb ', $fn_t['fn']);
+						$rep = array();
+						$rep[] = '<body>$1$2<pb ';
+						$rep[] = '<body>$1$2<pb ';
+						$rep[] = '<body>$1$2<pb ';
+						//$rep[] = $nl;
+						
+						if(preg_match($patterns[0], $XMLstring) || preg_match($patterns[1], $XMLstring) || preg_match($patterns[2], $XMLstring) || preg_match($patterns[3], $XMLstring)) {
+						//if(preg_match($patterns[0], $XMLstring)) {
+							replaceInFile($patterns, $rep, $fn_t['fn']);
 						
 							$prev = $fn_t['pb'][0] - 1;
 							$prevPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $prev);
