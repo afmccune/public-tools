@@ -81,7 +81,7 @@
 						
 						$sp = '[ 	\r\n]{0,}';
 						//$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ a-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.')<pb ';
-						$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ a-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb ';
+						$pattern = '<body>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<head>'.$sp.'<title type="section">'.$sp.'[ 	\r\na-zA-Z</>="]{1,}'.$sp.'</title>'.$sp.'</head>('.$sp.'<div[0-9][- a-zA-Z0-9="/]{0,}>'.$sp.')<pb ';
 						
 						if(preg_match('@'.$pattern.'@', $XMLstring)) {
 							replaceInFile($pattern, '<body>$1$2<pb ', $fn_t['fn']);
