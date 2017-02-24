@@ -36,6 +36,7 @@
 		return $dir.$fn;
 	}
 	
+	$filesList = file_get_contents('lists/notes-bottom-ok.txt');
 
 	?>
 	<body>
@@ -51,14 +52,9 @@
 					<div id="main">
 						<div id="articles-reviews-index">
 			<?php
-				
-			$volCount = 0;
-
-			$all_pages = array();
-			
-			
+							
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename()) && strpos($filesList, $fn->getFilename()) === false) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
 					
@@ -95,7 +91,8 @@
 							print '<a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
 							print '<a href="'.$nextPdfLink.'" target="_blank">(next page)</a> ';
 							print '<a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">APPROVE</a> ';
+							print '<a href="/bq-tools/bq-xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">ADD PAGE</a> ';
+							print '<a href="/bq-tools/bq-xmltransform/write-to-list.php?l=notes-bottom-ok.txt&t='.$fn_t['file'].'.xml" target="_blank" style="color:red;">OK AS IS</a> ';
 							print '</p>';
 						} else {
 							//
