@@ -92,7 +92,7 @@
 							print '<a href="'.$nextPdfLink.'" target="_blank">(next page)</a> ';
 							print '<a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
 							print '<a href="/bq-tools/bq-xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">ADD PAGE</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/write-to-list.php?l=notes-bottom-ok.txt&t='.$fn_t['file'].'.xml" target="_blank" style="color:red;">OK AS IS</a> ';
+							print '<a href="/bq-tools/bq-xmltransform/notes-bottom-ok.php?l=notes-bottom-ok.txt&t='.$fn_t['file'].'.xml" target="_blank" style="color:red;">OK AS IS</a> ';
 							print '</p>';
 						} else {
 							//

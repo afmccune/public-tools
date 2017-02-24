@@ -16,7 +16,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Write to list</h1>
+							<h1>OK file (does not have notes-only page at bottom)</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -30,6 +30,11 @@
 				// and the LOCK_EX flag to prevent anyone else writing to the file at the same time
 				if(file_put_contents('lists/'.$list, $text.$nl, FILE_APPEND | LOCK_EX)) {
 					print '<p>Wrote '.$text.' to lists/'.$list.'</p>';
+					if(!unlink('new/'.$text)) {
+						echo '<p>Failed to delete new/'.$text.'</p>';
+					} else {
+						echo '<p>Deleted new/'.$text.'</p>';
+					}
 				} else {
 					print '<p>Failed to write '.$text.' to lists/'.$list.'</p>';
 				}
