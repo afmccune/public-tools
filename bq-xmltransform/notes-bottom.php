@@ -71,7 +71,7 @@
 					$fn_t['pbHidden'] = $FullXML->xpath('//pb/@n/@rend'); // array
 					$fn_t['pbHiddenFront'] = $FullXML->xpath('//front//pb/@n/@rend'); // array
 					$fn_t['pbHiddenBack'] = $FullXML->xpath('//back//pb/@n/@rend'); // array
-					$fn_t['notes'] = $FullXML->xpath('//note'); // array
+					$fn_t['notes'] = $FullXML->xpath('//note/@id'); // array (unreferenced notes have no ids, but are also rarely endnotes except in the company of notes with ids)
 					
 					if(count($fn_t['pbHiddenFront']) > 0) {
 						// if there are hidden pbs in <front> (instead of <body>)

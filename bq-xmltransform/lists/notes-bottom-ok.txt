@@ -1,3 +1,14 @@
 1.1.toc.xml
 1.1.tsuji.xml
 1.2.bentley.xml
+9.4.wright.xml
+44.4.essick.xml
+44.3.essick.xml
+44.3.cardinale.xml
+44.2.whittaker.xml
+44.2.miner.xml
+44.2.crosby.xml
+44.1.bentley.xml
+9.4.tannenbaum.xml
+9.4.pignard.xml
+9.4.parisi.xml
