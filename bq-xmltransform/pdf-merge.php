@@ -99,6 +99,12 @@
 					
 					$input_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volIss'].'/';
 					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['volIss'].'/';
+					if (file_exists($output_dir)) {
+						// okay
+					} else {
+						mkdir($output_dir);
+					}
+
 					$outputName = $output_dir.$fn_t['file'].'.pdf';
 
 					$cmd .= 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile='.$outputName.' ';

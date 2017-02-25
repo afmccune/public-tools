@@ -12,3 +12,7 @@
 9.4.tannenbaum.xml
 9.4.pignard.xml
 9.4.parisi.xml
+9.4.gleckner.xml
+9.4.erdman.xml
+9.4.dorrbecker.xml
+9.4.baine.xml
