@@ -9,6 +9,13 @@
 2.2.moss.xml
 2.2.paley.xml
 2.2.wittreich.xml
+2.3.bentley.xml
+2.4.adlard.xml
+2.4.bentley.xml
+2.4.paley.xml
+2.4.stevenson.xml
+3.2.bentley.xml
+3.2.toc.xml
 9.4.wright.xml
 9.4.tannenbaum.xml
 9.4.pignard.xml
