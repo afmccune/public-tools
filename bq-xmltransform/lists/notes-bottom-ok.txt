@@ -81,6 +81,12 @@
 7.1.metcalf.xml
 7.1.paley.xml
 7.1.toomey.xml
+7.2.bibliography.xml
+7.2.exhibitions.xml
+7.2.grant.xml
+7.2.night.xml
+7.2.sales.xml
+7.2.wright.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
