@@ -50,6 +50,14 @@
 6.1.paley.xml
 6.1.todd.xml
 6.1.tolley.xml
+6.2.antippas.xml
+6.2.baine.xml
+6.2.bentley.xml
+6.2.butlin.xml
+6.2.lister.xml
+6.2.pignard.xml
+6.2.toomey.xml
+6.2.welch.xml
 9.4.wright.xml
 9.4.tannenbaum.xml
 9.4.pignard.xml
@@ -65,5 +73,3 @@
 44.3.cardinale.xml
 44.3.essick.xml
 44.4.essick.xml
-6.2.antippas.xml
-6.2.baine.xml
