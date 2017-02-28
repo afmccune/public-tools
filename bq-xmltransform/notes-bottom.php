@@ -69,9 +69,9 @@
 
 					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
-					$fn_t['pbHidden'] = $FullXML->xpath('//pb/@n/@rend'); // array
-					$fn_t['pbHiddenFront'] = $FullXML->xpath('//front//pb/@n/@rend'); // array
-					$fn_t['pbHiddenBack'] = $FullXML->xpath('//back//pb/@n/@rend'); // array
+					$fn_t['pbHidden'] = $FullXML->xpath('//pb/@rend'); // array
+					$fn_t['pbHiddenFront'] = $FullXML->xpath('//front//pb/@rend'); // array
+					$fn_t['pbHiddenBack'] = $FullXML->xpath('//back//pb/@rend'); // array
 					$fn_t['notes'] = $FullXML->xpath('//note/@id'); // array (unreferenced notes have no ids, but are also rarely endnotes except in the company of notes with ids)
 					
 					if(count($fn_t['pbHiddenFront']) > 0) {
