@@ -73,6 +73,14 @@
 6.4.shaefer.xml
 6.4.warner.xml
 6.4.wittreich.xml
+7.1.briggs.xml
+7.1.butlin.xml
+7.1.checklist.xml
+7.1.eaves.xml
+7.1.keynes.xml
+7.1.metcalf.xml
+7.1.paley.xml
+7.1.toomey.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
@@ -88,7 +96,3 @@
 44.3.cardinale.xml
 44.3.essick.xml
 44.4.essick.xml
-7.1.briggs.xml
-7.1.butlin.xml
-7.1.checklist.xml
-7.1.eaves.xml
