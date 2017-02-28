@@ -36,7 +36,8 @@
 		return $dir.$fn;
 	}
 	
-	$filesList = file_get_contents('lists/notes-bottom-ok.txt');
+	$files = file_get_contents('lists/notes-bottom-ok.txt');
+	$filesList = explode($nl, $files);
 
 	?>
 	<body>
@@ -54,7 +55,7 @@
 			<?php
 							
 			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
-				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename()) && strpos($filesList, $fn->getFilename()) === false) {
+				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename()) && !in_array($fn->getFilename(), $filesList)) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
 					
