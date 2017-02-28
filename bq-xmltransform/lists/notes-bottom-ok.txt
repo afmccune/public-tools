@@ -58,6 +58,15 @@
 6.2.pignard.xml
 6.2.toomey.xml
 6.2.welch.xml
+6.3.bentley.xml
+6.3.duerksen.xml
+6.3.hoover.xml
+6.3.paley.xml
+6.3.wills.xml
+6.4.bentley.xml
+6.4.connolly.xml
+6.4.curtis.xml
+6.4.gleckner.xml
 9.4.wright.xml
 9.4.tannenbaum.xml
 9.4.pignard.xml
