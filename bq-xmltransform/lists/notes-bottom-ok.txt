@@ -105,6 +105,14 @@
 8.1-2.macmillan.xml
 8.1-2.paley.xml
 8.1-2.tolley.xml
+8.3.bentley.xml
+8.3.duerksen.xml
+8.3.eaves.xml
+8.3.essick.xml
+8.3.grant.xml
+8.3.jackson.xml
+8.3.murray.xml
+8.3.symposium.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
