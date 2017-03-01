@@ -113,6 +113,13 @@
 8.3.jackson.xml
 8.3.murray.xml
 8.3.symposium.xml
+8.4.bentley.xml
+8.4.chayes.xml
+8.4.eaves.xml
+8.4.erdman.xml
+8.4.essick.xml
+8.4.hagstrum.xml
+8.4.jannoud.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
