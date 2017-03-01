@@ -99,6 +99,12 @@
 7.4.roberts.xml
 7.4.ryan.xml
 7.4.taylor.xml
+8.1-2.carey.xml
+8.1-2.fletcher.xml
+8.1-2.hoover.xml
+8.1-2.macmillan.xml
+8.1-2.paley.xml
+8.1-2.tolley.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
