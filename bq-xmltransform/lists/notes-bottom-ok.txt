@@ -92,6 +92,13 @@
 7.3.essicknote.xml
 7.3.trawick.xml
 7.3.wilton.xml
+7.4.connolly.xml
+7.4.essick.xml
+7.4.morkan.xml
+7.4.pearcy.xml
+7.4.roberts.xml
+7.4.ryan.xml
+7.4.taylor.xml
 9.4.baine.xml
 9.4.dorrbecker.xml
 9.4.erdman.xml
