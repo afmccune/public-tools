@@ -214,6 +214,14 @@
 12.4.labelle.xml
 12.4.lincoln.xml
 12.4.paley.xml
+13.1.gleckner.xml
+13.1.tener.xml
+13.1.thompson.xml
+13.1.welch.xml
+13.2.bentley.xml
+13.2.duplantier.xml
+13.2.king.xml
+13.2.shroyer.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
