@@ -204,6 +204,11 @@
 41.4.essick.xml
 41.4.mellor.xml
 41.4.ward.xml
+42.1.bentley.xml
+42.2.bruder.xml
+42.2.butlin.xml
+42.2.vankleeck.xml
+42.2.whitehead.xml
 43.1.bentley.xml
 43.3.bentley.xml
 43.3.goslee.xml
