@@ -4,6 +4,21 @@
 	$pt = '';
 	$nl = '
 ';
+
+	$files = file_get_contents('lists/notes-bottom-ok.txt');
+	$filesList = explode($nl, $files);
+	
+	function volIssCmp ($a, $b) {
+		$aSplit = explode('.', $a);
+		$bSplit = explode('.', $b);		
+		if($aSplit[0] == $bSplit[0]) {
+			return strcmp($a, $b);
+		} else {
+			$aVolTwoDig = str_pad($aSplit[0], 2, '0', STR_PAD_LEFT);
+			$bVolTwoDig = str_pad($bSplit[0], 2, '0', STR_PAD_LEFT);
+			return strcmp($aVolTwoDig, $bVolTwoDig);
+		}
+	}
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -25,10 +40,12 @@
 			if($_GET["l"] && $_GET["t"]) {
 				$list = $_GET["l"];
 				$text = $_GET["t"];
-				// Write the contents to the file, 
-				// using the FILE_APPEND flag to append the content to the end of the file
-				// and the LOCK_EX flag to prevent anyone else writing to the file at the same time
-				if(file_put_contents('lists/'.$list, $text.$nl, FILE_APPEND | LOCK_EX)) {
+				
+				$filesList[] = $text;
+				usort($filesList, volIssCmp);
+				$filesNew = implode($nl, $filesList);
+
+				if(file_put_contents('lists/'.$list, $filesNew)) {
 					print '<p>Wrote '.$text.' to lists/'.$list.'</p>';
 					if(!unlink('new/'.$text)) {
 						echo '<p>Failed to delete new/'.$text.'</p>';

@@ -147,13 +147,6 @@
 9.4.pignard.xml
 9.4.tannenbaum.xml
 9.4.wright.xml
-44.1.bentley.xml
-44.2.crosby.xml
-44.2.miner.xml
-44.2.whittaker.xml
-44.3.cardinale.xml
-44.3.essick.xml
-44.4.essick.xml
 10.1.bogan.xml
 10.1.erdman.xml
 10.1.johnson.xml
@@ -175,3 +168,11 @@
 10.4.heppner.xml
 10.4.jones.xml
 10.4.schotz.xml
+43.4.paley.xml
+44.1.bentley.xml
+44.2.crosby.xml
+44.2.miner.xml
+44.2.whittaker.xml
+44.3.cardinale.xml
+44.3.essick.xml
+44.4.essick.xml
