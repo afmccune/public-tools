@@ -168,6 +168,13 @@
 10.4.heppner.xml
 10.4.jones.xml
 10.4.schotz.xml
+11.1.bentley.xml
+11.1.cmhenning.xml
+11.1.deck.xml
+11.1.dilworth.xml
+11.1.dorrbecker.xml
+11.1.gleckner.xml
+11.1.mercier.xml
 41.1.bentley.xml
 41.1.davies.xml
 41.1.whitehead.xml
