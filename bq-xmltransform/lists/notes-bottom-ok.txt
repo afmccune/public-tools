@@ -183,6 +183,14 @@
 41.4.essick.xml
 41.4.mellor.xml
 41.4.ward.xml
+43.1.bentley.xml
+43.3.bentley.xml
+43.3.goslee.xml
+43.3.gourlay.xml
+43.3.hilton.xml
+43.3.paley.xml
+43.3.ripley.xml
+43.3.whitehead.xml
 43.4.essick.xml
 43.4.paley.xml
 44.1.bentley.xml
