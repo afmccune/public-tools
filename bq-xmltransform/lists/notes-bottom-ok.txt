@@ -182,6 +182,13 @@
 11.2.fine.xml
 11.2.gleckner.xml
 11.2.jackson.xml
+11.3.bentley.xml
+11.3.essick.xml
+11.3.walker.xml
+11.4.essick.xml
+11.4.fischer.xml
+11.4.jefferys.xml
+11.4.lyle.xml
 41.1.bentley.xml
 41.1.davies.xml
 41.1.whitehead.xml
