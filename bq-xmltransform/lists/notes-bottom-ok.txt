@@ -201,6 +201,13 @@
 12.2.hoagwood.xml
 12.2.johnson.xml
 12.2.lincoln.xml
+12.3.bindman.xml
+12.3.butlin.xml
+12.3.cheskin.xml
+12.3.ebbentley.xml
+12.3.heppner.xml
+12.3.watarai.xml
+12.3.weber.xml
 41.1.bentley.xml
 41.1.davies.xml
 41.1.whitehead.xml
