@@ -301,6 +301,15 @@
 19.4.bentley.xml
 19.4.crossan.xml
 19.4.groves.xml
+20.1.heppner.xml
+20.2.bentley.xml
+20.2.lister.xml
+20.2.paley.xml
+20.2.taylor.xml
+20.3.crehan.xml
+20.4.goldsmith.xml
+20.4.haigney.xml
+20.4.otto.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
