@@ -222,6 +222,16 @@
 13.2.duplantier.xml
 13.2.king.xml
 13.2.shroyer.xml
+13.3.bentley.xml
+13.4.glausser.xml
+14.1.bentley.xml
+14.1.dilworth.xml
+14.1.strickland.xml
+14.2.erdman.xml
+14.2.lange.xml
+14.2.paley.xml
+14.2.read.xml
+14.2.warner.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
