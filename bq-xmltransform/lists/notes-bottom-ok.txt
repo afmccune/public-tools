@@ -253,6 +253,17 @@
 15.4.helms.xml
 15.4.hilton.xml
 15.4.norvig.xml
+16.1.butlin.xml
+16.1.johnson.xml
+16.2.labelle.xml
+16.2.page.xml
+16.2.vogler.xml
+16.3.hilton.xml
+16.3.mellor.xml
+16.4.fine.xml
+16.4.paley.xml
+16.4.wilcox.xml
+16.4.wright.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
