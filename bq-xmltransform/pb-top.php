@@ -92,7 +92,7 @@
 						if (strpos($XMLstringTest, '<body><pb') !== false) {
 							//print '<p>'.$fn_t['file'].': Page break at top.</p>';
 						} else {
-							replaceInFile('<body>', '<body>'.$nl.'	<pb id="'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
+							replaceInFile('<body>', '<body>'.$nl.'	<pb id="p'.$volTwoDig.'-'.$prev.'" n="'.$prev.'"/>', $fn_t['fn']);
 							$prevPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $prev);
 							print '<p>';
 							print '<a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> ';
