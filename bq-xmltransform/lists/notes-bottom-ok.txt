@@ -364,6 +364,7 @@
 25.3.heppner.xml
 25.3.labelle.xml
 25.4.otto.xml
+26.1.bentley.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml

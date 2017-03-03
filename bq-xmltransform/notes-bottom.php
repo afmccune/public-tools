@@ -86,7 +86,7 @@
 						$volTwoDig = str_pad($fn_t['volNum'], 2, '0', STR_PAD_LEFT);
 					
 						if (count($fn_t['notes']) > 0 && count($fn_t['pbHidden']) < 1) {
-							replaceInFile('([	 ]{0,})</body>', '	<pb id="'.$volTwoDig.'-'.$next.'" n="'.$next.'" rend="hidden"/>'.$nl.'$1</body>', $fn_t['fn']);
+							replaceInFile('([	 ]{0,})</body>', '	<pb id="p'.$volTwoDig.'-'.$next.'" n="'.$next.'" rend="hidden"/>'.$nl.'$1</body>', $fn_t['fn']);
 							$nextPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $next);
 							print '<p>';
 							print '<a href="/bq/'.$fn_t['file'].'#'.$fn_t['lastNote'].'" target="_blank">OLD</a> ';
