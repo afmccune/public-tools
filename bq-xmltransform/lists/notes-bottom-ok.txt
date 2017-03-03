@@ -233,6 +233,14 @@
 14.2.read.xml
 14.2.warner.xml
 14.3.bentley.xml
+14.3.gebentley.xml
+14.3.hilton.xml
+14.3.murray.xml
+14.3.simpson.xml
+14.4.alexander.xml
+14.4.baine.xml
+14.4.lentricchia.xml
+14.4.paley.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
