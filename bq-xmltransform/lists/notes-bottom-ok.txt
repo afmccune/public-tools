@@ -475,6 +475,17 @@
 36.4.freed.xml
 36.4.ripley.xml
 36.4.stevenson.xml
+37.1.bentley.xml
+37.1.duff.xml
+37.1.gourlay.xml
+37.2.paice.xml
+37.2.spector.xml
+37.3.essick.xml
+37.3.gourlay.xml
+37.3.wellens.xml
+37.4.bentley.xml
+37.4.essick.xml
+37.4.rix.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
