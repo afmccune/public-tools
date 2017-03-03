@@ -398,6 +398,17 @@
 28.3.sturrock.xml
 28.3.ward.xml
 28.4.bentley.xml
+29.1.bentley.xml
+29.1.henry.xml
+29.1.viscomi.xml
+29.2.viscomi.xml
+29.3.browne.xml
+29.3.butlin.xml
+29.3.cox.xml
+29.3.davies.xml
+29.3.imaizumi.xml
+29.3.linkin.xml
+29.4.bentley.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
