@@ -365,6 +365,17 @@
 25.3.labelle.xml
 25.4.otto.xml
 26.1.bentley.xml
+26.1.sketches.xml
+26.1.srigley.xml
+26.1.wright.xml
+26.2.groves.xml
+26.2.schuchard.xml
+26.2.wittreich.xml
+26.3.dorrbecker.xml
+26.4.bentley.xml
+26.4.cromek.xml
+26.4.paley.xml
+26.4.vice.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
