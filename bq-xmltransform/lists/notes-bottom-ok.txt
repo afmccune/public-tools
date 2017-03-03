@@ -443,6 +443,14 @@
 32.3.mertz.xml
 32.3.michael.xml
 32.4.bentley.xml
+33.1.bentley.xml
+33.1.news.xml
+33.1.perkins.xml
+33.1.riehl.xml
+33.2.davies.xml
+33.2.vogler.xml
+33.3.grant.xml
+33.4.bentley.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
