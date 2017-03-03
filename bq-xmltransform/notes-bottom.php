@@ -73,6 +73,7 @@
 					$fn_t['pbHiddenFront'] = $FullXML->xpath('//front//pb/@rend'); // array
 					$fn_t['pbHiddenBack'] = $FullXML->xpath('//back//pb/@rend'); // array
 					$fn_t['notes'] = $FullXML->xpath('//note/@id'); // array (unreferenced notes have no ids, but are also rarely endnotes except in the company of notes with ids)
+					$fn_t['lastNote'] = $fn_t['notes'][(count($fn_t['notes'])-1)];
 					
 					if(count($fn_t['pbHiddenFront']) > 0) {
 						// if there are hidden pbs in <front> (instead of <body>)
@@ -88,7 +89,7 @@
 							replaceInFile('([	 ]{0,})</body>', '	<pb id="'.$volTwoDig.'-'.$next.'" n="'.$next.'" rend="hidden"/>'.$nl.'$1</body>', $fn_t['fn']);
 							$nextPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $next);
 							print '<p>';
-							print '<a href="/bq/'.$fn_t['file'].'" target="_blank">OLD</a> ';
+							print '<a href="/bq/'.$fn_t['file'].'#'.$fn_t['lastNote'].'" target="_blank">OLD</a> ';
 							print '<a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['volIss'].'/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
 							print '<a href="'.$nextPdfLink.'" target="_blank">(next page)</a> ';
 							print '<a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
