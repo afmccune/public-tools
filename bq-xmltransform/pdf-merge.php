@@ -98,7 +98,7 @@
 					}
 					
 					$input_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volIss'].'/';
-					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['volIss'].'/';
+					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/';
 					if (file_exists($output_dir)) {
 						// okay
 					} else {
