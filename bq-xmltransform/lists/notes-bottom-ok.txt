@@ -292,6 +292,15 @@
 18.4.bentley.xml
 18.4.hilton.xml
 18.4.paley.xml
+19.1.viscomi.xml
+19.2.bindman.xml
+19.2.mulhallen.xml
+19.2.sketch.xml
+19.3.bell.xml
+19.3.essick.xml
+19.4.bentley.xml
+19.4.crossan.xml
+19.4.groves.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
