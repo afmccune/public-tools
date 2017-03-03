@@ -358,6 +358,12 @@
 24.3.graver.xml
 24.3.groves.xml
 24.4.murray.xml
+25.2.essick.xml
+25.2.heppner.xml
+25.3.bonasone.xml
+25.3.heppner.xml
+25.3.labelle.xml
+25.4.otto.xml
 40.1.bentley.xml
 40.1.essick.xml
 40.1.groves.xml
