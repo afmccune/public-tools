@@ -132,6 +132,7 @@
 8.1-2.hoover.xml
 8.1-2.macmillan.xml
 8.1-2.paley.xml
+8.1-2.toc.xml
 8.1-2.tolley.xml
 8.3.bentley.xml
 8.3.duerksen.xml
