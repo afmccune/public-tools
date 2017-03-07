@@ -373,8 +373,8 @@
 							// 1.2, 1.3, and 1.4 all restart at page 1
 							$pdfRange = range(1, $pages);
 						} else if ($vol == 2 && $iss === '4b') {
-							// 2.4b begins with I-III, then 1
-							$pdfRange = array_merge(array('I','II','III'), range(1, ($pages-3)));
+							// 2.4b begins with i-iii, then 1
+							$pdfRange = array_merge(array('i','ii','iii'), range(1, ($pages-3)));
 						} else if ($vol == 3 && $iss == 2) {
 							// 3.1 ends on page 20, but 3.2 begins on page 22 (not 21)
 							$oldVolCount = $oldVolCount+1;
