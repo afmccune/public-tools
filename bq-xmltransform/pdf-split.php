@@ -34,6 +34,7 @@
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.pdf/', $fn->getFilename())) {
 					$file = $fn->getFilename();	
 					$fileShort = str_replace('.pdf','',$file);
+					$cmd .= 'echo '.$fileShort.$nl;
 					$cmd .= 'gs -sDEVICE=pdfwrite -dSAFER -o '.$output_dir.$fileShort.'.p%d.pdf '.$input_dir.$file.$nl;
 				}
 			}

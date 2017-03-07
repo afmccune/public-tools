@@ -107,6 +107,7 @@
 
 					$outputName = $output_dir.$fn_t['file'].'.pdf';
 
+					$cmd .= 'echo '.$fn_t['file'].$nl;
 					$cmd .= 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile='.$outputName.' ';
 					//Add each pdf file to the end of the command
 					foreach($fileArray as $file) {
