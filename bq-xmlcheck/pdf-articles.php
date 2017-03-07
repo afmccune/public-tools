@@ -37,7 +37,8 @@
 					$fn_t['fileSplit'] = $fileParts[2];
 					*/
 					
-					if (file_exists('../bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf')) {
+					if (file_exists('../../bq/pdfs/'.$fn_t['file'].'.pdf')) {
+					//if (file_exists('../bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf')) {
 						// fine
 					} else {
 						print '<p>Missing PDF: '.$fn_t['file'].'.pdf</p>';
