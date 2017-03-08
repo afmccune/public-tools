@@ -184,8 +184,6 @@ echo 23.3
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/23.3.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/023-03.pdf
 echo 23.4
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/23.4.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/023-04.pdf
-echo 23.4a
-gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/23.4a.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/023-04a.pdf
 echo 24.1
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/24.1.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/024-01.pdf
 echo 24.2
@@ -208,8 +206,6 @@ echo 26.2
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/26.2.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/026-02.pdf
 echo 26.3
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/26.3.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/026-03.pdf
-echo 26.3a
-gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/26.3a.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/026-03a.pdf
 echo 26.4
 gs -sDEVICE=pdfwrite -dSAFER -o /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/26.4.p%d.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large/026-04.pdf
 echo 27.1
