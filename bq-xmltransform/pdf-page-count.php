@@ -22,7 +22,7 @@
 
 	/*
 	[To refresh the following data, use the following commands in Terminal:]
-	cd Desktop/BQ
+	cd ../../../Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large
 	mdls -name kMDItemFSName -name kMDItemNumberOfPages  ./*.pdf | cut -d= -f 2 | paste - -
 	[then copy and paste the results.]
 	*/
