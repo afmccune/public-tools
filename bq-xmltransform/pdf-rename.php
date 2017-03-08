@@ -50,12 +50,14 @@
 		}
 	}
 	
+	$pdfs = array();
 		
 	$vol_pages = array();
 	
 	foreach (new DirectoryIterator('pdf-split/') as $fn) {
 		if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.p[0-9]{1,3}.pdf/', $fn->getFilename())) {
 			$pdf = $fn->getFilename();
+			$pdfs[] = $pdf;
 			$pdfParts = explode('.', $pdf);
 			$vol = $pdfParts[0];
 			$iss = $pdfParts[1];
@@ -1073,7 +1075,8 @@
 				$newPDF = '';
 				if($arr['splitPDF'] == '') {
 					$arr['splitPDF'] = '<span style="color:red;">NO PDF!</span>';
-				} else if (in_array($arr['splitPDF'], $vol_pages[$arr['vol']][$arr['iss']])) {
+				} else if (in_array($arr['splitPDF'], $pdfs)) {
+				//} else if (in_array($arr['splitPDF'], $vol_pages[$arr['vol']][$arr['iss']])) {
 					$newPDF = $arr['id'].'.pdf';
 					copyFile($arr['splitPDF'], $newPDF, $arr['vol'].'.'.$arr['iss']);
 					$newPDF = '<a href="/bq-tools/bq-xmltransform/pdf-rename/'.$arr['vol'].'.'.$arr['iss'].'/'.$newPDF.'" target="_blank">'.$newPDF.'</a>';
