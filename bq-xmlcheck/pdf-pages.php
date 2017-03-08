@@ -20,7 +20,7 @@
 	
 	/*
 	[To refresh the following data, use the following commands in Terminal:]
-	cd ../../../Applications/MAMP/htdocs/bq/pdfs
+	cd ../../../Applications/MAMP/htdocs/bq/pdfs/issues
 	mdls -name kMDItemFSName -name kMDItemNumberOfPages  ./*.pdf | cut -d= -f 2 | paste - -
 	[then copy and paste the results.]
 	*/
@@ -184,85 +184,6 @@
  "44.2.pdf"	 32
  "44.3.pdf"	 32
  "44.4.pdf"	 32
- "45.1.bentley.pdf"	 33
- "45.1.rowland.pdf"	 2
- "45.1.simpson.pdf"	 2
- "45.2.essick.pdf"	 5
- "45.2.gourlay.pdf"	 2
- "45.2.michael.pdf"	 7
- "45.2.paley.pdf"	 16
- "45.3.connolly.pdf"	 2
- "45.3.freeman.pdf"	 2
- "45.3.gourlay.pdf"	 3
- "45.3.hilton.pdf"	 3
- "45.3.hobson.pdf"	 3
- "45.3.rothenberg.pdf"	 3
- "45.3.silverstein.pdf"	 1
- "45.3.whitehead.pdf"	 15
- "45.4.essick.pdf"	 36
- "45.4.miner.pdf"	 1
- "45.4.online.pdf"	 1
- "45.4.whitehead.pdf"	 2
- "46.1.bentley.pdf"	 43
- "46.1.borkowska.pdf"	 8
- "46.1.gourlay.pdf"	 3
- "46.1.scott.pdf"	 3
- "46.2.bentley.pdf"	 2
- "46.2.gourlay.pdf"	 3
- "46.2.shiff.pdf"	 28
- "46.2.yoder.pdf"	 3
- "46.3.crosby.pdf"	 3
- "46.3.eron.pdf"	 13
- "46.3.read.pdf"	 2
- "46.3.ullrich.pdf"	 9
- "46.3.wittreich.pdf"	 2
- "46.4.bentley.pdf"	 10
- "46.4.essick.pdf"	 48
- "46.4.luczynska.pdf"	 14
- "46.4.whitehead.pdf"	 2
- "47.1.bentley.pdf"	 68
- "47.1.fosso.pdf"	 4
- "47.1.freedman.pdf"	 2
- "47.1.mertz.pdf"	 3
- "47.1.serdechnaya.pdf"	 5
- "47.1.serdechnayasongs.pdf"	 2
- "47.2.butlin.pdf"	 2
- "47.2.ferreira.pdf"	 4
- "47.2.freedman.pdf"	 13
- "47.2.mertz.pdf"	 3
- "47.2.roberts.pdf"	 23
- "47.2.yoder.pdf"	 3
- "47.3.crosby.pdf"	 8
- "47.3.graver.pdf"	 2
- "47.3.lussier.pdf"	 2
- "47.3.ripley.pdf"	 3
- "47.3.shiff.pdf"	 24
- "47.4.connolly.pdf"	 3
- "47.4.essick.pdf"	 40
- "47.4.johnson.pdf"	 5
- "47.4.miner.pdf"	 3
- "47.4.scott.pdf"	 4
- "48.1.checklist.pdf"	 36
- "48.1.inscriptions.pdf"	 34
- "48.2.bentley.pdf"	 1
- "48.2.borkowska.pdf"	 12
- "48.2.erle.pdf"	 3
- "48.2.paley.pdf"	 6
- "48.2.rosso.pdf"	 4
- "48.3.bentley.pdf"	 4
- "48.3.erle.pdf"	 5
- "48.3.lindberg.pdf"	 3
- "48.3.moyer.pdf"	 14
- "48.3.paley.pdf"	 4
- "48.4.essick.pdf"	 35
- "48.4.mertz.pdf"	 2
- "48.4.miner.pdf"	 9
- "48.4.wittreich.pdf"	 7
- "49.1.bentley.pdf"	 39
- "49.1.gourlay.pdf"	 4
- "49.1.knowles.pdf"	 7
- "49.1.newman.pdf"	 3
- "49.1.rovira.pdf"	 3
  "5.1-2.pdf"	 160
  "5.3.pdf"	 60
  "5.4.pdf"	 40
