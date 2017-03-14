@@ -8,6 +8,8 @@ $nl = "
 
 $replace = array();
 $replace['[\n\r]{1,}'] = $nl;
+//$replace['[ ]{2,}[\n\r]{1,}'] = $nl;
+//$replace['[	\n\r]{0,}[\n\r]{1,}'] = $nl;
 
 ?>
 	<body>
