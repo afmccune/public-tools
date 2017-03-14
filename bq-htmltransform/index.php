@@ -60,6 +60,9 @@ function copyImg ($oldSrc, $newSrc, $volIss) {
 									// fix weird cover image code glitch
 									$HTMLstring = preg_replace('/<img src="([\.\/0-9a-zA-Z_]{1,})" \<\="" div\=""\>/', '<img src="$1" />', $HTMLstring);
 									
+									// standardize line breaks
+									$HTMLstring = preg_replace('/[\n\r]{1,}/', $nl, $HTMLstring);
+									
 									$FullHTMLmiddle = str_get_html($HTMLstring);
 								
 									$srcs = getHtmlElementArray($FullHTMLmiddle, 'img', 'src');
