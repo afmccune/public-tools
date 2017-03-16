@@ -2867,7 +2867,7 @@ gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=/Applications/MAMP/htdocs
 echo 38.3.shaddock
 gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/38.3.shaddock.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.119.pdf 
 echo 38.3.toc
-gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/38.3.toc.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.089.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.090.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.091.pdf 
+gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/38.3.toc.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.089.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.090.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.091.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.119.pdf 
 echo 38.3.wittreich
 gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/38.3.wittreich.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.107.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.108.pdf /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/38.3/38.3.109.pdf 
 echo 38.4.erle
