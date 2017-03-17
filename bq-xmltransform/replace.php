@@ -7,9 +7,10 @@ $nl = "
 ";
 
 $replace = array();
-$replace['(<pb id=")([0-9]{1,2}-[0-9]{1,3}")'] = '$1p$2';
-//$replace['[ 	]{0,}<div1[- a-zA-Z0-9="/]{0,}>[\r\n 	]{0,}</div1>'] = '';
-//$replace['[\r\n]{1,}[ 	]{0,}[\r\n]{1,}'] = $nl;
+$replace['([\r\n])[ 	]{0,}<idno>([0-9a-zA-Z\.]{1,})</idno>([\r\n]{0,})([ 	]{0,})<fileDesc>'] = '$1$4<idno>$2</idno>$3$4<fileDesc>';
+$replace['([\r\n])([ 	]{0,})<title>([ a-zA-Z/]{1,})</title>([\r\n]{0,})[ 	]{0,}<biblScope'] = '$1$2<title>$3</title>$4$2<biblScope';
+$replace['([\r\n])([ 	]{0,})<biblScope unit="volIss">([0-9\.]{1,})</biblScope>([\r\n]{0,})[ 	]{0,}<biblScope'] = '$1$2<biblScope unit="volIss">$3</biblScope>$4$2<biblScope';
+$replace['([\r\n])([ 	]{0,})<biblScope unit="volume">([0-9\.]{1,})</biblScope>([\r\n]{0,})[ 	]{0,}<biblScope'] = '$1$2<biblScope unit="volume">$3</biblScope>$4$2<biblScope';
 
 ?>
 	<body>
