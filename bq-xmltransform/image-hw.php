@@ -12,6 +12,38 @@ $base_url_local = 'http://localhost:8888/bq/';
 require('include/functions.php');
 require('include/head.php');
 
+function isImage($url) {
+	 $params = array('http' => array(
+				  'method' => 'HEAD'
+			   ));
+	 $ctx = stream_context_create($params);
+	 $fp = @fopen($url, 'rb', false, $ctx);
+	 if (!$fp) 
+		return false;  // Problem with url
+
+	$meta = stream_get_meta_data($fp);
+	if ($meta === false)
+	{
+		fclose($fp);
+		return false;  // Problem reading data from url
+	}
+
+	$wrapper_data = $meta["wrapper_data"];
+	if(is_array($wrapper_data)){
+	  foreach(array_keys($wrapper_data) as $hh){
+		  if (substr($wrapper_data[$hh], 0, 19) == "Content-Type: image") // strlen("Content-Type: image") == 19 
+		  {
+			fclose($fp);
+			return true;
+		  }
+	  }
+	}
+
+	fclose($fp);
+	return false;
+  }
+
+// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
 function url_exists($url){
 	$url = str_replace("http://", "", $url);
 	if (strstr($url, "/")) {
@@ -54,7 +86,7 @@ function newWH($src, $rend, $w, $h, $isCover) {
 		$fullSrc = '';
 		
 		if($rend=='db') {
-			$fullSrc = 'http://www.blakearchive.org/blake/images/'.$src.'.300.jpg';
+			$fullSrc = 'http://www.blakearchive.org/images/'.$src.'.300.jpg';
 		} else if (strpos($src, 'bqscan') !== false) {
 			$fullSrc = '../../bq/img/illustrations/'.$src.'.png';
 		} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
@@ -109,6 +141,7 @@ $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-co
 $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="" height=""$4>';
 $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height=""$5>';
 $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height="$5"$6>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" type="" width="$5" height="$6"$7>';
 $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="" id="" rend="" type="$1" width="" height=""$2>';
 
 ?>
