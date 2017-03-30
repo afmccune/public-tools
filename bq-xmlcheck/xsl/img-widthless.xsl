@@ -80,7 +80,7 @@
 					<xsl:choose>
 						<xsl:when test="@n = ''"/>
 						<xsl:when test="@rend = 'db'">
-							<xsl:variable name="src">http://www.blakearchive.org/blake/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
+							<xsl:variable name="src">http://www.blakearchive.org/images/<xsl:value-of select="./@n"/>.300.jpg</xsl:variable>
 							<a>
 								<xsl:attribute name="class">image-expand</xsl:attribute>
 								<xsl:attribute name="href">

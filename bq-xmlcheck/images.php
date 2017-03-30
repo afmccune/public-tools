@@ -123,7 +123,7 @@
 							}
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
-							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBase;
+							$srcWBA = 'http://www.blakearchive.org/images/'.$srcBase;
 							if(file_exists($srcFull)) {
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
 							} else if(isImage($srcWBA)) {
