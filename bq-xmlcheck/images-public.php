@@ -18,6 +18,38 @@
 	require('include/functions.php');
 	require('include/head.php');
 	
+	function isImage($url) {
+		 $params = array('http' => array(
+					  'method' => 'HEAD'
+				   ));
+		 $ctx = stream_context_create($params);
+		 $fp = @fopen($url, 'rb', false, $ctx);
+		 if (!$fp) 
+			return false;  // Problem with url
+
+		$meta = stream_get_meta_data($fp);
+		if ($meta === false)
+		{
+			fclose($fp);
+			return false;  // Problem reading data from url
+		}
+
+		$wrapper_data = $meta["wrapper_data"];
+		if(is_array($wrapper_data)){
+		  foreach(array_keys($wrapper_data) as $hh){
+			  if (substr($wrapper_data[$hh], 0, 19) == "Content-Type: image") // strlen("Content-Type: image") == 19 
+			  {
+				fclose($fp);
+				return true;
+			  }
+		  }
+		}
+
+		fclose($fp);
+		return false;
+	  }
+	
+	// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
 	function url_exists($url){
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -106,7 +138,7 @@
 								$srcPublic = 'http://bq.blakearchive.org/'.$src;
 								if(file_exists($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
-								} else if(url_exists($srcPublic)) {
+								} else if(isImage($srcPublic)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcPublic.'">'.$srcPublic.'</a></p>';
 								} else {
 									$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a>';
@@ -115,7 +147,7 @@
 								}
 							} else {
 								$srcFull = $src;
-								if(url_exists($srcFull)) {
+								if(isImage($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcFull.'">'.$srcFull.'</a></p>';
 								} else {
 									$fn_t['errors'][] = 'Missing image: <a href="'.$srcFull.'">'.$srcFull.'</a>';

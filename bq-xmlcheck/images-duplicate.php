@@ -10,24 +10,6 @@
 	require('include/functions.php');
 	require('include/head.php');
 	
-	function url_exists($url){
-        $url = str_replace("http://", "", $url);
-        if (strstr($url, "/")) {
-            $url = explode("/", $url, 2);
-            $url[1] = "/".$url[1];
-        } else {
-            $url = array($url, "/");
-        }
-
-        $fh = fsockopen($url[0], 80);
-        if ($fh) {
-            fputs($fh,"GET ".$url[1]." HTTP/1.1\nHost:".$url[0]."\n\n");
-            if (fread($fh, 22) == "HTTP/1.1 404 Not Found") { return FALSE; }
-            else { return TRUE;    }
-
-        } else { return FALSE;}
-    }
-    
     function countcmp(array $a, array $b) {
 					return strcmp($b['fileCount'], $a['fileCount']);
 			}
