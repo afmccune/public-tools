@@ -187,6 +187,8 @@ $nl = "
 								$fn_t['fulltext'] = str_replace('>', '', $fn_t['fulltext']);
 								$fn_t['fulltext'] = str_replace('&', 'and', $fn_t['fulltext']);
 								//$fn_t['fulltext'] = preg_replace('/[\r\n]{2,}/', $nl, $fn_t['fulltext']);
+								$fn_t['fulltext'] = preg_replace('/[ 	]{2,}/', $nl, $fn_t['fulltext']);
+								$fn_t['fulltext'] = wordwrap($fn_t['fulltext'], 110, $nl);
 								
 								//print('<pre>');
 								//print_r($fn_t);
