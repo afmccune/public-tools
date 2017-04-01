@@ -132,17 +132,18 @@ function resize_dimensions($goal_width,$goal_height,$width,$height) {
 }
 
 $replace = array();
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height=""$3>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height=""$4>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="" height="$3"$4>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="" width="$3" height="$4"$5>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height=""$4>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" rend="$2" type="reviewed-cover" width="$3" height="$4"$5>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="" height=""$4>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height=""$5>';
-$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" rend="$3" type="" width="$4" height="$5"$6>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="" width="" height=""$3>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="" width="$3" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="" width="" height="$3"$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="" width="$3" height="$4"$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="reviewed-cover" width="$3" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" rend="(file|db)" type="reviewed-cover" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="" work-copy="" rend="$2" type="reviewed-cover" width="$3" height="$4"$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="" rend="$3" type="" width="" height=""$4>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="" rend="$3" type="" width="$4" height=""$5>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="" rend="$3" type="" width="$4" height="$5"$6>';
 $replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)" width="([0-9]{1,})" height="([0-9]{1,})"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" type="" width="$5" height="$6"$7>';
-$replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="" id="" rend="" type="$1" width="" height=""$2>';
+$replace['<figure n="([a-zA-Z0-9-_\.\+]{1,})" id="([a-zA-Z0-9-_\.]{1,})" work-copy="([a-zA-Z0-9-_\.]{1,})" rend="(file|db)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="$1" id="$2" work-copy="$3" rend="$4" type="" width="" height=""$5>';
+$replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n="" id="" work-copy="" rend="" type="$1" width="" height=""$2>';
 
 ?>
 	<body>
@@ -180,6 +181,7 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 					$fn_t['height'] = $FullXML->xpath('//text//figure/@height'); // array
 					$fn_t['id'] = $FullXML->xpath('//text//figure/@id'); // array
 					$fn_t['type'] = $FullXML->xpath('//text//figure/@type'); // array
+					$fn_t['workCopy'] = $FullXML->xpath('//text//figure/@work-copy'); // array
 
 					$fn_t['cover'] = $FullXML->xpath('//text//div1[@id="cover"]'); // array
 					//$fn_t['coverSrc'] = $FullXML->xpath('//text//div1[@id="cover"]//figure/@n'); // array
@@ -202,8 +204,8 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 								$newWidth = $wh['width'];
 								$newHeight = $wh['height'];
 
-								$escCode = ' n="'.preg_quote($fn_t['src'][$i]).'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
-								$code = ' n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
+								$escCode = ' n="'.preg_quote($fn_t['src'][$i]).'" id="'.$fn_t['id'][$i].'" work-copy="'.$fn_t['workCopy'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
+								$code = ' n="'.$fn_t['src'][$i].'" id="'.$fn_t['id'][$i].'" work-copy="'.$fn_t['workCopy'][$i].'" rend="'.$fn_t['rend'][$i].'" type="'.$fn_t['type'][$i].'"';
 								$oldWidthCode = ' width="'.$fn_t['width'][$i].'"';
 								$oldHeightCode = ' height="'.$fn_t['height'][$i].'"';
 
@@ -221,6 +223,7 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 					$XMLstringNew = str_replace(' height=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' id=""', '', $XMLstringNew);
 					$XMLstringNew = str_replace(' type=""', '', $XMLstringNew);
+					$XMLstringNew = str_replace(' work-copy=""', '', $XMLstringNew);
 										
 					$FullXML2 = simplexml_load_string($XMLstringNew);
 					$fn_t['src2'] = $FullXML2->xpath('//text//figure/@n'); // array
