@@ -45,6 +45,46 @@ div#cover img {
 	require('include/functions.php');
 	require('include/head.php');
 	
+	function intval_cmp($a, $b)
+	{
+		if (intval($a) == intval($b)) {
+			return 0;
+		}
+		return (intval($a) < intval($b)) ? -1 : 1;
+	}
+	
+	function range_string_nonarabic($csv) {
+		if(preg_match('/[a-zA-Z]/',$csv)) {
+			$csv = str_replace('37,37b,37c', '37_37b-37c', $csv);
+			$one_list = explode(',', $csv);
+			$alpha = array();
+			$num = array();
+			foreach($one_list as $p) {
+				if(preg_match('/[a-zA-Z]/',$p)) {
+					$alpha[] = $p;
+				} else {
+					$num[] = $p;
+				}
+			}
+			$alpha_range = implode(',', $alpha);
+			$alpha_range = str_replace('i,ii,iii', 'i-iii', $alpha_range);
+			$alpha_range = str_replace('i,ii', 'i-ii', $alpha_range);
+			//$num_range = (count($num) > 0) ? str_replace(' ', '', range_string(implode(',',$num))) : '';
+			$num_range = (count($num) > 0) ? range_string(implode(',',$num)) : '';
+			$num_range = str_replace(' ', '', $num_range);
+			$one_range = ($num_range == '') ? $alpha_range : $alpha_range.','.$num_range;
+			$one_list_new = explode(',', $one_range);
+			usort($one_list_new, intval_cmp);
+		
+			$range_string = implode(', ', $one_list_new);
+			$range_string = str_replace('37_37b-37c', '37, 37b-37c', $range_string);
+			
+			return $range_string;
+		} else {
+			return range_string($csv);
+		}
+	}
+	
 	function range_string($csv)
 	{
 		// split string using the , character
@@ -72,7 +112,7 @@ div#cover img {
 		if ($range) {
 		  $range_string .= "-$previous_number";
 		}
-
+			
 		return $range_string;
 	}
 	
@@ -138,7 +178,7 @@ div#cover img {
 					$fn_t['author'] = htmlentities( $fn_t['author'], ENT_QUOTES, "UTF-8" ); 
 					$XMLpbs = $FullXML->xpath('//pb/@n'); // array
 					$fn_t['pb'] = implode(',', $XMLpbs);
-					$fn_t['pageRange'] = range_string($fn_t['pb']);
+					$fn_t['pageRange'] = range_string_nonarabic($fn_t['pb']);
 					$fn_t['pAbbr'] = (count($XMLpbs) > 1) ? 'pp.' : 'p.';
 					$fn_t['cover'] = issueCover($fn_t['volIss']).'.thumb.png';
 					
