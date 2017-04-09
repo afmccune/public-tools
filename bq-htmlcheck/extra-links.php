@@ -48,9 +48,9 @@ function linkCmp(array $a, array $b) {
 										if(preg_match('/http:\/\/blake.lib.rochester.edu\/blakeojs\/public\/journals\/2\/BonusFeatures\//i', $link)) {
 											$shortlink = str_replace('http://blake.lib.rochester.edu/blakeojs/public/journals/2/BonusFeatures/', '', $link);
 											//echo '<p>'.$fn_t['file'].': <a href="'.$link.'">'.$shortlink.'</a></p>';
-											$source = 'http://blake.lib.rochester.edu.libproxy.lib.unc.edu/blakeojs/public/journals/2/BonusFeatures/'.$shortlink;
+											//$source = 'http://blake.lib.rochester.edu.libproxy.lib.unc.edu/blakeojs/public/journals/2/BonusFeatures/'.$shortlink;
 											echo '<p>';
-											echo '<a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$source.'">'.$shortlink.'</a> ';
+											echo '<a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$link.'" target="_blank">'.$shortlink.'</a> ';
 											
 											/*
 											// Check if images are there
