@@ -33,7 +33,7 @@
 					$pdfs[$volIss] = array();
 					
 					foreach (new DirectoryIterator("pdf-rename/".$volIss."/") as $fn) {
-						if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-0-9]{3,7}.pdf/', $fn->getFilename())) {
+						if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{3,7}.pdf/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
 					
@@ -79,6 +79,11 @@
 						if (strpos($p, '-') === false) {
 							$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 							$fileArray[] = $id.'.pdf';
+							if(in_array($pThreeDig.'', $pdfs[$fn_t['volIss']], TRUE)) {
+								//fine
+							} else {
+								print '<p style="color:red;">'.$fn_t['volIss'].': No PDF for '.$p.'</p>';
+							}
 						} else if (in_array($pThreeDig.'', $pdfs[$fn_t['volIss']], TRUE)) {
 							$id = $volTwoDig.'.'.$fn_t['issueNum'].'.'.$pThreeDig;
 							$fileArray[] = $id.'.pdf';
@@ -96,9 +101,16 @@
 							}
 						}
 					}
+
+					$base_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/';
 					
-					$input_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$fn_t['volIss'].'/';
-					$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-merge/';
+					$titlePage = $base_dir.'pdf-title-pdf/'.$fn_t['file'].'.title.pdf';
+					if(!file_exists($titlePage)) {
+						print '<p style="color:red;">'.$fn_t['volIss'].': No PDF for '.$fn_t['file'].' title page</p>';;
+					}
+					
+					$input_dir = $base_dir.'pdf-rename/'.$fn_t['volIss'].'/';
+					$output_dir = $base_dir.'pdf-merge/';
 					if (file_exists($output_dir)) {
 						// okay
 					} else {
@@ -109,6 +121,8 @@
 
 					$cmd .= 'echo '.$fn_t['file'].$nl;
 					$cmd .= 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile='.$outputName.' ';
+					//Add pdf title page to the end of the command
+					$cmd .= $titlePage.' ';
 					//Add each pdf file to the end of the command
 					foreach($fileArray as $file) {
 						$cmd .= $input_dir.$file.' ';
