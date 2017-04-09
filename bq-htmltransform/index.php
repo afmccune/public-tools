@@ -63,6 +63,9 @@ function copyImg ($oldSrc, $newSrc, $volIss) {
 									// standardize line breaks
 									$HTMLstring = preg_replace('/[\n\r]{1,}/', $nl, $HTMLstring);
 									
+									// remove UNC proxy from URLs
+									$HTMLstring = str_replace('http://blake.lib.rochester.edu.libproxy.lib.unc.edu', 'http://blake.lib.rochester.edu', $HTMLstring);
+									
 									$FullHTMLmiddle = str_get_html($HTMLstring);
 								
 									$srcs = getHtmlElementArray($FullHTMLmiddle, 'img', 'src');

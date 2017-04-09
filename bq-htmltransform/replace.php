@@ -7,7 +7,7 @@ $nl = "
 ";
 
 $replace = array();
-$replace['[\n\r]{1,}'] = $nl;
+$replace['http://blake.lib.rochester.edu.libproxy.lib.unc.edu'] = 'http://blake.lib.rochester.edu';
 //$replace['[ ]{2,}[\n\r]{1,}'] = $nl;
 //$replace['[	\n\r]{0,}[\n\r]{1,}'] = $nl;
 
