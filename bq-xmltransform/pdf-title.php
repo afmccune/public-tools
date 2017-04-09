@@ -54,7 +54,7 @@ div#cover img {
 	}
 	
 	function range_string_nonarabic($csv) {
-		if(preg_match('/[a-zA-Z]/',$csv)) {
+		if(preg_match('/[-a-zA-Z]/',$csv)) {
 			$csv = str_replace('37,37b,37c', '37_37b-37c', $csv);
 			$one_list = explode(',', $csv);
 			$alpha = array();
@@ -62,17 +62,22 @@ div#cover img {
 			foreach($one_list as $p) {
 				if(preg_match('/[a-zA-Z]/',$p)) {
 					$alpha[] = $p;
-				} else {
+				} else if(strpos($p, '-') === false) {
 					$num[] = $p;
+				} else {
+					$pbMinMax = explode('-', $p);
+					$range = range($pbMinMax[0], $pbMinMax[1]);
+					foreach($range as $rp) {
+						$num[] = $rp;
+					}
 				}
 			}
-			$alpha_range = implode(',', $alpha);
+			$alpha_range = (count($alpha) > 0) ? implode(',', $alpha) : '';
 			$alpha_range = str_replace('i,ii,iii', 'i-iii', $alpha_range);
 			$alpha_range = str_replace('i,ii', 'i-ii', $alpha_range);
-			//$num_range = (count($num) > 0) ? str_replace(' ', '', range_string(implode(',',$num))) : '';
 			$num_range = (count($num) > 0) ? range_string(implode(',',$num)) : '';
 			$num_range = str_replace(' ', '', $num_range);
-			$one_range = ($num_range == '') ? $alpha_range : $alpha_range.','.$num_range;
+			$one_range = ($num_range == '' || $alpha_range == '') ? $alpha_range.$num_range : $alpha_range.','.$num_range;
 			$one_list_new = explode(',', $one_range);
 			usort($one_list_new, intval_cmp);
 		
