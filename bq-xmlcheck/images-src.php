@@ -136,7 +136,7 @@
 								$srcFull = $base_path.$src;
 								$srcLocalLink = $base_url_local.$src;
 								if(file_exists($srcFull)) {
-									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
+									echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
 								} else {
 									$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a>';
 									$numMissing = $numMissing + 1;
@@ -145,7 +145,7 @@
 							} else {
 								$srcFull = $src;
 								if(isImage($srcFull)) {
-									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcFull.'">'.$srcFull.'</a></p>';
+									echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcFull.'">'.$srcFull.'</a></p>';
 								} else {
 									$fn_t['errors'][] = 'Missing image: <a href="'.$srcFull.'">'.$srcFull.'</a>';
 									$numMissing = $numMissing + 1;

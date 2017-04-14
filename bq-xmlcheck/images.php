@@ -21,12 +21,13 @@
 	require('include/head.php');
 	
 	function isImage($url) {
-		 $params = array('http' => array(
+		$params = array('http' => array(
 					  'method' => 'HEAD'
 				   ));
-		 $ctx = stream_context_create($params);
-		 $fp = @fopen($url, 'rb', false, $ctx);
-		 if (!$fp) 
+		$ctx = stream_context_create($params);
+		/* Note: on public server, fopen fails for external URLs */
+		$fp = @fopen($url, 'rb', false, $ctx);
+		if (!$fp) 
 			return false;  // Problem with url
 
 		$meta = stream_get_meta_data($fp);
