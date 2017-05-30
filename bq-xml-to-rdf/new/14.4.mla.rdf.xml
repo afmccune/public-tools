@@ -10,6 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.4.mla"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.4.mla"/>
 		<dc:title>“Blake and the Eighteenth Century” at the 1980 MLA</dc:title>
+		<role:AUT>Nelson Hilton</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.04.bqscan.thumb.png"/>
 		<dc:date>

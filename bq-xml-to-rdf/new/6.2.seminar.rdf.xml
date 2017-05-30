@@ -10,6 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/6.2.seminar"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/6.2.seminar"/>
 		<dc:title>MLA Blake Seminar, December 1972</dc:title>
+		<role:AUT>Joseph A. Wittreich, Jr.</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.006.02.bqscan.thumb.png"/>
 		<dc:date>

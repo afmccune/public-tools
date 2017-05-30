@@ -10,7 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/8.1-2.carey"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/8.1-2.carey"/>
 		<dc:title>James Smetham (1821-1889) and Gilchrist’s Life of Blake</dc:title>
-		<role:AUT>Frances A. Carey</role:AUT>
+		<role:AUT>Frances Carey</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.008.01-2.bqscan.thumb.png"/>
 		<dc:date>

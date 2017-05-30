@@ -11,7 +11,6 @@
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/2.1.rosenfeld"/>
 		<dc:title>A Yiddish Poem on Blake</dc:title>
 		<role:AUT>Alvin Rosenfeld</role:AUT>
-		<role:AUT>Reuben Iceland</role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.002.01.bqscan.thumb.png"/>
 		<dc:date>

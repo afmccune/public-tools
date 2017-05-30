@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/18.2.index">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/18.2.index"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/18.2.index"/>
-		<dc:title>Blake/An Illustrated Quarterly Index to Volume 16</dc:title>
+		<dc:title>Index to Volume 16</dc:title>
 		<role:AUT>Thomas L. Minnick</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.018.02.bqscan.thumb.png"/>

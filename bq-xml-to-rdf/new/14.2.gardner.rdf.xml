@@ -10,6 +10,7 @@
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/14.2.gardner"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/14.2.gardner"/>
 		<dc:title>Gardner on the Songs</dc:title>
+		<role:AUT>Janet Warner</role:AUT>
 		<collex:genre>Nonfiction</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.014.02.bqscan.thumb.png"/>
 		<dc:date>

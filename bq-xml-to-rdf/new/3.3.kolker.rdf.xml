@@ -9,7 +9,7 @@
 	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/3.3.kolker">
 		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/3.3.kolker"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/3.3.kolker"/>
-		<dc:title>Index to Volume II</dc:title>
+		<dc:title>Index to Volume 2</dc:title>
 		<role:AUT>Robert Phillip Kolker</role:AUT>
 		<collex:genre>Bibliography</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/cover.003.03.bqscan.thumb.png"/>
