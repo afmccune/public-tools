@@ -27,6 +27,8 @@
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.3.rothenberg"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.3.freeman"/>
 		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.3.silverstein"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.3.board"/>
+		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/45.3.moscow"/>
 		<dc:type>Periodical</dc:type>
 		<dc:source>Blake/An Illustrated Quarterly</dc:source>
 		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>
