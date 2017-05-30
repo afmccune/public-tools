@@ -10,7 +10,7 @@
 		<collex:source_html rdf:resource="http://bq.blakearchive.org/docs/47.3.lussier"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/47.3.lussier"/>
 		<dc:title>Claire Colebrook,  Blake, Deleuzian Aesthetics, and the Digital </dc:title>
-		<role:AUT>Mark Lussier</role:AUT>
+		<role:AUT>Mark S. Lussier</role:AUT>
 		<collex:genre>Review</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/47.3/cover_issue_50_en_US.jpg"/>
 		<dc:date>
