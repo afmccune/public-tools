@@ -10,7 +10,6 @@
 		<collex:source_html rdf:resource="http://bq.blakearchive.org/docs/45.3.board"/>
 		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/45.3.board"/>
 		<dc:title>New Members of Blake’s Advisory Board</dc:title>
-		<role:AUT></role:AUT>
 		<collex:genre>Criticism</collex:genre>
 		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/45.3/cover_issue_42_en_US.jpg"/>
 		<dc:date>
