@@ -3,6 +3,8 @@
 	<?php
 	$pt = '';
 	
+	require('../../include.php');
+
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -10,7 +12,7 @@
 		$nl = '
 ';
 
-		$XMLstring = file_get_contents('../../bq/docs/'.$file);
+		$XMLstring = file_get_contents($dir.$file);
 		$XMLstringNew = $XMLstring;
 		
 		for($i=0; $i<count($figTranscrArr); $i++) {
@@ -72,7 +74,7 @@
 			$transcrCountsForImg = array();
 			$transcrFixesForFile = array();
 			
-			foreach (new DirectoryIterator('../../bq/docs/') as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -80,7 +82,7 @@
 					$fileParts = explode('.', $fn_t['fn']);
 					$fn_t['file'] = implode('.', array($fileParts[0], $fileParts[1], $fileParts[2]));
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['src'] = $FullXML->xpath('//text//figure/@n'); // array
 					
 					//$fn_t['errors'] = array();
@@ -125,7 +127,7 @@
 			// associative array for each duplicate image: article = figTranscr count [IF it has the image at all]
 			
 			foreach($dupImagesInFile as $file => $images) {
-				$FullXML = simplexml_load_file('../../bq/docs/'.$file); 
+				$FullXML = simplexml_load_file($dir.$file); 
 				
 				foreach($images as $img) {
 					$figTranscrArr = $FullXML->xpath('//text//figure[@n="'.$img.'"]/figTranscr'); // array

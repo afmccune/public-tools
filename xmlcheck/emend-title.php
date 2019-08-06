@@ -3,6 +3,7 @@
 	<?php
 	$pt = '';
 	
+	require('../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -26,7 +27,7 @@
 			/*
 			$docs = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -34,7 +35,7 @@
 					$fileParts = explode('.', $fn_t['fn']);
 					$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 					
-					$fn_t['xml'] = simplexml_load_file('../../bq/docs/'.$fn_t['fn']);
+					$fn_t['xml'] = simplexml_load_file($dir.$fn_t['fn']);
 					$fn_t['corrs'] = $fn_t['xml']->xpath('//text//corr[@type="emend"]'); // array
 					$fn_t['supplieds'] = $fn_t['xml']->xpath('//text//supplied[@type="emend"]'); // array
 					$fn_t['gaps'] = $fn_t['xml']->xpath('//text//gap[@type="emend"]'); // array
@@ -47,7 +48,7 @@
 			}
 			*/
 			
-			$emendString = file_get_contents('../../bq/docs/Emend.xml');
+			$emendString = file_get_contents($dir.'Emend.xml');
 			$emendString = preg_replace('/<[\/]?hi[ rend="abcilmpsu]{0,17}>/', '', $emendString);
 			$emendXML = simplexml_load_string($emendString);
 			$emendNoteSubheadings = $emendXML->xpath('//p/ref[1][@target]'); // array
@@ -95,7 +96,7 @@
 
 			for($i=0; $i<count($emendNoteDocsStr); $i++) {
 				if(($emendNoteDocsStr[$i] < '45.1' || $emendNoteDocsStr[$i] > '49.1') && !preg_match('/bonus/', $emendNoteDocsStr[$i])) {
-					$FullXML = simplexml_load_file('../../bq/docs/'.$emendNoteDocsStr[$i].'.xml'); 
+					$FullXML = simplexml_load_file($dir.$emendNoteDocsStr[$i].'.xml'); 
 					$XMLtitle = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title');
 					$emendNoteTitles[$i] = $XMLtitle[0];
 				} else {

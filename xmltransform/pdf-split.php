@@ -5,6 +5,7 @@
 	$nl = '
 ';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -25,12 +26,12 @@
 			
 			$fileArray = array();
 			
-			$input_dir = '/Applications/MAMP/htdocs/bq/pdfs/issues/';
-			$output_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-split/';
+			$input_dir = '/Applications/MAMP/htdocs/'.$pdfIssuesDirShort;
+			$output_dir = '/Applications/MAMP/htdocs/public-tools/xmltransform/pdf-split/';
 
 			$cmd = '#!/bin/bash'.$nl.$nl;
 			
-			foreach (new DirectoryIterator('../../bq/pdfs/issues/') as $fn) {
+			foreach (new DirectoryIterator($pdfIssuesDir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.pdf/', $fn->getFilename())) {
 					$file = $fn->getFilename();	
 					$fileShort = str_replace('.pdf','',$file);
@@ -44,10 +45,10 @@
 			echo '<h4>Refreshed split.sh</h4>';
 			
 			// Set permissions for bash file
-			$result = shell_exec('cd /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash'.$nl.'chmod 775 split.sh');
+			$result = shell_exec('cd /Applications/MAMP/htdocs/public-tools/xmltransform/bash'.$nl.'chmod 775 split.sh');
 			
 			// Instructions to run bash file from Terminal (since we can't seem to get it to run from PHP)
-			echo '<h4>To run the split, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash/split.sh</h4>';
+			echo '<h4>To run the split, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/public-tools/xmltransform/bash/split.sh</h4>';
 			
 			?>
 			

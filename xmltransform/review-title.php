@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -15,7 +16,6 @@ $closeTagEsc = '<\/title>';
 $closeTag = '</title>';
 
 $replace = array();
-$replace['Blake’s'] = 'ADAMFORRESTMCCUNE';
 $replace[$openTag.'('.$author.$sp.'and'.$sp.$author.'),'.$sp.'eds\.'.$sp.'('.$title.')'.$closeTagEsc] = $openTag.'$1, eds., $2'.$closeTag; // add comma
 //$replace[$openTag.'('.$author.$sp.'and'.$sp.$author.'),'.$sp.'eds\.,'.$sp.'('.$title.')'.$closeTagEsc] = $openTag.'$1, eds., $2'.$closeTag; // fine
 //$replace[$openTag.'('.$author.$sp.'and'.$sp.'and '.$author.'), ('.$title.')'.$closeTagEsc] = $openTag.'$1, $2'.$closeTag; // fine
@@ -33,7 +33,6 @@ $replace[$openTag.'('.$title.')'.$sp.'by'.$sp.'('.$author.')'.$sp.'and'.$sp.'('.
 $replace[$openTag.'('.$title.'),'.$sp.'by'.$sp.'('.$author.')'.$closeTagEsc] = $openTag.'$2, $1'.$closeTag; // , by => ,
 $replace[$openTag.'('.$title.')'.$sp.'by'.$sp.'('.$author.')'.$closeTagEsc] = $openTag.'$2, $1'.$closeTag; // by => ,
 $replace[$openTag.'('.$authorNoPeriod.')\.'.$sp.'('.$title.')'.$closeTagEsc] = $openTag.'$1, $2'.$closeTag; // . => ,
-$replace['ADAMFORRESTMCCUNE'] = 'Blake’s';
 
 
 ?>
@@ -53,7 +52,7 @@ $replace['ADAMFORRESTMCCUNE'] = 'Blake’s';
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -66,7 +65,7 @@ $replace['ADAMFORRESTMCCUNE'] = 'Blake’s';
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							//$fn_t['fileSplit'] = $fileParts[2];
 
-							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($dir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {

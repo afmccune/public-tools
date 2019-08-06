@@ -3,9 +3,11 @@
 	<?php
 	$pt = '';
 	
-	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? '' : '../../bq/';
-	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost:8888/bq/';
-	$base_url_local = 'http://localhost:8888/bq/';
+	require('../../include.php');
+	
+	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
+	$base_url = ($_SERVER['SERVER_NAME'] == $mainServer) ? 'http://'.$mainServer.'/' : 'http://localhost:8888'.$url;
+	$base_url_local = 'http://localhost:8888'.$url;
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -52,7 +54,7 @@
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
 							$srcBase = '';
-							if(strpos($src, 'bqscan') !== false){
+							if(strpos($src, 'scan') !== false){
 								$srcBase = $src.'.png';
 							} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
 								$srcBase = $src.'.jpg';
@@ -61,9 +63,9 @@
 							}
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
-							$srcWBA = 'http://www.blakearchive.org/blake/images/'.$srcBase;
+							$srcArch = $archiveImageUrl.$srcBase;
 
-							print '<p><a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a></p>';
+							print '<p><a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcArch.'">'.$srcArch.'</a></p>';
 						}
 					} else {
 						//echo '<p>'.$fn_t['file'].': No images.</p>';

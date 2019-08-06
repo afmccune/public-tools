@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -63,7 +64,7 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -78,7 +79,7 @@ $replace2['<lb\/>[\r\n]{1,} ([a-zA-Z0-9-⅛¼½¾⅞—‘’“”"£:&;,!\?\(\
 							//$fn_t['fileSplit'] = $fileParts[2];
 							*/
 
-							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($dir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {

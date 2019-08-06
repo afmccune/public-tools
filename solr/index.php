@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 header("Content-Type: text/html; charset=utf-8");
@@ -100,7 +101,7 @@ $nl = "
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>HTML &amp; XML for Solr</h1>
-							<p>(creates or updates bq/solr/solrFile.xml)</p>
+							<p>(creates or updates solr/solrFile.xml in the main project directory)</p>
 						</div>
 					</div>
 					<div id="main">
@@ -115,7 +116,7 @@ $nl = "
 
 						// HTML articles
 												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[-a-z0-9\.]*\.htm[l]?/', $fn->getFilename())) { //$firstTime && 
 								$fn_t = array();
 								
@@ -127,11 +128,11 @@ $nl = "
 								$fn_t['fileSplit'] = ($fileParts[0] == 'bonus') ? $fileParts[1] : $fileParts[2];
 								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);//$fileParts[2];
 													
-								$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								preg_match( '@<meta\s+http-equiv="Content-Type"\s+content="([\w/]+)(;\s+charset=([^\s"]+))?@i', $HTMLstring, $matches );
 								$fn_t['encoding'] = $matches[3];
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 								$HTMLvolume = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Volume]', 'content');
 								$fn_t['volume'] = ($HTMLvolume[0] == '') ? $fn_t['fileVol'] : $HTMLvolume[0];
 								$HTMLissue = getHtmlElementArray($FullHTML, 'meta[name=DC.Source.Issue]', 'content');
@@ -216,7 +217,7 @@ $nl = "
 								$fn_t['HTML'] .= '</doc>'.$nl;
 
 								//print($fn_t['HTML']);
-								//file_put_contents('../../bq/solr/'.$fn_t['file'].'.xml', $fn_t['HTML']);
+								//file_put_contents($mainDir.'solr/'.$fn_t['file'].'.xml', $fn_t['HTML']);
 								echo '<p>Processed '.$fn_t['file'].'</p>';
 
 								//$firstTime = false;
@@ -227,7 +228,7 @@ $nl = "
 						
 						// XML articles
 						
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[-a-z0-9\.]*\.xml/', $fn->getFilename())) { // add Emend, Contact, About
 								$fn_t = array();
 								
@@ -240,7 +241,7 @@ $nl = "
 													
 								$fn_t['encoding'] = '';
 								
-								$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+								$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 								$fn_t['volume'] = $fn_t['fileVol'];
 								$fn_t['issue'] = $fn_t['fileIss'];
 								$XMLvolIss = $FullXML->xpath("//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/biblScope[@unit='volIss']");
@@ -262,7 +263,7 @@ $nl = "
 								$fn_t['author'] = $XMLauthors; // array
 								$fn_t['format'] = '';
 
-								$fn_t['fulltext'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+								$fn_t['fulltext'] = file_get_contents($dir.$fn_t['fn']);
 								$fn_t['fulltext'] = preg_replace('/<teiHeader(.*)<\/teiHeader>/s', '', $fn_t['fulltext']);
 
 								/* Convert to UTF-8 before doing anything else */
@@ -307,7 +308,7 @@ $nl = "
 								$fn_t['XML'] .= '</doc>'.$nl;
 
 								//print($fn_t['XML']);
-								//file_put_contents('../../bq/solr/'.$fn_t['file'].'.xml', $fn_t['XML']);
+								//file_put_contents($mainDir.'solr/'.$fn_t['file'].'.xml', $fn_t['XML']);
 								echo '<p>Processed '.$fn_t['file'].'</p>';
 
 								//$firstTime = false;
@@ -317,7 +318,7 @@ $nl = "
 						}
 						
 						$solrFile .= '</add>';
-						file_put_contents('../../bq/solr/solrFile.xml', $solrFile);
+						file_put_contents($mainDir.'solr/solrFile.xml', $solrFile);
 						
 						?>
 						</div> <!-- #allIssues -->

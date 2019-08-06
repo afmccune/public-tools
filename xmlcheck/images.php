@@ -3,9 +3,11 @@
 	<?php
 	$pt = '';
 	
-	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
-	$base_url = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? 'http://bq.blakearchive.org/' : 'http://localhost:8888/bq/';
-	$base_url_local = 'http://localhost:8888/bq/';
+	require('../../include.php');
+	
+	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
+	$base_url = ($_SERVER['SERVER_NAME'] == $mainServer) ? 'http://'.$mainServer.'/' : 'http://localhost:8888'.$url;
+	$base_url_local = 'http://localhost:8888'.$url;
 	
 	$numMissing = 0;
 	$missingByDecade = array();
@@ -52,7 +54,7 @@
 		return false;
 	  }
 	
-	// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
+	// trouble with this is the answer is always yes on the new archive, which gives you a custom 404 page if the URL is wrong
 	function url_exists($url){
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -115,7 +117,7 @@
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
 							$srcBase = '';
-							if(strpos($src, 'bqscan') !== false){
+							if(strpos($src, 'scan') !== false){
 								$srcBase = $src.'.png';
 							} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
 								$srcBase = $src.'.jpg';
@@ -124,13 +126,13 @@
 							}
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
-							$srcWBA = 'http://www.blakearchive.org/images/'.$srcBase;
+							$srcArchive = 'http://'.$imageArchiveServer.'/images/'.$srcBase;
 							if(file_exists($srcFull)) {
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
-							} else if(isImage($srcWBA)) {
-								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcWBA.'">'.$srcWBA.'</a></p>';
+							} else if(isImage($srcArchive)) {
+								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcArchive.'">'.$srcArchive.'</a></p>';
 							} else {
-								$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcWBA.'">'.$srcWBA.'</a>';
+								$fn_t['errors'][] = 'Missing image: <a href="'.$srcLocalLink.'">'.$srcFull.'</a> / <a href="'.$srcArchive.'">'.$srcArchive.'</a>';
 								$numMissing = $numMissing + 1;
 								$missingByDecade[$decade] = $missingByDecade[$decade] + 1;
 							}

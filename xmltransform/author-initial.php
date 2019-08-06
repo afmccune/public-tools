@@ -2,6 +2,8 @@
 <html>
 <?php
 require('include/functions.php');
+
+$dir = ''; // enter directory path
 	
 $nl = "
 ";
@@ -28,7 +30,7 @@ $replace['<author n="([a-zA-Zö ]{1,})">([a-zA-Z ]\.)([a-zA-Z ]\.)([a-zA-Z ]\. [
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -41,7 +43,7 @@ $replace['<author n="([a-zA-Zö ]{1,})">([a-zA-Z ]\.)([a-zA-Z ]\.)([a-zA-Z ]\. [
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							//$fn_t['fileSplit'] = $fileParts[2];
 
-							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($dir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {

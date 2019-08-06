@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -23,7 +24,7 @@ $ind = "                        ";
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/[0-9]{1,2}.[0-9][-a-z0-9]{0,}.[a-zA-Z]{1,}.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -35,8 +36,8 @@ $ind = "                        ";
 								$fn_t['issueShort'] = $fn_t['issueNum'];
 								$fn_t['newVolIss'] = ($fn_t['volNum'] < 10) ? '0'.$fn_t['volNum'].'.'.$fn_t['issueNum'] : $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
-								$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
-								$FullXMLold = simplexml_load_file('../../bq/docs/'.$fn_t['fn']);
+								$XMLstring = file_get_contents($dir.$fn_t['fn']);
+								$FullXMLold = simplexml_load_file($dir.$fn_t['fn']);
 								
 								$oldCode = '';
 								$newCode = '';
@@ -44,7 +45,7 @@ $ind = "                        ";
 								if(strpos($XMLstring,'<biblScope') === false) {
 									if($FullXMLold->xpath('//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/title')[0] == '') {
 										$oldCode = '<title/>';
-										$newCode = '<title>Blake Newsletter</title>'.$nl.$ind.'<biblScope unit="volIss">'.$fn_t['newVolIss'].'</biblScope>'.$nl.$ind.'<biblScope unit="volume">'.$fn_t['volNum'].'</biblScope>'.$nl.$ind.'<biblScope unit="issue">'.$fn_t['issueNum'].'</biblScope>';
+										$newCode = '<title>'.$archiveTitle.'</title>'.$nl.$ind.'<biblScope unit="volIss">'.$fn_t['newVolIss'].'</biblScope>'.$nl.$ind.'<biblScope unit="volume">'.$fn_t['volNum'].'</biblScope>'.$nl.$ind.'<biblScope unit="issue">'.$fn_t['issueNum'].'</biblScope>';
 									} else {
 										$oldCode = '<title>'.$FullXMLold->xpath('//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/title')[0].'</title>';
 										$newCode = $oldCode.$nl.$ind.'<biblScope unit="volIss">'.$fn_t['newVolIss'].'</biblScope>'.$nl.$ind.'<biblScope unit="volume">'.$fn_t['volNum'].'</biblScope>'.$nl.$ind.'<biblScope unit="issue">'.$fn_t['issueNum'].'</biblScope>';

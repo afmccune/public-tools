@@ -4,6 +4,7 @@
 //ini_set('memory_limit', '500M');
 ini_set('max_execution_time', 300); //300 seconds = 5 minutes
 
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -35,7 +36,7 @@ $seek = explode($nl, $seekStr);
 						$masterList = array();
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -51,7 +52,7 @@ $seek = explode($nl, $seekStr);
 									$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 									$fn_t['newVolIss'] = $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
-									$fn_t['text'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									$fn_t['text'] = file_get_contents($dir.$fn_t['fn']);
 									$fn_t['text'] = html_entity_decode($fn_t['text']);
 								
 									mb_regex_encoding('UTF-8');

@@ -5,11 +5,12 @@
 	$nl = '
 ';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 
 	function replaceInFile($key, $value, $filename) {
-		$XMLstring = file_get_contents('../../bq/docs/'.$filename);
+		$XMLstring = file_get_contents($dir.$filename);
 		$XMLstringNew = $XMLstring;
 		
 		$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
@@ -39,7 +40,7 @@
 						<div id="articles-reviews-index">
 			<?php
 				
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.toc.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -52,7 +53,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['articles'] = $FullXML->xpath('//text//table[@id="contents"]//cell//ref[1]/@issue'); // array 
 					// We use "cell//ref[1]" to try to get only the first link in a cell, since if there are multiple news  
 					// items in one cell, only the first will definitely start on the page in the neighboring cell. However, 
@@ -74,7 +75,7 @@
 							}
 							$page = intval($page);
 						
-							$articleXML = simplexml_load_file('../../bq/docs/'.$fn_t['articles'][$i].'.xml'); 
+							$articleXML = simplexml_load_file($dir.$fn_t['articles'][$i].'.xml'); 
 							$articlePbsXML = $articleXML->xpath('//pb/@n'); // array
 							$articlePbs = array();
 							foreach($articlePbsXML as $pb) {
@@ -99,10 +100,10 @@
 									$message = '<span style="color:red;">ODD</span>';
 								}
 								
-								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
+								print '<tr><td><a href="'.$url.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
 							} else if($articlePbs[0] != $page) {
 								$message = '<span style="color:red;">page present but not first</span>';
-								print '<tr><td><a href="/bq/'.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
+								print '<tr><td><a href="'.$url.$fn_t['articles'][$i].'">'.$fn_t['articles'][$i].'</a></td><td>'.$message.'</td><td>TOC page: '.$page.'</td><td>first page break: '.$articlePbs[0].'</td></tr>';
 							}
 
 						

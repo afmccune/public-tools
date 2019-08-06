@@ -34,6 +34,8 @@ if ( (function_exists("get_magic_quotes_gpc") && get_magic_quotes_gpc()) || (ini
 	stripslashes_deep($_POST);
 	}
 
+require('../../include.php');
+
 include 'PHP-FineDiff-master/finediff.php';
 
 $cache_lo_water_mark = 900;
@@ -54,8 +56,8 @@ $start_time = gettimeofday(true);
 		$granularity = max(min(intval($_POST['granularity']),3),0);
 		}
 	if ( isset($_GET['file']) ) {
-		$from_text = file_get_contents('../bq-xmltransform/old/'.$_GET['file'].'');
-		$to_text = file_get_contents('../bq-xmltransform/new/'.$_GET['file'].'');		
+		$from_text = file_get_contents('../xmltransform/old/'.$_GET['file'].'');
+		$to_text = file_get_contents('../xmltransform/new/'.$_GET['file'].'');		
 	}
 	
 

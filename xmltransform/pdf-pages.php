@@ -5,6 +5,7 @@
 	$nl = '
 ';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -21,7 +22,7 @@
 	}
 	
 	function replaceInFile($key, $value, $filename) {
-		$XMLstring = file_get_contents('../../bq/docs/'.$filename);
+		$XMLstring = file_get_contents($dir.$filename);
 		$XMLstringNew = $XMLstring;
 		
 		$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
@@ -37,8 +38,9 @@
 	}
 	
 	/*
-	[To refresh the following data, use the following commands in Terminal:]
-	cd ../../../Applications/MAMP/htdocs/bq/pdfs/issues
+	[To refresh the following data, use the following commands in Terminal,]
+	[typing the value of $pdfIssuesDirShort instead of the variable name in brackets:]
+	cd ../../../Applications/MAMP/htdocs/[$pdfIssuesDirShort]
 	mdls -name kMDItemFSName -name kMDItemNumberOfPages  ./*.pdf | cut -d= -f 2 | paste - -
 	[then copy and paste the results.]
 	*/
@@ -317,9 +319,7 @@
 						} else if ($vol == 4 && $iss == 4) {
 							// 4.4 ends on two non-content pages: one blank, 
 							// the other an extension of the front cover design / an elaboration 
-							// of the illus. on page 135 (AND with the unique caption 
-							// "In this issue John Grant (p. 117) and Judith Rhodes (p. 135) 
-							// discuss Blake's designs for L'Allegro and Il Penseroso"
+							// of the illus. on page 135 (AND with a unique caption)
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
 						} else if ($vol == 5 && $iss == 4) {
@@ -449,11 +449,11 @@
 							// 12.4 has an ad page in the middle (page 263, 42nd page in PDF), which counts but is not transcribed.
 							unset($pdfRange[42]);
 						} else if ($vol == 13 && $iss == 1) {
-							// 13.1 ends on two non-BQ pages (an ad insert?)
+							// 13.1 ends on two non-archive pages (an ad insert?)
 							$volCount = $volCount-2;
 							$pdfRange = range($oldVolCount+1, $volCount);
 							// 13.1 also has some pages near (but not at) the end, which count but are not transcribed:
-							// ("from the last page" is based on the page count when the non-BQ pages are removed)
+							// ("from the last page" is based on the page count when the non-archive pages are removed)
 							// - page 58 (third from the last page): an ad page
 							// - page 59 (second from the last page): an ad page
 							// (note: each time we remove one, another becomes the second-to-last)
@@ -985,7 +985,7 @@
 				}
 			}
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -998,7 +998,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					
 					$pbs = array();
@@ -1043,7 +1043,7 @@
 				if(count($arr['articles']) > 0) {
 					$art_arr = array();
 					foreach($arr['articles'] as $art) {
-						$art_arr[] = '<a href="/bq/'.$art.'#p'.$arr['page'].'" target="_blank">'.$art.'</a>';
+						$art_arr[] = '<a href="'.$url.$art.'#p'.$arr['page'].'" target="_blank">'.$art.'</a>';
 					}
 					$articles = implode (', ', $art_arr);
 					
@@ -1068,7 +1068,7 @@
 				if($arr['pdf'] == '') {
 					$arr['pdf'] = '<span style="color:red;">NO PDF!</span>';
 				} else {
-					$arr['pdf'] = '<a href="/bq/pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a>';
+					$arr['pdf'] = '<a href="'.$url.'pdfs/'.$arr['pdf'].'" target="_blank">'.$arr['pdf'].'</a>';
 				}
 				print '<tr><td>'.$arr['id'].'</td><td>'.$arr['pdf'].'</td><td>'.$arr['vol'].'</td><td>'.$arr['iss'].'</td><td>'.$arr['page'].'</td><td>'.$articles.'</td></tr>';
 			}
@@ -1088,7 +1088,7 @@
 					}
 					$tag = '<pb id="p'.$volTwoDig.'-'.$r.'" n="'.$r.'" rend="hidden"/>';
 					replaceInFile('([\r\n]{1,}[	 ]{1,})</body>', $nl.'	'.$tag.'$1</body>', $a.'.xml');
-					print '<p>'.$a.': <a href="/bq/'.$a.'" target="_blank">OLD</a> <a href="/bq/pdfs/'.$vol.'.'.$iss.'.pdf" target="_blank">PDF</a> <a href="/bq-tools/bq-diff/trans-diff.php?file='.$a.'" target="_blank">DIFF</a></p>';
+					print '<p>'.$a.': <a href="'.$url.$a.'" target="_blank">OLD</a> <a href="'.$url.'pdfs/'.$vol.'.'.$iss.'.pdf" target="_blank">PDF</a> <a href="/public-tools/diff/trans-diff.php?file='.$a.'" target="_blank">DIFF</a></p>';
 				} else {
 					print '<p>'.$a.' pages to add are discontinuous.</p>';
 				}

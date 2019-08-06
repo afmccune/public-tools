@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -22,7 +23,7 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/xml/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[0-9]{3}-[0-9]{2}[-a-z0-9]*.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -35,7 +36,7 @@ $nl = "
 								
 								$XMLtocFile = $fn_t['newVolIss'].'.toc';
 
-								$XMLtoc = simplexml_load_file('../../bq/docs/'.$XMLtocFile.'.xml');
+								$XMLtoc = simplexml_load_file($dir.$XMLtocFile.'.xml');
 								$articles = $XMLtoc->xpath('//table//ref/@issue');
 								$fn_t['articles'] = array_merge(array($XMLtocFile), $articles);
 								
@@ -46,7 +47,7 @@ $nl = "
 									if(substr($article,0,strlen($fn_t['newVolIss'])) == $fn_t['newVolIss']) {
 										# LOAD XML FILE 
 										$XML = new DOMDocument(); 
-										$XMLstring = file_get_contents('../../bq/docs/'.$article.'.xml');
+										$XMLstring = file_get_contents($dir.$article.'.xml');
 										//$XMLstring = str_replace($nl, "\r", $XMLstring);
 										$XML->loadXML($XMLstring);
 

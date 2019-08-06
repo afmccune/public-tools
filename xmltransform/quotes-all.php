@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -24,7 +25,7 @@ $nl = "
 					$warningDoc = '';
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						//if (preg_match('/4[3-4].[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 						//if (preg_match('/^[1-4]{0,1}[0-9]\.[0-9]{1}[-a-z0-9]{0,3}\.[-a-z0-9]{1,20}\.xml$/', $fn->getFilename())) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
@@ -39,7 +40,7 @@ $nl = "
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							$fn_t['fileSplit'] = $fileParts[2];
 
-							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($dir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							$quotes = substr_count($XMLstring, '"');
@@ -63,7 +64,7 @@ $nl = "
 								$XMLstringNew = preg_replace('/=[ ]{0,1}“([ -\/_:@a-zA-Z0-9\.łöéá]{1,})”([ 	-\/_:@a-zA-Z0-9\.łöéá="“”\?\r\n]{0,})>/', '="$1"$2>', $XMLstringNew);
 								$XMLstringNew = preg_replace('/=[ ]{0,1}”([ -\/_:@a-zA-Z0-9\.łöéá]{1,})“([ 	-\/_:@a-zA-Z0-9\.łöéá="“”\?\r\n]{0,})>/', '="$1"$2>', $XMLstringNew); // quotes are backwards--e.g., for quotes in pb tag between two quotes in text
 							}
-							$XMLstringNew = preg_replace('/=“BQ_Documents, vols. 1-([0-9]{1,3})”/', '="BQ_Documents, vols. 1-$1"', $XMLstringNew);
+							$XMLstringNew = preg_replace('/=“Documents, vols. 1-([0-9]{1,3})”/', '="Documents, vols. 1-$1"', $XMLstringNew);
 							$XMLstringNew = preg_replace('/=“volume_([0-9]{1,3})”/', '="volume_$1"', $XMLstringNew);
 							$XMLstringNew = preg_replace('/=“issue_([0-9]{1,3})”/', '="issue_$1"', $XMLstringNew);
 							

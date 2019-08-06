@@ -5,6 +5,8 @@
 header("Content-Type: text/html; charset=utf-8");
 ini_set("default_charset", 'utf-8');
 
+require('../../include.php');
+
 $nl = '
 ';
 
@@ -30,7 +32,7 @@ $nl = '
 						$solrFile = '<add>'.$nl;
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}/', $fn->getFilename())) { // add Emend, Contact, About
 								$fn_t = array();
 								
@@ -43,7 +45,7 @@ $nl = '
 													
 								$fn_t['encoding'] = '';
 								
-								$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+								$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 								$fn_t['volume'] = $fn_t['fileVol'];
 								$fn_t['issue'] = $fn_t['fileIss'];
 								$XMLvolIss = $FullXML->xpath("//teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/biblScope[@unit='volIss']");
@@ -65,7 +67,7 @@ $nl = '
 								$fn_t['author'] = $XMLauthors; // array
 								$fn_t['format'] = '';
 
-								$fn_t['fulltext'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+								$fn_t['fulltext'] = file_get_contents($dir.$fn_t['fn']);
 								$fn_t['fulltext'] = preg_replace('/<teiHeader(.*)<\/teiHeader>/s', '', $fn_t['fulltext']);
 
 								/* Convert to UTF-8 before doing anything else */

@@ -4,6 +4,7 @@
                 <!--<meta http-equiv="content-type" content="text/html;charset=utf-8" />-->
     </head>
 <?php
+require('../include.php');
 require('include/functions.php');
 
 			function strip_chars($str_in) {
@@ -386,9 +387,8 @@ $nl = "
 						$previousVolIss = '0.0';
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
-							//if (preg_match('/46.1.bentley.html/', $fn->getFilename())) {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
@@ -397,7 +397,7 @@ $nl = "
 								$fn_t['fileSplit'] = $fileParts[2];
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 													
-								$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								$chars = strip_chars($HTMLstring);
 								$ct = strlen($chars);
 								

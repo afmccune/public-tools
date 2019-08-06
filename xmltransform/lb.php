@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 //require('include/functions.php');
 	
 $nl = "
@@ -26,7 +27,7 @@ $dbl_nl = "
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -39,7 +40,7 @@ $dbl_nl = "
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							$fn_t['fileSplit'] = $fileParts[2];
 
-							$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($dir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							/* Convert to UTF-8 before doing anything else */

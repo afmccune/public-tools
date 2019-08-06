@@ -1,10 +1,11 @@
 <?php
+			require('../../include.php');
    			include('include/simple_html_dom.php');
 			
-			$minVol = 33;
-			$minIss = 4;
-			$maxVol = 43;
-			$maxIss = 1;
+			$minVol = 1;
+			$minIss = 1;
+			$maxVol = 47;
+			$maxIss = 4;
 			
 			function inPubRange ($vol, $iss) {
 				global $minVol, $minIss, $maxVol, $maxIss;
@@ -17,9 +18,9 @@
 			}
 			
 			function showable ($vol, $iss) {
-				if($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' && inPubRange($vol, $iss)) {
+				if($_SERVER['SERVER_NAME'] == $mainServer && inPubRange($vol, $iss)) {
 					return true;
-				} else if ($_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'localhost') {
+				} else if ($_SERVER['SERVER_NAME'] == $devServer || $_SERVER['SERVER_NAME'] == 'localhost') {
 					return true;
 				} else {
 					return false;

@@ -3,8 +3,10 @@
 	<?php
 	$pt = '';
 	
-	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org') ? '' : '../../bq/';
-	$base_url_local = 'http://localhost:8888/bq/';
+	require('../../include.php');
+	
+	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer) ? '' : $mainDir;
+	$base_url_local = 'http://localhost:8888'.$url;
 	
 	$numMissing = 0;
 	$missingByDecade = array();
@@ -49,7 +51,7 @@
 		return false;
 	  }
 	
-	// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
+	// trouble with this is the answer is always yes on the new archive, which gives you a custom 404 page if the URL is wrong
 	function url_exists($url){
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -88,7 +90,7 @@
 				
 			$docsXml = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -103,7 +105,7 @@
 
 						# LOAD XML FILE 
 						$XML = new DOMDocument(); 
-						$XMLstring = file_get_contents( '../../bq/docs/'.$fn_t['fn'] );
+						$XMLstring = file_get_contents( $dir.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
 						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
@@ -135,7 +137,7 @@
 							if(strpos($src, 'http://') === false) {
 								$srcFull = $base_path.$src;
 								$srcLocalLink = $base_url_local.$src;
-								$srcPublic = 'http://bq.blakearchive.org/'.$src;
+								$srcPublic = 'http://'.$mainServer.'/'.$src;
 								if(file_exists($srcFull)) {
 									//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
 								} else if(isImage($srcPublic)) {
@@ -169,7 +171,7 @@
 						
 			for ($i=0; $i<count($docsXml); $i++) {
 				if(count($docsXml[$i]['errors']) > 0) {
-					print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+					print '<h4><a href="'.$url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
 					foreach($docsXml[$i]['errors'] as $error) {
 						print '<p>'.$error.'</p>';
 					}

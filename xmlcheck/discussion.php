@@ -3,6 +3,7 @@
 	<?php
 	$pt = '';
 	
+	require('../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -37,7 +38,7 @@
 				
 			$docsXml = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -50,7 +51,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
 					$fn_t['type'] = $XMLtype[0];
 					$XMLheadings = $FullXML->xpath('//text//head/title');
@@ -63,10 +64,10 @@
 					$fn_t['errors'] = array();
 					
 					if($fn_t['type'] == 'discussion' && array_find(":", $fn_t['headings']) || array_find("DISCUSSION", $fn_t['headings'])) {
-						$fn_t['errors'][] = "Heading contains ':'. <a href='http://localhost/bq/xdoc.php?file=".$fn_t['file']."'>Link</a>";
+						$fn_t['errors'][] = "Heading contains ':'. <a href='http://localhost".$url."xdoc.php?file=".$fn_t['file']."'>Link</a>";
 					}
 					if(strpos(":", $fn_t['headingsHi'][0]) != false) {
-						$fn_t['errors'][] = "Heading contains ':'. <a href='http://localhost/bq/xdoc.php?file=".$fn_t['file']."'>Link</a>";
+						$fn_t['errors'][] = "Heading contains ':'. <a href='http://localhost".$url."xdoc.php?file=".$fn_t['file']."'>Link</a>";
 					}
 
 					$docsXml[] = $fn_t;

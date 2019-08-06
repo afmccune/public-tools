@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 			function cmpType(array $a, array $b) {
@@ -30,7 +31,7 @@ $nl = "
 						<?php
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -39,9 +40,9 @@ $nl = "
 								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$fn_t['file'] = $fileParts[2];
 													
-								$HTMLstring = file_get_contents('../bq/html/'.$fn_t['fn']);
+								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								
-								$FullHTML = file_get_html('../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 								
 								$HTMLtype = getHtmlElementArray($FullHTML, 'meta[name=DC.Type.articleType]', 'content');
 								$fn_t['type'] = $HTMLtype[0];

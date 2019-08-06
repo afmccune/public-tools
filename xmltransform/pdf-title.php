@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<?php
+	require('../../include.php');
+
 	$pt = '';
 	$nl = '
 ';
@@ -122,7 +124,7 @@ div#cover img {
 	}
 	
 	function issueCover($volIss) {
-		$tocXML = simplexml_load_file('../../bq/docs/'.$volIss.'.toc.xml'); 
+		$tocXML = simplexml_load_file($dir.$volIss.'.toc.xml'); 
 		$XMLimg = $tocXML->xpath('//div1[@id="cover"]/figure/@n');
 		return $XMLimg[0];
 	}
@@ -144,7 +146,7 @@ div#cover img {
 			
 			$cmd = '#!/bin/bash'.$nl.$nl;
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -157,7 +159,7 @@ div#cover img {
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['volume'] = $fn_t['volNum'];
 					$fn_t['issue'] = $fn_t['issueNum'];
 					$XMLdate = $FullXML->xpath('//editionStmt/edition');
@@ -196,7 +198,7 @@ div#cover img {
 					$fn_t['HTML'] .= '	</head>'.$nl;
 					$fn_t['HTML'] .= '	<body>'.$nl;
 					$fn_t['HTML'] .= '		<div id="logo">'.$nl;
-					$fn_t['HTML'] .= '			<img src="../../../bq/img/general/BLAKE.gif" alt="Blake/An Illustrated Quarterly" width="425" height="114"/>'.$nl;
+					$fn_t['HTML'] .= '			<img src="'.$logo.'''" alt="'.$archiveTitle.'"/>'.$nl;
 					$fn_t['HTML'] .= '		</div>'.$nl;
 					$fn_t['HTML'] .= '		<div id="main">'.$nl;
 					$fn_t['HTML'] .= '		<h4 id="type">'.$fn_t['type'].'</h4>'.$nl;
@@ -206,14 +208,14 @@ div#cover img {
 					if($fn_t['author'] != '') {
 					$fn_t['HTML'] .= '		<h3 id="author">'.$fn_t['author'].'</h3>'.$nl;
 					}
-					$fn_t['HTML'] .= '		<p>Blake/An Illustrated Quarterly, ';
+					$fn_t['HTML'] .= '		<p>'.$archiveTitle.', ';
 					$fn_t['HTML'] .= 		'Volume '.$fn_t['volume'].', ';
 					$fn_t['HTML'] .= 		'Issue '.$fn_t['issue'].', ';
 					$fn_t['HTML'] .= 		''.$fn_t['date'].', ';
 					$fn_t['HTML'] .= 		''.$fn_t['pAbbr'].' '.$fn_t['pageRange'].'</p>'.$nl;
 					$fn_t['HTML'] .= '		</div>'.$nl;
 					$fn_t['HTML'] .= '		<div id="cover">'.$nl;
-					$fn_t['HTML'] .= '			<img src="../../../bq/img/illustrations/'.$fn_t['cover'].'" width="160"/>'.$nl;
+					$fn_t['HTML'] .= '			<img src="../'.$illustrationDir.$fn_t['cover'].'" width="160"/>'.$nl;
 					$fn_t['HTML'] .= '		</div>'.$nl;
 					$fn_t['HTML'] .= '	</body>'.$nl;
 					$fn_t['HTML'] .= '</html>'.$nl;
@@ -229,7 +231,7 @@ div#cover img {
 					
 					file_put_contents($inputName, $fn_t['HTML']);
 					
-					$pdf_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-title-pdf/';
+					$pdf_dir = '/Applications/MAMP/htdocs/public-tools/xmltransform/pdf-title-pdf/';
 					if (file_exists($pdf_dir)) {
 						// okay
 					} else {
@@ -239,7 +241,7 @@ div#cover img {
 					$outputName = $pdf_dir.$fn_t['file'].'.title.pdf';
 
 					$cmd .= 'echo '.$fn_t['file'].$nl;
-					$cmd .= 'wkhtmltopdf --dpi 350 http://localhost:8888/bq-tools/bq-xmltransform/'.$inputName.' '.$outputName.$nl;
+					$cmd .= 'wkhtmltopdf --dpi 350 http://localhost:8888/public-tools/xmltransform/'.$inputName.' '.$outputName.$nl;
 				}
 			}
 			
@@ -248,10 +250,10 @@ div#cover img {
 			echo '<h4>Refreshed title_pdfs.sh</h4>';
 			
 			// Set permissions for bash file
-			$result = shell_exec('cd /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash'.$nl.'chmod 775 title_pdfs.sh');
+			$result = shell_exec('cd /Applications/MAMP/htdocs/public-tools/xmltransform/bash'.$nl.'chmod 775 title_pdfs.sh');
 			
 			// Instructions to run bash file from Terminal (since we can't seem to get it to run from PHP)
-			echo '<h4>To convert title pages from HTML to PDF, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash/title_pdfs.sh</h4>';
+			echo '<h4>To convert title pages from HTML to PDF, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/public-tools/xmltransform/bash/title_pdfs.sh</h4>';
 			
 			?>
 			

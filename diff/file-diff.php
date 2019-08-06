@@ -24,6 +24,8 @@ del {color:red;background:#fdd;text-decoration:none}
 <h1>PHP Fine Diff: Online Diff Viewer</h1>
 <div>
 <?php
+require('../include.php');
+
 // http://www.php.net/manual/en/function.get-magic-quotes-gpc.php#82524
 function stripslashes_deep(&$value) {
 	$value = is_array($value) ? array_map('stripslashes_deep', $value) : stripslashes($value);
@@ -55,7 +57,7 @@ $start_time = gettimeofday(true);
 		}
 	if ( isset($_GET['file']) ) {
 		$from_text = file_get_contents('whole-issues/'.$_GET['file'].'.xml');
-		$to_text = file_get_contents('../bq-xmltransform/composite/'.$_GET['file'].'-composite.xml');		
+		$to_text = file_get_contents('../xmltransform/composite/'.$_GET['file'].'-composite.xml');		
 	}
 	
 

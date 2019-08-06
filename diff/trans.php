@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -22,7 +23,7 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/43.[1-4]{1}[-a-z0-9]*.[a-z]{1,20}.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								

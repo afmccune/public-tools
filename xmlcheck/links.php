@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<?php
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	?>
@@ -23,7 +24,7 @@
 			$files = array();
 			$links = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) { // [0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -34,7 +35,7 @@
 					
 					$files[] = $fn_t['file'];
 					
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 
 					$fn_t['links'] = $FullXML->xpath('//text//ref/@issue'); // array
 					foreach($fn_t['links'] as $link) {
@@ -49,7 +50,7 @@
 			}
 						
 			for ($i=0; $i<count($docsXml); $i++) {
-				print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+				print '<h4><a href="'.$url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
 				
 				foreach($docsXml[$i]['links'] as $link) {
 					if(!in_array($link, $files)) {

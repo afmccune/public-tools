@@ -1,21 +1,24 @@
+<?php
+require('../../include.php');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Images (no figTranscr)</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <link rel="stylesheet" media="screen" href="../../bq/style.css"></link>
+        <link rel="stylesheet" media="screen" href="<?php echo $mainDir; ?>style.css"></link>
         <!--
-		<script src="../../bq/js/expand.js"></script>
-		<script src="../../bq/js/bq.js"></script>
-		<link rel="stylesheet" media="screen" href="../../bq/js/fancybox/jquery.fancybox-1.3.4.css"></link>
-		<script type="text/javascript" src="../../bq/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+		<script src="<?php echo $mainDir; ?>js/expand.js"></script>
+		<script src="<?php echo $mainDir; ?>js/main.js"></script>
+		<link rel="stylesheet" media="screen" href="<?php echo $mainDir; ?>js/fancybox/jquery.fancybox-1.3.4.css"></link>
+		<script type="text/javascript" src="<?php echo $mainDir; ?>js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 		-->
 	</head>
 	<?php
 	$pt = '';
 	
-	$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
-	$base_url_local = 'http://localhost:8888/bq/';
+	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
+	$base_url_local = 'http://localhost:8888'.$url;
 	
 	$numNoFigTranscr = 0;
 	/*
@@ -68,7 +71,7 @@
 				
 			$docsXml = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				//if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 				if (preg_match('/^'.$vols.'.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
@@ -82,7 +85,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 					
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['figure'] = $FullXML->xpath('//text//figure'); // array
 					$fn_t['figTranscr'] = $FullXML->xpath('//text//figure/figTranscr'); // array
 					
@@ -94,7 +97,7 @@
 
 						# LOAD XML FILE 
 						$XML = new DOMDocument(); 
-						$XMLstring = file_get_contents( '../../bq/docs/'.$fn_t['fn'] );
+						$XMLstring = file_get_contents( $dir.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
 						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
@@ -111,7 +114,7 @@
 
 						//$FullXML = simplexml_load_string($stripped);
 						
-						print '<h4><a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a></h4>';
+						print '<h4><a href="'.$url.$fn_t['file'].'">'.$fn_t['file'].'</a></h4>';
 						echo $stripped;
 					}	
 					

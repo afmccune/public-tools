@@ -22,7 +22,7 @@
 				
 			$sorted = array();
 			
-			foreach (new DirectoryIterator("./wba/") as $fn) {
+			foreach (new DirectoryIterator("./archive/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
@@ -32,7 +32,7 @@
 					$fn_t['workID'] = '';
 					$fn_t['bentleyCodes'] = array();
 					
-					$FullXML = simplexml_load_file('./wba/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file('./archive/'.$fn_t['fn']); 
 					
 					$nl = '
 ';

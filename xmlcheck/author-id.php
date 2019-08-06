@@ -3,6 +3,8 @@
 	<?php
 	$pt = '';
 	
+	require('../include.php');
+	
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -38,7 +40,7 @@
 				
 			$docsXml = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -52,7 +54,7 @@
 					
 					$fn_t['id'] = $fileParts[2]; // article identifier (without vol or iss) usually based on author's last name
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 											
 					$XMLauthorsLastNames = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/author/@n');
 
@@ -67,7 +69,7 @@
 						$fn_t['nameAsId'] = strtolower($fn_t['nameAsId']);
 						
 						if($fn_t['id'] != $fn_t['nameAsId']) {
-							echo '<p><a href="http://localhost:8888/bq/'.$fn_t['file'].'" target="_blank">'.$fn_t['file'].'</a>: '.$fn_t['id'].' is not '.$fn_t['nameAsId'].' ('.$fn_t['firstAuthorLastName'].').</p>';							
+							echo '<p><a href="http://localhost:8888/'.$url.$fn_t['file'].'" target="_blank">'.$fn_t['file'].'</a>: '.$fn_t['id'].' is not '.$fn_t['nameAsId'].' ('.$fn_t['firstAuthorLastName'].').</p>';							
 						}
 					} else {
 						//echo '<p>'.$fn_t['file'].': no author.</p>';
@@ -143,7 +145,7 @@
 			}
 						
 			for ($i=0; $i<count($docsXml); $i++) {
-				print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+				print '<h4><a href="'.$url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
 				foreach($docsXml[$i]['errors'] as $error) {
 					print '<p>'.$error.'</p>';
 				}

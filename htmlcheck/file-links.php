@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -26,8 +27,8 @@ function linkCmp(array $a, array $b) {
 						<div id="allIssues">
 			
 						<?php
-												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[.a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -38,7 +39,7 @@ function linkCmp(array $a, array $b) {
 								$fn_t['split'] = $fileParts[2];
 													
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($dir.$fn_t['fn']);
 								$FullHTML->find('div[id=custFooter]', 0)->innertext = '';
 								
 								
@@ -50,7 +51,7 @@ function linkCmp(array $a, array $b) {
 											//echo '<p>'.$fn_t['file'].': <a href="'.$link.'">'.$shortlink.'</a></p>';
 											$source = 'http://blake.lib.rochester.edu.libproxy.lib.unc.edu/blakeojs/index.php/blake/article/viewFile/'.$shortlink;
 											echo '<p>';
-											echo '<a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$source.'">'.$shortlink.'</a> ';
+											echo '<a href="'.$url.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$source.'">'.$shortlink.'</a> ';
 											
 											// Check if images are there
 											$linkParts = explode('/', $shortlink);
@@ -58,8 +59,8 @@ function linkCmp(array $a, array $b) {
 											$issue = substr($linkParts[1], -5, 1);
 											$file = $linkParts[2];
 											
-											if(file_exists('../../bq/img/illustrations/'.$volume.'.'.$issue.'/'.$file.'.jpg')) {
-												echo '(in archive: <a href="/bq/img/illustrations/'.$volume.'.'.$issue.'/'.$file.'.jpg">'.$volume.'.'.$issue.'/'.$file.'.jpg</a>)';
+											if(file_exists($illustrationDir.$volume.'.'.$issue.'/'.$file.'.jpg')) {
+												echo '(in archive: <a href="'.$illustrationDir.$volume.'.'.$issue.'/'.$file.'.jpg">'.$volume.'.'.$issue.'/'.$file.'.jpg</a>)';
 											} else {
 												echo '(error: '.$volume.'.'.$issue.'/'.$file.'.jpg not downloaded to archive)';
 											}

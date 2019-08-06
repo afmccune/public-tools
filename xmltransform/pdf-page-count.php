@@ -5,6 +5,7 @@
 	$nl = '
 ';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -22,7 +23,7 @@
 
 	/*
 	[To refresh the following data, use the following commands in Terminal:]
-	cd ../../../Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-large
+	cd ../../../Applications/MAMP/htdocs/public-tools/xmltransform/pdf-large
 	mdls -name kMDItemFSName -name kMDItemNumberOfPages  ./*.pdf | cut -d= -f 2 | paste - -
 	[then copy and paste the results.]
 	*/
@@ -206,8 +207,9 @@
  "044-04.pdf"	 32';
 
 	/*
-	[To refresh the following data, use the following commands in Terminal:]
-	cd ../../../Applications/MAMP/htdocs/bq/pdfs/issues
+	[To refresh the following data, use the following commands in Terminal,]
+	[typing the value of $pdfIssuesDirShort instead of the variable name in brackets:]
+	cd ../../../Applications/MAMP/htdocs/[$pdfIssuesDirShort]
 	mdls -name kMDItemFSName -name kMDItemNumberOfPages  ./*.pdf | cut -d= -f 2 | paste - -
 	[then copy and paste the results.]
 	*/

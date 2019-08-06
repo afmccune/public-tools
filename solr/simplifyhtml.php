@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 header("Content-Type: text/html; charset=utf-8");
@@ -111,7 +112,7 @@ $nl = "
 						//$firstTime = true;
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) { //$firstTime && 
 								$fn_t = array();
 								
@@ -120,11 +121,11 @@ $nl = "
 								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);//$fileParts[2];
 													
-								$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								preg_match( '@<meta\s+http-equiv="Content-Type"\s+content="([\w/]+)(;\s+charset=([^\s"]+))?@i', $HTMLstring, $matches );
 								$fn_t['encoding'] = $matches[3];
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 								$HTMLdate = getHtmlElementArray($FullHTML, 'div[id=issueDescription] p', 'innertext');
 								$HTMLfullDate = getHtmlElementArray($FullHTML, 'meta[name=DC.Date.dateSubmitted]', 'content');
 								$fn_t['date'] = (count($HTMLdate)>0) ? $HTMLdate[0] : '';//$fn_t['date'] = (count($HTMLdate)>0) ? $HTMLdate[0] : seasonYearFromDate($HTMLfullDate[0]);

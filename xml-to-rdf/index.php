@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <?php
-//require('../../bq/include/functions.php');
+require('../../include.php');
+//require($mainDir.'include/functions.php');
 	
 $nl = "
 ";
 
 function collexGenre($thisType) {
-	//$standardBQtype = standardBQtype($thisType);
+	//$standardType = standardType($thisType);
 	$collexCrit = array('article', 'discussion', 'minute', 'note', 'query');
 	$collexReview = array('review');
 	$collexNonf = array('news');
@@ -38,7 +39,7 @@ function collexGenre($thisType) {
 
 /*
 // actually, we should use this for HTML; XML is standardized already
-function standardBQtype($thisType) {
+function standardType($thisType) {
 	$standard = '';
 	foreach($articleTypes as $type) {
 		if(in_array ($thisType, $type['keys'])) {
@@ -50,7 +51,7 @@ function standardBQtype($thisType) {
 */
 
 function issueCover($volIss) {
-	$tocXML = simplexml_load_file('../../bq/docs/'.$volIss.'.toc.xml'); 
+	$tocXML = simplexml_load_file($dir.$volIss.'.toc.xml'); 
 	$XMLimg = $tocXML->xpath('//div1[@id="cover"]/figure/@n');
 	return $XMLimg[0];
 }
@@ -71,7 +72,7 @@ function issueCover($volIss) {
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -84,7 +85,7 @@ function issueCover($volIss) {
 								$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 								$fn_t['fileSplit'] = $fileParts[2];
 								
-								$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+								$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 								$XMLidno = $FullXML->xpath('//teiHeader/idno');
 								$fn_t['idno'] = $XMLidno[0];
 								$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
@@ -114,16 +115,16 @@ function issueCover($volIss) {
 								$fn_t['articles'] = $articles; // array
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
-								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
+								$fn_t['rdf'] .= ' xmlns:'.$rdfCode.'="http://'.$mainServer.'/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:role="http://www.loc.gov/loc.terms/relators/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:collex="http://www.collex.org/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:dcterms="http://purl.org/dc/terms/">'.$nl;
 								$fn_t['rdf'] .= $nl;
-								$fn_t['rdf'] .= '	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/'.$fn_t['idno'].'">'.$nl;
-								$fn_t['rdf'] .= '		<collex:source_xml rdf:resource="http://bq.blakearchive.org/docs/'.$fn_t['file'].'"/>'.$nl;
-								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/'.$fn_t['idno'].'"/>'.$nl;
+								$fn_t['rdf'] .= '	<'.$rdfCode.':TEI.2 rdf:about="http://'.$mainServer.'/'.$fn_t['idno'].'">'.$nl;
+								$fn_t['rdf'] .= '		<collex:source_xml rdf:resource="http://'.$mainServer.'/docs/'.$fn_t['file'].'"/>'.$nl;
+								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://'.$mainServer.'/'.$fn_t['idno'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:title>'.$fn_t['title'].'</dc:title>'.$nl;
 								if($fn_t['fileSplit'] != 'toc') { // in our RDF, the TOC masquerades as the whole issue, and the author of material in the TOC did not author the whole issue
 								 foreach ($fn_t['authors'] as $author) {
@@ -131,7 +132,7 @@ function issueCover($volIss) {
 								 }
 								}
 								$fn_t['rdf'] .= '		<collex:genre>'.$fn_t['collexGenre'].'</collex:genre>'.$nl;
-								$fn_t['rdf'] .= '		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/'.$fn_t['issueCover'].'.thumb.png"/>'.$nl;
+								$fn_t['rdf'] .= '		<collex:thumbnail rdf:resource="http://'.$mainServer.'/img/illustrations/'.$fn_t['issueCover'].'.thumb.png"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:date>'.$nl;
 								$fn_t['rdf'] .= '			<collex:date>'.$nl;
 								$fn_t['rdf'] .= '				<rdfs:label>'.$fn_t['seasonYear'].'</rdfs:label>'.$nl;
@@ -140,22 +141,22 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '		</dc:date>'.$nl;
 								$fn_t['rdf'] .= '		'.$nl;
 								if($fn_t['fileSplit'] != 'toc') {
-								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'.toc"/>'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://'.$mainServer.'/'.$fn_t['volNum'].'.'.$fn_t['issueNum'].'.toc"/>'.$nl;
 								} else {
 								 foreach($fn_t['articles'] as $article) {
-								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/'.$article.'"/>'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://'.$mainServer.'/'.$article.'"/>'.$nl;
 								 }
 								}
 								$fn_t['rdf'] .= '		<dc:type>Periodical</dc:type>'.$nl;
-								$fn_t['rdf'] .= '		<dc:source>Blake/An Illustrated Quarterly</dc:source>'.$nl;
-								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
-								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
+								$fn_t['rdf'] .= '		<dc:source>'.$archiveTitle.'</dc:source>'.$nl;
+								$fn_t['rdf'] .= '		<role:PBL>'.$archiveTitle.'</role:PBL>'.$nl;
+								$fn_t['rdf'] .= '		<collex:archive>'.$rdfCode.'</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>18thConnect</collex:federation>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>Literature</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>Art History</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>History</collex:discipline>'.$nl;
-								$fn_t['rdf'] .= '	</bq:TEI.2>'.$nl;
+								$fn_t['rdf'] .= '	</'.$rdfCode.':TEI.2>'.$nl;
 								$fn_t['rdf'] .= '</rdf:RDF>'.$nl;
 
 								

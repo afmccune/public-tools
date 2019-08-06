@@ -2,12 +2,14 @@
 <html>
 <?php
 $pt = '';
+
+require('../../include.php');
 	
 $nl = '
 ';
 	
-$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
-$base_url_local = 'http://localhost:8888/bq/';
+$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
+$base_url_local = 'http://localhost:8888'.$url;
 
 require('include/functions.php');
 require('include/head.php');

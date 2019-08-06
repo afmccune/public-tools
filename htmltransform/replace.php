@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
 ";
 
 $replace = array();
-$replace['http://blake.lib.rochester.edu.libproxy.lib.unc.edu'] = 'http://blake.lib.rochester.edu';
 //$replace['[ ]{2,}[\n\r]{1,}'] = $nl;
 //$replace['[	\n\r]{0,}[\n\r]{1,}'] = $nl;
 
@@ -28,7 +28,7 @@ $replace['http://blake.lib.rochester.edu.libproxy.lib.unc.edu'] = 'http://blake.
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+					foreach (new DirectoryIterator($htmlDir) as $fn) {
 						if (preg_match('/.html/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -41,7 +41,7 @@ $replace['http://blake.lib.rochester.edu.libproxy.lib.unc.edu'] = 'http://blake.
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							//$fn_t['fileSplit'] = $fileParts[2];
 
-							$XMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+							$XMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 							$XMLstringNew = $XMLstring;
 							
 							foreach($replace as $key => $value) {

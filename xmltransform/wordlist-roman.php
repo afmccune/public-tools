@@ -4,6 +4,7 @@
 //ini_set('memory_limit', '500M');
 ini_set('max_execution_time', 300); //300 seconds = 5 minutes
 
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -32,7 +33,7 @@ $nl = "
 						$masterList = array();
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/.xml/', $fn->getFilename()) && !preg_match('/Emend/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -48,8 +49,8 @@ $nl = "
 									$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 									$fn_t['newVolIss'] = $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
-									//$compositeText .= file_get_contents('../../bq/docs/'.$fn_t['fn']);
-									$fn_t['text'] = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									//$compositeText .= file_get_contents($dir.$fn_t['fn']);
+									$fn_t['text'] = file_get_contents($dir.$fn_t['fn']);
 									$fn_t['text'] = strip_tags($fn_t['text']);
 									$fn_t['text'] = html_entity_decode($fn_t['text']);
 									//$fn_t['text'] = preg_replace('/[ 	\n\r]{1,}/', ' ', $fn_t['text']);
@@ -83,7 +84,7 @@ $nl = "
 									/*
 									# LOAD XML FILE 
 									$XML = new DOMDocument(); 
-									$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									$XMLstring = file_get_contents($dir.$fn_t['fn']);
 									//$XMLstring = str_replace($nl, "\r", $XMLstring);
 									$XML->loadXML($XMLstring);
 

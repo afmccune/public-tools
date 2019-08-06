@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -22,7 +23,7 @@ $nl = "
 						<?php
 						
 					$docsXml = array(); 
-					foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+					foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 							$fn_t = array();
 							$fn_t['fn'] = $fn->getFilename();	
@@ -35,7 +36,7 @@ $nl = "
 							$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 							$fn_t['fileSplit'] = $fileParts[2];
 
-							$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+							$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 							$XMLidno = $FullXML->xpath('//teiHeader/idno');
 							$fn_t['idno'] = $XMLidno[0];
 							$XMLtype = $FullXML->xpath('//teiHeader/fileDesc/titleStmt/title/@type');
@@ -72,7 +73,7 @@ $nl = "
 						
 								//if($fn_t['main'] != '' && preg_match('/"/', $fn_t['title']) && !preg_match('/"/', $fn_t['main'])) {
 								if(preg_match('/\r\n|\n|\r/', $fn_t['title'])) {
-									$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+									$XMLstring = file_get_contents($dir.$fn_t['fn']);
 																
 									$oldTitle = $fn_t['title'];
 									$newTitle = preg_replace('/\r\n|\n|\r/', " ", $oldTitle, 1);

@@ -3,6 +3,7 @@
 	<?php
 	$pt = '';
 	
+	require('../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -23,7 +24,7 @@
 				
 			$docs = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -31,7 +32,7 @@
 					$fileParts = explode('.', $fn_t['fn']);
 					$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 					
-					$fn_t['xml'] = simplexml_load_file('../../bq/docs/'.$fn_t['fn']);
+					$fn_t['xml'] = simplexml_load_file($dir.$fn_t['fn']);
 					$fn_t['corrs'] = $fn_t['xml']->xpath('//text//corr[@type="emend"]'); // array
 					$fn_t['supplieds'] = $fn_t['xml']->xpath('//text//supplied[@type="emend"]'); // array
 					$fn_t['gaps'] = $fn_t['xml']->xpath('//text//gap[@type="emend"]'); // array
@@ -43,7 +44,7 @@
 				}
 			}
 			
-			$emendXML = simplexml_load_file('../../bq/docs/Emend.xml'); 
+			$emendXML = simplexml_load_file($dir.'Emend.xml'); 
 			$emendNoteDocs = $emendXML->xpath('//ref/@issue'); // array
 			$emendNoteDocsStr = array();
 			

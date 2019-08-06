@@ -5,6 +5,8 @@
 header("Content-Type: text/html; charset=utf-8");
 ini_set("default_charset", 'utf-8');
 
+require('../include.php');
+
 require('include/functions.php');
 
 			function strip_chars($str_in) {
@@ -414,7 +416,7 @@ $nl = "
 						$previousVolIss = '0.0';
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../bq-xmltransform/old/") as $fn) {
+						foreach (new DirectoryIterator("../xmltransform/old/") as $fn) {
 							if (preg_match('/[a-zA-Z]/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -424,7 +426,7 @@ $nl = "
 								$fn_t['fileSplit'] = $fileParts[2];
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 													
-								$XMLstring = file_get_contents("../bq-xmltransform/old/".$fn_t['fn']);
+								$XMLstring = file_get_contents("../xmltransform/old/".$fn_t['fn']);
 								$chars = strip_chars($XMLstring);
 								$ct = mb_strlen($chars);
 								

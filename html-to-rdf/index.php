@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../bq/include/functions.php');
+require('../../include.php');
+require($mainDir.'include/functions.php');
 	
 $nl = "
 ";
 
 function collexGenre($thisType) {
-	$standardBQtype = standardBQtype($thisType);
+	$standardType = standardType($thisType);
 	$collexCrit = array('article', 'discussion', 'minute', 'note', 'query');
 	$collexReview = array('review');
 	$collexNonf = array('news');
@@ -16,30 +17,30 @@ function collexGenre($thisType) {
 	$collexRef = array('context', 'correction');
 	$collexBibl = array('toc', 'index', 'checklist');
 	$collexVisual = array('illustration'); // HTML only
-	if (in_array($standardBQtype, $collexCrit)) {
+	if (in_array($standardType, $collexCrit)) {
 		return 'Criticism';
-	} else if (in_array($standardBQtype, $collexReview)) {
+	} else if (in_array($standardType, $collexReview)) {
 		return 'Review';
-	} else if (in_array($standardBQtype, $collexNonf)) {
+	} else if (in_array($standardType, $collexNonf)) {
 		return 'Nonfiction';
-	} else if (in_array($standardBQtype, $collexPoetry)) {
+	} else if (in_array($standardType, $collexPoetry)) {
 		return 'Poetry';
-	} else if (in_array($standardBQtype, $collexLife)) {
+	} else if (in_array($standardType, $collexLife)) {
 		return 'Life Writing';
-	} else if (in_array($standardBQtype, $collexRef)) {
+	} else if (in_array($standardType, $collexRef)) {
 		return 'Reference Works';
-	} else if (in_array($standardBQtype, $collexBibl)) {
+	} else if (in_array($standardType, $collexBibl)) {
 		return 'Bibliography';
-	}  else if (in_array($standardBQtype, $collexVisual)) {
+	}  else if (in_array($standardType, $collexVisual)) {
 		return 'Visual Art';
 	} else {
-		echo '<p>Error: '.$thisType.' (standardized '.$standardBQtype.') does not correspond to collex genre.</p>';
+		echo '<p>Error: '.$thisType.' (standardized '.$standardType.') does not correspond to collex genre.</p>';
 		return '';
 	}
 }
 
 // we use this for HTML; XML is standardized already
-function standardBQtype($thisType) {
+function standardType($thisType) {
 	$standard = '';
 	global $articleTypes;
 	foreach($articleTypes as $type) {
@@ -51,7 +52,7 @@ function standardBQtype($thisType) {
 }
 
 function issueCover($volIss) {
-	$tocHTML = file_get_html('../../bq/html/'.$volIss.'.toc.html'); 
+	$tocHTML = file_get_html($htmlDir.$volIss.'.toc.html'); 
 	$HTMLimg = getHtmlElementArray($tocHTML, 'div[id=issueCoverImage] img', 'src');
 	return $volIss.'/'.$HTMLimg[0];
 }
@@ -72,7 +73,7 @@ function dateFromSeasonYear($date) {
 
 function articlesFromToc($tocFile, $volIss) {
 	// Prep HTML file
-	$HTML = file_get_html('../../bq/html/'.$tocFile.'.html');
+	$HTML = file_get_html($htmlDir.$tocFile.'.html');
 	
 	# LOAD HTML FILE
 	$HTMLbody = getHtmlElementArray($HTML, 'div[id=artInfo]', 'outertext');
@@ -116,7 +117,7 @@ function articlesFromToc($tocFile, $volIss) {
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[a-z0-9\.]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -128,7 +129,7 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['fileSplit'] = ($fileParts[0] == 'bonus') ? $fileParts[1] : $fileParts[2];
 								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 													
 								$fn_t['idno'] = $fn_t['file'];
 								$HTMLtype = getHtmlElementArray($FullHTML, 'meta[name=DC.Type.articleType]', 'content');
@@ -182,22 +183,22 @@ function articlesFromToc($tocFile, $volIss) {
 								}
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
-								$fn_t['rdf'] .= ' xmlns:bq="http://bq.blakearchive.org/schema#"'.$nl;
+								$fn_t['rdf'] .= ' xmlns:'.$rdfCode.'="http://'.$mainServer.'/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:role="http://www.loc.gov/loc.terms/relators/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:collex="http://www.collex.org/schema#"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:dcterms="http://purl.org/dc/terms/">'.$nl;
 								$fn_t['rdf'] .= $nl;
-								$fn_t['rdf'] .= '	<bq:TEI.2 rdf:about="http://bq.blakearchive.org/'.$fn_t['idno'].'">'.$nl;
-								$fn_t['rdf'] .= '		<collex:source_html rdf:resource="http://bq.blakearchive.org/docs/'.$fn_t['file'].'"/>'.$nl;
-								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://bq.blakearchive.org/'.$fn_t['idno'].'"/>'.$nl;
+								$fn_t['rdf'] .= '	<'.$rdfCode.':TEI.2 rdf:about="http://'.$mainServer.'/'.$fn_t['idno'].'">'.$nl;
+								$fn_t['rdf'] .= '		<collex:source_html rdf:resource="http://'.$mainServer.'/docs/'.$fn_t['file'].'"/>'.$nl;
+								$fn_t['rdf'] .= '		<rdfs:seeAlso rdf:resource="http://'.$mainServer.'/'.$fn_t['idno'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:title>'.$fn_t['title'].'</dc:title>'.$nl;
 								foreach ($fn_t['authors'] as $author) {
 								$fn_t['rdf'] .= '		<role:AUT>'.$author.'</role:AUT>'.$nl;
 								}
 								$fn_t['rdf'] .= '		<collex:genre>'.$fn_t['collexGenre'].'</collex:genre>'.$nl;
-								$fn_t['rdf'] .= '		<collex:thumbnail rdf:resource="http://bq.blakearchive.org/img/illustrations/'.$fn_t['issueCover'].'"/>'.$nl;
+								$fn_t['rdf'] .= '		<collex:thumbnail rdf:resource="http://'.$mainServer.'/img/illustrations/'.$fn_t['issueCover'].'"/>'.$nl;
 								$fn_t['rdf'] .= '		<dc:date>'.$nl;
 								$fn_t['rdf'] .= '			<collex:date>'.$nl;
 								$fn_t['rdf'] .= '				<rdfs:label>'.$fn_t['seasonYear'].'</rdfs:label>'.$nl;
@@ -207,24 +208,24 @@ function articlesFromToc($tocFile, $volIss) {
 								$fn_t['rdf'] .= '		'.$nl;
 								if($fn_t['fileSplit'] == 'toc') {
 								 foreach($fn_t['articles'] as $article) {
-								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://bq.blakearchive.org/'.$article.'"/>'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:hasPart rdf:resource="http://'.$mainServer.'/'.$article.'"/>'.$nl;
 								 }
 								} else {
-								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/'.$fn_t['volume'].'.'.$fn_t['issue'].'.toc"/>'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://'.$mainServer.'/'.$fn_t['volume'].'.'.$fn_t['issue'].'.toc"/>'.$nl;
 								 if($fn_t['volIss'] == 'bonus') {
-								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://bq.blakearchive.org/bonus.toc"/>'.$nl;
+								$fn_t['rdf'] .= '		<dcterms:isPartOf rdf:resource="http://'.$mainServer.'/bonus.toc"/>'.$nl;
 								 }
 								}
 								$fn_t['rdf'] .= '		<dc:type>Periodical</dc:type>'.$nl;
-								$fn_t['rdf'] .= '		<dc:source>Blake/An Illustrated Quarterly</dc:source>'.$nl;
-								$fn_t['rdf'] .= '		<role:PBL>Blake/An Illustrated Quarterly</role:PBL>'.$nl;
-								$fn_t['rdf'] .= '		<collex:archive>bq</collex:archive>'.$nl;
+								$fn_t['rdf'] .= '		<dc:source>'.$archiveTitle.'</dc:source>'.$nl;
+								$fn_t['rdf'] .= '		<role:PBL>'.$archiveTitle.'</role:PBL>'.$nl;
+								$fn_t['rdf'] .= '		<collex:archive>'.$rdfCode.'</collex:archive>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>NINES</collex:federation>'.$nl;
 								$fn_t['rdf'] .= '		<collex:federation>18thConnect</collex:federation>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>Literature</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>Art History</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '		<collex:discipline>History</collex:discipline>'.$nl;
-								$fn_t['rdf'] .= '	</bq:TEI.2>'.$nl;
+								$fn_t['rdf'] .= '	</'.$rdfCode.':TEI.2>'.$nl;
 								$fn_t['rdf'] .= '</rdf:RDF>'.$nl;
 
 								

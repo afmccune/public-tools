@@ -2,10 +2,10 @@
                         <div id="header-inner">
                         	<div id="logo-search">
                         		<div id="logo">
-                            		<a href="/"><img src="img/general/BLAKE.gif" alt="Blake/An Illustrated Quarterly"/></a>
+                            		<a href="/"><img src="img/general/main.gif" alt="Issue Archive"/></a>
                             	</div>
 								<div id="archive-label">
-									<span><em>issue archive</em> 2000-2010</span>
+									<span><em>issue archive</em></span>
 								</div>
                             	<div id="search">
                             		<div id="search-form-holder">
@@ -22,7 +22,9 @@
                         </div>
                     </div>
 					<div id="minMaxVI" style="display:none;"><?php 
-					if($_SERVER['SERVER_NAME'] != 'localhost' && $_SERVER['SERVER_NAME'] != 'bq-dev.blakearchive.org') {
+					require('../../include.php');
+
+					if($_SERVER['SERVER_NAME'] != 'localhost' && $_SERVER['SERVER_NAME'] != $devServer) {
 						echo '<span id="minVol">'.$minVol.'</span><span id="minIss">'.$minIss.'</span><span id="maxVol">'.$maxVol.'</span><span id="maxIss">'.$maxIss.'</span>'; 
 					}
 					?></div>

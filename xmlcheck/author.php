@@ -3,6 +3,9 @@
 	<?php
 	$pt = '';
 	
+	$dir = ''; // enter directory path
+	$url = ''; // enter url
+	
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -38,7 +41,7 @@
 				
 			$docsXml = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -53,7 +56,7 @@
 
 						# LOAD XML FILE 
 						$XML = new DOMDocument(); 
-						$XMLstring = file_get_contents( '../../bq/docs/'.$fn_t['fn'] );
+						$XMLstring = file_get_contents( $dir.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
 						$XMLstring = preg_replace('/[ ]+/', ' ', $XMLstring);
@@ -148,7 +151,7 @@
 			}
 						
 			for ($i=0; $i<count($docsXml); $i++) {
-				print '<h4><a href="/bq/'.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
+				print '<h4><a href="'.$url.$docsXml[$i]['file'].'">'.$docsXml[$i]['file'].'</a></h4>';
 				foreach($docsXml[$i]['errors'] as $error) {
 					print '<p>'.$error.'</p>';
 				}

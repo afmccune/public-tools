@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -27,7 +28,7 @@ function linkCmp(array $a, array $b) {
 			
 						<?php
 												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/toc.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -40,7 +41,7 @@ function linkCmp(array $a, array $b) {
 								echo '<h4>'.$fn_t['file'].'</h4>';
 								
 								# LOAD HTML FILE 
-								$HTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$HTML = file_get_html($htmlDir.$fn_t['fn']);
 								$xpath = 'div[id=artInfo]'; //(count(getHtmlElementArray($HTML, 'div[id=articlecontent]', 'outertext'))>0) ? 'div[id=articlecontent]' : 'div[id=content]';
 								$HTMLbody = getHtmlElementArray($HTML, $xpath, 'outertext');
 								$HTMLstring = $HTMLbody[0];
@@ -51,7 +52,7 @@ function linkCmp(array $a, array $b) {
 								# START XSLT 
 								$xslt = new XSLTProcessor(); 
 								$XSL = new DOMDocument();
-								$XSL->load('xsl/quarterlyHtmlToc.xsl'); 
+								$XSL->load('xsl/htmlToc.xsl'); 
 								$xslt->importStylesheet( $XSL ); 
 								# TRANSFORM
 								$transformed = $xslt->transformToXML( $HTMLdoc ); 
@@ -66,22 +67,13 @@ function linkCmp(array $a, array $b) {
 									} 
 									foreach($HTMLlinks as $link) {
 										if(preg_match('/pdf/i', $link)) {
-											//$shortlink = str_replace('http://blake.lib.rochester.edu/blakeojs/index.php/blake/article/viewFile/', '', $link);
-											//echo '<p>'.$fn_t['file'].': <a href="'.$link.'">'.$shortlink.'</a></p>';
-											//$source = 'http://blake.lib.rochester.edu.libproxy.lib.unc.edu/blakeojs/index.php/blake/article/viewFile/'.$shortlink;
 											echo '<p>';
-											echo '<a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$link.'">'.$link.'</a> ';
+											echo '<a href="'.$url.$fn_t['file'].'">'.$fn_t['file'].'</a>: <a href="'.$link.'">'.$link.'</a> ';
 											
 											// Check if files are there
-											/*
-											$linkParts = explode('/', $shortlink);
-											$volume = substr($linkParts[1], -7, 2);
-											$issue = substr($linkParts[1], -5, 1);
-											$file = $linkParts[2];
-											*/
 											
-											if(file_exists('../../bq/'.$link)) {
-												echo '(in archive: <a href="/bq/'.$link.'.pdf">'.$link.'</a>)';
+											if(file_exists($mainDir.$link)) {
+												echo '(in archive: <a href="'.$url.$link.'.pdf">'.$link.'</a>)';
 											} else {
 												echo '(error: '.$link.' not downloaded to archive)';
 											}

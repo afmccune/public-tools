@@ -3,6 +3,7 @@
 	<?php
 	$pt = '';
 	
+	require('../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -23,7 +24,7 @@
 				
 			$allXmlVolIss = array();
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.toc.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -36,7 +37,7 @@
 				}
 			}
 			
-			$emendXML = simplexml_load_file('../../bq/docs/Emend.xml'); 
+			$emendXML = simplexml_load_file($dir.'Emend.xml'); 
 			$emendedIssues = $emendXML->xpath('//text//div1/@id'); // array
 			
 			$nonEmendedXmlIssues = array_diff($allXmlVolIss, $emendedIssues);

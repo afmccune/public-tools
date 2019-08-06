@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<?php
+	require('../../include.php');
+	
 	$nl = '
 ';
 	
@@ -45,7 +47,7 @@
 			// First, HTML
 			
 			$docsHtml = array(); 
-			foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+			foreach (new DirectoryIterator($htmlDir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[a-z]{1,}.html/', $fn->getFilename())) {
 					$fn_t = array();
 					
@@ -60,7 +62,7 @@
 					
 					// Only continue and show if on testing sites or published
 					if(showable($fn_t['volNum'], $fn_t['issueShort'])) {
-						$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+						$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 						$HTMLsrc = getHtmlElementArray($FullHTML, 'div[id=issueCoverImage] img', 'src');
 						$HTMLdate = getHtmlElementArray($FullHTML, 'div[id=issueDescription] p', 'innertext');
 						$fn_t['date'] = (strstr($HTMLdate[0], ':', true)) ? strstr($HTMLdate[0], ':', true) : $HTMLdate[0];

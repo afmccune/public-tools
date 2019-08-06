@@ -22,20 +22,20 @@
 				
 			$sorted = array();
 			
-			foreach (new DirectoryIterator("./wba/") as $fn) {
+			foreach (new DirectoryIterator("./archive/") as $fn) {
 				if (preg_match('/.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();
 
-					//$FullXML = simplexml_load_file('./wba/'.$fn_t['fn']); 
+					//$FullXML = simplexml_load_file('./archive/'.$fn_t['fn']); 
 					
 					$nl = '
 ';
 
 						# LOAD XML FILE 
 						$XML = new DOMDocument(); 
-						//$XML->load( './wba/'.$fn_t['fn'] );
-						$XMLstring = file_get_contents( './wba/'.$fn_t['fn'] );
+						//$XML->load( './archive/'.$fn_t['fn'] );
+						$XMLstring = file_get_contents( './archive/'.$fn_t['fn'] );
 						$remove = array("\n", "\r\n", "\r");
 						$XMLstring = str_replace($remove, ' ', $XMLstring);
 						$XML->loadXML($XMLstring);
@@ -65,36 +65,6 @@
 							}
 						}
 						
-						/*
-						$descs = explode('</desc>', $stripped);
-						
-						for($i=0; $i<count($descs)-1; $i++) {
-							$desc = array();
-							$open = '';//($i == count($descs)-1) ? '<bad>' : '';
-							$close = ($i == count($descs)-1) ? '' : '</desc>';
-							//$close = ($i == 0) ? '</desc></bad>' : $close;
-							
-							$chunk = $open.$descs[$i].$close;
-							if($chunk != '') { //if($chunk != '<bad></bad>') {
-								$FullXML = simplexml_load_string($chunk);
-								$XMLdescIDs = $FullXML->xpath('//desc/@id');
-								$desc['descID'] = (count($XMLdescIDs) > 0) ? $XMLdescIDs[0] : '';
-								$XMLphystexts = $FullXML->xpath('//desc//phystext');	
-								$desc['phystext'] = (count($XMLphystexts) > 0) ? $XMLphystexts[0] : '';
-								$desc['phystext'] = (count($XMLphystexts) > 1) ? implode(' ', $XMLphystexts) : $desc['phystext'];
-								
-								if($desc['descID'] == '') {
-									echo "<p>ERROR: ".$fn_t['fn']." missing a descID.</p>";
-								} else if ($desc['phystext'] == '') {
-									echo "<p>ERROR: ".$fn_t['fn']." (".$desc['descID'].") missing a phystext.</p>";
-								} else {
-									file_put_contents('new/'.$desc['descID'].'.txt', $desc['phystext']);
-									echo "<p>Success: ".$desc['descID']." processed.</p>";
-								}
-							}
-						}
-						*/
-					
 				}
 			}						
 

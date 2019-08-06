@@ -3,6 +3,9 @@
 <?php
 require('include/functions.php');
 
+$dir = ''; // enter directory path
+$url = ''; // enter url
+
 $nl = "
 ";
 
@@ -30,7 +33,7 @@ function linkCmp(array $a, array $b) {
 						
 						$allLinks = array();
 												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -40,9 +43,9 @@ function linkCmp(array $a, array $b) {
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 								$fn_t['split'] = $fileParts[2];
 													
-								//$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+								//$HTMLstring = file_get_contents($dir.$fn_t['fn']);
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($dir.$fn_t['fn']);
 								$FullHTML->find('div[id=custFooter]', 0)->innertext = '';
 								
 								/*
@@ -79,10 +82,10 @@ function linkCmp(array $a, array $b) {
 						usort($allLinks, 'linkCmp');
 						
 						foreach ($allLinks as $l) {
-							print '<h4><a href="/bq/'.$l['link'].'">'.$l['link'].'</a></h4>';
+							print '<h4><a href="'.$url.$l['link'].'">'.$l['link'].'</a></h4>';
 							print '<p>';
 							foreach($l['articles'] as $article) {
-								print '<a href="/bq/'.$article.'">'.$article.'</a>, ';
+								print '<a href="'.$url.$article.'">'.$article.'</a>, ';
 							}
 							print '</p>';
 						}

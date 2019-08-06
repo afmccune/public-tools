@@ -1,5 +1,5 @@
 	<head>
-                <title>Blake/An Illustrated Quarterly <?php echo $pt; ?></title>
+                <title>Issue Archive <?php echo $pt; ?></title>
                 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
                 <link rel="shortcut icon" href="img/general/favicon.ico" type="image/x-icon">
 				<link rel="icon" href="img/general/favicon.ico" type="image/x-icon">

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -22,7 +23,7 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../bq-xmltransform/new/") as $fn) {
+						foreach (new DirectoryIterator("../xmltransform/new/") as $fn) {
 							if (preg_match('/(.xml|.txt)/', $fn->getFilename())) {
 								$fn_t = array();
 								

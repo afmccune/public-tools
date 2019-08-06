@@ -3,6 +3,7 @@
 	<?php
 	$pt = '';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -22,7 +23,7 @@
 						<div id="articles-reviews-index">
 			<?php
 							
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -37,8 +38,8 @@
 					$fn_t['fileSplit'] = $fileParts[2];
 					*/
 					
-					if (file_exists('../../bq/pdfs/'.$fn_t['file'].'.pdf')) {
-					//if (file_exists('../bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf')) {
+					if (file_exists($pdfDir.$fn_t['file'].'.pdf')) {
+					//if (file_exists('../xmltransform/pdf-merge/'.$fn_t['file'].'.pdf')) {
 						// fine
 					} else {
 						print '<p>Missing PDF: '.$fn_t['file'].'.pdf</p>';

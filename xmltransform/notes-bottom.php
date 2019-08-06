@@ -30,10 +30,10 @@
 		$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT);
 		
 		//$dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
-		$dir = '/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
+		$pdfDir = '/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
 		$fn = $volTwoDig.'.'.$iss.'.'.$pThreeDig.'.pdf';
 		
-		return $dir.$fn;
+		return $pdfDir.$fn;
 	}
 	
 	$files = file_get_contents('lists/notes-bottom-ok.txt');

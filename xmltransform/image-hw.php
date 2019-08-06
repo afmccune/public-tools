@@ -2,12 +2,14 @@
 <html>
 <?php
 $pt = '';
+
+require('../../include.php');
 	
 $nl = '
 ';
 	
-$base_path = ($_SERVER['SERVER_NAME'] == 'bq.blakearchive.org' || $_SERVER['SERVER_NAME'] == 'bq-dev.blakearchive.org') ? '' : '../../bq/';
-$base_url_local = 'http://localhost:8888/bq/';
+$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
+$base_url_local = 'http://localhost:8888'.$url;
 
 require('include/functions.php');
 require('include/head.php');
@@ -87,12 +89,12 @@ function newWH($src, $rend, $w, $h, $isCover) {
 		
 		if($rend=='db') {
 			$fullSrc = 'http://www.blakearchive.org/images/'.$src.'.300.jpg';
-		} else if (strpos($src, 'bqscan') !== false) {
-			$fullSrc = '../../bq/img/illustrations/'.$src.'.png';
+		} else if (strpos($src, 'scan') !== false) {
+			$fullSrc = $illustrationDir.$src.'.png';
 		} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
-			$fullSrc = '../../bq/img/illustrations/'.$src.'.jpg';
+			$fullSrc = $illustrationDir.$src.'.jpg';
 		} else {
-			$fullSrc = '../../bq/img/illustrations/'.$src.'.300.jpg';
+			$fullSrc = $illustrationDir.$src.'.300.jpg';
 		}
 	
 		$imageinfo = getimagesize($fullSrc);
@@ -161,7 +163,7 @@ $replace['<figure type="(reviewed-cover|ad)"([ ]{0,1}[\/]{0,1})>'] = '<figure n=
 						<div id="articles-reviews-index">
 			<?php
 				
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();

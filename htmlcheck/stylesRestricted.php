@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../bq/include/functions.php');
+require('../../include.php');
+require($mainDir.'include/functions.php');
 
 $nl = "
 ";
@@ -20,7 +21,7 @@ $nl = "
 						<div id="allIssues">
 			
 						<?php
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -30,7 +31,7 @@ $nl = "
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 								$fn_t['fileSplit'] = $fileParts[2];
 													
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 
 								$HTMLstyle = getHtmlElementArray($FullHTML, 'style', 'innertext');
 								$restrictedHTMLstyle = array();
@@ -39,7 +40,7 @@ $nl = "
 									}
 								$styles = implode(' ', $restrictedHTMLstyle);
 								
-								echo '<h4><a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a></h4>';
+								echo '<h4><a href="'.$url.$fn_t['file'].'">'.$fn_t['file'].'</a></h4>';
 								echo '<pre>'.$styles.'</pre>';
 							}	
 						}

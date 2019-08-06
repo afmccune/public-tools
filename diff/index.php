@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -35,7 +36,7 @@ $nl = "
 								
 								$XMLtocFile = $fn_t['newVolIss'].'.toc';
 
-								$XMLtoc = simplexml_load_file('../../bq/docs/'.$XMLtocFile.'.xml');
+								$XMLtoc = simplexml_load_file($dir.$XMLtocFile.'.xml');
 								//$articles = $XMLtoc->xpath('//table//ref/@issue');
 								//$fn_t['articles'] = array_merge(array($XMLtocFile), $articles);
 								

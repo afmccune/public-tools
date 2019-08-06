@@ -1,6 +1,6 @@
 <!-- 
-	William Blake Archive
-	Blake/An Illustrated Quarterly: XSL Transform, single issue, full page
+	Image Archive
+	Journal Archive: XSL Transform, single issue, full page
 	William Shaw 1/19/2010
 	Joe Ryan, Adam McCune, Michael Fox 2013-2015
 -->

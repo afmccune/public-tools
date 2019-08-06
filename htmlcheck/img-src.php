@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -27,7 +28,7 @@ function linkCmp(array $a, array $b) {
 			
 						<?php
 												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -40,7 +41,7 @@ function linkCmp(array $a, array $b) {
 								$fn_t['split'] = $fileParts[2];
 													
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 								$FullHTML->find('div[id=custFooter]', 0)->innertext = '';
 								
 								
@@ -53,12 +54,12 @@ function linkCmp(array $a, array $b) {
 											$src = (strpos($src, '.jpg') || strpos($src, '.JPG') || strpos($src, '.png') || strpos($src, '.jpeg') || strpos($src, '.gif')) ? $src : $src.'.jpg';
 										
 											echo '<p>';
-											echo '<a href="/bq/'.$fn_t['file'].'">'.$fn_t['file'].'</a>: ';
+											echo '<a href="'.$url.$fn_t['file'].'">'.$fn_t['file'].'</a>: ';
 											
 											if(in_array($src, $ignore)) {
 												echo '(ignore)';
-											} else if(file_exists('../../bq/img/illustrations/'.$fn_t['volIss'].'/'.$src)) {
-												echo '(in archive: <a href="/bq/img/illustrations/'.$fn_t['volIss'].'/'.$src.'">'.$fn_t['volume'].'.'.$fn_t['issue'].'/'.$src.'</a>)';
+											} else if(file_exists($illustrationDir.$fn_t['volIss'].'/'.$src)) {
+												echo '(in archive: <a href="'.$illustrationDir.$fn_t['volIss'].'/'.$src.'">'.$fn_t['volume'].'.'.$fn_t['issue'].'/'.$src.'</a>)';
 											} else {
 												echo '(error: '.$fn_t['volIss'].'/'.$src.' not downloaded to archive)';
 											}

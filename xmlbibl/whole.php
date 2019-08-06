@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -23,7 +24,7 @@ $ind = "                        ";
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/xml/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 						if (preg_match('/[0-9]{3}-[0-9]{2}[-a-z0-9]{0,}.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -34,8 +35,8 @@ $ind = "                        ";
 								$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 								$fn_t['newVolIss'] = ($fn_t['volNum'] < 10) ? '0'.$fn_t['volNum'].'.'.$fn_t['issueNum'] : $fn_t['volNum'].'.'.$fn_t['issueNum'];
 								
-								$XMLstring = file_get_contents('../../bq/xml/'.$fn_t['fn']);
-								$FullXMLold = simplexml_load_file('../../bq/xml/'.$fn_t['fn']);
+								$XMLstring = file_get_contents($dir.$fn_t['fn']);
+								$FullXMLold = simplexml_load_file($dir.$fn_t['fn']);
 								
 								$oldCode = '';
 								$newCode = '';

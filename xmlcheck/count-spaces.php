@@ -5,6 +5,7 @@
 header("Content-Type: text/html; charset=utf-8");
 ini_set("default_charset", 'utf-8');
 
+require('../include.php');
 require('include/functions.php');
 						
 $nl = "
@@ -27,7 +28,7 @@ $nl = "
 						$previousVolIss = '0.0';
 												
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+						foreach (new DirectoryIterator($dir) as $fn) {
 							if (preg_match('/.xml/', $fn->getFilename())) {
 								$fn_t = array();
 								
@@ -37,7 +38,7 @@ $nl = "
 								$fn_t['fileSplit'] = $fileParts[2];
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 													
-								$XMLstring = file_get_contents('../../bq/docs/'.$fn_t['fn']);
+								$XMLstring = file_get_contents($dir.$fn_t['fn']);
 								$ct = substr_count($XMLstring, ' ');
 								
 								echo '<p>'.$fn_t['file'].':	'.$ct.'	spaces</p>';

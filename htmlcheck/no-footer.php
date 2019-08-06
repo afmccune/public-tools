@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -30,7 +31,7 @@ function linkCmp(array $a, array $b) {
 						
 						$allLinks = array();
 												
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							//if (preg_match('/[-a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 							if (preg_match('/45.1.bentley.html/', $fn->getFilename())) {
 								$fn_t = array();
@@ -40,40 +41,13 @@ function linkCmp(array $a, array $b) {
 								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
 								$fn_t['file'] = $fileParts[0].'.'.$fileParts[1].'.'.$fileParts[2];
 													
-								//$HTMLstring = file_get_contents('../bq/html/'.$fn_t['fn']);
+								//$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								
-								$FullHTML = file_get_html('../../bq/html/'.$fn_t['fn']);
+								$FullHTML = file_get_html($htmlDir.$fn_t['fn']);
 								$FullHTML->find('div[id=custFooter]', 0)->innertext = '';
 								
 								echo $FullHTML->plaintext;
 								
-								//$date = '';
-								/*
-								if($fn_t['volIss'] != $previousVolIss) {
-									//echo '<h4>'.$fn_t['volIss'].'</h4>';
-									$previousVolIss = $fn_t['volIss'];
-								}
-								
-								if (getHtmlElementArray($FullHTML, 'div[id=content] a', 'href')) {
-									$HTMLlinks = getHtmlElementArray($FullHTML, 'div[id=content] a', 'href');
-									foreach($HTMLlinks as $link) {
-										if(preg_match('/http:\/\/blake.lib.rochester.edu\/blakeojs/i', $link)) {
-											//$link = str_replace('http://blake.lib.rochester.edu/blakeojs', '', $link);
-											//echo '<p>'.$fn_t['file'].': '.$link.'</p>';
-											if(isset($allLinks[$link]) && count($allLinks[$link]['articles']) > 0) {
-												$allLinks[$link]['articles'][] = $fn_t['file'];
-											} else {
-												$allLinks[$link] = array();
-												$allLinks[$link]['link'] = $link;
-												$allLinks[$link]['articles'] = array();
-												$allLinks[$link]['articles'][] = $fn_t['file'];
-											}
-										}
-									}
-								} else {
-									print '<p>'.$fn_t['file'].' contains no "div[id=content] a".</p>';
-								}
-								*/
 								
 							}	
 						}
@@ -84,7 +58,7 @@ function linkCmp(array $a, array $b) {
 							print '<h4><a href="'.$l['link'].'">'.$l['link'].'</a></h4>';
 							print '<p>';
 							foreach($l['articles'] as $article) {
-								print '<a href="/bq/'.$article.'">'.$article.'</a>, ';
+								print '<a href="'.$url.$article.'">'.$article.'</a>, ';
 							}
 							print '</p>';
 						}

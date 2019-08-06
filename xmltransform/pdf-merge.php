@@ -5,6 +5,7 @@
 	$nl = '
 ';
 	
+	require('../../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 	
@@ -53,7 +54,7 @@
 				}
 			}
 			
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename())) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -66,7 +67,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 
 					$fileArray = array();
@@ -102,7 +103,7 @@
 						}
 					}
 
-					$base_dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/';
+					$base_dir = '/Applications/MAMP/htdocs/public-tools/xmltransform/';
 					
 					$titlePage = $base_dir.'pdf-title-pdf/'.$fn_t['file'].'.title.pdf';
 					if(!file_exists($titlePage)) {
@@ -137,10 +138,10 @@
 			echo '<h4>Refreshed merge.sh</h4>';
 			
 			// Set permissions for bash file
-			$result = shell_exec('cd /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash'.$nl.'chmod 775 merge.sh');
+			$result = shell_exec('cd /Applications/MAMP/htdocs/public-tools/xmltransform/bash'.$nl.'chmod 775 merge.sh');
 			
 			// Instructions to run bash file from Terminal (since we can't seem to get it to run from PHP)
-			echo '<h4>To run the merge, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/bq-tools/bq-xmltransform/bash/merge.sh</h4>';
+			echo '<h4>To run the merge, execute the following in Terminal: <br/> /Applications/MAMP/htdocs/public-tools/xmltransform/bash/merge.sh</h4>';
 			
 			?>
 			

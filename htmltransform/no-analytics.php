@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
+require('../../include.php');
 require('include/functions.php');
 	
 $nl = "
@@ -22,14 +23,14 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../../bq/html/") as $fn) {
+						foreach (new DirectoryIterator($htmlDir) as $fn) {
 							if (preg_match('/[\.a-z0-9]*.htm[l]?/', $fn->getFilename())) {
 								$fn_t = array();
 								
 								$fn_t['fn'] = $fn->getFilename();	
 								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);
 								
-								$HTMLstring = file_get_contents('../../bq/html/'.$fn_t['fn']);
+								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								
 								if(preg_match('/<!-- Google Analytics -->/', $HTMLstring)) {
 								
