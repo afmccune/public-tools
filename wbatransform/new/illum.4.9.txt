@@ -1,0 +1,1 @@
+    With the design transferred onto the copper plate, the etcher knows what to copy and, with the etching needle, scratches through the lines and darkened ground to expose the metal to acid, which, in the next stage, will etch the design into the metal.    

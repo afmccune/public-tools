@@ -1,0 +1,129 @@
+arch
+arm at side
+arm bent
+arm bent upward
+arm braced
+arm down
+arm drawn back
+arm extended
+arm raised
+arm raised horizontally
+arm raised vertically
+arms bent upward
+arms crossed
+arms extended
+arm vertical
+bald
+bending backward
+bending forward
+bending right
+body horizontal
+book
+branch
+bread
+buried
+candle
+child
+church
+climbing
+cloth
+cloud
+coil
+cross
+crouching
+dancing
+dead
+door
+drapery
+eyes
+eyes down
+eyes raised
+facing away
+facing down
+facing forward
+facing left
+facing right
+facing up
+female
+fire
+fist
+flying
+ghost
+Gothic art
+gown
+graveyard
+group of figures
+halo
+hand holding
+hat
+head
+head bent back
+head down
+holding
+hovering
+howling
+hunched over
+kneeling
+leaf
+leaning
+leg bent
+leg bent at knee
+leg braced
+leg drawn up
+leg extended
+leg extended backward
+legs bent
+legs drawn up
+legs extended
+long hair
+looking
+lying
+male
+moon
+mother
+mouth open
+night
+nude
+old
+open
+palm out
+palm up
+palm vertical
+partly nude
+plate
+prone
+pulling
+pushing
+reaching
+reacing
+reading
+reclining
+resting
+roof
+running
+seen from behind
+short hair
+shoulder
+sitting
+sky
+speaking
+spiral
+spire
+squatting
+staff
+stairs
+standing
+step
+striding
+supine
+tiptoe
+tomb
+tombstone
+touching
+tree
+trunk
+twisted
+upper body
+upside down
+walking
+young

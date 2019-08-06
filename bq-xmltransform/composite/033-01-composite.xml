@@ -1,0 +1,839 @@
+<?xml version="1.0"?>
+<TEI.2>
+  <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+ <idno>33.1.toc</idno>
+    <fileDesc>
+      <titleStmt>
+        <title type="toc">Contents</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Summer 1999</edition>
+      </editionStmt>
+      <publicationStmt>
+        <date>1999</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Blake/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">33.1</biblScope>
+                        <biblScope unit="volume">33</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+            <respStmt>
+              <resp>Editors</resp>
+              <name>Morris Eaves</name>
+              <name>Morton D. Paley</name>
+              <resp>Managing Editor</resp>
+              <name>Patricia Neill</name>
+              <resp>Bibliographer</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <resp>Review Editor</resp>
+              <name>Nelson Hilton</name>
+              <resp>Associate Editor for Great Britain</resp>
+              <name>David Worrall</name>
+              <resp>Advisory Board</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <name>Martin Butlin</name>
+              <name>D.W. Börrbecker</name>
+              <name>Robert N. Essick</name>
+              <name>Angela Esterhammer</name>
+              <name>Nelson Hilton</name>
+              <name>Anne K. Mellor</name>
+              <name>Joseph Viscomi</name>
+              <name>David Worrall</name>
+              <resp>Contributors</resp>
+              <name>Elizabeth B. Bentley</name>
+              <name>G.E. Bentley, Jr.</name>
+              <name>Claire Colebrook</name>
+              <name>Angela Esterhammer</name>
+              <name>Nelson Hilton</name>
+              <name>David Perkins</name>
+              <name>Joe Riehl</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Department of English, University of Rochester</publisher>
+            <pubPlace>Rochester, NY, USA</pubPlace>
+            <date value="1999"/>
+            <authority>William Blake Archive</authority>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text id="volume_33">
+    <front>
+      <pb id="p33-1-2" n="1-2"/>
+      <div1 id="cover">
+        <figure n="cover.033.01.bqscan" rend="file">
+          <figTranscr>BLAKE<lb/>
+            AN ILLUSTRATED QUARTERLY<lb/>
+            Nelson Hilton's "Blake's Digital Text Project" Explained<lb/>
+            VOLUME 33<lb/>
+            NUMBER 1<lb/>
+            SUMMER 1999</figTranscr>
+        </figure>
+      </div1>
+      <div1 id="BQ-33-1-0001">
+        <table id="contents" rows="11" cols="2">
+          <row>
+            <cell>
+        	  <head>
+          		<title>CONTENTS</title>
+        	  </head>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Articles</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.perkins">Animal Rights and “Auguries of Innocence”</ref><lb/><hi rend="i">by David Perkins</hi></cell>
+            <cell>
+              <hi rend="i">4</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.hilton">www.english.uga.edu/wblake</ref><lb/><hi rend="i">by Nelson Hilton</hi></cell>
+            <cell>
+              <hi rend="i">11</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Minute Particular</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.riehl">Bernard Barton’s Contribution to Cunningham’s “Life of Blake”: A New Letter</ref><lb/><hi rend="i">by Joe Riehl</hi></cell>
+            <cell>
+              <hi rend="i">16</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Reviews</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.bentley">David Linnell, <hi rend="i">Blake, Palmer, Linnell and Co.: The Life of John Linnell</hi></ref><lb/><hi rend="i">Reviewed by G.E. Bentley, Jr.</hi></cell>
+            <cell>
+              <hi rend="i">21</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.esterhammer">William Blake. <hi rend="i">Zwischen Feuer und Feuer. Poetische Werke. Zweisprachige Ausgabe</hi> and William Blake. <hi rend="i">Milton. Ein Gedicht</hi></ref><lb/><hi rend="i">Reviewed by Angela Esterhammer</hi></cell>
+            <cell>
+              <hi rend="i">24</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Newsletter</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="33.1.news">Urizen in New York City</ref><lb/><hi rend="i">by Dr. Elizabeth B. Bentley</hi></cell>
+            <cell>
+              <hi rend="i">27</hi>
+            </cell>
+          </row>
+        </table>
+      </div1>
+      <div1 id="BQ-33-1-0002">
+        <head>
+          <title>ADVISORY BOARD</title>
+        </head>
+        <p>G. E. Bentley, Jr., University of Toronto, retired</p>
+        <p>Martin Butlin, London</p>
+        <p>Detlef W. Dörrbecker, University of Trier</p>
+        <p>Robert N. Essick, University of California, Riverside</p>
+        <p>Angela Esterhammer, University of Western Ontario</p>
+        <p>Nelson Hilton, University of Georgia</p>
+        <p>Anne K. Mellor, University of California, Los Angeles</p>
+        <p>Joseph Viscomi, University of North Carolina at Chapel Hill</p>
+        <p>David Worrall, St. Mary’s College</p>
+      </div1>
+      <pb id="p33-3" n="3"/>
+      <div1 id="BQ-33-1-0003">
+        <head>
+          <title>CONTRIBUTORS</title>
+        </head>
+        <p>Elizabeth B. Bentley, aka Beth Budd Bentley, has done research on William Blake on five continents. She has lived with William Blake for 47 years, which is better than Catherine Blake did. But she is not so proficient with a pencil or a printing press as Catherine was.</p>
+        <p>G. E. Bentley, Jr. is completing <hi rend="i">The Stranger from Paradise</hi>, a biography of William Blake.</p>
+        <p>Claire Colebrook teaches in the Centre for Comparative Literature and Cultural Studies at Monash University. She is the author of <hi rend="i">New Literary Histories</hi> (1997) and <hi rend="i">Ethics and Representation</hi> (1999). She is also the co-editor of <hi rend="i">Deleuze and Feminist Theory</hi> (1999).</p>
+        <p>Angela Esterhammer is Associate Professor of English and Comparative Literature at the University of Western Ontario. She is the author of <hi rend="i">Creating States: Studies in the Performative Language of John Milton and William Blake. The Romantic Performative</hi> is forthcoming from Stanford University Press.</p>
+        <p>Nelson Hilton’s “Hymns and Blake’s <hi rend="i">Songs</hi>” appears in <hi rend="i">Blake in the Nineties</hi>, edited by Steve Clark and David Worrall and recently published by St. Martin’s Press.</p>
+        <p>David Perkins is Marquand Professor, Emeritus at Harvard University. He has published books and articles on romantic poetry, modern poetry, and other topics. He is currently at work on a book on <hi rend="i">Romanticism and Animal Rights.</hi></p>
+        <p>Joe Riehl is Professor of English at the University of Southwestern Louisiana. He is at work, with Edwin Marrs, Jr., completing the remaining three volumes of <hi rend="i">The Letters of Charles and Mary Anne Lamb.</hi></p>
+      </div1>
+      <div1 id="BQ-33-1-0004">
+        <head>
+          <title>EDITORS</title>
+        </head>
+        <p>EDITORS: Morris Eaves and Morton D. Paley</p>
+        <p>BIBLIOGRAPHER: G. E. Bentley, Jr.</p>
+        <p>REVIEW EDITOR: Nelson Hilton</p>
+        <p>ASSOCIATE EDITOR FOR GREAT BRITAIN: David Worrall</p>
+        <p>PRODUCTION OFFICE: Patricia Neill, Department of English, University of Rochester, Rochester, NY 14627</p>
+        <p>MANAGING EDITOR: Patricia Neill<lb/>
+TELEPHONE 716/275-3820<lb/>
+FAX 716/442-5769<lb/>
+PRODUCTION OFFICE EMAIL: pnpj@uhura.cc.rochester.edu</p>
+        <p>Morris Eaves, Department of English, University of Rochester, Rochester NY 14627<lb/>
+Email: meav@uhura.cc.rochester.edu</p>
+        <p>Morton D. Paley, Department of English, University of California, Berkeley CA 94720-1030<lb/>
+Email: mpaley@socrates.berkeley.edu</p>
+        <p>G. E. Bentley, Jr., 246 MacPherson Avenue, Toronto, Ontario M4V 1A2. The University of Toronto declines to forward mail.<lb/>
+Email: GBentley@chass.utoronto.ca</p>
+        <p>Nelson Hilton, Department of English, University of Georgia, Athens, GA 30602<lb/>
+Email: nhilton@uga.cc.uga.edu</p>
+        <p>David Worrall, St. Mary’s College, Strawberry Hill, Waldegrave Road, Twickenham TW1 4SX England<lb/>
+Email: worralld@mailnt.smuc.ac.UK</p>
+      </div1>
+      <div1 id="BQ-33-1-0005">
+        <head>
+          <title>INFORMATION</title>
+        </head>
+        <p><hi rend="i">BLAKE / AN ILLUSTRATED QUARTERLY</hi> is published under the sponsorship of the Department of English, University of Rochester.</p>
+        <p>SUBSCRIPTIONS are $55 for institutions, $30 for individuals. All subscriptions are by the volume (1 year, 4 issues) and begin with the summer issue. Subscription payments received after the summer issue will be applied to the 4 issues of the current volume. Foreign addresses (except Canada and Mexico) require a $10 per volume postal surcharge for surface, and $25 per volume surcharge for air mail delivery. U.S. currency or international money order necessary. Make checks payable to <hi rend="i">Blake/An Illustrated Quarterly.</hi> Address all subscription orders and related communications to Patricia Neill, <hi rend="i">Blake</hi>, Department of English, University of Rochester, Rochester, NY 14627.</p>
+        <p>BACK ISSUES are available at a reduced price. Address Patricia Neill for a list of issues and prices.</p>
+        <p>MANUSCRIPTS are welcome. Send two copies, typed and documented according to forms suggested in <hi rend="i">The MLA Style Manual</hi>, to either of the editors: Morris Eaves, Dept. of English, University of Rochester, Rochester, NY 14627; Morton D. Paley, Dept. of English, University of California, Berkeley, CA 94720-1030. Electronic submissions are encouraged. You may send a diskette, or you may send your article as an attachment to an email message. The optimal format is Microsoft Word. Other formats are usually acceptable.</p>
+        <p>INTERNATIONAL STANDARD SERIAL NUMBER: 0160-628x. <hi rend="i">Blake/An Illustrated Quarterly</hi> is indexed in the Modern Language Association’s International Bibliography, the Modern Humanities Research Association’s Annual Bibliography of English Language and Literature, <hi rend="i">The Romantic Movement: A Selective and Critical Bibliography</hi> (ed. David V. Erdman et al.), American Humanities Index, Arts and Humanities Citation Index, Current Contents and the <hi rend="i">Bibliography of the History of Art.</hi><note type="unreferenced" place="footer">© 1999 Copyright Morris Eaves and Morton D. Paley</note></p>
+      </div1>
+    </front>
+  </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <pb id="p33-4" n="4"/>
+      <div1 id="BQ-33-1-0006">
+        <head>
+          <title type="section">ARTICLES</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">Animal Rights and “Auguries of Innocence”</title>
+          </head>
+          <byline>by <docAuthor>David <name>Perkins</name></docAuthor></byline>
+          <p>Sermons, magazines, novels, pamphlets, children’s literature, and Parliamentary speeches in Blake’s time denounced cruelties to animals. In 1822 Richard Martin, introducing his bill in Parliament against cruelty to cattle, could claim that “there was not a pulpit in London that had not spoken in a pronounced manner in approbation of it.”<ref target="n1" type="note">1</ref> The practices that reformers condemned were traditional, highly visible, and hitherto unregulated by law or social opinion. Blake’s “Auguries of Innocence” alludes to several of them: the caging of wild birds as parlor pets, the whipping, goading, overloading, and overdriving of horses and oxen, the use of animals in war, hunting, cockfighting, cruelties of the slaughter house, and childish plundering of birds’ nests and tormenting of insects. The campaign of reform was part of a profound swing of middle-class sentiment, which was also expressed in poetry, such as Blake’s “Auguries of Innocence,” Coleridge’s “Rime of the Ancient Mariner,” Wordsworth’s “Hart Leap Well,” Burns’s “To a Mouse,” and passages in Cowper’s <hi rend="i">Task</hi> and Christopher Smart’s <hi rend="i">Jubilate Agno.</hi><ref target="n2" type="note">2</ref> And the poetry also had practical effect, swaying opinion. <note id="n1"><hi rend="s">1</hi><hi rend="i"> Hansard</hi>, vol. 7, 24 May 1822, cols. 758-59, cited in Hilda Kean, <hi rend="i">Animal Rights: Political and Social Change in Britian Since 1800</hi> (London: Reaktion, 1998) 35.</note><note id="n2"><hi rend="s">2</hi> For a survey of the campaign in the eighteenth century and the Romantic era, see Keith Thomas, <hi rend="i">Man and the Natural World: Changing Attitudes in England, 1500-1800</hi> (London: Allen Lane, 1983) 36-192. The following books deal mainly with Victorian and modern developments, but have some preliminary material on the period of Blake’s lifetime: Ernest S. Turner, <hi rend="i">All Heaven in a Rage</hi> (New York: St. Martin’s Press, 1965); Harriet Ritvo, <hi rend="i">The Animal Estate: The English and Other Creatures in the Victorian Age</hi> (Cambridge, MA: Harvard UP, 1987); James Turner, <hi rend="i">Reckoning with the Beast: Animals, Pain, and Humility in the Victorian Mind</hi> (Baltimore: Johns Hopkins UP, 1980); Hilda Kean, <hi rend="i">Animal Rights: Political and Social Change in Britain since 1800</hi> (London: Reaktion, 1998). Discussion of poems on this topic include Dix Harwood, <hi rend="i">Love for Animals and How It Developed in Great Britain</hi> (New York: no publisher listed, 1928) and Dagobert De Levie, <hi rend="i">The Modern Idea of the Prevention of Cruelty to Animals</hi> (New York: S. F. Vanni, 1947). I have written on the complex relation of certain poets and poems to the campaign on behalf of animals: “Cowper’s Hares,” <hi rend="i">Eighteenth Century Life</hi> 20 (1996): 57-69; “Wordsworth and the Polemic against Hunting: ‘Hart-Leap Well,’” <hi rend="i">Nineteenth-Century Literature</hi> 52 (1998): 421-45; “Compassion for Animals and Radical Politics: Coleridge’s ‘To a Young Ass,’” <hi rend="i">ELH</hi> 65 (1998): 929-44 ; and “Sweet Helpston! John Clare on Badger Baiting,” forthcoming in <hi rend="i">Studies in Romanticism.</hi></note></p>
+          <p>The animals in Blake’s poetry are mostly traditional metaphors— the lark of joy, the wolf of ferocity, the grave’s hungry worm, the gentle lamb. Such images are unrelated to the protest on behalf of animals. But a few passages voice, as it seems, utmost sympathy and compassion for animals, and indignation at their treatment, and some of these passages are still quoted as oracles of animal rights. “As it seems,” because, like most of Blake’s poetry, these texts sustain multiple, sometimes discrepant interpretations.</p>
+          <p>For example, the first couplet that speaks of animals in “Auguries of Innocence” goes,
+<q>
+A Robin Red breast in a Cage<lb/>
+Puts all Heaven in a Rage.<ref target="n3" type="note">3</ref><lb/>
+(lines 5-6) <note id="n3"><hi rend="s">3</hi> “Auguries of Innocence,” in <hi rend="i">William Blake’s Writings</hi>, ed. G. E. Bentley, Jr., 2 vols. (Oxford: Clarendon Press, 1978) 2: 1312. Further quotations from this poem are identified only by line numbers in the text.</note></q>
+The literature of Blake’s time abounded in sympathy with wild birds and denunciations of keeping them in cages. James Thomson thought the practice “inhuman,” and compared the captive birds to “pretty slaves,” thus evoking the harem, though women were likely to be the captors.<ref target="n4" type="note">4</ref> Women poets were especially drawn to the theme, as one sees in lyrics by Elizabeth Bentley, Ann Yearsley, Helen Maria Williams, Ann and Jane Taylor, Mary Robinson, and Letitia Barbauld. For all these poets, to confine a wild bird is not a kindness but a thoughtless cruelty, though some of them doubt whether the prisoners could survive in freedom.<ref target="n5" type="note">5</ref> The robin especially was viewed as a friendly, trusting bird that would often come into a house for a crumb. To cage one had a smack of betrayal. One of the most popular books for children told the story of four young robins, Sara Trimmer’s <hi rend="i">Fabulous Histories, Designed For the Instruction of Children, Respecting Their Treatment of Animals</hi> (1786). Emphatically it warns children not to cage robins.<ref target="n6" type="note">6</ref> That God loves <hi rend="i">all</hi> his creatures was pointed out repeatedly in church, in Methodist, open-air
+<pb id="p33-5" n="5"/>
+meetings, in magazine essays, pamphlets, Parliament, and, as I said, in books for children. A grand couplet in “Auguries of Innocence” affirms that heaven incessantly hears the cries of the animals:
+<q>
+The Bleat, the Bark, Bellow &amp; Roar<lb/>
+Are waves that Beat on Heaven’s Shore.<lb/>
+(lines 71-72)
+</q>
+Because ill treatment of animals was impious, it was dangerous (as the Ancient Mariner discovers), for heaven would revenge. In Christopher Smart’s fable “A Story of a Cock and a Bull,” the cock is reassured “from out the sky”: the man who baits a bull will himself be refused mercy.<ref target="n7" type="note">7</ref> In a sermon of unknown authorship against the cruel sport of throwing cocks, the congregation is warned that “Clemency to the inferior Animals is a Duty from us as we . . . are Christians; and . . . our Happiness in the future World depends in some Measure on our practice of it.”<ref target="n8" type="note">8</ref> To write, as Blake did, that heaven threatens because of a caged robin was to repeat a simple, pious truth habitually impressed on children. Blake’s innocent reads this augury as he or she has been taught. <note id="n4"><hi rend="s">4</hi> James Thomson, <hi rend="i">The Seasons</hi>, “Spring,” in <hi rend="i">Complete Poetical Works</hi>, ed. J. Logie Robertson (London: Oxford UP, 1908) 29.</note><note id="n5"><hi rend="s">5</hi> Most of these poems are in <hi rend="i">British Women Poets of the Romantic Era</hi>, ed. Paula R. Feldman (Baltimore: The Johns Hopkins UP, 1957): Elizabeth Bentley, “To a Redbreast, That Flew into the House, and Suffered Itself to be Taken by the Hand of the Authoress,” 89-90; Ann Yearsley, “The Captive Linnet,” 838-40; Helen Maria Williams, “Elegy on a Young Thrush, Which Escaped from the Writer’s Hand, and Falling Down the Area of a House, Could Not Be Found,” 808-09; Ann Taylor and Jane Taylor, “The Little Bird’s Complaint to his Mistress,” and “The Mistress’s Reply to Her Little Bird,” 736-38; Mary Robinson, “The Linnet’s Petition,” 595-98. Anna Laetitia Barbauld, “Epitaph on a Goldfinch,” <hi rend="i">Works</hi>, 2 vols. (New York: G. &amp; C. Carvill, et. al., 1826) 2: 322-23.</note><note id="n6"><hi rend="s">6</hi> Sarah Trimmer, <hi rend="i">The Story of the Robins: Designed to Teach Children the Proper Treatment of Animals</hi> (London: Frederick Warne and Co., 1873) 28.</note><note id="n7"><hi rend="s">7</hi> Christopher Smart, “A Story of a Cock and a Bull,” <hi rend="i">Collected Poems</hi>, ed. Norman Callan, 2 vols. (London: Routledge and Kegan Paul, 1949) 1: 69.</note><note id="n8"><hi rend="s">8</hi><hi rend="i"> Clemency to Brutes, The Substance of Two Sermons Preached on a Shrove-Sunday</hi> . . . (Dublin: Peter and William Wilson, 1769) 11.</note></p>
+          <p>How we read it today of course depends on the context we bring to bear and also on the particular reader. The once-common approach to Blake through occult and traditional lore yields, in the case of John Adlard, a legend of “the robin bloodying his breast in removing thorns from Christ’s head, or scorching it in carrying a beakful of water through the fires of Hell.” Adlard, deeply versed in folklore about birds, tells that the robin and the wren were “sacred.” “There is a Cornish rhyme:
+<q>
+Hurt a robin or a wran,<lb/>
+Never prosper, boy or man,
+</q>
+which was surely in Blake’s mind” when he wrote “Auguries of Innocence.”<ref target="n9" type="note">9</ref> For other readers the whole body of Blake’s work in literature and the visual arts make the most relevant context for interpreting any of his productions. Most of these readers have not commented on the robin, but Hazard Adams says that the theme of this couplet is “enclosure.” He maintains that a caged robin pictures “man surrounding himself unimaginatively with a prison of Lockean matter.”<ref target="n10" type="note">10</ref> For me the caged bird associates with the one in Blake’s “Song: How sweet I roam’d from field to field,” and thus the couplet activates Blake’s problematic of sexual confinement and liberty. The bird that has lost its freedom may figure the phallus, as birds do in “The Blossom” of <hi rend="i">Songs of Innocence.</hi> The “heaven” of Blake’s couplet is an ambiguous concept, since it may represent the transcendent realm known to visionary innocence or repressive, Urizenic morality, as in <hi rend="i">The Marriage of Heaven and Hell.</hi><note id="n9"><hi rend="s">9</hi> John Adlard, <hi rend="i">The Sports of Cruelty: Fairies, Folk-Songs, Charms and Other Country Matters in the Work of William Blake</hi> (London: Cecil and Amelia Woolf, 1972) 17-18.</note><note id="n10"><hi rend="s">10</hi> Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi> (Seattle: Washington UP, 1963) 161.</note></p>
+          <div3>
+            <head>
+              <title>II</title>
+            </head>
+            <p>Literature provoked or challenged sympathy for animals by taking as its object an especially humble or—better still!—repellent creature. The best-known instances are in Schiller and Goethe, in Schiller’s inclusion of the worm in the ode “To Joy” and in Werther’s gush of sympathy, as he lies in the grass, for the worms and flies.<ref target="n11" type="note">11</ref> Wordsworth, Southey, Barbauld, and John Clare voiced affection for flies, spiders, caterpillars, and beetles.<ref target="n12" type="note">12</ref> Catherine Anne Dorset’s address to the coccinellid beetle is still taught to children:
+<q>
+Oh! Lady-bird, Lady-bird, why dost thou roam<lb/>
+So far from thy comrades, so distant from home?<ref target="n13" type="note">13</ref></q>
+Many an English preacher reapplied Job’s despairing, “I have said . . . to the worm, Thou art my mother, and my sister” (Job, 17, 14), as a command of tenderness to animals.<ref target="n14" type="note">14</ref> Blake’s <hi rend="i">Book of Thel</hi> takes this tactic to a sentimental but imaginatively brilliant extreme by describing a worm as a helpless, naked, and weeping infant. As such the worm arouses maternal emotions in the clod of clay and presumably in the reader also.<ref target="n15" type="note">15</ref><note id="n11"><hi rend="s">11</hi> Friedrich Schiller, “An die Freude,” line 31, in <hi rend="i">Das grosse deutsche Gedichtbuch</hi>, ed. Karl Otto Conrady (Königstein: Athenäum Verlag, 1978) 290; Johann Wolfgang von Goethe, <hi rend="i">Die Leiden des jungen Werther</hi>, in <hi rend="i">Werke</hi>, ed. Georg Witkowski, 12 vols. (Leipzig: H. Fikentscher, no date) 6: 9.</note><note id="n12"><hi rend="s">12</hi> The poems are William Wordsworth, “Written in Germany”; Robert Southey, “The Spider”; Anna Laetitia Barbauld, “The Caterpillar”; John Clare, “Clock a Clay.”</note><note id="n13"><hi rend="s">13</hi> Catherine Ann Dorset, “To the Lady-Bird,” in <hi rend="i">British Women Poets of the Romantic Era</hi> 230.</note><note id="n14"><hi rend="s">14</hi> James Granger, <hi rend="i">An Apology for the Brute Creation, or Abuses of Animals Censured; In a Sermon on Proverbs, XII, 10</hi> (London: T. Davies, 1773) 9-10; <hi rend="i">Clemency to Brutes</hi>, “the very meanest Worm is our Sister” 6.</note><note id="n15"><hi rend="s">15</hi> “The Book of Thel,” lines 75-82, in <hi rend="i">Writings</hi>, ed. Bentley 1: 69.</note></p>
+            <p>Many writers conceived that tiny creatures such as insects had especially delicate, intense sensations. To cite Alexander Pope:
+<q>
+The spider’s touch, how exquisitely fine!<lb/>
+Feels at each thread, and lives along the line.<ref target="n16" type="note">16</ref><note id="n16"><hi rend="s">16</hi> Alexander Pope, “Essay on Man,” 1: 217-18, <hi rend="i">An Essay on Man</hi>, ed. Maynard Mack (London: Methuen &amp; Co., 1950) 42.</note></q><pb id="p33-6" n="6"/>
+If this was so, such creatures might also be susceptible of acute pain. The worm is “tortured” on the fisherman’s hook, said Thomson, and twists “in agonizing folds.”<ref target="n17" type="note">17</ref> As for a fly in a spider’s web,
+<q>
+the fluttering wing<lb/>
+And shriller sound declare extreme distress,<lb/>
+And ask the helping hospitable hand.<ref target="n18" type="note">18</ref><note id="n17"><hi rend="s">17</hi> James Thomson, “Spring,” <hi rend="i">The Seasons</hi>, in <hi rend="i">Complete Poetical Works</hi> 18.</note><note id="n18"><hi rend="s">18</hi> James Thomson, “Summer,” <hi rend="i">The Seasons</hi>, in <hi rend="i">Complete Poetical Works</hi> 63.</note></q>
+In Blake’s <hi rend="i">Book of Thel</hi>, the language on the worm resembles Cowper’s in <hi rend="i">The Task</hi>, where Cowper famously condemns the man “Who needlessly sets foot upon a worm” or crushes “the snail / That crawls at evening in the public path.”<ref target="n19" type="note">19</ref> Thel also alludes to the common religious argument I mentioned:
+<q>
+That God would love a Worm I knew, and punish the evil foot<lb/>
+That wilful, bruis’d its helpless form.<ref target="n20" type="note">20</ref><note id="n19"><hi rend="s">19</hi> William Cowper, <hi rend="i">The Task</hi>, VI, <hi rend="i">The Poetical Works of William Cowper</hi> 2 vols. (London: William Pickering, 1830) 2: 180.</note><note id="n20"><hi rend="s">20</hi> “The Book of Thel,” lines 94-95, in <hi rend="i">Writings</hi>, ed. Bentley 1: 70.</note></q>
+But one could also read Blake’s poem as ironic about the kindliness of the vale of Har. Thel’s final, terrified retreat suggests that a tougher, more energetic virtue is needed. 
+                            
+                        </p>
+            <p>Had Blake’s contemporaries read his <hi rend="i">Songs of Innocence</hi>, they would certainly have thought it a book for children. Such books often depicted idyllic relations between children and animals, as Blake does in “The Lamb.” They also humanized animals, that is, they endowed them with human emotions, and completely sympathetic ones. The ants, glow worm, and beetle in Blake’s “A Dream” are an example. “The Fly” in <hi rend="i">Songs of Experience</hi> is another poem of sympathy with an insect. As in Robert Burns’s “To a Mouse,” the feeling of affection and identification in this poem is activated by guilt at having injured the bug inadvertently:
+<q>
+Little Fly<lb/>
+Thy summers play<lb/>
+My thoughtless hand<lb/>
+Has brush’d away.<lb/><lb/>
+Am not I<lb/>
+A fly like thee.<ref target="n21" type="note">21</ref><note id="n21"><hi rend="s">21</hi> William Blake, “The Fly,” lines 1-6, <hi rend="i">Songs of Experience</hi>, in <hi rend="i">Writings</hi>, 1: 182.</note></q></p>
+            <p>For today’s reader of Blake, the happiness of the animals in <hi rend="i">Songs of Innocence</hi> expresses a perspective, the world as seen by the innocent mind:
+<q>
+Birds delight<lb/>
+Day and Night.<lb/>
+Nightingale<lb/>
+In the dale,<lb/>
+Lark in Sky<lb/>
+Merrily . . .<ref target="n22" type="note">22</ref><note id="n22"><hi rend="s">22</hi> William Blake, “Spring,” lines 3-8, <hi rend="i">Songs of Innocence</hi>, in <hi rend="i">Writings</hi>, 1: 45.</note></q>
+But in Blake’s time enlightened persons believed in the natural happiness of animals as an objective truth. They are “born for joy,” as Blake’s school boy puts it—
+<q>
+How can the bird that is born for joy,<lb/>
+Sit in a cage and sing?<ref target="n23" type="note">23</ref><note id="n23"><hi rend="s">23</hi> William Blake, “The School Boy,” lines 16-17, in <hi rend="i">Songs of Innocence</hi>, in <hi rend="i">Writings</hi> 1: 59.</note></q>
+Innumerable descriptions of animals in Romantic poetry present them as bundles of gladness—the flitting, singing, soaring birds, the bounding deer and lambs, even the owls in Wordsworth’s “There Was a Boy.” To describe them otherwise would have impugned God’s benevolence. There are, of course, exceptions, such as Keats’s limping hare and “small gnats” that “mourn.”<ref target="n24" type="note">24</ref> But these hardly matter against the total affirmation of animal happiness. We are speaking, of course, of animals as God intended them to be, animals living their wild lives in freedom or domestic animals rightly treated. When animals were hunted, driven, imprisoned, or otherwise tormented, their sufferings were all the more shocking to reformers, since humans caused them and, in doing so, deprived animals of their natural endowment, or rather of their endowment from heaven. <note id="n24"><hi rend="s">24</hi> John Keats, “The Eve of St. Agnes,” lines 3 and “To Autumn,” line 27, in <hi rend="i">Poetical Works</hi>, ed. H. W. Garrod (London: Oxford UP, 1956) 195, 219.</note></p>
+          </div3>
+          <div3>
+            <head>
+              <title>III</title>
+            </head>
+            <p>“Auguries of Innocence” was not printed during Blake’s lifetime. G. E. Bentley, Jr., the editor of Blake’s writings in the Oxford edition, believes that the sole, surviving text was copied from an earlier manuscript, now lost, after 1805 and possibly after 1807. He thinks the poem was composed at some time between 1800 and 1804; other editors suggest about 1803.<ref target="n25" type="note">25</ref><note id="n25"><hi rend="s">25</hi> William Blake, <hi rend="i">Writings</hi>, ed. Bentley, 2: 1733n. <hi rend="i">The Complete Writings of William Blake</hi>, ed. Geoffrey Keynes (London: Oxford UP, 1966) 907n.</note></p>
+            <p>This would place “Auguries of Innocence” during the period when Blake was a friend and protégé of the gentleman writer William Hayley. Living in the rural village of Felpham, Blake was a neighbor of Hayley and saw a great deal of him. Before Blake’s stay in Felpham, Hayley’s poems and memoirs do not express any particular sentiment about animals.
+<pb id="p33-7" n="7"/>
+But he was a friend of William Cowper and of Cowper’s circle, became Cowper’s biographer, and probably shared Cowper’s compassionate, protective feeling for animals for which Cowper was well-known. Denouncing cruelty to animals in “Auguries of Innocence,” Blake may have been confident of Hayley’s approval. Possibly he thought Hayley would help publish the work.</p>
+            <p>Such a hope might have been suggested by Hayley’s project of <hi rend="i">Ballads: Founded on Anecdotes Relating to Animals.</hi> In order to employ Blake and acquaint Hayley’s genteel friends with his skills as an artist, Hayley planned to write a series of poems for Blake to illustrate. Each would be published as a separate pamphlet. When this proved too expensive, the ballads were brought out in 1805 as a volume with five designs by Blake. Hayley’s poems describe surprisingly virtuous animals, but lack Cowper’s reforming indignation and pity. If verses about animals were required as occasions for engraving, passages in the “Auguries for Innocence” were splendid candidates.</p>
+            <p>This is merely speculative. Collateral information about “Auguries of Innocence” is lacking. We cannot say whether in Blake’s eyes these lines were rough jottings or finished, whether they amounted to a poem or disjunctive passages. The verses are dissimilar in imaginative quality and theme, and more than half of them are not auguries, not, at least, as this poetic form is established in the opening lines. My commentary on this poem is directed only to the couplets on cruelties to animals, and only to the ones among these that are auguries, though the poem includes much else.</p>
+            <p>An augury is either a small, known thing in which a great, unknown one can be read, or else it is the reading, the prophecy itself.<ref target="n26" type="note">26</ref> As an example, the augurs of ancient Rome foretold the outcome of a battle from the pecks of the sacred chickens. Augury has a temporal structure, in that the large event comes after the small one, but it lacks logic or causality. Neither is the small, disclosing thing related to the large thing as a part to a whole. How or why the two things are interconnected is a mystery, though experience or, at any rate, faith testifies that the interconnection exists. Augury locates us in a world that defies reason. <note id="n26"><hi rend="s">26</hi> My sentence summarizes the usual interpretation of the term in commentary on the poem. For Janet Warner and for E. Kegel-Brinkgreve the term “auguries” also indicates the formal character of the poem, in which apparently disordered and random couplets have an occult connection. See Janet Warner, “Blake’s ‘Auguries of Innocence,’ <hi rend="i">Colby Library Quarterly</hi>, 12 (1976) 127; E. Kegel-Brinkgreve, “Auguries of Innocence,” <hi rend="i">Dutch Quarterly Review of Anglo-American Letters</hi> 4: 119. For John E. Grant the Roman derivation of the term “auguries” (<hi rend="i">augures</hi>) also serves as an interpretive clue, since Blake opposed the “pernicious” classical tradition. Moreover, Grant adds, since animals were sacrificed in some forms of augury, the term prepares “the alert reader . . . for the concern for victimized birds and other animals” (John E. Grant, “Apocalypse in Blake’s ‘Auguries of Innocence,’” <hi rend="i">Texas Studies in Literature and Language</hi> 5 [1964] 490).</note></p>
+            <p>“To see a World in a Grain of Sand,” the opening verse, exemplifies what may be meant by augury in the poem. The hugely large is seen in the tiny and insignificant. Such seeing is of course not literal, not seeing with what Blake called the vegetable eye, but would be the more expanded, nonliteral kind of seeing that Blake called “vision.” However, to call it “vision” does not explain or interpret what is said. The interrelation of sand and world could be explained as sympathetic magic, for the world may be like a grain of sand if the latter is envisioned as a single particle and the former as a lump of matter in space. But these are not visions from the perspective that Blake called innocence. For innocence, the world is vital, joyous, and full of spirits, and to see such a world in inert silicon is all the more wonderful and paradoxical. In other poems of Blake, sand is that on which imagination creates its visions: “sands upon the Red sea shore / Where Israels tents do shine so bright.”<ref target="n27" type="note">27</ref> The power of the augur would be all the more strongly asserted if it is said not merely to transcend external appearance but to defy it. <note id="n27"><hi rend="s">27</hi> Blake, “Mock on Mock on Voltaire Rousseau,” lines 11-12, in <hi rend="i">Writings</hi>, ed. Bentley, 2: 927. The meaning of sand within Blake’s “system” has been explained in opposite ways by different commentators. The passages usually cited include those mentioned above, <hi rend="i">Milton</hi>, pl. 18, lines 27-29, and <hi rend="i">Jerusalem</hi>, pl. 41, lines 15-18, in <hi rend="i">Writings</hi>, ed. Bentley 1: 357, 503.</note></p>
+            <p>The formal structure of the opening quatrain differs from the ensuing lines, which are couplets. In the couplets, line one usually presents the event that augurs and line two what is augured. The rhyme connects the terms, and thus reflects on the formal level the irrational, inexplicable interconnection that is predicated of augury. In other words, the two lines hang together formally as a rhyming couplet and usually as grammar but as meaning their union may seem random. Blake wrote,
+<q>
+Each outcry of the hunted Hare<lb/>
+A fibre from the Brain does tear.<lb/>
+A sky lark wounded in the wing,<lb/>
+A Cherubim does cease to sing.<lb/>
+(lines 13-16)
+</q>
+But might one not also write,
+<q>
+A skylark wounded in the air<lb/>
+A fibre from the Brain does tear?
+</q>
+However, at the level of connotation “wing” and “sing” say “lark,” that is, they belong to the concept, intensify it, and make it concrete.</p>
+            <p>The title “Auguries of Innocence” is grammatically ambiguous, since it could suggest either auguries that foretell innocence or auguries that are interpreted by the innocent mind.<ref target="n28" type="note">28</ref> In the latter meaning the phrase would be analogous
+<pb id="p33-8" n="8"/>
+to “Proverbs of Hell” in <hi rend="i">The Marriage of Heaven and Hell.</hi> Just as, according to the <hi rend="i">Marriage</hi>, the proverbs “shew the nature of Infernal wisdom,”<ref target="n29" type="note">29</ref> the auguries show how the innocent mind reads the world. <note id="n28"><hi rend="s">28</hi> Cf. John E. Grant, “Apocalypse in Blake’s Auguries of Innocence” 489: “it is not evident whether the poem is to be understood as auguries of the state of innocence discovered by those in the state of experience or as auguries delivered by those in the state of innocence for the benefit of those in the state of experience . . . Probably the second alternative is the basic implication of the title, but the first is a better indication of the purpose of the poem, which is to help every man to become his own prophet”; E. Kegel-Brinkgreve, “Auguries of Innocence” 119: “the auguries of innocence could also be . . . warnings, given <hi rend="i">by</hi> innocence as the repository of real insight.”</note><note id="n29"><hi rend="s">29</hi> Blake, <hi rend="i">Writings</hi>, ed. Bentley 1: 80.</note></p>
+            <p>The point is of some importance, for the question is, who is speaking these auguries. Most readers seem to assume that the speaker is the “poet-augur,” the “prophetic seer.”<ref target="n30" type="note">30</ref> I think the voice is that of innocence; moreover, it is innocence at a moment of crisis, when it beholds the world of experience. This moment, as I shall argue, makes dramatically appropriate the otherwise surprising fact that the aphorisms of innocence warn and bloodily threaten. How can the innocent mind—the lamb!—harbor thoughts of violence and terror:
+<q>
+A Horse misusd upon the Road<lb/>
+Calls to Heaven for Human blood.<lb/>
+(lines 11-12)
+</q><note id="n30"><hi rend="s">30</hi> The phrases are cited respectively from Janet Warner, “”Blake’s ‘Auguries of Innocence’” 127, and John E. Grant, “Apocaplypse in Blake’s ‘Auguries of Innocence’” 490, though Grant seems to waver a bit on this question. Apparently Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi>, and Harold Bloom, <hi rend="i">Blake’s Apocalypse: A Study in Poetic Argument</hi> (Ithaca: Cornell UP, 1963), also assume that the speaker is an authoritative voice uttering Blakean truths.</note></p>
+            <p>Famous though the auguries are, very little has been said about the couplets on animals in commentaries on Blake.<ref target="n31" type="note">31</ref> One understands why if I am right in thinking that the auguries were designed to be inexplicable. But many of the auguries can be unriddled as metaphors and thus made intelligible. “The Bat that flits at close of Eve” seems a brilliant metaphor of the uncertain flight of “the Brain that wont Believe,” the doubter “Born to Endless Night” (lines 25-26, 124). In the couplet,
+<q>
+The Game Cock clipd &amp; armed for fight<lb/>
+Does the Rising Sun affright,<lb/>
+(lines 17-18)
+</q>
+readers may take the cock as metaphorically a soldier, and they have ample warrant for doing so, both in writings of Blake and in the culture and literature of his time. Another couplet in “Auguries of Innocence” is a variation:
+<q>
+The Soldier armed with Sword &amp; Gun<lb/>
+Palsied strikes the Summers Sun.<lb/>
+(lines 77-78)
+</q>
+The spectacle of cockfights was said to inspire with martial virtues, so impressive was the aggression, fury, and courage of the animals. An anonymous satire in the <hi rend="i">Gentleman’s Magazine</hi> of 1747 compared war to “a cock-fight, and a game.” <note id="n31"><hi rend="s">31</hi> For most of the animal couplets, the main discussion is in Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi> 161-65. Adams interprets them within Blake’s system of symbolism as Adams understands it. For example, in the couplet, “The wanton Boy that kills the Fly / Shall feel the Spiders enmity” (lines 33-34), the fly represents the “prolific,” the spider “the devourer,” and the “wanton Boy” acts the part of “the Elect” (162-63). Except for Adams, I have found only brief remarks on one or another couplet on animals in commentaries that focus on other parts of the poem. The interpretation of the animal couplets that is usually assumed seems to be that they assert the “mystic unity” of all life or maybe of all things. As Adams expresses it, if “the world exists in each microcosmic object, a crime against that object is a crime against the world and against God” (160). The phrase “mystic unity” is from E. Kegel-Brinkgreve, “Auguries of Innocence” 118. See also John Beer, <hi rend="i">Blake’s Humanism</hi> (Manchester: Manchester UP, 1968) 198-99; Harold Bloom, <hi rend="i">Blake’s Apocalypse: A Study in Poetic Argument</hi> 301-02.</note></p>
+            <q>
+Are sieges, battles, triumphs, little things;<lb/>
+And armies only the gamecocks of kings?<ref target="n32" type="note">32</ref><note id="n32"><hi rend="s">32</hi><hi rend="i"> Gentleman’s Magazine</hi> 17 (June, 1747): 292.</note></q>
+            <p>Similarly “A dog starved at his Masters gate” (line 8) could very well be interpreted metaphorically as a guard dog, a policeman, or a servant. With this interpretation, its starved condition “Predicts the ruin of the State” (line 9) in the same way that, in “London,” the sufferings of the exploited, oppressed and excluded threaten the social institutions that exploit and create the sufferering.<ref target="n33" type="note">33</ref> Or alternatively, if one were looking for a rational explanation, one could remember that the common, traditional argument against cruelty to animals was that it led to cruelty to humans, with manifest danger to society. The Emperor Domitian, as James Granger remarked, “began with killing flies, before he made such a havoc of his own species.”<ref target="n34" type="note">34</ref> Just how “The wild deer wandering here &amp; there” may keep “the Human Soul from Care” (line 21-22) is mysterious, but certainly their free roaming is a beguiling metaphor of motions of thought. To shoot a lark (lines 15-16) closes a communication with heaven. <note id="n33"><hi rend="s">33</hi> Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi>, 161, notes the possible association of the starved dog with the soldier of “London.”</note><note id="n34"><hi rend="s">34</hi> James Granger, <hi rend="i">An Apology</hi> 22.</note></p>
+            <p>But auguries are not metaphors. Such interpretations of Blake’s couplets are attempts to rationalize connections that Blake deliberately made irrational. Moreover, to read the dog, the cock, the lamb, the wren, the ox, the chafer, and so forth as metaphors weakens the protest of the poem against cruelty <hi rend="i">to animals.</hi> The poem represents animals being starved, whipped, mutilated, and pierced and whirled on a string,
+<pb id="p33-9" n="9"/>
+among other tortures, and to take these as metaphors is another mode of animal exploitation. Neither, generally, do Blake’s couplets work very well as metaphors. In the couplet,
+<q>
+The Game Cock clipd &amp; armd for fight<lb/>
+Does the Rising Sun affright,<lb/>
+(lines 17-18)
+</q>
+the cock has had some of its wing feathers removed, its beak scraped smooth and sharpened, its comb and wattles cut off, and a long metal spur attached to its heel. Perhaps some readers may take these mutilations as metaphors for a soldier’s uniform and drill. But when we read that the cock, so prepared, “Does the Rising Sun affright,” this effect is, if anything, less appropriate to a soldier than to a literal cock. The couplet speaks, to repeat, of a small thing having an inexplicable effect on a greater thing that is unrelated or related in a completely irrational way. If we have in mind that the cock is associated with the rising sun by its call, and that it might have orange, red colors like the sun, we might suppose that the rising sun, with its red streamers, is a cock who sees a rival cock about to do battle. If the sun is frightened and retreats, the consequences for the world are apocalyptic.</p>
+            <p>On the other hand, certain metaphors were inherent in the discourse of Blake’s time about animals. Had Blake’s contemporaries read his couplets, they would have understood them in accordance with such stock ways of speaking. No one believed that animals were hierarchically equal to human beings, and the caged, hunted, baited, plucked, ridden, worked, and slaughtered creatures were obviously inferior in power. Inevitably, they might serve as figures for subordinated human beings—women, children, other races, and especially the lower classes. Thus James Granger ends his splendid 1773 sermon by urging that we imitate God’s benevolence by showing kindness “to every living creature,” and, with a typical link of association, “may we treat our poor servants and labourers in these times of dearth and scarcity with still greater kindness than we treat our dogs and horses.”<ref target="n35" type="note">35</ref> Almost any discourse about the proper treatment of animals could have been understood as also about human inferiors. In Blake’s couplet,
+<q>
+A dog starvd at his Masters gate<lb/>
+Predicts the ruin of the State,<lb/>
+(lines 17-18)
+</q>
+the word “Master” especially invites such readings. Allusions to starvation and revolution might have seemed timely in 1803, when many persons feared that the one might lead to the other. <note id="n35"><hi rend="s">35</hi> James Granger, <hi rend="i">An Apology</hi> 24.</note></p>
+            <p>But before embracing this social, political reading of Blake’s couplet, we should note that when animals figuratively represented servants, soldiers, agricultural laborers, and so forth, the metaphor asserted their radical inequality, a powerlessness and inferiority that was unchangeable because it was essential. For this reason, the political allegories of animal discourse were patriarchal and conservative in their attitude, and deeply reassuring to the genteel. If better treatment for animals were to come, it would be granted by their superiors. The only way to amelioration was by persuasion and law. Revolution was not a possibility. This, of course, made unkindness to animals the more culpable. William Drummond would later point out, In <hi rend="i">The Rights of Animals and Man’s Obligation to Treat Them with Humanity</hi>, that a “tyrannical prince may often have some plausible pretext for his tyranny,” but the “tyrant of animals” has not: “he cannot plead that he dreads their conspiracy or rebellion,” or that they “want only an opportunity to depose him.”<ref target="n36" type="note">36</ref> We can hardly foist upon the radical and antinomian Blake a metaphor that naturalized extreme social inequality. We may also note that in the animal lore of Blake’s time, the dog above all animals was said to be faithful. Even when abused, it famously would not turn against its master. Buffon was the scientific authority of the age on animals, and he stressed that “to the cruelty of his master, he [the dog] only opposes complaint, patience, and submission.”<ref target="n37" type="note">37</ref> Such a creature hardly represented a threat to the governing class. <note id="n36"><hi rend="s">36</hi> William H. Drummond, <hi rend="i">The Rights of Animals and Man’s Obligation to Treat Them with Humanity</hi> (London: John Mardon, 1838) 207.</note><note id="n37"><hi rend="s">37</hi> Georges Louis Leclerc Buffon, <hi rend="i">Natural History, General and Particular</hi>, trans. William Smellie, 9 vols. (London: A. Strahan and T. Cadell, 1791), quoted in Katharine M. Rogers, <hi rend="i">The Cat and the Human Imagination: Feline Images from Bast to Garfield</hi> (Ann Arbor: Michigan UP, 1998) 157.</note></p>
+            <p>How, then, should we understand this couplet? The augury is read by innocence, that is, by a mind that is naive, credulous, loving, and ignorant of this world as it is. The dog also is innocent in several senses, and the innocent augurer presumably identifies with it. The innocent mind believes in the benevolent goodness of the creator, who is often figured as a loving father, both in Blake’s <hi rend="i">Songs of Innocence</hi> and also, of course, in the religious mythology of his time. Innocence would assume that the Master has this relation to his dog, is its protector and provider. When the Master starves his dog, the shock to feeling carries also one to faith. Like the lamb that “forgives the Butcher’s Knife” (line 24), the dog forgives its master, in the sense that, even when starved, it faithfully remains at the gate. In none of Blake’s couplets do the animal victims revenge their injuries; to do so is not in their nature or their power, no more than it is with the innocent children in <hi rend="i">Songs of Innocence.</hi> Nevertheless, revenge is threatened, and its scope and violence
+<pb id="p33-10" n="10"/>
+measures the shock, horror, and anger in the innocent onlooker, who sees these torments being inflicted.</p>
+            <p>This emotional state is what Blake’s couplets primarily convey, and it carries them into the hearts of readers. Nevertheless, this shock and anger is deeply incompatible with Blakean innocence. In this connection the most interesting couplet is,
+<q>
+The Lamb misusd breeds Public strife<lb/>
+And yet forgives the Butchers Knife.<lb/>
+(lines 23-24)
+</q>
+Most readers associate the Lamb of this couplet with Jesus, a linking that is as relevant as it is inevitable. But in the context of Blake’s poem and his contemporary London, the couplet alludes more immediately to cruelties in the driving of animals to market and in methods of slaughtering them. Such “barbarities,” as they were usually called, were everyday sights, and they aroused strong protest, “Public strife.” Hogarth’s “The Stages of Cruelty,” for example, showed lambs being beaten along the streets of London. His purpose was to stop such practices. I do not perceive what line of reasoning leads Hazard Adams to assert that “the butcher’s act is not wanton cruelty but use,”<ref target="n38" type="note">38</ref> but if Blake’s innocent speaker agrees with him, a doubtful point, the use of animals for food is not what is meant by “the Lamb misusd.” The aim of reformers was to make the slaughtering of food animals as quick and as painless as is possible. The second line of the couplet can of course be interpreted in many ways. Possibly Blake had in mind the lamb that licks the butcher’s knife or hand, as in Pope’s <hi rend="i">Essay on Man</hi>, 1: 84. However we interpret the line, the meek, unresisting, even loving lamb does not participate in the public strife, and if the lamb is exemplary, the line opens a perspective from which the contemporary campaign on behalf of animals might also be seen as righteous, accusatory, retaliatory, and part and parcel of a fallen world. <note id="n38"><hi rend="s">38</hi> Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi> 162.</note></p>
+            <p>The couplets on animals, then, display the strong, confused, appalled reaction of the innocent mind as it encounters the world of experience, in which innocence is victimized. That these are encounters may be emphasized, for Blake’s phrasing allows us to imagine that the cruelties described—a horse misused, a screaming hare, a shot lark, a hurt wren—are being seen as auguries are seen, that is, in the moment. They are taking place before the augurer’s eye. With a reaction that is deeply rooted in human psychology and cultural history, the innocent mind does not fall into disillusion, but wishes the world of experience away by entertaining fantasies of its destruction. Identified with the victims, enraged, and yet powerless to prevent, the innocent augurer invokes (and maybe invents) a higher power to punish the wrong. Again, he or she does so with full support from the religious culture of Blake’s time. Again, the innocent augurer is only repeating what he or she has been taught. It is heaven that will ruin the state, and the Master with it, just as heaven will revenge the robin. If this is retribution, the apparent excess of the retribution over the crime may seem paradoxical and, as in Coleridge’s “Rime of the Ancient Mariner,” may cause us to ponder on why the punishment is so excessive and how it can be justified. I will try to answer these questions in a moment. Whatever the answer, the apocalyptic prediction expresses the degree of anger and frustration in the innocent augurer.</p>
+            <p>The reason why the ruin of the state is foreseen, rather than some different but equally apocalyptic event, lies in associations clustering around the terms “Master,” as I suggested, and around “gate.” Obviously “Master” connotes hierarchy, governance, possession, and the like, and “gate” speaks of exclusion and private property, and the ruin of the state might eradicate these. The prediction threatens the Master, the governing and property-holding classes, and for the speaker (and for Blake) is a prediction of triumph, ridding the world of an evil.</p>
+            <p>For within a Blakean perspective, the events that are augured, even though terrible, may be finally positive and desirable. They may be moments or portions of the Last Judgment, the apocalypse or destructive tranformation of this world into another. The ruin of the state is obviously a portion of apocalypse, but as Blake describes the apocalypse in other poems (most especially in Night the Ninth of <hi rend="i">The Four Zoas</hi>), so are the shuddering of Hell (line 8), the shedding of human blood (line 12), and other items. If the sun does not rise (line 18), this would be the end of time or, in Blakean terms, the dissolving of time as an imprisoning dimension. And in the couplet,
+<q>
+Each outcry of the hunted Hare<lb/>
+A fibre from the Brain does tear.<lb/>
+(lines 13-14)
+</q>
+the destruction of brain fibers, though agonizing, would end confinement of the spirit within an intertwisted knot or labyrinth.</p>
+            <p>The apocalyptic raising of a “Human Soul” is done by fierceness—”Every Wolfs &amp; Lions howl” (line 19-20). Hence there is hope in the augury that
+<q>
+A dove house filld with doves &amp; Pigeons<lb/>
+Shudders Hell thro all its regions.<lb/>
+(lines 7-8)
+</q>
+To a traditional reader, the couplet might suggest that hellish malignity is activated against so much goodness, as Satan was by the garden of Eden. But the context in “Auguries
+<pb id="p33-11" n="11"/>
+of Innocence” makes clear that a dove house is a cruelty, in which, as its special feature, the animals have been tamed to the point that they no longer desire liberty. Like all the cruelties in the poem, it causes shock and revulsion, arousing the fierceness necessary to reform.</p>
+            <p>Blake’s couplet on the hare was one of a great many contemporary attacks on hunting for its cruelty. That the tearing of brain fibers may be apocalyptic would hardly have been apparent to Blake’s contemporaries. But they probably knew more about hares and hunting than Blake’s modern readers, and might have registered more strongly than we can the horror that Blake alludes to. Obviously the reference to tearing fibers can be read as a displacement, since it applies to the brain what is actually being done to the hare as the dogs attack it. With this displacement, the brain becomes the hunted animal. Moreover, the “outcry” of a hare in extreme danger resembles that of a terrified baby.<ref target="n39" type="note">39</ref> William Somerville, in <hi rend="i">The Chase</hi> (1735), describes the final moment of a hare surrounded by dogs: “with infant screams / She yields her breath.”<ref target="n40" type="note">40</ref> Thomas Bewick tells that as a boy he “caught the Hare in my Arms, while surrounded by the Dogs &amp; the Hunters, when the poor terrified creature screamed out so pitously, like a child, that I would have given any thing to save its life.”<ref target="n41" type="note">41</ref> Thus the “outcry” of the hare suggests the more strongly that it is an innocent, a child. Even hardened and joyous hunters were disturbed by the hare’s scream, as though the animal they were killing had transformed itself into a baby. <note id="n39"><hi rend="s">39</hi> Henry Tegner, <hi rend="i">Wild Hares</hi> (London: John Baker, 1969) 36-37.</note><note id="n40"><hi rend="s">40</hi> William Somerville, <hi rend="i">The Chase</hi> (1735), Book II, lines 271-72, in <hi rend="i">The Poetical Works of Joseph Addison; Gay’s Fables; and Somerville’s Chase</hi>, ed. George Gilfillan (Edinburgh: James Nichol, 1859).</note><note id="n41"><hi rend="s">41</hi> Thomas Bewick, <hi rend="i">A Memoir of Thomas Bewick Written by Himself</hi>, ed. Iain Bain (Oxford: Oxford UP, 1979) 6. This <hi rend="i">Memoir</hi> was published posthumously, in the Victorian era.</note></p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <div1 id="BQ-33-1-0006">
+		<pb id="p33-11" n="11"/>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="b">www.english.uga.edu/wblake</hi>
+            </title>
+          </head>
+          <byline>by <docAuthor>Nelson <name>Hilton</name></docAuthor></byline>
+          <p>The “Blake Digital Text Project” (http://www.english.uga.edu/wblake) originated in 1994 with the desire to create an electronic, online, interactive, enhanced version of the long out-of-print 1967 <hi rend="i">Concordance to the Writings of William Blake</hi>, edited by David V. Erdman. A simultaneously growing acquaintance with hypertext led to reconsideration of Blake’s best-known work in that light and prompted the “<hi rend="i">Songs</hi> Hypertext.” Both of these exercises, then, arise from possibilities opened by the manipulation of text in digital form, and so prompt the project’s rubric, which denominates an effort unrelated to any attempt at an “archive.”</p>
+          <p>The enabling circumstance for the concordance comes in a letter of 14 March 1995, which conveys the permission of the copyright holders David V. Erdman and Virginia Erdman to use freely David Erdman’s edition of <hi rend="i">The Complete Poetry and Prose of William Blake</hi> (1982, rev. 1988). Such generosity is characteristic of the vital political and intellectual commitment of a life devoted to making Blake more accessible and permits a fitting conclusion for a work which originated in Erdman’s preparation of a text for the 1967 <hi rend="i">Concordance</hi> (though the difficulty of that task resulted in Keynes’s edition being used).</p>
+          <p>The initial text file was created by unbinding a copy of the Erdman edition and scanning the text with <corr type="emend">optical-character</corr>
+          <corr type="emend" rend="plain">
+			  <figure n="blake-digital-text-project.033.01.bqscan" rend="file">
+				<figTranscr>Blake Digital Text Project - Netscape http://www.english.uga.edu/wblake/home1.html Continually Building, Continually Decaying Blake Digital Text Project Now available: eE on-line Blake Concordance eE: The Complete Poetry and Prose of William Blake, edited by David V. Erdman. Blake's Songs of Innocence and of Experience, graphical hypertext Many graphics, separate images for each stanza, audio, annotations and bibliographies in progress. FRAME enabled browser required. Images have been edited for speedy transmission (single bit b+w), but whole plate images are about 20K. Songs index quick slide show site maintained and comments welcomed by Nelson Hilton@english.uga.edu (email; or homepage)</figTranscr>
+			  </figure>
+		  </corr>
+		  <pb id="p33-12" n="12"/>
+<figure n="blake-digital-text-project-portal.033.01.bqscan" rend="file"><figTranscr>Portal to Blake Digital Text Project - Netscape into www.english.uga.edu</figTranscr></figure>
+recognition software. The resulting file of just under 50,000 lines was as error prone as such output is wont to be and required several proofreadings to begin with. The file was then reorganized into a roughly chronological sequence so that any search output would follow in that order (also more or less the order of Erdman’s <hi rend="i">Concordance</hi>, if not his edition). As the file was to be processed using Perl, which in its simplest mode reads a file line by line, it was quickly evident that processing would be facilitated by each line’s having its own unique identifying information, so this was inserted in semi-automated fashion. In this file, then, one line appears like this:
+<q>
+J83.73; E242| Weaving the Web of life for Jerusalem. the Web of life
+</q></p>
+          <p>In order to effect a reduction of the text file size and, consequently, processing time of about 20%, blank lines were then removed and replaced with “&lt;P&gt;” tags at the end of the line preceding the empty line.</p>
+          <p>The interesting case has recently been made that Unix is the operating system particularly congenial to literary folk and that the scripting language Perl is now one of its major attractions (Scoville); according to Larry Wall, its principal author, “Perl is above all a text processing language” (25). The heart of the initial Perl script employed to search the text file—the variable ($search) to search for having been assigned—looks as follows:
+<q>
+m/ (^ [^ \ |] +) \ | (.*) ($search) (.* (&lt;p&gt;$) ?)/
+</q>
+or, to summarize:
+<q>
+(—1—) (-2-) (—3—) (-4—(-5—))
+</q></p>
+          <p>This goes through each line of the text file and applies a template of regular expressions, and in every line in which it finds (or rather, “matches,”“m/”) an instance of $search (“$” is Perl’s way of indicating a scalar variable, here named “search”) is able to report that line broken into components of (1) the characters before the “|” (the line identifier-like “J83. 73; E242”); (2) the characters (if any) before the $search; (3) $search itself (the value assigned to the variable); (4) the characters (if any) after $search, and finally (5) the tag “&lt;P&gt;” if present just at the end of the line (the second “$”, not to be confused with the first, is Perl’s way in this location of denoting the end of a line). These components can then be arranged for printing in various ways—in creating HTML output, for instance, $search could be wrapped with emphasis or color tags, or the identifier could be displayed in a smaller font or indented on a following line.</p>
+          <p>The electronic concordance thus offers several improvements over the computer-generated printed concordance of over 30 years ago, an age when “big iron” COMMUNICATED IN TELETYPE. Erdman’s <hi rend="i">Concordance</hi> prints only words, and not all of those, as it omits very high-frequency instances such as articles and pronouns. The electronic concordance distinguishes between upper and lower case letters and permits searches sensitive or insensitive to case—so it is possible to compare easily Blake’s more than 200 instances of “Eternity” with the 30-odd appearances of “eternity.” The computer is just as happy to search for single characters, like punctuation marks, or all instances of any character combination—“-ing,” for example—or combinations with “placeholders” (e.g., s.ng for “sing, sang, song, sung” [s.ng\. would capture only those instances where a period followed the “g”]).</p>
+          <p>Useful as such access may be, anyone familiar with more recent concordances will wish for the additional convenience of key-word-in-context (KWIC) format, not to mention the capability of Boolean searches. Processing the text file for KWIC output is more involved than merely identifying and printing lines which contain the search string. As the KWIC context can wrap from or around line breaks, these must be stripped from the file and the whole read into a single array. For processing the array, it has proved more feasible to separate the identifiers from the lines and associate them by identifying each with the appropriate unique line number. So, for instance, we in effect find in the array: “31000 Joy’d in the many weaving threads in bright Cathedrons Dome 31001 Weaving the Web of life for Jerusalem. the Web of life 31002 Down flowing into Entuthons Vales glistens with soft affections.&lt;p&gt;” With this arrangement we can return a specified number of characters
+<pb id="p33-13" n="13"/><figure n="blake-digital-text-project-concordance.033.01.bqscan" rend="file"><figTranscr>Concordance to The Complete Poetry and Prose of William Blake--Dept of English, Univ of Georgia - Netscape http://virtual.park.uga.edu/Blake_Concordance/ Beta2 version for KWIC format--still a little buggy (15.iv.99), but a faster server! Word, phrase, letters: web &lt;==Search eE 1. grave dug for a child, with spiders webs wove, and with slime / Of anci FR40; E287 2. / The bird a nest, the spider a web, man friendship. / The selfi MHH8; E36 3. epings all the day: To spin a web of age around him. grey and hoary! d VDA7.19; E5- 4. w'd behind him / Like a spiders web, moist, cold, &amp; dim / Drawing o BU25.10; E82 5. ities in sorrow. / 7. Till a Web dark &amp; cold, throughout all / T BU25.15; E82 6. rrows of Urizens soul / And the Web is a Female in embrio BU25.18; E82 7. t208&gt; / None could break the Web, no wings of fire. / 8. So t BU 25.19; E82 8. pe! / And each ran out from his Web; / From his ancient woven Den; SongLOS6.4; E68 9. / They cry O Spider spread thy web! Enlarge thy bones &amp; fill'd / W FZ1-15.3; E309 10. The Spider sits in his labourd Web, eager watching for the Fly / P FZ1-18.4; E310 11. d &amp; takes away the Spider / His Web is left all desolate, that his littl FZ1-18.6; E310 12. rkness &amp; whereever he traveld a dire Web / Followd behind him as the FZ6-73.31; E350 13. he / Follows behind him as the Web of a Spider dusky &amp; cold / Shiv FZ6-73.32; E350 14. wing from his Soul / And the Web of Urizen stre[t]ched direful shivrin FZ6-73.35; E350 15. Ran thro the abysses rending the web torment on torment / Thus Ur FZ6-74.8; E351 16. a mile / Retiring into his dire Web scattering fleecy snows / As he FZ6-75.26; E352 17. As he ascended howling loud the Web vibrated strong / From heaven t FZ6-75.27; E352 18. uadrons of Urthona. weaving the dire Web / In their progressions &amp; prepa FZ6-75.33; E352 FZ6-73.34; E350 A living Mantle adjoind to his life &amp; growing from his Soul FZ6-73.35; E350 And the Web of Urizen stre[t]chd direful shivring in clouds FZ6-73.36; E350 And uttering such woes such bursts such thunderings &lt;t751&gt;</figTranscr></figure>
+or words on either side of $search (rather than having to stop at a line ending or beginning), mark line endings by replacing any five-digit number with a virgule (/), and identify the line by the number and its occurance before or after the search term in conjunction with a separate array which tells us in effect that “31000 J83.72 31001 J83.73 31002 J83.74”. It is the job of a 300 mH Sun Ultra working millions of operations per second to effect all these things almost instantly, and thanks to the “common gateway interface” (CGI) protocols, access and input to and output from the concordance scripts running on that server are available over the web.</p>
+          <p>It makes little difference for the computer whether the binary (“digital”) data which it processes are originally textual, graphic, aural, or video. What difference there is, more as issue today than in the foreseeable future, concerns time: large files can be processed less “almost instantaneously” than small ones, and in the digital realm a picture or sound (or their combination) “costs” considerably more bits than a word. The text of “The Lamb” in ASCII might run 800 bytes, while an 8-bit (256 colors) image of the plate might be 100 times that size and take correspondingly longer to process. Beginning with the axiom that Blake’s lettering is an important aspect of appreciation of his poetry, realizing that anything less than “almost instantaneous” is self-defeating in an electronic environment, and assuming that a simulacrum of shape and line are more important than color, the Project in 1995 began a digital “reading edition” of <hi rend="i">Songs of Innocence and of Experience.</hi> Photographs of an uncolored copy were digitized and reduced to a single-bit format (i.e., every pixel is either off or on—black or white) which could represent “The Lamb,” for instance, in an economical 14,000 bytes. As the full plate images are not exceedingly legible given the pixel size supported by existing monitor displays, enlargements of each stanza—usually less than 10,000 bytes in size—were also offered. These enlargements were occasionally edited pixel by pixel to enhance legibility (particularly with inked-over interior spaces in letters like e, d, A, etc.). The arrival of “frames” in HTML (Hyper Text Markup Language) saved the viewer from the “minesweeping” which would have
+<pb id="p33-14" n="14"/><figure n="blake-digital-text-project-angel.033.01.bqscan" rend="file"><figTranscr>The Angel - Netscape http://virtual.park.uga.edu/wblake/SONGS/41/41frall.html Greg Brown Finn Coren The Angel I Dreamt a Dream! what can it mean? And that I was a maiden Queen: Guarded by an Angel mild: Witless woe, was neer beguil'd! And I wept both night and day And he wip'd my tears away And I wept both day and night And hid from him my hearts delight So he took his wings and fled: Then the morn blush'd rosy red: I dried my tears &amp; armd my fears, With ten thousand shields and spears. Soon my Angel came again: I was arm'd, he came in vain: For the time of youth was fled And grey hairs were on my head THE Chimney Sweeper A The SICK ROSE CILMV NURSES Song DJ The Little Vagabond E A POISON TREE FQ LONDON K [three flowers] N HOLY THURSDAY (SE) O The GARDEN of LOVE P The Tyger RT@ INFANT SORROW S index</figTranscr></figure>
+been required by the initial plan to offer annotations as invisible “hot-areas” on image-maps of the stanza enlargements—now the stanza sits in its own frame while another frame lists the available annotations which in turn are displayed in a third frame. HTML also opened the possibility of presenting <hi rend="i">Songs</hi> as hypertext.</p>
+          <p>“By ‘hypertext,’” writes Ted Nelson, who invented the term over 30 years ago, “I mean nonsequential writing—text that branches and allows choice to the reader, best read at an interactive screen. As popularly conceived, this is a series of text chunks connected by links which offer the reader different pathways” (in Landow 3). Stuart Moulthrop must speak for many, however, in commenting that he’s “never really understood what Nelson meant when he called hypertext ‘non-sequential writing’” and then suggesting that “polysequential is a better way to describe hypertext” (Moulthrop). But whether one agrees with either of these definitions, or prefers instead to think of “text that is experienced as nonlinear, or, more properly, as multilinear or multisequential” (Landow 4), there seems little dispute that hypertext is “best read at an interactive screen.” From which it follows that such a reading best suits Blake’s <hi rend="i">Songs of Innocence and of Experience</hi>, given a re-cognition of that work as hypertext.</p>
+          <p>Certain it is—excepting those select readers very deep into <hi rend="i">Songs</hi>—that few have ever read <hi rend="i">Songs of Innocence</hi> in any linear sequence published by Blake. It could hardly be otherwise given that the editions and facsimiles by Keynes, Erdman, Bentley, and Lincoln treat <hi rend="i">Songs of Innocence</hi> (1789-1827) in terms of <hi rend="i">Songs of Innocence and of Experience</hi> (1794-1827), and treat that work itself in terms of its last seven instantiations. So the order of a work published some 50 times is determined by some 15% of its total. Even with regard to the entire <hi rend="i">Songs</hi> we find Blake in 1818 or later, some quarter-century after the first joint publication, specifying “[t]he Order in which Songs of Innocence &amp; of Experience ought to be paged &amp; placed” (E 772) as a sequence distinct from the received order. In fact, none of Blake’s separate editions of <hi rend="i">Songs of Innocence</hi> correspond with the usual sequence.</p>
+          <p>The different sequences of poems with their distinct juxtapositions can create very different readings. Before the advent of hypertext, appreciation of this intrinsic aspect of
+<pb id="p33-15" n="15"/><figure n="blake-digital-text-project-london-stanza-three.033.01.bqscan" rend="file"><figTranscr>London Stanza Three - Netscape http://virtual.park.uga.edu/wblake/SONGS/46/46st3framed.html 3rd stanza annotations What did Tom have to say about this stanza? The sighing soldiers The soldiers and the chimney-sweepers The Oppressed in general Appall HEAR, hear text typographically out to whole plate Stanza 1 2 3 4 Detail 1 2 How the Chimney-sweepers cry Every blaknng Church appalls. And the hapless Soldiers sigh Runs in blood down Palace walls 'He that hath ears to hear, let him hear.' Mark 4:9 'If any man hath ears to hear, let him hear.' Mark 4:23 'If any man hath ears to hear, let him hear.' Mark 7:16 'He that hath ears to hear, let him hear.' Luke 8:8 'He that hath ears to hear, let him hear.' Luke 14:35 Mark mark mark mark hear H E A R</figTranscr></figure><hi rend="i">Songs</hi> was hampered by the usual decision to follow the particular order mentioned above. To be sure, in <hi rend="i">The Illuminated Blake</hi> David Erdman offers <hi rend="i">en appendice</hi> the various orderings, referring to them by “number” of the normative pattern, and the information is accessible via G. E. Bentley, Jr.’s <hi rend="i">Blake Books</hi>, but these necessarily cryptic entries are too time-consuming for most readers to decode and apply.</p>
+          <p>The <hi rend="i">Songs</hi> hypertext obviates this difficulty by making the various sequence-links from a particular poem readily visible and instantly accessible. Arrows in the upper corners of the frames on either side of a particular poem toggle a list of links to the poems which precede or follow according to their respective copies. Clicking on the arrow [&gt;] in the upper right corner of “The Lamb” (www.english.uga.edu/wblake/SONGS/8) opens a list of all the different poems which follow on this in different copies. Copies of <hi rend="i">Songs of Innocence</hi> are identified using the lowercase letters a through <hi rend="b">u</hi>, copies of <hi rend="i">Songs of Innocence and of Experience</hi> are referenced in UPPERCASE A through AA, with the exception of the late, similarly sequenced copies (T<hi rend="s">2</hi>UWXYZAA) which are identified collectively as @. The specific information regarding these various copies to be found in G. E. Bentley, Jr.’s <hi rend="i">Blake Books</hi> and <hi rend="i">Blake Books Supplement</hi> is now, with the generous permission of Professor Bentley and Oxford University Press, to be incorporated into the hypertext.</p>
+          <p>In the case of “The Lamb,” one can see that while it is in fact followed most often by “The Little Black Boy” (in the conventionally accepted order), there are 15 other possibilities as well. In fact, in <hi rend="i">Songs of Innocence</hi>, it is followed more often by “The Blossom.” Clicking on the upper left arrow [&lt;] to see the list of poems which precede “The Lamb” in various copies, we can note that “The Lamb” and “The Blossom” are joined together in nearly two-thirds of the copies of <hi rend="i">Songs of Innocence.</hi> One can then follow any of the respective links to that title, jumping from one copy’s sequence to another’s.</p>
+          <p>These considerations are not entirely pedantic. The “Introduction” to <hi rend="i">Innocence</hi> lays out a concern with individual and cultural progression from unarticulated sound to words to writing which builds on the “scene of instruction” depicted on the preceding title page. The poem which most
+<pb id="p33-16" n="16"/>
+often follows the “Introduction,”“The Shepherd,” might also be thought of as part of the front matter or introductory sequence once it is seen to work as a new Milton’s <hi rend="i">Lycidas</hi>-like veiled condemnation (following “To the Muses” by less than six years) of the “lean and flashy songs” of the 1780s—the saccherine “sweet lot” which delight the sheep herd of the public and their “straying” attendant but which the inspired guide dismisses with “How sweet”!</p>
+          <p>The argument, then, that <hi rend="i">Songs</hi> should be appreciated as depicting a series of stages or vignettes in the coming-to-consciousness of language/the symbolic order/art (etc.) (see www.english.uga.edu/wblake/SONGS/begin) becomes more credible with the realization that “Infant Joy,” a logical starting place for such considerations after the introductory plates, does in fact occupy that slot (fifth in <hi rend="i">SI</hi>, sixth in <hi rend="i">SIE</hi>) as often (11 times) as it does its usual position, third from the end of <hi rend="i">Innocence</hi> as plate 25. The point is not to argue that one sequence is better than another-but as a pedagogical tool an idealized progression might be useful.</p>
+          <p>The digital medium of the hypertext also makes possible the incorporation of audio into our experience of <hi rend="i">Songs</hi>, a capability appropriate for the work of an artist who composed his own melodies and whose work has frequently been set to music. From a pedagogical point of view, the musical interpretations are valuable for the ease with which they make obvious almost instantly the reality of different yet convincing interpretations. The musical interpretations also illustrate dramatically that reading itself is as much a matter of effective performance as the determination of some final truth. The presence of audio for a given poem is signaled by the image of the piper in the upper right; clicking here opens a list of versions available as streaming audio which can play while other links for that text are explored. The small “i-icons” open information concerning the source of the material (much of which has generously been made freely available by the artists Greg Brown, Finn Coran, and Gregory Forbes). The growing collection of audio interpretations seems promising both for use in comparisons to open the way to interpretation of a poem and as a prompt to new individual or group engagement with the text.</p>
+          <p>The principal use of the “Blake Digital Text Project” in my own classes thus far has been the creation and development of the <hi rend="i">Songs</hi> hypertext. Over the past three years, students in three small graduate classes have focused some of their energies on the preparation of bibliographies and annotations. This specialized use can now be expanded by providing a means to accept additional annotations from any scholar or class who may have something to add—moving finally, perhaps, toward a sort of commentary variorum. Contributions are identified by the creator’s initials which are in turn appropriately linked to the master list of names and contacts for all who have worked on the project.</p>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Works Cited</hi>
+              </title>
+            </head>
+            <p>George P. Landow. <hi rend="i">Hypertext 2.0: The Convergence of Contemporary Critical Theory and Technology.</hi> Baltimore: Johns Hopkins, University Press, 1997.</p>
+            <p>Stuart Moulthrop. “The Shadow of an Informand.” http://raven.ubalt.edu/staff/moulthrop/hypertexts/hoptext/Non_Sequitur96299. html</p>
+            <p>Thomas Scoville. “The Elements of Style, UNIX as Literature.” http://ww.performancecomputing.com/features/9809of1.shtml</p>
+            <p>Larry Wall, Tom Christiansen, and Randal L. Schwartz. <hi rend="i">Programming Perl.</hi> 2nd ed. Sebastapol: O’Reilly, 1996.</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <div1 id="BQ-33-1-0007">
+        <head>
+          <title type="section">MINUTE PARTICULAR</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">Bernard Barton’s Contribution to Cunningham’s “Life of Blake”: A New Letter</title>
+          </head>
+          <byline>by <docAuthor>Joe <name>Riehl</name></docAuthor></byline>
+          <p>In 1824 James Montgomery solicited Charles Lamb for a contribution to his <hi rend="i">Chimney-Sweepers’ Friend and Climbing Boys’ Album</hi> to benefit “The Society for Ameliorating the Condition of Infant Chimney Sweepers.” Though Lamb submitted nothing of his own, he suggested Blake’s “The Chimney Sweeper,” and sent Montgomery a copy of the poem, slightly altered. Bernard Barton (1784-1849), who also contributed to the <hi rend="i">Album</hi>, seems to have been intrigued by Blake’s poem, and apparently wrote Lamb for more information. Lamb responded in May 1824, describing “The Tiger” as “glorious, and Blake as “one of the most extraordinary persons of the age” (Lucas 2: 426). Barton, known primarily as a Quaker poet and as one of Lamb’s correspondents, had begun writing to Lamb in 1822, complaining that conditions at Messrs. Alexanders’ bank in Woodbridge, where he clerked, did not permit him to continue his career as a poet. In 1812, Barton had published <hi rend="i">Metrical Effusions</hi>, followed by <hi rend="i">Poems by an Amateur</hi> (1818), <hi rend="i">Verses on the Death of P. B. Shelley</hi> (1822), <hi rend="i">Devotional Verses</hi> (1826), <hi rend="i">A Widow’s Tale</hi> (1827), and <hi rend="i">A New Year’s Eve</hi> (1828). In addition, he had published poems in <hi rend="i">London Magazine</hi>, including, in 1823, a “Sonnet to Elia.” Before striking up a correspondence with Lamb, he had also, since 1812, been in correspondence with Robert Southey.</p>
+          <p>Six years after Lamb sent the Blake poem to Montgomery, Allan Cunningham’s brief life of Blake was published in <hi rend="i">Lives of the Most Eminent British Painters, Sculptors and Architects</hi> (London, 1830), sometime before 6 February 1830, when a
+<pb id="p33-17" n="17"/>
+review of it appeared in the <hi rend="i">Athenaeum</hi> (<hi rend="i">Blake Records</hi> 377-78). G. E. Bentley, Jr., has noted that “The publication of Cunningham’s life of Blake provoked a spate of comments upon Blake in the spring of 1830,” and he has reprinted generous selections from the reviews (<hi rend="i">Blake Records</hi> 377-401).<ref target="n42" type="note">1</ref> Though Barton’s friend and correspondent Robert Southey expressed a very low opinion of Blake (<hi rend="i">Blake Records</hi>, 398-400), Barton’s enthusiasm for the painter, kindled by Lamb, inspired him to write a sonnet to Blake’s associate John Linnell<ref target="n43" type="note">2</ref> and to contact Cunningham with information about Lamb’s 1824 remarks on Blake. Eventually, Barton supplied Cunningham with a full copy of Lamb’s remarks on Blake. However, after Cunningham’s initial request for Lamb’s remarks, Barton wrote, in the letter here presented, that he would need to seek Lamb’s permission before forwarding the extract to Cunningham. The interim was only a few weeks, and Cunningham had Lamb’s letter in time to include it in the second edition of <hi rend="i">Lives</hi> (1831). <note id="n42"><hi rend="s">1</hi> “The two biographical accounts by Cunningham and J. T. Smith are the last of major importance published by Blake’s contemporaries” (<hi rend="i">Blake Books</hi> 22).</note><note id="n43"><hi rend="s">2</hi><hi rend="i"> Blake Records</hi> 394; eventually Linnell gave Barton one of the prints from Blake’s unfinished Dante series along with an etching of his own (<hi rend="i">Blake Records</hi> 400).</note></p>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Bernard Barton to Allan Cunningham</hi>
+              </title>
+            </head>
+            <p>Woodbridge 2/24/30</p>
+            <p>Dear Allan</p>
+            <p>I do not see that I can, consistently with the delicacy and good faith due to such a friend and correspondent as Chas. Lamb, give thee the extract referred to without first having his consent, but I write him by this night’s post to request him to give it, &amp; I have said all I can to induce him to meet thy wishes &amp; mine.—For I would not for five guineas, but thou shouldst have it, as I consider it a sort of miniature off-hand Lamb sketch of Blake, in the very best Elia style—and in my view it implies no slight compliment to Lamb’s critical taste &amp; penetration to find him writing of Blake in May 1824 in terms now applied to him by the unanimous voice of Critics &amp; Critical Journals—Probably thou art acquainted with Lamb whose present address is Chase-side, Enfield, if so perhaps a line or a call from thee may have more influence with him than aught I could urge—Do pray try and keep the proof sheets of Blake back for a few days till we can manage this matter—as a further inducement for thee to do this perhaps I can give thee a clue to fresh channels of information about Blake—</p>
+            <p>My friend Major Moor (an intimate &amp;c of Southeys) a Gent. resident near here, says that Dawson Turner of Yarmouth was acquainted with Blake, corresponded with him he believes &amp; has many or several of his drawings or plates. Moor tells me too that there is a good deal about Blake in Dr. Malkin’s Life of his Son B. Heath Malkin,<ref target="n44" type="note">3</ref> who died quite a boy, &amp; that a Portrait or Portraits in that Volume were engraved &amp; designed by Blake. The Book itself is I suppose easy to be got sight of &amp; I dare say its Author would be very willing to give any information in his power. I state these trifles as Turner and Malkin are both persons of considerable eminence whose testimony to the talent, genius, &amp; worth of his subject any Biography might be formed of and such as are worth procuring if they can be obtained without much delay or trouble—I consider thy Life of Blake as the very gem of the Volume, good as the others undoubtedly are—In a letter I had this week from Martin (the celebrated Painter &amp; Engraver) he says—“It gave me the greatest pleasure to find that your opinion of the Life of Blake is entirely coincided with mine, for I have not been more delighted with any book that I have read lately than with these Lives of the Painters, especially with that of Blake”—If therefore we can in any way add to its interest by any such accumulation either of intelligence, or of tributes to Blake’s honorable fame from persons of just celebrity the delay of a few days would be well compensated—Excuse the freedom I take in thus offering my opinion unasked for the sake of my desire to raise yet higher one thou hast so happily rescued from comparative oblivion—I shall be most grateful indeed for any specimen of Blakes nor will its value be slightly enhanced by my being indebted for it to his Biographer—Directly I hear from Lamb I will write thee— <note id="n44"><hi rend="s">3</hi> Barton is mistaken here; Malkin’s son is Thomas William Malkin. The engraving mentioned is, indeed, designed and engraved by Blake, though Cromek’s name appears on it.</note></p>
+            <p>Thine most heartily</p>
+            <p>B.B.</p>
+            <p>P.S. thy Letter does not specify in its date where Belgrave Place is—I can only direct as thine is dated—I should be glad if only of a line just to know this comes safe—that if I receive Lamb’s consent I may transcribe &amp; forward the extract without any misgivings of reaching thee in due course—was there ever a Plate from Blake’s Drawing of the Ancient of Days?<ref target="n45" type="note">4</ref><note id="n45"><hi rend="s">4</hi> Not a drawing, as Barton supposes, but a colored etching.</note></p>
+            <p>Unpublished MS: W. Hugh Peal Collection, University of Kentucky Library. Postmark: 10 F-NOON Fe 25, 1830. / Woodbridge./ Address: Allan Cunningham. Esq/24 Belgrave Place/ London.</p>
+            <p>Among the “fresh channels of information” which Barton suggests that Cunningham check, Benjamin Heath Malkin’s <hi rend="i">Father’s Memoirs of His Child</hi> (1806) was already known to the author, who made use of it in preparing the first edition of <hi rend="i">Lives</hi> (1830).<ref target="n46" type="note">5</ref> Apparently, however, Barton’s suggestions
+<pb id="p33-18" n="18"/>
+that he should contact Edward Moor, Dawson Turner, and John Martin were new, and no doubt would have revealed more information about Blake if Cunningham had chosen to follow up.<ref target="n47" type="note">6</ref><note id="n46"><hi rend="s">5</hi> See <hi rend="i">Blake Records</hi> 479, where Bentley notes that Cunningham uses Malkin’s text of “The Tyger.”</note><note id="n47"><hi rend="s">6</hi> Turner and Moor seem to have been on Barton’s mind at this time. On 28 April 1830, he recommends to his friend William S. Fitch that he also should visit Turner, and mentions asking Moor how to address a letter to Sir Walter Scott (<hi rend="i">Literary Correspondence of Bernard Barton</hi> 75).</note></p>
+            <p>Edward Moor (1771-1848) was known primarily for his work on Hindu mythology, <hi rend="i">The Hindu Pantheon</hi> (1810), which, according to the <hi rend="i">Dictionary of National Biography</hi>, “for more than fifty years remained the only book of authority in English upon its subject.”<ref target="n48" type="note">7</ref> He had been a cadet in the East India Company at Madras and Bombay, where he joined the Asiatic Society of Calcutta in 1796, and where he served from 1782 to 1806,<ref target="n49" type="note">8</ref> when he returned to England. In 1833 he was involved in publishing a new edition of Hogarth (<hi rend="i">Literary Correspondence of Bernard Barton</hi>, 86). At Moor’s death Barton privately published <hi rend="i">A Brief Memorial of Major Edward Moor</hi> (Woodbridge: Edward Pite, 1848). As Joseph Burke has shown, Blake was undoubtedly familiar with Moor’s work, deriving his design for “Lucifer” from one of Moor’s images, that of the Hindu goddess Durga, consort of Siva (Burke 124, plates 98 and 100). Considering the large volume of scholarship which has been amassed on the sources of Blake’s ideas and myths, it would be intriguing to know how Moor, an art collector and accomplished student of Indian culture, might have responded, in turn, to Blake. <note id="n48"><hi rend="s">7</hi> This judgment is confirmed by Peg DeLameter in “Some Indian Sources in the Art of Paul Klee” (<hi rend="i">The Art Bulletin</hi> 66 [1984]: 657-73]) who judges that <hi rend="i">Hindu pantheon</hi> “included all that was then known about the Hindu religion.”</note><note id="n49"><hi rend="s">8</hi> See also <hi rend="i">Literary Correspondence of Bernard Barton</hi> 67.</note></p>
+            <p>Dawson Turner (1775-1858), the son of a wealthy banker, was himself a banker, as well as a botanist and an antiquary. He published large and impressive books, including <hi rend="i">Botanist’s Guide through England and Wales</hi> (1805). On 9 June 1818, in answer to Turner’s request for information, Blake had responded with a list of prices for <hi rend="i">Songs</hi>, for six of the minor prophecies, and for a group of engravings (<hi rend="i">Letters of William Blake</hi> 142), though <hi rend="i">Blake Books</hi> does not record that he actually purchased any. Barton was reputedly a good friend of Turner, and made several visits to his home, at one point recommending that a friend pay a call as well (<hi rend="i">Literary Correspondence of Bernard Barton</hi> 75). In 1844, shortly after a visit with Barton at Ipswich, Henry Crabb Robinson visited Turner in Yarmouth and was shown his “library treasures.” While Barton reports, in the letter above, that Turner had “many or several” of Blake’s works, Robinson does not mention any items by Blake in Turner’s collection, though he remarks on seeing letters of Cowper, Coleridge, Lamb, Wordsworth and Southey (<hi rend="i">Henry Crabb Robinson</hi> 2: 645-46). Turner sold a large collection of manuscripts to the British Museum in 1853. His library of more than 8,000 volumes was sold at auction in 1853 and more than 40,000 letters and manuscripts were sold after his death in 1859. In both cases, catalogues were published.<ref target="n50" type="note">9</ref><note id="n50"><hi rend="s">9</hi> G. E. Bentley, Jr.’s exhaustive scholarship list no works by Blake in Turner’s collection, though Turner kept the two Blake letters.</note></p>
+            <p>John Martin (1789-1854) was known in this period primarily for his monumentally large paintings of biblical subjects, particularly “Belshazzar’s Feast,” about which Lamb wrote, disapproving of its excessive realism in “On the Barrenness of the Productions Modern Art” (1833).<ref target="n51" type="note">10</ref> Though Martin and Blake were aware of one another, they do not seem to have been well acquainted, and it is unlikely that there is any direct influence or connection between Blake’s 1807-08 illustrations to <hi rend="i">Paradise Lost</hi> and Martin’s 24 mezzotints on that subject in 1823.<ref target="n52" type="note">11</ref> Martin often acted as engraver for his own works. Although he was successful, and, according to the DNB, found patronage under Princess Charlotte,<ref target="n53" type="note">12</ref> he was, like Blake, an avowed critic of the Royal Academy, and something of a radical. Martin was apparently friendly with Barton, and engraved the frontispiece for Barton’s <hi rend="i">A New Year’s Eve</hi> (1828) (Balston 118). One would like to know more about the opinion of an established painter like Martin, whose affinities with Blake (as engraver, critic of the Academy, and creator of prophetic visions) might have provided a unique perspective on Blake’s art.<ref target="n54" type="note">13</ref><note id="n51"><hi rend="s">10</hi> See “John Martin” in Morton Paley, <hi rend="i">The Apocalyptic Sublime</hi> (Yale UP, 1986: [122-54] for a discussion of Lamb’s criticism of Martin.</note><note id="n52"><hi rend="s">11</hi> See James Treadwell, “Blake, John Martin, and the Illustration of Paradise Lost” <hi rend="i">Word and Image</hi> 9 (1993): 363-82.</note><note id="n53"><hi rend="s">12</hi> According to his biographer, John Balston, in 1816 Martin was appointed Historial Landscape Painter by Princess Charlotte and Prince Leopold (95).</note><note id="n54"><hi rend="s">13</hi> In fact, Martin and Blake were linked in one article of the period, which found resemblances in the extravagant style of the two painters. In 1834 Richard Henry Horne objected to Martin’s “phantasmagoria,” which resembled those of Blake and Fuseli. “Art. XI- illustrations of the Bible. By John Martin. Parts I to VI.-4to. “<hi rend="i">Westminster Review</hi> 20 (1834): 452-65, cited in <hi rend="i">Blake Books Supplement</hi> 515.</note></p>
+            <p>The evidence of the revisions of the second edition of Cunningham’s <hi rend="i">Lives</hi> indicates that Cunningham did not follow up on Barton’s suggestions to interview Martin, Dawson or Moor. A week or two after writing the letter above, Barton sent Cunningham Lamb’s remarks, which Cunningham inserted into the second edition. As Barton suggests, Lamb’s comments are the earliest expression of admiration of Blake among the established or well-known writers of Blake’s time, and Cunningham seized on them for that reason. (Although Wordsworth had previously expressed admiration for Blake’s poetry, he did so only in conversation with Henry Crabb Robinson [<hi rend="i">Robinson</hi> 1:85].) Cunningham introduces Lamb’s
+<pb id="p33-19" n="19"/>
+opinion in terms which project Lamb as a nearly infallible critic:
+<q>
+The impression which the talents and oddities of Blake made on men of taste and genius, is well described by one whose judgment in whatever is poetical no one will question. Charles Lamb had communicated to James Montgomery’s book on chimney sweepers the little song by Blake, which I have already quoted; it touched the feelings of Bernard Barton so deeply, that he made inquiries of his friend about the author, upon which he received the following letter in explanation, written some six years ago.” [<hi rend="i">Blake Records</hi> 496]
+</q></p>
+            <p>In the second edition, as Robinson first noted, Cunningham somewhat softened his judgment of Blake as a “madman,”<ref target="n55" type="note">14</ref> a change for which Barton and Lamb seem at least partly responsible. Cunningham reprinted Lamb’s remarks much as they had appeared in the original manuscript:
+<q>
+Your recent acquisitions of the Picture and the Letter are greatly to be congratulated. . . . Blake is a real name, I assure you, and a most extraordinary man, if he be still living. He is the Robert [that is, William] Blake, whose wild designs accompany a splendid folio edition of the Night Thoughts, which you may have seen, in one of which he pictures the parting of soul and body by a solid mass of human form floating off God knows how from a lumpish mass (fac simile to itself) left behin[d] on the dying bed.<ref target="n56" type="note">15</ref> He paints in water colours marvellous strange pictures, visions of his brain, which he asserts that he has seen. They have great merit. He has <hi rend="i">seen</hi> the old Welsh bards on Snowdon—he has seen the Beautifullest, the Strongest, and the Ugliest Man, left alone from the Massacre of the Britons by the Romans, &amp; has painted them from memory (I have seen his paintings) and asserts them to be as good as the figures of Raphael &amp; Angelo, but not better, as they had precisely the same retro-visions &amp; prophetic visions with themself. The painters in Oil (which he will have it that neither of them practice) he affirms to have been the ruin of art, and affirms that all the while he was engaged in his Water paintings, Titian was disturbing him, Titian the Ill Genius of Oil Painting. His Pictures, one in particular, the Canterbury Pilgrims (far above Stothard’s) have great merit, but hard, dry,<ref target="n57" type="note">16</ref> yet with grace. He has written a Catalogue of them with a most spirited criticism on Chaucer, but mystical and full of Vision. His poems have been sold hitherto only in Manuscript. I have never read them; but a friend at my desire procured the Sweep Song. There is one to a Tiger, which I have heard recited, beginning:<lb/><lb/>
+Tiger Tiger burning bright,<lb/>
+Thro’ the desarts of the night—<lb/><lb/>
+which is glorious, but, alas! I have not the Book; for the man is flown, whither I know not—to Hades or a Mad House<ref target="n58" type="note">17</ref>—but I must look on him as one of the most extraordinary persons of the age.<lb/><lb/>
+[Letter to Bernard Barton, 15 May 1824. MS: Henry E. Huntington Library; by permission of The Huntington Library; also published in Lucas, <hi rend="i">Letters</hi> 2: 424] 
+    <note id="n55"><hi rend="s">14</hi> In <hi rend="i">Henry Crabb Robinson on Books and Their Writers</hi> 1: 394; Bentley writes that in the first edition, Cunningham portrayed Blake as “a kind of Jekyll-and-Hyde, sanely engraving for the booksellers by day and madly writing <hi rend="i">Urizen</hi> by night” (<hi rend="i">Blake Records</hi> 477).</note><note id="n56"><hi rend="s">15</hi> There is no plate in Blake’s <hi rend="i">Night Thoughts</hi> which precisely answers to Lamb’s description. Lucas suggests his illustrations to Blair’s <hi rend="i">The Grave</hi>, perhaps <hi rend="i">The Soul Hovering over the Body Reluctantly Parting with Life</hi> (Lucas 2: 426) (a design which Robert Hunt had described as “absurd”) [<hi rend="i">Blake Records</hi> 196]), though Lamb may well be confusing his recollection of the Blair engraving with somewhat similar ones in <hi rend="i">Night Thoughts</hi>, pl. 19 or 40, indicating that Lamb had probably seen both <hi rend="i">Night Thoughts</hi> and <hi rend="i">The Grave.</hi> The best treatment of this is in <hi rend="i">Blake Records</hi>, where G. E. Bentley, Jr. suggests that the engraving referred to by Lamb in 1816 (in Lucas 2: 185) as “The good man at the hour of death” is a reference to Blake: “. . . Lamb may have combined in his mind’s eye one of the <hi rend="i">Grave</hi> plates above with another from <hi rend="i">Night Thoughts</hi> in which Death is clearly shown with a feathered dart—though the dart is not aimed at ‘Good man at the hour of death’ (Plates XXI, XXVII, XX)” (<hi rend="i">Blake Records</hi> 284-85n4).</note><note id="n57"><hi rend="s">16</hi> Lamb’s remark about the “hard, dry” quality of Blake’s pictures is echoed in Barton’s letter to Linnell: “There is a dryness and hardness in Blake’s manner of engraving which is very apt to be repulsive to print-collectors in general—to any indeed who have not taste enough to appreciate the force and originality of his conceptions” (22 April 1830, <hi rend="i">Literary Correspondence of Bernard Barton</hi> 74). He thanks Linnell for the loan of “copy of Blakes Inventions for the Book of Job,” with a view toward possible purchase: “Were I a rich man, I would gladly and instantly purchase it for its curiosity. . .” (73).</note><note id="n58"><hi rend="s">17</hi> In a letter from Robinson to Edward Quillinan, Robinson says of Blake that “Lamb used to call him a ‘mad Wordsworth’[.]” Mark Reed, “Blake, Wordsworth, Lamb, Etc.: Further Information from Henry Crabb Robinson” (<hi rend="i">Blake</hi> 3 [1970]: 76-84). Reed speculates that Lamb may have made the remark in defense of Blake, replying “to a conversational report that Wordsworth regarded Blake as a madman with a remark like ‘So he is—a mad Wordsworth’” (80).</note></q></p>
+            <p>Blake of course was neither in a madhouse nor in Hades; he was at living in the narrow rooms of 3 Fountain Court, the Strand, not far from the East India House, where Lamb clerked. And Lamb undoubtedly soon learned more about Blake’s fate, since several of his friends were to buy some of Blake’s works within the following three years.<ref target="n59" type="note">18</ref> The remarks on Blake, however, exemplify Lamb’s independent-minded taste, as well as his consistency. He had become acquainted
+<pb id="p33-20" n="20"/>
+with Blake’s work 14 years previously when Robinson took him, along with his sister, to see the Blake paintings on display at the Broad Street, Golden Square, exhibition on 11 June 1810 (<hi rend="i">William Blake’s Writings</hi> 827.) There, Lamb gained possession of Blake’s <hi rend="i">Descriptive Catalogue</hi>, which he had bound with his own “Confessions of a Drunkard” (see <hi rend="i">Blake Records</hi> 215-19, 225, 226). His references to “the Beautifullest, the Strongest, and the Ugliest Man,” to Michelangelo and to Titian are paraphrased or recollected from that work. The exhibit seems to have made a strong impression both on Lamb and on Robinson, who wrote an article on Blake based on the exhibit and on Malkin’s publication of some of Blake’s poems (<hi rend="i">Robinson</hi> 1: 15). It should not be assumed that Lamb’s reference to the possibility of Blake’s being in a madhouse is dismissive, though it is probably influenced by Southey’s and Robert Hunt’s ill opinion of Blake. Lamb himself had once been confined, and his sister went periodically into the care of “madhouses.” Such an occurrence would not have lessened his respect or admiration for a writer or an artist. Lamb’s long struggle with his own depression and with his sister’s bipolar disorder might, in fact, help to explain Lamb’s sympathetic and admiring attitude toward Blake. <note id="n59"><hi rend="s">18</hi> Among Lamb’s acquaintance, the following owned <hi rend="i">Songs</hi>: Charles Dilke, T. G. Wainewright (purchased in 1827), Henry Crabb Robinson (1825), and Mrs. Charles Aders (1825) (<hi rend="i">Blake’s Writings</hi> 1: 685). It is possible that George Dyer bought <hi rend="i">Marriage of Heaven and Hell</hi> before 1821 (<hi rend="i">Blake’s Writings</hi> 1: 693), and Robinson and Wainewright purchased it in 1827. Wainewright, in the September 1820 issue of <hi rend="i">The London Magazine</hi>, claimed that he had been introduced to “Jerusalem” by a Dr. Tobias Ruddicombe, M.D. (possibly a pseudonym for the red-haired Blake himself), who proposes to give an account of it in the next issue (<hi rend="i">Blake Records</hi> 265-66). By 1825, Robinson owned <hi rend="i">Visions of the Daughters of Albion</hi> (<hi rend="i">Blake’s Writings</hi> 1: 696), and he also borrowed <hi rend="i">Europe</hi> (<hi rend="i">Blake’s Writings</hi> 2: 705). On 29 December 1826 Blake’s health caused him to refuse an invitation from Mrs. Charles Aders to visit and view their collection of old masters. Blake’s letter to Mrs. Aders alludes to a previous meeting (<hi rend="i">Blake’s Writings</hi> 2: 1663). After Blake’s death, Robinson bought two prints of the Canterbury pilgrimage from Catherine Blake, meaning to give one to Lamb (<hi rend="i">Robinson</hi> 1: 353, 356).</note></p>
+            <p>Generally, the new letter from Barton to Cunningham printed here provides further confirmation of J. A. Wittreich’s claim that Barton should be placed among the very few of Blake’s contemporaries who “registered profound admiration for the bard’s work and [who] unhesitatingly placed him within that constellation of geniuses which a troubled age produced but ignored” (91). It also indicates that Cunningham was apparently at work on the second edition of <hi rend="i">Lives</hi> within a few weeks of the publication of the first edition. However, the main significance of this letter is in what Barton calls “fresh channels” of information about Blake. He mentions names of several persons to Cunningham, suggesting that they might provide more information about Blake, including two names of admirers of Blake who may be new to Blake scholarship.</p>
+            <div4>
+              <head>
+                <title>Works Cited</title>
+              </head>
+              <p>Balston, Thomas. <hi rend="i">John Martin 1789-1854: His Life and Works.</hi> London: Gerald Duckworth, 1947.</p>
+              <p>Bentley, G. E., Jr. <hi rend="i">Blake Books.</hi> Oxford: Clarendon P, 1977.</p>
+              <p>—. <hi rend="i">Blake Books Supplement.</hi> Oxford: Clarendon P, 1995.</p>
+              <p>—. <hi rend="i">Blake Records.</hi> Oxford: Clarendon P, 1969.</p>
+              <p>—. <hi rend="i">Blake Records Supplement.</hi> Oxford: Clarendon P, 1988.</p>
+              <p>—. <hi rend="i">William Blake’s Writings.</hi> 2 vols. Oxford: Clarendon P, 1978.</p>
+              <p>Burke, Joseph. “The Eidetic and the Borrowed Image: an Interpretation of Blake’s Theory and Practice of Art.” <hi rend="i">In Honour of Daryl Lindsay: Essays and Studies.</hi> Ed. Franz Phillipp and June Stewart. Melbourne: Oxford UP, 1964. 110-127.</p>
+              <p>DeLameter, Peg. “Some Indian Sources in the Art of Paul Klee. <hi rend="i">The Art Bulletin</hi> 66 (1984): 657-73.</p>
+              <p>
+                <hi rend="i">Dictionary of National Biography.</hi>
+              </p>
+              <p><hi rend="i">Henry Crabb Robinson on Books and Their Writers.</hi> 3 vols. ed. Edith J. Morley. London: Dent, 1938.</p>
+              <p><hi rend="i">The Letters of Charles and Mary Lamb.</hi> 3 vols. ed. E. V. Lucas. New Haven: Yale UP, 1935.</p>
+              <p><hi rend="i">The Letters of William Blake with Related Documents.</hi> ed. Geoffrey Keynes. Oxford: Clarendon, 1980.</p>
+              <p><hi rend="i">The Literary Correspondence of Bernard Barton.</hi> ed. James Barcus. Philadelphia: U of Pennsylvania P, 1966.</p>
+              <p>Reed, Mark. “Blake, Wordsworth, Lamb, Etc.: Further Information from Henry Crabb Robinson” <hi rend="i">Blake</hi> 3 (1970): 76-84.</p>
+              <p>Wittreich, Joseph Anthony, Jr. “William Blake and Bernard Barton: Addendum to <hi rend="i">BNB</hi>—Entry No. a852.” <hi rend="i">Blake Studies</hi> 1 (1968): 91-94.</p>
+            </div4>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <pb id="p33-21" n="21"/>
+      <div1 id="BQ-33-1-0008">
+        <head>
+          <title type="section">REVIEWS</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">David Linnell, <hi rend="i">Blake, Palmer, Linnell and Co.: The Life of John Linnell.</hi> [Lewes] Sussex: The Book Guild Ltd., 1994. 4°, xii, 413 pp., 66 plates (24 in color). ISBN: 0 86332 917 9. £50.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>G.E. <name>Bentley</name>, Jr.</docAuthor></byline>
+          <p><hi rend="i">Blake, Palmer, Linnell and Co.</hi> is a very handsome work, full of valuable new information. It is the product of family enthusiasm—David Linnell is the great-grandson of John Linnell—making energetic use of the vast archive of papers preserved by his kinswoman Joan Linnell Ivimy, to whom the work is appropriately dedicated. The absence of indication as to the sources of specific information makes it exceedingly difficult to follow David Linnell’s footsteps and to evaluate his accuracy, but, as one who has been through this archive repeatedly myself, I can say confidently that he has displayed an enormous mass of matter quite unknown before. If Linnell’s press has not been quite so bad during the last half century as the book’s publicity materials would have us believe,<ref target="n60" type="note">1</ref> it is certainly true that the portrait of Linnell presented here is both judicious and altogether more amiable than was previously easy to see. <note id="n60"><hi rend="s">1</hi> “For the first time Linnell’s side of the relationship with Blake and Palmer is examined”—the miniscule “Bibliography” in the book does not indicate that David Linnell has examined very extensively what has been written about them.</note></p>
+          <p>For one thing, there is a consistent vein of humor in Linnell which is not usually remarked in the context of his serious son-in-law Samuel Palmer. For instance, in 1809 a gentleman offered through an intermediary to buy a painting by the 21-year-old artist if he would cut off a strip four inches wide on each side of it, and Linnell replied: “‘pray does the gentleman wish to have the outside pieces or the inside,’ for I doubted which would be worth most” (16).</p>
+          <p>For another, the relationship between Linnell and Palmer shown here is consistently, and rightly, much more creditable to Linnell than one sees in accounts of the currently much more fashionable Samuel Palmer. Linnell fostered and supported the work of all his children and their spouses to an extraordinay extent. The title, <hi rend="i">Blake, Palmer, Linnell and Co.</hi>, is of course designed to attract readers interested chiefly in Blake and Palmer, but the book has a great deal to say not only about Blake and Palmer (though much of this is already in print) but also about “Linnell and Co.” For 40 years, Linnell was one of the most successful and prosperous artists in England, frequently being paid £1,000 for a single painting, the price of a modest house. He used his success systematically to foster the careers of his children—“Of his nine children James, William, Thomas, Sarah, Polly and Lizzy all exhibited” paintings (281) and others also painted seriously—and Linnell insisted that customers who came to his house to see his pictures should consider those by his children and Samuel Palmer as well, and sometimes, at the request of the purchaser, he touched up his family’s pictures to make them more vendible. He was an exceedingly generous man, as Blake knew intimately.</p>
+          <p>One of the bonds between Linnell and Blake was their deep religious feelings, which may have been quite similar. David Linnell shows Linnell’s lifelong search for a religious context beyond the priestcraft of the Established Church. In 1812 he joined the Baptist Church in Keppel Street, whose Treasurer was the learned Thomas Palmer (his future father-in-law), but he was later excluded from the Church for heterodoxy (26-27, 122-23). Later he considered joining the Quakers, partly so that he could claim their privilege of declining to swear on oath in court, but his insistence on “the privilege of judging for myself” alienated the Quakers as well (124-25). He insisted that both his own marriage and his daughter’s should be merely civil, not religious (45), and David Linnell claims, without alluding to evidence, that “Linnell himself did not attend the funeral” of Blake because it was conducted with a Church of England service (110).</p>
+          <p>Literary scholars tend to assume that Linnell was a successful artist who is chiefly notable for his patronage of William Blake; had it not been for Linnell, Blake’s engravings for <hi rend="i">Job</hi> and his splendid drawings and engravings for Dante would not have existed. We tend to forget that Linnell was a very fine painter and engraver who taught Blake a good deal. His early successes were chiefly in portrait painting and engraving, and some admirable examples are reproduced, such as the oil of Blake’s patroness “Lady Torrens &amp; Her Children.” The portrait sketches too are often remarkably skillful, such as the one of Mrs. George Stephen (illus. 1), whose husband bought one of the early sets of <hi rend="i">Job</hi> proofs. His later landscapes, for which he was justly famous in his time, are sometimes wonderful, with superb effects of sky—a formula which eventually became somewhat repetitive. The aureate “Evening—Vicinity of a Farm” with a herdsman driving cattle towards a thatched cottage evidently shows a scene which Blake may have seen whenever he visited the Linnells at Hampstead. Blake was in very good, nay, distinguished company indeed.</p>
+          <p>Beyond the fascinating new biographical information, David Linnell also provides valuable lists of John Linnell’s public art (omitting sketches, etc.), with these appendices:</p>
+          <pb id="p33-22" n="22"/>
+          <figure n="linnell-mrs-stephen.033.01.bqscan" rend="file">
+            <head>1 Oil sketch by John Linnell of Mrs. George Stephen (GEB), presumably in preparation for the oil portrait on panel 10″ × 8″ which, according to <hi rend="i">Blake, Palmer, Linnell and Co.</hi>, 376, Linnell painted for £15.15 (1821) and exhibited at the Royal Academy (1822).</head>
+            <figDesc>Linnell also painted portraits of George Stephen (1827), exhibited at the Royal Academy (1829), and a miniature (1829) (377, 385). In August 1824 Stephen paid (via Linnell) “to M<hi rend="s">r</hi> Blake for C. Pilgrims [£]1 1” (<hi rend="i">Blake Records Supplement</hi> [1988], 122; see <hi rend="i">Blake Records</hi> [1969], 373, 587), and on 1 July 1833 Linnell went “To M<hi rend="s">r</hi> Geo Stephens [<hi rend="i">sic</hi>] Coleman St to meet Miss Blake @ Administering to her Brothers Effects” (<hi rend="i">Blake Records</hi> 415).</figDesc>
+          </figure>
+          <pb id="p33-23" n="23"/>
+          <table rows="8" cols="3">
+            <row>
+              <cell>
+                <hi rend="b">Subject</hi>
+              </cell>
+              <cell>
+                <hi rend="b">Years Covered</hi>
+              </cell>
+              <cell>
+                <hi rend="b">No. of Entries</hi>
+              </cell>
+            </row>
+            <row>
+              <cell>Landscapes and other pictures</cell>
+              <cell>1807-78</cell>
+              <cell>377</cell>
+            </row>
+            <row>
+              <cell>Portraits in oil</cell>
+              <cell>1812-50</cell>
+              <cell>315</cell>
+            </row>
+            <row>
+              <cell>Portraits in watercolor, chalk, etc.</cell>
+              <cell>1814-49</cell>
+              <cell>186</cell>
+            </row>
+            <row>
+              <cell>Miniatures</cell>
+              <cell>1816-32</cell>
+              <cell>78</cell>
+            </row>
+            <row>
+              <cell>Engravings</cell>
+              <cell>1813-47</cell>
+              <cell>66</cell>
+            </row>
+            <row>
+              <cell>Pictures exhibited at the Royal Academy</cell>
+              <cell>1807-81</cell>
+              <cell>177</cell>
+            </row>
+            <row>
+              <cell>Pictures exhibited at the British Institution</cell>
+              <cell>1808-59</cell>
+              <cell>91</cell>
+            </row>
+          </table>
+          <p>Notice the extraordinary length of time during which Linnell was exhibiting—75 years—and the enormous number of finished pictures recorded—over a thousand. This is a prodigious career.</p>
+          <p>Readers of <hi rend="i">Blake</hi> will be especially interested in new information offered by David Linnell about William Blake. His prime source of information, the enormous mass of papers in the possession of the late Joan Linnell Ivimy and the Linnell Trust, has already been mined for <hi rend="i">Blake Records</hi> (1969) and <hi rend="i">Blake Records Supplement</hi> (1988) (which do not appear in David Linnell’s half-page bibliography), and most of the Blake references in <hi rend="i">Blake, Palmer, Linnell and Co.</hi> appeared also in the earlier works.<ref target="n61" type="note">2</ref> Since some of the documents quoted in <hi rend="i">Blake Records</hi> and its <hi rend="i">Supplement</hi> are quoted at greater length in <hi rend="i">Blake, Palmer, Linnell and Co.</hi>, it is plain that the latter derives from the MSS rather than from printed sources. However, some of the entries are somewhat carelessly transcribed—or at least they appear in forms different from those in <hi rend="i">Blake Records</hi> and its <hi rend="i">Supplement.</hi> For instance, Linnell’s wife is recorded as having written to him that Edward Chance “has been every day to Lakers” “respecting the Job” (97; see also 99), but the printer of <hi rend="i">Job</hi> was named “Lahee” (<hi rend="i">Blake Records</hi> 321; see also 300, 350, 582, 588-89, 591, 594-94, 603). The bill for Blake’s funeral has entries for “Paul for Lime to make up Coffin” and “Paul Mens allowance for refreshment” (110), though of course in each case “Paul” should be “Paid” (<hi rend="i">Blake Records</hi> 343-44). In Blake’s letter to Linnell of 11 October 1825 (quoted from an unidentified source) beginning “I have had the pleasure to see Mr Linnell set off safe in a coach, for we both got in” (96), the curious syntax is made clear if after “in a coach” we restore the omitted phrase “&amp; I may say I accompanied him part of the way on his Journey in the Coach.” The transcriptions, then, are somewhat erratic.<ref target="n62" type="note">3</ref><note id="n61"><hi rend="s">2</hi> Contemporary references to Blake from the Ivimy MSS appear on the following pages of <hi rend="i">Blake, Palmer, Linnell and Co.</hi> (the numbers in parentheses representing the corresponding pages in <hi rend="i">Blake Records</hi>): 53 (253), 53-54 (253-54), 55 (263), 60 (263), 75-76 (263), 85-86 (277), 88 (282), 88 (282), 96 (304), 97 (305-06), 97-98 (320-21), 98 (306), 99 (538, 539), 101 (85 of <hi rend="i">BRS</hi>), 110 (343-44), 120 (290), 135-36 (404-05), 136 (408-09), 137 (405), 137-38 (406-08), 141 (411); references on 100 and 147-48 are not in <hi rend="i">Blake Records</hi> or its <hi rend="i">Supplement.</hi></note><note id="n62"><hi rend="s">3</hi> Though David Linnell says that “The original spelling has been retained in quotations from Linnell’s autobiographical notes, journal, and all letters” (vii), he regularly normalizes quotations and punctuation, changes capitalization <hi rend="i">ad libitum</hi>, expands abbreviations (“St” becomes “Street,” “&amp;” becomes “and”), moves dates from the ends of letters to the beginning, and corrects spelling (“beleived” [53], “accomodation” [104]). Some of this may be simple carelessness, as when “shew” is spelled “show” (135, 136) and “Jno” becomes “Jns” (105).</note></p>
+          <p>Two entries about Blake from the Ivimy MSS are given here for the first time:</p>
+          <p>(1) Linnell wrote to his wife Mary on 6 February 1826 asking her to “obtain all the particulars you can respecting the printing of <hi rend="i">Job</hi>” (100).</p>
+          <p>(2) After Catherine Blake’s death, when Tatham was trying to gain possession of Blake’s Dante drawings (1 March 1833) which Linnell had commissioned and paid for, Linnell’s father-in-law Thomas Palmer, a coal-and book-merchant, wrote to Linnell on 22 March 1833 about trying to find Catherine Blake’s will:
+<q>
+My dear Mr Linnell,<lb/>
+I spent the greater part of three hours today, at Doctors Commons, searching the Books; and there appears no account of either Mr or Mrs Blake’s effects having been administered to at all. I was not satisfied by examining for the Will of the latter in 1831 but I also went through 1832, supposing it possible that, as she died so late in the year 1831 as the 18th of October the administration might have been neglected, or deferred, to the full length of the time allowed, which, I believe, is Six Months from the decease of the party; but there is no trace of any Will or Administration. . . . I am afraid everything is not as it should be relative to the disposal of the estates of Mr and Mrs Blake; but I suppose that must be left, unless any further steps should be taken to annoy you. [147-48]
+</q></p>
+          <p>We had previously known that no will for either William or Catherine Blake was ever proved, but we had not known that Linnell sought the information. He was a careful businessman who did not take chances when it came to the management of his property.</p>
+          <p><hi rend="i">Blake, Palmer, Linnell and Co.</hi> is useful on Blake and Palmer, though not so novel as its publisher imagines, and on Linnell and his family it introduces a great deal of new information—and reproduces some beautiful and too-little-known pictures. We have much to thank David Linnell for, particularly the reminder of what a very fine artist and generous man his great-grandfather was.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <div1 id="BQ-33-1-0008">
+        <head>
+          <title type="section">REVIEWS</title>
+        </head>
+        <pb id="p33-24" n="24"/>
+        <div2>
+          <head>
+            <title type="main">William Blake. <hi rend="i">Zwischen Feuer und Feuer. Poetische Werke. Zweisprachige Ausgabe.</hi> Trans. Thomas Eichhorn. Afterword by Susanne Schmid. München: Deutscher Taschenbuch Verlag, 1996. Pp. 501.: William Blake. <hi rend="i">Milton. Ein Gedicht.</hi> Trans. Hans-Ulrich Möhring. Wien-Lana: edition per procura, 1995. Pp. 294.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>Angela <name>Esterhammer</name></docAuthor></byline>
+          <p>These new translations offer German readers two distinct perspectives on Blake’s work, each valuable in its own way. <hi rend="i">Zwischen Feuer und Feuer</hi> (<hi rend="i">Between Fire and Fire</hi>) is a bilingual edition of all of Blake’s shorter illuminated works, as well as <hi rend="i">Poetical Sketches, The Everlasting Gospel</hi>, and the notebook poems and fragments. These are collected in a moderately priced paperback volume appropriate for university courses as well as for the general reader. The aim, on the whole, is to render Blake accessible to non-specialists; thus, both the English texts and the translations follow the regularized spelling and punctuation of Alfred Kazin’s 1946 <hi rend="i">Portable Blake.</hi> There are 18 black and white reproductions, and an appendix provides basic notes on dates of composition and difficult vocabulary, along with a chronology of Blake’s life, a list of further reading, and a brief afterword.</p>
+          <p>Susanne Schmid’s afterword to <hi rend="i">Zwischen Feuer und Feuer</hi> offers a concise, balanced account of Blake’s earlier works in biographical and historical context. Schmid introduces Blake by way of an effective contrast between two of his most famous images: the revolutionary energy of <hi rend="i">Albion Rose</hi> and the ambiguous creativity of <hi rend="i">The Ancient of Days</hi> (the cover illustration for this edition). Correlating these two aspects of Blake’s character with his radical and revolutionary context on the one hand, and his ethics and aesthetics on the other, Schmid outlines brief readings of several poems which, while uncomplicated, maintain a good balance between the historical and the visionary. The strong historicist concerns of the essay are reinforced by Schmid’s allusions to the place of the current volume in the twentieth-century reception of Blake in Germany. Beginning with the first substantial German translation in 1907 and incorporating the pop-culture Blake of Allen Ginsberg and Jim Morrison, this reception history reached a high point in 1958, when <hi rend="i">three</hi> translations appeared at once: two published in West Germany and presenting a lyrical Blake, the other published in the GDR and presenting Blake as a political revolutionary. It would have been interesting to hear more about the contrasting reception of Blake in the two Germanys, especially since the
+                        <figure n="moehring-milton.033.01.bqscan" rend="file"><figTranscr>William Blake Milton Ein Gedicht Mit einer Reproduktion des Originals Anhang: Eine Vision des Jüngsten Gerichts Ins Deutsche übertragen, mit einem Nachwort und kommentiert von Hans-Ulrich Möhring edition per procura Wien-Lana 1995</figTranscr></figure>
+present translation apparently aims at a new marriage of the political and the lyrical.</p>
+          <p>The translations, especially of lyric poetry, sound good. Thomas Eichhorn has effectively retained the rhyme and rhythm of Blake’s lyrics while providing mainly literal translations. Some of the ambiguities survive very nicely in the German, as in the last lines of the “Innocent” “Chimney Sweeper” and “Holy Thursday,” which in German as in English come across as comfortingly proverbial in rhythm, yet ominous in context and significance: “Wer stets seine Pflicht tut, dem wird auch kein Harm” (51) or “Hegt Mitleid, daß ihr nicht die Engel von der Türe jagt” (59). Other ambiguities inevitably get lost, as with the “stain’d” and “clear” of the line from the “Introduction” to <hi rend="i">Songs of Innocence</hi> that has figured in so many revisionary readings of the <hi rend="i">Songs.</hi> “And I stain’d the water clear” gets flattened here to “Und ich färbt’ das Wasser dann” (39), which is indicative of an occasional tendency to make do with a filler word like <hi rend="i">dann</hi> ‘then’ for the sake of rhythm and rhyme. Eichhorn’s translations of the prophetic poems work quite well as adjuncts to the facing-page English text, even if not <hi rend="i">every</hi> word and every letter is put into its fit place. At the beginning of <hi rend="i">The Book of Urizen</hi>, for instance, it is unclear why a single one of the verbs on plate 1 has changed from past to present tense (“Some said” as <hi rend="i">Manche sagen</hi>, rather than <hi rend="i">Manche sagten</hi> [335]).</p>
+          <pb id="p33-25" n="25"/>
+          <figure n="overlay-and-numbers.033.01.bqscan" rend="file"/>
+          <p>The hardcover translation of Blake’s <hi rend="i">Milton</hi> published by the small Viennese press “edition per procura” tells a different story. This is a passionate labor that, like the English edition of <hi rend="i">Milton</hi> published by Shambhala/Random House in 1978, has spiritual education as its aim. It begins with a full reproduction of copy D of <hi rend="i">Milton</hi>, with text plates in black and white and full-page designs in color, followed by the German translation, followed by an interpretive essay and notes that together comprise more than half the book. The volume ends with a reproduction of <hi rend="i">The Last Judgment</hi> and a translation of Blake’s “Design of The Last Judgment”; the translator tries to correlate Blake’s description with the drawing by means of a transparent overlay and numbers identifying specific figures in that crowded design (see illus. above).</p>
+          <p>This is a first-time German translation of <hi rend="i">Milton</hi>—indeed, of any of Blake’s major prophecies. Hans-Ulrich Möhring has been working for several years on a complete German translation of Blake’s work; he has evidently thought long and deeply about his subject, and his interpretation and commentary, as well as the translation, reflect an intense engagement with the poem and with Blake criticism in English. He aims to provide the reader with a guide to <hi rend="i">Milton</hi> that, as he says, he would have liked to have had while translating, but in fact had to work out for himself during the translation process. He hopes the commentary will awaken in the reader “a feeling for the weave of this poem and its peculiar denseness and—yes—even its beauty” (186).</p>
+          <p>Möhring’s long interpretive essay begins with observations and comparisons that, by way of numerous quotations from Hölderlin, a Kantian epistemological framework, and some Heideggerian formulations, insert Blake into a European tradition of poetry and philosophy—not so much by scholarly hypothesis and demonstration, but through the response of a German reader who has been profoundly touched by Blake’s art. Möhring believes that direct experience of Blake’s texts is the only way to come to an understanding of them. As he says, the only value of an interpretation is “whether it helps us read—helps us allow the poem to approach”; the poem must not be “banished into. . . artificial spaces for art, in which experts apply themselves to expert problems, and fail to notice that life itself is at stake” (171-72). In other words, what is at stake here is not simply a translation of <hi rend="i">Milton</hi> from English into German, nor from poetry into comprehensible concepts or facts, but rather a translation of readers themselves into “visions of eternity”
+<pb id="p33-26" n="26"/><figure n="milton-zweites-buch.033.01.bqscan" rend="file"><figTranscr>33 (30) Wie breit die Kluft und Unpassierbar! zwischen Einfachheit und Schalheit Milton Gegensätze sind Positiva Eine Negation ist kein Gegensatz Zweites Buch Es ist ein Ort, wo Gegensätzlichkeiten gleich wahr sind Den Ort nennt man Bëulah. Er ist ein holder schöner Schatten Wo niemals Streit hinkommt, der die da schlafen halber. In diesen Ort hernieder fuhren Ololons Söhne und Töchter 5 Voll tiefer Trauer in Bëulahs Mondscheinschatten und Hügel Um Milton weinend: stumm erstaunten da Bëulahs Töchter Bewegt con süßer Neigung und milder Herzensgüte Bëulah wird fortwährend um die Ewigkeit Geschaffen, und so Ersheint es, den Bewohnern Edens, sie allseitig umgebend; 10 Doch den Bewohnern selbst erscheint Bëulah in jedem Bezirk Wie das geliebte Kind an seiner Mutter Brust, umfangen Von Armen rund der Liebe und des Mitleids und süßen Erbarmens Doch Edens Söhnen sind die Mondscheinwohnungen Bëulahs Ein mildes holdes Ausruhn von der Großen Ewigkeit. 15 Und so wird es erschaffen: Siehe, die Ewige Große Menschheit: Ihr sie die Macht und Herrlichkeit Immerdar Amen Geht um in ihrer Allgemeinschaft sichtbar in jedem Gesicht Wie der Hauch des Allmächtigen, so sind die Worte von Mensch zu Mensch In den großen Kriegen der Ewigkeit, in der Wut Dichterischer Begeistung 20 Das ungeheure All zu bauen, Geistesformen Schaffend 106</figTranscr></figure>
+through a regeneration of their perceptive faculties (172). Möhring works through the development of Blake’s thought by way of his response to the Bible and his revision of <hi rend="i">Paradise Lost</hi>, providing an intellectual biography of Blake that traces the development of his philosophy through numerous early works. Fifty pages later, the last sentence of the interpretive essay summarizes Möhring’s view of Blake:
+<q>
+Perhaps, after almost 200 years, we may observe that in William Blake a poet arose who experiences the truth of Europe’s grand mythos—the birth of the child, the incarnation of God, the death of God, the resurrection of the human out of the fragmentation of the four points of the cross, the imitation of Christ, the birth of the free individual image of God out of the dark dragon’s belly of a long history—and who thereby also, as myth, tears it apart. (180-81)
+</q></p>
+          <p>While clearly achieved through personal experience and study, Möhring’s 84-page, plate-by-plate commentary on <hi rend="i">Milton</hi> contains few surprises for Blake scholars. It develops a now-classic reading of the poem in terms of biblical allusion and revision, Blake’s reaction against materialist philosophy, a revolutionary and apocalyptic interpretation of history, the re-integration of the psyche, and the renewal of intersubjective and intrasubjective relationships. As Möhring says, he has distilled his interpretation from critical readings too numerous to cite individually, among which Frye’s “brilliant” and “unrivalled” <hi rend="i">Fearful Symmetry</hi> figures prominently (186). The commentary explicates Blake’s mythos and the shifting relationships among his characters while incorporating historical, biblical, and Miltonic allusions and etymologies; there are briefer commentaries on the illuminations. Möhring displays a fine sensitivity to Blakean ambiguities and conflicting perspectives, and is endearingly honest about paradoxes for which he feels completely unable to suggest a solution. But the commentary, steeped in Blake’s own language, often reads like a prose version of the poem itself; uninitiated readers will probably find it challenging. The inclusion of “The Design of The Last Judgment,” as a reproduction followed by a first-time German translation of the text, is a fitting pendant to this presentation of <hi rend="i">Milton</hi>, with its orientation toward biblical and psychic apocalypse and its emphasis on Blake’s hybrid art.</p>
+          <p>Möhring’s translation of <hi rend="i">Milton</hi> is excellent, and goes a long way toward fulfilling his ambitious aim:
+<q>
+The translation itself tries to be a poetic one; that is, it attempts to take in everything I was able to see and to hear—levels of meaning, internal and external references and allusions, sentence structure, sound pattern, spelling, punctuation—and to convert it so that, in the end, there is once again a poem. (186)
+</q></p>
+          <p>Möhring’s painstaking work pays off in the sonorous lines of this German <hi rend="i">Milton</hi>, and the careful translations of Blake’s challenging vocabulary (e.g., “vegetative,” “generation”) that maintain internal allusions but also take account of particular contexts. Blake’s neologisms and constructed entities work particularly well in German, because of the language’s ability to build new compounds: one feels that <hi rend="i">Mondscheinraum</hi> was what Blake would have wanted to write for “moony Space” or <hi rend="i">Schlagaderpuls</hi> for “pulsation of the artery”; <hi rend="i">Weibmännlich und Mannweibliche</hi> illustrates hybridization and mutual influence more effectively than Blake’s own “Female-male &amp; the Male-female.”</p>
+          <p>Although there is little overlap between the two translations under review here, the lyric “And did those feet in ancient time” and “The voice of the Devil” from <hi rend="i">The Marriage of Heaven and Hell</hi> are included in both volumes and allow for a direct comparison.</p>
+          <q>
+It indeed appear’d to Reason as if Desire was cast out; but the Devil’s account is, that the Messiah fell, &amp; formed a heaven of what he stole from the Abyss. (<hi rend="i">Zwischen Feuer und Feuer</hi> 216)<lb/><lb/>
+Es erschien der Vernunft tatsächlich, als sei <hi rend="i">das Verlangen</hi> vertrieben worden; aber <hi rend="i">es ist des Teufels</hi><pb id="p33-27" n="27"/><figure n="william-blake-zwischen-feuer-und-feuer.033.01.bqscan" rend="file"><figTranscr>dtv William Blake Zwischen Feuer und Feuer Poetische Werke Zweisprachige Ausgabe</figTranscr></figure><hi rend="i">Verdienst</hi>, daß der Messias fiel &amp; einen Himmel bildete aus dem, was er dem Abgrund stahl. (trans. Eichhorn, 217; my italics)<lb/><lb/>
+Der Vernunft kam es tatsächlich so vor, als wäre <hi rend="i">das Begehren</hi> verstoßen worden, doch <hi rend="i">der Teufel stellt es so dar</hi>, daß der Messias fiel und daraus was er dem Abgrund stahl einen Himmel baute. (trans. Möhring, 145; my italics)
+</q>
+          <p>Eichhorn’s <hi rend="i">Verlangen</hi> as a translation of “desire” may have been prompted by the sound patterns of the nearby <hi rend="i">Vernunft, vertrieben</hi>, and <hi rend="i">Verdienst</hi>; cognate with “longing,” <hi rend="i">Verlangen</hi> emphasizes need and nonfulfillment. Möhring’s <hi rend="i">Begehren</hi>, a less common word, awakens biblical and sexual resonsances and connotes a fiercer, more active desire that better suits Blake’s Devil. Eichhorn’s “es ist des Teufels Verdienst” seems a rare mistranslation, rendering “the Devil’s <hi rend="i">account</hi>” not as “the Devil’s version” but in the sense of “it is on account of the Devil that . . . .” Further down, Eichhorn’s translation of “in Milton, the Father is Destiny” as “in Milton ist der Vater die <hi rend="i">Vorsehung</hi> [providence]” gives the phrase a more positive inflection than it has in Blake, or in Möhring’s translation of “Destiny” as <hi rend="i">Schicksal.</hi></p>
+          <p>On the whole, Möhring makes more extensive and imaginative use of the capabilities of the German language—compound words and neologisms, the subjunctive mood for indirect speech, more antiquated or formal vocabulary choices where these are more exact or contain appropriate allusions. These lend his translations more power. Eichhorn’s translations, geared toward accessibility, sometimes choose sound over exactitude of sense, yet still manage most of the time to preserve Blakean nuances. Given their distinctive aims and intended audiences, both are admirable. These publications should make Blake’s art available to new groups of readers, and continue the reception of Blake—apparently, now, a more-or-less integrated Blake for a more-or-less unified Germany—into a new millennium.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_33">
+    <body>
+      <div1 id="BQ-33-1-0009">
+        <head>
+          <title type="section">NEWSLETTER</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">
+              <hi rend="i">Urizen in New York City</hi>
+            </title>
+          </head>
+          <byline>by <docAuthor>Dr. Elizabeth B. <name>Bentley</name></docAuthor></byline>
+          <p>At the end of January 1999, we heard that Sotheby’s (New York) was going to offer at auction a copy of William Blake’s <hi rend="i">The First Book of Urizen</hi>, one of eight known copies of his “most ambitiously designed work”<ref target="n63" type="note">1</ref> up to 1794. <note id="n63"><hi rend="s">1</hi> G. E. Bentley, Jr. <hi rend="i">Blake Books</hi> (Oxford: Clarendon Press, 1977) 181, 476.</note></p>
+          <p>It did not take long for Jerry, my husband, to identify it as copy E when he discovered that <hi rend="i">Urizen</hi> was from the estate of Mrs. John Hay Whitney (Betsy Cushing Whitney). Copy E has been associated in our minds with the Whitney family for some time. In the mid-1960s we had contacted all the locatable heirs of Mrs. Harry Payne Whitney (died 1942) to enquire whether any knew of the whereabouts of copy E of <hi rend="i">Urizen</hi>, which, along with copy N of <hi rend="i">Visions of the Daughters of Albion</hi>, had come into Mrs. Harry Payne Whitney’s possession just before or after they were exhibited at the Grolier Club in 1919-20.<ref target="n64" type="note">2</ref> Nothing came of our enquiries. I understand that Mrs. Harry Payne Whitney was the mother of John Hay Whitney, the publisher of the New York Herald Tribune and subsidiaries; he was also the United States Ambassador to the Court of St. James and was notable for his interest in the world of horses. The <hi rend="i">Urizen</hi>, at least, seems to have passed from Mrs. Harry Payne Whitney to John Hay Whitney and then to his widow. It is quite possible that the Blake titles were scarcely noticed when they were inherited as part of the contents of one of the many Whitney residences. <note id="n64"><hi rend="s">2</hi> G. E. Bentley, Jr., <hi rend="i">Blake Books Supplement</hi> (Oxford: Clarendon Press, 1995) 38. <hi rend="i">Visions</hi> (N) still has not been found.</note></p>
+          <pb id="p33-28" n="28"/>
+          <p>Members of the Whitney family may have looked at Blake’s work in the 79-year interval between its last public showing in 1920 and its appearance in the 1999 sale. However, when one looks at the 567-page Whitney catalog<ref target="n65" type="note">3</ref> and sees that <hi rend="i">Urizen</hi> was 535th out of 1240 items in a four day sale (22-25 April), one realizes that not every family member and friend would necessarily be aware of a 24-leaf book in a slim green morocco slip case. The catalog title page introducing the third sale session pictures a dozen books, and the Blake book is not noticeable except for being the only green book amongst the 12. <note id="n65"><hi rend="s">3</hi> Sotheby’s, <hi rend="i">The Estate of Mrs. John Hay Whitney</hi> to be sold 22-25 April 1999 (NY: Sotheby’s, 1999).</note></p>
+          <p>We hadn’t seen the catalog when Jerry went down to see the Whitney copy of <hi rend="i">Urizen</hi> and to consider whether this copy with 24 designs was “complete,” although other copies had up to four more plates. He returned that night to Toronto full of excitement and pleasure over this copy, even though he had to make extensive corrections to the <hi rend="i">Blake Books</hi> descriptions of copy E.</p>
+          <p>It did not take much to convince me that it was important for anyone interested in the work of William Blake to take the opportunity to see this book now. Not only was it an opportunity for which I had been waiting over 30 years, but also I was well aware that it was quite possible that this last copy in private hands would disappear into an inaccessible private collection.</p>
+          <p>Of course, we knew several likely bidders, and Blakean email lines buzzed with gossip about potential buyers. When the catalog was issued a few weeks later, the estimated price was $500,000 to $700,000. I did not even translate this sum into Canadian dollars as I usually do with anything outside Canada which we covet. It was unimaginably beyond our means, but I still wished to see this Blake work and to be present at its sale.</p>
+          <p>I had been to book and picture auctions at Sotheby’s and Christie’s in London, but not in New York, so this was going to be a new experience. There was also going to be an interesting exhibition held at the Morgan Library which we both wished to see.</p>
+          <p>We communicated with friends of Blake and arranged to join Robert Newman Essick, a teacher, scholar, and collector; John Windle, a prominent dealer in antiquarian books with a polished and strong emphasis on Blake; Morris Eaves, a teacher, scholar, and editor of <hi rend="i">Blake</hi>, with his partner, Georgia; and Joseph Viscomi, a teacher and scholar whose studies have led current thinking about how Blake worked as a printer and artist.</p>
+          <p>The sale consisted of selected furnishings from five of Betsy Cushing Whitney’s residences including the Greentree estate (on Long Island), and houses in Thomasville (Georgia), Saratoga Springs (New York), St. James (London), and Beekman Place (New York City) where, we were told, Mr. and Mrs. John Hay Whitney had never slept and where the Blake item turned up.</p>
+          <p>We were a cheerful lot as we joined forces on Thursday 22 April for viewing the items being offered in the six Whitney estate sessions, trying to respect the privacy of Bob Essick yet curious about his plans. We met other Blakeans, exchanging information about the location of various Blake materials, while keeping one eye (or both) on the case where <hi rend="i">Urizen</hi> was shelved. From time to time Sotheby staff members would take the book out of its slipcase and display a design or two to a client. Were these all potential bidders?</p>
+          <p>This was the last opportunity to look at any of the 1240 items in the Whitney sale, and I confess that I hunted out a few items which had caught my fancy in the catalog. I even had attending staff turn over a small piece of furniture to discover that it was not as old as I had been romancing it; that “chipped” did indeed mean just that; that the malachite table which Jerry coveted was not only a veneer, but a thin and cracked veneer at that. Luckily, I remembered three things: (a) we had a dinner engagement that night, (b) we had not the wherewithal to engage in such folly, and (c) I had not arranged for my credit to be vetted by Sotheby’s—and the coming afternoon was to be absorbed by William Blake.</p>
+          <p>When the Sotheby’s staff closed the exhibition at noon, they put into operation a masterful transfer of goods. They had been on duty in the showrooms from ten until noon. Now all 141 items for the 6 p.m. sale had to be moved from the exhibition rooms to the building which houses the auction rooms and offices of Sotheby’s, New York, which is some distance away.</p>
+          <p>Those specialists who are in charge of the protection, cataloging, estimating, promotion and presentation of books and manuscripts did not have their auction until the next afternoon, but they were meeting with prospective buyers to show particular items, and it had been arranged to show <hi rend="i">Urizen</hi> to the seven of us at 1:30, and to another person or persons at 4 p.m. It is quite possible that others followed later and the next morning.</p>
+          <p>From 1:30 to 4 p.m., William Blake was indeed with us. The book was held by a Sotheby staff member (Kimball Higgs) and the pages turned for us. Some of us had slides from other copies, but even better were some color prints of what is being entered into the electronic Blake Archive being produced at the University of Virginia. I could barely breathe, what with the excitement of each page coming to view, photographic representation showing the kinds of variants which are commonplace in all Blake’s color-printed works. In the spring 2000 issue of <hi rend="i">Blake</hi>, a proper bibliographical description will appear. I can only attempt to describe the fun it was to listen and either challenge or accept other reactions from persons whose lives are so involved with books, literature and art. It was a grand experience. I was so
+<pb id="p33-29" n="29"/>
+involved that I did not want to eat dinner or to try to attend a play; I only wanted to be peaceful and to think about what I had seen.</p>
+          <p>The next morning we reconvened at the Morgan Library to see the superb exhibition of some books from the English Getty collection, including a copy of Blake’s <hi rend="i">Songs of Innocence and of Experience.</hi> We met other book persons, which added to the pleasures of the week, and we were treated to a tour of the Morgan, focusing on Mr. Morgan’s office and the early days of the Library. I never did discover if J. Pierpont Morgan’s own wine and cigars kept in a humidity-controlled storage area were available to present-day directors, as they were in the 1960s and 70s. I can recommend the garden lunch room at the Morgan, especially when the food is embellished with lively company and the excitement of the sale.</p>
+          <p>The auction began at 2 p.m. with item 410, and, knowing the ways of Sotheby’s and Christie’s in London, I expected them to reach the last item, <hi rend="i">Urizen</hi>, lot 535, by 4:30. This means that the auction runs briskly, with 125 items to be sold in 150 minutes.</p>
+          <p>It was fun watching the proceedings. We seven sat in the middle section of the third and fourth rows. It was clear that John Windle was going to bid for Bob Essick, and they sat just in front of us. Jerry circulated a tiny note on which we were to write our estimate of the price the Blake would fetch. We had five entries ranging from $200,000 to $2,100,000. (Two wimps didn’t guess.)</p>
+          <p>There were two banks of Sotheby’s staff mostly handling clients who bid on the phone, with a few sitting on the auctioneer’s left side obviously commissioned to bid on items. The auction room was slightly over half full. I would expect the room to be fuller for the furniture sessions.</p>
+          <p>The auction room attendees seemed to consist of observers; persons bidding for themselves; dealers bidding for clients or for stock; Sotheby’s agents hired to bid on direction of the client; and those bidding for telephone clients.</p>
+          <p>The auctioneer was a pleasure to watch. We were amused when one of the women offering telephone bids on behalf of a Sotheby’s client pointed out that she had bid a sum which had been surpassed by another telephone bid, and now she was proffering the next bid. The auctioneer made a joke of it, but it was clear that he was not going to allow any more outside recognition of bids. He is a master of his trade and rewarding to observe.</p>
+          <p>How do you bid? If you live in a community which has a Sotheby’s office, you contact that office about how to establish your credit. Otherwise, you find out from Sotheby’s in New York how to proceed. Then, shortly before the session at which you wish to bid, just outside the auction room you step up to the appropriate desk and identify yourself. You are then issued a card with large numerals on it which is referred to as a paddle. (Dealers are very superstitious about these numbers.) Now, armed with a paddle in order to bid for yourself, you enter the auction room. If you have someone else in the room ready to bid for you, you work out whether or not you communicate during the bidding and choose seating accordingly. Or you can hire a bidder from the auction house.</p>
+          <p>For successful bids, the purchaser pays the auction house a buyer’s premium of 15% of the successful bid price up to $50,000 or 10% for any price beyond $50,000. If someone else did the bidding, the client pays the bidder a commission of 10% to 15% on the hammer-price. State sales taxes further exalt the cost.</p>
+          <p>The paddle is only to identify you—“sold to number 453.” You may catch the auctioneer’s attention by any means you wish, by raising your paddle or raising your eyebrow or scratching your ear. But if scratching your ear is supposed to mean “I’ll raise you $15,000,” you’d better arrange your code with the auctioneer before the sale. The auctioneer looks chiefly at previous bidders, so if you wish to enter the auction at a late stage, you may need to do so ostentatiously.</p>
+          <p>We watched the sale of those items leading up to the item 535 with increasing palpitations. Some items did not reach the reserve (often the minimum catalog estimate), such as a drawing by Aubrey Beardsley which was estimated to sell for $6,000 to $8,000, but reached only $4,250. Often in this sale, however, the hammer price was about four times that of the top estimate. Lot 533, copy 13 of a limited edition of 101 copies of Ezra Pound’s <hi rend="i">A Draft of the Cantos 17 to 37</hi>, fetched a hammer price of $45,000, which was 7.5 times the top estimate of $6,000, while lot 531, a 1799 book containing 12 hand-colored caricature aquatints of horses,<ref target="n66" type="note">4</ref> brought $12,000, 10 times its top estimate. Lot 518, the first edition of a novel by Surtees estimated at $400-$600, had no response to the auctioneer’s opening gambit of $100, while lot 531, an 1819 book on Oriental field sports with 40 hand-colored plates, estimated at $2,500-$3,500, opened at $1,000, had one bid to $1,500, but was “passed” by the auctioneer, which I took to mean that there was a reserve price on it, a set price below which the auctioneer may not go. <note id="n66"><hi rend="s">4</hi> George Woodward and Thomas Rowlandson, <hi rend="i">Horse Accomplishments</hi> (London: Ackermann, 1799).</note></p>
+          <p>Which way was the Blake going to go? I could feel the excitement rising. I was so agitated that my catalog copy has no bidding notes for item 534.</p>
+          <p>The auctioneer opened the bidding on <hi rend="i">The First Book of Urizen</hi> by William Blake at $250,000, which I believe was taken up by bidders just in front of me and continued rapidly but decorously until suddenly the bidding moved from the floor to the telephones and rose to $1,000,000. There was another bid from the floor after the $1,000,000 figure, but the real action was from three telephones, then two telephones, and finally stopped at $2,300,000.</p>
+          <p>The Two Million, Three Hundred Thousand Dollar hammer price would bring Sotheby’s a buyer’s premium of
+<pb id="p33-30" n="30"/>
+$232,500, which means the buyer’s price is $2,532,500. And of course the buyer had to pay his bidder, which is likely to have added significantly to his cost.</p>
+          <p>The buyer, who evidently was bidding from a telephone within the building and who wishes to remain anonymous, came down to collect his purchase and took it home with him, leaving the building about 5:30, within the hour of making his purchase. <hi rend="i">Urizen</hi> has left New York.</p>
+          <p>Of course, this is a RECORD PRICE FOR A BLAKE, almost twice what Copy D of <hi rend="i">Songs of Innocence and of Experience</hi> sold for in 1989<ref target="n67" type="note">5</ref> and multiples of what any copy of <hi rend="i">Urizen</hi> previously sold for. <note id="n67"><hi rend="s">5</hi> Copy D of <hi rend="i">Songs of Innocence and of Experience</hi> has 54 prints and sold in 1989 for $1,320,000 (<hi rend="i">Blake Books</hi> and <hi rend="i">Blake Books Supplement</hi>), which means that each print could be said to have cost $24,444. In the same sort of calculation, Copy E of <hi rend="i">Urizen</hi> could have its 24 prints priced at over $105,500 a print.</note></p>
+          <p>During the rather dazed aftermath of the sale, I was told by Sotheby’s staff who had been dealing with the press that this is the fourth highest auction price recorded for a book. Remembering that these books included the Gutenberg Bible and a Caxton Chaucer, it is tempting to make comparisons based on size. Surely per square inch and even for number of pages, the <hi rend="i">Urizen</hi> has fetched the highest price in book auctions yet, over $100,000 per page.</p>
+          <p>However, such commercial comparisons are odious. More interestingly, look at the auction records of <hi rend="i">Urizen</hi>, which reveal that copies of <hi rend="i">Urizen</hi> have been sold 10 times at auction.</p>
+          <table rows="11" cols="5">
+            <head>
+              <hi rend="b">Auction Sales of Blake’s Urizen</hi>
+              <ref target="n68" type="note">6</ref>
+              <note id="n68"><hi rend="s">6</hi><hi rend="i"> Blake Books</hi> 81-82.</note>
+            </head>
+            <row>
+              <cell>
+                <hi rend="b">Copy</hi>
+              </cell>
+              <cell>
+                <hi rend="b">Date</hi>
+              </cell>
+              <cell>
+                <hi rend="b">Auction House</hi>
+              </cell>
+              <cell>
+                <hi rend="b">Price</hi>
+              </cell>
+              <cell>
+                <hi rend="b">Present Location</hi>
+              </cell>
+            </row>
+            <row>
+              <cell>G</cell>
+              <cell>20 Jan 1852</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£8.15</cell>
+              <cell>Library of Congress</cell>
+            </row>
+            <row>
+              <cell>B</cell>
+              <cell>20 March 1882</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£59</cell>
+              <cell>Morgan</cell>
+            </row>
+            <row>
+              <cell>F</cell>
+              <cell>20 Nov 1883</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£124</cell>
+              <cell>Harvard</cell>
+            </row>
+            <row>
+              <cell>C</cell>
+              <cell>23 April 1890</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£66</cell>
+              <cell>YCBA<ref target="p30u1" type="note">*</ref><note id="p30u1">*Yale Center for British Art</note></cell>
+            </row>
+            <row>
+              <cell>G</cell>
+              <cell>30 March 1903</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£307</cell>
+              <cell>Library of Congress</cell>
+            </row>
+            <row>
+              <cell>B</cell>
+              <cell>1 July 1924</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£580</cell>
+              <cell>Morgan</cell>
+            </row>
+            <row>
+              <cell>B</cell>
+              <cell>10 April 1941</cell>
+              <cell>Parke-Bernet</cell>
+              <cell>$8,250</cell>
+              <cell>Morgan</cell>
+            </row>
+            <row>
+              <cell>A</cell>
+              <cell>26 Feb 1956</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£6,800</cell>
+              <cell>YCBA</cell>
+            </row>
+            <row>
+              <cell>C</cell>
+              <cell>29 March 1971</cell>
+              <cell>Sotheby’s</cell>
+              <cell>£24,000</cell>
+              <cell>YCBA</cell>
+            </row>
+            <row>
+              <cell>E</cell>
+              <cell>23 April 1999</cell>
+              <cell>Sotheby’s</cell>
+              <cell>$2,532,000</cell>
+              <cell>Anon.</cell>
+            </row>
+          </table>
+          <p>Copies D and J have not been sold at auction. Copy C went early to the British Museum Print Room, and copy J was recently located by Detlef Dörrbecker in the Albertina Museum in Vienna.</p>
+          <p>Sotheby’s has clearly been the auction house of choice for sales of <hi rend="i">Urizen</hi> for the last 147 years. Note that Parke-Bernet was taken over by Sotheby’s of New York.</p>
+          <p>The re-emergence of copy E and its record-breaking purchase price have had several long term effects. First, the new buyers have the joy of possession. The sellers have the pleasure of having raised a significant sum for their foundation. We suspect that this will raise Blake items higher in price; that this is the point at which individual pages of color designs may be priced at $100,000 a sheet, which means that even fewer scholars can ever hope to own even so much as a page of original Blake work.</p>
+          <p>However, there is silver lining to the dark cloud of such monumental prices for Blake works. Naturally, two and a half million dollars for a 24-page book attracted notice in the media. This in turn has encouraged folk to hunt out forgotten family treasures to see if great-aunt Nellie’s treasured Blake picture really is what she thought it was. Before the sale, Sotheby’s had calls about the value of some works reputed to be by William Blake. I am sure that since the sale and attendant newspaper stories, there have been further enquiries directed to Sotheby’s, as I know there have been enquiries to Jerry.</p>
+          <p>Perhaps this will lead to the knowledge of yet another copy of something produced by Blake. Look in your cupboards, trunks and boxes, ladies and gentlemen, I am ready to have my April adventures repeated. Original Work by William Blake is Seriously Sought.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>

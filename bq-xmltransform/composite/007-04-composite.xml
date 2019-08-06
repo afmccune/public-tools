@@ -1,0 +1,953 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>7.4.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Spring 1974</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1974</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">07.4</biblScope>
+                        <biblScope unit="volume">7</biblScope>
+                        <biblScope unit="issue">4</biblScope>
+                        <respStmt>
+                            <resp>Editors</resp>
+                            <name>Morris Eaves</name>
+                            <name>Morton D. Paley</name>
+                            <resp>Editorial Assistants: for production</resp>
+                            <name>Judith Wallick Page</name>
+                            <resp>Editorial Assistants: for subscriptions</resp>
+                            <name>Graham Conley</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1974"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_07">
+        <front>
+            <div1 id="cover">
+                <figure n="cover.007.04.bqscan" rend="file">
+                    <figTranscr>BLAKE<lb/>
+                        NEWSLETTER<lb/>
+                        28</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-07-4-0001">
+                <pb id="p07-75" n="75"/>
+                <table id="contents" rows="11" cols="2">
+                 <row>
+            			<cell colspan="3">
+                			<head>
+                    			<title>
+                        		<supplied type="emend"><hi rend="b">Contents</hi></supplied>
+                    			</title>
+               				</head>
+            			</cell>
+        			</row>
+                    <row>
+                        <cell>
+                            <hi rend="b">NOTES</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Robert N. Essick: <ref type="article" issue="7.4.essick">Blake, Linnell, &amp; James Upton: An Engraving Brought to Light</ref></cell>
+                        <cell>76</cell>
+                    </row>
+                    <row>
+                        <cell>Roy J. Pearcy: <ref type="article" issue="7.4.pearcy">Blake’s <hi rend="i">Tyger</hi> &amp; Richard Crashaw’s Paraphrase of Thomas of Celano’s <hi rend="i">Dies Irae</hi></ref>
+                        </cell>
+                        <cell>80</cell>
+                    </row>
+                    <row>
+                        <cell>Peter Alan Taylor: <ref type="article" issue="7.4.taylor">Blake’s Text for the <hi rend="i">Enoch</hi> Drawings</ref></cell>
+                        <cell>82</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">MINUTE PARTICULARS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Robert M. Ryan: <ref type="article" issue="7.4.ryan">"Poisonous Blue"</ref></cell>
+                        <cell>87</cell>
+                    </row>
+                    <row>
+                        <cell>Joel Morkan: <ref type="article" issue="7.4.morkan">Milton’s <hi rend="i">Eikonoklastes</hi> &amp; Blake’s Mythic Geography: A Parallel</ref></cell>
+                        <cell>87</cell>
+                    </row>
+                    <row>
+                        <cell>Thomas E. Connolly: <ref type="article" issue="7.4.connolly"><hi rend="i">Songs of Innocence</hi>, Keynes (1921) Copy U, Keynes-Wolf (1953) Copy U</ref></cell>
+                        <cell>88</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">REVIEW</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Peter Roberts: <ref type="article" issue="7.4.roberts">A Review Essay on Blake Music and a Checklist: "On Tame High Finishers of Paltry Harmonies"</ref></cell>
+                        <cell>90</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright © 1974 by Morris Eaves &amp; Morton D. Paley</note>
+                <note type="unreferenced" place="footer">The photographs on pp. 73-75, 90, 94-95, 97, &amp; 98 are published by permission of the Royal Ballet, with thanks to Mr. Vivien Wallace, Royal Ballet Press Officer. The photographs are of scenes from the 1972 production of the ballet of <hi rend="i">Job.</hi> For some details see the review-essay by Peter Roberts in this issue. On the cover: Kerrison Cooke as Satan (photograph by Houston Rogers). Inside front cover: Kerrison Cooke as Satan (photograph by Dominic). Page 90: Donald Macheary as Elihu (photograph by Peggy Leder). Pages 94-95: photograph by Dominic. Page 97: Donald Macheary as Elihu &amp; Adrian Grato as Job (photograph by Alan Cunliffe). Page 98: Kerrison Cooke as Satan (photograph by Dominic).</note>
+                  <p>The <hi rend="i">Blake Newsletter, An Illustrated Quarterly</hi>, is published quarterly under the sponsorship of the Department of English of the University of New Mexico.</p>
+                <p>Editors: Morris Eaves, University of New Mexico, and Morton D. Paley, University of California, Berkeley.</p>
+                <p>Editorial Assistants: for production, Judith Wallick Page, University of New Mexico; and for subscriptions, Graham Conley, University of New Mexico.</p>
+                <p>Manuscripts are welcome. Send two copies, typed and documented according to the <hi rend="i">MLA Style Sheet</hi>, to either of the editors: Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131; Morton Paley, Dept. of English, Univ. of California, Berkeley, Ca. 94720.</p>
+                <p>Subscriptions are $5 for one year, four issues; special rate for individuals, $4 for one year, surface mail; for those subscribers overseas who want to receive their issues by air mail, $8. U.S. currency or international money order if possible. Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131.</p>
+                <p>Some back issues are available. Address Morris Eaves. Prices: whole numbers 1-8, bound together, $5 (special rate for individuals, $4). Whole numbers 9-13, bound together, $5 (special rate for individuals, $4). Whole numbers 14, 15, 21, 22, 23, 24, 25, 26, and 27, $2 each. Whole number 20 (<hi rend="i">A Handlist of Works by William Blake in the Department of Printe &amp; Drawinge in the British Museim</hi>, edited by G. E. Bentley, Jr.), $3.</p>
+                <p>The ISSN (International Standard Serial Number) of the <hi rend="i">Blake Newsletter</hi> is 0006-453X.</p>
+            </div1>
+        </front>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <pb id="p07-76" n="76"/>
+        <body>
+            <div1 id="BQ-07-4-0002">
+                <head>
+                    <title>
+                        <hi rend="b">NOTES</hi>
+                    </title>
+                </head>
+                <figure n="ESXL.1.2B.SP" rend="file">
+                    <head>1 Portrait of James Upton, engraved by Blake and Linnell after Linnell’s painting.</head>
+                    <figDesc>Proof before letters. Author’s collection.</figDesc>
+                </figure>
+                <pb id="p07-77" n="77"/>
+                <figure n="upton.bqscan" rend="file">
+                    <head>2 Portrait of James Upton, open letter proof.</head>
+                    <figDesc>Author’s collection.</figDesc>
+                </figure>
+                <pb id="p07-78" n="78"/>
+                <div2>
+                    <byline>
+                        <docAuthor>Robert N. <name>Essick</name>
+                        </docAuthor>
+                    <ref target="n0" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">Blake, Linnell, &amp; James Upton: An Engraving Brought to Light</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <p>Shortly after their first meeting, John Linnell hired Blake to lay in an engraving after the younger artist’s oil portrait of the Baptist preacher James Upton (1760-1834). Linnell’s journal, account book, manuscript autobiography, and the miscellaneous Blake-Linnell accounts now at Yale and in Sir Geoffrey Keynes’ collection document this commission as thoroughly as any of Blake’s separate plates. We know when, for whom, and at what fee the work was done, but from 1912 until the present no one has actually seen the engraving and recognized it as in part Blake’s work. By a stroke of good fortune I was able to acquire two impressions of this plate--as far as I can determine, the only ones extant--in London during the summer of 1973. While it hardly embodies the energetic imagination found in Blake’s most admired engravings, it is a fine piece of craftsmanship with historical importance as the first product of Blake’s relationship with Linnell and as a strong influence on Blake’s later engraving style.</p><note id="n0">
+                        <hi rend="i">Robert N. Essick is an Associate Professor of English at California State University, Northridge. He has recently co-authored a commentary on the</hi> Night Thoughts <hi rend="i">engravings (forthcoming from Dover) and edited a collection of reprinted articles on Blake’s art</hi>, The Visionary Hand <hi rend="i">(Hennessey &amp; Ingalls).</hi>
+                    </note>
+                    <p>On 24 June 1818, Linnell wrote in his journal that he had gone "To Mr. Blake evening. Delivered to Mr Blake the picture of Mr Upton &amp; the Copperplate to begin the engraving" (Bentley, <hi rend="i">Blake Records</hi>, p. 256). Years later, Linnell wrote about this same first employment of Blake in his manuscript "Autobiography":
+<q>
+At Rathbone place 1818 my first Child Hannah was born Sep. 8, and here I first became acquainted with William Blake to whom I paid a visit in company with the younger Mr Cumberland. Blake lived then in South Molton St. Oxford St second floor. We soon became intimate &amp; I employed him to help me with an engraving of my portrait of Mr Upton a Baptist preacher which he was glad to do having scarcely enough employment to live by at the prices he could obtain[;] everything in Art was at a low ebb then. (<hi rend="i">Blake Records</hi>, p. 257)
+</q>
+With this modest endeavor Linnell began a friendship which was to sustain Blake throughout the last nine years of his life.</p>
+                    <p>The sequence of payments for Blake’s work on the Upton plate is fully recorded in receipts made by both men. On 12 August 1818, Linnell paid Blake £2, and again on 11 September paid Blake another £5. The second payment is specifically entered for the "Plate of Mr Upton" in Linnell’s general account book (<hi rend="i">Blake Records</hi>, p. 584). Both payments are confirmed by Blake’s receipts, the second reading "Recievd 11 Septembr 1818 of Mr Linnell the Sum of Five pounds on account of Mr Uptons Plate" (<hi rend="i">Blake Records</hi>, p. 580). In his journal for 12 September, Linnell wrote that "Mr Blake brought a proof of Mr Uptons plate[,] left the plate &amp; named £15 as the price of what was already done by him" (<hi rend="i">Blake Records</hi>, p. 258). Blake’s note of 19 September gives the full amount to be paid "For Laying in the Engraving of Mr Uptons portrait" as £15.15s., of which £7 had already been paid (on 12 August and 11 September). The outstanding £8.15s. was paid in two installments, £5 on 9 November and £3.15s. on 31 December (<hi rend="i">Blake Records</hi>, p. 581). Thus Blake worked on the plate from 24 June to 12 September 1818, and payment for his labors was completed on the last day of that year.</p>
+                    <p>The earlier of the two impressions reproduced here [illus. 1] is a proof on India paper, laid on a sheet of unwatermarked white wove paper, lacking all letters except for "James Upton" very lightly scratched into the plate 1.8 cm. below the design. Most of the lines appear to have been engraved, although a few lines on the right margin have the blunt ends typical of etching. There was probably some initial etching of basic outlines, but this work has been covered by subsequent engraving. A. T. Story in <hi rend="i">The Life of John Linnell</hi> (London, 1892) notes that the plate was executed in part in dry point (II, 242), and this may well have been the method used to produce the fine lines in the face.</p>
+                    <p>Just above the lower plate-mark is the date <hi rend="i">March. 1819</hi>-- written in pencil, and to the right also in pencil is <hi rend="i">Unfinished Proof. must be returned to Mr. J. Linnell.</hi> This writing is very similar to the pencil notes on Fuseli’s drawings of Michelangelo and the frontispiece to Lavater’s <hi rend="i">Aphorisms</hi> once in Linnell’s collection which Ruthven Todd believes were "undoubtedly made by members of the Linnell family" (<hi rend="i">Blake Newsletter 19</hi> [Winter 1971-72], p. 176). It seems likely therefore that the note on the Upton proof was 
+                        <pb id="p07-79" n="79"/>
+made by Linnell. The recipient of this loan is unknown, although perhaps it was the writing engraver to whom the copperplate was also sent to engrave the inscriptions found on the second state of the plate reproduced here [illus. 2]: PAINTED AND ENGRAVED BY J<hi rend="s">NO</hi>. LINNELL. | JAMES UPTON | <hi rend="i">Pastor of the Baptist Church Meeting in Church Street Blackfriars Road</hi> | <hi rend="i">London Published June 1<hi rend="s">st</hi>1819 by.</hi> In this state a stick pin now adorns Upton’s shirt just below the collar, the mole on his right cheek and a few lines on the collar beneath his chin have been removed, and the shading in the background has been deepened slightly. This is the same state of the print, and very likely the same impression on white laid paper without a watermark, as the one recorded by Archibald G. B. Russell in 1912, "an open-letter proof in the Linnell collection" (<hi rend="i">The Engravings of William Blake</hi>, p. 136). In his catalogue of <hi rend="i">Engravings by William Blake: The Separate Plates</hi> (Dublin, 1956), p. 83, Geoffrey Keynes simply repeats the information given by Russell; apparently Keynes had never seen the print himself. The lack of a publisher’s name in the imprint, together with the rarity of the print, suggests that it was never actually published. Story writes that "the price paid to Linnell for this engraving was 50 guineas" (<hi rend="i">Life of Linnell</hi>, I, 159), but this was probably received from whoever commissioned the original portrait--perhaps Upton’s family or congregation. In both impressions the design size is 26 × 19.3 cm. and the plate-mark measures 35.2 × 27.2 cm.</p>
+                    <p>It is very difficult to determine the extent of Blake’s work on the plate. "Laying in" an engraving could mean anything from etching the bare outline to doing all but the finish work on the central figure. The amount which Blake requested for his work suggests that he did more than just outline etching. If indeed Blake’s financial situation was as tenuous as Linnell indicates in his "Autobiography," then it would seem likely that Blake must have done considerable work on the copperplate to charge a new friend and potential patron £15.15s. The Hesiod illustrations executed in stippled lines after Flaxman’s designs brought Blake only £5.5s. for each plate in 1816. In 1824 and 1825 Linnell paid Blake £20 for his work on the portrait engraving of Wilson Lowery, and Blake’s contribution was in this case extensive enough for him to receive second billing on the plate (<hi rend="i">Drawn from Life by J. Linnell, &amp; Engraved by J. Linnell &amp; W. Blake</hi>). But it is unlikely that the first state reproduced here is the proof which Blake brought to Linnell on 12 September 1818. The six months between the delivery of the copperplate to Linnell and the pencil inscription on the India paper proof would have allowed Linnell to do a good deal of work on the plate. Further, had Blake almost finished the engraving himself, Linnell would surely have given him some recognition on the plate--or we would have a record of Blake’s reaction to such double-dealing and the entire Blake-Linnell relationship would not have been as fruitful as we know it to have been.</p>
+                    <p>The Upton protrait marks an important watershed in Blake’s career as an engraver. Only the presentation of wood grain in the table seems characteristic of Blake’s earlier style, as in the "Beggar’s Opera" plate of 1788-90, the sixth illustration to Mary Wollstonecraft’s <hi rend="i">Original Stories</hi> (1791), and "Our End is come" (1793). Blake’s engraved portraits prior to and immediately following his contacts with Linnell demonstrate the influence that the Upton plate, and perhaps other engravings by Linnell, had on his craft. The profile of Lavater (1800) is a remarkably fine example of dot and lozenge engraving, but bears no resemblance to the Upton plate. In the portrait of Earl Spencer (1811), Blake returned to the techniques he learned in his youth from Basire. The engraving is burdened with a heavy net of lines unresponsive to differing textures, and although it does have a certain blunt power the total effect is unfortunate. In contrast, the Upton portrait is a first-class piece of work, with great subtlety in the handling of flesh tones and patterns of light and dark.</p>
+                    <p>While nothing in Blake’s earlier work prepares us for the high-finish techniques of the Upton plate, Linnell’s own engraved portrait of Rev. John Martin, dated 1813 in the imprint, shows the same characteristics of modulated but basically dark ruled background, heavy cross-hatching on the clothing, and fine lines with dot and flick work on the hands and face. The same techniques appear again in Blake’s next engraving after the Upton plate, a portrait of Reverend Robert Hawker published by A. A. Paris in 1820. Although this plate reproduces a painting by Ponsford, not Linnell, the almost identical building up of the lines produces the same textures of cloth and skin, and even the same background shading, found in the Upton engraving. Clearly, Linnell’s techniques as an engraver embodied in the Upton plate, and perhaps in other examples seen by Blake, had a profound effect of Blake’s own methods. Even the Job illustrations show this influence, particularly in the use of swelling lines to delineate rounded forms, such as arms and legs, and in the dramatic use of light and shadow effects. The fine lines and dot and flick work used so effectively for the faces in the Job plates also owe a good deal to Linnell’s practice.</p>
+                    <p>The sudden flowering of Blake’s late engraving style in the Job illustrations has never been explained. The Upton plate, regardless of the extent to which the work is by Blake or by Linnell, now makes the transition from the techniques of the 1790s to the Job less of a mystery. I would suggest that Blake’s reworking of "Joseph of Arimathea" and "Mirth" was also stimulated by his contacts with Linnell, although this theory would require dating the final state of the "Joseph" somewhat later than Keynes gives in his <hi rend="i">Separate Plates</hi> catalogue. The Job series--surely Blake’s masterpiece as an intaglio engraver--could not have been possible without Linnell’s financial assistance. With the rediscovery of the Upton plate it becomes clear that Linnell’s artistic influence was also crucial.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-4-0002">
+                <pb id="p07-80" n="80"/>
+                <div2>
+                    <byline>
+                        <docAuthor>Roy J. <name>Pearcy</name>
+                        </docAuthor>
+                    <ref target="n25" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">Blake’s Tyger &amp; Richard Crashaw’s Paraphrase of Thomas of Celano’s</hi> Dies Irae</hi>
+                        </title>
+                    </head>
+                    <p>Within the past several years, critics have become increasingly aware that Blake may have known and been influenced by the poetry of Crashaw, <ref target="n1" type="note">1</ref> whose works, available in partial anthologies published in 1648, 1652, and 1670,<ref target="n2" type="note">2</ref> attracted a growing interest during the eighteenth century, and received frequent and favorable commentary.<ref target="n3" type="note">3</ref> One particular poem often singled out for praise was his "Hymn of the Church in Meditation of the Day of Judgment," a paraphrase of Thomas of Celano’s <hi rend="i">Dies Iras</hi>, originally composed in the thirteenth century as a <hi rend="i">pia meditatio</hi>, but popularized through its incorporation into the burial service of the Roman Church as a sequence in the requiem mass, and through its eventual adoption as an advent hymn by the Protestant churches. By Blake’s time the Latin poem had achieved fame as a nondenominational masterpiece, lauded by Anglicans and Catholics alike for the sublimity of its theme and the splendid "hammer strokes" of its triple rhymes.<ref target="n4" type="note">4</ref> Crashaw’s translation of 1646, the second in English,<ref target="n5" type="note">5</ref> takes great liberties with the Latin text,<ref target="n6" type="note">6</ref> changing the form and paraphrasing the sense to achieve a distinctive sublimity of expression that reappears in Blake’s "The Tyger," a poem generally supposed to be concerned with the same themes of divine wrath and the punishment of sins.<ref target="n7" type="note">7</ref>
+                        <note id="n25">
+                            <hi rend="i">Roy J. Pearcy, an Associate Professor of English at the University of Oklahoma, has taught at UCLA and the University of Kent in Canterbury. He teaches Chaucer, Chaucer’s contemporaries, and History of the English Language, and does research on Chaucer, Old French fabliaux, and medieval popula narrative. Articles on these topics have appeared in each journals on these topics have appeared in such journals as</hi> The Chaucer Review, Revue belge de philologie et d’histoire, Fabula, Romance Notes, <hi rend="i">and</hi> Notes &amp; Queries.</note>
+                        <note id="n1">
+                            <hi rend="s">1</hi> For example, Josephine Miles, <hi rend="i">Eras and Modes in English Poetry</hi> (Berkeley: Univ. of California Press, 1957), pp. 48-49; and Morton d. Paley, <hi rend="i">Energy and the Imagination: A Study of the Development of Blake’s Thought</hi> (Oxford: Clarendon, 1970), p. 104.</note>
+                        <note id="n2">
+                            <hi rend="s">2</hi> Bibliographical details in <hi rend="i">The Poems of Richard Crashaw</hi>, ed. L.C. Martin (Oxford: Clarendon, 1957), pp. xliii-1xxxvi. Quotations of Crashaw’s poem are from this edition, pp. 298-301. The first allegedly complete edition of Crashaw, Robert Anderson’s <hi rend="i">A Complete Edition of the Poets of Creat Britain</hi> (1793), IV, 707-54, appeared a year after "The Tyger" had essentially achieved its finished form.</note>
+                        <note id="n3">
+                            <hi rend="s">3</hi> See Austin Warren, "The Reputation of Crashaw in the Seventeenth and Eighteenth Centuries," <hi rend="i">SP</hi>, 31 (1934), 385-407.</note>
+                        <note id="n4">
+                            <hi rend="s">4</hi> Text of the poem and a commentary on it are given by F. J. E. Raby, <hi rend="i">A History of Christian-Latin Poetry</hi> (Oxford: Clarendon, 1927), pp. 443-52. A writer in the <hi rend="i">Christan Magazine</hi> of 1760 made the claim that the <hi rend="i">Diee Irae</hi> "savoureth more of Protestantism than of Popery."</note>
+                        <note id="n5">
+                            <hi rend="s">5</hi> The first was made by Joshua Sylvester in 1621.</note>
+                        <note id="n6">
+                            <hi rend="s">6</hi> A stanza by stanza comparison with the Latin original is given by Sister Margaret Claydon, <hi rend="i">Richard Crashaw’s Paraphrases of the Vexilla Regis . . . Dies Iras, O Gloriosa Domina</hi> (Washington: Catholic Univ. of America Press, 1960), pp. 78-99.</note>
+                        <note id="n7">
+                            <hi rend="s">7</hi> As, for example, in Paley, <hi rend="i">Energy and the Imagination</hi>; S. Foster Damon, <hi rend="i">William Blake: His Philosophy and Symbols</hi> (Boston: Houghton Mifflin, 1924); Jesse Bier, "A Study of Blake’s ‘The Tyger,’ " <hi rend="i">Bucknell Univ. Studies</hi>, 1 (1949), 35-46; and Hazard Adams, <hi rend="i">William Blake: A Reading of the Shorter Poems</hi> (Seattle: Univ. of Washington Press, 1963).</note>
+                    </p>
+                    <p>Crashaw’s treatment of eschatological wrath is not only in verse, but in the same quatrains (rhymed <hi rend="i">aabb</hi>) as "The Tyger," and close scrutiny reveals a still more detailed metrical correspondence between the two poems. Both alternate catalectic trochaic tetrameters with iambic tetrameters, although there is an 18:6 preponderance of the former in Blake’s poem, a 16:8 preponderance of the latter in the first six stanzas of Crashaw’s seventeen-stanza poem. In stanzas 1 and 5 of the "Hymn," which most closely resemble Blake, are found exactly the same patterns of iambic and trochaic lines as in stanzas 1, 5, and 6 of "The Tyger":
+<q>
+II<lb/>
+                            <lb/>
+0 that fire! before whose face<lb/>
+Heaun &amp; earth shall find no place.<lb/>
+0 those eyes! whose angry light<lb/>
+Must be the day of that dread Night.<lb/>
+                            <lb/>
+V<lb/>
+                            <lb/>
+0 that Book! whose leaues so bright<lb/>
+Will sett the world in seuere light.<lb/>
+0 that Iudge! whose hand, whose eye<lb/>
+None can indure; yet none can fly. 
+                        </q>
+                        <pb id="p07-81" n="81"/>
+Both poets have strong caesural pauses in catalectic lines, although the caesura follows the fourth syllable in Blake, the third in Crashaw. Substituting "What the . . . ?" pharases from Blake for "O that . . . !" phrases in Crashaw conveniently illuminates the resemblances, and while final meaning is certainly affected by one poet’s preference for rhetorical questions over the other’s exclamations, the poems are nevertheless alike in their incantatory repetition of the respective figures chosen, and both employ the same cadences to evoke a similar sense of religious awe.</p>
+                    <p>This sense is intensified by both poets’ use of similar diction. The word <hi rend="i">dread</hi> occurs three times in each poem, "dread hand," "dread feet," and "dread grasp" in Blake, "dread Night," "dread Lord," and "dread <hi rend="i">Ite</hi>" in Crashaw. Blake’s "deadly terrors" is matched by Crashaw’s "Horror of . . . Death," and the word <hi rend="i">horrid</hi> itself appears as "horrid ribs" in an earlier draft of "The Tyger."<ref target="n8" type="note">8</ref>
+                        <note id="n8">
+                            <hi rend="s">8</hi> Texts of the various drafts and a detailed discussion of their significance for an understanding of the evolution of the poem may be found in Martin K. Nurmi, "Blake’s revisions of <hi rend="i">The Tyger</hi>," <hi rend="i">PMLA</hi>, 71 (1956), 669-85.</note>
+                    </p>
+                    <p>Josephine Miles has discussed Blake’s use of the imagery of cosmic passion and sense impression, designed to evoke a sense of the sublime of terror, and Morton Paley has applied her observations specifically to "The Tyger." Blake’s practice in this regard could be modelled on Crashaw’s in the "Hymn." Blake’s cosmos of "Distant deeps or skies" and star-filled heaven is matched by the "Heaun &amp; earth," the "round [of] the circling sun," and the "hell . . . beneath" of Crashaw. As Blake’s cosmos is penetrated by an immortal hand or eye, and traversed on aspiring wing, so Crashaw’s world on the Day of Judgment, alerted by the trump of doom, responds with a universal groan before the inescapable hand and eye of its Judge. Crashaw’s depiction of divine wrath, while not achieving anything approaching Blake’s concreteness, confronts us with a figure of fire possessed of a "face" and eyes which burn with an "angry light," closer to Blake’s tiger than other manifestations of divine wrath cited to explain this image.<ref target="n9" type="note">9</ref> In Blake the tiger stalks the "forests of the night," and the image of the forest sometimes appears in the Bible in conjunction with visions of divine retribution. In the <hi rend="i">Dies Irae</hi> the trump of doom resounds through the <hi rend="i">sepulchra regionem</hi>, which Crashaw renders as "the caues of night," literally the graves of the dead, but perhaps like Blake’s image signifying more generally the fallen world. Finally, the most intriguing coincidence of images may be that between the reference in the "Hymn" to the moment "When starres themselues shall stagger," and the reference in "The Tyger" to the moment "When the stars threw down their spears." There is no source in Thomas of Celano for Crashaw’s image, an indication that Crashaw’s version is the most promising place to look for any possible influence of the <hi rend="i">Dies Irae</hi> on Blake, and if the influence is genuine it suggests that the image in Blake may be more conventionally apocalyptic than has generally been supposed. 
+                        <note id="n9">
+                            <hi rend="s">9</hi> Paley, pp. 41-42, cites Biblical examples of divine wrath conceived "in images of fire and beasts of prey." In most instances, however (Mal. 3:2 and Amos 5:6 are exceptions), God is not identified with fire but uses it as His means to destroy the world. In Zephaniah 1:14-18, the source of the opening stanzas of the <hi rend="i">Dies Irae</hi>, there is reference to the Lord’s wrath and "the fire of his jealousy."</note>
+                    </p>
+                    <p>By the late 1700s the <hi rend="i">Dies Irae</hi> was established as the most famous short treatment of the subject matter of doomsday, and Crashaw’s English version of the Latin hymn was also well-known and much admired. It is therefore quite likely that the "Hymn" would have come to mind when Blake was composing "The Tyger," and since, through its poetic rhythms, diction, and imagery much of the distinctive flavor of the "Hymn" is recaptured in "The Tyger," Crashaw’s poem may indeed have been quite fresh in Blake’s memory.</p>
+                    <p>Whatever his literary indebtedness, Blake certainly wrote poetry of a kind to elude definitive explication by comparison with other poets’ similar treatments of similar themes. But for the purpose of understanding the material transubstantiated in the crucible of his imagination, some note of the inferences to be drawn from a recognition of the possible influence of Crashaw’s "Hymn" on "The Tyger" may legitimately be offered in conclusion. That Blake subscribed to Jakob Boehme’s doctrine of contraries is well known, and often cited to explain certain aspects of the tyger, in whose fearful symmetry are reconciled beauty and ferocity, Christ and Yahweh, divine mercy and divine justice. The most significant effect of seeing in "The Tyger" reminiscences of the "Hymn" is to focus attention on Blake’s poem as an apocalypse, to fasten certain of its activities in time, and to make it a manifestation of divine wrath <hi rend="i">in actu</hi> rather than <hi rend="i">in posse.</hi> By combining apocalyptic images with the act of creation conceived as the forging of the tiger, Blake has added to the sense of fearful symmetry a sense of fearful simultaneity. In God’s (or the visionary poet’s) eternal present, a world created to be destroyed is a world at once created <hi rend="i">and</hi> destroyed, the two activities blurring and fusin in the finely appropriate image of the smith at his forge. Blake’s poem suggests such a perspective by seeming to speculate on the future possibility of creation/destruction (what hand <hi rend="i">could</hi> frame, what hand <hi rend="i">dare</hi> seize, what art <hi rend="i">could</hi> twist),<ref target="n10" type="note">10</ref> when the stars have already capitulated to chaos and destruction of the not-yet-created is complete. This view of time accords with what is elsewhere known of Blake’s imagination. In <hi rend="i">Jerusalem</hi> he says: "I see the Past, Present &amp; Future existing all at once Before me." Crashaw’s "Hymn" helps us, I think, to recognize that imaginative power to fuse time functioning in "The Tyger." 
+                        <note id="n10">
+                            <hi rend="s">10</hi> The tense and mood of <hi rend="i">dare</hi> is already a vexed question. See Fred C. Robinson, "Verb Tense in Blake’s ‘The Tyger,’ " <hi rend="i">PMLA</hi>, 79 (1964), 666-69; and John E. Grant and Fred C. Robinson, "Tense and the Sense of Blake’s ‘The Tyger,’ " <hi rend="i">PMLA</hi>, 81 (1966), 596-603.</note>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-4-0002">
+                <pb id="p07-82" n="82"/>
+                <div2>
+                    <byline>
+                        <docAuthor>Peter Alan <name>Taylor</name>
+                        </docAuthor>
+                    <ref target="n26" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">Blake’s Text for the</hi> Enoch <hi rend="i">Drawings</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <p>Five of William Blake’s drawings after the apocryphal <hi rend="i">Book of Enoch</hi>, now housed in the Rosenwald collection of the Library of Congress, were at one time in the possession of Allan R. Brown, who attempted to explain the drawings and their relation to one another by matching a passage in <hi rend="i">The Book of Enoch</hi> to each of the drawings.<ref target="n11" type="note">1</ref> Brown does not cite the version of <hi rend="i">Enoch</hi> he used in his commentary, but his observation that a translation of <hi rend="i">Enoch</hi> was published in Blake’s lifetime has led succeeding scholars to believe that Brown had used the translation available to Blake. On the contrary, Brown used a translation, by R. H. Charles, that did not appear until some eighty-five years after Blake’s death.<ref target="n12" type="note">2</ref> The only text available to Blake was one translated by Richard Laurence in 1821.<ref target="n13" type="note">3</ref> Brown, in addition, took liberties with even the Charles text, by not indicating omissions in the text he printed and by interpolating some passages into the midst of others without indicating that he had done so. Following Brown without comment and also without citing any specific <hi rend="i">Enoch</hi> text, Geoffrey Keynes reproduced the five drawings in his <hi rend="i">Blake’s Pencil Drawings, Second Series</hi> (1956). 
+                        <note id="n26">
+                            <hi rend="i">Peter Alan Taylor teaches in the Department of English at the University of British Columbia.</hi>
+                        </note>
+                        <note id="n11">
+                            <hi rend="s">1</hi> "Blake’s Drawings for the <hi rend="i">Book of Enoch</hi>," <hi rend="i">The Burlington Magazine</hi>, 78 (1940), 80-[85].</note>
+                        <note id="n12">
+                            <hi rend="s">2</hi><hi rend="i"> The Book of Enoch or 1 Enoch: Translated from the Editor’s Ethiopic Text</hi> (Oxford, 1912). Brown may have used, instead, <hi rend="i">The Book of Enoch</hi>, ed. W. O. E. Oesterly (London, 1917), which uses Charles’ 1912 text but which was distributed in a popular edition by the Society for Promoting Christian Knowledge.</note>
+                        <note id="n13">
+                            
+                                <hi rend="s">3</hi><hi rend="i"> The Book of Enoch the Prophet</hi> (Oxford, 1821). An earlier translation of a portion of <hi rend="i">Enoch</hi> exists in pamphlet form in the British Museum: Aristeas, <hi rend="i">The History of the Angels and their Gallantry with the Daughters of Men</hi>, trans. Mr. Lewis (London: J. Hooke and T. Caldecott, 1715), pp. 179-96. But since it is mentioned neither by Laurence or by Charles, it is unlikely that it was known in Blake’s time.
+                        </note>
+                    </p>
+                    <p>While my note does not offer an alternative interpretation, it does seek to demonstrate that Brown’s reading of the <hi rend="i">Enoch</hi> drawings rests on the use of a text that Blake could not have seen. Although he may be correct in reading some of the drawings according to passages in the Charles translation, Brown’s case for others becomes much less compelling when we compare those passages to equivalent passages from the Laurence translation.</p>
+                    <p>The first two drawings, [A] and [B], (as numbered by both Brown and Keynes) might well, as Brown claims, represent the descent of the angels, their union with "the daughters of man," and the consequent birth of the giants. But Brown prints as a single, continuous narrative what are actually selections from several chapters of the Charles translation and which, in some cases, are worded quite differently in the Laurence translation. The following parallel transcription indicates the extent of Brown’s alterations of the text: 
+                        <pb id="p07-83" n="83"/>
+                        <figure>
+                            <head>[A] <hi rend="i">The Book of Enoch</hi>: "Two Angels Descending to a Daughter of Man" (?).</head>
+                            <figDesc>National Gallery of Art, Rosenwald Collection.</figDesc>
+                        </figure>
+                        <table rows="6" cols="2">
+                            <row>
+                                <cell>
+                                    <hi rend="i">Brown’s Text (Charles, 1912)</hi>
+                                    <ref target="n14" type="note">4</ref>
+                                    <note id="n14">
+                                        <hi rend="s">4</hi> I have followed the divisions into chapters and verses of both the Laurence and the Charles text.</note>
+                                </cell>
+                                <cell>
+                                    <hi rend="i">Blake’s Text (Laurence, 1821)</hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>[VI.1] And it came to pass in the days when the children of men had multiplied that there were born unto them beautiful and comely daughters. [2] And the angels, the children of heaven, saw and lusted after them, and said to one another: "Come, let us choose wives for ourselves from among the children of men and beget us children." [With no indication, Brown here omits verses 3, 4 and 5 of Charles’ text.] [6] And they were in all two hundred who descended . . . [Here, Brown omits, again without indication, the following words, as well as two further complete verses: "in the days of Jared on the summit of Mount Hermon."]</cell>
+                                <cell>[VII.1] It happened after the sons of men had multiplied in those days, that daughters were born unto them elegant and beautiful. [2] And when the angels, the sons of heaven, beheld them, they became enamoured of them, saying to each other; Come, let us select for ourselves wives from the progeny of men, and let us beget children.</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>[7] Their whole number was two hundred who descended upon Ardis, the summit of Mount Armon.</cell>
+                            </row>
+                            <row>
+                                <cell>[VII.1] . . . took unto themselves wives, and each chose for himself one, and they began to go in unto them, . . . and they taught them charms and enchantments, and the cutting of roots and made them acquainted with plants. [Brown goes on to quote at this point a phrase that does not appear until two chapters later: IX.8] And revealed to them all kinds of sin. [The context of the passage from Ch. IX is a complaint from men to heaven <hi rend="i">after</hi> the depredations of the giants.]</cell>
+                                <cell>[10] Then they took wives, each choosing for himself; whom they began to approach, and with whom they cohabited; teaching them sorcery, incantations, and the dividing of roots and trees.</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>[IX.6] They have gone together to the daughters of men; have lain with them; have become polluted. [7] And have discovered crimes to them.</cell>
+                            </row>
+                            <row>
+                                <cell>[VII.2] And they became pregnant, and they bore great giants, whose height was three thousand ells: [3] Who consumed all the acquisitions of men. And when men could no longer sustain them, [4] The giants turned against them and devoured mankind. [5] And they began to sin against birds, and beasts, and reptiles, and fish, and to devour one another’s flesh, and drink the blood.</cell>
+                                <cell>[VII.11] And the women conceiving brought forth giants; [12] Whose stature was each three hundred cubits. These devoured all which the labour of men produced; until it became impossible to feed them; [13] When they turned themselves against men, in order to devour them; [14] And began to injure birds, beasts, reptiles, fishes, to eat their flesh after one another, and to drink their blood.</cell>
+                            </row>
+                        </table>
+                        <figure>
+                            <head>[B] <hi rend="i">The Book of Enoch</hi>: "An Angel Telling a Daughter of Man the Secrets of Sin" (?).</head>
+                            <figDesc>National Gallery of Art, Rosenwald Collection.</figDesc>
+                        </figure>
+Brown has thus radically simplified the <hi rend="i">Enoch</hi> text, leaving out anything that does not fit into what he takes to be a version of the fall in Blake’s myth: the descent into generation, the subsequent dominance of the female and the chaos that results.</p>
+                    <p>As further evidence that the two male figures in the first drawing [A] represent the angels descending to the daughters of men, Brown, followed by Keynes, calls the puzzling shapes at the loins of the male figures "phallic attributes." In explanation he alludes to one of Enoch’s later visions where the angels, as Brown says demurely, "with somewhat disconcerting bluntness are so represented" (p. 83). The context of this later vision is an allegory of the history of Israel which recapitulates the story of the descent of the angels in terms of animals: the daughters of men as white cows, the angels as stars and the
+<pb id="p07-84" n="84"/>
+                        <figure>
+                            <head>[C] <hi rend="i">The Book of Enoch</hi>: "Daughter of Man as Siren" (?).</head>
+                            <figDesc>National Gallery of Art, Rosenwald Collection.</figDesc>
+                        </figure>
+resulting monsters as elephants, camels and asses. Laurence translates this part of the allegory as follows:
+<q>
+[LXXXV.4] . . . I saw many stars which descended and projected themselves where the first star was, [5] Into the midst of the young ones; while the cows were with them, feeding in the midst of them. [6] I looked at and observed them; when behold, they all protruded their parts of shame like horses, and began to ascend the young cows, all of whom became pregnant, and brought forth elephants, camels and asses.
+</q>
+                    </p>
+                    <p>In spite of Brown’s incorrect report of the text available to Blake, then, the first <hi rend="i">Enoch</hi> drawing [A] probably does illustrate the descent of the angels to the daughters of men. And the second drawing [B], with a descending angel whispering secrets into the ear of an acquiescent female figure and with large forms emerging on either side, might further illustrate, as Brown claims, the teaching of forbidden knowledge together with the emergence of the giants, as narrated in chapter VII of Laurence’s translation, quoted above. Brown’s interpretation of the set of five drawings, though, depends upon what he considers a sequence in which the third drawing [C] represents the consequences of the actions portrayed in the first two, connecting [B] and [C] by what he sees as a "scaly covering" (p. 83) on the descending angel in the second drawing. While the scales on the arising female figure of the third drawing are clearly a part of its iconography, the scales that Brown sees on the angel of [B] are, at the most, conjectural and motivated more, it seems, by the demands of Brown’s argument than by a close observation of the drawing.</p>
+                    <p>The most serious difficulty, however, arises with Brown’s interpretation of the drawing that he calls the third of the sequence, [C], which he, followed by Keynes, has entitled, "The Daughter of Man become a Siren." For evidence, Brown prints this part of the Charles text as if it continued immediately after the passage about the rampage of the giants, quoted above. But in <hi rend="i">The Book of Enoch</hi> the crucial final part of the passage that Brown offers as evidence does not appear until some eleven chapters after the episode of the descent of the angels. Brown conflates the passages as follows:
+<q>
+And there arose much godlessness, and they committed fornication and were led astray and become corrupt in all their ways. And the whole earth was filled with blood and unrighteousness. And the women also of the angels who went astray became sirens. (p. 83)
+</q>
+                    </p>
+                    <p>In both translations, moreover, the episode of the descent of the angels and their seduction of the daughters of men is treated as a kind of historical narrative which precedes the actual prophetic visions of Enoch. The final sentence that Brown has taken from the Charles translation
+<pb id="p07-85" n="85"/>
+                        <figure>
+                            <head>[D] <hi rend="i">The Book of Enoch</hi>: "Enoch Standing Before the Throne of the Great Glory" (?).</head>
+                            <figDesc>National Gallery of Art, Rosenwald Collection.</figDesc>
+                        </figure>
+does not appear until one of these later visions in which Enoch is shown by the angel Uriel the place where the reprobate angels and the women with whom they have sinned are to be punished. Indicating no interruption of text or change of narrative mode here, Brown has conflated three separate passages into one, as revealed by the following parallel transcriptions:
+<table rows="4" cols="2">
+                            <row>
+                                <cell>
+                                    <hi rend="i">Charles (1912)</hi>
+                                </cell>
+                                <cell>
+                                    <hi rend="i">Laurence (1821)</hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>[VIII.2] And there arose much godlessness and they committed fornication and were led astray and became corrupt in all their ways.</cell>
+                                <cell>[VIII.2] Impiety increased; fornication multiplied; and they transgressed and corrupted all their ways.</cell>
+                            </row>
+                            <row>
+                                <cell>[IX.9] . . . And the whole earth has thereby been filled with blood and unrighteousness.</cell>
+                                <cell>[IX.9] . . . Thus has the whole earth been filled with blood and iniquity.</cell>
+                            </row>
+                            <row>
+                                <cell>[XIX.2] And the women also of the angels who went astray shall become sirens.</cell>
+                                <cell>[XIX.2] . . . and their wives also shall be judged, who led them astray that they might salute them.</cell>
+                            </row>
+                        </table>
+In identifying the woman of [C] as a siren, then, Brown has reached a conclusion that Blake could not have intended from the text available to him, a text that does not use the word <hi rend="i">sirens</hi> or anything like it.</p>
+                    <p>If the first three drawings constitute the Blakean version of the fall, according to Brown’s interpretation, the next two, [D] and [E], constitute a countervailing movement, the apotheosis of the prophet Enoch and the appearance of Jesus as the Messiah. Accordingly, the fourth drawing [D], in which two figures kneel before another figure
+<figure>
+                            <head>[E] <hi rend="i">The Book of Enoch</hi>: "The Son of Man as the Messiah, with Four Attendant Spirits" (?).</head>
+                            <figDesc>National Gallery of Art, Rosenwald Collection.</figDesc>
+                        </figure>
+seated on a throne, illustrates one of Enoch’s visions wherein he appears, according to Brown’s caption, "with an angel before the Great Glory" (p. 83). The passage that Brown quotes, but again does not cite, comes from the fourteenth chapter of the Charles translation which ends:
+<q>
+And one of the holy ones came to me and waked me, and He made me rise up and approach the door: and I bowed my face [Brown: "head"] downwards. . . .
+</q>
+Although this passage accounts for the two figures before the throne in Blake’s drawing, the equivalent passage in Laurence does not admit this second figure:
+<q>
+[XIV.24] Then the Lord with his own mouth called me, saying; Approach hither, Enoch, at my holy word.<lb/>
+[25] And he raised me up, making me draw near even to the entrance.
+</q>
+There are, however, at least two other passages later on in the Laurence translation of <hi rend="i">Enoch</hi> in which the prophet is brought before the throne of the Almighty, and in both of them the text portrays Enoch presented by an angel.<ref target="n15" type="note">5</ref>
+                        <note id="n15"><hi rend="s">5</hi> Chapters LVIII<hi rend="s">a</hi> and LXXX.</note>
+                    </p>
+                    <p>The last of the five drawings [E], according to Brown’s ordering, with its four female figures
+<pb id="p07-86" n="86"/>
+encircling the central, Christ-like figure, might, as Brown proposes, illustrate the passage he suggests from the Charles translation:
+<q>
+[XLIX.3] And in him dwells the spirit of wisdom,<lb/>
+And the spirit which gives insight,<lb/>
+And the spirit of understanding and of might,<lb/>
+And the spirit of those who have fallen as leep in righteousness.
+</q>
+Seeing the four figures of [E] as the four spirits enumerated in the Charles text, Brown associates them with "counterparts [emanations?] of the four archangels [Zoas?]" (p. 84). Here again, though, Brown has modified the Charles text considerably, printing as prose what Charles has rendered as verse, and omitting, without indication, some nineteen verses in the middle of the scene that he reports from Charles. The text to which Blake had access translates the relevant passage in a slightly different manner:
+<q>
+[XLVIII<hi rend="s">b</hi>.3] With him dwells the spirit of intellectual wisdom, the spirit of instruction and of power, and the spirit of those who sleep in righteousness. . . .
+</q>
+Although this passage could be read as distinguishing four separate spirits, the punctuation and the absence of a plural on the
+<figure>
+                            <head>[F] <hi rend="i">The Book of Enoch</hi>: the sixth of the series, recently discovered by John E. Grant on the verso of Blake’s "Circle of Carnal Sinners," one of the Dante designs.</head>
+                            <figDesc>Reproduced by permission of the Fogg Art Museum, Harvard University.</figDesc>
+                        </figure>
+word <hi rend="i">spirit</hi> in the phrase "the spirit of instruction and of power" makes the argument some-what less compelling. Rather than illustrating the triumphant Messiah and "the fourfold nature of man" (p. 84), as Brown interprets it, the drawing could as easily illustrate Blake’s notion of the "generation" of Jesus by a collective female will, analogous to the Jesus in <hi rend="i">The Four Zoas</hi> who assumes "the dark Satanic body in the Virgin’s womb" (8.241).</p>
+                    <p>Considering the five drawings as a complete set, Brown’s interpretation seeks to trace through them the whole Blakean cycle from the fall to the triumphant reappearance of the Messiah. However, an additional Blake drawing for <hi rend="i">Enoch</hi> [F] has recently been discovered by John E. Grant, making the sixth so far to come to light. This discovery renders suspect any such simple correspondence as that proposed by Brown, and it suggests that Blake may have done still other drawings, any of which may lead us to reformulate our notions about how the individual drawings relate to one another and about how Blake interpreted the Laurence translation of <hi rend="i">The Book of Enoch.</hi> Allan Brown may not have been a Blake scholar, but his conclusions have for too long been accepted by those who are. Though this note does not propose an alternative interpretation of the <hi rend="i">Enoch</hi> drawings, it will at least have begun to sweep the interpreter’s parlor.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-87" n="87"/>
+            <div1 id="BQ-07-4-0003">
+                <head>
+                    <title>
+                        <hi rend="b">MINUTE PARTICULARS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>
+                        <docAuthor>Robert M. <name>Ryan</name>
+                        </docAuthor>
+                    <ref target="n27" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">“Poisonous Blue”</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <p>I would like to suggest an interpretation of a curious phrase which appears on Plate 65 of <hi rend="i">Jerusalem.</hi><note id="n27">
+                        <hi rend="i">Robert M. Ryan teaches Romantic literature at Rutgers University in Camden.</hi>
+                    </note>
+                        <q>
+They vote the death of Luvah &amp; they nail’d him to Albion’s Tree in Bath,<lb/>
+They stain’d him with poisonous blue, they inwove him in cruel roots<lb/>
+To die a death of Six thousand years bound round with vegetation. (<hi rend="i">J</hi> 65:8-10, K 699)
+</q>
+Damon identifies "poisonous blue" as woad.<ref target="n16" type="note">1</ref> And given the general context, a Druid sacrificial rite, it does seem likely that Blake was thinking of the dye with which ancient Britons colored their skin. Yet there is nothing particularly poisonous in the chemical makeup of woad. Therefore I suspect that Blake may also have had in mind another coloring substance--the pigment known as Prussian blue. 
+                        <note id="n16">
+                            <hi rend="s">1</hi> S. Foster Damon, <hi rend="i">William Blake: His Philosophy and Symbols</hi> (1924; rpt. New York: Peter Smith, 1947), p. 459.</note>
+                    </p>
+                    <p>Prussian blue was first produced in Berlin in 1704 and by the end of the century had come into wide use among artists--Blake included.<ref target="n17" type="note">2</ref> In 1782, the new pigment aroused the curiosity of the Swedish chemist, Karl Wilhelm Scheele, and he performed a series of experiments attempting to analyze the "coloring principle" in Prussian blue.<ref target="n18" type="note">3</ref> Scheele was successful in isolating the chemical, and four years later the French <hi rend="i">Encyclopédie</hi> gave it the name "<hi rend="i">l’acide prussique.</hi>"<ref target="n19" type="note">4</ref> Prussic acid is today more generally known as hydrocyanic acid or hydrogen cyanide, and it is recognized as one of the most poisonous substances in existence. Scheele himself was apparently not aware of the dangerous qualities of the acid he had discovered: it was not until 1803 that its highly poisonous character was fully understood.<ref target="n20" type="note">5</ref> Since then the chemical has had an inglorious history: the Zyklon-B used at Auschwitz and the gas released in execution chambers in this country were both forms of hydrocyanic acid. 
+                        <note id="n17">
+                            <hi rend="s">2</hi> Sir Geoffrey Keynes and Edwin Wolf 2nd, <hi rend="i">William Blake’s Illuminated Books: A Census</hi> (New York: Grolier Club, 1953), pp. 44. One instance of Blake’s use of the color is mentioned.</note>
+                        <note id="n18">
+                            <hi rend="s">3</hi> His account of the experiments is included in <hi rend="i">The Chemical Essays of Charles-William Scheele</hi>, trans. Thomas Beddoes (London: John Murray, 1786).</note>
+                        <note id="n19">
+                            <hi rend="s">4</hi> J. R. Partington, <hi rend="i">A History of Chemistry</hi>, III (London: Macmillan, 1962), 527.</note>
+                        <note id="n20">
+                            <hi rend="s">5</hi> Partington, III, 234. In 1803, the poison derived from laurel leaves was identified as prussic acid. Was it coincidental that in this year (probably) Blake wrote: "The Strongest Poison ever known / Came from Caesar’s Laurel Crown"? (K 433) Or had he read somewhere an account of the discovery?</note>
+                    </p>
+                    <p>What was Blake’s point in alluding to Prussian blue in this passage? David Erdman suggests that Plate 65 was revised at about the time of Napoleon’s Hundred Days.<ref target="n21" type="note">6</ref> In the Belgian campaign--that final assault by the sons of Albion against Luvah--England’s chief ally was Prussia. It was the arrival of Prussian troops under Blücher that determined the outcome of the battle at Waterloo. In describing the sacrificial death of Luvah, Blake saw the appropriateness of identifying the blue dye of the Druids with the poison-based color named for Prussia. 
+                        <note id="n21">
+                            <hi rend="s">6</hi>
+                            <hi rend="i"> Blake, Prophet Against Empire</hi>, 2nd ed., rev. (Princeton: Princeton Univ. Press, 1969), p. 466n.</note>
+                        
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-87" n="87"/>
+            <div1 id="BQ-07-4-0003">
+                    <byline>
+                        <docAuthor>Joel <name>Morkan</name>
+                        </docAuthor>
+                    <ref target="n28" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">
+                                <hi rend="i">Milton’s</hi> Eikonoklastes &amp; <hi rend="i">Blake’s Mythic Geography: A Parallel</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <p>There is an interesting parallel between a passage in Milton’s <hi rend="i">Eikonoklastes</hi> and the way Blake conflates Biblical and English geography for mythic purposes in <hi rend="i">Milton, The Marriage of Heaven and Hell</hi>, and <hi rend="i">Jerusalem.</hi>
+                        <note id="n28">
+                        <hi rend="i">Joel Morkan is an Associate Professor of English at Florida State University. He has published essays on Milton and the Romantics. He is particularly interested in the relationship between Milton and Blake.</hi>
+                    </note>
+                    </p>
+                    <p>In his attack on Charles I as a Urizenic tyrant, Milton wrote:
+<q>
+                            <hi rend="i">Ireland</hi> was as <hi rend="i">Ephraim</hi>, the strength of his head, <hi rend="i">Scotland</hi>, as <hi rend="i">Judah</hi>, was his Law-giver; but over <hi rend="i">England</hi> as over <hi rend="i">Edom</hi> he meant to cast his Shoo; and yet so many sober Englishmen not sufficiently awake to consider this, like men inchanted with the Circaean cup of servitude, will not be held back from running thir own heads into the Yoke of Bondage.<ref target="n22" type="note">1</ref>
+                            <note id="n22">
+                                <hi rend="s">1</hi> Merritt Y. Hughes, ed., <hi rend="i">The Complete Prose Works of John Milton</hi> (New Haven: Yale Univ. Press, 1962), II, 488.</note>
+                        </q>
+                    </p>
+                    <p>The fusion of English and Biblical geography, the mythic humanization of the nation, and the figure of the whole people as a sleeping or enchanted giant under the foot of a brutal tyrant are all elements familiar from Blake’s poetry. Some of this is attributable to the imaginative compatibility of the two writers, and also, no doubt, to their common grounding in such scriptural passages as Psalm 60:7-8: "Ephraim also is the strength of mine head, Judah is my lawgiver. / Over Edom will I cast out my shoe."</p>
+                    <p>There are, however, more specific connections between Blake’s use of allegorical geography and this passage from Milton. In <hi rend="i">Eikonoklastes</hi>, Ireland is Ephraim, and in Blake’s <hi rend="i">Jerusalem</hi> (72:23) the seven counties of Connaught are assigned to Ephraim. In Milton’s passage Scotland is Judah, whereas in <hi rend="i">Jerusalem</hi> (16:54) one of Judah’s functions is to guard Aberdeen, Berwick, and Dumfries. Finally, in Blake, Edom is a fallen land (<hi rend="i">Milton</hi> 17:20; <hi rend="i">Jerusalem</hi> 49:43; 92:23; 96:9), but is also both the giant who must recover his lost inheritance and the land that must be transformed before the apocalypse (<hi rend="i">Marriage of Heaven and Hell</hi> 2:14-20, 3:5-6).</p>
+                    <p>One hesitates to put more weight on these parallels than they will bear; however, they do point in a direction that could be fruitful in further explorations of both Blakes’s mythic geography and history in the prophetic Books, that is Milton’s historical and polemical prose and his native antecedents in the use of allegorical geography: Spenser, Drayton, Phineus Fletcher, and William Browne of Tavistock. 
+                    </p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-4-0003">
+                <pb id="p07-88" n="88"/>
+                <div2>
+                    <byline>
+                        <docAuthor>Thomas E. <name>Connolly</name>
+                        </docAuthor>
+                    <ref target="n29" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">Songs of Innocence, <hi rend="i">Keynes (1921) Copy U, Keynes-Wolf (1953) Copy U</hi>
+                            </hi>
+                        </title>
+                    </head>
+                    <p>This copy of <hi rend="i">Songs of Innocence</hi>, in the Houghton Library, Harvard University (see <hi rend="i">Newsletter</hi> 19, p. 214, and <hi rend="i">Newsletter</hi> 24, p. 96) requires, perhaps, just one more note to present it properly to contemporary students of Blake. Physical examination of the volume as it now exists reveals the following details to be added to the standard bibliographical descriptions cited above:<note id="n29">
+                        <hi rend="i">Thomas E. Connolly is Professor of English at the State University of New York at Buffalo. He is currently at work on a book on Blake’s</hi> Songs.</note>
+<list type="ordered">
+                            <item>
+                                <p>
+                                    <label>(1)</label> pl. 29, the first of two plates of "The Little Black Boy." For this copy two pulls were made from this plate. Consequently two leaves for pl. 29 appear in this copy. The leaves were not numbered by Blake, but numbers in pencil have been added in the upper right-hand corners of the leaves. Because of the extra print of or pull from pl. 29, these numbers run from 1-32, not from 1-31 as the bibliographies cited above declare.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(2)</label> Included in this copy, but unnoticed in either of the bibliographies cited in my title are three leaves from <hi rend="i">Songs of Experience</hi> numbered in pencil in the upper right-hand corners 1a, 2a, 3a. These are:</p>
+                                <list type="ordered">
+                                    <item>
+                                        <p>
+                                            <label>(a)</label>
+                                            <hi rend="i">Experience</hi> pl. 29,<ref target="n23" type="note">1</ref> Title page to <hi rend="i">Experience</hi> on which is written in pencil: "Taken in 1838: From the original plates in possession of Mr. Tatham." 
+                                            <note id="n23">
+                                                <hi rend="s">1</hi> The Keynes-Wolf <hi rend="i">Census</hi> uses one set of plate numbers for extant copies of <hi rend="i">Songs of Innocence</hi> (p. 9) and another set of plate numbers for extant copies of <hi rend="i">Songs of Innocence and of Experience</hi> (p. 50). A certain amount of confusion will always arise in referring to the plates of individual poems in <hi rend="i">Songs of Innocence.</hi> One must be careful always to indicate whether one is citing the plate number for a poem of <hi rend="i">Innocence</hi> as it appears in the single anthology (<hi rend="i">Innocence</hi> only) or in the double anthology (<hi rend="i">Innocence and Experience</hi>): For example, Keynes-Wolf number the plate for "A Dream" 4 in the former and 26 in the latter; they number the two plates for "The Little Black Boy" 29 and 30 in the former and 9 and 10 in the latter.</note>
+                                        </p>
+                                    </item>
+                                    <item>
+                                        <p>
+                                            <label>(b)</label>
+                                            <hi rend="i">Experience</hi> pl. 30, "Introduction" to <hi rend="i">Experience.</hi>
+                                        </p>
+                                    </item>
+                                    <item>
+                                        <p>
+                                            <label>(c)</label>
+                                            <hi rend="i">Experience</hi> pl. 37, "The Chimney Sweeper" of <hi rend="i">Experience.</hi>
+                                        </p>
+                                    </item>
+                                </list>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(3)</label> Also originally bound into this copy are many leaves containing excerpts from the "Prologue" to <hi rend="i">The Canterbury Tales</hi> with modernized versions on facing leaves.</p>
+                            </item>
+                        </list>
+                    </p>
+                    <p>A corrected description of this copy of <hi rend="i">Songs of Innocence</hi> reads as follows:
+<q>
+U 31 plates on [32]<ref target="n24" type="note">2</ref> leaves. Watermark WHATMAN, on one leaf. Printed in black. Uncoloured. Formerly arranged: 2, 1, 3, 10-11, 29-30, 9, 22, 28, 13, 14, 8, 20, 21, 16-17, 27, 24, 18-19, 12, 23, 25-26, 31, 4, 15, 5-7. Size: 19 × 11.7 cm. Now loose in binding together with the <hi rend="i">Descriptive Catalogue</hi>, 1809, and the <hi rend="i">Canterbury Pilgrims</hi>, 1812; fly-leaf with watermark dated 1818. [Uncoloured prints of pls. 29, 30, 37 of <hi rend="i">Songs of Experience</hi> bound in after <hi rend="i">Songs of Innocence.</hi> The following notation in pencil appears on pl. 29 (<hi rend="i">Experience</hi>), Title page to <hi rend="i">Experience:</hi> "Taken in 1838: From the original plates in possession of Mr. Tatham." Excerpts from Chaucer’s "Prologue" with modernized texts facing the originals have also been bound into this copy.] 
+    <note id="n24">
+                                <hi rend="s">2</hi> Material in square brackets is either a correction of or an addition to the bibliographic description in the Keynes-Wolf <hi rend="i">Census</hi> (pp. 17-18).</note>
+                        </q>
+                    </p>
+                    <p>Formerly in the possession of Robert Balmanno, an English journalist, who emigrated to New York. He had been friendly with Stothard and Fuseli and other artists who knew Blake, and may have had the books direct from him. Afterwards in the collection of E.W. Hooper, of Boston. Reproduced in 1883 by Little, Brown, and Co. For many years in 
+                        <pb id="p07-89" n="89"/>
+the possession of Hooper’s daughter, Mrs. Greely S. Curtis, Jr., of Boston, and given by her sister, Mrs. Ward Thoron to the Houghton Library, Harvard University, in 1951 in memory of her father.</p>
+                    <p>Further pencil notations, that are not necessarily essential to the physical description of Copy U, appear as follows:
+<list type="ordered">
+                            <item>
+                                <p>
+                                    <label>(1)</label> On the verso of pl. 3 "Introduction" to <hi rend="i">Innocence</hi> appears the following notation: "Typ 6500 (50-208-210)".</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(2)</label> Inside the front cover is a history of the ownership of this copy.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(3)</label> On the verso of pl. 21 ("The Little Boy found") appears the notation: "H.D. Chapin 60 Beacon St. Boston High 3-4 40 inches - 11246".</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(4)</label> On p. 30 of the <hi rend="i">Descriptive Catalogue</hi> in the margin opposite "H—says" in the text appears the name, "Hoppner".</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(5)</label> On p. 32 of the <hi rend="i">Descriptive Catalogue</hi> in the margin opposite "Mr. S—" appears the name, "Stothard".</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>(6)</label> On the end paper appears the note: "A copy of the/<hi rend="i">Descriptive Catalogue</hi> of 1809/Sold in the Beckford Libr<hi rend="s">y</hi>/Hamilton Palace Sale for £9/E.W.H."</p>
+                            </item>
+                        </list>
+                    </p>
+                    <p>One does not know when the pages of this copy became loose. They may have been loosened sometime between 1921 and 1953. The extra leaf for "The Little Black Boy" may have been inserted after Keynes originally described this copy, but it is unlikely. Similarly, the three leaves from <hi rend="i">Experience</hi> may have been added subsequent to 1921, again unlikely. If the three leaves from <hi rend="i">Experience</hi> were actually added to this copy in 1838 or shortly thereafter, as the pencil note indicates, the pages of this copy may have been loosened before Keynes originally described it in 1921.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-90" n="90"/>
+            <div1 id="BQ-07-4-0004">
+                <head>
+                    <title type="section">REVIEWS</title>
+                </head>
+                <figure/>
+                <pb id="p07-91" n="91"/>
+                <div2>
+                    <byline>
+                        <docAuthor>Peter <name>Roberts</name>
+                        </docAuthor>
+                    <ref target="n30" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">
+                            <hi rend="b"><hi rend="i">On Tame High Finishers of Paltry Harmonies</hi></hi><lb/>
+                            <hi rend="i">A Blake Music Review &amp; Checklist</hi>
+                        </title>
+                    </head>
+                    <p>Every thing which is in harmony with me I call In harmony--But there may be things which are Not in harmony with Me &amp; yet are in a More perfect Harmony. (MS Notebook 1808-11, K 559)</p><note id="n30">
+                        <hi rend="i">The musical experience of Peter Roberts as a dramatic tenor goes back at least to 1940, when he sang at one of the Young Peoples’ Concerts of the New York Philharmonic-Symphony at the age of 17. Since then he has been a church soloist, oratorio soloist, quartet tenor in major synagogues, and opera singer. He sang on many major radio shows of Hollywood origin from 1944 to 1954, has made many television appearances, and worked in many motion pictures on and off screen, and has supplied voices dubbed for film stars. In 1955 he sang tenor leads at Tanglewood under Boris Goldowsky, and in recent years he has toured the U.S. and Canada as a tenor soloist. At present he teaches voice and sings as a church soloist and recitalist in the Los Angeles area.</hi>
+                    </note>
+                    <p>One pairing of Contraries immediately appears germane to any attempt at analysis of "tunings," settings-to-music of the writings of Blake. These Contraries may best be identified through usage of terms which, philosophically, have become near-clichés. Coincidentally, the terms themselves indicate the antiquity of such dialogue. I speak of "Apollonian" vs. "Dionysian" (or "Orphic").</p>
+                    <p>Within the mythography of Blake, we may approximately substitute "Urizenic" for the former and "Orcian" or "Rintrahist" for the latter. Or, in other contexts, the pitting of the "Horses of Instruction" against the "Tygers of Wrath" comes to mind.</p>
+                    <p>In musical terms, this may be presented as the ongoing dispute between "classical" musicians of West-European-derived "schools" and the sometimes consciously anti-intellectual proponents of "free" or "folk" music. The approach, however, seems applicable to any discussion of creative means and ends lying within the broad compass of the Arts. Furthermore, the dispute involves the distinction between "structured" and "unstructured" artistic creation, whether one is speaking of the original production of a work or its re-creation via performance or graphic reproduction. Both approaches have had their adherents down through the ages, often to the point of quite ridiculous degrees of cultic ardor and snobbishness.</p>
+                    <p>At first glance it would seem that Blake’s musical preferences lay most strongly with the ecstatics. J. T. Smith attests ("A Book for a Rainy Day," London, 1845, cited in <hi rend="i">Blake Records</hi>, p. 26) that he heard Blake both read and sing his poems. In "Nollekens and his Times," 1828, Smith reports that "Blake wrote many other songs, to which he also composed tunes. These he would occasionally sing to his friends; and though, according to his confession, he was entirely unacquainted with the science of music, his ear was so good, that his tunes were sometimes most singularly beautiful, and were noted down by musical professors" (BR 457). Allan Cunningham, in "Lives of the Most Eminent British Painters, Sculptors, and Architects," 1830, adds that "In sketching designs, engraving plates, writing songs, and composing music, he employed his time, with his wife sitting at his side, encouraging him in all his undertakings. As he drew the figure he meditated the song which was to accompany it, and the music to which the verse was to be sung, was the offspring too of the same moment. Of his music there are no specimens--he wanted the art of nothing it down--if it equalled many of his drawings, and some of his songs, we have lost melodies of real value" (BR 482).</p>
+                    <p>Gilchrist, in hïs 1863 <hi rend="i">Life</hi>, records Mrs. Linnell’s letter of 13 October 1825:
+<q>
+He [Blake] was very fond of hearing Mrs. Linnell sing Scottish songs, and would sit by the pianoforte, tears falling from his eyes, while he listened to the Border Melody, to which the song is set, commencing--<lb/>
+                            <lb/>
+‘O Nancy’s hair is yellow as gowd,<lb/>
+And her een as the lift are blue.’<lb/>
+                            <lb/>
+To simple national melodies Blake was very impressionable, though not so to music of more complicated structure. He himself still sang, in a voice tremulous with age, sometimes old ballads, sometimes his own songs, to melodies of his own. (BR 305)
+</q>
+                    </p>
+                    <p>Finally, Cunningham states that even on his death-bed Blake sang: "The very joyfulness with which this singular man welcomed the coming of 
+                        <pb id="p07-92" n="92"/>
+death, made his dying moments intensely mournful. He lay chaunting songs, and the verses and the music were both the offspring of the moment" (BR 502).</p>
+                    <p>What music of his period Blake heard performed is scarcely recorded. <hi rend="i">Blake Records</hi> (pp. 272-73) quotes from Linnell’s daily Journal that in 1821 Linnell and Blake twice attended the Theatre in Drury Lane when "musical pieces" were performed. These were J. H. Payne’s "Therèse, the Orphan of Geneva," and Mozart’s and Rossini’s music used as settings in a "New Grand Serious Opera" entitled "Dirce, or the Fatal Urn." It is obvious that Blake was familiar with other, more lasting musical efforts than these. The only reference, however, to a specific musical composition I have found is in <hi rend="i">An Island in the Moon.</hi> Here, immediately following Mr. Scoprell’s marvelous parody of a pompous music master is: " ‘Hm,’ said the Lawgiver, ‘Funny enough! Let’s have handel’s water piece.’ " (K 62).</p>
+                    <p>In Blake’s words, "Music as it exists in old tunes or melodies . . . is Inspiration and cannot be surpassed" (<hi rend="i">Descriptive Catalogue</hi>, K 579); "Nature has no Tune, but Imagination has" (<hi rend="i">Ghost of Abel</hi> I:3); "Demonstration, Similitude &amp; Harmony are Objects of Reasoning. Invention, Identity &amp; Melody are Objects of Intuition" (<hi rend="i">On Reynolds</hi>, K 474); " . . . the tame high finisher of paltry Blots Indefinite, or paltry Rhymes, or paltry Harmonies" (<hi rend="i">Milton</hi> 41:9)); " . . . how Albion’s Sons, by Harmonies of Concords &amp; Discords Opposed to Melody" (<hi rend="i">Jerusalem</hi> 74:25). If we let it go at these references, so direct and thus typically Blakean, a reviewer of musical settings of Blakean texts might be tempted to throw out 99% of them as inappropriate to Blake’s intent! The question then arises as to whether or not they constitute, in sum, a <hi rend="i">non sequitur</hi> of sorts in the hearing of the multitudinous settings. I think not.</p>
+                    <p>The entire "program" of psychic development as set forth by Blake as "psychic Columbus," i.e., the progression of the human soul individually or collectively, from Innocence through Experience into Organized Innocence, which seems so closely to parallel the reconciliation of opposites into the Absolute of Oriental thought works against Blake’s seeming condemnation of musical harmonization <hi rend="i">per se.</hi> Indeed, a look at the Blakean vision of the Last Days, as drawn in the fourteenth illustration to the Book of Job, or "A Song of Liberty," and the <hi rend="i">Four Zoas</hi> IX: 308, etc., seems to indicate Blake’s anticipation of an ultimate reconciliation. To paraphrase, "at that time," the Sons of Urizen shall shout and Urizen-Apollo regain the plow-chariot, refurbished by the Sons, and drawn by the Horses of Instruction formerly seen raging in Orc’s Cave, and off will go Urizen-Apollo in the chariot Love to plow up the universe preparatory to the final harvest.</p>
+                    <p>What Blake seems to be saying is that only when all "True Believers" in this, that, or the other "school" or approach shall let go of their devotion to arbitrary positions and open up to the totality of the Cosmos and its Music shall they and Music itself experience the final harvest of potential Joy and Bliss. Each of us experiences the undifferentiated Innocence of childhood. We seek to cling to it and, entering into the problems presented by Experience, seek as well restoration of that State which in retrospect appears so much more felicitous than it may in fact have been. The Thels, the Hars and Hevas, the Professional Innocents, if you will, come to mind. Conversely, the Urizenic person struggles to bring the world of Experience under control by "bringing out of number, weight and measure." Both are doomed to fail. As I "read" Blake’s visionary premise (or promise), the Horses of Instruction and the Tygers of Wrath must escape Luvah’s clutches and Orc’s Caves through the ending of each factional Emanation’s clinging to a conviction of total rectitude. Integration of the personality, or psyche, achievement of the State of Organized Innocence, consists essentially of the acceptance of Innocence’s regrettable but irrevocable loss coupled with Experience’s tedium, terror and pain, and facing Life in its totality as it is, unconditionally loving it with the hopeful openness of the State of Innocence. Only when all of the individuals making up mankind have arrived at this State shall Man, or Albion, be ready for the next progression. Then Man, now bemused, inert, bereft of what Music released could bring to the psyche, would be "plowed"--ravaged by Music, as by all of the Arts. What mankind should seek, it appears, is "Progression," becoming rather than mere being. It is obvious that this is not to be accomplished without Contraries, which must be welcomed if there is to be Progression.</p>
+                    <p>Melody is the basis of all lasting Music. In nearly four decades of singing, in just about every area of possible performance from jazz to classical concertizing and opera, I have yet to hear of a singer capable of singing chords. It seems reasonable to assume that music began with the solo human voice. The addition of other voices, consonant or dissonant, human or instrumental, has only added emotional emphasis or embroidery to Melody. The most successfully memorable symphonic writers have recognized and catered to this atavistic need for Melody which evokes response in the listener’s soul. A composition which incorporates no patterns with recognizable relation to some human response expresses nothing. Such a composition would be, and is, nothing more than a "bringing out of number, weight and measure," and a mathematical diddle. It would surely not qualify as representative of "one of the three Powers in Man of conversing with Paradise, which the Flood did not Sweep away" (<hi rend="i">A Vision of the Last Judgment</hi>, K 609). Yet there has been an enormous amount of such alleged music presented to the world by pedants along the way, counterbalancing the superfluity of abominations called "free music." Is not the operative word in Blake’s condemnation of Harmonies, "paltry"?</p>
+                    <p>In the reviews of Blakean music which follow I find it impossible to state categorically that any given composition is "true to Blake," for I am certain that each composer was seeking to be open to the two Contraries as I have tried to define them. They are, in sum, my own entirely subjective appraisals.</p>
+                    <p>I shall not review Allen Ginsberg’s recording of <hi rend="i">Songs of Innocence and Experience</hi> (MGM-Verve FTS-3083),
+<pb id="p07-93" n="93"/>
+since it was exhaustively and well reviewed in <hi rend="i">Blake Newsletter</hi> (I will confess that my copy of the recording is nearly worn through.) Nor do I feel that my competence extends to either the Fugs’ or the Doors’ recordings. What follows is based upon such material as I have been able to locate in the Los Angeles area in the fall of 1973. I have ordered further items. Any assistance from readers through the lending of items listed in Bentley and Nurmi’s <hi rend="i">Blake Bibliography</hi> or <hi rend="i">Blake Newsletters</hi> 14 and 19 but (some of them long) out of print would be much appreciated.</p>
+                    <p>Before turning to recordings or to music intended for performance, I should like to consider a book of settings intended for the amateur singer: <hi rend="i">Songs of Innocence</hi>, William Blake, music and illustrations by Ellen Raskin, guitar acc: Dick Weissman (Garden City, N. Y.: Doubleday, 1966. LC Card No. 66-11658). I was only able to obtain a copy of this book on loan from a friend of a friend. If the latest <hi rend="i">Books in Print</hi> is valid, Ms. Raskin’s book is out of print, which is unfortunate. As a book, it is handsomely executed, beautifully bound to lie flat easily on a music-rack. Each Song is illustrated appropriately in colored woodcuts by Ms. Raskin. Simplicity is the keynote of the melodies and accompaniments. In fact, the Preface states that they were composed to be "playable by second grade piano students." The tunes are not especially memorable--perhaps they would be for a child--but they are easily within the capabilities of a child’s voice between 6 and 12, and are, as well, appropriate to the texts. Perhaps a bookshop may still have a copy out back, or a copy might be found in a used-book store. For Blake-lovers with children, or Innocents with limited pianistic ability and vocal agility, it is well worth looking for.</p>
+                    <p>
+                        <hi rend="i">Five William Blake Songs</hi>, Op. 66, by Malcolm Arnold, for contralto and string orchestra (London: British &amp; Continental Music Agencies, 1966, 64 Dean St., London W.I.), are quite lovely and appropriate tunings. The texts of the five songs are excerpted from Blake’s <hi rend="i">Poetical Sketches.</hi> The first is "O Holy Virgin! Clad in Purest White" ("To Morning"); II, "Memory, Hither Come"; III, "How Sweet I Roamed"; IV, "My Silks and Fine Array"; and V, "Thou Fairhair’d Angel of the Evening" ("To the Evening Star"). The group as it stands would make a worthy addition to an orchestral concert for any contralto. How well they would work with piano reductions as accompaniments for recital purposes is not certain, since so much of a composer’s intent is lost in such translation. I’d love to hear Jessye Norman sing them!</p>
+                    <p>In terms of simplicity, or relative ease of execution, and yet appropriateness to the text, Gardner Read’s "Piping Down the Valleys Wild" (Op. 76, no. 3, piano accomp., Galaxy Music Corp., New York, 1950) very nearly falls within the same category as Ms. Raskin’s collection. It would be worthy of inclusion in a recital program, as it succeeds in avoiding the dangers of preciosity.</p>
+                    <p>Virgil Thomson’s <hi rend="i">Five Songs from William Blake</hi> (G. Ricordi, New York, 1953) to me seems contrived for the sake of contrivance, complex for the sake of complexity and, for modern tastes, redolent of the period between World Wars when arty songs were written under the guise of art songs. The most vivid example of this is No. 2, "Tiger! Tiger!" which for some unfathomable reason has an accompaniment somehow suggestive of jungle telegraph drums. Thomson’s setting of "The Little Black Boy" strikes me as a bit of the "Shortnin’ Bread" genre, undercutting Blake’s intentions. The five settings are difficult of execution for singer and accompanist. The remaining three songs include "The Divine Image," "The Land of Dreams" (Pickering MS., K 427), and "And did those feet" (<hi rend="i">Milton</hi>, Preface, K 480). The last-named suffers unavoidably in comparison with Sir C. Hubert Parry’s majestic hymnic setting known as "Jerusalem." In toto, in this group, the texts are undeniably Blake’s but oh! those paltry Thomson harmonies!</p>
+                    <p>Which brings me to "one of Albion’s Sons . . . who creates . . . by Harmonies of Concords &amp; Discords Opposed to Melody." Benjamin Britten’s <hi rend="i">Songs and Proverbs of William Blake</hi>, for Baritone and Piano, op. 74 (London, Faber and Faber; New York, G. Schirmer, 1965), is available on London OS 26099, joined on the reverse of the recording with Britten’s settings of Donne’s Holy Sonnets. Dietrich Fischer-Dieskau sings the Blake, Peter Pears the Donne, with Britten himself accompanying both at the piano. According to the notes on the recording envelope, Pears, current tenor assoluto of British music, selected the Blake texts
+<q>
+to form a cycle [intended to be] performed without a break. Six Proverbs of Hell act as musical <hi rend="i">ritornelli</hi> between six Songs of Experience, and a final <hi rend="i">ritornello</hi>, an aphorism from Auguries of Innocence, leads into the last song, taken from the same set. Verbal cross-references between proverbs and songs are many, but musically the songs appear self-contained, while the proverb-<hi rend="i">ritornelli</hi> plainly develop one idea across the work. This is itself an aphorism, all twelve notes arranged as three four-note segments (E-D<hi rend="s">#</hi>-D<hi rend="s">
+                                <hi rend="i">b</hi>
+                            </hi>-G; C<hi rend="s">#</hi>-C<hi rend="s">
+                                <hi rend="i">b</hi>
+                            </hi>-B-F<hi rend="s">#</hi>; B<hi rend="s">
+                                <hi rend="i">b</hi>
+                            </hi>-A-G<hi rend="s">#</hi>-F); within the segments note-orders are variable and such twisting chromatic shapes as D<hi rend="s">#</hi>-E-D<hi rend="s">
+                                <hi rend="i">b</hi>
+                            </hi> acquire a motivic significance that extends into the songs.
+</q>
+                    </p>
+                    <p>The textual arrangement, as credited to Pears, is well thought out, considering its stated purpose:
+<table rows="7" cols="2">
+                            <row>
+                                <cell>1: Lines 2, 3, 4 &amp; 5 from the Proverbs of Hell, <hi rend="i">The Marriage of Heaven and Hell</hi>, Plate 8, K 151</cell>
+                                <cell>1: "London," S of E, K 216</cell>
+                            </row>
+                            <row>
+                                <cell>2: Line 1, same</cell>
+                                <cell>2: "The Chimney Sweep," S of E, K 212</cell>
+                            </row>
+                            <row>
+                                <cell>3: Line 11, same</cell>
+                                <cell>3: "A Poison Tree," S of E, K 218</cell>
+                            </row>
+                            <row>
+                                <cell>4: Line 2, Plate 9, same, K 152</cell>
+                                <cell>4: "The Tyger," S of E, K 214</cell>
+                            </row>
+                            <pb id="p07-94" n="94"/>
+                            <row>
+                                <cell>5: Line 5, Pl. 9, K 152, same Line 18, Pl. 7, K 151, same Line 13, Pl. 9, K 152, same</cell>
+                                <cell>5: "The Fly," S of E, K 213</cell>
+                            </row>
+                            <row>
+                                <cell>6: Lines 12, 11, &amp; 10, Plate 7, K 151</cell>
+                                <cell>6: "Ah, Sun Flower," S of E, K 215</cell>
+                            </row>
+                            <row>
+                                <cell>7: First 4 lines of "To See a World," from "Auguries," K 431</cell>
+                                <cell>7: "Every Night &amp; Every Morn" line 119, K 433, &amp; line 132, K 434</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>The cycle is intended as an evocation of the State of Experience, according to the liner notes. If it were performed in a recital hall "without a break," it would succeed far beyond the composer’s intentions, because it is tedious, terrifying, and filled with the pain of Urizenic contrivance. Newtonian, perhaps; Blakean, never. I cannot but classify it as a wondrous example of Blake’s intended target for "bringing out of number, weight and measure," and an esoteric, precious, in-joke sort of thing, dear to the heart of that one individual in 100,000 or more who has a Ph.D. in
+<figure/>
+Musicology, with Absolute Pitch thrown in. Not a single "national melody" or any other sort of "melody" except those accidents in the mathematical formulae--are they meant to stand for Orcan flames?</p>
+                    <p>A few of the individual settings strike me as interesting and useful, worth a recitalist’s effort to prepare for inclusion on a program as curiosa: "A Poison Tree," "The Tyger," "The Fly," and the concluding pairing, a combination of "To See a World" with "Every Night and Every Morn." But the entire cycle as a totality, a "group"? Thank you, no.</p>
+                    <p>On the recording Fischer-Dieskau performs masterfully, with his usual impeccable musicianship and vocal technique. According to the liner notes, once more, the Blake settings were put together and composed with Fischer-Dieskau in mind.</p>
+                    <p>In approaching the compositions of Ralph Vaughan-Williams intended as musical settings of Blake texts, one does so with almost the reverential sense of awe that staunch Anglo-Catholics feel towards the Apostolic Succession. Both of Vaughan-Williams’s Blake works were "commissioned," in a sense, to celebrate dates related to Blake’s life.
+<pb id="p07-95" n="95"/>
+                        <hi rend="i">Job, a Masque for Dancing</hi>, which may be considered either as ballet music or as a symphonic poem, was composed to celebrate the centenary of Blake’s death in 1927. <hi rend="i">Ten Blake Songs</hi> (Oxford Univ. Press, 1958) were written for the film, <hi rend="i">The Vision of William Blake</hi>, at the request of the Blake Society Bicentenary Committee.</p>
+                    <p>The scenario for <hi rend="i">Job</hi> was written by Sir Geoffrey Keynes, who based the ballet on Blake’s <hi rend="i">Illustrations to the Book of Job.</hi> Keynes’ sister-in-law, Mrs. Gwendolyn Raverat, assisted in condensing Blake’s twenty-one illustrations into eight scenes. In turn, scenario in hand, they approached Mrs. Raverat’s cousin Vaughan-Williams for the music. Vaughan-Williams agreed to collaborate, but insisted that the conception be that of a seventeenth-century masque, with dancing on point ruled out, rather than as a ballet. The resultant work is as much Vaughan-Williams’ as Sir Geoffrey’s and Mrs. Raverat’s, as he made some alterations to their scenario and added stage directions for the "masque." However, it remains unerringly true to the Blakean <hi rend="i">Job.</hi> Musically speaking, Vaughan-Williams’ credentials as "English Vaughan-Williams" are about as impeccable as could be conceived.
+<figure/>
+At the Royal Academy of Music, he was a pupil of Sir C. Hubert Parry, who was, in turn, composer of the setting of "Jerusalem" from Blake’s <hi rend="i">Milton</hi> and his time’s leading student and advocate of the English vocal traditions from their earliest recording. Parry’s mantle of specifically "English" musical expertise fell upon the shoulders of Vaughan-Williams. Thus, in coming to an auditing of this <hi rend="i">Job</hi>, we should expect to hear Blake’s concepts of Job organized by the chief expositor of Blake’s works and set to music by the chief expositor of England’s "national melodies" symphonically orchestrated. And we should not be disappointed. Even if one had never heard of Blake or his <hi rend="i">Job</hi>, the music as music stands as a tremendous work of symphonic creation. To be able to listen to it, conducted by Sir Adrian Boult, to whom Vaughan-Williams dedicated the work (on either the Angel recording, S-36773, list $5.98, or the Everest recording, SDBR-3019, list $4.98), with one’s copy of the Blake illustrations before one is an experience of great intensity. There is also an EMI recording, HQS-1236, not readily available in the U.S. (EMI and Angel are parent and offspring companies, respectively). Both the Angel and the Everest are still available at
+<pb id="p07-96" n="96"/>
+this writing. The latter I discovered locally in the heavily-discounted reissue label bins. The Angel recording’s envelope is illustrated with a reproduction of Blake’s "When the morning stars sang together," and the reverse has the more copious notes of the two, by Michael Kennedy. The Everest’s cover bears a blow-up of Plate XXI from Blake’s <hi rend="i">Illustrations</hi>, with a color-overlay of rainbow hues, at the foot of which, tinted a devilish red is, apparently, a photo of some unidentified balletic Satan <hi rend="i">en couchant</hi>, looking up at the engraved Job.</p>
+                    <p>There is no way of determining the dates upon which the recordings of <hi rend="i">Job</hi> were done, but I suspect the Everest is the older recording, possibly "re-channeled for stereo." It is interesting that both recordings were under Sir Adrian Boult’s baton and yet how audibly different their overall "feel" comes through. Of course, this is not alone due to a difference in recording dates, but to a number of factors--differing personnel, concertmasters, and concepts of intonation, attack, etc. On the Everest, the London Philharmonic Orchestra attacks more cleanly and forcibly but with less smoothness of line and balance than the Angel’s London Symphony Orchestra. Perhaps the intent of the two recordings is the key. I suspect that the Everest was conceived as accompaniment to <hi rend="i">Job</hi> as "Masque for Dancing," as ballet music, while the Angel was conceived as symphonic poem. Which the potential purchaser would prefer is a matter of individual taste, since both are excellent performances. Now, if only the Royal Ballet would bring a performance of <hi rend="i">Job</hi> to darkest Los Angeles!</p>
+                    <p>I have attempted an analysis of the Keynes-Raverat-Vaughan-Williams <hi rend="i">Job</hi> scenes vis-à-vis Blake’s plates. Scene 1: Plates 1 and 2; Scene 2: Plate 2; Scene 3: Plates 2 and 3; Scene 4: Plate 3; Scene 5: Plate 4; Scene 6: Plates 5, 6, 7, 8, 9, 10 and 11; Scene 7: Plates 12, 13, 14 and 15; Scene 8: Plates 14 through 20; Epilogue: Plate 21.</p>
+                    <p>Vaughan-Williams’ <hi rend="i">Ten Blake Songs</hi> bring us back to settings of Blake texts for voice. The composer has specified them for either tenor or soprano, indicated which voice should sing which songs, and written the accompaniments to be played by a solo oboe, with three of the songs unaccompanied. The songs can be sung by either of the specified voices, though my preference would be a soprano for Songs 1 and 5. The composer’s own footnote says that "The oboe parts of these songs may, in case of necessity, be played on a violin or (by transposing the songs down a tone) on a B flat clarinet--but neither of these expedients is advisable. R. V. W." A recorder, too, comes to mind. But do try to find an oboe-player. These are clean, simple-<hi rend="i">sounding</hi> modal tunes in the quality of the English folk idiom, Vaughan-Williams’ lifelong interest. The reed’s counter-melodies are delightful, with occasional dissonances seemingly occurring by accident as it weaves about the vocal line. The songs are not simple to execute, particularly to perform with the effect of simplicity they demand, as the performers on the only American-made recording I have found must have discovered. The <hi rend="i">Songs</hi> set are as follows:
+<table rows="10" cols="3">
+                            <row>
+                                <cell>1.</cell>
+                                <cell>"Infant Joy" (S of I)</cell>
+                                <cell>Tenor or soprano and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>2.</cell>
+                                <cell>"A Poison Tree" (S of E)</cell>
+                                <cell>Tenor and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>3.</cell>
+                                <cell>"The Piper" (S of I)</cell>
+                                <cell>Tenor or soprano and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>4.</cell>
+                                <cell>"London" (S of E)</cell>
+                                <cell>Tenor unaccompanied</cell>
+                            </row>
+                            <row>
+                                <cell>5.</cell>
+                                <cell>"The Lamb" (S of I)</cell>
+                                <cell>Tenor and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>6.</cell>
+                                <cell>"The Shepherd" (S of I)</cell>
+                                <cell>Tenor or soprano unaccompanied</cell>
+                            </row>
+                            <row>
+                                <cell>7.</cell>
+                                <cell>"Ah: Sun Flower" (S of E)</cell>
+                                <cell>Tenor and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>8.</cell>
+                                <cell>"A Divine Image" (S of E)</cell>
+                                <cell>Tenor or soprano and oboe</cell>
+                            </row>
+                            <row>
+                                <cell>9.</cell>
+                                <cell>"The Divine Image" (S of I)</cell>
+                                <cell>Tenor or soprano unaccompanied</cell>
+                            </row>
+                            <row>
+                                <cell>10.</cell>
+                                <cell>"Eternity" (Notebook K 184)</cell>
+                                <cell>Tenor or soprano and oboe</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>The American-made recording referred to above is Desto DC-6482, mono $4.95, stereo $5.95. The record’s reverse includes Vaughan-Williams’ settings of A. E. Housman’s "Along the Field" and of Chaucer’s "Merciless Beauty," all performed by Lois Winter, soprano, and John Langstaff, baritone, with Ronald Roseman accompanying the Blake songs on oboe. The musicianship of the performers is beyond reproach, a prerequisite for the performance of the songs. Ms. Winter sings professionally and musically with smooth line. "The Shepherd," as she performs it, is the high spot of the recording. But, alas, John Langstaff. His efforts are noble, but give me my reason for emphasizing earlier that the composer was correct in specifying that the songs be sung by either a soprano or a <hi rend="i">tenor.</hi> The gradation between a high baritone and a dramatic tenor (or so-called lyrico-spinto) may seem slight to an untutored ear, but this recording can provide an example of almost overtly didactic power for that ear. A singer’s attempts at delineation of emotional States should not include his obvious anxiety at being able to negotiate high passages, made obvious by unfocused bellowing. One’s audience should not be made conscious of technique, or lack of it.</p>
+                    <p>Happily, two other recordings of the Vaughan-Williams <hi rend="i">Ten Blake Songs</hi> are available, though both are imports, which may make finding them more difficult; they are sung by appropriate voices and I suspect as Vaughan-Williams intended that they be sung. These are: Robert Tear, Philip Ledger, Piano, Vaughan-Williams <hi rend="i">Songs of Travel, Blake Songs</hi>, Etc., (Argo ZRG 732, Argo Div., Decca Recording Co., Ltd., 115 Fulham Road, London, SW3 6RR), and Vaughan-Williams, <hi rend="i">On Wenlock Edge, Ten Blake Songs</hi>, Etc., Ian Partridge, The Music Group of London, Janet Craxton, Oboe, Jennifer Partridge, Piano (EMI HQS
+<pb id="p07-97" n="97"/>
+                        <figure/>
+1236, EMI Records, Hayes, Middlesex, England). Both list for $5.95.</p>
+                    <p>Both of these recordings deserve highest marks, the tenor voices of Mr. Tear and Mr. Partridge differing only in their innate qualities. Mr. Tear’s voice has a bit darker timbre, while Mr. Partridge’s is more lyric. On both recordings, Blake’s <hi rend="i">Songs</hi> are accompanied by solo oboe when indicated, the added instruments being for the other listed material. The oboist on the EMI recording, Janet Craxton, was the oboist whom Vaughan-Williams had in mind when he composed the songs and, to my ear, at least, does the more felicitous work in performance; Neil Black, oboist on the Argo recording, receives minor billing but is nonetheless excellent. As far as the singing of the Blake <hi rend="i">Songs</hi> is concerned, I can state no preference for one tenor’s performance over the other. The choice between the two recordings, if one must be made, must lie with the other Vaughan-Williams song material found upon them. Mr. Tear delivers the <hi rend="i">Songs of Travel</hi> so gorgeously that I, a fellow-tenor, was in tears at auditing them, and not alone were they tears of envy! Yet, Mr. Partridge no less consummately presents the A. E. Housman <hi rend="i">On Wenlock Edge</hi> cycle. Both perform <hi rend="i">The Water Mill</hi>, and differing additional songs. If you can afford it, buy them both!</p>
+                    <p>My pursuit of settings of Blakean texts to music has provided me with a number of unexpected rewards, and high among them has been the discovery of one particularly well-done group of songs by an American composer, Nicholas Flagello. Professor Flagello composes, conducts, and teaches at Manhattan School of Music and at Curtis Institute. His compositions of interest here are settings of songs from <hi rend="i">An Island in the Moon</hi> (published by General Music Publishing Co., Inc., P. O. Box 267, Hastings-on-Hudson, N.Y. 10706). A handsomely produced recording of the songs is available by mail as <hi rend="i">The Music of Nicholas Flagello--4</hi>, Serenus recording SRS 12005, from Serenus Corp., at the same address as General Music Publishing Co., for $6.95. The reverse side of the recording is a performance of Flagello’s <hi rend="i">Contemplazioni di Michelangelo</hi>, all of the songs sung by Nancy Tatum, soprano, accompanied by members of the Orchestra
+<pb id="p07-98" n="98"/>
+Sinfonica di Roma, conducted (and apparently orchestrated) by the composer, Flagello. Ms. Tatum, an American expatriate with a well-established European name, sings gorgeously; the accompaniment and its execution combine with her singing to give what David Frost might call a delicious experience. These are the compositions of a modern master, not stalled in any ephemeral school, but combining effortlessly every compositional technique. In another sense, the recording achieves another "Marriage," in that Blake’s texts are juxtaposed on one recording with those of one of <hi rend="i">his</hi> heroes, <hi rend="i">Michael Angelo</hi>! The Blake songs as sung by the various participants in <hi rend="i">Island in the Moon’s</hi> floating salons, are:
+<table rows="6" cols="2">
+                            <row>
+                                <cell>"As I Walked Forth" (K 55)</cell>
+                                <cell>Steelyard, the Lawgiver</cell>
+                            </row>
+                            <row>
+                                <cell>"This Frog He Would" (K 55)</cell>
+                                <cell>Miss Gittipin</cell>
+                            </row>
+                            <row>
+                                <cell>"O Father, Father" (K 60)</cell>
+                                <cell>Quid</cell>
+                            </row>
+                            <row>
+                                <cell>"Good English Hospitality" (K 58)</cell>
+                                <cell>Steelyard</cell>
+                            </row>
+                            <row>
+                                <cell>"Leave, O Leave Me" (K 61)</cell>
+                                <cell>Miss Gittipin</cell>
+                            </row>
+                            <row>
+                                <cell>"Dr. Clash and Signior Falalasole" (K 61)</cell>
+                                <cell>Scopprell</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>For a mezzo- or dramatic soprano, or dramatic tenor, these songs are the sort that one seeks but rarely finds, full of Melody and with not a single Paltry Harmony in the accompaniments that I can detect. But performers would be hard-pressed to excel the performances on this recording!</p>
+                    <p>Surely, "music heard so deeply / That it is not heard at all, but you are the music / While the music lasts" (T. S. Eliot, "Dry Salvages") is what every composer, whether Innocent, Experienced, or with Innocence Organised, tries, hopefully, to hear, perform, create, re-create, compose on paper, etc., whether in pure melodic line, with melismatic embroidery, in elementary counterpoint, or with the most complex harmonic progressions and orchestration.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">A Checklist of Musical Settings of Blake</hi>
+                        </title>
+                    </head>
+                    <figure>
+                        <head>Two kinds of material are included in the list: first, marked +, the scores and phonograph records I have reviewed above; second, marked *, items that (as far as I know) have not been listed in any checklists of Blake settings.</head>
+                        <figDesc>Some of the new listings are taken from Sergius Kagen’s <hi rend="i">Music for the Voice</hi>, rev. ed. (Bloomington, Ind.: Indiana Univ. Press, 1968), and appear as listed in that work.</figDesc>
+                    </figure>
+                    <div3>
+                        <head>
+                            <title>MUSICAL SCORES</title>
+                        </head>
+                        <table rows="14" cols="2">
+                            <row>
+                                <cell>+ Arnold, Malcolm</cell>
+                                <cell>
+                                    <hi rend="i">William Blake Songs.</hi> Five William Blake Songs, op. 66, for contralto and string orchestra. London: British and Continental Music Agencies, 1966.</cell>
+                            </row>
+                            <row>
+                                <cell>+ Britten, Benjamin</cell>
+                                <cell>
+                                    <hi rend="i">Songs and Proverbs of William Blake</hi>, for Baritone and Piano, op. 74. London: Faber and Faber; New York: G. Schirmer, 1965.</cell>
+                            </row>
+                            <row>
+                                <cell>+*Flagello, Nicholas</cell>
+                                <cell>
+                                    <hi rend="i">An Island in the Moon.</hi> Six songs for soprano or tenor, piano acc., General Music Co., Inc., P.O. Box 267, Hastings-on-Hudson, N.Y. 10706, 1965. Published separately as follows:</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>"As I Walked Forth" $1.00, "Dr. Clash and Signior Falalasole" $1.50, "Good English Hospitality" $1.50, "Leave, O Leave Me" $1.50, "O Father, Father" $1.25, "This Frog He Would Awooing Go" $1.00</cell>
+                            </row>
+                            <row>
+                                <cell>* Griffes, Charles</cell>
+                                <cell>
+                                    <hi rend="i">In a Myrtle Shade</hi>, G. Schirmer, N.Y. n.d.</cell>
+                            </row>
+                            <row>
+                                <cell>* Kagen, Sergius</cell>
+                                <cell>
+                                    <hi rend="i">London</hi> and <hi rend="i">Memory Hither Come</hi>, medium voices, Mercury Music Corp., N.Y. n.d.</cell>
+                            </row>
+                            <pb id="p07-99" n="99"/>
+                            <row>
+                                <cell>* Kupferman, Meyer</cell>
+                                <cell>
+                                    <hi rend="i">Three Songs of Blake</hi>, for voice and clarinet, General Music Publishing Co., Inc., P.O. Box 267, Hastings-on-Hudson, N.Y. 10706, 1973. $1.50. Photo-off-set manuscript of group, written. in Neume form, that is, non-specific notation, with squiggled lines indicating suggested rise and fall of voice and instrument ad libitum.</cell>
+                            </row>
+                            <row>
+                                <cell>* Quilter, Roger</cell>
+                                <cell>
+                                    <hi rend="i">Dream Valley</hi>, one of "Three Songs of William Blake," Winthrop Rogers. n.d.</cell>
+                            </row>
+                            <row>
+                                <cell>+ Raskin, Ellen</cell>
+                                <cell>
+                                    <hi rend="i">Songs of Innocence</hi> [by] <hi rend="i">William Blake.</hi> Music and illustrations by Ellen Raskin. Guitar arrangements by Dick Weissman. Garden City, N.Y.: Doubleday, 1966.</cell>
+                            </row>
+                            <row>
+                                <cell>+ Read, Gardner</cell>
+                                <cell>
+                                    <hi rend="i">Piping Down the Valleys Wild</hi>, op. 76, no. 3, piano acc., Galaxy Music Corp., N.Y., 1950.</cell>
+                            </row>
+                            <row>
+                                <cell>+*Thomson, Virgil</cell>
+                                <cell>
+                                    <hi rend="i">Five Songs from William Blake</hi>, G. Ricordi, N.Y., 1953.</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>"And Did Those Feet," "The Divine Image," "The Little Black Boy," "The Land of Dreams," "Tiger! Tiger!"</cell>
+                            </row>
+                            <row>
+                                <cell>+*Vaughan-Williams, Ralph</cell>
+                                <cell>
+                                    <hi rend="i">Ten Blake Songs</hi>, for voice and oboe. Oxford University Press, 44 Conduit St., London W. 1, 1958. $3.50. (New listing of <hi rend="i">score.</hi>)</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>"Infant Joy," "A Poison Tree," "The Piper," "London," "The Lamb," "The Shepherd," "Ah! Sun-Flower," "Cruelty has a Human Heart," "The Divine Image," "Eternity"</cell>
+                            </row>
+                        </table>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>PHONOGRAPH RECORDS</title>
+                        </head>
+                        <table rows="9" cols="2">
+                            <row>
+                                <cell>* Axelrod, David</cell>
+                                <cell>
+                                    <hi rend="i">Song of Innocence</hi> (arrangements for orchestra). Capitol ST 2982 ("A suite in seven parts inspired by the writings of William Blake."), $5.95. No longer listed in Schwann.</cell>
+                            </row>
+                            <row>
+                                <cell>+ Britten, Benjamin</cell>
+                                <cell>
+                                    <hi rend="i">Songs &amp; Proverbs of William Blake, Op. 74, The Holy Sonnets of John Donne, Op. 35.</hi> Peter Pears, tenor (Donne), Dietrich Fischer-Dieskau, baritone (Blake), and Benjamin Britten, piano. London OS 26099, $5.95.</cell>
+                            </row>
+                            <row>
+                                <cell>+*Flagello, Nicholas</cell>
+                                <cell>
+                                    <hi rend="i">Six Songs from An Island in the Moon, Contemplasione di Michelangelo</hi>, issued as <hi rend="i">The Music of Nicholas Flagello--4</hi>, Nancy Tatum, dramatic soprano, with Flagello conducting the Orchestra Sinfonica di Roma. $6.95 by mail from Serenus Corp., P.O. Box 265, Hastings-on-Hudson, N.Y. 10706. SRE 1005 (Mono), SRS 12005 (Stereo).</cell>
+                            </row>
+                            <row>
+                                <cell>* Parry, Sir C. Hubert</cell>
+                                <cell>"Jerusalem" ("And did those feet in ancient time") in <hi rend="i">The Last Night of the Proms.</hi> BBC Symphony conducted by Colin Davis. The previously issued recording of a Last Night at the Proms (Philips 6502 001) was recorded in 1969. Recorded in 1972, Philips’ (6588 011) new Proms recording duplicates only two items from the previous issue, the "Jerusalem" and "Pomp and Circumstance." And, of course, "God Save the Queen." The newer recording comprises less overtly "British" music than the older, replacing Elgar’s "Cockaigne" op. 40 and Wood’s "Fantasia on British Sea Songs" with Berlioz, Wagnerian (Wesendonck) Lieder sung magnificently by Jessye Norman, a mock operetta and an audience-participation battle scene, etc. Both are marvelously tumultuous recordings.</cell>
+                            </row>
+                            <row>
+                                <cell>+ Vaughan-Williams, Ralph</cell>
+                                <cell>
+                                    <hi rend="i">Job, A Masque for Dancing</hi>, London Philharmonic, Sir Adrian Boult, conducting. Everest SDBR 3019, $4.95.</cell>
+                            </row>
+                            <row>
+                                <cell>+</cell>
+                                <cell>
+                                    <hi rend="i">Job, A Masque for Dancing</hi>, London Symphony, Sir Adrian Boult, conducting. Angel-EMI S-36773, $5.95.</cell>
+                            </row>
+                            <row>
+                                <cell>+</cell>
+                                <cell>
+                                    <hi rend="i">Three Song Cycles.</hi> Includes <hi rend="i">Ten Blake Songs</hi>, Lois Winter, soprano, John Langstaff, baritone, and Ronald Roseman, oboe. Desto DC 6482, $5.95.</cell>
+                            </row>
+                            <row>
+                                <cell>+*</cell>
+                                <cell>
+                                    <hi rend="i">On Wenlock Edge, Ten Blake Songs, The New Ghost, The Water Mill.</hi> Ian Partridge, tenor, The Music Group of London, Janet Craxton, oboe, Jennifer Partridge, piano. EMI Odeon HQS 1236, $5.95. This recording previously listed as including the <hi rend="i">Blake Songs</hi> and the Angel recording of <hi rend="i">Job</hi> above. EMI seems to have made changes.</cell>
+                            </row>
+                            <row>
+                                <cell>+*</cell>
+                                <cell>
+                                    <hi rend="i">Songs of Travel, Linden Lea, The Water Mill, Ten Blake Songs, Orpheus with his Lute.</hi> Robert Tear, tenor, Philip Ledger, piano, Neil Black, oboe. Argo ZRG 732, $5.95.</cell>
+                            </row>
+                        </table>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>

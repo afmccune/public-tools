@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>2.1.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+				<author n="Paley">Morton D. Paley</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>June 1, 1968</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1968</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">02.1</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Contributors</resp>
+                            <name>Anne T. Kostelanetz</name>
+                            <name>Karen Walowit</name>
+                            <name>Alvin Rosenfeld</name>
+                            <name>Michael J. Tolley</name>
+                            <name>G.E. Bentley, Jr.</name>
+                            <name>Joseph Anthony Wittreich, Jr.</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority/>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <front id="issue_01">
+            <pb id="p02-1" n="1"/>
+            <div1 id="cover">
+                <figure n="cover.002.01.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter<lb/>
+                        Volume II, Number 1<lb/>
+                        June 1, 1968<lb/>
+                        Front Matter<lb/>
+                        This fifth <hi rend="u">Newsletter</hi> includes our second annual checklist of publications<lb/>
+                        on Blake.  The checklist depends a great deal on readers who send in in-<lb/>
+                        formation about articles, and on authors who send offprints.  The more<lb/>
+                        such assistance we can get, the more comprehensive and useful the check-<lb/>
+                        list will be.<lb/>
+                        This <hi rend="u">Newsletter</hi> also presents our first book review.  Originally it had<lb/>
+                        seemed unnecessary to review books, but it's gradually become clear that<lb/>
+                        reviews addressed to Blake scholars could perform a function not otherwise<lb/>
+                        performed.  We intend to be selective about books chosen for review; sug-<lb/>
+                        gestions from readers are welcome.  (The new Blake Concordance will be<lb/>
+                        reviewed in our next issue).<lb/>
+                        Many <hi rend="u">Newsletter</hi> subscriptions expired with #4.  It would be burdensome<lb/>
+                        to bill readers individually.  The number after your name on the address<lb/>
+                        label indicates with what issue your subscription expires (or expired).<lb/>
+                        In the event that your records don't agree with ours, we will resolve<lb/>
+                        the difference in your favor, but please let us know about this.<lb/>
+                        I expect to be away from Berkeley for at least the first half of this<lb/>
+                        summer.  Experience shows that forwarding mail produces more difficulty<lb/>
+                        than anything else; therefore it will be held for me at Berkeley, and<lb/>
+                        <hi rend="u">Newsletter</hi> correspondence will be even more dilatory than usual for the<lb/>
+                        next six weeks.<lb/>
+                        --MDP<lb/>
+                        The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English,<lb/> 
+                        University of California, Berkeley  94720.  Subscription price: two<lb/>
+                        dollars for one year (four issues). Please make checks payable to<lb/>
+                        Morton D. Paley.  Subscribers in Britain may remit Postal Money Orders<lb/>
+                        for 16/8; such money orders must be <hi rend="u">open</hi> and <hi rend="u">uncrossed</hi>.<lb/>
+                        Copyright 1968 by Morton D. Paley</figTranscr>
+                </figure>
+            </div1>
+			<div1 id="BQ-02-1-0000">
+					<supplied type="emend" rend="plain">
+						<table id="contents" rows="15" cols="2">
+						  <row>
+							<cell><head><title><supplied type="emend">Contents</supplied></title></head></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><hi rend="b">News</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.damon">S. Foster Damon honored</ref></cell>
+							<cell>3</cell>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.fellowship">Grant, Rose, and Tolley’s edition of Blake’s illustrations for Young’s Night Thoughts</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.day">"Blake’s Day"</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.guardian">The Guardian on the transformation of no. 17 South Molton Street to a betting shop</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.lecture">E.P. Thompson lecture on Blake’s background in artisan, radical dissent</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.theoria">Criticism in Theoria on Blake’s Songs</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.dissertation">Minor additions to Blake bibliography in Peattie’s chapter on Blake</ref></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.long"><hi rend="i">Blake Studies</hi></ref><lb/>
+							<hi rend="i">Kay Long, Roger R. Easson</hi></cell>
+							<cell>4</cell>
+						  </row>
+						  <row>
+							<cell><hi rend="b">Review</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.kostelanetz">Frederick Cummings and Allen Staley, <hi rend="i">Romantic Art in Britain: Drawings and Paintings 1760-1860</hi></ref><lb/>
+							<hi rend="i">reviewed by Anne T. Kostelanetz</hi></cell>
+							<cell>4</cell>
+						  </row>
+						  <row>
+							<cell><hi rend="b">Checklist</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.checklist">A Checklist of Blake Publications, June ’67 to May ’68</ref><lb/>
+							<hi rend="i">compiled by Morton D. Paley with the assistance of Karen Walowit</hi></cell>
+							<cell>6</cell>
+						  </row>
+						  <row>
+							<cell><hi rend="b">Notes</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.rosenfeld">1. A Yiddish Poem on Blake</ref><lb/>
+							<hi rend="i">Alvin Rosenfeld</hi></cell>
+							<cell>9</cell>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.tolley">2. Three Bibliographical Additions</ref><lb/>
+							<hi rend="i">Michael J. Tolley</hi></cell>
+							<cell>10</cell>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.bentley">3. All the Evidence That’s Fit to Print</ref><lb/>
+							<hi rend="i">G.E. Bentley, Jr.</hi></cell>
+							<cell>11</cell>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.wittreich">4. A Bibliographical Note</ref><lb/>
+							<hi rend="i">Joseph Anthony Wittreich, Jr.</hi></cell>
+							<cell>13</cell>
+						  </row>
+						  <row>
+							<cell><hi rend="b">Correction</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.songs">Songs facsimile measurement</ref></cell>
+							<cell>14</cell>
+						  </row>
+						  <row>
+							<cell><hi rend="b">Queries</hi></cell>
+							<cell/>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.todd">Songs facsimile</ref><lb/>
+							<hi rend="i">Ruthven Todd</hi></cell>
+							<cell>14</cell>
+						  </row>
+						  <row>
+							<cell><ref type="article" issue="2.1.stevenson">Hayley and Smart’s Jubilate Agne</ref><lb/>
+							<hi rend="i">Warren Stevenson</hi></cell>
+							<cell>14</cell>
+						  </row>
+						</table>
+					</supplied>
+			</div1>
+            <div1 id="BQ-02-1-0001">
+                <head>
+                    <title type="main">Front Matter</title>
+                </head>
+                <p>This fifth <hi rend="u">Newsletter</hi> includes our second annual checklist of publications on Blake. The checklist depends a great deal on readers who send in information about articles, and on authors who send offprints. The more such assistance we can get, the more comprehensive and useful the checklist will be.</p>
+                <p>This <hi rend="u">Newsletter</hi> also presents our first book review. Originally it had seemed unnecessary to review books, but it’s gradually become clear that reviews addressed to Blake scholars could perform a function not otherwise performed. We intend to be selective about books chosen for review; suggestions from readers are welcome. (The new Blake Concordance will be reviewed in our next issue).</p>
+                <p>Many <hi rend="u">Newsletter</hi> subscriptions expired with #4. It would be burdensome to bill readers individually. The number after your name on the address label indicates with what issue your subscription expires (or expired). In the event that your records don’t agree with ours, we will resolve the difference in your favor, but please let us know about this.</p>
+                <p>I expect to be away from Berkeley for at least the first half of this summer. Experience shows that forwarding mail produces more difficulty than anything else; therefore it will be held for me at Berkeley, and <hi rend="u">Newsletter</hi> correspondence will be even more dilatory than usual for the next six weeks.</p>
+                <byline>
+                    <docAuthor>MDP</docAuthor>
+                </byline>
+                <note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English, University of California, Berkeley 94720. Subscription price: two dollars for one year (four issues). Please make checks payable to Morton D. Paley. Subscribers in Britain may remit Postal Money Orders for 16/8; such money orders must be <hi rend="u">open</hi> and <hi rend="u">uncrossed.</hi>
+                </note>
+                <note type="unreferenced" place="footer">Copyright 1968 by Morton D. Paley</note>
+            </div1>
+        </front>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>The Brown University <hi rend="u">Alumni Monthly</hi> for April 1968 has a delightful two-page article, "Damon’s 2-Day Do," by Garrett D. Byrnes, reprinted from the Providence <hi rend="u">Journal</hi>. <hi rend="u">Los</hi>, a magazine of verse published at Brown, has dedicated its April issue to Foster; the poems include two from the <hi rend="u">Birthday Garland</hi> and "For Mr. Nomad," previously unpublished, by Alvin Rosenfeld.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>Professor John E. Grant of the University of Iowa has been awarded an ACLS fellowship "to prepare a definitive edition of Blake’s illustrations for Young’s <hi rend="u">Night Thoughts</hi>," in collaboration with E.J. Rose and Michael J. Tolley.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>"Blake’s Day" was recently celebrated at the University of Iowa, as reported in an article by Gail Marshall in <hi rend="u">Middle Earth</hi> (I, 6), an underground newspaper. (Professor Grant has kindly sent a xerox copy.) The events included readings, "a dance ballet based on <hi rend="u">The Mental Traveller</hi>" and "a three-piece slide show of Blake’s paintings of saints and serpents flanked by modern photos of screaming Negroes, machine-gun-shooting Black Berets, and pastoral childhood scenes . . . accompanied by a tape montage of voices (both adult and child) reading from <hi rend="u">Songs of Innocence and Experience</hi>, <hi rend="u">Jerusalem</hi>, etc." Groovy!</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>As a postscript to his item in <hi rend="u">Newsletter</hi> 3 concerning the transformation of no. 17 South Molton Street to a betting shop, Robert P. Kolker notes that the <hi rend="u">Guardian</hi> editorialized on the subject in its issue of 25 January 1968. The editorial concludes: "Not that a decision on the licensing appeal one way or the other can diminish the words Blake wrote or the pictures he painted. Whether it can diminish us is another matter."</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>Fred A. Whitehead reports that in March E.P. Thompson lectured at Columbia University, mainly on "Blake’s background in the sub-culture of artisan, radical dissent." The lecture was sponsored by the Project for Radical Literary Studies of Students for a Democratic Society.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-3" n="3"/>
+            <div1 id="BQ-02-1-0002">
+                <p>Four critical items on the <hi rend="u">Songs</hi> have appeared over the past three years in <hi rend="u">Theoria</hi>, a journal published by the Department of English, University of Natal, Pietermaritzburg, Republic of South-Africa.</p>
+                <q>
+				J.B. Thompson. "Blake’s ‘My Pretty Rose-Tree’ -- An Interpretation," Number 25 (June 1965), 33-37.<lb/>
+				Pechey, G.K. "Blake’s <hi rend="u">Tyger</hi>," Number 26 (June 1966), 81-92.<lb/>
+				Pechey, G.K. "Blake’s ‘My Pretty Rose-Tree,’" Number 27 (October 1966), 55-60.<lb/>
+				Paterson, E.H. Letter headed "Simple thoughts on William Blake," continuing discussion of "My Pretty Rose Tree," Number 28 (May 1967), 63-65.
+				</q>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0002">
+				<pb id="p02-4" n="4"/>
+				<p>Michael J. Tolley notes the existence of a University of London dissertation, <hi rend="u">William Michael Rossetti as Critic and Editor</hi> by Roger William Peattie (1966). Chapter VII (pp. 403-411) is on "Blake." There are "a few minor (marginal) additions to Blake bibliography."</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0002">
+				<pb id="p02-4" n="4"/>
+                <head>
+					<title type="main"><supplied type="emend"><hi rend="i">Blake Studies</hi></supplied></title>
+				</head>
+				<byline>From Professors <docAuthor>Kay <name>Long</name></docAuthor> and <docAuthor>Roger R. <name>Easson</name></docAuthor>, University of Tulsa:</byline>
+                <p>
+                    <hi rend="u">Blake Studies</hi>, a journal devoted to encouraging interest in William Blake, will be published bi-annually at the University of Tulsa -- the first issue to appear September, 1968. The subscription rate for one year is $3.00, and checks should be made payable to <hi rend="u">Blake Studies</hi>, the University of Tulsa.</p>
+                <p>We project a journal containing approximately six to eight articles in the ten to thirty page range. Basically, we fell we would accept any item of interest to studies of William Blake, placing only one restriction on manuscripts submitted -- that they represent new insights and significant contributions to Blakean scholarship. We are now receiving manuscripts for future issues. All correspondence should be directed to:<lb/>
+                    <lb/>
+                    <hi rend="u">Blake Studies</hi>
+                    <lb/>
+					Department of English<lb/>
+					The University of Tulsa<lb/>
+					Tulsa, Oklahoma 74104</p>
+                <p>We are pleased to announce the members of the Advisory Board of Editors of the <hi rend="u">Studies</hi>: Hazard Adams, George M. Harper, Karl Kiralis, Martin K. Nurmi, Edward J. Rose, Mark Schorer, Ruthven Todd, Winston Weathers, Joseph A. Wittreich.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+			<pb id="p02-4" n="4"/>
+            <div1 id="BQ-02-1-0003">
+                <head>
+                    <title type="section">REVIEW</title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="u">Romantic Art in Britain: Drawings and Paintings 1760-1860</hi>, Exhibition Catalogue ed. by Frederick Cummings and Allen Staley (Philadelphia Museum of Art, 1968)</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Anne T. <name>Kostelanetz</name>
+                        </docAuthor> English Department Stanford University</byline>
+                    <p>Blakists will probably be more impressed by Robert Rosenblum’s single trenchant paragraph comparing Blake to Jakob Carstens than by Frederick Cummings’ superficial, occasionally erroneous ten page entry on the Blake paintings and drawings exhibited in Detroit and Philadelphia this winter. In an introductory essay for this catalogue, "British Art and the Continent, 1760-1860," Rosenblum first locates Blake in the eighteenth century school which, having rejected as an impossibility the Academicians’ attempt to fuse the real and the ideal, turned in the opposite direction from such empiricists as Stubbs and Joseph Wright toward a wholly non-illusionistic, visionary art. The taste for the "demonic and fantastic," for "the extravagantly heroic and sublime," first advocated by the Runcimans, John Mortimer and Henry Fuseli, among others, reached a simultaneous culmination in the totally "anti-empirical" art of Blake and Asmus Jakob Carstens.
+<pb id="p02-5" n="5"/>
+Although unknown to each other, both Blake and Carstens felt "a compulsive need to invent strange private cosmologies that could replace stagnant religious beliefs"; both created "a Michaelangelesque style of heroic figures that soared through flattened, abstract spaces"; both were "vehement in their hatred of the academic art establishment"; and both used drawing, tempera and watercolor to "counter the earthbound illusionism of the oil medium" (p. 12). Rosenblum thus shows that Blake was not the isolated artistic figure we sometimes think him; rather, he derives from a specific eighteenth century nonillusionistic tradition which flourished both in England and on the Continent. Rosenblum develops this idea even further in his doctoral dissertation, "The International Style of 1800" (New York University, 1956); unfortunately he omitted his most illuminating analyses of Blake’s art from his published <hi rend="u">Transformations in Late Eighteenth-Century Art</hi> (Princeton, 1966).</p>
+                    <p>Although Frederick Cummings persuasively argues that the chalk drawing we know as a nude study of Robert Blake is only an academic figural exercise done when Blake was attending the Royal Academy school under Georg Moser in 1778, he errs in his descriptions of Catalogue Entry 98 ("Illustration to Milton’s <hi rend="u">Paradise Lost</hi>: The Fall") and 99 ("Albion Compelling the Four Zoas to Their Proper Tasks"). Discussing Blake’s Milton illustrations, Cummings unnecessarily confuses us by asserting that Blake did "three series of illustrations" to <hi rend="u">Paradise Lost</hi> (p. 164). To the two, and only two, known series of Blake’s <hi rend="u">Paradise Lost</hi> illustrations--the complete twelve drawing set at the Huntington Library, and the scattered but now complete Butts set at the Boston Museum (nine drawings), the Huntington Library ("Satan, Sin and Death"), Victoria and Albert Museum ("Satan summons his Legions") and Harvard College Library (the recently "rediscovered" White drawing, "So judged he man," exhibited here)--Cummings has wrongly added a third set of <hi rend="u">Paradise Lost</hi> illustrations actually done by Edward Burney and bound into an extra-illustrated edition of <hi rend="u">Paradise Lost</hi> (London, 1827).</p>
+                    <p>Cummings’ identification of the pencil drawing titled "Los kneeling" in Keynes’ <hi rend="u">Pencil Drawings, II</hi> as "Albion Compelling the Four Zoas to their Proper Tasks" is highly dubious. Although I have not had a chance to study the drawing first-hand, the reproductions in Keynes and in this catalogue depict a kneeling male figure with a sharply pointed spear or arrow in his left hand and the handle of what Keynes identifies as "(apparently) a sickle," rather than the bow Cummings sees, in his right hand. His radiating, spiky hair and the shafts (of light?) he hurls clearly identify him as a personification of the Sun; in fact he closely resembles the personified Sun on Plate 11 of <hi rend="u">The Marriage of Heaven and Hell.</hi>
+                        <hi rend="u">If</hi> this drawing was originally intended to illustrate Plate 95 of <hi rend="u">Jerusalem</hi>, as Cummings asserts, it pictures not Albion but "the Sun in heavy clouds/Struggling to rise above the Mountains. in his burning hand/He takes his Bow, then chooses out his arrows of flaming gold" (95:11-13). If this figure must be identified with a major character in <hi rend="u">Jerusalem</hi>, surely he more closely resembles the youthful Los who is pictured on Plates 6, 95, 97 and 100 than the aged Albion, the whitehaired and bearded "Universal Father" (97:6) who appears on Plates 94, 96 and 99.</p>
+                    <p>But I question whether Blake ever intended this drawing to illustrate <hi rend="u">Jerusalem.</hi> Such an obvious personification of the Sun is more characteristic of Blake’s illustrations for Young’s <hi rend="u">Night Thoughts</hi> (1797) than for his own late Prophetic Books. The sharply pointed arrows or spears in this drawing also appear on Pages 7, 8, 13, 57 and 63 of the published <hi rend="u">Night Thoughts</hi> engravings; the sensuously full lips are identical with those of
+<pb id="p02-6" n="6"/>
+the "mighty hunter," Death, on Page 70 and of the Thunderer on Page 80; the heavy, wavy eyebrows span the brow of the figure of the Sun on Page 95; and throughout the illustrations, the sickle consistently symbolizes the destructions of Time. Perhaps this drawing was intended to illustrate a passage from Young, possibly the passage in <hi rend="u">Night III</hi> in which even the Sun, seeing the dying Narcissa, "(As if the sun could envy) check’d his beam,/Denied his wonted succor," and cruelly helped Death seize her. Certainly, the size of this drawing would make it more suitable for the <hi rend="u">Night Thoughts</hi> edition than for <hi rend="u">Jerusalem.</hi> Blake’s drawing measures 12 5/16" × 9 ⅞"; the <hi rend="u">Jerusalem</hi> full-plate pages measure only 6 ⅝" × 8 ¾" (and this drawing could only have been a half-plate); while the <hi rend="u">Night Thoughts</hi> pages measure 12 ¼" × 21 ½". Blake’s drawing would fit the top of a <hi rend="u">Night Thoughts</hi> page almost perfectly. Since this drawing, both in style and content, so closely resembles the <hi rend="u">Night Thoughts</hi> illustrations (both the sketches in the British Museum and the published engravings), I would hesitate to accept a date as late as Cummings’ "c. 1815-1818." A much earlier date, perhaps c. 1795-1797 when Blake was illustrating Young’s poem, seems more probable.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0003">
+				<pb id="p02-6" n="6"/>
+                <div2>
+                    <head>
+                        <title type="main">A Checklist of Blake Publications, June ’67 to May ’68</title>
+                    </head>
+                    <p>Readers are invited to send in any items we missed for inclusion next issue. Annotations, unless otherwise indicated, are by the editor. The checklist was compiled with the assistance of Karen Walowit.</p>
+                    <div3>
+                        <head>
+                            <title>A. Bibliography</title>
+                        </head>
+                        <list type="ordered">
+                            <item>
+                                <p>
+                                    <label>1.</label> MLA International Bibliography, 1966. <hi rend="u">PMLA</hi>, LXXII (June 1967), items 5418 through 5449; see also items 5367, 7343, 8180, 10956, 13066.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>2.</label> English Literature: A Current Bibliography. <hi rend="u">PQ</hi>, XLVI (July 1967), 327-331. (John E. Grant)</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>3.</label> The Romantic Movement: A Selective and Critical Bibliography for 1966. <hi rend="u">ELN</hi>, V (September 1967), 21-25 (David V. Erdman, with the assistance of Kenneth Negus and James S. Patty)</p>
+                            </item>
+                        </list>
+                        <p>Each of these has some listings not in the others. The MLA bibliography is the longest, but it is not annotated; <hi rend="u">PQ</hi> and <hi rend="u">ELN</hi> describe some items and review some others. Some of the <hi rend="u">ELN</hi> reviews are by Martin K. Nurmi. We might add that although the June ’67 <hi rend="u">Newsletter</hi> missed some articles included in one or more of these lists, it also includes some not found in any of them.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>B. Articles and Reviews</title>
+                        </head>
+                        <list type="ordered">
+                            <item>
+                                <p>
+                                    <label>1.</label> Anon., "Illuminations," <hi rend="u">TLS</hi>, September 14, 1967, p. 820. Review of the <hi rend="u">Milton</hi> facsimile published for the Blake Trust. The reviewer praises the facsimile but has some trouble with Blake: Satan cannot be Hayley because Satan is the selfhood.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>2.</label> Baine, Rodney M., "Blake’s ‘Tyger’: The Nature of the Beast," <hi rend="u">PQ</hi>, XLVI (October 1967), 488-498. "A reading of ‘The Tyger in the context of <hi rend="u">Songs of Innocence</hi> and of its analogues or sources reveals it as the shocked and fascinated reaction of an observer imaginatively visualizing the creation of brutal cruelty in nature and in man, as symbolized by the Tyger." Very little is added to previous discussions of the poem, and what remains is questionable -- how relevant, for example, is "Goldsmith’s selection of the tiger as the most cruel and bloodthirsty of all the wild animals"?</p>
+                            </item>
+                            <pb id="p02-7" n="7"/>
+                            <item>
+                                <p>
+                                    <label>3.</label> Bogen, Nancy, "Blake on ‘The Ohio,’" <hi rend="u">N &amp; Q</hi>, NS XV (January 1968), 19-20.</p>
+                                <p>Suggests that Blake’s association of the Ohio River with freedom stems from material in <hi rend="u">A Topographical Description of the Western Territory of North America</hi> by Gilbert Imlay (London, 1792).</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4.</label> Colie, R.L., Review of <hi rend="u">Hymns Unbidden</hi> by Martha Winburn England and John Sparrow, <hi rend="u">MLQ</hi>, XXVIII (December 1967), 496-497.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>5.</label> Cook, D.F. and Ricketts, A.N., "Obituary Notice -- Kenneth Povey (1868-1965)," <hi rend="u">Library</hi>, XXIII (March 1968), 51-56.</p>
+                                <p>Bibliography includes the late Mr. Povey’s writings about Blake in Sussex.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>6.</label> Cummings, Frederick, "William Blake," in <hi rend="u">Romantic Art in Britain/ Paintings and Drawings 1760-1860</hi>, catalogue by Frederick Cummings and Allen Staley, Philadelphia Museum of Art, 1968, pp. 157-167 (8 ills.).</p>
+                                <p>See review in this <hi rend="u">Newsletter.</hi>
+                                </p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>7.</label> Doherty, F.M.J., "Blake’s ‘The Tyger’ and Henry Needler," <hi rend="u">PQ</hi>, XLVI (October 1967), 566-567.</p>
+                                <p>Suggests that a poem in Needler’s <hi rend="u">Familiar Letters</hi> (<hi rend="u">Works</hi>, 1724) "is evidently the covert target of Blake’s." The "verbal prefigurings" are indeed interesting.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>8.</label> Davies, J.G., Review of <hi rend="u">Blake’s Contrary States</hi> by D.G. Gilham, <hi rend="u">MLR</hi>, LXIII (January 1968), 206-207.</p>
+                            </item>
+							<item>
+                                <p>
+                                    <supplied type="emend"><label>8a.</label> Douglas, Dennis, "Blake and the Grotesque," <hi rend="u">Balcony</hi>, VI (Summer 1967), 9-16.</supplied></p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>9.</label> Durrant, Geoffrey H., "Blake’s ‘My Pretty Rose-tree,’" <hi rend="u">Theoria</hi>, No. 30 (May 1968), pagination not yet known.</p>
+                                <p>Described by the author as "a brief contribution to a discussion of this poem, following the article by J.B. Thompson (<hi rend="u">Theoria</hi> 24) and the letter by E.H. Paterson (<hi rend="u">Theoria</hi> 28)."</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>10.</label> Hall, M.S., Review of <hi rend="u">The New Apocalypse</hi> by T.J.J. Altizer, <hi rend="u">Christian Century</hi>, LXXXIV (Aug. 23, 1967), 1070.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>11.</label> Hilles, F.W., "A New Blake Letter," <hi rend="u">Yale Review</hi>, LVII (October 1967), 85-89. [Discussed in <hi rend="u">Newsletter</hi> #4]</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>12.</label> Kaplan, Fred, " ‘The Tyger’ and Its Maker: Blake’s Vision of Art and the Artist," <hi rend="u">SEL</hi>, VII (Autumn 1967), 617-627.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>13.</label> McGhee, Richard D., "<hi rend="u">Thallassius</hi>: Swinburne’s Poetic Myth," <hi rend="u">Victorian Poetry</hi>, V (Summer 1967), 127-136.</p>
+                                <p>The influence of Blake is discussed.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>14.</label> Milikian, Souren, "William Blake: Singer of Fearful Symmetry," <hi rend="u">Realités</hi> (English Edition) No. 206 (January 1968). Translation of "Les poems pients du prophete Blake" in <hi rend="u">Realités</hi> (French edition) No. 260 (September 1967), pp. 72-78; 5 large color illustrations.</p>
+                                <p>Described by John E. Grant as "an item which is of no intrinsic importance but is symptomatic and has pretty pictures."</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>15.</label> Moore, Richard, "Two New Editions of Blake," <hi rend="u">Poetry</hi>, CXI (January 1968), 263-266.</p>
+                                <p>Ostensibly a review of the Erdman <hi rend="u">Poetry and Prose</hi> and the Keynes <hi rend="u">Complete Writings.</hi> "The difficulty with the prophetic books is not that they are obscure, but that the writing in them becomes fanatical and dull."</p>
+                            </item>
+                            <pb id="p02-8" n="8"/>
+                            <item>
+                                <p>
+                                    <label>16.</label> Paley, Morton D., "Cowper As Blake’s Spectre," <hi rend="u">Eighteenth</hi>-<hi rend="u">Century Studies</hi>, I (Spring 1968), 236-252.</p>
+                                <p>Discusses Blake’s view of Cowper and suggests similarities between the Spectre of <hi rend="u">Jerusalem</hi> 10 and the insane Cowper. Three heads of Cowper by Blake are reproduced.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>17.</label> Raine, Kathleen, "Thomas Taylor, Plato, and the English Romantic Movement," <hi rend="u">Sewanee Review</hi>, LXXVI (Spring 1968), 230-257.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>18.</label> Rexroth, Kenneth, "The Works of Blake," <hi rend="u">Saturday Review</hi>, LI (March 30, 1968), 17.</p>
+                                <p>Negligible.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>19.</label> Stevenson, W.H., "Blake’s ‘From Cratetos’: a Source and a Correction," <hi rend="u">N &amp; Q</hi>, NS XV (January 1968), 21.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>20.</label> Tolley, Michael J., "Blake’s ‘Edens Flood’ Again," <hi rend="u">N &amp; Q</hi>, NS XV (January 1968), 11-19.</p>
+                                <p>Biblical allusions in passages of "The Everlasting Gospel."</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>21.</label> —, Review of five books -- the Keynes and Erdman editions, <hi rend="u">A Blake Dictionary, Vision and Verse in William Blake</hi>, and <hi rend="u">Arrows of Intellect</hi>, Southern Review [University of Adelaide, Australia], II (1967), 269-277.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>22.</label> Ure, Peter, Review of <hi rend="u">Blake’s Contrary States</hi>, RES, NS XIX (February 1968), 83-85.</p>
+                                <p>Discusses both the virtues and limitations of the book. "Dr. Gillham does come to terms with Blake, and the feeling may be that in doing so he tames and surburbanizes him."</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>23.</label> Wardle, J., " ‘Europe’ and ‘America,’" <hi rend="u">N &amp; Q</hi>, NS XV (January 1968), 20-21.</p>
+                                <p>Contends that the head of the "Ancient of Days" derives from that of King Lear in Barry’s painting.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>24.</label> Wolfe, T.P., "Blakean Intellect," <hi rend="u">Hudson Review</hi>, XX (Winter 1967-1968), 610-614.</p>
+                            </item>
+                        </list>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>C. Books</title>
+                        </head>
+                        <p>[Some of these have not been seen and should perhaps be considered "forthcoming." "<hi rend="u">B</hi>" means that our only source is Blackwell’s catalogue.]</p>
+                        <list type="ordered">
+                            <item>
+                                <p>
+                                    <label>1.</label> Altizer, Thomas J.J. <hi rend="u">The New Apocalypse.</hi> East Lansing: Michigan State U. 1967. $8.50.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>2.</label> Beer, John. <hi rend="u">Blake’s Humanism.</hi> Manchester: U. of Manchester Press. 1968. See announcement in <hi rend="u">Newsletter</hi> #4.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>3.</label> Bentley, G.E., Jr. <hi rend="u">Blake Records</hi> (with 60 plates). Oxford: Clarendon. "Reprints in chronological order all the known references to William Blake and his family in contemporary accounts, between 1737 and 1831." £5/15/- (<hi rend="u">B</hi>)</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>4.</label> Blake. <hi rend="u">Songs of Innocence and of Experience.</hi> Commentary by Sir Geoffrey Keynes. With color reproductions of the original 54 plates. (Trianon Press, for the William Blake Trust.) 1967. 84/-</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>5.</label> —. <hi rend="u">Tiriel</hi>, ed. G.E. Bentley, Jr. Facsimile and transcript of the MS, reproductions of the drawings (9 full-page ills.), and commentary. Oxford: Clarendon. about 42/-</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>6.</label> Butlin, Martin. <hi rend="u">The Blake</hi>-<hi rend="u">Varley Sketchbook.</hi> Descriptive introduction and facsimile reproductions (6 ⅜" × 8 ⅛"). London: William Heineman. 1968. £5/5/-<gap type="emend"/></p>
+                            </item>
+							<pb id="p02-14" n="14"/>
+                            <item>
+                                <p>
+                                    <label>7.</label> Erdman, David V., ed. (with the assistance of John E. Thiesmeyer, Richard J. Wolfe et al.). Ithaca, N.Y.: Cornell U.P. 2 vols. 1967. To be reviewed in <hi rend="u">Newsletter</hi> #6.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>8.</label> Gardner, Stanley. <hi rend="u">Blake.</hi> London: Evans Bros. (Literature in Perspective series.) 1968. 8/6 paper; 16s cased.</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>9.</label> Holloway, John. Blake: <hi rend="u">Songs of Innocence and of Experience.</hi> (Studies in English Literature) 5s paper; 8/6 boards. (<hi rend="u">B</hi>)</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>10.</label> Lister, Raymond. <hi rend="u">William Blake.</hi> "An introduction to the man and his work, illustrated." 25/- (<hi rend="u">B</hi>)</p>
+                            </item>
+                            <item>
+                                <p>
+                                    <label>11.</label> Raine, Kathleen. <hi rend="u">Blake and Tradition.</hi> Princeton (Bollingen Series XXXV: 11). 2 vols. with 194 ills., 11 in color. Boxed. $22.50.</p>
+                            </item>
+                        </list>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <pb id="p02-9" n="9"/>
+            <div1 id="BQ-02-1-0004">
+                <head>
+                    <title type="section">
+                        <hi rend="u">NOTES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">1. A Yiddish Poem on Blake</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Alvin <name>Rosenfeld</name>
+                        </docAuthor> University of Indiana</byline>
+                    <p>The frequency with which one encounters references to Blake in the poetry and prose fiction of the twentieth century attests to the popularity and influence that Blake has enjoyed not only among contemporary readers but contemporary writers as well. D. H. Lawrence, T.S. Eliot, Hart Crane, Joyce Cary, Saul Bellow, Theodore Roethke, Allen Ginsberg, Henry Miller, Irving Layton--these are only a few in a much larger circle of writers who have invoked Blake in their own works. I should like to broaden that circle here, if only a bit, by calling attention to a generally unknown poem on Blake by an American Yiddish poet, Reuben Iceland (Eisland, 1884-1953).</p>
+                    <p>Iceland was one of "Di Yunge," a loose organization of poets, playwrights, and novelists that flourished in America in the years between 1907 and 1925 or so. The group has been characterized by Ruth Whitman, who recently translated into English a number of their poems (see her Anthology of Modern Yiddish Poetry, 1966), as being "young in years, wildly energetic, fearlessly imaginative.<supplied type="emend">"</supplied> One can imagine the appeal to such writers of someone like Blake, and it is not surprising to find him taken up enthusiastically by at least one of them, namely Reuben Iceland.</p>
+                    <p>Iceland’s poem, a brief but high-spirited apostrophe entitled simply "William <corr type="emend">Blake,"</corr> was included in <hi rend="u">Fun Mein Zumer</hi> ("From My Summer"), a collection of the poet’s work that appeared in 1922. The poem is offered below, in transliteration and English translation.</p>
+                    <div3>
+                        <head>
+                            <title>William Blake</title>
+                        </head>
+                        <q>
+Teyriel! teyriel! beyzer krieger un farachter.<lb/>
+Du, farehrter un farlachter,<lb/>
+Nichterer in shikrus, heyliger in zind,<lb/>
+Du, eybig kind,<lb/>
+Mit oigen fun a zeher,<lb/>
+Negel fun a kats un fligel fun an adler.<lb/>
+                            <lb/>
+—<lb/>
+                            <lb/>
+Dear one! dear one! mad fighter and renegade.<lb/>
+You, honored and ridiculed,<lb/>
+Sober in drunkenness, a saint in sin,<lb/>
+You, eternal child,<lb/>
+With the eyes of a seer,<lb/>
+Nails of a cat and wings of an eagle.
+</q>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0004">
+                <pb id="p02-10" n="10"/>
+                <div2>
+                    <head>
+                        <title type="main">2. Three Bibliographical Additions</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Michael J. <name>Tolley</name>
+                        </docAuthor> University of Adelaide (Australia)</byline>
+                    <p>Neither the Keynes nor the Bentley-Nurmi bibliographies list an early description, with illustrations, of the Job series of engravings. W. Shaw Sparrow edited five volumes of illustrations to the Bible for Hodder and Stoughton, London, n.d. (1904-7). The second of three volumes of Old Testament designs, entitled Joshua to Job, reproduces the whole series of Blake’s engravings, with accompanying description by the Rev. J. Macartney Wilson, M.A. entitled "The Book of Job", which occupies pages 137 to 144. Though brief, the comments are appreciative and intelligent, as can be seen by this sample:
+<q>
+"In the fifth picture there is still peace in the soul of Job, and he is seen giving of his poverty to a blind beggar. At either side a beautiful angel watches the scene. A bare and rocky country stretches behind, with a prehistoric stone erection instead of the Gothic temple. The sunset still lingers in the west. Below, all is peace; above, all is disquiet. Once more the Satan appears, claiming this time to touch with evil plagues the body of Job. Once more, but far more markedly than on the former occasion, the angels shrink back from him in horror. The figure of the Almighty, the face full of pain, writhes on His seat, and the halo behind Him is half-eclipsed. Below, in the margin, a hideous serpent is coiled: at the sides, angels weep over the flames that rise, but cannot extinguish them."
+</q>
+At the end of his comment on "When the morning Stars sang together" Wilson anticipates many reactions when he says: "Anything in Art more beautiful than these four angels, more expressive of the glory and joy of life, I do not know".</p>
+                    <p>Vol. IV of the Sparrow book, <hi rend="u">The Gospels</hi>, has "The Flight Into Egypt" (Keynes 96b), and Vol. V, <hi rend="u">The Apostles</hi>, has three of the Blair designs.</p>
+                    <p>Perhaps there are several useful sales catalogues not included in the bibliographies. As they may contain reproductions not otherwise obtainable, a check-list would be helpful. One noted was put out by Chas. J. Sawyer Ltd., of London, in 1936. <hi rend="u">Catalogue of Books</hi> No. 128 has a reproduction of a pen and wash sketch called there "The Parable of the Sower", but actually of a different subject, perhaps "Pray ye therefore the Lord of the Harvest", related to other drawings in the Tate Gallery and the British Museum. Plate No.1, facing p.55.</p>
+                    <p>Many miss the following: F.L.McCarthy, "‘The Bard of Thomas Gray, its Composition and its Use by Painters", in <hi rend="u">Cylchgrawn Llyfregell Genedlaethol Cymru</hi>, The National Library of Wales Journal XIV.i (Summer 1965), 105-113. Illustrations accompany the article reproducing work by P.J.de Loutherbourg, Richard Bentley, Thomas Jones (1775), Fuseli, John Martin and Blake (the tempera).</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0004">
+                <pb id="p02-11" n="11"/>
+                <div2>
+                    <head>
+                        <title type="main">3. All the Evidence That’s Fit to Print</title>
+                    </head>
+                    <byline>
+                        <docAuthor>G.E. <name>Bentley</name>, Jr.</docAuthor> Faculté des Lettres Université d’Alger</byline>
+                    <p>A scholar should presumably consider all the evidence relevant to his argument and discuss the major objections to his theories before rejecting them. Ideally, he should as well make the evidence public when it has not already been printed. A difficulty arises, however, with evidence which appears to be superficially valid but which has been, or easily could be, discredited. An example is provided by Richard C. Jackson, an egregious Blake enthusiast remarkable for the carelessness of his raptures and diction about Blake. He repeatedly referred to "our all-but-adorable poet" and to the vulgarity and purblind ignorance of those who disagree with William Blake or R.C. Jackson. Apparently he was a harmless crank, who may be allowed to orate in the wings as the President of the William Blake Society of Arts and Letters.</p>
+                    <p>However, in a series of articles (clippings of which were recently given to The Tate Gallery and xerox copies of which were kindly sent on to me by Mr. Martin Butlin), President Jackson makes a number of interesting if scarcely substantiated claims about Blake. Some seem trivial and therefore negligible; others seem false and therefore negligible. One fact, however, makes them worth considering briefly before dismissing them. Jackson’s father, born in 1810, according to his son, knew Blake and was a kind of disciple. Some of the facts below, which appear not to have been printed elsewhere, are given on the authority of his father, and others may derive from the same source. It appears to me that all of them may chiefly be traced to President Jackson’s confused mind, but it may be well to place his statements in evidence before dismissing them.</p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>(1)</label> Jackson owned "several of the ‘household gods’ of Blake’s [<hi rend="u">sic</hi>]. His chairs, and their cushions worked by his wife, his classical dinner service, some of his tea-set, and, what is still far more interesting, his eight-day English clock, which still keeps good time" ("William Blake, Hampstead, and John Linnell", <hi rend="u">South London Observer</hi>, summer 1912 -- the periodical and approximate date [June-August 1912] are given in a MS titlepage). No evidence is given to support this provenance. It seems highly unlikely that Blake, who lived in only two or three rooms for the last twenty-four years of his life, should have preserved such extensive furnishings. Furthermore, after his death his "Furniture [<hi rend="u">was</hi>] sold" for £1. 10s in April 1828 for his widow by John Linnell (according to a MS note by Linnell in the papers of Miss Joan Linnell Ivimy), and thus passed out of the family. A "classical dinner service" is very hard to reconcile with the accounts of Blake’s extremely narrow circumstances in his last years.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(2)</label> Blake was paid £40 apiece for his (forty-three) engravings for Young’s <hi rend="u">Night Thoughts</hi> (1797) -- that is, a total of £1, 720 (<hi rend="u">ibid</hi>). No one else suggests how much Blake was paid, but this total seems far too high -- about as much as he is <hi rend="u">known</hi> to have received from all sources throughout his long life. In 1800 Blake was clearly in modest circumstances, quite irreconcilable with recent possession of a fortune such as this.</p>
+                        </item>
+                        <pb id="p02-12" n="12"/>
+                        <item>
+                            <p>
+                                <label>(3)</label> At this time "a poor brother artist calling upon him at Hercules building, he gave [<hi rend="u">t</hi>]his man £40; which sat [<hi rend="u">sic</hi>] him on his legs again, rejecting the return of the money when this friend recovered his position, saying ‘what he had given had been lent by the Giver of all good things’" (<hi rend="u">ibid</hi>). Unlike the others, this story is not inherently improbable, but it is known elsewhere only in a different version. Frederick Tatham, in his contemporary life of Blake printed in 1906, says Blake was approached by "a certain free thinking Speculator", who said his children were starving and asked for a loan. "Blake lent him £40", with which his wife bought a gawdy dress -- the money was probably never returned. Perhaps Jackson was misremembering Tatham’s story.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(4)</label> "My father saw in the artist’s ‘Salon’ [<hi rend="u">sic</hi>] in Fountain Court, in the Strand", the seven-foot-high drawing of "The Last Judgment". "My father said Frederick Tatham had it in his house in Lisson Grove in 1846 or 1847" ("William Blake at the Tate Gallery. Resident in Lambeth from 1793-1800 [<hi rend="u">sic</hi>]", <hi rend="u">South London Press</hi>, 31 Oct. 1913). These facts may be accurate; the great drawing is now lost, but Tatham (who did live at Lisson Grove) probably acquired it with most of the rest of Blake’s property at the death of Catherine Blake in 1831.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(5)</label> "Blake exhibited it [<hi rend="u">his drawing of ‘The Deluge’</hi>] to my father, saying it was a sketch he made on the sea-shore on a rough day at Felpham" (<hi rend="u">ibid</hi>). This seems possible, but one wonders where Jackson and his father saw this extremely unusual drawing together before it was exhibited in 1913.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(6)</label> "My respected father detailed to myself many particulars respecting the mode of life" of Blake. Blake’s drawing of "The Ghost of a Flea" ("meaning thereby the personality of . . . John Varley") was "seen" (i.e., drawn) "by way of shaking him off, so that he [<hi rend="u">Varley</hi>] might ask him ‘no more questions’" ("William Blake: An Unlooked for Discovery", <hi rend="u">South London Observer</hi>, 22 June 1912). Jackson had a grudge against the "detestable" Varley, and this malevolence, rather than the truth, is probably the source of the story. It might, on the other hand, be true.</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>(7)</label> "My father told me that the dear Blake, while residing at Hercules Buildings, Lambeth, that [sic] he should say the one [<hi rend="u">sic</hi>] joyaunce of Blake’s life was when he had a garden of his own and could bask in the sunshine ‘neath his own vine -- a vine which had been presented to him by the artist Romney. . . . This vine, I was given to understand, was grafted from the great vine at Versailles or Fontainbleau. Of course I have no certified particulars of all this; of course not; but this presentation was made to William Blake . . . and supposed to come from some place in the country which Romney had, and had given up at or about the time of Blake becoming resident at Lambeth [<hi rend="u">1790, or, according to Jackson, 1793. Blake would not let it be cut</hi>] . . . by any inexperienced person". Jackson traces Blake’s fig tree too as "coming from Romney’s garden" (<hi rend="u">ibid</hi>). Elsewhere ("William Blake’s Lambeth ‘Dulce Dumum’", <hi rend="u">South London Observer</hi>, summer 1912), he says that Catherine Blake "made wine of the grapes in October". Gilchrist (apparently on the authority of Flaxman’s sister-in-law Maria Denman) claimed that Blake would allow <hi rend="u">no one</hi> to prune the vine and that it never bore ripe fruit. Blake certainly knew Romney in the 1790’s, and the story of the vine-root gift may even be true, though there are "no certified particulars . . . of course not".</p>
+                        </item>
+                        <pb id="p02-13" n="13"/>
+                        <item>
+                            <p>
+                                <label>(8)</label> "<hi rend="u">M</hi>y father" also said that Blake "never enjoyed any of his etchingpainting rooms, as he had in [<hi rend="u">sic</hi>] his panelled room (his ‘atelier’) at Lambeth" (the "Discovery" article above). It must be remembered that "my father" was not born until ten years after Blake left Lambeth, and that Jackson is remembering conversations with his father when the President was "a very small boy". The Lambeth painting room may well have been Blake’s favourite, but this evidence does not go far to prove it. More interesting, because first-hand evidence, is the statement that the room was wainscotted and on the ground floor at the back, looking out on the spacious garden, where the vine was "still to be seen nestling round the open casement". The evidence is undoubtedly first-hand, but there may be some doubt as to whether it concerns Blake. The purpose of Jackson’s articles was to show that the London County Council, Gilchrist, and every one else had identified the wrong house in Lambeth as Blake’s. The letters he quotes demonstrate that Jackson had not persuaded the London County Council, and as Hercules Buildings was pulled down about 1930 it is hard to check the evidence now. We may surely conclude, however, that the house of Blake or a neighbour had a wainscotted back room and a vine-wreathed window about 1913.</p>
+                        </item>
+                    </list>
+                    <p>What is a scholar to do with such trifling yet troubling evidence? Should he compound Jackson’s folly by repeating it? Or should he quietly bury it again with a wince? Perhaps he should simply raise the problem, and, having made the evidence more public, ignore it except when it seems directly relevant to his case.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+            <div1 id="BQ-02-1-0004">
+                <pb id="p02-13" n="13"/>
+                <div2>
+                    <head>
+                        <title type="main">4. A Bibliographical Note</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Joseph Anthony <name>Wittreich</name>, Jr.</docAuthor> The University of Wisconsin</byline>
+                    <p>References to Blake in the first half of the nineteenth century are astonishingly few. Those listed in the Nurmi-Bentley <hi rend="u">Blake Bibliography</hi> typically portray Blake as a "madman" who excelled as an artist but faltered as a poet. A reference, hitherto unnoticed -- "The Poetry of Sacred and Legendary Art"<ref target="p13u1" type="note">*</ref>--anon. rev., <hi rend="u">Blackwood’s Edinburgh Magazine</hi>, LXV (Feb. 1849), 183 -- at once reveals the reigning attitude of the early nineteenth century toward Blake and suggests the direction that subsequent criticism was to take. The reviewer comments, "There is greatness in the simplicity of Blake’s angels: ‘The morning stars sang together, and all the sons of God shouted for joy.’ Apparently this remark was inspired by Mrs. Jameson’s statement: "The most original, and, in truth, the only new and original version of the Scripture idea of angels which I met with, is that of William Blake, a poet painter, somewhat mad as we are told, if indeed his manners were not rather ‘the telescope of truth,’ a sort of poetical <hi rend="u">clairvoyance</hi>, bringing the unearthly nearer to him than to others. His adoring angels float rather than fly, and, with their half-liquid draperies, seem to dissolve into light and love: and his rejoicing angels -- behold them -- sending up their voices with the morning stars, that ‘singing in their glory move’" (I, 80; the quotation is from <hi rend="u">Lycidas</hi>, 1. 180). <note id="p13u1">*Reviewing a book of the same title by Mrs. [Anna Brownell Murphy] Jameson (1848). Immensely popular, this book went through many editions until it was edited and enlarged by Estelle M. Hurll, <hi rend="u">Sacred and Legendary Art by Anna Jameson</hi>, 2 vols. (Boston: Houghton Mifflin Company, 1895).</note>
+                    </p>
+                    <p>The context in which the reviewer’s remark appears is perhaps of special significance. Blake is mentioned among those artists who skillfully combine poetry with painting, using the former to enliven and
+<pb id="p02-14" n="14"/>
+illumine the latter; among those artists who, working with the sublimest materials, prove that Christian art may rival, indeed surpass, that of the ancients. Still more important is the fact that the reviewer points to Blake in a passage discussing the emergence of a new Christian art imbued with an iconoclastic spirit.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+			<pb id="p02-14" n="14"/>
+            <div1 id="BQ-02-1-0005">
+                <p>In our item about the <hi rend="u">Songs</hi> facsimile last issue, one measurement was left out. The album measures 13 ⅜ by <hi rend="u">9</hi> ¼ inches.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+			<pb id="p02-14" n="14"/>
+            <div1 id="BQ-02-1-0005">
+                <head>
+                    <title type="section">
+                        <hi rend="u">QUERIES</hi>
+                    </title>
+                </head>
+                <p>Ruthven Todd suggests: "The early facsimile of the <hi rend="u">Songs</hi> seems to be to be the work of one of the Linnell boys, unless, and this is pure guessing, it was made by Tatham for his own use. He is the only one of the Ancients who would fit in, and, on second thoughts, the Linnells were much more competent. Tommy Butts was out of the picture by 1821. . . . In addition, the engraving of the old man’s head on the verso of the fragment of <hi rend="u">America</hi> copper-plate suggests that Tommy was just a little more competent than the description would suggest. My only other suggestion would be to look into the Wilkinson family. Did he have daughters? He was enough of an enthusiast to have set a member of his family to work. As for the date of the paper, 1821, that doesn’t matter except as a date showing the work to have been done later."</p>
+                <p>Do any readers know of other contemporary or near-contemporary Blake facsimiles?</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_02">
+        <body>
+			<pb id="p02-14" n="14"/>
+            <div1 id="BQ-02-1-0005">
+                <p>Does anyone know whether the MS of Christopher Smart’s <hi rend="u">Jubilate Agne</hi> was in Hayley’s possession during Blake’s residence at Felpham? W.H. Bond, in the introduction to his edition of the poem, mentions that the MS came into Hayley’s possession, but no dates are provided.</p>
+                <byline>
+                    <docAuthor>Warren <name>Stevenson</name>
+                    </docAuthor> 28 Carpenters Wood Drive Chorleywood, Herts, England</byline>
+            </div1>
+        </body>
+    </text>

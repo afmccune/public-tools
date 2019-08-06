@@ -1,0 +1,33 @@
+[36.1.bentley] blakequarterly.org
+
+[36.2.bentley] blakequarterly.org
+[36.2.essick] blakequarterly.org
+[36.2.gourlay] blakequarterly.org
+
+[36.3.news] blakequarterly.org
+
+[36.4.news] blakequarterly.org
+
+[37.1.bentley] blakequarterly.org
+
+[37.3.news] blakequarterly.org
+
+[38.1.bentley] blakequarterly.org
+[38.1.lincoln] blakequarterly.org
+
+[39.1.bentley] blakequarterly.org
+
+[41.2.viscomi] blakequarterly.org
+
+[41.3.vankleeck] blakequarterly.org
+
+[42.1.bentley] blakequarterly.org
+
+[42.3.bentley] blakequarterly.org
+[42.3.whitehead] blakequarterly.org
+
+[44.1.bentley] blakequarterly.org
+
+[44.4.online] blakequarterly.org
+
+[Emend] blakequarterly.org

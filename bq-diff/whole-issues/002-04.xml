@@ -1,0 +1,506 @@
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>002-04</idno>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="b">
+                        <hi rend="i">Blake Newsletter</hi>
+                    </hi>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>April 1, 1969</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1969</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">02.4</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">4</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Contributors</resp>
+                            <name>G.E. Bentley, Jr.</name>
+                            <name>David V. Erdman</name>
+                            <name>W.E. Stevenson</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of California</publisher>
+                        <pubPlace>Berkeley, CA, USA</pubPlace>
+                        <date when="1969"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <front id="issue_04">
+            <pb id="p02-59" n="59"/>
+            <div1 id="cover">
+                <figure n="cover.002.04.bqscan" rend="file">
+                    <figTranscr>Blake Newsletter<lb/>
+                        Volume II, Number 4<lb/>
+                        Whole #8<lb/>
+                        April 1, 1969<lb/>
+                        The larger part of this issue consists of Gerald E. Bentley, Jr.'s<lb/>
+                        supplement to the <hi rend="i">Blake Bibliography</hi> of 1964.  We thought it would be more<lb/>
+                        convenient for readers to have this material collated separately, and so this<lb/>
+                        issue of the <hi rend="i"><hi rend="b">Newsletter</hi></hi> comes in two parts.  We welcome further additions from<lb/>
+                        readers; these will be published in the summer issue.<lb/>
+                        Our next issue will also include the annual checklist of Blake scholarship.<lb/>
+                        Although we don't expect to find every item published from June '68 to May '69,<lb/>
+                        we would obviously like to make the checklist as comprehensive as we can.<lb/>
+                        Readers can be of great help in this, by reporting articles and reviews which<lb/>
+                        may not have come to our attention.<lb/>
+                        <hi rend="i">Contents</hi><lb/>
+                        <hi rend="i">News</hi><lb/>
+                        60-61<lb/>
+                        <hi rend="i">Notes</hi><lb/>
+                        "Blake's Debt to Pope by Michael J. Tolley;<lb/>
+                        "Sterne and Blake" by G.E. Bentley, Jr.;<lb/>
+                        "Thomas Johnes, 'Ancient Guardian or Wales'."<lb/>
+                        by M.D. Paley; "Every Thing Has Its Vermin"<lb/>
+                        by David V. Erdman<lb/>
+                        62-68<lb/>
+                        <hi rend="i">Reviews</hi>  John Beer: <hi rend="i">Blake's Humanism</hi>, by Patrick J.<lb/>
+                        Callahan; Sir Geoffrey Keynes: <hi rend="i">The Letters</hi><lb/>
+                        <hi rend="i">of William Blake</hi>, by W.E. Stevenson<lb/>
+                        69-72<lb/>
+                        <hi rend="i">Queries</hi>  "Milton 29: A Retort to William Frend?" by<lb/>
+                        John Adlard; <hi rend="i">Blake's London</hi> by Paul Miner;<lb/>
+                        "A Fugitive or Apocryphal Blake Engraving"<lb/>
+                        by G.E. Bentley, Jr.<lb/>
+                        73-74<lb/>
+                        <hi rend="i">Bibliographical Supplement</hi> by G.E. Bentley, Jr.<lb/>
+                        Supplement 1-29<lb/>
+                        The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English,<lb/> 
+                        University of California, Berkeley, California, 94720.  Subscription price:<lb/>
+                        $2.00 for one year; overseas subscribers who wish delivery by air, please add<lb/>
+                        one dollar.  Please make checks or money orders payable to Morton D. Paley.<lb/>
+                        Residents of Britain may pay by Postal Money Order for 16/9 (£1 10s by air)<lb/>
+                        if the money order is <hi rend="u">open</hi> and uncrossed.<lb/>
+                        Copyright 1969 by Morton D. Paley</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-02-4-0001">
+                <p>The larger part of this issue consists of Gerald E. Bentley, Jr.’s supplement to the <hi rend="i">Blake Bibliography</hi> of 1964. We thought it would be more convenient for readers to have this material collated separately, and so this issue of the <hi rend="i">Newsletter</hi> comes in two parts. We welcome further additions from readers; these will be published in the summer issue.</p>
+                <p>Our next issue will also include the annual checklist of Blake scholarship. Although we don’t expect to find every item published from June ’68 to May ’69, we would obviously like to make the checklist as comprehensive as we can. Readers can be of great help in this, by reporting articles and reviews which may not have come to our attention.</p>
+            </div1>
+            <div1 id="BQ-02-4-0002">
+                <head>
+                    <title>
+                        <hi rend="i">Contents</hi>
+                    </title>
+                </head>
+                <table id="contents" rows="5" cols="4">
+                    <row>
+                        <cell>
+                            <hi rend="i">News</hi>
+                        </cell>
+                        <cell>60</cell>
+                        <cell/>
+                        <cell>60-61</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">Notes</hi>
+                        </cell>
+                        <cell>62</cell>
+                        <cell>"Blake’s Debt to Pope by Michael J. Tolley; "Sterne and Blake" by G.E. Bentley, Jr.; "Thomas Johnes, ‘Ancient Guardian of Wales’" by M.D. Paley; "Every Thing Has Its Vermin" by David V. Erdman</cell>
+                        <cell>62-68</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">Reviews</hi>
+                        </cell>
+                        <cell>69</cell>
+                        <cell>John Beer: <hi rend="i">Blake’s Humanism</hi>, by Patrick J. Callahan; Sir Geoffrey Keynes: <hi rend="i">The Letters of William Blake</hi>, by W.E. Stevenson</cell>
+                        <cell>69-72</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="i">Queries</hi>
+                        </cell>
+                        <cell>73</cell>
+                        <cell>"Milton 29: A Retort to William Frend?" by John Adlard; <hi rend="i">Blake’s London</hi> by Paul Miner; "A Fugitive or Apocryphal Blake Engraving" by G.E. Bentley, Jr.</cell>
+                        <cell>73-74</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ref type="issue" issue="002-04b">
+                                <hi rend="i">Bibliographical Supplement</hi> by G.E. Bentley, Jr.</ref>
+                        </cell>
+                        <cell/>
+                        <cell>Supplement 1-29</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">The BLAKE NEWSLETTER is edited by Morton D. Paley, Department of English, University of California, Berkeley, California, 94720. Subscription price: $2.00 for one year; overseas subscribars who wish delivery by air, please add one dollar. Please make checks or money orders payable to Morton D. Paley. Residents of Britain may pay by Postal Money Order for 16/9 (£1 10s by air) if the money order is <hi rend="u">open</hi> and uncrossed.</note>
+                <note type="unreferenced" place="footer">Copyright 1969 by Morton D. Paley</note>
+            </div1>
+        </front>
+        <pb id="p02-60" n="60"/>
+        <body>
+            <div1 id="BQ-02-4-0003">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">NEWS</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>MLA: Seminar 55</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Janet A. <name>Warner</name>
+                        </docAuthor> Glenden College York University Toronto, Ontario</byline>
+                    <p>Eternity’s sunrise was just about the hour that MLA members met on Sunday, December 29, in Malmaison 8, Americana, to discuss "Methods of Studying Blake’s Illuminated Works and Illustrations." The early morning seminar (8:45-10 a.m.), attended by thirty-five or forty persons was ably led by David V. Erdman, who started things off by showing a slide of one of Blake’s designs and simply asking, "What’s going on here?"</p>
+                    <p>Whether or not one knew the plate was "Famine" from <hi rend="i">Europe</hi> was irrelevant with this approach: the implication was that one could look with fresher eyes if the context of the plate were forgotten. Certain aspects of the design did suddenly become more puzzling--as, for example, the pearl necklace of one of the women. If she were starving (as the plate’s context suggests), why the necklace? Is she a historical figure, an allegorical figure, or both? Similar questions, leading to many observations, suggestions and comments were made informally about a variety of other designs, but principally <hi rend="i">America</hi>, Plate 6, and <hi rend="i">Jerusalem</hi>, Plates 94 to 100.</p>
+                    <p>Issues were raised regarding how (or even whether) to identify figures in designs, whether designs should or should not be taken out of context, of the importance, if any, of facial expressions or "hidden faces", and of the significance of expressive gesture in Blake’s designs. Mr. Erdman suggested that the relation between Blake’s figures and the gestures of modern dance illuminate each other.</p>
+                    <p>Regarding discussions of individual plates--some details of the comments concerned, for example, the extent or degree of regeneration implied by the figure sitting on top of the grave in <hi rend="i">America</hi>, Plate 6; the question of why a father-son image was chosen for Plate 99 of Jerusalem; and who is the figure with the sun (ball of fire) in Plate 100?</p>
+                    <p>Although no conclusions were reached about any of the designs, the seminar was certainly stimulating. The enthusiasm and interest of the group demonstrated how topical the subject of the seminar was, and how many university teachers are attempting to present Blake simultaneously as a painter and poet. It seems to me that a discussion like this one could be fruitfully repeated from year to year, perhaps combined with, or followed by a coffee party where people could become better acquainted with each other.</p>
+                    <p>Professors Roger R. Easson and Kay Long of <hi rend="i">Blake Studies</hi> inform us of a forthcoming
+<pb id="p02-61" n="61"/>
+edition of A. C. Swinburne’s <hi rend="i">William Blake</hi>, with introduction and notes by Hugh J. Luke. The edition will include two short articles on Blake from <hi rend="i">La Republique des Lettres</hi> (1877), thought to be by Swinburne. The publisher is U. of Nebraska Press.</p>
+                    <p>A limited edition (1,100 copies) of the <hi rend="i">Illustrations to the Divine Comedy</hi> has been published by the Da Capo Press, 227 West 17th Street, New York 10011. The edition is in portfolio form, the reproductions measuring 9 ½ × 13 inches. There are 109 plates and 5 text pages. Price: $100.00</p>
+                    <p>Mr. Alan J. Marks, Executive Editor for Da Capo Press, writes:
+<q>
+The "first edition" of this portfolio was published in 1922 in England by the National Art-Collections Fund. The Fund had solicited contributions so that Blake’s drawings for Dante might be purchased at auction during the sale of the Linnell estate and then distributed among seven or eight museums throughout the Commonwealth. Once the drawings were purchased, and prior to their distribution, the Fund commissioned Emery Walker to prepare two hundred and fifty portfolios of collotype reproductions of all of the drawings, and these portfolios were given to the subscribers whose contributions had enabled the Fund to make the purchase.<lb/>
+                            <lb/>
+Our edition is a "second edition" insofar as the Emery Walker printing did not include the seven engravings based upon the drawings which Blake had managed to complete prior to his death, and ours does. These engravings are reproduced full-size from a set which a private collector was good enough to lend to the Meriden Gravure Company. Otherwise, except for the portfolio itself, and of course the paper, it reproduces the first edition exactly, although the people at Meriden believe that they have actually been able to improve upon the printing, and we tend to agree with them.
+</q>
+                    </p>
+                    <p>The <hi rend="i">Blake Newsletter</hi> congratulates the MLA Executive Committee for its decision to move the 1969 Annual Meeting from Chicago to Denver.</p>
+                </div2>
+            </div1>
+            <pb id="p02-62" n="62"/>
+            <div1 id="BQ-02-4-0004">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">NOTES</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>1. Blake’s Debt to Pope</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Michael J. <name>Tolley</name>
+                        </docAuthor> The University of Adelaide</byline>
+                    <p>S. Foster Damon has provided the starting-point for these suggestions. In chapter III of <hi rend="i">William Blake: His Philosophy and Symbols</hi> (1924), Damon touches on Blake’s debt to eighteenth-century poets, ending with the remark that "of the great Alexander himself there is absolutely nothing". This suggestion is not contradicted by Damon’s <hi rend="i">Dictionary</hi>, the article on Pope taking note only of Blake’s criticism of Pope with Dryden in the <hi rend="i">Public Address</hi>, and of Blake’s portrait of Pope in the Manchester City Art Gallery: "In doing Pope’s portrait for Hayley’s library, Blake (or Hayley) selected for supporters the <hi rend="i">Elegy on an Unfortunate Lady</hi> and <hi rend="i">Eloisa to Abelard</hi> as his best poems. Neither is a satire."</p>
+                    <p>Granted the suggestion that Blake most likely preferred Pope’s elegiac and lyric works to his satires (though Blake may not have supposed these two poems to be absolutely Pope’s best), the evidence I have collected so far indicates that Blake’s knowledge of Pope’s work was more extensive than Damon assumes. The notes I have made are the product only of a casual and partial survey, and I offer them mainly in the hope of stimulating other scholars to add to this, still brief, list of possible sources. It will be interesting to find out how large Blake’s total debt to Pope was; probably Pope’s Homer provided several ideas more than those I note here.</p>
+                    <p>For Blake’s seven mentions of Pope I refer readers to the <hi rend="i">Concordance</hi> (two of these are near-repetitions), adding the reference in Blake’s quotation from Sir Joshua Reynolds in Letter 23 (Keynes 814). Reynolds says that we should think the word Taste to be improperly applied to Homer or Milton, but "very well to Prior or Pope". Blake seems to agree with Reynolds. His own so-called "Imitation of Pope A Compliment to the Ladies" is far from being written in the "Grand Style". (It would be nice to know what Blake thought he was imitating here: the art of sinking?)</p>
+                    <p>In <hi rend="i">M.H.H.</hi> p. 5, Blake glosses "the restrainer or reason" (Erdman’s Doubleday edition, p. 34). Pope has this line in his <hi rend="i">Essay on Man</hi> (11. 50):
+<q>
+"Self-love, to urge, and Reason, to restrain;"
+</q>
+which seems close enough to be a source. Pope’s whole discussion of the relation of Reason to Self-Love (Blake’s "desire") can be usefully compared with Blake’s analysis.</p>
+                    <p>One of Blake’s most-quoted phrases is "the human form divine" (from "The Divine Image"), and several scholars seem to think this comes from Milton, but the source is apparently in Pope’s <hi rend="i">Odyssey</hi> ×.278:
+<q>
+"No more was seen the human form divine"
+</q>
+Stevenson, in his <hi rend="i">Home-Book of Proverbs, Maxims, and Familiar Phrases</hi>, gives this
+<pb id="p02-63" n="63"/>
+passage from Pope without reference to Blake and notes, "In <hi rend="i">P.L.</hi> 111 44 Milton speaks of the ‘human face divine,’ but the phrase never obtained the vogue of Pope’s." (The only signs of this "vogue" I have so far noted are in Southey, <hi rend="i">Kehama</hi> VII. 4.7 and <hi rend="i">Roderick</hi> 11.57, both of which could possibly have been influenced by Blake, but most likely were not.) Blake may have had Milton’s phrase in mind in another place, his manuscript poem "Mary", line 43:
+<q>
+"She remembers no Face like the Human Divine".
+</q>
+Incidentally, Mary Wollstonecraft also borrowed the phrase, "the human face divine", in her <hi rend="i">Vindication of the Rights of Men</hi> (1790), 2d. end., p. 59. Whatever the source of Blake’s phrasing, however, I agree with Morton D. Paley’s suggestion to me that the concept of the human form divine in Blake owes much to Swedenborg. See, for instance, chapter XI of <hi rend="i">Heaven and Hell</hi>, entitled "It is from the Lord’s Divine Human that Heaven as a whole and in part resembles a man".</p>
+                    <p>From Pope’s <hi rend="i">Iliad</hi> 1.92-4, I note a possible echo in Blake. Pope describes
+<q>
+"Chalcas the wise . . .<lb/>
+That sacred seer, whose comprehensive view,<lb/>
+The past, the present, and the future knew;"
+</q>
+and Blake writes in "Introduction" to <hi rend="i">Songs of Experience</hi>:
+<q>
+"Hear the voice of the Bard!<lb/>
+Who Present, Past, &amp; Future sees".
+</q>
+Pope’s lines are perhaps even more suggestive, incidentally, of Johnson’s <hi rend="i">Vanity of Human Wishes</hi>, If:</p>
+                    <q>
+"Let Observation, with extensive View,<lb/>
+Survey Mankind, from China to Peru".
+</q>
+                    <p>In Blake’s <hi rend="i">Songs of Innocence</hi>, though the expression is conventional, the line,
+<q>
+"Is but a cloud, and like a shady grove",
+</q>
+from "The Little Black Boy", could derive from Pope’s "Spring" (lines 72-3):</p>
+                    <q>
+" . . . I love<lb/>
+At Morn the Plains, at Noon the shady Grove;".
+</q>
+                    <p>G.E. Bentley, Jr., in his edition of Blake’s <hi rend="i">Four Zoas</hi>, p. 176, has rightly given a source in Pope’s "Epistle to Augustus" 267-9, which I need not quote here. David V. Erdman has supplied an important source in a letter to me where he notes: "It seems to me that both ‘When France got free . . . ’ (Marg. Reynolds, p. ciii: Doubleday p. 630) and ‘Now Art has lost its mental Charms’ (Notebook p. 79: Doubleday p. 471) derive from Pope’s first Epistle of the 2d Book of Horace, lines 263-264:</p>
+                    <q>
+"We conquer’d France, but felt our captive’s charms;<lb/>
+Her Arts victorious triumph’d o’er our Arms:".
+</q>
+                    <pb id="p02-64" n="64"/>
+                    <p>I am grateful to Robert P. Kolker for another allusion to Pope which may be found in Night the Eighth of <hi rend="i">The Four Zoas.</hi> Ahania, in a horrible vision of decay and death, sees the fall of the "Strong Eagle", and
+<q>
+Beside him lies the Lion dead &amp; in his belly worms<lb/>
+Feast on his death till universal death devours all<lb/>
+(109: 7-8)
+</q>
+The last phrase seems to be a version of the last line of <hi rend="i">The Dunciad</hi>:
+<q>
+And Universal Darkness buries All.
+</q>
+Robert P. Kolker notes that, interestingly enough, Pope’s line, according to the Twickenham Edition, is an allusion to Shakespeare, <hi rend="i">II. Henry IV</hi>: "Let Order die . . . /And darknesse be the burier of the dead".</p>
+                    <p>The concept of the fairy’s functions in "A fairy skipd upon my knee" (Doubleday, p. 473) seems to have gained something from the machinery of Pope’s mock-epic <hi rend="i">The Rape of the Lock</hi>, particularly the guarding of Belinda, and there is a further sign that Blake was familiar with this poem, in his adaption of the name "Naamah" for the wife of Noah, for which he need go no further than Pope’s footnote to Canto 1, line 145: "Antient Traditions of the <hi rend="u">Rabbi’s</hi> relate, that several of the fallen Angels became amorous of Women, and particularize some; among the rest <hi rend="u">Asael</hi>, who lay with Naamah, the wife of <hi rend="u">Noah</hi>, or of <hi rend="u">Ham</hi>". Pope’s reference is to "Bereshi Rabbi in <hi rend="i">Genes.</hi> 6.2".</p>
+                    <p>Finally, as F. W. Hilles has noted in presenting "A ‘New’ Blake Letter" to the world (<hi rend="i">Yale Review</hi>, Ivii, 1967, 85-9), Blake’s letter to Hayley of 16 July 1804 includes a varied quotation from Pope’s "The Temple of Fame", applied to Caroline Watson.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>2. Sterne and Blake</title>
+                    </head>
+                    <byline>
+                        <docAuthor>G. E. <name>Bentley</name>, Jr.</docAuthor> University of Toronto</byline>
+                    <p>There are few obvious connections between Blake and Sterne, beyond the fact that Blake made an engraving for <hi rend="i">Sentimental Journey</hi> in <hi rend="i">The Novelist’s Magazine</hi>, Volume IX (1782) and, according to his letter of 4 May 1804, hoped to make others from <hi rend="i">Tristram Shandy</hi> for Hayley’s <hi rend="i">Romney</hi> (1809). Certainly their imaginations appear to be pointed in quite different directions; the irrepressibly impulsive Yorick is difficult to picture in the same creative world as the titanic Los calling all his sons to the strife of blood.</p>
+                    <p>There is however, a passage from <hi rend="i">Sentimental Journey</hi> (1768) which seems to be echoed in Blake’s <hi rend="i">America</hi> (1793). In the chapter called "The Captive. Paris" Yorick relates how he heard a caged bird repeating pathetically "I can’t get out" and immediately 
+<pb id="p02-65" n="65"/>
+begun to figure to myself the miseries of confinement. . . . -- I took a single captive, and having first shut him up in his dungeon, I then look’d through the twilight of his grated door to take his picture.</p>
+                    <p>I beheld his body half wasted away with long expectation and confinement, and felt what kind of sickness of the heart it was which arises from hope deferr’d. Upon looking nearer I saw him pale and feverish: <hi rend="u">in thirty years</hi> the western breeze had not once fann’d his blood -- he had seen no sun, no moon in all that time -- nor had the voice of friend or kinsman breathed through his lattice -- his children--</p>
+                    <p>--But here my heart began to bleed -- and I was forced to go on with another part of the portrait . . . <ref target="n1" type="note">1</ref>
+                        <note id="n1">
+                            <hi rend="s">1</hi> Lawrence Sterne, <hi rend="i">A Sentimental Journey through France and Italy</hi>, ed. G. D. Stout, Jr. (Berkeley &amp; Los Angeles, 1967), 201-202; the italics here and below are mine.</note>
+                    </p>
+                    <p>The passage on <hi rend="i">America</hi> plate 6 is as different as possible in character, but the imagined situation of the languishing prisoner is remarkably similar to Sterne’s. Orc is predicting the apocalypse:</p>
+                    <q>
+The morning comes, the night decays, the watchmen leave their stations;<lb/>
+The grave is burst, the spices shed, the linen wrapped up.<lb/>
+The bones of death, the cov’ring clay, the sinews shrunk &amp; dry’d<lb/>
+Reviving shake, inspiring move, breathing! awakening!<lb/>
+Spring like redeemed captives when their bonds &amp; bars are burst;<lb/>
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .<lb/>
+Let the inchained soul shut up in darkness and in sighing,<lb/>
+Whose face has never seem a smile <hi rend="u">in thirty</hi> weary <hi rend="u">years</hi>;<lb/>
+Rise and look out, his chains are loose, his dungeon doors are open<lb/>
+And let his wife and children return . . .
+</q>
+                    <p>Probably the association is only one of coincidence, but it is in some respects a striking coincidence of minds which one might otherwise say were as different as imaginable.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>3. THOMAS JOHNES, "ANCIENT GUARDIAN OF WALES"</title>
+                    </head>
+                    <byline>
+                        <docAuthor>Morton D. <name>Paley</name>
+                        </docAuthor> University of California Berkeley</byline>
+                    <p>In July of 1968, Ruthven Todd sent me an extremely interesting suggestion about the reference of <hi rend="i">Jerusalem</hi> 41 [46] 3-4:
+<q>
+Hereford, Ancient Guardian of Wales, whose hands<lb/>
+Builded the mountain palaces of Eden, stupendous works!
+</q>
+Mr. Todd wrote, "It is quite clearly Thomas Johnes, who built himself an Eden
+<pb id="p02-66" n="66"/>
+at Hafod. . . . Malkin’s <hi rend="i">Memoirs</hi> is dedicated to him, he was Lord Lieutenant of Cardiganshire, &amp;c." As Mr. Todd did not have library facilities available to him, he asked me to pursue the subject, which I did with great curiosity.<ref target="n8" type="note">1</ref></p>
+                    <p>I soon found, in the Keynes and Wolf <hi rend="i">Census</hi>, another link between Johnes and Blake: copy P of <hi rend="i">Songs of Innocence</hi> belonged to Johnes, having been given to him by Malkin. A third connection is provided by Blake’s lifelong friend George Cumberland, who in 1796 published <hi rend="i">An Attempt to Describe Hafod</hi> (the end paper advertizes <hi rend="i">Thoughts on Outline</hi>, for which Blake engraved eight plates). It is clear, then, that Blake must have been aware of Johnes’s projects, both aesthetic and social.</p>
+                    <p>Thomas Johnes began building his estate in Cardiganshire in the early 1780’s. The mansion, designed in Gothic style by William Baldwin of Bath, was completed in 1788 (it has been beautifully drawn by Turner). By the time Cumberland visited Hafod in 1794, an octagonal library in the Moorish style had been added to the building. The chapel contained an altar piece by Fuseli; Johnes also planned to build a little druid temple. There was an extensive collection of painting, displaying the cultivated taste of a wealthy gentleman of the time--which is to say, it included some things Blake might have appreciated and much that he would have despised. Among much else, there were animal paintings by Opie and by Gilpin, a portrait of Richard Payne Knight by Thomas Lawrence, "A Ruined Alchymist by Salvator Rosa," Rembrandt’s Elijah, "a Descent from the Cross, by Vandyck," and a picture of the Johnes family by Romney (see Malkin, <hi rend="i">The Scenery, Antiquities, and Biography of South Wales</hi> [London, 1804], pp. 350-55). When the house was rebuilt following a disastrous fire in 1807, Fuseli painted murais there and Stothard painted eight panels in the library.</p>
+                    <p>Johnes’s projects were not limited to patronizing the arts and to translating Froissart and publishing beautiful editions of the translations on his own press. He was also a humanitarian of considerable vision. According to a memoir published in the <hi rend="i">Gentleman’s Magazine</hi> after Johnes’s death,
+<q>
+Previous to 1783, when Mr. Johnes began to erect his first residence, the roads were impassable; there was not a post-chaise in the county: the miserable huts of the peasantry he transformed into comfortable habitations, and he supplied medical attendants; he employed the population in planting millions of forest trees upon the cheerless barrenness of the waste and mountains, as well as in other improvements; and instituted schools, which he and Mrs. Johnes personally attended. . . . So intent was he in improving the agriculture of this forlorn county, that he brought farmers from Scotland and other districts . . . and he distributed an excellent tract; entitled <hi rend="i">A Cardiganshire Landlord’s Advice to His Tenants.</hi>
+                            <ref target="n2" type="note">2</ref>
+    <note id="n8">
+        <hi rend="s">1</hi>See Elizabeth Inglis-Jones, <hi rend="i">Peacocks in Paradise</hi> (London, 1950), p. 218.</note>                        
+    <note id="n2">
+                                <hi rend="s">2</hi> LXXVI, pt. 1 (1816), 563-4.</note>
+                        </q>
+These undertakings are likely to have impressed Blake as much as they did his friends Cumberland and Malkin.</p>
+                    <p>Let us return to the lines in <hi rend="i">Jerusalem.</hi> "Hereford, Ancient Guardian of Wales . . . " Why should an English county be chosen as Wales’s guardian? The answer lies in Johnes’s biography. Thomas Johnes’s father, also named Thomas, married Elizabeth Knight in 1746, and he left his native Cardiganshire to live at the Knights’ home--Croft Castle in Hereford.<ref target="n3" type="note">3</ref> The younger Thomas grew up in
+<pb id="p02-67" n="67"/>
+England, and although he became M.P. for Cardigan in 1774, he did not visit Wales until the summer of 1780. Blake’s line therefore refers to the history of the family and can only apply to Johnes of Hafod. <note id="n3">
+                            <hi rend="s">3</hi> See Inglis-Jones, p. 31, and <hi rend="i">DNB</hi>, X, 890; also Rev. Charles J. Robinson, <hi rend="i">A History of the Castles of Herefordshire and Their Lords</hi>, London (1869), p. 37.</note>
+                    </p>
+                    <p>It is perhaps significant that in calling Hereford’s works "the mountain palaces of Eden," Blake uses an expression similar to those favored by admirers of Hafod. Cumberland, for example, refers to Hafod as "his Elysium" (p. viii) and closes his book with a quotation from <hi rend="i">Paradise Lost:</hi> " . . . Paradise/Now nearer crowns with her enclosure green,/ As with a rural mound, the champion head,/ Of a steep wilderness . . . " (p. 50). Malkin wrote: " . . . the sheepwalks on either side the Istwid, topped by rocks, that thrust their projections among the very clouds, remind us by what a style of nature we are surrounded, in the midst of an artificial paradise."<ref target="n4" type="note">4</ref> And of the Johnes’ private garden, Malkin says:
+<q>
+. . . the mountain rises higher, and is covered with dwarfish growth, to which alone the ridges of these hills give birth. In the centre of the thicket is planted a flower garden, so carefully sheltered and judiciously disposed, as to realise a paradise in the wilderness.<ref target="n5" type="note">5</ref>
+                            
+                        </q>
+According to Miss Inglis-Jones, "There was a real little garden of Eden hidden among the woods at the end of a shady path along the river, entered by a stone gateway carved with the figures of Adam and Eve."<ref target="n6" type="note">6</ref> And according to the <hi rend="i">Gentlemen’s Magazine</hi>, after the great fire "Mr. Johnes still ‘resolved to inhabit his Eden, although driven out by the flaming minister.’" (p.564) <note id="n4">
+                            <hi rend="s">4</hi>
+                            <hi rend="i"> The Scenery . . . of South Wales</hi>, 341-42.</note>
+                        <note id="n5">
+                            <hi rend="s">5</hi> Ibid., 348.</note>
+                        <note id="n6">
+                            <hi rend="s">6</hi>
+                            <hi rend="i"> Peacocks in Paradise</hi>, p. 95.</note>
+                    </p>
+                    <p>Mr. Todd’s intuition about Hereford, ancient Guardian, is almost certainly correct, and the name of Thomas Johnes may be added to those of two other contemporaries whom Blake made Friends of Albion--Richard Warner (Bath) and Edward Marsh (Oxford). Perhaps the identities of other Friends on plate 41 will one day be discovered.<ref target="n0" type="note">*</ref> 
+                        <note id="n0">I wish to thank Mrs. Janet Schwarz for bibliographical assistance.</note>
+                    </p>
+                </div2>
+                <pb id="p02-68" n="68"/>
+                <div2>
+                    <head>
+                        <title>4. Every Thing Has Its Vermin</title>
+                    </head>
+                    <byline>
+                        <docAuthor>David V. <name>Erdman</name>
+                        </docAuthor> SUNY &amp; NYPL</byline>
+                    <p>Because Ruthven Todd had suggested the bright idea that among the Cathedral Cities "Hereford, ancient Guardian of Wales," might be Thomas Johnes of Hafod, Esq. M.P. Lord Lieutenant of the County of Cardigan, &amp;c. &amp;c. &amp;c. the "Dear Friend" of B.H. Malkin--and I’m using Johnes’ titles as given on Malkin’s "title" page (p. i) of <hi rend="i">A Father’s Memoirs of His Child</hi> (Fleet Street, 1806)--my curiosity led me to the Columbia University copy of the <hi rend="i">Memoirs.</hi>
+                    </p>
+                    <p>Todd’s hunch seemed good. Malkin had visited Johnes in his palaces: "your mountains . . . your magic creation in the wilds of Cardiganshire" where "We were naturally carried forward, from the rugged sublimity of nature, interspersed here with the opening promise, and there with the thriving luxuriance of judicious cultivation . . . into the track of human life" etc.</p>
+                    <p>But what most struck me about this book, this copy inscribed by its first owner "Jabez Legg 1809," was an instant illustration of the rest of the Malkin sentence I’ve just half quoted: " . . . human life, implicated as it is with pleasures which blossom but for a season, and pains which are indigenous, and grow rank and wanton in the soil". For Mr. Legg has recorded his pains in the margins with a dry pencil. These notes are few but, read backward in the book (a proper sequence for them) they are climatic. On p. 157 there is a sour note on the impossibility of Malkin’s fond boast that his son’s particular shape of head tallied "exactly . . . with the established principles of beauty": these, being general, the head cannot have been "any particular head at all." At p. 55 Jabez Legg is wearily unimpressed by an engraved specimen of young Malkin’s infant handwriting: "There certainly is nothing remarkable in the writing/ Many Children write better at his age".</p>
+                    <p>But the high point of boredom, where Mr. Legg unmistakably wishes he had his money back, occurs exactly at the point where we others wish we owned the book and that there were more, more. For Malkin has been telling the world (for the first time) about William Blake and quoting his poetry, for twenty-four pages (xviii-xli). The quoting ends with "The Tiger" on page xli. And this, for Mr. Legg, is the last straw. His comment: "This is a little too much about Mr. Blake."</p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">Minute Particulars</hi>
+                            </title>
+                        </head>
+                        <p>Mr. Leslie Parris of the Tate Gallery sends us a copy of "Blake’s Last Picture," a hitherto unnoticed poem by George Powell Thomas (<hi rend="i">Poems</hi>, London, 1847). According to a footnote by the author, the poem is based on a passage in Allan Cunningham’s <hi rend="i">Lives of the Painters.</hi> The poem is some 100 lines long and, as Mr. Parris says, "a feeble effort." Thomas was, according to his title page, a Captain in the Bengal Army and author of <hi rend="i">Views of Simla.</hi> "So far as I know," Mr. Parris writes, "he was no relative of the Joseph Thomas I’ve been working on recently."</p>
+                        <p>Marcia Allentuch (CUNY) came across the following amusing passage in the diaries of Lady Cynthia Asquith, concerning the Blake sale at Christie’s in March 1918:</p>
+                        <q>
+We went to Christie’s to see a wonderful collection of Blakes which are just coming up for sale. The were just lying about to be handled! It was very difficult to get at them and I found Lady Ottoline Morrell and her long-haired party very distracting--Blake draws a queer crowd. . . . I longed to see the drawings in peace." (<hi rend="i">Diaries, 1915-1918.</hi> London: Hutchingson, 1968, p. 422)
+</q>
+                        <p>In the census of coloured copies of Young’s <hi rend="i">Night Thoughts</hi> (BNL 11 [1968], 44), copy N should be recorded as having been given by Mr. Wilmarth S. Lewis recently to <hi rend="i">Mr. Paul Mellon.</hi> --G.E. Bentley, Jr.</p>
+                        <p>Suggested textual emendation to <hi rend="i">Jerusalem</hi>, 43:28, Erdman (29 Keynes): "locks" to read "rocks", on grounds both of consistency and of meaning. The text has established previously that Albion personifies a land, and the physical characteristics with which he is associated are fundamentally architectural and geographical, e.g., "the ancient porches of Albion are/ Darken’d! . . . Albions mountains run with blood . . . every Human perfection/Of mountain &amp; river &amp; city, are small &amp; wither’d &amp; darken’d" (5: 1-8). Moreover, 43:2 sets the scene amidst "Albions dark rocks," and a sudden shift to "locks" seems not only improbable but also Inappropriate in that context.</p>
+                        <byline>
+                            <docAuthor>Joanne <name>Witke</name>
+                            </docAuthor>, Graduate Student University of California Berkeley</byline>
+                    </div3>
+                </div2>
+            </div1>
+            <pb id="p02-69" n="69"/>
+            <div1 id="BQ-02-4-0005">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">REVIEW</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">Blake’s Humanism</hi> by John B. Beer. Barnes and Noble (1968), pp [xiii]+269 pp.</title>
+                    </head>
+                    <p>
+                        <hi rend="i">Blake’s Humanism</hi> is a book disappointing in its unevenness; the excellences of certain passages are offset by the weaknesses of others. The critic at his best is very incisive indeed, as is shown by his exposition of the <hi rend="i">Milton</hi> in chapter six. Fifty pages of close, textually anchored criticism offer a considerable insight into the epic, insight attributable in large measure to the author’s grasp, not only of Blake, but of John Milton as man and poet. In contrasting Milton to Blake’s vision of him, Beer is able to convey an excellent sense of Blake’s viewpoints and purposes in the epic. The thoroughness with which the author handles his comparison of Milton and Blake may be suggested by pointing out that the total of pages occupied by such discussion comes to a good quarter of the book. The author’s lengthy discussion of <hi rend="i">Milton</hi> has been carefully anticipated in the second chapter, where the Miltonic vision is discussed in terms of the cosmic contraries of "energy" and "light." Beer stresses Blake’s adaptation of these contraries to issues of his own age, ranging from Blake’s dislike of atheistic rationalism to his concern over the social effects of the industrial revolution.</p>
+                    <p>Beer’s critical strengths are by no means confined to the <hi rend="i">Milton.</hi> Eleven pages of discussion of <hi rend="i">The French Revolution</hi> will prove welcome to students of Blake. Likewise, the author’s comments on the <hi rend="i">Songs</hi> are often very perceptive. A quotation from Young’s <hi rend="i">Night Thoughts</hi> sheds light upon "The Sick Rose," and Beer compares Una’s lion in the <hi rend="i">Faerie Queene</hi> to the lion of "The Little Girl Found" to say something new about that challenging lyric.</p>
+                    <p>But the book’s better passages stand in contrast to some weak and misleading ones. Beer seems especially weak on the minor prophecies, where he reveals insufficient acquaintance both with the books and with current scholarship on them. For instance, when discussing the Thiralatha fragment the author assumes that "the illustration on the plate" is a direct comment upon the lines. The fragment is one which Blake "etched upon a plate and later cancelled." Beer disagrees with "Blake’s editors" that "the words and design . . . were made on separate occasions." Yet the very fact that the lines were painted out would seem to make that conclusion inescapable.</p>
+                    <p>In discussing the illustrations to <hi rend="i">America A Prophecy</hi>, Beer is either remarkably unobservant or is not beyond "bending" his description of individual plates to fit his interpretation. On plate five of <hi rend="i">America</hi>, he sees "a figure [which] leans down, looking into the spirals" of the serpent. This inverted figure, legs awry and body contorted, could be seen as plunging into the coils, but by what stretch of the imagination can it be seen as "leaning down?" Plate fifteen of <hi rend="i">America</hi> is said to show "women . . . consuming in flames which at top of the plate turn into fruit and foliage." But the tree at the top of the plate has neither fruit nor foliage. Rather, the uppermost scene shows a thistle, a dead tree wound with a parasitic vine, and a contracted figure similar to the one dominating <hi rend="i">America</hi>’s last plate. Fruit (the grape) is seen in the first designs of the series, not the last. The progress is toward sterility, not fertility, but the plate’s significance is obscured by an inaccurate description of the designs.</p>
+                    <pb id="p02-70" n="70"/>
+                    <p>The criticism reaches its weakest with an interpretation of <hi rend="i">America</hi>’s last plate. The dominant figure is "Urizen . . . stretched forward in peaceful death." Yet the most cursory glance at the plate shows the figure to be kneeling prostrate, hands folded. (Most critics would agree that it depicts the shadowy female as she appears in the "Preludium" to <hi rend="i">Europe</hi>, "drowned in shady woe.") In further discussion of <hi rend="i">America</hi>’s last plate, the author sees "the tree of moral law [which] lies, destroyed." This design, reminiscent of a design on plate two, shows human forms contorted to tree trunks to symbolize man’s entrapment in vegetative existence. But they are no more "destroyed" than is vegetative existence itself. The interpretation becomes even less convincing when the author argues that a plant illustration on this plate bears especial significance because it is "in the position occupied by a serpent two pages before"--namely, at the bottom position on the plate. (Does a relationship exist to ten or twelve other plates of <hi rend="i">America</hi>, because they also have designs at the bottom?)</p>
+                    <p>The sometimes unconvincing quality of the author’s exposition is not confined to the illustrations. The character Ariston, mentioned once in <hi rend="i">America</hi> and once in <hi rend="i">The Song of Los</hi>, becomes "sexual energy" at one point, "the genitals" at another, and finally comes to play an important part in a schema of "Divided Man." Heretofore, critics approaching Blake’s two mentions of Ariston have drawn cautious conclusions on the basis of a king by that name in Herodotus, who seems to bear some relationship to Blake’s character. In <hi rend="i">Blake’s Humanism</hi>, even that slim evidence is neglected, and the interpretation can only be described as subjective.</p>
+                    <p>The occasionally arbitrary quality of the author’s exposition is carried over to some extent in the organization of the book. <hi rend="i">Blake’s Humanism</hi> is a thematic study, one which explores only those works which contain "a point of social or political relevance which gives [them] a central theme." Those chapters of <hi rend="i">Blake’s Humanism</hi> which explicate relevant themes in individual works, or groups of related works, are relatively easy for readers to follow. Chapters that discuss socio-political themes in Blake’s work as a whole seem far less clear. The first chapter, so important to any thematic study in setting the thesis and plan of the book, seems neither clearly focused nor easy to follow, nor is the presentation of the book’s thesis, plan, and goals given sufficient emphasis. The two concluding chapters seem neither sufficiently integrated in themselves, nor sufficiently knit to foregoing chapters to be as helpful as they might have been. Two appendices and an additional "Commentary on the Illustrations"--all three only loosely connected with the main text--seem to reveal the author’s difficulties with the book’s arrangement.</p>
+                    <p>I found <hi rend="i">Blake’s Humanism</hi> uneven in quality, unreliable at times, and without adequate focus. My final judgment fell far short of anticipations awakened in the book’s opening pages ("S.F. Damon, M.O. Percival, and Northrop Frye . . . contain much that is valuable and exciting . . . , yet the total impression is always unsatisfactory"). Even so, <hi rend="i">Blake’s Humanism</hi> will hold a place on my bookshelf for its perceptive study of Blake’s debt to Milton, for its thoroughgoing exposition of Blake’s <hi rend="i">Milton</hi>, and for discerning commentary on a number of individual poems.</p>
+                    <byline>
+                        <docAuthor>Patrick J. <name>Callahan</name>
+                        </docAuthor> University of Notre Dame</byline>
+                </div2>
+            </div1>
+            <pb id="p02-71" n="71"/>
+            <div1 id="BQ-02-4-0006">
+                <head>
+                    <title>
+                        <hi rend="i">
+                            <hi rend="u">REVIEW</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="u">The Letters of William Blake</hi>
+                        </title>
+                    </head>
+                    <byline>edited by <docAuthor>Geoffrey <name>Keynes</name>
+                        </docAuthor>
+                        <docAuthor>Rupert <name>Hart-Davis</name>
+                        </docAuthor> (second edition, 1968)</byline>
+                    <p>It is always regrettable when a standard text goes out of print, though no doubt it is a sign of the times that publishers do not like to keep books on their shelves unless they are also moving off briskly. The new edition of Blake’s letters is therefore welcome. It is also a sign of the times that this edition, which has been entirely reset, is in somewhat reduced print, a smaller format, and an increased price (from 50/- to 75/-), though "in real terms", as they say, this is perhaps no increase at all. These are small criticisms, however; the first edition was so amply spacious that it has been possible to shrink it without producing an unduly cramped page or minute text.</p>
+                    <p>The dust-jacket makes a point of announcing that new material has been incorporated into the second edition. When one comes to look for these new discoveries, they turn out to comprise two receipts given to John Linnell, and the entries from Linnell’s personal cash accounts between March 1822 and September 1836, where they refer to Blake or his works; and one real letter, dated 29 December 1826, in which Blake apologises to Mrs. Aders for not responding to an invitation, on account of his serious illness - writing in a blend of respectful anxiety not to give offence, with considerable (and surely justified) fear for his own welfare. It is a pity that Mr. Keynes did not amend his index to refer to this additional letter.</p>
+                    <p>These are, then, interesting but not really major additions to the whole. It is a blessing that the original numbering of the letters has been retained, the additions being numbered 114a, 122a, 136a and 140a, so that any critic henceforth can continue to refer to the old numbering without fear of confusion - a sin (if one may use the word in Blakean circles) - an error of which Mr. Keynes has not always been innocent, as for example in his labelling of the copies in the <hi rend="u">Census</hi> in a completely different way from the <hi rend="i">Bibliography.</hi>
+                    </p>
+                    <p>It is always a problem, and an unanswerable one, to know how Blake’s texts should be punctuated when they are reproduced. Mr. Keynes, as before, has retained Blake’s spellings and capitals, but has added punctuation. On the whole one cannot quarrel with the restrained amount of punctuation he has added, though it is a pity that, inevitably, one cannot now be sure when one is faced by a point that Blake meant to stand out. And, since the punctuation is editorial, it is a little strange that Mr. Keynes has retained the clumsy excess of inverted commas in the poem sent to Thomas Butts on 22 November 1802.</p>
+                    <p>These are still minor complaints. The critics of the earlier edition were not slow to remark that, though Mr. Keynes had produced an excellent edition, its usefulness was doubtful since most of the material was available anyway in his own Nonesuch edition of the complete works. This is still true. The O. U. P. successor to the Nonesuch edition does not contain the letters
+<pb id="p02-72" n="72"/>
+to Blake, nor the minor items such as receipts; but with a small extension it could easily have been made to do so. The major advantage to researchers of this collection of the letters is the fifty-page <hi rend="i">Register</hi> at the end, which gives the bibliographical details, including information about where the letters are to be found. It is an irony of commerce that, to have this information to hand, the researcher must pay his 75/ - or $6.95, more than enough to put the whole of Blake’s text in his hands.</p>
+                    <byline>
+                        <docAuthor>W. E. <name>Stevenson</name>
+                        </docAuthor> University of Ibadan Nigeria</byline>
+                </div2>
+            </div1>
+            <pb id="p02-73" n="73"/>
+            <div1 id="BQ-02-4-0007">
+                <head>
+                    <title>
+                        <hi rend="u">
+                            <hi rend="i">QUERIES</hi>
+                        </hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title>1. <hi rend="i">Milton</hi> 29: A Retort to William Frend?</title>
+                    </head>
+                    <p>I wonder whether anyone else has seen in <hi rend="i">Milton</hi> 29:
+<q>
+And every Space that a Man views around his dwelling-place<lb/>
+Standing on his own roof or in his garden on a mount<lb/>
+Of twenty-five cubits in height, such space is his Universe:<lb/>
+And on its verge the Sun rises &amp; sets, the Clouds bow<lb/>
+To meet tha flat Earth . . .<lb/>
+. . . . . . . . . . . . . . . . . . . . . . . . . . .<lb/>
+As to that false appearance which appears to the reasoner<lb/>
+As of a Globe rolling thro’ Voidness, it is a delusion of Ulro.
+</q>
+a retort to William Frend’s <hi rend="i">Evening Amusements</hi>, 1814, pages 40,41:</p>
+                    <q>
+Leaving the system of Newton and of all other makers of systems, let us suppose that we have never heard of them, and that now, for the first time, we began to reflect on our situation on this Earth, and to contemplate the heavenly bodies around us. A crowd of thoughts press upon the imagination, which is drawn every way by the multitude of objects exciting our attention. We find ourselves placed in a vast body, which we call Earth, apparently a plain, diversified by hill and dale, and bounded by the great expanse of air or heaven, which is above and around us. Had we been confined to the village or town that gave us birth and received no information from others, who had travelled beyond the limits of our horizon, the Earth might have remained to our conceptions a vast plain, bounded by the sky, and we might have been lost in the thoughts of what existed beyond our visible limits. . . . But the knowledge of others comes to our assistance, and we find that beyond our village are immense regions . . . we are convinced that the Earth is a round body, the figure of whose orb is nearly globular.
+</q>
+                    <p>The year 1814 is more than a trifle late for an influence on <hi rend="i">Milton</hi>, but this may have been the kind of point Frend made in conversation long before he put it in print in a popular scientific publication. We know, from his daughter’s memoirs,<ref target="n7" type="note">1</ref> that he both knew and respected Blake. <note id="n7">
+                            <hi rend="s">1</hi> Sophia Elizabeth de Morgan: <hi rend="i">Threescore Years and Ten</hi>, London, 1895, pages 66-68.</note>
+                    </p>
+                    <p>Mrs. Frida Knight of Reading is writing a biography of Frend. If anyone has any information or advice, I shall be happy to pass it on to her. Full acknowledgment will of course be made.</p>
+                    <byline>
+                        <docAuthor>John <name>Adlard</name>
+                        </docAuthor> c/o Wellesbourne Brent Road, East Brent Highbridge, Somerset England</byline>
+                </div2>
+                <pb id="p02-74" n="74"/>
+                <div2>
+                    <head>
+                        <title>2. <hi rend="i">Blake’s London</hi>
+                        </title>
+                    </head>
+                    <p>I am now compilling information and illustrations for a volume on Blake and London; specifically the book, at least as a working title, will be called <hi rend="i">Blake’s London.</hi>
+                    </p>
+                    <p>I have already compiled a great deal of information; dozens of illustrations that are pertinent, specifically, to Blake and London, and an updating of some of the material on my <hi rend="i">BNYPL</hi> article, "Blake’s London Residences." Along with this I will have, mostly all located, illustrations of elements referred to in Blake’s poems, and I should add: or <hi rend="u">alluded</hi> to. For instance, a sketch of how the choir, which Blake said streamed into St. Paul’s dome, was situated, and showing the wise guardians of the poor.</p>
+                    <p>Undoubtedly Blakists will have a great deal to suggest and perhaps some are aware of unique illustrations that would be requisite.</p>
+                    <byline>
+                        <docAuthor>Paul <name>Miner</name>
+                        </docAuthor> 1615 West 13th Wichita, Kansas 67203</byline>
+                </div2>
+                <div2>
+                    <head>
+                        <title>3. A Fugitive or Apocryphal Blake Engraving</title>
+                    </head>
+                    <p>According to the British Museum Print Room accessions records, on 9 July 1859 Messrs Evans sold to the Print Room a Blake engraving of "The World before the Flood. Canto 7. page 136," which evidently formed the "Frontispiece to The Minor’s[?] Pocket Book. 1814."</p>
+                    <p>No such print is known to Blake scholars. The title suggests that the work is an ephemeral publication, which may account for the fact that it does not appear in the catalogues of major libraries. Unfortunately, the print itself cannot now be traced in the British Museum Print Room; perhaps it has been reattributed in the last century and is now filed under another name. The fact that the entry in the Print Room accessions records was made in 1859, when Blake’s reputation was still moribund, suggests that the cataloguer was not merely associating the engraving with a well-known name and that he may have had some information such as an inscription on which to base his attribution. However, until someone can locate a copy of <hi rend="i">The Minor’s Pocket Book</hi>, we will have to presume that the cataloguer was in error.</p>
+                    <byline>
+                        <docAuthor>G. E. <name>Bentley</name>, Jr.</docAuthor> University of Toronto</byline>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>

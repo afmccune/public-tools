@@ -1,0 +1,922 @@
+<?xml version="1.0"?>
+<TEI.2>
+  <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+    <idno>38.3.toc</idno>
+    <fileDesc>
+      <titleStmt>
+        <title type="toc">Contents</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Winter 2004/2005</edition>
+      </editionStmt>
+      <publicationStmt>
+        <date>2004-05</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Blake/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">38.3</biblScope>
+                        <biblScope unit="volume">38</biblScope>
+                        <biblScope unit="issue">3</biblScope>
+            <respStmt>
+              <resp>Editors</resp>
+              <name>Morris Eaves</name>
+              <name>Morton D. Paley</name>
+              <resp>Managing Editor</resp>
+              <name>Sarah Jones</name>
+              <resp>Bibliographer</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <resp>Review Editor</resp>
+              <name>Nelson Hilton</name>
+              <resp>Associate Editor for Great Britain</resp>
+              <name>David Worrall</name>
+              <resp>Advisory Board</resp>
+              <name>G.E. Bentley, Jr.</name>
+              <name>Martin Butlin</name>
+              <name>D.W. Dörrbecker</name>
+              <name>Robert N. Essick</name>
+              <name>Angela Esterhammer</name>
+              <name>Nelson Hilton</name>
+              <name>Anne K. Mellor</name>
+              <name>Joseph Viscomi</name>
+              <name>David Worrall</name>
+              <resp>Contributors</resp>
+              <name>Adam Komisaruk</name>
+              <name>Thomas Frosch</name>
+              <name>Joseph Wittreich</name>
+              <name>Yoko Ima-Izumi</name>
+              <name>Antoine Capet</name>
+              <name>David Shaddock</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Department of English, University of Rochester</publisher>
+            <pubPlace>Rochester, NY, USA</pubPlace>
+            <date value="2004/2005"/>
+            <authority>William Blake Archive</authority>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="eng">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text id="volume_38">
+    <front>
+      <pb id="p38-89-90" n="89-90"/>
+      <div1 id="cover">
+        <figure n="cover.038.03.bqscan" rend="file">
+          <figTranscr>BLAKE<lb/>
+            AN ILLUSTRATED QUARTERLY<lb/>
+			S<lb/>
+			E W<lb/>
+			N<lb/>
+            Adam Komisaruk Models Blake<lb/>
+            VOLUME 38<lb/>
+            NUMBER 3<lb/>
+            WINTER 2004-05</figTranscr>
+        </figure>
+      </div1>
+      <div1 id="BQ-38-3-0001">
+        <table id="contents" rows="13" cols="2">
+          <row>
+            <cell>
+				<head>
+				  <title>CONTENTS</title>
+				</head>
+            </cell>
+			<cell/>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Article</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.komisaruk">Introducing The Blake Model</ref><lb/><hi rend="i">By Adam Komisaruk</hi></cell>
+            <cell>
+              <hi rend="i">92</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Reviews</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.frosch">Tristanne J. Connolly, <hi rend="i">William Blake and the Body</hi></ref><lb/><hi rend="i">Reviewed by Thomas Frosch</hi></cell>
+            <cell>
+              <hi rend="i">102</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.wittreich">Alexander S. Gourlay, ed., <hi rend="i">Prophetic Character: Essays on William Blake in Honor of John E. Grant</hi></ref><lb/><hi rend="i">Reviewed by Joseph Wittreich</hi></cell>
+            <cell>
+              <hi rend="i">107</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.imaizumi">The Program of the International Blake Conference <hi rend="i">Blake in the Orient</hi> and the Catalogue of a Concurrent Exhibition <hi rend="i">The Reception of Blake in Japan</hi></ref><lb/><hi rend="i">Reviewed by Yoko Ima-Izumi</hi></cell>
+            <cell>
+              <hi rend="i">109</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.capet">Blake at Work Exhibition, Tate Britain, London</ref><lb/><hi rend="i">Reviewed by Antoine Capet</hi></cell>
+            <cell>
+              <hi rend="i">115</hi>
+            </cell>
+          </row>
+          <row>
+            <cell><hi rend="b">Newsletter</hi><lb/>
+			Online Features</cell>
+            <cell><hi rend="i">119</hi></cell>
+          </row>
+          <row>
+            <cell><corr type="emend"><ref type="html-issue" issue="bonus.bentley">G. E. Bentley, Jr., “Blake and the Xenoglots”</ref></corr></cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><corr type="emend"><ref type="html-issue" issue="bonus.sklar">A report by Susanne Sklar on a recent reading of <hi rend="i">Jerusalem</hi></ref></corr></cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>
+              <hi rend="b">Poem</hi>
+            </cell>
+            <cell/>
+          </row>
+          <row>
+            <cell><ref type="article" issue="38.3.shaddock">Nobodaddy Wakes from His Slumber (After Blake 12)</ref><lb/><hi rend="i">By David Shaddock</hi></cell>
+            <cell>
+              <hi rend="i">119</hi>
+            </cell>
+          </row>
+        </table>
+      </div1>
+      <div1 id="BQ-38-3-0002">
+        <head>
+          <title>ADVISORY BOARD</title>
+        </head>
+        <p>G. E. Bentley, Jr., University of Toronto, retired</p>
+        <p>Martin Butlin, London</p>
+        <p>Detlef W. Dörrbecker, University of Trier</p>
+        <p>Robert N. Essick, University of California, Riverside</p>
+        <p>Angela Esterhammer, University of Western Ontario</p>
+        <p>Nelson Hilton, University of Georgia</p>
+        <p>Anne K. Mellor, University of California, Los Angeles</p>
+        <p>Joseph Viscomi, University of North Carolina at Chapel Hill</p>
+        <p>David Worrall, The Nottingham Trent University</p>
+      </div1>
+      <pb id="p38-91" n="91"/>
+      <div1 id="BQ-38-3-0003">
+        <head>
+          <title>CONTRIBUTORS</title>
+        </head>
+        <p>Adam Komisaruk is assistant professor of English at West Virginia University. He is author of articles on “Monk” Lewis, Mary Shelley, Thomas Rowlandson, Mary Wollstonecraft, and Lord Byron. His works in progress include a book-length study of sexuality and the growth of the middle class in British Romanticism.</p>
+        <p>Thomas Frosch is professor of English at Queens College of the City University of New York and author of <hi rend="i">The Awakening of Albion: The Renovation of the Body in the Poetry of William Blake</hi>, as well as articles on Wordsworth, Shelley, and Keats.</p>
+        <p>Joseph Wittreich is distinguished professor of English at the Graduate Center of the City University of New York and, most recently, the author of <hi rend="i">Shifting Contexts: Reinterpreting</hi> Samson Agonistes and co-editor of <hi rend="i">Altering Eyes: New Perspectives on</hi> Samson Agonistes.</p>
+        <p>Yoko Ima-Izumi, professor of English and film studies at the University of Tsukuba in Japan, has been publishing books and essays on William Blake, Romantic literature, and Japanese film. Her recent publications (in Japanese) include <hi rend="i">Close-Ups of the Woman: Reframing Japanese Cinema</hi> (1997), <hi rend="i">Representations of the Female Body in English Literature and Film</hi> (1999), <hi rend="i">Blake’s Revision of the Female</hi> (2001), and <hi rend="i">Film Syntax: Shot Analysis of Japanese Film</hi> (2004).</p>
+        <p>Professor Antoine Capet is head of British studies at the University of Rouen.</p>
+        <p>David Shaddock is a poet and psychotherapist. His <hi rend="i">After Blake</hi> won the <hi rend="i">Ruah</hi> Power of Poetry prize for a chapbook of spiritual poems.</p>
+      </div1>
+      <div1 id="BQ-38-3-0004">
+        <head>
+          <title>EDITORS</title>
+        </head>
+        <p>EDITORS: Morris Eaves and Morton D. Paley</p>
+        <p>BIBLIOGRAPHER: G. E. Bentley, Jr.</p>
+        <p>REVIEW EDITOR: Nelson Hilton</p>
+        <p>ASSOCIATE EDITOR FOR GREAT BRITAIN: David Worrall</p>
+        <p>PRODUCTION OFFICE: Department of English, Morey 410, University of Rochester, Rochester NY 14627-0451</p>
+        <p>MANAGING EDITOR: Sarah Jones sjns@mail.rochester.edu<lb/>
+TELEPHONE: 585/275-3820 FAX: 585/442-5769</p>
+        <p>Morris Eaves, Department of English, University of Rochester, Rochester NY 14627-0451<lb/>
+Email: meav@mail.rochester.edu</p>
+        <p>Morton D. Paley, Department of English, University of California, Berkeley CA 94720-1030<lb/>
+Email: mpaley@berkeley.edu</p>
+        <p>G. E. Bentley, Jr., 246 Macpherson Avenue, Toronto, Ontario M4V 1A2 Canada</p>
+        <p>Nelson Hilton, Department of English, University of Georgia, Athens GA 30602<lb/>
+Email: nhilton@english.uga.edu</p>
+        <p>David Worrall, Faculty of Humanities, The Nottingham Trent University, Clifton Lane, Nottingham NG11 8NS U.K.<lb/>
+Email: david.worrall@ntu.ac.uk</p>
+      </div1>
+      <div1 id="BQ-38-3-0005">
+        <head>
+          <title>INFORMATION</title>
+        </head>
+        <p><hi rend="i">BLAKE/AN ILLUSTRATED QUARTERLY</hi> is published under the sponsorship of the Department of English, University of Rochester. Subscriptions are $60 for institutions, $30 for individuals. All subscriptions are by the volume (1 year, 4 issues) and begin with the summer issue. Subscription payments received after the summer issue will be applied to the current volume. Addresses outside the U.S., Canada, and Mexico require a $15 per volume postal surcharge for surface delivery, or $20 for airmail. Credit card payment is available. Make checks payable to <hi rend="i">Blake/An Illustrated Quarterly.</hi> Address all subscription orders and related communications to Sarah Jones, <hi rend="i">Blake</hi>, Department of English, University of Rochester, Rochester NY 14627-0451. Back issues are available; address Sarah Jones for information on issues and prices, or consult the web site.</p>
+        <p>MANUSCRIPTS are welcome in either hard copy or electronic form. Send two copies, typed and documented according to forms suggested in the <hi rend="i">MLA Style Manual</hi>, and with pages numbered, to either of the editors: Morris Eaves, Dept. of English, University of Rochester, Rochester NY 14627-0451; Morton D. Paley, Dept. of English, University of California, Berkeley CA 94720-1030. No articles will be returned unless accompanied by a stamped selfaddressed envelope. For electronic submissions, you may send a diskette, or send your article as an attachment to an email message; please number the pages of electronic submissions. The preferred file format is RTF; other formats are usually acceptable.</p>
+        <p>INTERNATIONAL STANDARD SERIAL NUMBER: 0160-628x. <hi rend="i">Blake/An Illustrated Quarterly</hi> is indexed in the Modern Language Association’s International Bibliography, the Modern Humanities Research Association’s Annual Bibliography of English Language and Literature, American Humanities Index, Arts and Humanities Citation Index, Current Contents and the <hi rend="i">Bibliography of the History of Art.</hi></p>
+        <p>Cover: (clockwise, from top left) Landscape in Ulro with Golgonooza (created in Bryce 3D by Adam Komisaruk); Cathedron (by Fred Yee); Representation of <hi rend="i">Jerusalem</hi> 12:54-60, 14:29-30, associating points of the compass with sensory trajectories (created in Bryce 3D by Adam Komisaruk); Three-dimensional body scan recreating Blake’s <hi rend="i">Milton</hi>, plate 31 (Brian Corey, model). <note type="unreferenced" place="footer">© 2005 Copyright Morris Eaves and Morton D. Paley</note></p>
+      </div1>
+    </front>
+  </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <pb id="p38-92" n="92"/>
+    <body>
+      <div1 id="BQ-38-3-0006">
+        <head>
+          <title type="section">ARTICLE</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">Introducing The Blake Model</title>
+          </head>
+          <byline>By <docAuthor>Adam <name>Komisaruk</name></docAuthor></byline>
+          <p>The present project arises from my effort, over the years, to hone a concise explanation of Blake’s mythology to myself, my colleagues and my students.<ref target="n29" type="note">*</ref> As a diagram junkie, I have several schemata at my disposal,<ref target="n30" type="note">**</ref> including Alicia Ostriker’s chart of the zoas and their attributes from the Penguin <hi rend="i">Complete Poems</hi> (illus. 1); Northrop Frye’s earlier and more extensive version from <hi rend="i">Fearful Symmetry</hi> (illus. 2); S. Foster Damon’s map of Golgonooza, the city of art, from <hi rend="i">The Blake Dictionary</hi> (illus. 3); or my own family tree of Blake’s cast of characters (illus. 4).<ref target="n1" type="note">1</ref> Where each of these schemata falls short, however, is in its inability to represent fully the spatial extent of Blake’s vision. Damon himself says in a footnote to his diagram, “Golgonooza, being four-dimensional, cannot be reduced to a chart of two dimensions. Each of the four gates not only opens into each of the other gates but does so ‘each within other toward the Four points’ (<hi rend="i">J[erusalem</hi>] 12:48)” (163). Thus about four years ago the idea occurred to me of developing a physical model that could visualize Blake’s
+                        <figure n="ZoasChart.38.3.bqscan" rend="file">
+							<figTranscr>Name<lb/>
+							URIZEN<lb/>
+							LUVAH<lb/>
+							THARMAS<lb/>
+							URTHONA<lb/>
+							<lb/>
+							<lb/>
+							(Emanation)<lb/>
+							(AHANIA)<lb/>
+							(VALA)<lb/>
+							(ENION)<lb/>
+							(ENITHARMON)<lb/>
+							<lb/>
+							<lb/>
+							Title<lb/>
+							'Prince of light'<lb/>
+							'Prince of love'<lb/>
+							<lb/>
+							<lb/>
+							Faculty<lb/>
+							Reason<lb/>
+							Passion<lb/>
+							Sensation<lb/>
+							Instinct<lb/>
+							<lb/>
+							<lb/>
+							Eternal Role<lb/>
+							Ploughman<lb/>
+							Vintner<lb/>
+							Shepherd<lb/>
+							Blacksmith<lb/>
+							<lb/>
+							<lb/>
+							Eternal Virtue<lb/>
+							Faith, certainty<lb/>
+							Love<lb/>
+							Coherence, receptivity<lb/>
+							Creativity<lb/>
+							<lb/>
+							<lb/>
+							Fallen Form<lb/>
+							'God, Priest, King'<lb/>
+							ORC (SHADOWY FEMALE) 'Demon Red'<lb/>
+							'Parent Power'<lb/>
+							LOS (ENITHARMON) 'Eternal Prophet'<lb/>
+							<lb/>
+							<lb/>
+							Fallen Character<lb/>
+							Doubt, Tyranny<lb/>
+							Rebellion, Revolution<lb/>
+							Flood, Chaos<lb/>
+							Poetry, Prophecy<lb/>
+							<lb/>
+							<lb/>
+							Element<lb/>
+							Air (light)<lb/>
+							Fire (heat)<lb/>
+							Water<lb/>
+							Earth<lb/>
+							<lb/>
+							<lb/>
+							Region<lb/>
+							S. (zenith)<lb/>
+							E. (centre)<lb/>
+							W. (circumference)<lb/>
+							N. (nadir)<lb/>
+							<lb/>
+							<lb/>
+							Note: Los and Enitharmon are born from Tharmas and Enion and in turn become the parents of Orc and the Shadowy Female.</figTranscr>
+							<head>1. Chart of the zoas and their properties.</head>
+							<figDesc><hi rend="i">William Blake, The Complete Poems</hi>, ed. Alicia Ostriker (1977; New York: Penguin, 1988) 1048 (reprinted by permission of Penguin).</figDesc>
+						</figure>
+						<figure n="ZoasChart2.38.3.bqscan" rend="file">
+							<figTranscr>1. Eternal Name Luvah Urizen Tharmas Urthona<lb/>
+							2. Time Name Orc Satan C. Cherub Los<lb/>
+							3. Emanation Vala Ahania Enion (Enitharmon)<lb/>
+							4. Quality Love Wisdom Power Fancy<lb/>
+							5. Zoa (Bible) Bull Lion Eagle Man<lb/>
+							6. Sense Nose Eye Tongue Ear<lb/>
+							7. Body Part Loins Head Heart Legs<lb/>
+							8. Metal (Bible) Brass Gold Silver Iron<lb/>
+							9. Position Centre Zenith Circumference Nadir<lb/>
+							10. Nature (Sky) Stars Sun Moon Mountains<lb/>
+							11. Element Fire Air Water Earth<lb/>
+							12. E. Spirits Genii Fairies Nymphs Gnomes<lb/>
+							13. State "Generation" Eden Beulah "Ulro"<lb/>
+							14. Place Soil City Garden Underground<lb/>
+							15. Activity Weaver Plowman Shepherd Blacksmith<lb/>
+							16. Art Painting Architecture Poetry Music<lb/>
+							17. Planet Mars Mercury Venus Earth<lb/>
+							18. Point East South West North<lb/>
+							19. Season Spring Summer Autumn Winter<lb/>
+							20. Time of Day Morning Noon Evening Night<lb/>
+							21. Age Youth Maturity Age "Death" (sleep)<lb/>
+							22. Son of Los Palamabron Rintrah Theotormon Bromion<lb/>
+							23. Emanation Elynittria Ocalythron Oothoon (none)<lb/>
+							24. City London Verulam York Edinburgh<lb/>
+							25. Evangelist Luke Mark John Matthew<lb/>
+							26. Color (Fallen) Red White Green Blue<lb/>
+							27. Virtue Love Faith Hope Vision<lb/>
+							28. Vice Hatred Doubt Despair Dullness<lb/>
+							29. Eden River Pison Hiddekel Gihon Euphrates</figTranscr>
+							<head>2. Chart of the zoas and their properties.</head>
+							<figDesc>Northrop Frye, <hi rend="i">Fearful Symmetry: A Study of William Blake</hi> (1947; Princeton: Princeton UP, 1990) 277-78 (reprinted by permission of Princeton UP, ©1947, 1969 revised edition. 1975 renewed).</figDesc>
+						</figure>
+						<figure n="GolgonoozaMap.38.3.bqscan" rend="file">
+							<figTranscr>GOLGONOOZA<lb/>
+							Jerusalem 12:45-13:29<lb/>
+							<lb/>
+							<lb/>
+							W<lb/>
+							Generation<lb/>
+							Four Bulls<lb/>
+							of<lb/>
+							Iron<lb/>
+							<lb/>
+							S<lb/>
+							Ulro<lb/>
+							Four Bulls<lb/>
+							of Enamel'd<lb/>
+							Clay<lb/>
+							<lb/>
+							E<lb/>
+							Beulah<lb/>
+							Four Bulls<lb/>
+							of the<lb/>
+							Four Metals<lb/>
+							<lb/>
+							N<lb/>
+							Eden<lb/>
+							Four Bulls<lb/>
+							of the<lb/>
+							Four Metals<lb/>
+							<lb/>
+							<lb/>
+							N<lb/>
+							Gnomes<lb/>
+							Nadir<lb/>
+							Eden<lb/>
+							Ear<lb/>
+							<lb/>
+							<lb/>
+							W<lb/>
+							A Cherub<lb/>
+							of<lb/>
+							Iron<lb/>
+							<lb/>
+							E<lb/>
+							A Cherub<lb/>
+							of<lb/>
+							Stone<lb/>
+							<lb/>
+							S<lb/>
+							A Cherub<lb/>
+							of<lb/>
+							Clay<lb/>
+							<lb/>
+							N<lb/>
+							A Cherub<lb/>
+							of<lb/>
+							Metals<lb/>
+							<lb/>
+							<lb/>
+							W<lb/>
+							Nymphs<lb/>
+							Circumference<lb/>
+							Generation<lb/>
+							Tongue<lb/>
+							<lb/>
+							<lb/>
+							MOAT OF FIRE<lb/>
+							CATHEDRON<lb/>
+							GATE OF LUBAN<lb/>
+							LOS'S FORGE<lb/>
+							LOS'S PALACE<lb/>
+							<lb/>
+							<lb/>
+							W<lb/>
+							Seven<lb/>
+							Generative<lb/>
+							Forms<lb/>
+							<lb/>
+							S<lb/>
+							Seven<lb/>
+							Forms<lb/>
+							of War<lb/>
+							<lb/>
+							E<lb/>
+							Stone<lb/>
+							Seven<lb/>
+							Diseases<lb/>
+							<lb/>
+							N<lb/>
+							Ice<lb/>
+							Sevenfold<lb/>
+							Forms<lb/>
+							of Death<lb/>
+							<lb/>
+							<lb/>
+							E<lb/>
+							Genii<lb/>
+							Center<lb/>
+							Beulah<lb/>
+							Nostrils<lb/>
+							<lb/>
+							<lb/>
+							Eyes<lb/>
+							Ulro<lb/>
+							Zenith<lb/>
+							Fairies<lb/>
+							S<lb/>
+							<lb/>
+							<lb/>
+							Four<lb/>
+							Living<lb/>
+							Lions<lb/>
+							E<lb/>
+							<lb/>
+							Four<lb/>
+							Iron<lb/>
+							Lions<lb/>
+							W<lb/>
+							<lb/>
+							Four<lb/>
+							Clay<lb/>
+							Lions<lb/>
+							S<lb/>
+							<lb/>
+							Four<lb/>
+							Lions of<lb/>
+							Four Metals<lb/>
+							N</figTranscr>
+							<head>3. Map of Golgonooza.</head>
+							<figDesc>S. Foster Damon, <hi rend="i">A Blake Dictionary: The Ideas and Symbols of William Blake</hi>, rev. ed. (Hanover and London: Brown UP/UP of New England, 1988) 163 (reprinted by permission of UP of New England).</figDesc>
+						</figure>
+						<note id="n29">For their feedback and assistance with this project I am indebted to Sandy Baldwin, Joshua David Gonsalves, Stephen Harris, Adam Horne, Jeremy Jarrell, Wayne Ripley, Frances Van Scoy and Susan Warshauer.</note>
+						<note id="n30">For further reflections on the project described herein, see Adam Komisaruk, Steve Guynup and Fred Yee, “Blake and Virtuality: An Exchange,” <hi rend="i">Digital Designs on Blake</hi>, ed. Ron Broglio, Romantic Circles Praxis Series, forthcoming &lt;http://www.rc.umd.edu/praxis/&gt;.</note>
+						<pb id="p38-93" n="93"/>
+						<figure n="AlbionsFamilyTree.38.3.bqscan" rend="file">
+							<figTranscr>Child<lb/>
+							Emanation of<lb/>
+							Aspect<lb/>
+							Fallen form of<lb/>
+							<lb/>
+							Albion<lb/>
+							Jerusalem<lb/>
+							Urizen Luvah Tharmas Urthona<lb/>
+							Ahania Vala Enion Enitharmon<lb/>
+							Los<lb/>
+							Enitharmon<lb/>
+							Satan Orc Rintrah Palamabron Theotormon Bromion Sotha<lb/>
+							Shadowy Female Ocalythron Elynittria Oothoon Leutha Thiralatha/Diralada<lb/>
+							Hand Hyle Bowen Gwantok Coban<lb/>
+							Cambel Gwendolen Conwenna Cordella Ignoge<lb/>
+							Rahab<lb/>
+							Scofield [Adam] Hutton Slade Kox [Noah] Kotope Peachey Brereton<lb/>
+							Gwiniverra Gwinefred Gonorill Estrild Sabrina Mehetabel Ragan<lb/>
+							Tirzah<lb/>
+							Adam Enoch Shem Han Japeth</figTranscr>
+							<head>4. Albion’s family tree.</head>
+							<figDesc>By the author.</figDesc>
+						</figure>
+mythology as he himself appears to have visualized it—a system of spatial relationships extending through three and, if we include its manipulations through time, four dimensions. My original intent was to create a sort of kinetic statue or mobile, showing the zoas suspended in space and capable of being rotated along any axis. It eventually became clear, however, that by using the virtual-reality technology now available, I could create an even more suitable model: an immersive digital environment through which users might navigate to encounter Blake’s characters, places and objects in the configuration his works describe. The Blake Model is a work-in-progress that I hope eventually to make available for researchers, teachers and students of Blake. This essay will serve as a prospectus to the project, an announcement of its status to date, an invitation for feedback and a discussion of some theoretical problems the project raises. <note id="n1">1. All my Blake quotations are from <hi rend="i">The Complete Poetry and Prose of William Blake</hi>, ed. David V. Erdman, newly revised ed. (New York: Anchor, 1988), hereafter “E.”</note></p>
+          <p>Supported by internal grants from West Virginia University, in collaboration with the Virtual Environments Laboratory there, and with an eye to future funding by the National Science Foundation’s Information Technology program, I am breaking the project into the following phases: (1) the creation of the overall landscape or Blakean universe; (2) the creation of a human figure corresponding to Blake’s Albion, who is the chief occupant of this landscape; (3) the decision as to what in the landscape goes where; (4) the animation of this environment to make it traversable by users and to show its transformations through time; (5) the creation of a userfriendly interface; (6) the preparation of textual annotations for the objects, locations and characters in the environment.</p>
+          <p>Blake’s landscape, at its most basic, consists of the four levels of existence with which readers are already familiar—Eden, the redeemed realm of pure spirit; Beulah, the sensual paradise; Generation, or vegetative life without consciousness; and Ulro, or dead matter. I will be representing these realms as four concentric spheres, since for Blake the Fall involves a contraction toward a center, not just a longitudinal descent. Between Ulro and Eden extends the “Mundane Shell,” a large egg-shaped object that encloses the material world. Ulro, the lowest or inner-most realm, is where the majority of human history transpires and is therefore wrought by Blake in the most detail. Using the digital modeling program Bryce 3D (Corel), I made a preliminary attempt (illus. 5) to represent the rocky expanse of Ulro, 
+<pb id="p38-94" n="94"/>
+including the forest of Entuthon-Benython and, within it, the lake of Udan-Adan and the great city of Golgonooza. Inside Golgonooza stands Bowlahoola, workshop of the artist-black-smith Los, and the hall of Cathedron. Bryce 3D is a relatively user-friendly but inflexible program; subsequent modeling will be done in industry-standard programs such as Maya (Alias) or 3D Studio Max (Discreet). I am fortunate to be assisted in the landscaping phase of the project by the talented New York artist Fred Yee, who has prepared a wonderful storyboard that he will soon be realizing digitally. Yee worked without the benefit of Blake’s images, only his texts, yet the two artists’ visions have some striking parallels. Take, for example, Blake’s sketch of Cathedron in the margin of the <hi rend="i">Four Zoas</hi> manuscript, Night the Third (illus. 6); the crown on her head and gothic altar for her genitalia suggest Blake’s association between female sexuality and the established church. Yee’s realization
+                        <figure n="LandscapeInUlro.38.3.bqscan" rend="file"><head>5. Landscape in Ulro with Golgonooza.</head><figDesc>Created in Bryce 3D by the author.</figDesc></figure>
+						<figure n="BB209.1.44.MS.detail" rend="file">
+							<figTranscr>BRITISH<lb/>
+							M[USEU]M</figTranscr>
+							<head>6. Cathedron.</head>
+							<figDesc>William Blake, <hi rend="i">The Four Zoas</hi>, page 44, Night the Third. By permission of the British Library, ADD.39764 f44.</figDesc>
+						</figure>
+(illus. 7) places Cathedron in a yoga goddess pose, her head tipped back in a manner whose significance I will discuss later. A Mesopotamian ziggurat replaces the cathedral between her splayed legs, but the logic remains the same. Yee envisions some of the tortured inhabitants of Ulro (illus. 8) as a giant cupped hand that suggests “false shelter” [a]; a crouching figure bearing a boulder on his back [b]; and a “naked ashamed tree” [c] that suggests at once a classical discus-thrower, Ovid’s Daphne metamorphosed to escape Apollo’s clutches and Rodin’s Adam writhing in agony before the gates of Hell. This lattermost figure further calls to mind not only Blake’s foe outstretched beneath the poison tree, but his cavedweller “struggl[ing] into life” from <hi rend="i">The Gates of Paradise</hi> (illus. 9). That Yee independently visualizes Blake’s symbols in a manner so resonant with Blake himself merely reaffirms a principle well-known to Blakeans: the continuity of mythic 
+                        <figure n="Cathedron.Yee.38.3.bqscan" rend="file"><head>7. Cathedron.</head><figDesc>By Fred Yee.</figDesc></figure><pb id="p38-95" n="95"/>
+thinking even among cultures that could not possibly have had direct knowledge of one another. We only begin to understand Blake’s archetypal man of genius when we become convinced that Blake himself must have read Marx, Freud, Jung and Joseph Campbell.</p>
+          <p>I would like to step back from this level of detail, which resides rather far off in The Blake Model’s future, and return to the bigger picture. As I said, the first task is to create the four concentric spheres that represent Blake’s levels of existence, and the Mundane Egg that stretches between them. Primitive shapes of this kind may be digitally generated with relative efficiency. The second task is to create the principal character who will inhabit this environment—Albion, the eternal man whose body serves as the microcosmic map of Blake’s macrocosmic universe.<ref target="n2" type="note">2</ref> Unlike the denizens of Ulro, Albion must be
+                        <figure n="InhabitantsOfUlro.38.3.bqscan" rend="file">
+							<figTranscr>a b c</figTranscr>
+							<head>8. Inhabitants of Ulro: (a) false shelter; (b) figure carrying a burden; (c) naked ashamed tree.</head>
+							<figDesc>By Fred Yee.</figDesc>
+						</figure>
+						<figure n="gates-sexes.d.p5" rend="db" id="gates-sexes.d.illbk.05">
+							<figTranscr>3 Earth<lb/>
+							He struggles into Life<lb/>
+							Publishd by WBlake 17 May 1793</figTranscr>
+							<head>9. Earth: “He struggles into Life.”</head>
+							<figDesc>Blake, <hi rend="i">For The Sexes: The Gates of Paradise</hi>, copy D, plate 5. By permission of the Pierpont Morgan Library, New York, PML 63936 plate 5.</figDesc>
+						</figure>
+wrought with especial care, for he will function not as static scenery but as a mobile creature whom we will follow in his fall from Eden and resurrection back again. As my frame of reference for Blake’s “human form divine,” I have chosen the famous image from <hi rend="i">Milton</hi> of man in an idealized state (illus. 10)—at once God, Christ, England and, with characteristic immodesty, Blake himself. The crucifixion posture suggests spiritual salvation, but the muscular, active body identifies this salvation with life rather than death. The head tipped heavenward is significant for an additional reason to which I will return later. In order to render Blake’s two-dimensional figure in three dimensions, I experimented with two techniques. My research assistant Allen Vandegrift approximated the <hi rend="i">Milton</hi> attitude using the software application Poser (Curious Labs), which supplies preprogrammed human figures that may be positioned rather like an artist’s manikin. Since the results seemed rather stiff, however, I resorted to a live model, Brian Corey of the WVU Theater and Dance Department, who imitated the pose in the Blake watercolor and was then scanned with a full-body optical scanner at the Morgantown NIOSH (National Institute for Occupational Safety and
+                        <figure n="milton.c.p31-29" rend="db" id="milton.c.illbk.31">
+							<figTranscr>29<lb/>
+							WILLIAM</figTranscr>
+							<head>10. Self-portrait.</head>
+							<figDesc>Blake, <hi rend="i">Milton a Poem</hi>, copy C, plate 31. By permission of the Rare Books Division, New York Public Library, Astor, Lenox and Tilden Foundations.</figDesc>
+						</figure>
+						<figure n="3DBodyScan.Milton.38.3.bqscan" rend="file"><head>11. Three-dimensional body scan recreating Blake’s <hi rend="i">Milton</hi>, plate 31</head><figDesc>Brian Corey, model.</figDesc></figure><pb id="p38-96" n="96"/>
+Health) campus (illus. 11). The file is saved as a list of threedimensional coordinates which, using the program Geomagic (Raindrop Geomagic), may be interpreted as a point cloud, a wire mesh or a polygon assembly. Research assistants at the WV Virtual Environments Lab are in the process of cleaning up the noise and compressing the file into a manageable size. The final step will be for a graphic artist to texture-map the figure with a detailed “skin” so as to approximate Blake’s original. The program DeepPaint 3D (Right Hemisphere) is designed for “drawing” directly onto the surface of digital models such as this. <note id="n2">2. Technically, Albion himself is both microcosm and macrocosm: the universe is mapped out on his body, but his body is also positioned within this universe, which in turn is mapped out on his body, etc. To create this <hi rend="i">mise-en-abyme</hi> effect, The Blake Model will be programmed with a simple loop, so that zooming in on Albion eventually returns the user to a bird’s-eye view of Albion. Stephen Guynup captures something of this idea in his virtual rendition of Blake’s “The Crystal Cabinet,” which envisions “Another England” within England; with Ron Broglio and Thomas Tulis, “William Blake’s ‘Crystal Cabinet,’” January 2003 &lt;http://www.pd.org/~thatguy/crystal/index.html&gt;.</note></p>
+          <p>The third task, that which requires the most literary research, is to position this human figure within the landscape according to Blake’s complicated but precise spatial instructions. We recall that each of the four “compass points” is the seat of a different faculty: Urizen, reason, resides in the south; Luvah, love, in the east; Tharmas, sensation, in the west; and Urthona, instinct, in the north. At times Blake’s directionals are fairly straightforward, as in the famous diagram of the zoas from <hi rend="i">Milton</hi> (illus. 12), or the following lines from <hi rend="i">Jerusalem</hi>: “And the Four Points are thus beheld in great Eternity / West, the Circumference: South, the Zenith: North, / The Nadir: East, the Center, unapproachable for ever. / These are the four Faces towards the Four Worlds of Humanity / In every Man. Ezekiel saw them by Chebar’s flood” (12:54-58; E 156). At other times, however, Blake is considerably less intuitive. It is especially difficult to work out how the four compass points of the universe correspond to the four compass points on the body of Albion, which is a microcosm of the universe, and in turn to the four compass points on the face of Albion, which is a microcosm of
+                        <figure n="milton.c.p34-32.detail" id="milton.c.illbk.34" rend="file">
+							<figTranscr>N<lb/>
+							Urthona<lb/>
+							Adam<lb/>
+							W Tharmas  Luvah E<lb/>
+							Satan<lb/>
+							Miltons Track<lb/>
+							Urizen</figTranscr>
+							<head>12. The four zoas in their spheres.</head>
+							<figDesc>Blake, <hi rend="i">Milton a Poem</hi>, copy C, plate 34 (detail). By permission of the Rare Books Division, New York Public Library, Astor, Lenox and Tilden Foundations.</figDesc>
+						</figure>
+the body. Blake goes on to say in <hi rend="i">Jerusalem</hi> that “the Eyes are the South, and the Nostrils are the East. / And the Tongue is the West, and the Ear is the North. / . . . And the North is Breadth, the South is Heighth &amp; Depth: / The East is Inwards: &amp; the West is Outwards every way” (12:59-60, 14:29-30; E 156, 158). These directions clearly make no sense if we map them literally onto the face (illus. 13); the south, for instance, falls in the middle of the north. I maintain that in order for them to make sense, we must return to Blake’s famous self-portrait from <hi rend="i">Milton</hi> as our frame of reference. We tip the head back and regard the four compass points not as points but as vectors. Thus vision reaches up and down; hearing reaches across; the nostrils draw breath in; the tongue issues speech outward. Then, viewed in profile like the <hi rend="i">Milton</hi> drawing, the vectors assume their proper right-angle configuration (illus. 14). This manipulation thus demonstrates the
+                        <figure n="Jerusalem.FaceMap.38.3.bqscan" rend="file">
+							<figTranscr>N S S N<lb/>
+							E E<lb/>
+							W</figTranscr>
+							<head>13. Literal, and incorrect, representation of Blake’s <hi rend="i">Jerusalem</hi> 12:54-60, 14:29-30, associating points of the compass with points on the human face.</head>
+							<figDesc>Created in Bryce 3D by the author.</figDesc>
+						</figure>
+						<figure n="Jerusalem.FaceMap2.38.3.bqscan" rend="file">
+							<figTranscr>S<lb/>
+							E W<lb/>
+							N</figTranscr>
+							<head>14. Revised representation of Blake’s <hi rend="i">Jerusalem</hi> 12:54-60, 14:29-30, associating points of the compass with sensory trajectories.</head>
+							<figDesc>Created in Bryce 3D by the author.</figDesc>
+						</figure>
+						<pb id="p38-97" n="97"/>
+necessity of three-dimensional space to represent Blake’s system accurately. It also demonstrates that three-dimensionality itself is only a transitory mode through which we must pass to arrive at an authentic two-dimensionality. We extend the sensory vectors into virtual space only so that we may collapse the depth of field again and get the flat composition familiar to us from Blake and from our own cartographic sense. We recall that in “The Mental Traveller” and elsewhere, Blake uses a three-dimensional ball to represent contracted consciousness; his symbol for infinity is the two-dimensional plane.</p>
+          <p>The goal of phases four and five of the project is to create smooth-scrolling graphics responsive to user intervention. “First-person shooter” video games will provide the visual metaphor; indeed, The Blake Model will probably use one of the open-source animation engines written for those games, such as Unreal (Epic Games), Quake (Id Software) or VRML. I would also like to have preprogrammed animation sequences that will reenact major events in Blake’s mythology, such as the fall of Albion from Eden to Ulro, the 90-degree rotation of the zoas during the fall, and Milton’s track across the cosmos. The interface will include separate viewports for the landscape and for the object annotations, which I will discuss later, as well as navigational buttons to rotate, zoom and pan. I will probably accomplish these tasks with the cooperation of WVU’s Geographic Information Systems (GIS), using the program WorldToolKit (Sense8).</p>
+          <figure n="Storyboard.38.3.bqscan" rend="file">
+			<figTranscr>a b c<lb/>
+			d e f g<lb/>
+			h i j k</figTranscr>
+            <head>15. Storyboard for animated routine: Milton’s passage through the vortex.</head>
+            <figDesc>By the author and Fred Yee.</figDesc>
+          </figure>
+          <p>To illustrate how such an animated sequence might work, and help to gloss a particularly cryptic Blake passage, I refer to the “vortex” metaphor from <hi rend="i">Milton</hi>:
+<q>
+The nature of infinity is this: That every thing has its<lb/>
+Own Vortex; and when once a traveller thro Eternity.<lb/>
+Has passd that Vortex, he percieves it roll backward behind<lb/>
+His path, into a globe itself infolding; like a sun:<lb/>
+Or like a moon, or like a universe of starry majesty,<lb/>
+While he keeps onwards in his wondrous journey on the earth<lb/>
+Or like a human form, a friend with whom he livd benevolent.<lb/>
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .<lb/>
+First Milton saw Albion upon the Rock of Ages,<lb/>
+Deadly pale outstretchd and snowy cold, storm coverd;<lb/>
+A Giant form of perfect beauty outstretchd on the rock<lb/>
+In solemn death: the Sea of Time &amp; Space thunderd aloud<lb/>
+Against the rock, which was inwrapped with the weeds of death<lb/>
+Hovering over the cold bosom, in its vortex Milton bent down<lb/>
+To the bosom of death, what was underneath soon seemd above (15:21-27, 36-43; E 109-10)
+</q>
+In the “vortex” routine (illus. 15), the user begins with a Milton’s-eye view, hovering in Eden [a]. Because Blake’s four realms of existence are represented as concentric spheres, the globe below describes the boundary between the purely spiritual Eden and the beginning of matter in Beulah. The outstretched hand, a familiar icon in first-person-shooter games,
+<pb id="p38-98" n="98"/>
+corresponds to Milton; it is transparent at this point because Milton’s spiritual body has not yet assumed its physical cloak. As Milton descends [b], Albion appears in a holographic projection of his eternal state. Being fallen, Albion is not actually present in Eden, as becomes apparent when Milton tries to move closer [c]; the landscape scrolls past and the ground approaches, but Albion remains a few steps beyond Milton’s reach. When Milton touches down in Beulah, another figure appears [d]—it is the bodily form of Milton, which Milton must assume (by passing through it) so that he may receive admittance to the lower realms. Milton’s incarnation is signified when the second figure disappears, leaving only the Albion-holograph; the transparent arm at bottom becomes opaque [e]. Milton continues his descent from Beulah to Generation, then Ulro, whose unregenerate nature is indicated by a rocky landscape. As he approaches this source of the holographic projection, Milton begins to see the fallen rather than the ideal state of Albion: Albion’s posture gradually changes from erect to supine, and his body acquires the same fleshed-out tones as Milton’s arm [f]. Before long, however, Milton must shed his physical cloak once more in preparation to greet Albion as a redeemer; the arm becomes transparent again and, off to one side, Milton’s body reappears [g]. By now, Milton can actually catch up with Albion, and so bends “down / To the bosom of death,” passing directly through the couchant Albion’s heart and out the other side [h]. Milton has now crossed Albion’s “vortex.” Continuing to move in the same direction while swiveling around to look behind, “what was underneath soon seemd above”; Milton sees the fetal-like Albion receding into the distance [i].</p>
+          <p>The user’s perspective now switches from Milton’s-eye view to an exterior view, where Albion’s existential range is represented as a gigantic cone [j]. The cone opens up toward Albion’s infinite state, to which he will eventually return; its tip corresponds to his present, most narrowly contracted state; the speck below the tip is Milton. The cone swings around so that it opens away from the viewer, who looks straight down the tip; the foreshortened cone appears as a globe [k]. The user thus, it is to be hoped, apprehends Blake’s image: every
+                        <figure n="Flowchart.Hypertext.38.3.bqscan" rend="file">
+							<figTranscr>Cathedron<lb/>
+							A great hall that stands of the island of Luban within the city of Golgonooza. The name is a synthesis of "cathedral" and Blake's wife Catherine. It suggests the dual power of organized religion and feminine sexuality to entrap the enlightened man.<lb/>
+							William Blake, Jerusalem<lb/>
+							William Blake, The Four Zoas [image]<lb/>
+							Northrop Frye, Fearful Symmetry<lb/>
+							<lb/>
+							A wondrous golden Building immense with ornaments sublime<lb/>
+							Is bright Cathedrons golden Hall, its Courts Towers &amp; Pinnacles<lb/>
+							Jerusalem 59.25<lb/>
+							<lb/>
+							www.blakearchive.org</figTranscr>
+							<head>16. Sample flowchart for hypertextual annotation.</head>
+							<figDesc>By the author. Inset by permission of the British Library (see caption for illus. 6).</figDesc>
+						</figure>
+determinate physical form is the tip of a proverbial iceberg (or cone), the tightest possible contraction of a spiritual immensity. One must not only become a “traveller thro Eternity” but also pass through the very nadir of reality in order to know this immensity. Redemption, moreover, must be an act of compassion: Milton recreates the path of Albion’s initial fall, passes through his heart, and must pass through his heart again in order to return to eternity, presumably taking Albion with him. At the end of the sequence, a “further reading” link appears to commentaries by Nelson Hilton or by Robert Essick and Joseph Viscomi, now visualized.<ref target="n3" type="note">3</ref><note id="n3">3. See Nelson Hilton, <hi rend="i">Literal Imagination: Blake’s Vision of Words</hi> (Berkeley: U of California P, 1983) 205-30; William Blake, <hi rend="i">Milton a Poem and the Final Illuminated Works</hi>, ed. Robert N. Essick and Joseph Viscomi, vol. 5 of <hi rend="i">Blake’s Illuminated Books</hi>, ed. David Bindman (Princeton: Princeton UP, 1993) 142.</note></p>
+          <p>The sixth and final phase of the project is to annotate the model with embedded hyperlinks to selected Blake texts, images and critical glosses. For example, clicking on the Cathedron object in the landscape might spawn a pop-up window with a short definition and links to related terms (illus. 16). One may also read a relevant passage from <hi rend="i">Jerusalem</hi>, look at the original drawing from <hi rend="i">The Four Zoas</hi> or sample classic commentary from Frye or others. I hope to link the poetry excerpts to existing internet resources such as the William Blake Archive at the University of Virginia, where users could avail themselves of additional tools such as search forms and a Blake concordance; or the Blake Digital Text Project at the University of Georgia, which, like the Archive, offers the entirety of David Erdman’s standard edition online.<ref target="n4" type="note">4</ref><note id="n4">4. Blake Digital Text Project, ed. Nelson Hilton &lt;http://www.english.uga.edu/wblake/home1.html&gt;; William Blake Archive, ed. Morris Eaves, Robert N. Essick and Joseph Viscomi &lt;http://www.blakearchive.org&gt;.</note></p>
+          <p>After The Blake Model is complete, it should fit onto a single CD-ROM and be viewable by anyone with a suitably appointed personal computer, with or without an optional immersion device such as the CAVE or ImmersaDesk. Once
+<pb id="p38-99" n="99"/>
+debugged and revised according to a detailed user questionnaire, it will be made available as an open-source download from the WVU English Department website. As for the future directions of the project, I foresee a series of Literary Models that extend the 3D-imaging concept to several other writers who think “spatially” or “geographically” and who, not coincidentally, stand in the chain of influence alongside Blake. A Dante Model would take the user on a visual tour of the circles of Hell, the mountain of Purgatory and the reaches of Paradise as described in the <hi rend="i">Divine Comedy.</hi> A <hi rend="i">Faerie Queene</hi> Model could help keep straight the complex narrative and immense cast of characters in Spenser’s romance. With a John Milton Model, the user would re-enact Satan’s travels in <hi rend="i">Paradise Lost</hi>, from his fall from Heaven to his entrance into the Garden of Eden. A James Joyce Model could present a “virtual Dublin” in which the user navigates through the locations and events described in <hi rend="i">Ulysses.</hi></p>
+          <p>In the remainder of this essay I would like to address some of the conceptual problems that I see arising from The Blake Model, not so much the project’s technical challenges as its implications for the study of Blake. The first is the somewhat hoary question about the appropriateness of teaching with technology, especially given Blake’s own suspicion of alienated labor. My technophilic streak vies with my Luddite anxiety that I may be hastening my own obsolescence, propelling the dark Satanic mills of the wired classroom. Cyberspace is a real space, an advertising space that the private sector leases in a diabolical bargain with a cash-starved public education system; ironically it is here that The Blake Model makes a space for itself. Electronic transposition does not confer immortality on the text or insulate it from the elements of production, as Mary Lynn Johnson found in her short-lived Iowa Blake Videodisc Project: “we did not take an active enough hand in the care and feeding of our newly weaned prodigy.... even files in storage require eternal vigilance.”<ref target="n5" type="note">5</ref> The status of technological labor in the academy also remains controversial, an issue addressed by the authors of the DVD-ROM project <hi rend="i">Red Planet: Scientific and Cultural Encounters with Mars.</hi><ref target="n6" type="note">6</ref><note id="n5">5. Mary Lynn Johnson, “The Iowa Blake Videodisc Project: A Cautionary History,” <hi rend="i">The Wordsworth Circle</hi> 30.3 (1999): 132-33.</note><note id="n6">6. Helen Burgess, Jeanne Hamming and Robert Markley, “The Dialogics of New Media: Video, Visualization, and Narrative in <hi rend="i">Red Planet: Scientific and Cultural Encounters with Mars,” Eloquent Images: Word and Image in the Age of New Media</hi>, ed. Mary E. Hocks and Michelle R. Kendrick (Cambridge, MA: MIT, 2003) 61-88.</note></p>
+          <p>While I cannot fully explore here the political ramifications of my medium, I would suggest that such questions were not unknown to Blake himself. The editors of the William Blake Archive, responding to allegations that the project imposes a Urizenic monologism on Blake’s texts, remind us of the assumption “that Blake somehow exempted himself from the unpleasant realities of labor and commerce. But in fact he sold his works for real cash money that he accepted.”<ref target="n7" type="note">7</ref> Viscomi, in his study of Blake’s technique, argues that efforts to place Blake beyond the reach of finance are ahistorical, misinformed by a book-publishing rather than print-publishing paradigm:
+<q>
+Instead of perceiving illuminated printing as a <hi rend="i">reaction against</hi>—or an effort to <hi rend="i">reject</hi>—“conventional taste” or the “commercial bourgeoisie,” we need to see in it Blake’s desire to tap into a market created by the status quo’s demand for drawings, a market actively supplied by commercial and original printmakers. . . . Like etchings and facsimiles of sketches, they [Blake’s illuminated prints] move toward the simple and spontaneous, toward drawing, and away from the overtly skillful performance characteristic of reproductive engraving. But this move away from the reproductive ideal does not make them “subversive,” except to purists . . .; to collectors of the day, illuminated prints may have represented Blake at his most fashionable.<ref target="n8" type="note">8</ref><note id="n7">7. Morris Eaves, Robert N. Essick, Joseph Viscomi and Matthew Kirschenbaum, “Standards, Methods and Objectives in the William Blake Archive,” <hi rend="i">The Wordsworth Circle</hi> 30.3 (1999): 142. The essay is a response to Andrew Cooper and Michael Simpson, “The High-Tech Luddite of Lambeth: Blake’s Eternal Hacking,” <hi rend="i">The Wordsworth Circle</hi> 30.3 (1999): 125-31. Cooper and Simpson respond to this response in “Looks Good in Practice, but Does It Work in Theory? Rebooting the Blake Archive,” <hi rend="i">The Wordsworth Circle</hi> 31.1 (2000): 63-68.</note><note id="n8">8. Joseph Viscomi, <hi rend="i">Blake and the Idea of the Book</hi> (Princeton: Princeton UP, 1993) 172.</note></q>
+How many copies of his illuminated books Blake produced at any given session “appears to have been determined by such practical concerns as how much paper the Blakes could afford for each book, as well as by such material concerns as how many books could be produced per quire of paper” (156). Viscomi also disputes certain notions of Blake as a technical innovator who sidestepped the trap of alienated labor:
+<q>
+First, Blake’s control over production was not as complete as imagined, given Mrs. Blake’s assistance in printing and coloring impressions. Second, even if it were, it would not necessarily be politically significant or signify a desire to escape the division of labor characteristic of commercial graphics or letterpress printing. This is because an artist (as opposed to a writer) accustomed to controlling all stages of labor in the production of original prints . . . is not really varying his practice or controlling more of his labor by using a new technique or by producing prints with words. (173)
+</q>
+In short, Blake likely harbored few illusions about either the fallen status of commerce or the impossibility of escaping it. His focus may rather have been on working within this system to do some good. Accordingly, the limitations of a Blakestudies technology is not reason to dismiss out of hand its potential for widening and democratizing Blake’s audience. The editors of the William Blake Archive caution against the presumption “that purity of principle on intellectual grounds
+<pb id="p38-100" n="100"/>
+is preferable to accessibility for the general user” (Eaves et al. 141); Karl Kroeber celebrates the Archive for presenting Blake’s calligraphy in its “<hi rend="i">examinable</hi> detail” and for thereby facilitating an “intimate, even necessary, interconnection between intensely specialized research and socially useful teaching at elementary levels.”<ref target="n9" type="note">9</ref> I would similarly point to ways in which my department has used technology to improve access education among underserved communities in rural West Virginia.<ref target="n10" type="note">10</ref><note id="n9">9. Karl Kroeber, “The Blake Archive and the Future of Literary Studies,” <hi rend="i">The Wordsworth Circle</hi> 30.3 (1999): 123, 125.</note><note id="n10">10. See, for example, initiatives of the Center for Writing Excellence, such as the Scott’s Run Writing Heritage Project, 2002 &lt;http://www.as.wvu.edu/~srsh/&gt;; the Distance Learning Program, 2002 &lt;http://www.as.wvu.edu/english/cwe/distance.html&gt;.</note></p>
+          <p>My second concern is the inevitable amount of guesswork involved in fleshing out The Blake Model’s features. It is one matter to implement Blake’s instructions for, say, the 64,000 each of fairies, gnomes, genii and nymphs guarding the gates of Golgonooza; the challenge here is one of scale and not interpretation. It is another thing entirely to extrapolate, say, the body language of Albion, on which the integrity of The Blake Model depends. I am mindful that my quest for authenticity, to present Blake as he “really” is, leads me into deeper and deeper layers of conjecture. This is the phenomenon that Jay David Bolter and Richard Grusin observe in many new media, which
+<q>
+[l]ike other media since the Renaissance .... oscillate between immediacy and hypermediacy, between transparency and opacity.... Although each medium promises to reform its predecessors by offering a more immediate or authentic experience, the promise of reform inevitably leads us to become aware of the new medium as a medium. Thus, immediacy leads to hypermediacy.<ref target="n11" type="note">11</ref><note id="n11">11. Jay David Bolter and Richard Grusin, <hi rend="i">Remediation: Understanding New Media</hi> (Cambridge, MA: MIT, 2000) 19.</note></q>
+This paradox, say Bolter and Grusin, explains the lengths to which high-tech media go to simulate low-tech. Thus, the graphical user interface (GUI) “remediates” the office desktop; the web page, the tabloid newspaper; digital graphics, perspectival painting and photography; and virtual reality, film and television (23,69,115,161). Moreover, “just as there is nothing prior to the act of mediation, there is also a sense in which all mediation remediates the real” (59).</p>
+          <p>Blake himself was an adept remediator. Viscomi points out that Blake’s “facsimile is of the drawing <hi rend="i">process</hi> and not of an actual drawing or model” (26).<ref target="n12" type="note">12</ref> Blake could further immerse himself in the factitiousness of his process, as when giving directions for executing a “woodcut-on-pewter” or a “woodcut-on-copper.”<ref target="n13" type="note">13</ref> Morris Eaves suggests that such deferral of the “original” may be a therapeutic act:
+<q>
+blurring may be to sight what distance is to immediate impressions—a way of attaining, paradoxically, greater clarity and unity. As Gilpin indicated, reproductive engraving may be a beneficial extension of the process: an additional medium, like another language, affords a new opportunity to generalize and thus improve the original. An engraving may, as many spokespeople for the trade maintained, have its own special dignity not as a copy but as a translation.<ref target="n14" type="note">14</ref></q>
+Yet bound up with this optimistic view is Eaves’ rather different assertion of Blake’s distrust of mediation: Blake’s technique, as against the English-school ideas of “Gradual, systemic improvement,” is “technologically so regressive . . . that it comes close to opposing tools and materials per se.... [it] seeks to lessen the distortions of time and space by finding the most immediate communication between artist and viewer and the shortest path between mind and matter” (184). If I may try to unite these two strands in Eaves, I would argue that while Blake knows something is always lost in the translation from the prototype that exists in only in his mind, he knows equally that the situation cannot be otherwise. <note id="n12">12. “By rejecting [Ruthven] Todd’s theory of transferred texts,” Viscomi himself recognizes that he is remediating “the nineteenth-century theory [of Blake’s technique], in which a ‘preliminary drawing’ of a plate, or ‘illustrated song,’ is reproduced in ‘facsimile’ by being redrawn directly on the plate with the same tools used to execute the originals” (26).</note><note id="n13">13. See Robert N. Essick,  <hi rend="i">William Blake: Printmaker</hi> (Princeton: Princeton UP, 1980) 160-61; also Viscomi 68-69.</note><note id="n14">14. Morris Eaves, <hi rend="i">The Counter Arts Conspiracy: Art and Industry in the Age of Blake</hi> (Ithaca: Cornell UP, 1992) 248.</note></p>
+          <p>Indeed, this sense of loss is integral to Blake’s art. Appropriately, his alter ego in the myth is Los (loss), whose oft-quoted dictum, “I must create a system or be enslav’d by another man’s,” savors of Urizenic drudgery. Los may not wish to give up his enormous labors, but neither can he transcend the futility of trafficking in fallen forms within the very bowels of the fiery furnace. He builds the golden city of art, Golgonooza, in the hope that it may reach back to the Eden from which he himself will be forever barred; his most redemptive act is a self-immolation in imitation of Christ that has nothing to do with his art. As if to remind us that visualization is always a concession, Blake frequently frustrates the eye. When we look to the margins of his page for illustrations of the text, we rarely find what we’re looking for, and usually we don’t know precisely what we’re looking at. Depictions of the major characters in the myth, especially in their eternal state, are strikingly difficult to come by. Blake will show us how the zoas manifest themselves in the fallen language of everyday life but not always show us the zoas themselves. Corrupted Urizen appears with regularity, redeemed Urizen less often; we see Urthona after he turns into Los, but seldom before; and does anyone know quite what Luvah or Tharmas looks like? My nagging suspicion that I am doing violence to Blake’s vision by attempting to represent the unrepresentable—do I lead my students to believe a lie when I see not through the eye, but too much with the fleshly eye, reducing what is clearly a symbolical
+<pb id="p38-101" n="101"/>
+language to Newtonian geometry? does my search for a comprehensive model smack of Sir Joshua Reynolds and his gang of cunning hired knaves?—this suspicion recapitulates a concern that pervades Blake’s works <hi rend="i">qua</hi> works. I am not vain enough to compare myself to Blake or Los, nor an ambitious enough revisionist to experience an anxiety of influence under their wings. I would suggest, however, that the oxymoron of a “Blake model” may serve as a very Blakean reminder of the provisional, the transitional nature of all representation. Accordingly, The Blake Model will seek to remind its user of its difference from the “original” at every juncture: its visual idiom should evoke Blake’s watercolors wherever possible, but its overall effect should be schematic rather than Hollywoodverisimilar. The Blake Model is not to be Blake, any more than the high-resolution scans at the William Blake Archive are Blake, or any more than Fred Yee’s sketches are Blake as they quickly take on a life of their own, or any more than Blake is identical to himself, as his texts’ indeterminacy from copy to copy sedulously defies mass production.</p>
+          <p>The lattermost point is contested. Viscomi warns that Blakeans who fetishize difference may overinterpret the variations in the plates and, again, ignore the material realities of the print trade.
+<q>
+[W]hile designs as initially drawn on plates do differ from the designs as printed, and prints do differ one from the other, such variations do not signify a rejection of uniformity and all it supposedly represents, nor do they determine the print’s meaning. The first kind of difference was inherent to a mode of production in which finishing was conceived as part of the inventive process, and the second kind—for example, the varying width of a river in a particular image—requires comparisons that Blake could not have expected or intended his readers to make. (175)
+</q>
+—since Blake produced his illuminated books not one by one but in small editions or sessions sometimes years apart. One may still posit an “ideal copy,” if only within each edition or run of an illuminated book (179). Unfashionable as Viscomi’s unitary vision might appear at first, surely some faith in authorial intention underlies all Blakeans worth their salt—even so committed a postmodernist as Ron Broglio anchors his “digging” expeditions in the “minute particulars” of Blake’s imagery.<ref target="n15" type="note">15</ref> Conversely, Viscomi reminds us, this intentionality, this theory of identity, requires an historical context and awareness of medium that admits of more difference than the apostles of difference often allow: variations in the plates, for instance, being “technically inevitable,” may be “thought of as deliberately allowed to occur,” but do not “signify <hi rend="i">deliberate</hi> revision” (175). The historical-material page is a temporal one, subject to accident, decay, even deformation in spite of its creator’s best efforts. I would like The Blake Model—as a tool, a supplement rather than a supplantation—to convey some of this temporality not only by virtue of its inevitable not-being-Blake but by a design that I hope is reminiscent of Blake. To illustrate what I mean, I will close by showing how The Blake Model would treat one paradox-strewn detail of the myth: the birth of Los. <note id="n15">15. See Ron Broglio, “Becoming-zoa,” <hi rend="i">Visible Language</hi> 33.2 (1999): 128-49; also, with Marcel O’Gorman and F. William Ruegg, “Digging Transformation in Blake: What the Mole Knows about the New Millennium,” <hi rend="i">The Wordsworth Circle</hi> 30.3 (1999): 144-54.</note></p>
+          <p>Blake gives several different accounts of this event. <hi rend="i">The Book of Urizen</hi> introduces Los <hi rend="i">ex nihilo</hi> as the binder of Urizen; in <hi rend="i">The Four Zoas</hi> he is the child of Tharmas and Enion; <hi rend="i">Jerusalem</hi> identifies him decisively as the fallen form of Urthona. Yet Tharmas and Urthona are fellow zoas: how can one being descend from another being with whom it is supposedly co-eternal?<ref target="n16" type="note">16</ref> The answer is that this relationship makes sense only in the context of just such a descent—the genealogy of the fallen zoas (which reproduce through, and into, time) and of the successive compositions in which Blake’s myth evolved (from the atemporal birth of Los in <hi rend="i">Urizen</hi> to the temporal in the mature prophecies). I feel it is necessary to convey some of this differential process by building temporality into the space of The Blake Model. It would be no great matter, for instance, to construct a sphere or object for each of the zoas/emanations; to program an animation sequence that shows Los/Enitharmon emerging from Tharmas/Enion, perhaps connected by umbilical cords to show parentage; and to give Los an aspect suggesting corrupted Urthona, perhaps even have an animation transforming Urthona into Los himself. Once this change is complete, however, it merely becomes another static tableau, which I feel is inappropriate until the resurrection of the zoas occurs and time is truly finished. <note id="n16">16. This paradox reappears in Orc, who is at once the child of Los and Enitharmon and the fallen form of Luvah.</note></p>
+          <p>I therefore propose to have Los “flicker” among his different modalities. The effect should be that of a faulty hotel sign, or of the “insert shots” of sinister images that lace such films as William Friedkin’s <hi rend="i">The Exorcist</hi> and Stanley Kubrick’s <hi rend="i">The Shining.</hi> As determined by a random-number generator, Los will sometimes appear tethered to Tharmas/Enion (corresponding to <hi rend="i">The Four Zoas</hi>) and sometimes not (corresponding to <hi rend="i">Urizen</hi>); sometimes with Urthona’s beatific visage and sometimes with his own more fearsome one. Three permutations are thus possible: Urthona as Los tethered to Tharmas/Enion, Urthona as Los untethered to Tharmas/Enion, and Urthona as himself untethered to Tharmas/Enion (Urthona does not appear as himself tethered to Tharmas/Enion because the relation between these two forms of the zoas is not genealogical). These “flickers” suggest a Los who stands both inside and outside the dull rounds of generation; who remains anchored in this world but whose intimations of the eternal never cease; who encapsulates whatever ways Blake may have changed his mind about how to structure his myth. By depicting these alternatives not simultaneously but sequentially, the “flicker”
+<pb id="p38-102" n="102"/>
+acknowledges the temporal interval across which all representations, whether they be Los’, Blake’s or mine, fall away from their inspiration, yet it also embraces the restorative possibilities that such an acknowledgment may open up.<ref target="n17" type="note">17</ref> Indeed, it is my hope that the temporal condition of The Blake Model may allow for its infinite correctibility within the community of Blakeans, into whose hands I commend it. <note id="n17">17. In this respect, the flicker may be thought of in terms of Martin Heidegger’s <hi rend="i">Augenblick</hi>, the twinkling of an eye, the “moment of vision” in which “nothing can occur; but . . . permits us <hi rend="i">to encounter for the first time</hi> what can be ‘in a time’ as ready-to-hand or present-at hand” (H338); <hi rend="i">Being and Time</hi>, trans. John Macquarrie and Edward Robinson (New York: Harper &amp; Row, 1962) 388.</note></p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <body>
+	  <pb id="p38-102" n="102"/>
+      <div1 id="BQ-38-3-0007">
+        <head>
+          <title type="section">REVIEWS</title>
+        </head>
+        <div2>
+          <head>
+            <title type="main">Tristanne J. Connolly. <hi rend="i">William Blake and the Body.</hi> Houndmills, Basingstoke and New York: Palgrave Macmillan, 2002. xvii + 249pp. 15 b&amp;w illus. $75.00/£47.50, hardcover.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>Thomas <name>Frosch</name></docAuthor></byline>
+          <p>In <hi rend="i">William Blake and the Body</hi>, Tristanne J. Connolly gives us not the exhilarating Blake nor, although this is her explicit intention, the dangerous Blake, but rather the agonistic Blake, tortuous and tortured in his “troubled obsession” with the body (vii). The agon is in the critic as well, since Connolly both admires Blake and is disappointed by him, specifically in his treatment of gender. She draws on a wide variety of recent critics who have written about the body in Blake and examines many aspects of his portrayal of the body and its changes, but gender is her pervasive and ultimate concern.</p>
+          <p>The book is attractively organized, studying, in order, Blake’s treatment of texts as if they were bodies; his depiction of the body in his visual art; his story of the creation and shaping of the fallen body; his recurrent motif of bodies splitting off from and unifying with other bodies; and finally his presentation of the risen or eternal body.</p>
+          <p>When Blake says at the outset of <hi rend="i">Jerusalem</hi>, “I again display my Giant forms to the Public” (pl. 3), Connolly takes him as referring to his giant illuminated books as well as to the characters in them, and goes on to analyze parallels between his concept of texts and his concept of the body. When he gouges
+
+out words from the third plate of <hi rend="i">Jerusalem</hi>, for example, he is making both a laceration and an orifice or entry point for the reader. Reading Blake is like entering the body of a text, filling in blanks or orifices. It is a crossing of bodily boundaries between outside and inside, a transgressive adventure into the dangerous and forbidden, possibly threatening to our own borders or identity but also offering the chance to gain “exclusive understanding” (24) and even promising transformative power, since the body, the text, and any structure or system that the body can symbolize are revealed to be not as unalterable in their condition as they might seem. Connolly refers throughout the book to the anthropologist Mary Douglas’s treatment of the body as a model and symbol of any bounded social and cultural system and her concept of border crossings in rituals.</p>
+          <p>“The characteristics with which Blake invests his textual bodies reflect those of his vision of the eternal body,” Connolly writes; when we read his works, “Communication occurs through a kind of unjealous, orgiastic intercourse” (24). Similarly, “Blake invites the reader to have a kind of sexual relationship to his books by entering their bodies” (65).
+<pb id="p38-103" n="103"/>
+But what kind? Connolly is excellent on the importance of the motif of entering in Blake: she points to the <hi rend="i">Jerusalem</hi> frontispiece depicting Los entering a door and his entrance within the poem into the body of Albion to explore it; she studies Thel’s entrance into the house of the matron Clay and her experience there of being overwhelmed through the sensory orifices. But her stress on texts as bodies with orifices that we might enter seems strained. It may be true that we as critics are sometimes pompous high priests entering a text by a secret place, but I don’t think that’s the way Connolly wants us to think of reading Blake. Her formulation of the eros of reading has two problems. First, it implies “adult,” genital eros. Blake’s illuminated books intensify and make central the tactile and visual stimulation of reading in general and the sense of books as sexual objects. But reading in its eros activates an archaic part of us that doesn’t necessarily think in terms of whole bodies. Second, the physicality of reading needs to be situated within a complex of fantasies of reading that Blake draws on. When he writes of entering the work of art—
+<q>
+If the Spectator could Enter into these Images in his Imagination approaching them on the Fiery Chariot of his Contemplative Thought if he could Enter into Noahs Rainbow or into his bosom or could make a Friend &amp; Companion of one of these Images of wonder which always intreats him to leave mortal things as he must know then would he arise from his Grave then would he meet the Lord in the Air &amp; then he would be happy (<hi rend="i">A Vision of the Last Judgment</hi>, E 550)
+</q>
+—he seems suggestive less of any sexuality of which a mortal body is capable than of Wallace Stevens’s notion that a long poem “comes to possess the reader and . . . naturalizes him in its own imagination and liberates him there” (Stevens 50); or of Billy Collins’s wish that his students might “walk inside the poem’s room / and feel the walls for a light switch” (Collins 16); or of Melanie Klein’s idea that the child fantasizes about entering the body of the mother to uncover her hidden and withheld valuables, like milk; or of D. W. Winnicott’s idea that art, religion, and play involve a return to a special “transitional” realm of being, neither inner nor outer. Blake’s concepts of bodies and texts need to be considered together with his concept of the imagination.</p>
+          <p>In her consideration of the body as it appears in Blake’s pictures, Connolly emphasizes the impossible, contorted, and painful, even broken-backed postures of many of Blake’s figures. In their simultaneous violence and grace, these figures express both the suffering of the mortal body and its connection to the ideal, eternal body. She sees Blake as exaggerating “to the point of physical impossibility” Michelangelo’s technique of <hi rend="i">contrapposto</hi>, the serpentine twisting of the body in which parts of the body appear in opposition to each other (60-61). In contrast to Hogarth, who, while celebrating a serpentine “line of beauty,” warned that such a line could become overly “bulging,” Blake wrote that “Every Line is the Line of Beauty” (E 564; Connolly 60; Hogarth 65). The other quality of Blake’s graphic bodies that Connolly calls to our attention is their skinlessness; while this gives them a “vulnerable, painfully raw and exposed,” even flayed character (32), it also, in revealing the musculature and the network of vessels and nerves, or “fibres,” is another way of transgressing the boundaries of the body, of entering it to see its hidden inner dimension. This way of depicting the body, she writes, is analogous to Blake’s technique of relief etching; in both the inner line is made to stand out. Connolly discusses extensively Blake’s debt to the art of anatomical illustration, to which he would have been exposed at the Royal Academy of Art; she discusses the work of the anatomists John and William Hunter and the anatomical illustrator William Cowper (not the poet), providing interesting illustrations of the latter’s work and of an écorché, a model, used by artists, of a skinned body. After reading this discussion, I found myself looking at such pictures as the color print “Nebuchadnezzar” and Los with the Sun (<hi rend="i">Jerusalem</hi> 97) with new interest, and I also had a richer sense of “fibres” in Blake’s poetic imagery. Of course, Blake also attacks “anatomization,” and Cowper’s illustrations hardly make us think of the sublime possibilities of the body (one shows a partly dissected baby), but Connolly cites Hogarth to distinguish between entering the body by cutting it apart and entering the body by imagining its inner wholeness.</p>
+          <p>Where Connolly pushes too hard in this chapter is in her treatment of the link between body and mind provided by the fibers of the nervous system as an illustration of Blake’s concept of the ultimate unity of body and soul, and in her discussion of Blakean sympathy as a literalized version of Adam Smith’s notion that “‘by the imagination . . . we enter as it were into [another’s] body’” (67; Smith 9). Blake, as Connolly shows, often does describe emotions in physical terms and does show a mutual influencing of fibers and soul. But her point that the nervous system epitomizes the unity of body and soul reduces the soul to the body as we know it now rather than helping us understand how the body and senses might have new possibilities. And if Blake’s graphic figures, with their “bared bodily interiors” (65), invite a physical and emotional intimacy, which might repel some readers and encourage others to sympathy, then why do we generally see muscles and fibers but not inner organs or bones? We might occasionally come across, in a scene of horror, a skeleton or a heart ripped out of a victim, and we might see clouds shaped like intestines, but usually Blake’s pictures don’t take us deep inside the physical body. It seems more likely that it is the effect of suffering on bodily posture and musculature that encourages sympathy with Blake’s figures rather than an effort to take us inside them in some literal and partial way—if sympathy is even primarily what Blake is after in his pictures, rather than a stretching of our conceptions and imaginings by means of visionary spectacle. In addition, are muscles, blood, and nerves the lineaments of the eternal body, while inner organs and bones belong purely to our finite, mortal part? Connolly is not clear on such matters.</p>
+          <pb id="p38-104" n="104"/>
+          <p>Connolly next discusses Blake’s portrayal of the process of embodiment, studying the formation of the bodies of Urizen and Reuben. To Urizen’s shaping she compares Ovid’s stories of bodily metamorphoses, noting that while the metamorphoses of Ovid’s subjects, like Daphne or Io, are motivated by a desire to remain separate, Urizen’s metamorphosis is the product of a separation from the other eternals; also, while Ovid’s subjects metamorphose to animals or plants, Urizen changes horrifyingly into the common human body. She gives us a careful description of the stages of Urizen’s embodiment, with its motifs of the narrowing of eternal, expanded and flexible sense organs, of binding and solidification, of stifling entrapment within skull, skeleton, cavern, Mundane Shell, and of body parts “shooting” out from each other. Developing a suggestion of Easson and Easson, she compares this metamorphosis to gestation and brings in theories of fetal development which were current in Blake’s time and which Blake perhaps had in mind. What seems most important in her analysis, though, is that no mother plays a role in this gestation and birth, which is the work of Los and his blacksmith’s tools and furnaces. Connolly makes the point that Urizen is, in effect, born not from a womb but into one, whether a tight and restricting enclosure or a vast abyss in which he helplessly floats. Connolly returns to her theme of the book as body when she writes that Los binds Urizen like a book and that his embodiment is “an allegory of illuminated printing” (84). The variations in the text of <hi rend="i">The First Book of Urizen</hi>, for example, express a struggle against fixed form, parallel to the flux of oral poetry, and, what she might have stressed more, represent an attempt to return through art to the flexibility of the eternal body.</p>
+          <p>Los’s shaping of Reuben and his senses in <hi rend="i">Jerusalem</hi> is another instance of the male creation of bodies, and Connolly’s attention to Reuben is one of the book’s contributions. While the embodiment of Urizen represents the danger of inflexibility and “hyper-formation,” that of Reuben, who keeps returning to Los for improvement, represents the “danger of formlessness or malformation” (95). While Urizen is like a fetus in gestation, Reuben, who “slept in Bashan like one dead in the valley,” is like a miscarried fetus (<hi rend="i">Jerusalem</hi> 30:43). Connolly even suggests that Catherine Blake may have suffered a miscarriage; her evidence—that a Catherine Blake appears for unspecified reasons in the 1796 records of a maternity hospital—is tenuous, as she acknowledges, but she plays with the metaphor of miscarriage interestingly. Those who see Reuben when he crosses the Jordan are horrified and then become what they behold; in him they see their own incompleteness and malformation: “all birth [is] misbirth, a deformation of an ideal, transparent, unrestricted shape” (122). She does, once again, push too hard, as when she suggests that Reuben’s four trips across the Jordan may indicate that Catherine suffered several miscarriages. She is also not convincing to me when, elaborating on Damon’s speculation that <hi rend="i">The Book of Thel</hi> may have been a response to a miscarriage, she writes that Thel is both “a woman who suffers a miscarriage” and a miscarried child (111; Damon 401). Thel, however, is both repeatedly called a virgin and a maid and depicted as completely mystified and even traumatized by the existence of hymen and foreskin. Still, the parallel between Reuben and Thel in their feelings of failure and their difficulties with the body is useful. Connolly goes on valuably to discuss Reuben’s involvement with Tirzah, mother of our mortal part, and the biblical Reuben’s desire for his father’s concubine, and to build on Paley’s characterization of him as “the mother-fixated man” (Paley 270); Los cannot make Reuben leave the womb.</p>
+          <p>Reuben also makes an appearance right after the famous passage in which Blake contrasts genital sexuality to polymorphous perversity and the false holiness hidden in the center to the Eden “in the Camp: in the Outline” (<hi rend="i">Jerusalem</hi> 69:41), and Connolly develops Stevenson’s note that the biblical Reuben is associated with a place of worship beyond the central altar (Stevenson 784). So while Reuben reminds us of the restrictions of a reproduction-oriented sexuality and the pain when that reproductive purpose is not fulfilled, he also reminds us of “the freedom of a full-body sexuality which does not place exclusive priority on generation and its organs” (103). Connolly sees a further positive element in Reuben when she parallels his crossing and recrossing the Jordan to Blake’s artistic process with its various stages and with his “struggle against finality in his works, which cross back and forth over the river that divides print and manuscript, oral and written, visual and verbal, order and chaos” (120). But it is not entirely persuasive to see the shaping of Reuben, which is only a stage in Los’s development, as epitomizing even in part what artistic work should be for Blake. Reuben might instead epitomize some of the frustrating elements of artistic work, a haunting or obsessive dissatisfaction or a resistance to being born. The episode of Reuben also leads her to consider pre-existence in Blake, both of bodies and of artistic concepts: the concept of pre-existence in eternity “works along with Blake’s insistence on the continuity of conception and execution to assert that though a child or artwork may fail to be physically embodied, it does definitely exist” (122). Where? How? Urizen and Thel, even if she is an unborn being, do have forms of embodiment in their pre-existence; a fading rainbow or a watery reflection, as Thel takes herself to be, is still something seen in a world that is not beyond sensory perception. Connolly steers us into the welter of Blakean images and ideas of reproduction, sex, artistic production, and eternity but just leaves us in the middle—partly, I think, because she makes the concept of miscarriage do too much work. Even so, this chapter valuably underscores the intricacies and strangeness of the Reuben episode.</p>
+          <p>In her next two chapters, Connolly focuses on the divisions and comminglings of bodies and the multiplicity of the Blakean person, discussing first children as personified aspects of parents and then spectres and emanations. She considers
+<pb id="p38-105" n="105"/>
+the “bizarre variations on birth” in Blake (125); even birth from the womb, as in the case of Orc, can seem like osmosis, since he and his mother are “really aspects of the father” (126). But Connolly particularly stresses the recurrent motif of birth from the male bosom, and if children burst nightmarishly out of the male chest—the sons of Albion emerge from his breast like a cancerous “Polypus” (<hi rend="i">Jerusalem</hi> 18:40)—the male bosom is also where divinity resides: Blake’s Jesus lives in the breasts of human beings, as they do in his. While Connolly discusses Milton’s portrayal of Sin’s birth from Satan’s head and mentions Hesiod’s depiction of the birth of Athene, she does not refer to the portrayal of the Son in God’s bosom in Milton and in John, although she will later take up God’s begetting of his Son in theology. And if the male bosom in Blake replaces the womb, I would add that it also, more simply and directly, replaces the female bosom. These Blakean motifs and processes seem like elaborations of childhood fantasies of birth, and for the infant everything comes from the breast, a source of quasi-divine power; in the passages Connolly analyzes we can see breast-envy as well as the womb-envy she emphasizes.</p>
+          <p>Once Blakean children are born, they are tortured, and Connolly treats the physical torments and sacrifices inflicted on them mostly by female characters. She brings in Girard, Aztec sacrifice, and <hi rend="i">Oedipus Tyrannus</hi> but, most valuably, sees Blakean torture as a parody of sex, not only in its violent penetration but also in its violent mimicking of the comminglings of eternity: the Daughters of Albion, for example, clothe themselves in the skin of their victims. The Blakean sacrifice, she suggests, is both a failed attempt to divide something from the self and a failed attempt to unify something with the self. In her portrayal of the violence and sacrifice that goes into the shaping of the human body, it is surprising, however, that she doesn’t discuss castration, even though she writes about the Oedipal entanglements of parents and children.</p>
+          <p>Connolly sets Blake’s myth of the multiplicity and identity of the body against seeming suggestions of divine multiplicity in the Bible: the name Elohim, the portrayal of Wisdom in the Apocrypha, the ambiguous relationship of God and Satan, and the New Testament Trinity. “Blake transfers God’s multiplicity to the human psyche,” she writes (165). But in particular contrast to the Trinity, in which the “male co-option of birth” involves “disembodiment” (187), Blake’s multiple persons, such as the spectres and emanations, are really separate bodies. With a similar shift to the literal and a similarly heightened emphasis on the physical, the female is produced not by the extraction and shaping of a rib but by direct emergence, bursting like a globe of blood out of a male body or breaking fully formed out of a male chest. Connolly points out that the ideal body, as well as the fallen one, is multiple, for the end of <hi rend="i">Jerusalem</hi> shows a cycle of unity and diversity in the life of the risen man. But in the fallen world the parts get out of control, taking on an autonomous life and acting in opposition to the being from whom they have split off. These are issues of work and love. The spectre is “the working agent of the human” (167), and Los must subdue his spectre, his personal spoiler and devil, in order to get his work done. Connolly does not develop to any great extent what rebellious, inner elements may be suggested by the spectre, but spends more time on the emanation. Emanations—personifications of spiritual qualities like Wisdom but also material beings associated with blood, light, and color—are supposedly male and female, but it is as females that they figure most prominently, and the subduing of the emanation is difficult to separate from male subordination of the female. When the sexes disappear at the end of <hi rend="i">Jerusalem</hi>, it is really the female that disappears, absorbed into the male and into the status of artwork created by the male: “Personifying the artwork as an emanation, and considering the female as a psychic aspect of the male, endows both with independent life and yet allows for both to remain under the control of their maker” (191). So Blake both coopts birth for the male and devalues physical birth in favor of mental creation, to which he attributes physicality. Connolly brings in Webster and Clark on Blake’s exploration of “escape routes from maternal debt” (188), and she also suggests the association of the emanation, in the case of Enitharmon, with the penis and points to the way in which the birth of the emanation is followed by the birth of sexual desire. I miss further exploration of these important issues: of apparent rage against woman for both her maternal power and her sexual power; of the need for control in Blake, famous as he is for his chafing under control by others; of male fantasies of artistic creativity as a taking over of female powers. And these are male fantasies, not just Blakean ones, as Connolly too briefly acknowledges: Milton, awaiting his amanuensis, complained that he wanted to be “milked” (Hughes 1044); Beethoven said that <hi rend="i">Fidelio</hi> had given him the worst birth pangs of any of his children (Weiss 156); the comic writer Peter De Vries once cracked that asking a writer to talk about writing was like asking a cow to talk about milk. These are casual remarks, but out of such material Blake made a central and epic story.</p>
+          <p>In her concluding chapter, Connolly discusses the risen body, emphasizing its physicality and its continuity with, as well as its changes from, the mortal body. She compares Blake’s risen body with descriptions of angelic or resurrected bodies in Swedenborg, St. Paul, Locke, and Berkeley, pointing out that in Blake the senses are “not overridden but transformed” (196). She goes through various Blakean metaphors for the transformation of the body, such as removing or exchanging garments, cleansing or opening the entryways of perception, and immersing the finite world in corrosives. In addition, she discusses the specific characteristics of the eternal body, such as its flexible senses; its responsiveness to will; its openness and transparency; its commingling with other bodies, particularly through entering their bosoms; and its capacity to change, even to the extent of its leaving paradise in a creative cycle. And referring to the conversations in paradise with their “Visionary forms dramatic” (<hi rend="i">Jerusalem</hi> 98:28),
+<pb id="p38-106" n="106"/>
+she relates the risen body to the ideal art work, which also is both improved over and continuous with fallen art—at least continuous with fallen art at its best as Blake conceived it. Although the risen body may seem androgynous or genderless, Connolly maintains that it is ultimately male, and she sees the Edenic conversation as a homoerotic intellectual union between males. In the final awakening of Albion, she pays particular attention to the shooting of fiery arrows by Albion and his Zoas; this is an Eden dominated by phalluses and phallic activity, homosexual and masturbatory in connotation. Connolly writes that Blake borrowed his flaming arrows from the vision of St. Teresa but erased femininity from that vision. So Blake celebrates polymorphous perversity and non-reproductive sexuality in general, even making a place for lesbian sexuality, as in the episode in which Jerusalem reposes in the arms of Vala; but, against Hobson, who argues that Blake praises all forms of sexuality, Connolly writes that male/male relationships dominate his final vision and that women are closed out of an ideal in which he “tries to unify sexual and intellectual pursuits” (217). Connolly makes her case well, although I miss a bit more sense of the conflict in Blake on gender. “Let man wear the fell of the lion, woman the fleece of the sheep,” he wrote (<hi rend="i">The Marriage of Heaven and Hell</hi>, pl. 8); but he also wrote, “A Poet a Painter a Musician an Architect: the Man / Or Woman who is not one of these is not a Christian” (<hi rend="i">The Laocoön</hi>, E 270).</p>
+          <p>The expanded sensory orifices of the risen body, Connolly writes, may “sound like the parts of a monster, a grotesque giant, more than an ideal human. How can this be the human form divine if it no longer looks like a human?” (196). She is pursuing her argument that the ideal body is really more closely related to the fallen body than it might seem, but she never clearly and directly answers the question she raises. What does the risen body look like? In one sense, it doesn’t <hi rend="i">look</hi> like anything we can visualize; we can’t see it in the limited terms of natural sight. In another sense, however, Blake does give us an idea of its appearance in his poetic and visual renderings of the fourfold chariot of Ezekiel, and Connolly might have paid more attention to that vision. She does dip into one such description but in a misleading way. She says that in eternity “even Chaos has eyes: ‘And the dim Chaos brightend beneath, above, around! Eyed as the Peacock’” (204). Chaos, like the rest of the newly humanized universe, may now have eyes, but the two previous lines also need to be quoted: “And every Man stood Fourfold. each Four Faces had. One to the West / One toward the East One to the South One to the North. the Horses Fourfold” (<hi rend="i">Jerusalem</hi> 98:12-13). It is the new body too that has many eyes, just as the Ancient Poets in <hi rend="i">The Marriage</hi> had more numerous senses than we do today. In Blake’s watercolor of Ezekiel’s vision, the whirlwind that surrounds the fourfold figures and is part of their total being is eyed like the peacock. As for the embraces of paradise, Blake has no pictures that I know of that show people entering each other’s bosoms, but he does show us in plates 96 and 99 of <hi rend="i">Jerusalem</hi> embraces that accompany textual descriptions of entering Albion’s bosom. These hugs may have sexual connotations, but Erdman points out that Albion in plate 99 is holding his body sideways and also that the picture suggests a return of a prodigal child (Erdman 378). Especially in plate 99, where the gender of the embraced figure is not clear and the figure could even be an adult-sized pregenital child, we could have a heterosexual embrace, a homosexual embrace, a non-sexual embrace of father and child, or a return of a fatherly God to humanity; many fantasies seem to be at work in Blake’s image, and so do multiple figurative meanings, including quite common ones: Albion is taking Jerusalem into his heart; the physical embrace is accompanied by the profoundest feelings of love. I miss in Connolly a setting of the physical in Blake within a full range of possible literal and figurative meanings. Blake’s own poetic myth seems to me to provide guidance here: he obviously attacked the isolation of reason from the other faculties, but it was not his goal to isolate the body either; he wanted to transform the body by bringing it back together with the other faculties.</p>
+          <p>I also miss, in this study that clearly points out the prevalence of pain, torture, and violence in Blake’s visual and poetic imagery, a more developed discussion of aggression and anger in Blake. Are sadomasochistic impulses among the ones released in his work? And aren’t Albion’s arrows weapons of aggression aimed at the Druid Spectre, however that aggression may be fused with eros in the “Wars of Love” (<hi rend="i">Jerusalem</hi> 98:6; 97:14)? The transformation or sublimation of aggression into Mental Fight is a Blakean theme, and there is a lot to sublimate. The resistance to being passive, “feminine,” enslaved to another man’s system or to a maternal origin, is strong in Blake, even as he shows a male co-opting of birth and bosom. Perhaps the subduing of the female may be motivated by the wish to subdue inner elements felt to be feminine. Perhaps the embrace of the father at the end of <hi rend="i">Jerusalem</hi> expresses a longing for the father that, throughout Blake’s work, has been attended by fears of feminization.</p>
+          <p>The book is rich in contexts but one that is conspicuously absent is that of Romantic poetry. A stress on the senses and their transformation is a notable theme in Wordsworth, with his idea of the despotism of the eye; in Keats, with his supernatural figures metamorphosing into human bodies; and in Shelley, with his risen bodies and Ezekiel-like visions of a new physical being in <hi rend="i">Prometheus Unbound.</hi></p>
+          <p><hi rend="i">William Blake and the Body</hi> is valuable for its determined attention to physicality in a poet once, now long ago, interpreted chiefly, often purely, in spiritual and intellectual terms; for its assembling of good points by many previous writers on Blake and the body; for its interesting discussions of such topics as anatomical art, Reuben, fibers, Blakean bosoms; for its presentation of the pains and stifling restrictions of embodiment; and for its contribution to the gender discussion. But I found the book more notable for its highlighting of issues, questions, and complexities than for persuasive or vivid formulations.</p>
+          <pb id="p38-107" n="107"/>
+          <p>While reading the book, I kept thinking of two passages in <hi rend="i">The Marriage.</hi> One is “How do you know but ev’ry Bird that cuts the airy way, / Is an immense world of delight, clos’d by your senses five?” (pl. 7). How do we know, for example, that the immense world of delight that artistic imaginings can give us now is not a prototype of what we might experience directly with improved senses? The other is the ambiguously worded description of the last chamber of the printing house of Hell, in which the finished works of art “were reciev’d by Men who occupied the sixth chamber, and took the forms of books &amp; were arranged in libraries” (pl. 15). The Men receive the books, but they also take the forms of books. Humans are like texts here not in that both have orifices and interiors but in that ideally our lives are shaped by our own imaginations and creative efforts, as texts are. Giving us larger and more numerous senses, epitomizing a creativity that we do not yet have in our individual and communal lives, art for Blake both anticipates and brings about the eternal body, and “the artist is an inhabitant of that happy country,” Eden (<hi rend="i">A Descriptive Catalogue</hi>, E 533).</p>
+          <div3>
+            <head>
+              <title>
+                <hi rend="b">Works Cited</hi>
+              </title>
+            </head>
+            <p>Blake, William. <hi rend="i">Blake: The Complete Poems.</hi> Ed. W.H. Stevenson. 2nd ed. London: Longman, 1989.</p>
+            <p>Blake, William. <hi rend="i">The Book of Urizen.</hi> Ed. Kay Parkhurst Easson and Roger Easson. London: Thames and Hudson, 1979.</p>
+            <p>Blake, William. <hi rend="i">The Poetry and Prose of William Blake.</hi> Ed. David V. Erdman, commentary by Harold Bloom. Rev. ed. Garden City, NY: Doubleday, 1970. Abbreviated as “E.”</p>
+            <p>Clark, S. H. <hi rend="i">Sordid Images: The Poetry of Masculine Desire.</hi> London: Routledge, 1994.</p>
+            <p>Collins, Billy. “Introduction to Poetry.” <hi rend="i">Sailing Alone Around the Room: New and Selected Poems.</hi> New York: Random House, 2001. 16.</p>
+            <p>Damon, S. Foster. <hi rend="i">A Blake Dictionary: The Ideas and Symbols of William Blake.</hi> New York: Dutton, 1971.</p>
+            <p>De Vries, Peter. “Laughter in Theory and Practice.” Oral presentation at the Eighty-First Annual Meeting of the Modern Language Association of America. New York. December 28, 1966.</p>
+            <p>Douglas, Mary. <hi rend="i">Purity and Danger.</hi> London: Routledge and Kegan Paul, 1966.</p>
+            <p>Erdman, David. <hi rend="i">The Illuminated Blake.</hi> Garden City, NY: Anchor, 1974.</p>
+            <p>Hobson, Christopher Z. <hi rend="i">Blake and Homosexuality.</hi> Basingstoke, UK: Palgrave Macmillan, 2000.</p>
+            <p>Hogarth, William. <hi rend="i">The Analysis of Beauty.</hi> Ed. Joseph Burke. Oxford: Clarendon Press, 1955.</p>
+            <p>Hughes, Merritt Y., ed. “An Anonymous Life of Milton.” <hi rend="i">John Milton: Complete Poems and Major Prose.</hi> New York: Odyssey Press, 1957. 1035-44.</p>
+            <p>Klein, Melanie. “Weaning.” <hi rend="i">Love, Guilt and Reparation &amp; Other Works 1921-1945.</hi> New York: Dell, 1977. 290-305.</p>
+            <p>Paley, Morton. <hi rend="i">The Continuing City: William Blake’s</hi> Jerusalem. Oxford: Clarendon Press, 1983.</p>
+            <p>Smith, Adam. <hi rend="i">The Theory of Moral Sentiments.</hi> Ed. D. D. Raphael and A. L. Macfie. Oxford: Clarendon Press, 1976.</p>
+            <p>Stevens, Wallace. <hi rend="i">The Necessary Angel: Essays on Reality and the Imagination.</hi> New York: Vintage, 1965.</p>
+            <p>Webster, Brenda S. “Blake, Women and Sexuality.” <hi rend="i">Critical Paths: Blake and the Argument of Method.</hi> Eds. Dan Miller, Mark Bracher and Donald Ault. Durham, NC: Duke University Press, 1987. 204-24.</p>
+            <p>Weiss, Piero. <hi rend="i">Opera: A History in Documents.</hi> New York: Oxford University Press, 2002.</p>
+            <p>Winnicott, D. W. “Transitional Objects and Transitional Phenomena.” <hi rend="i">Playing and Reality.</hi> New York: Basic Books, 1971. 1-25.</p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <body>
+      <div1 id="BQ-38-3-0007">
+        <pb id="p38-107" n="107"/>
+        <div2>
+          <head>
+            <title type="main">Alexander S. Gourlay, ed. <hi rend="i">Prophetic Character: Essays on William Blake in Honor of John E. Grant.</hi> Locust Hill Literary Studies, No. 33. West Cornwall, CT: Locust Hill Press, 2002. xxiii + 396pp. 67 illus. $60.00, hardcover.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>Joseph <name>Wittreich</name></docAuthor></byline>
+          <p>Since 1960, William Blake has undergone rehabilitation and, tardily, canonization, only to be exiled yet again to the wilderness. Meanwhile, Blake criticism, which initially seemed at a crossroads, has moved into crisis. Yet with each shift, and at every juncture, John E. Grant has been both a striking and a salutary presence—often as corrector but, more important, as collaborator who, with David V. Erdman, produced <hi rend="i">Blake’s Visionary Forms Dramatic</hi> (1970) and, with Mary Lynn Johnson, coedited <hi rend="i">Blake’s Poetry and Designs: A Norton Critical Edition</hi> (1979). A year later, the Clarendon Press issued its monumental <hi rend="i">William Blake’s Designs for Edward Young’s “Night Thoughts”</hi> (1980) under the editorship of Erdman and Grant, here joined by Edward J. Rose and Michael J. Tolley. Grant’s first two articles (not on Blake) were co-authored, as if in anticipation of the important essays on Blake that he wrote jointly with Robert E. Brown, Mary Lynn Johnson, and Alexander S. Gourlay, the editor of the festschrift here under review. An earlier volume, with essays by various hands, <hi rend="i">Critical Paths: Blake and the Argument of Method</hi> (1987), was dedicated to Grant. Gourlay’s book, poignantly introduced, expertly edited, and amazingly particularized, is presented as a tribute to—and token of—Grant’s achievement.</p>
+          <p>As Mary Lynn Johnson concludes her magisterial survey of modern Blake criticism, she observes that “[i]f a major shift is occurring in Blake studies, as it seems to be, it does not pivot on any one new work, and no new paradigm is in 
+<pb id="p38-108" n="108"/>
+evidence.”<ref target="n18" type="note">1</ref> Nearly twenty years later, the picture has clarified. A new phase of Blake criticism was inaugurated by the efforts of those like Grant who, crossing boundaries, produced paradigms for interdisciplinary study and, intermixing methodologies, underscored the fact that a tangle of ways does not hide the right path but is the right path. This founding principle of a new Blake criticism is threaded through <hi rend="i">Prophetic Character</hi>, yet another example of Grant as an energizing force in Blake criticism. Collectively, its essays make this point—in thunder. At their very best, they also share with Grant’s work “an instinct for the capillaries.”<ref target="n19" type="note">2</ref> Many of these essays are embellishments, directly or obliquely, of Grant’s preoccupation with the emergence and education of the prophetic character in his different aspects—historical, legendary, or mythic—and of Blake’s evolving critique of such characters, whether in bracing juxtapositions like Swedenborg and Milton, or Newton and Milton, or through acute probings of mythic protagonists like Orc and Los. The thrust of Blake’s illuminated writings, however much anchored in history, is toward prophecy: it is poetry written in the future tense and painting with a forward gaze, each imbued with an acute sense of apocalyptic crisis. <note id="n18">1. See Mary Lynn Johnson, “William Blake,” in <hi rend="i">The English Romantic Poets: A Review of Research and Criticism</hi>, ed. Frank Jordan, 4th ed. (New York: MLA, 1985) 249. See also the fine remarks by Dan Miller, “Introduction,” in <hi rend="i">Critical Paths: Blake and the Argument of Method</hi>, ed. Dan Miller, Mark Bracher, and Donald Ault (Durham and London: Duke University Press, 1987) 1-18, especially 3.</note><note id="n19">2. Alexander S. Gourlay borrows this phrase from William Kupersmith, longtime editor of <hi rend="i">Philological Quarterly</hi>; see Gourlay, “Foreward,” in <hi rend="i">Prophetic Character</hi> xv.</note></p>
+          <p>Two essays in this volume, particularly, illustrate the impulse, evident throughout the collection, to follow in Grant’s footsteps. After mapping the range and nuance of recent criticism, Michael Ferber, “In Defense of Clods,” allows that he himself is unable to “shake the conviction that the poem, or the poem’s speaker, endorses the Clod as right, and that the preponderance of relevant poems both within the <hi rend="i">Songs</hi> and outside it endorse the Clod’s point of view.” “The very features of the poem one can cite against the Clod,” Ferber concludes, “are snares placed in our way to tempt us from the path of simplicity” (54). If “The Pebble and the Clod,” with its warring perspectives, is both an epitome of the dialectic at play within and between poems in <hi rend="i">Songs of Innocence and of Experience</hi>, as well as what Ferber calls “a portal into Blake” (60), inflections shift, strikingly so, as we are lured into the perilous paths of <hi rend="i">The Marriage of Heaven and Hell.</hi> If it turns the tables on the essay it succeeds, Everett C. Frost’s “The Education of the Prophetic Character” not only dovetails with Grant’s earlier work but is also an impressive exfoliation of it. Frost’s <hi rend="i">Marriage</hi> is “an autobiographic Bildungsroman of the prophet as a young man” (72). Not itself “a prophecy but the primer for one” (75), this prose-poem, which Frost describes as “a stunning dramatic narrative of enormous complexity, subtlety, and force” (72), demonstrates that “Consciousness sharpens perception, and not the other way around” (81).</p>
+          <p>The best essays in this festschrift, two of them giving it a frame, follow Grant in redirecting Blake criticism from the matter of Blake and tradition to the interrelated questions of Blake and which traditions? In which of their manifestations? Stephen C. Behrendt, in the lead essay, makes the point powerfully: “Blake was less interested in merely preserving than in transforming (and frequently in discrediting or subverting) traditional materials and formulations” (8), Behrendt then illustrating his point by examining in connection with different versions of Blake’s <hi rend="i">Pestilence</hi> the extent to which Blake, along with William Hayley, was engaged “in transforming traditional images and aesthetics into a new and contemporary cultural context” (8). Behrendt’s own interest in the millenarian impulse in Blake’s art is later highlighted, first, by G. A. Rosso who, in the attention he gives to the figure of Rahab in its biblical contexts, claims for Blake a reading of Scriptures “unique” to this poet, but also “based on a profound grasp of the turning points of biblical history” (292). With the evolving character of Rahab, Blake assimilates from the Epistle to the Hebrews, according to Rosso, its “typology of crucifixionatonement” (302) only then to subject Hebrews “to critique by reading it against the Gospel accounts of crucifixion or, more accurately, against his own apocalyptic approach to the Gospel narratives” (303).</p>
+          <p>In his brilliantly climactic essay, Richard J. Squibbs examines “the vexed relationship between stargazing and biblical prophecy in English history,” especially in terms of “the aura of determinism surrounding astrological prophecy” (352). Documenting his thesis through the example of Blake’s <hi rend="i">Europe</hi>, Squibbs concludes that, by its end, “Blake symbolically explodes astrology’s cyclical consciousness and depicts the typological emergence of the English people from a benighted, star-bound perception of history” (367). By reporting how Blake so often writes against the grain of the traditions he invokes, Squibbs allows us to grasp, simultaneously, how popular astrology and astronomical discourse molded Blake’s vision and how Blake then “forged his prophetic stance in opposition to largely-forgotten, anti-revolutionary and conservative popular discourses as well” (383).</p>
+          <p>If such an argument does not nullify, it nevertheless puts a check on the perhaps overly easy proposition of the essay it succeeds, that “kabbalistic prototypes provided the basis for the intricate numerological pattern underlying the physical structure of <hi rend="i">Jerusalem</hi>’s 100 plates” (Sheila Spector, 332), as well as his alteration of the original plans for this poem, tampering with the order of its plates, and revision, or failure to amend, crucial passages in this epic prophecy (347-48). Indeed, these provocative assertions beg to be tested against the contrary viewpoint that kabbalistic paradigms are an aspect of the poem’s mathematical, not living, form. As does Spector, Morton D. Paley ventures into a hitherto neglected area of Blake criticism as, conjecturing that Blake never would 
+<pb id="p38-109" n="109"/>
+have purchased Thornton’s translation of the Lord’s prayer, he concludes of this “bloated translation set in an equally bloated farrago of opinions and quotations” (284) that, “written for tiny audiences of readers in the Blake-Linnell circle,” the annotations are “uncompromising, sometimes fiercely so,” in their presentation of Blake’s later—and Gnostic—ideas (284).</p>
+          <p>Grant’s imprint is, likewise, evident in those essays that, like Paley’s, dwell on minute particulars. Take, for example, Catherine L. McClenahan’s reflections on Erin who, alone among the female characters in <hi rend="i">Jerusalem</hi>, “is a thoughtful, analytical, critical, imaginative, creative, and above all effectively active participant in the ‘public’ domain of the work of Los and his allies” (157). Or witness Jennifer Davis Michael’s remarks on “Blake’s symbolic use of feet, . . . intrinsic to his artistic project, fusing spiritual, sexual, and poetic acts into a single member” (206). Where Grant’s imprint is most conspicuous, however, is in the essays by J. M. Q. Davies, Jon Mee, and Peter Otto that, as exfoliations of Grant’s work on Young’s <hi rend="i">Night Thoughts</hi>, are dedicated to sharpening perceptions and enlarging horizons.</p>
+          <p>In a richly suggestive essay, which calibrates yet again “the distance between orthodox Christianity and Blake’s Christian humanism” (33), J. M. Q. Davies discovers within Blake’s “imaginative freedom” (27) from Young’s poem a critique no less applicable to Young than to Milton. Hence, Blake’s <hi rend="i">Night Thoughts</hi> series, according to Davies, “provide[s] very specific clues to the direction of Blake’s thought in the Milton illustrations” (30), whether it be through the bold suggestion that Adam tempts Eve (32-36) rather than the other way around (Grant trumps Davies in this argument,<ref target="n20" type="note">3</ref> I think) or in Blake’s even bolder departure from tradition (see design <hi rend="i">NT</hi> 276) where “the figure being tempted is not another Eve or Adam but an angel” (39). Yet, it is in the coda to his essay that Davies scores his strongest points by observing the play between the conventionality of the representation of Samson and the deviational character of the accompanying iconography where, with one eye open and in upward gaze, Samson is figured alone—with no victims—as if to say that (at least in this depiction) Samson is portrayed as one of Blake’s visionary company (46-49). In a turn of the lens, Peter Otto looks at the <hi rend="i">Night Thoughts</hi> illustrations, woven inextricably into the verbal and visual fabric of <hi rend="i">The Four Zoas</hi>, for what (as an interpreting context) those illustrations tell us about Blake’s poem. Almost as a supplement to Davies’s essay, Otto observes that “the two volumes of Blake’s watercolor designs for <hi rend="i">Night Thoughts</hi> have as their frontispieces representations of the resurrection; but the series as a whole closes with Samson pulling down the pillars of the temple” (260), underscoring (as <hi rend="i">Milton</hi> and <hi rend="i">Jerusalem</hi> will later do) the intimate relationship between renovation and apocalypse. <note id="n20">3. It seems that the fruit Adam holds in his right hand in figure 1 (32) is the same as Eve holds in the same hand in figure 2 (34), Blake thereby reinforcing the idea that Adam, not Satan, is the bearer of the fruit and source of the temptation; that if Satan falls self-tempted, Eve falls tempted by another.</note></p>
+          <p>Of the three essays centered in Blake’s <hi rend="i">Night Thoughts</hi> illustrations, the most dashing of them is by Jon Mee. Against the usual proposition that these illustrations reveal “a personal struggle to wrest visionary truth from a turgid eighteenthcentury forebear,” Mee pits his own formidable understanding of “Blake’s illustrations in the context of the different ways in which Young’s text circulated in the print culture of the time” (171, 172) and of the extent to which “politics and prophecy are fundamentally intertwined in his reading of Young’s text” (190). Mee’s essay goes a long way toward explaining why so few of Blake’s 537 illustrations were actually published (just 43) by suggesting that Richard Edwards, commissioner of these illustrations, sought to prevent the seepage of “a radical millenarianism” from a poem Edwards “thought of as strengthening the moral fiber of the nation” (200). Blake’s triumph was to leave to future generations what we should not willingly let die: what Benjamin Haydon would call “the poetry of the rainbow.”<ref target="n21" type="note">4</ref> Correspondingly, Grant’s achievement, over nearly half a century, is, like Blake’s, always to have kept faith in time of trouble and, even when his eye is on the tragedy of history, to think beyond it into a new future. In the eloquent testimony of all these essays, like the poet in which he has invested nearly half a century of dazzling scholarship, Grant is a mental prince who, as the provocation for this remarkable gathering of essays, places yet another plank in the floor of what one hopes will eventually become a newly energized Blake criticism. <note id="n21">4. Quoted from Eric George, <hi rend="i">The Life and Death of Benjamin Haydon 1786-1846</hi> (London and New York: Oxford University Press, 1948) 116.</note></p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <body>
+      <div1 id="BQ-38-3-0007">
+		<pb id="p38-109" n="109"/>
+        <div2>
+          <head>
+            <title type="main">The Program of the International Blake Conference <hi rend="i">Blake in the Orient</hi> and the Catalogue of a Concurrent Exhibition <hi rend="i">The Reception of Blake in Japan.</hi> The Blake Conference Committee: Kyoto, Japan, 2003. Program 46 pp.; catalogue ii + 93pp. ¥7,000.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>Yoko <name>Ima-Izumi</name></docAuthor></byline>
+          <p>The international conference Blake in the Orient took place in Kyoto, Japan, during the beautiful autumn of 2003; a concurrent exhibition was also held displaying the earliest publications on Blake by Japanese writers, painters, and scholars
+<pb id="p38-110" n="110"/>
+dating from 1894 up to 1938. This exhibition was free for conference participants, and it remained open to the public for a month at nominal fees. Two cased volumes were on sale at the registration desk: one the conference program and the other the catalogue of the exhibition. They are in black and white and rather slender, the program being 46 pages long and the catalogue 93 pages. The price for a set, ¥7,000 (roughly US$65), might seem rather expensive, but once one takes a look at the catalogue, it will not seem so.</p>
+          <p>The catalogue (not to mention the exhibition itself) offers the first large-scale survey of the earliest period of the reception of Blake in Japan in the fields of both literature and painting. I agree unconditionally with the conference organizers that this is “the most detailed catalogue ever to be published on the history of reception of Blake in Japan” (2). It provides a commentary on each item of the total 111, accompanied by photographs of 41 selected exhibits and 20 numbered figures. The catalogue not only lists the publication data and the name of every collector, but also comments usefully on how each relates to Blake’s work. The catalogue is edited and published by the Blake Conference Committee, with the entries being prepared by Kozo Shioe and Yumiko Goto.</p>
+          <p>The first half of the catalogue is written in English and the second in Japanese. These are identical except that the acknowledgements appear only in English and the charted chronology of the “Early Reception of Blake in Japan” is provided only in the Japanese version as an appendix. This neatly drawn chronology lets us grasp, at a glance, when and where Blake-related events happened. It is noteworthy that this chart has a special section “<hi rend="i">Shirakaba</hi>, Yanagi, and Blake,” apart from the main section called “Blake-related Publications.” Judging from this arrangement, we can easily understand that the editors regard the achievements by Yanagi and a literature journal <hi rend="i">Shirakaba</hi> (with which Yanagi was involved) as exceptionally significant. It is indeed the whole catalogue’s intent to clarify and re-evaluate the efforts of Yanagi and his fellow writers and artists to share with other Japanese the unforgettable impact of Blake’s works.</p>
+          <p>The main body of the catalogue is prefaced by two messages. One of them is, as one would expect, by the conference
+
+organizers, Masashi Suzuki and Steve Clark. The other is by Sori Yanagi, the President of the Japan Folk Crafts Museum, and we might initially wonder what the Japan Folk Crafts Museum has to do with Blake and who this man is. We soon learn that this mysterious president is in fact the son of that monumental figure, Yanagi, for his message begins: “My father, Soetsu (or Muneyoshi) Yanagi (1889-1961), founder of the Japan Folk Crafts Museum, was only 17 years old when he first encountered the works of William Blake” (3). This son, soon to be ninety years old, understandably did not appear in person at either the conference or the exhibition, but it is appropriate for him to give us a message, for over 30 percent of the whole exhibition is drawn from the collection of the Japan Folk Crafts Museum, founded by his father and now directed by him.</p>
+          <p>Though the exhibition has concluded, you may visit the Japan Folk Crafts Museum in Tokyo to view their collection for an admission of ¥1,000 (or free if you pay ¥5,000 for an annual membership). Details can be found on their web site &lt;http://www.mingeikan.or.jp&gt;. And, of course, you can turn to the catalogue, which may be purchased at ¥7,000 from the museum (email: webmaster@mingeikan.or.jp). This informative book readily provides us with significant facts about Blake’s influence on Japanese art and literature. It will form a useful basis for further studies and is accompanied by some insightful speculations on the topic.</p>
+          <p>The seven sections of the catalogue are loosely grouped into two parts, the first four focusing on literary circles and the second three on the art world. In both parts, the names of Yanagi and the <hi rend="i">Shirakaba</hi> group appear frequently. Without Yanagi and his <hi rend="i">Shirakaba</hi> colleagues, Blake studies in Japan would have developed far differently from what they are now. Nor, without Yanagi’s influence on Japanese art, would there have been Blakean paintings such as those by Ryusei Kishida and Kagaku Murakami. A representative of the Japan Folk Crafts Museum, Teiko Utsumi, spoke at the reception of the conference and stirred our interest in the museum more than ever by her crisp and evocative remarks. Later, while she and I were communicating by email, she informed me of a previous exhibition entitled The Great Encounter: Yanagi and Blake, which was held in 1990 at the museum; G. E. Bentley,
+<pb id="p38-111" n="111"/>
+Jr., came over to Japan for the event and highly praised Yanagi as “the first man to bring Blake to Japan.”<ref target="n22" type="note">1</ref> Even though we are aware, as the catalogue demonstrates, that there were actually several predecessors of Yanagi, such as Takeki Owada, Lafcadio Hearn, and Ariake Kanbara, we are nonetheless convinced that Yanagi remains the primary figure in implanting Blake’s ideas and works in the Japanese mind. <note id="n22">1. Teiko Utsumi, email correspondence with the author, 4 December 2003.</note></p>
+          <p>The first section of the catalogue is concerned with these earlier contributors: “Blake’s name was first introduced to Japan in the late 19<hi rend="s">th</hi> century, probably when Bimyo Yamada (1868-1910) published the <hi rend="i">Bankoku Jinmei Jisho</hi>, a dictionary of famous names from around the world in 1893” (11). This item was not included in the exhibition, but the second earliest publication, <hi rend="i">An Anthology of Western and American Poetry Part I</hi> of 1894, translated and edited by Takeki Owada, was displayed as the first item in the exhibition. In this anthology “a Japanese translation of ‘The Ecchoing Green’ is collected” (12). Many Blake scholars in Japan might wonder why in 1894 this was selected as representative of Blake when there are other poems that might be thought to be more appealing. I think of my college days when one of my English professors asked me which poem of Blake was first translated into Japanese. I immediately and incorrectly answered, “The Tyger.”</p>
+          <p>It is quite remarkable that some of the greats of Japanese literature and philosophy, who are introduced in the first section of the catalogue, encountered Blake’s poems at a significant point in their careers and had each at least one publication devoted to Blake. For those who are not familiar with Japanese literature and philosophy, I shall list some of the leading figures whose names appear: Bin Ueda (scholar/translator), Shoyo Tsubouchi (scholar/translator), Lafcadio Hearn (novelist), Ariake Kanbara (poet), Tetsuro Watsuji (philosopher), Choko Ikuta (poet), and Rofu Miki (poet). At the conclusion of this section we are told that the future was to see Blake become even more prominent before the Japanese public: “By the first decade of the 20<hi rend="s">th</hi> century, understanding of Blake in Japan had already progressed considerably and created a foundation for wider acceptance. However, during this period, Blake was mostly recognized as a poet and his other skills would have to wait until the second decade of the 20<hi rend="s">th</hi> century for an introduction from Soetsu Yanagi (1889-1961)” (11). (Muneyoshi Yanagi is referred to as Soetsu Yanagi throughout the catalogue. These are simply different but equally acceptable forms of his name.)</p>
+          <p>Yanagi and the journal <hi rend="i">Shirakaba</hi>, of which he was one of the editors, begin to be highlighted in the second section of the catalogue. <hi rend="i">Shirakaba</hi>, founded in 1910, is defined as “a new kind of literary magazine, [which] not only stimulated new ideas in the Japanese literary world, but also functioned as an art magazine and had a large influence on art in Japan by introducing the new movements of Western art” (15). The commentary then refers to the first significant achievement by Yanagi in his Blake studies: “In the April 1914 edition of <hi rend="i">Shirakaba</hi>, Soetsu Yanagi wrote ‘William Blake,’ his first article about the artist. This article not only shows Yanagi’s unique perspective on Blake, but it was also the first time for one of Blake’s visual artworks to be introduced to Japan, making it the document that started the Blake fever that followed” (16).</p>
+          <p>The catalogue includes photographs of three issues of <hi rend="i">Shirakaba</hi>, in all of which the influence of Blake is clearly seen. The title page of volume 4 of <hi rend="i">Shirakaba</hi> in 1913, for example, is inscribed with two lines from Blake’s “The Tyger”: “TIGER TIGER BURNING BRIGHT / IN THE FORESTS OF THE NIGHT.” It was designed by Bernard Leach, the only Westerner in the <hi rend="i">Shirakaba</hi> group. This “was used as a title-page design for the whole numbers of volume 4 of <hi rend="i">Shirakaba</hi> in 1913” (17).<ref target="n23" type="note">2</ref> Volume 5, number 4 of <hi rend="i">Shirakaba</hi> (1914) is another significant publication noted in the catalogue, for it is a special “Blake Issue.” It included “16 designs of Blake” along with articles on Blake by Yanagi, Leach, and other <hi rend="i">Shirakaba</hi> members. <note id="n23">2. The issue of <hi rend="i">Shirakaba</hi> pictured on page 17 of the catalogue is volume 4, number 7, though the caption says that it is the title page for volume 4, number 1. The discrepancy does not really matter, since this title page was used for all the numbers of volume 4.</note></p>
+          <p>What comes next, however, is regarded as really “monumental and epochal” in Blake studies in Japan. It is Yanagi’s 750-page book on Blake, with “copious quotations from Blake and 60 designs” (18). These copious quotations from Blake’s works are in English (though the catalogue does not make this clear), making the book a collage of two different languages. I think this is intentional, for Yanagi always aimed at such blending of east and west. The catalogue also introduces Bunsho Jugaku, another Blake scholar, who said that “Yanagi’s book marked the dawn of Blake studies in Japan” (18). And it demonstrates that subsequently influential literary magazines such as <hi rend="i">River of Life</hi> and <hi rend="i">Arts</hi> used Blake designs for their title pages.</p>
+          <p>Towards the end of the second section, a couple of reproductions of Blake’s works done by W. Muir and others in London are introduced. But the intent of the catalogue is not simply to show these reproductions but to tell us about the contribution of the Jugakus: “With Muir’s edition as a model, Bunsho Jugaku and his wife Shizu produced the illuminated books (reproductions) from their private press <hi rend="i">Kojitsuan</hi> [the Sunward Press]” (20). It is remarkable that the Jugakus, Bunsho and Shizu, actually engaged themselves in reproducing Blake’s illuminated books in the same manner as did the Blakes, William and Catherine. I believe that there should be a greater effort to explore the achievements by the Jugakus in relation to Blake, with particular attention to the role of two important women, Catherine Blake and Shizu Jugaku. Little has been written on Catherine Blake, and virtually nothing on Shizu Jugaku.</p>
+          <p>The third section of the catalogue focuses on Blake exhibitions organized by the <hi rend="i">Shirakaba</hi> group. It is predictably Yanagi who played the leading role in these exhibitions. We
+<pb id="p38-112" n="112"/>
+can see in the catalogue his slightly overstated introduction of Blake as “the only world-famous artist England has ever produced” (23). This statement actually appeared in the 1919 <hi rend="i">Annotated Catalogue of an Exhibition of Reproductions from the Works of William Blake: For the Establishment of Shirakaba Art Museum.</hi> The exhibition took place in Tokyo and Kyoto in November 1919, but according to the catalogue description, “before the Exhibition in Tokyo and Kyoto, it was held at several places in Nagano Prefecture from 3-10 September 1919” (23). It should be noted that Yanagi selected the rural locale Nagano to propagate Blake’s art, poetry, and ideas. He also gave a series of lectures on Blake in that city. Though it is not mentioned in the catalogue, he came back to Nagano in 1921 to give more lectures on Blake to schoolteachers. Aside from one book that records the <hi rend="i">Shirakaba</hi> group’s activities in Nagano,<ref target="n24" type="note">3</ref> no research has been done to elucidate the significance of the Nagano locale for Yanagi. <note id="n24">3. Nobuo Imai, <hi rend="i">The Periphery of the White Birch Journal: The Intersection of the White Birch Movement and School Education in Nagano</hi> (Nagano: Shinano Educational Committee, 1986).</note></p>
+          <p>There is a 1919 picture of “Yanagi giving a lecture on Religion in Blake’s Art” (21,23), again significantly in Nagano. Instead of arguing the importance of the conference’s location, however, I would rather call attention to the striking contrast between Yanagi’s clothing and that of his audience (the catalogue does not comment on this). Yanagi, sitting at the lecture table, wears a Western white suit, and his companion, sitting relaxed on a chair and looking at the speaker, is also in white and is wearing Western shoes. The audience wears the traditional Japanese <hi rend="i">kimono</hi> and <hi rend="i">zori</hi> or flat straw sandals. The contrast between Western and Japanese clothing corresponds to the distinction between sender and receiver, educator and educated, and illustrates dramatically the integration of Japanese and Western culture that was taking place at that point in the history of Japan.</p>
+          <p>The catalogue contains another picture (25) related to Yanagi and his Blake exhibition. Again, the picture illustrates a phase in Japanese history. It is a member’s card for the 1922 Exhibition of Reproductions from the Works of William Blake, which was held in Seoul, Korea, when that country was occupied by Japan. This was the time when Japan was expanding its territory by oppressing the indigenous peoples in Korea, China, and other East Asian regions. But as the catalogue emphasizes, “Yanagi expressed his protest against the suppression by the Japanese government of the campaign for independence in Korea” (25). It is also known that he paid due respect for Korean arts and in 1924 established the Museum of Arts of the Korean People.</p>
+          <p>The fourth section of the catalogue covers the period around the 100<hi rend="s">th</hi> anniversary of the death of Blake, and summarizes the achievements of <hi rend="i">Shirakaba</hi> as follows:
+<q>
+After introductions in <hi rend="i">Shirakaba</hi> and in the other writings of Soetsu Yanagi and Makoto Sangu, references to and articles about Blake began to appear one after the other in the 1920’s in art and literary books and journals. Early on, many of these were by <hi rend="i">Shirakaba</hi> members and their associates, but after the 1919 Blake exhibition organized by <hi rend="i">Shirakaba</hi>, the extent of interest grew greatly. <hi rend="i">Shirakaba</hi> was becoming a central establishment in literary circles, and many journals similar to <hi rend="i">Shirakaba</hi> were published that also featured Blake’s art and poetry frequently. The existence of Blake’s powerful work was the impetus for creating the <hi rend="i">Shirakaba</hi> atmosphere. (26)
+</q></p>
+          <p>Newly issued journals featuring Blake’s works (and modeled on <hi rend="i">Shirakaba</hi>) are entered in the catalogue. In their title pages, “Blake’s designs were used as a symbol” (29). Such journals include <hi rend="i">New Currents of Thought, Water Pot, Earth, Rainbow, The Muse, Sunflower, and Blake and Whitman.</hi> The last one is particularly significant: it shows Yanagi and Jugaku’s passion for and infatuation with handmade things. <hi rend="i">Blake</hi> and <hi rend="i">Whitman</hi> was a monthly literary journal, coedited by Yanagi and Jugaku, and was not only printed on precious handmade paper but also was hand bound by Jugaku and his wife Shizu. In other words, this journal was produced in the same spirit as Blake’s creation of his handmade books. Scholarly works exclusively devoted to Blake and translations of his poems were also produced en masse around the time of the 100<hi rend="s">th</hi> anniversary of his death. Among them were Makoto Sangu, trans., <hi rend="i">A Selection of Blake’s Poetry</hi> (1922), Masao Hataya, <hi rend="i">William Blake</hi> (1927), Masao Hataya, trans., <hi rend="i">Blake’s Poems</hi> (1927), Bunsho Jugaku, ed., <hi rend="i">William Blake: A Bibliography</hi> (1929), Makoto Sangu, <hi rend="i">Essays on Blake</hi> (1929), Bunsho Jugaku, <hi rend="i">Collected Essays on Blake</hi>, ed. Soetsu Yanagi and Mitsuharu Hashizume (1931), and five translated works by Bunsho Jugaku from Blake’s poems including <hi rend="i">William Blake, Songs of Innocence</hi> (1933), <hi rend="i">William Blake, The Book of Thel</hi> (1933), and <hi rend="i">William Blake, Songs of Experience</hi> (1935).</p>
+          <p>The catalogue hints at the possibility of a comparative study of Blake and notable Japanese men of letters such as Haruo Sato and Ryunosuke Akutagawa. It explains that at the end of Sato’s short story “The Sick Rose” “appears a refrain ‘O Rose thou art sick,” though “after many revisions and additions, it was published . . . in 1918 under the title of <hi rend="i">Den-en no yu-utsu</hi> [<hi rend="i">A Pastoral Elegy</hi>]” (28). As to Akutagawa, a great novelist of whom Japan is very proud, the catalogue recounts the occasion when he gave all the money he had to buy a reproduction of Blake’s “The Soul Hovering over the Body Reluctantly Parting with Life,” and adds the striking detail: “It [the Blake reproduction] was hung on the wall in his study placed on an easel of his own invention until he died” (37). We are given supplementary information about Blake’s possible influence on Akutagawa: “Some scholars of Japanese literature say that influences from Blake could be found in his other works as well” (37).</p>
+          <p>Two exhibitions of Blake that took place in 1927 are mentioned, one organized by Soetsu Yanagi, Makoto Sangu, and
+<pb id="p38-113" n="113"/>
+Bunsho Jugaku, and the other by Masao Hataya. These commemorated the 100<hi rend="s">th</hi> anniversary of the death of Blake. The trio of Blake scholars—Yanagi, Sangu, and Jugaku—edited a catalogue with entries for “208 documents, 132 engravings and 31 letters by Blake scholars and others” and “bibliographical notes by Jugaku, and annotations on engravings by Yanagi” (31). It was certainly an enthusiastic and extensive project, but the other exhibition, organized by Hataya and held in the Asahi newspaper building in Tokyo, was also impressive. The catalogue reflects a touching moment during this occasion: “Masao Hataya, the exhibition planner was devoted to ‘popularizing’ Blake, and from 6pm on August 12, the time of the artist’s death, he broadcasted a 30-minute radio program called ‘100 Years since Blake’s Death’” (26). The picture of the exhibition by Hataya is included in the catalogue (31). Such images always tell something about the time and place in which they were taken. Here in the picture of Hayata’s exhibition, we have five eager visitors, two women in magnificent traditional kimonos, and three men in Western suits and, interestingly, with Western hats on their heads. The formal attire of the intellectual at that time in Japan was clearly subjected to gender difference.</p>
+          <p>The fifth and sixth sections of the catalogue concentrate on works by Japanese painters who were influenced by Blake’s art. Ryusei Kishida, a renowned Japanese painter, “was greatly influenced by the Blake articles in <hi rend="i">Shirakaba</hi>” (38). Here, as elsewhere, Yanagi is mentioned as the significant gateway into the world of Blake: “That influence began to become apparent after Yanagi’s article on Blake in <hi rend="i">Shirakaba</hi> in 1914” (38). Kishida was not only influenced by <hi rend="i">Shirakaba</hi> but also eagerly engaged himself in designing the title page for the journal from July 1918 to May 1923 (39-40). As we might expect, he took designs and compositions from Blake’s art when producing his own paintings (42-44). A brief survey of Japanese painting in the first two decades of the twentieth century shows how deeply Blake’s influence permeated even Japanese-style painting. The catalogue pays special attention to the fact that the “group of young Japanese-style painters in Kyoto [Japan Association for the Creation of National Painting] . . . tried to absorb Western art and came to admire Blake through reading Soetsu Yanagi’s articles and seeing his artworks in <hi rend="i">Shirakaba</hi>” (46). And these painters “published the journal <hi rend="i">Seisaku</hi> [Creation], modeled on <hi rend="i">Shirakaba</hi>” (46). As members of the Japan Association for the Creation of National Painting, such names as Bakusen Tsuchida, Kagaku Murakami, and Hako Irie are listed. Murakami “acknowledged himself as a ‘Blakean’” (46), and his painting <hi rend="i">Female Nude</hi> is presented as an example in the catalogue (49). Hako Irie’s <hi rend="i">Land of Enlightenment</hi> is also described as Blakean: “In drawing this painting, Irie might have recourse to, for example, <hi rend="i">River of Life</hi>, one of the inserted designs in <hi rend="i">Shirakaba</hi>” (50).</p>
+          <p>The final brief section concerns a collector named Taro Nagasaki, who collected Blake works and documents while he was working in the New York office of the ocean transport company Nihon Yusen in 1920-24. His collection was partly given to, and partly bought by, the Kyoto City University of Arts, because Nagasaki served as president there after he left the transport company. Considering that the Nagasaki collection was unknown until some twenty years ago, we might suspect that other collectors of Blake’s works may lie hidden in Japan today.</p>
+          <p>Interesting questions are why did Yanagi, obviously the key figure in the importation of Blake into Japan, feel so drawn to Blake, and why did so many Japanese who were influential in literature and the arts follow his inclination? But an endeavor to answer them lies outside the scope of this review. I quote, however, some significant remarks from the catalogue to hint at possible answers:
+<q>
+Yanagi defined Post-Impressionism as the work of “expressive artists” who reveal their personal inner feelings and desires, and saw art and the life of individuals as one and the same. This perspective on art also appeared later in Yanagi’s analysis of Blake. (15)<lb/><lb/>
+To the members of the <hi rend="i">Shirakaba</hi> group, these artists [Munch, Rodin, Renoir, da Vinci, Michelangelo, and so on], including Romain Rolland, Whitman, and Beethoven whom they revered as the representative composer, were artists who had “brought the self to life” in their work, and realized the <hi rend="i">Shirakaba</hi> goal of revering individuality. In short, for the members of <hi rend="i">Shirakaba</hi>, the work of artists was the best way to “let the self live.” (21)
+</q></p>
+          <p>The second of the two cased volumes is the program of the conference. The conference was as successful as the exhibition. The program compiles the abstracts of two plenary lectures and 32 papers. These speakers and nearly two hundred people in the audience gathered at the Kyoto University Hall for two days of highly intellectual interchanges. The presentations were presided over by two committee organizers, Masashi Suzuki and Steve Clark, who indeed conceived the whole conference from scratch.</p>
+          <p>The plenary lecturers were David Worrall and Elinor Shaffer. Worrall’s lecture, “<hi rend="i">The Book of Thel</hi> and the Swedenborg Project for an African Colony,” sheds new light on the meaning of Africa in Blake’s work through an examination of the Swedenborgian teaching that “Africans held a particularly pure reception of the idea of God” (8). Especially important are Worrall’s accounts of historical facts relevant to understanding Blake’s <hi rend="i">Thel.</hi> He elucidates, for example, the plans of Wadström and Nordenskjold “to establish a colony on West coast of Africa in the area of Sierra Leone which would be based on the Swedenborgian principles of conjugal love” (8), and gives an inspiring interpretation of <hi rend="i">Thel</hi> in the light of such plans for a new colony. By showing that “Blake met Wadström and Nordenskjold,” Worrall also invites us to read Blake’s “The Little Black Boy” as an allusion to a real black boy, “Peter Penah, rescued from slavery,” who received “Wad
+<pb id="p38-114" n="114"/>
+ström’s protection” (8). By calling Blake “an international Blake,” Worrall intends to show that “Blake was at the centre of a much wider set of international issues and influences than has hitherto been suggested.” Worrall’s presentation itself was as fruitful and pleasant as his abstract in the program. He is a thoughtful and supportive scholar from Nottingham Trent University, and I suppose that the surprisingly large number of speakers who came from that university might be the result of his constant concern to encourage and inspire other Blake scholars/students around him.</p>
+          <p>The second plenary lecture, by Elinor Shaffer of the University of London, is entitled “The Reception of the British Romantics over the Waters.” She shares with us a fascinating account of her research project, which was “initiated in 1996 in the British Academy.” In this project she explores “the receptions of writers—not only literary, but also historians, philosophers, scientists—in Europe in a systematic way” (9). She observes that “the Romantics form a particularly interesting group in this respect,” and adds (in a comment of special interest to the audience at this conference) that “reception abroad extends beyond Europe, and we are especially keen to join with the Japanese, who have done so much for this more extended inquiry, in order to arrive at a world-wide reception” (9).</p>
+          <p>The abstracts of the papers are listed in alphabetical order of the speakers’ last names. There are, not surprisingly, a large number of papers—indeed, a quarter of the papers delivered—that deal with Yanagi’s (or the <hi rend="i">Shirakaba</hi> group’s) work on Blake. The beautifully drawn poster for the conference—now used as the cover for both the catalogue and program—encourages us to attempt an exploration in this light, because it includes, together with the portrait of Blake by Thomas Phillips (1807) and Blake’s “The Tyger” (1794), the enlarged title page of <hi rend="i">Shirakaba</hi>, volume 4, number 7 (1913) designed by Bernard Leach, a member of the <hi rend="i">Shirakaba</hi> group. An observant viewer will notice that Yanagi’s signature is visible at the top right of the title page to indicate his ownership of the document. Eight conference speakers address the subject of Blake, Yanagi and the <hi rend="i">Shirakaba</hi> group: Yumiko Goto (“The <hi rend="i">Shirakaba</hi> Group and the Early Reception of Blake’s Art Works in Japan”), Yoko Ima-Izumi (“The Female Voice in Blake Studies in Japan, 1910s-1930s”), Hiroko Nakamura (“Blake’s Influence on Muneyoshi Yanagi and his Pilgrimage to Buddhism”), Hatsuko Niimi (“Self-Annihilation in <hi rend="i">Milton</hi>”), Kazuyoshi Oishi (“A Curious Symmetry of William Blake and Muneyoshi Yanagi”), Kozo Shioe (“Blake and Young Painters of the Kyoto School”), Shunsuke Tsurumi (“Yanagi and Jugaku in the Fifteen Years War [1931-45]”), and Ayako Wada (“Blake’s Oriental Heterodoxy: Yanagi’s Perception of Blake”).</p>
+          <p>Tsurumi’s presentation is unique in that he presents a precious memoir of Yanagi in “summer, 1940, [when he] . . . had a visit with Yanagi” (40). It is a tribute to Yanagi that Tsurumi, now in his nineties, turned out. There are not so many people today who could provide us with this kind of firsthand information about Yanagi. Other speakers, although not privileged with a personal acquaintance with Yanagi, nonetheless eagerly step inside the world of Yanagi and his fellows. Some papers bring out specific aspects of the relation of Yanagi (or the <hi rend="i">Shirakaba</hi> group) with Blake. Shioe, for example, reveals that, in the paintings of Bakusen Tsuchida, Kagaku Murakami, and Hako Irie after their encounter with Blake via <hi rend="i">Shirakaba</hi> in 1914, celestial beings are deprived of “the weight of material form” (33), this being the way Blake painted his angelic forms. Goto focuses on two of the Blake exhibitions in the 1910s and notes their influence on painters in Tokyo and Kyoto. She clarifies “the image of Blake which the <hi rend="i">Shirakaba</hi> group including Yanagi Muneyoshi . . . built up” (17) in contrast with the images which other Western artists such as Rodin, Cézanne, and van Gogh present. Ima-Izumi shows how sensitive Yanagi and Jugaku were to the lines uttered by the female characters in Blake’s poetry, and considers their fascination with the female voice “against a backdrop of the burgeoning feminist consciousness in early twentieth century Japan” (19).</p>
+          <p>Besides the reception of Blake in Japan, there are various other approaches to the central issue Blake in the Orient. The phrase “the Orient” can be ambiguous, and unsurprisingly there are papers here which consider theory-oriented issues such as nation, empire, and history. They uncover historical incidents in Australia, China, Egypt, India, and other Oriental countries and, by establishing a connection between the incidents and Blake’s art and poetry, they explain a hitherto unrevealed aspect of Blake’s work. Tristanne Connolly (“Blake and Wilkins’ Translation of the <hi rend="i">Bhagavad-Gita</hi>”) begins with Blake’s reference to the <hi rend="i">Bhagavad-Gita</hi>, which was published by the East India Company and introduced by Warren Hastings, and compares Blake and Hastings, showing that “Blake installs the British in Indian culture, reflecting Hastings’ insistence that the Hindus more readily shared their ‘mysteries’ with the sympathetic English than other ‘intolerant’ oppressors” (13). Keri Davies (“Rebekah Bliss: Collector of William Blake and Oriental Books”) calls attention to Rebekah Bliss (1747-1819), who is “the earliest collector known to have owned anything by Blake” and “a prominent collector of Oriental books,” and invites us to consider the influence of Oriental art on Blake’s work by suggesting that Blake and Bliss “had some personal acquaintanceship” (14). Peter Otto (“Nebuchadnezzar’s Sublime Torment: William Blake, Arthur Boyd, and the East”) compares the representations of Nebuchadnezzar by Blake and the Australian painter Arthur Boyd (1920-99), and points out that “for both Blake and Boyd, Nebuchadnezzar’s sublime torments mark the collapse of the division. . . . between mind and body, Europe and what it tropes as its others” (30). Questioning the meaning of Orientalism, Edward Larrissy (“Blake and Orientalism”) suggests that “‘those wonderful originals’” in Asia are possible objects for imitation by Blake, and suggests further that “it is possible to claim that he thought of his own works as oriental in a positive sense” (23).</p>
+          <p>There are more abstracts in the program, which deserves the attention of all those who are interested not only in Blake’s art 
+<pb id="p38-115" n="115"/>
+and literature but also in his worldwide influence. Kenzaburo Oe, a Japanese winner of the Nobel Prize in literature in 1994, is one famous example of such connections. He started reading Blake’s poems when he was a student and, since then, has been making full use of the ideas and images of Blake’s poems in his own novels. This indicates that the strong tradition of the reception of Blake in Japan continues into the present.</p>
+          <p>When Yanagi, Oe, and other Japanese readers encountered Blake in the 1910s to 1980s, there was no complete translation of Blake’s work. The research environment has been different since Narumi Umetsu published, all by himself, the two-volume translation of Blake’s writings (including his letters and annotations) into Japanese in 1989.<ref target="n25" type="note">4</ref> These volumes give the Japanese easier access to Blake’s work and thereby help them to pass on to future generations Blake’s unique and continuing impact in Japan. <note id="n25">4. Narumi Umetsu, trans., <hi rend="i">The Complete Works of William Blake,</hi> 2 vols. (Nagoya: Nagoya University Press, 1989).</note></p>
+          <p>Yanagi’s position, no matter how unique it may be, can be more easily understood in the international perspective. A kindred mind that immediately occurs to us would be William Morris (1834-96), who commenced the Arts and Crafts movement in England. Yanagi, 55 years Morris’s junior, empathetically read Morris and published an essay entitled “William Morris’ Works” for the 100<hi rend="s">th</hi> anniversary of Morris’ birthday in the journal <hi rend="i">Crafts</hi>, which Yanagi himself launched in 1931 as one of the means to pursue the Folk Crafts movement in Japan. He had been impressed by Morris’s Kelmscott Chaucer earlier on when he visited Morris’s house in London in 1929. This direct encounter of Yanagi with Morris’s work may explain his insistence on having paper of the highest quality for <hi rend="i">Blake and Whitman.</hi> He chose Echizen handmade paper and had watermarks of his own design imprinted on the paper.</p>
+          <p>Yanagi and the <hi rend="i">Shirakaba</hi> group also had kindred spirits among their Western contemporaries. Roger Fry (1866-1934) in England, for example, is comparable to Yanagi in that, among many other things, he showed a keen sensitivity to what he termed “post-impressionist” painters such as van Gogh, Cézanne and Picasso. One might suspect that some invisible power prompted Fry to mount the first exhibition of post-impressionist paintings in 1910, the year when Yanagi launched the journal <hi rend="i">Shirakaba</hi> which admired those very post-impressionist paintings as an ideal artistic model. The <hi rend="i">Shirakaba</hi> group (together with its female version, the <hi rend="i">Seito</hi> group, which the catalogue does not mention) is comparable to the Bloomsbury group in many ways. But it is not just in England that we can find an artistic group of the 1910s to 1930s whose activities are analogous to those of the <hi rend="i">Shirakaba</hi> group. In Canada, there was a group of painters called the Group of Seven, which was officially founded in 1920 and was led by A. Y. Jackson (after the sudden death of Tom Thomson in 1917). The members were endeavoring to establish Canada’s national identity in art. (It is interesting to note that there was the Canadian women painters’ group called Beaver Hall Hill group, and that it was related to the male Group of Seven in a way similar to the <hi rend="i">Seito</hi> group’s relation with the all-male <hi rend="i">Shirakaba</hi> group in Japan.) The activities of Yanagi and the <hi rend="i">Shirakaba</hi> group were not an isolated case, but can be thus located in the global network of the advancement of arts and crafts.</p>
+          <p>I wish to add a few words, in closing, about what will emerge from the conference on Blake in the Orient. The organizers hope to publish the conference papers in the form of a book. The program might therefore be replaced by a more comprehensive publication in the future, but even so the catalogue of the exhibition will long stand as one of the most solid and reliable accounts of Blake’s legacy in Japan.</p>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <body>
+      <div1 id="BQ-38-3-0007">
+        <div2>
+          <head>
+            <title type="main">Blake at Work Exhibition. Tate Britain, London.</title>
+          </head>
+          <byline>Reviewed by <docAuthor>Antoine <name>Capet</name></docAuthor></byline>
+          <note type="unreferenced" place="footer">
+            <hi rend="i">Editors’ note: This review of the Tate’s Blake “collection display” first appeared online at H-Museum, the H-Net Network for Museums and Museum Studies &lt;http://www.h-museum.net&gt;, on 13 August 2004. It is reprinted here by permission of the author and of H-Museum.</hi>
+          </note>
+          <p>Subscribers interested in William Blake (1757-1827) may remember the major exhibition devoted to him at what was then the Tate Gallery, now Tate Britain, London, in 2000-01.<ref target="n26" type="note">1</ref> This year, Tate Britain has allocated a full room to a particular aspect of Blake’s art, viz. Blake at Work, exploring his painting and printing methods through 37 representative works by him and some contemporaries,<ref target="n27" type="note">2</ref> notably George Richmond (1809-96)<ref target="n28" type="note">3</ref> and some pieces of equipment, like his box of watercolors. <note id="n26">1. Comprehensive information on that exhibition is still available at &lt;http://www.tate.org.uk/britain/exhibitions/blake.htm&gt;.</note><note id="n27">2. Listed and illustrated, with captions, at &lt;http://www.tate.org.uk/servlet/CollectionDisplays?roomid=2780&gt;.</note><note id="n28">3. See caption of Richmond’s <hi rend="i">Abel the Shepherd</hi> (1825, tempera on oak): “Richmond had asked Blake’s advice about using tempera. Blake copied out for him a passage from a modern edition of a fourteenth-century treatise on art by Cennino Cennini” (reproduced on a panel to the left of <hi rend="i">Abel the Shepherd</hi>).</note></p>
+          <p>What makes the current exhibition so valuable is that it provides not so much a lesson in “art appreciation” from the usual aesthetic point of view as a magnificent introduction to “art appreciation” from the point of view of the media used
+<pb id="p38-116" n="116"/>
+and the consequences for the durability of Blake’s initial effects—a consideration too often neglected in comments on the “technique” adopted by artists.</p>
+          <p>The works shown fall into three broad categories: Blake’s work on tempera, his work in pen and ink and watercolor on paper (chief among them his illustrations for <hi rend="i">The Divine Comedy</hi>) and his color prints (generally) finished in pen and ink. Blake’s approach to tempera is excellently summed up in the caption to <hi rend="i">Satan Calling Up His Legions:</hi><q>
+This picture was shown in 1809 in Blake’s only one-man exhibition. It was described as “painted at intervals” and an “experiment on colours without any oil vehicle.” Blake was emphasising his rejection of oil paint as used by the Old Masters he called Venetian and Flemish “Demons.” Blake thought oil paint encouraged sloppy handling, and that lights and shades could not be rendered properly. No oil paintings by Blake have survived. Here, Blake used his own invented “Tempera,” patriotically emulating mediaeval artists whose work was “true” Art. The subject comes from Book I of John Milton’s poem Paradise Lost.
+</q></p>
+          <p>His experiments at recapturing the old tempera technique are shown in, inter alia, <hi rend="i">The Body of Christ Borne to the Tomb</hi> (c. 1799-1800) or <hi rend="i">The Spiritual Form of Nelson Guiding Leviathan</hi> (c. 1805-09). The objective of the curators (Robin Hamlyn and Joyce H. Townsend) appears clearly through these two examples, since the captions very neatly explain how the contrast in the state of conservation of two pictures is due to the different supports used by Blake.</p>
+          <p>For <hi rend="i">The Body of Christ Borne to the Tomb</hi>, they write:
+<q>
+This tempera is very well preserved, mainly because it was painted on thin linen canvas, stuck onto thin cardboard. This is stiff enough to reduce the cracking that develops on flexible canvas. It also made it unnecessary to add the animal glue lining which has spoilt the opaque white effect of Blake’s chalk preparatory layer in many temperas. As a result, Blake’s delicate painted details can still be seen as he intended.
+</q></p>
+          <p>By contrast, the reasons for the poor conservation of <hi rend="i">The Spiritual Form of Nelson Guiding Leviathan</hi> are given in language equally accessible to the layman:
+<q>
+This work is cracked and damaged because Blake used a thin canvas and chalk-based ground. The ground layer has darkened due to the conservation treatment of “glue” lining; this is only suitable for oil paintings. Layers of glue in some of Blake’s paints have also darkened. The orange tonality comes from remnants of a discoloured varnish. The contraction of the glue-rich layers and the movement of the thin canvas has created stress, causing cracking.
+</q></p>
+          <p>Likewise, for <hi rend="i">The Bard, from Gray</hi> (?1809, tempera heightened with gold on canvas support):
+<q>
+This tempera has greatly altered since it was painted. Blake used a very thin, white, preparatory layer of chalk and glue. This was impregnated with more glue during a conservation “lining” treatment more appropriate to an oil painting. This reduced the effect of transparent colours over a white background, and displaced some details painted in shell gold. Blake’s paint medium has also darkened greatly. The opaque red vermilion used for the line of blood, glazed over with madder lake, has survived better than blue areas.
+</q></p>
+          <p>Or <hi rend="i">The Ghost of a Flea</hi> (c. 1819-20, tempera heightened with gold on mahogany support):
+<q>
+Blake used gold leaf to dramatic effect in this work. A thin foil of “white” gold made from a gold-silver alloy lies under some of the curtains, the flesh of the flea, and the stars. The signature and tiny details in gold were painted on with a brush and “shell gold”: powdered gold foil made into paint. Blake’s thick paint layers made from gums, glue and sugar have now darkened to brown, suppressing the strong blue of the meteor trail.
+</q></p>
+          <p>Our enjoyment of Blake’s celebrated watercolors is also greatly enhanced by the technical details found in the captions. Tate Britain owns the originals used for <hi rend="i">Illustrations to Dante’s</hi> Divine Comedy (1824-27), and the examples displayed receive extremely informative—and extremely welcome—technical comments, in the dual sense of the materials chosen, notably the pigments, and the modes of execution. So much so that it is worth naming here all the illustrations exhibited, as the reader will then be able to reconstruct Blake’s technique even without seeing them.</p>
+          <q><hi rend="i">Dante and Virgil Penetrating the Forest:</hi><lb/><lb/>
+Blake added grey shadows in carbon black pigment on top of the colours he had used first. He strengthened some of the drawing with pen and ink over the colour. Both the blue pigment and the mixed green shades contain indigo. This lowers the contrast between them.<lb/><lb/><hi rend="i">The Inscription over the Gate:</hi><lb/><lb/>
+Dante describes the “dim” colours which contribute to his terror. Blake’s dark shadows of pure black pigment next to areas of unpainted white paper contribute to this. He used Prussian blue for the blue areas, and indigo blue mixed with yellow for the green foliage, so that they contrast. The blue, green and vermilion red do not overlap.<lb/><lb/><hi rend="i">Cerberus:</hi><lb/><lb/>
+Blake drew this design with charcoal as well as pencil and, later, pen and ink. The distant flames of Hell are contrasts of deep red vermilion, a brownish-pink lake pigment that is probably brazilwood, and yellow gamboge. Brazilwood was one of the cheaper and less popular red/pink lake colours. Blake was always careful not to overlay colours or drawing media. This served him in good stead here because, as he
+<pb id="p38-117" n="117"/>
+undoubtedly knew, charcoal tends to absorb a lot of colour from red lakes.<lb/><lb/><hi rend="i">The Simoniac Pope</hi>:<lb/><lb/>
+The paper is watermarked “W ELGAR 1794,” the year it was produced. It was then bound into book form. The parallel lines in the paper show it is “laid.” This means it has more texture than Blake generally used, but the weight of the book would have flattened it. The two sides of the paper have different textures: Blake used both sides for his illustrations.<lb/><lb/><hi rend="i">The Serpent Attacking Buoso Donati</hi>:<lb/><lb/>
+Here Blake’s figures show subtle effects of light and shade, particularly in their flesh tones. He used small brushstrokes of red, blue and black for this, laying the colours side by side rather than mixing them. The robber Donati (right) is about to be punished by being turned into a serpent. Blake’s technique and colour give form to his figure, but the blue also shows human life draining away into coldness.<lb/><lb/><hi rend="i">The Pit of Disease: The Falsifiers</hi>:<lb/><lb/>
+Blake used a red lake, probably brazilwood, and a gritty vermilion red to show the flames of Hell. These pigments have very different working properties, and are not easy to use in thin washes in gum medium. He preferred to use vermilion whenever a blood red or a living flesh tone was required. Here he has used it for parts of the diseased bodies of the two falsifiers at the right, which are raw with scratching.<lb/><lb/><hi rend="i">Dante and Virgil Approaching the Angel Who Guards the Entrance of Purgatory</hi>:<lb/><lb/>
+Here Blake has used Prussian blue, indigo blue, vermilion, a red lake (probably brazilwood), another red lake with a pinker tone, and yellow gamboge. He never used madder, the most stable of the red lakes, as it was too expensive.<lb/>
+All his pigments, except for vermilion, are sensitive to light, so it is fortunate this watercolour has not been exposed to too much light. Indigo blue and the red lakes fade faster than gamboge. This is because the gum Blake added to make the gamboge look glossy has protected it.<lb/><lb/><hi rend="i">Beatrice Addressing Dante from the Car</hi>:<lb/><lb/>
+Blake followed Dante’s text carefully when choosing his colours. The three women dancing before Beatrice are described, from left to right, as wearing “emerald,” “ruddy” and “snow new-fallen” garments, to symbolise the virtues of Hope, Charity and Faith. Blake used green verditer (probably), vermilion and chalk. This is one of the best preserved of the Dante illustrations. It includes a wider range of pigments than any of the others.
+</q>
+          <p>Apart from Blake’s <hi rend="i">Illustrations to Dante’s</hi> Divine Comedy, the room also has many remarkable watercolors, with equally revealing “technical” captions.</p>
+          <q><hi rend="i">The River of Life</hi> (c. 1805, pen and ink and watercolor on paper support):<lb/><lb/>
+This work . . . is . . . a rare example of how Blake presented his watercolours: he drew the washline border between ruled ink lines.<lb/>
+The yellow tone of the paper is the result of over-exposure to light. This caused some of the original blue paint (indigo perhaps) to fade; the fuzzy band of Prussian blue on the lower edge, and spots of the same colour in the river, were added later by someone trying to “correct” this fading.<lb/><lb/><hi rend="i">Satan in his Original Glory: “Thou wast Perfect till Iniquity was Found in Thee”</hi> (c. 1805, pen and ink and watercolor on paper support):<lb/><lb/>
+This watercolour . . . is . . . an extreme example of the damaging effects of over-exposure to light. The sky was originally an intense blue, now only visible at the lower right edge. The only colours which have survived unaltered are the vermilion red Blake used for the flesh, and red ochre in Satan’s wings. The paper has yellowed considerably. There is no evidence left of any yellow gamboge or pinkish red lakes.<lb/><lb/><hi rend="i">The Entombment</hi> (c. 1805, pen and ink and watercolor on paper support):<lb/><lb/>
+The watercolour is “drum-mounted,” that is, glued along its edges to a “window” cut in the board. The smudges of gold and black paint on the mount suggest the drawing was later framed with verre églomisé: glass painted with black and gold lines on its inner face. This method, invented by the eighteenth-century French framer J-B Glomy, became popular in the mid-nineteenth century.<lb/><lb/><hi rend="i">The Penance of Jane Shore in St. Paul’s Church</hi> (c. 1793, pen and ink and watercolor finished with size on paper support):<lb/><lb/>
+The “golden glow” of this watercolour comes from a very thick, now-yellowed glue layer that was almost certainly applied as a varnish by Blake. He varnished his temperas in a similar way. Once it had yellowed someone else added a picture varnish on top. This also went yellow but has since been removed. The subtle colouring of Blake’s painting is suppressed by the glue varnish.<lb/><lb/><hi rend="i">Los and Orc</hi> (c. 1792-93, pen and ink and watercolor on paper support):<lb/><lb/>
+The sombre mood is conveyed by the dark colour which Blake chose to dominate the scene. He used a pure brown ochre for the entire background. Orc’s shadow is a grey wash. The light falling on the figures’ flesh is shown with paint mixed from chalk and vermilion. The yellow used in the foreground—glossy, transparent gamboge—has not faded.
+</q>
+          <p>Finally, the room has a fine selection of Blake’s prints, carefully chosen, one presumes, for what they can teach us about his technical approach. Among them:
+<pb id="p38-118" n="118"/><q><hi rend="i">Newton</hi> (1795/c. 1805, color print finished in ink and watercolor on paper support):<lb/><lb/>
+The watermark in the paper has the date 1804. Blake must have printed this work in 1804-5. The complexity and quality of the colour-printed areas of the rock, and the high degree of hand-finishing applied to Newton’s flesh and hair, show the great technical proficiency he had acquired through his colour-printing experiments from the mid 1790s.<lb/><lb/><hi rend="i">Lamech and His Two Wives</hi> (1795, color print finished in ink and watercolor on paper support):<lb/><lb/>
+Blake’s image was printed onto smooth white paper. The light pencil crosses are framing marks of unknown date; they could be Blake’s. The inscription near the lower edge appears to be in Blake’s hand, perhaps written at the time of production. The writing at lower right, intended to be hidden by any frame, has been added by several curators. Blake’s handfinishing extended beyond the colour printing at each corner, and has been extended by others, for neat framing within a window mount.<lb/><lb/><hi rend="i">God Judging Adam</hi> (1795, color-printed relief etching with ink and watercolor on paper support):<lb/><lb/>
+This is a hand-finished relief etching, printed on paper from a copper plate. The broken texture visible along the light grey outline of God’s right arm was produced as the printing plate was lifted off the paper.<lb/><lb/><hi rend="i">Naomi Entreating Ruth and Orpah to Return to the Land of Moab</hi> (c.1795, color print finished in pen and ink, shell gold and chinese white support):<lb/><lb/>
+Blake wrote the word “Fresco” in the lower left, in Indiantype ink, and added his signature and the date. Blake expended much time and care in hand-finishing this print (see illustrations on the panel to the right). In addition to the normal range of pigments found in his prints, Blake used ultramarine to finish the white garments of Ruth and Orpah, and painted Ruth’s halo with shell gold, powdered gold leaf made into paint. Both were expensive materials.
+</q></p>
+          <pb id="p38-119" n="119"/>
+          <p>All art historians, not only Blake scholars, will want to pay a visit to Room 8 (where Blake at Work is on view) as soon as possible, since it is not clear whether this is intended to be a new permanent display. People interested in book illustration and the technique of early color prints will probably learn a lot, since nothing can replace the immediate, synoptic confrontation between the most informative captions and the works themselves (though the necessarily dim light sometimes makes the operation painful for those whose eyesight is declining). The general educated public will find an exemplary (and uncommonly comprehensive) introduction into the technical choices and experiments, with their long-term hazards from the point of view of durability and conservation, which the greatest artists had to make, within the limits of the materials then available to them.</p>
+          <p>It would therefore be a pity, for those who have occasion to be in London this summer [2004], to miss Blake at Work in case it is removed without prior notice to make room for some other exhibition.</p>
+          <lb/>
+        </div2>
+      </div1>
+    </body>
+  </text>
+<?xml version="1.0"?>
+<text id="volume_38">
+    <body>
+      <pb id="p38-119" n="119"/>
+      <div1 id="BQ-38-3-0008">
+        <div2>
+          <head>
+            <title type="main">Nobodaddy Wakes from His Slumber (After Blake 12)</title>
+          </head>
+          <byline>By <docAuthor>David <name>Shaddock</name></docAuthor></byline>
+          <q><hi rend="i">Why darkness &amp; obscurity</hi><lb/><hi rend="i">In all thy words and laws</hi><lb/><lb/>
+To Nobodaddy<lb/><lb/>
+He slept on his bed of shredded printouts more than fifteen years<lb/>
+After the Great Bear was slain. His triumph brief, he found himself<lb/>
+Shunted aside as liberals gloated and fornicated in the Holy Temple,<lb/>
+Where he alone had presided, where the sacred codes and secret pulses<lb/>
+From his vast network were downloaded, life-sustaining they were to him,<lb/>
+And without them he took to his bed and dreamed incessantly of Return,<lb/>
+While Dodd and his ilk grew emboldened and wove chains of regulation<lb/>
+Round his comatose-seeming torso. Beneath this deceptive slumber<lb/>
+Abstract Reason wove fantastic gambits in his brain, and when the Towers’<lb/>
+Crashing (foretold it was in a dream) woke him he had ready<lb/>
+New Orders, alive with power he drew from the Vault,<lb/>
+Constant Strife there would be, and crushing Control of the Imagination,<lb/>
+And Ashcroft his henchman rose like a statue on the hydraulic dais to proclaim them.<lb/></q>
+        </div2>
+      </div1>
+    </body>
+  </text>

@@ -1,0 +1,1079 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>4.2.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Fall 1970</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1970</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter</title>
+                        <biblScope unit="volIss">04.2</biblScope>
+                        <biblScope unit="volume">4</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Executive Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Managing Editor</resp>
+                            <name>Morris Eaves</name>
+                            <resp>Associate Editor</resp>
+                            <name>Donald D. Ault</name>
+                            <name>Michael Phillips</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1970"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_04">
+        <front>
+            <pb id="p04-31" n="31"/>
+            <div1 id="cover">
+                <figure n="cover.004.02.bqscan" rend="file">
+                    <figTranscr>BLAKE NEWSLETTER<lb/>
+                        Volume 4<lb/>
+                    Number 2<lb/>
+                    Whole Number 14<lb/>
+                    Fall 1970<lb/>
+                    NEWS AND WORKS IN PROGRESS<lb/>
+                    The Newsletter and the University of New Mexico, Recent<lb/>
+                    Publications, The American Blake Foundation, Teaching<lb/>
+                    Blake, Works in Progress, The de Young Museum and<lb/>
+                    <hi rend="i">The Complaint of Job</hi><lb/>
+                        33<lb/>
+                        NOTES<lb/>
+                        David Bindman, An Unpublished Blake Pencil Drawing<lb/>
+                        of the Lambeth Period<lb/>
+                        39<lb/>
+                        Michael Phillips, Blake's Corrections in <hi rend="i">Poetical Sketches</hi><lb/>
+                        40<lb/>
+                        REVIEW<lb/>
+                        E. J. Rose, on the second edition of David Erdman's<lb/>
+                        <hi rend="i">Blake: Prophet Against Empire</hi><lb/>
+                        48<lb/>
+                        QUERIES<lb/>
+                        W. H. Stevenson, Death's Door<lb/>
+                        49<lb/>
+                        Ruthven Todd, Blake's Copy of Dante<lb/>
+                        49<lb/>
+                        A CHECKLIST OF BLAKE SCHOLARSHIP/JUNE<lb/>
+                        1969-SEPTEMBER 1970<lb/>
+                        51<lb/>
+                        Copyright © 1970 by Morton D. Paley and Morris Eaves</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-04-2-0001">
+                <table id="contents" rows="12" cols="2">
+                    <row>
+                    	<cell colspan="2">
+			                <head>
+			                    <title>
+			                        <hi rend="u">CONTENTS</hi>
+			                    </title>
+			                </head>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">NEWS AND WORKS IN PROGRESS</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="4.2.news">The Newsletter and the University of New Mexico</ref>
+                        </cell>
+                        <cell>33</cell>
+                    </row>    
+                    <row>
+                        <cell><supplied type="emend">Arnold Fawcus,</supplied> <ref type="article" issue="4.2.fawcus">Recent Publications</ref> 
+                        </cell>
+                       <cell/>
+                    </row>
+                    <row>
+                        <cell><supplied type="emend">Roger and Kay Easson,</supplied> <ref type="article" issue="4.2.easson">The American Blake Foundation</ref>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><supplied type="emend">David Erdman,</supplied> <ref type="article" issue="4.2.erdman">Teaching Blake</ref> 
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="4.2.progress">Works in Progress</ref>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="4.2.complaint">The de Young Museum and <hi rend="i">The Complaint of Job</hi></ref>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">NOTES</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>David Bindman, <ref type="article" issue="4.2.bindman">An Unpublished Blake Pencil Drawing of the Lambeth Period</ref></cell>
+                        <cell>39</cell>
+                    </row>
+                    <row>
+                        <cell>Michael Phillips, <ref type="article" issue="4.2.phillips">Blake’s Corrections in <hi rend="i">Poetical Sketches</hi></ref>
+                        </cell>
+                        <cell>40</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">REVIEW</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>E. J. Rose, <ref type="article" issue="4.2.rose">on the second edition of David Erdman’s <hi rend="i">Blake: Prophet Against Empire</hi></ref>
+                        </cell>
+                        <cell>48</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">QUERIES</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>W. H. Stevenson, <ref type="article" issue="4.2.stevenson">Death’s Door</ref></cell>
+                        <cell>49</cell>
+                    </row>
+                    <row>
+                        <cell>Ruthven Todd, <ref type="article" issue="4.2.todd">Blake’s Copy of Dante</ref></cell>
+                        <cell>49</cell>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="4.2.checklist"><hi rend="b">A CHECKLIST OF BLAKE SCHOLARSHIP/JUNE 1969-SEPTEMBER 1970</hi></ref>
+                        </cell>
+                        <cell>51</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright © 1970 by Morton D. Paley and Morris Eaves</note>
+            </div1>
+            <pb id="p04-32" n="32"/>
+            <div1 id="BQ-04-2-0002">
+                <head>
+                    <title>The <hi rend="i">BLAKE NEWSLETTER</hi> is published quarterly under the sponsorship of the Department of English of the University of New Mexico.</title>
+                </head>
+                <p>Morton D. Paley, Executive Editor<lb/>
+				<hi rend="i">University of California, Berkeley</hi>
+                </p>
+                <p>Morris Eaves, Managing Editor<lb/>
+				<hi rend="i">University of New Mexico</hi>
+                </p>
+                <p>Donald D. Ault, Associate Editor<lb/>
+				<hi rend="i">University of California, Berkeley</hi>
+                </p>
+                <p>Michael Phillips, Associate Editor<lb/>
+				<hi rend="i">University of Edinburgh</hi>
+                </p>
+                <p>
+                    <hi rend="i">MANUSCRIPTS</hi> are welcome. They should be typed and documented according to the forms recommended in the <hi rend="i">MLA Style Sheet</hi>, 2nd ed., rev. (1970). Send two copies with a stamped, self-addressed envelope either to Morton D. Paley, Executive Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of California, Berkeley, California 94720, or to Morris Eaves, Managing Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of New Mexico, Albuquerque, New Mexico 87106.</p>
+                <p>
+                    <hi rend="i">SUBSCRIPTIONS</hi> are $3.00 for one year; invoiced, $4.00; overseas by air, $4.00 (U. S. currency if possible). Make checks or open, uncrossed money orders payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Managing Editor, <hi rend="i">Blake Newsletter</hi>, Department of English, University of New Mexico, Albuquerque, New Mexico 87106. <note type="unreferenced" place="footer">
+                        <hi rend="i">The cover reproduces number 256 in Blake’s series of water-colors for Edward Young’s <hi rend="u">Night Thoughts.</hi> Reproduced by permission of the Trustees of the British Museum.</hi>
+                    </note>
+                </p>
+            </div1>
+        </front>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <front>
+            <pb id="p04-33" n="33"/>
+            <div1 id="BQ-04-2-0003">
+                <head>
+                    <title type="section">
+                        <hi rend="b">NEWS AND WORKS IN PROGRESS</hi>
+                    </title>
+                </head>
+                <p>Our first news item concerns the <hi rend="i">Blake Newsletter</hi> itself. As our readers know all too well by now, the <hi rend="i">Newsletter</hi> has suffered from uncertainty about its future since its inception in 1967, fourteen issues ago. Now our problems seem to have been solved by the English Department of the University of New Mexico, which has generously agreed to meet part of the costs of publication. At the same time we welcome as co-editor Morris Eaves, a member of that department. This new arrangement enables us to produce an offset-printed issue, to double our run of copies to 500, and to publish illustrations. The result should be to make possible a better <hi rend="i">Newsletter</hi> as well as a more secure one. We are also now able to make plans to publish a reprint edition of early issues; more on this next time.</p>
+                <p>From now on, the <hi rend="i">Newsletter</hi> will be printed and mailed in Albuquerque; all correspondence relating to subscriptions should be sent there. Manuscripts for submission or correspondence in relation to editorial matters may be sent either to Berkeley or to Albuquerque.</p>
+				<byline>(<docAuthor>MDP</docAuthor>)</byline>
+            </div1>
+        </front>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <front>
+            <pb id="p04-33" n="33"/>
+            <div1 id="BQ-04-2-0003">
+                <head>
+                    <title type="main">
+                            <hi rend="i">RECENT PUBLICATIONS</hi>
+                        </title>
+                    </head>
+                    <byline>From <docAuthor>Mr. Arnold <name>Fawcus</name>,
+                        </docAuthor> Director of the Trianon Press:</byline>
+                    <p>
+                        <hi rend="i">All Religions Are One.</hi> Published by the Trianon Press for the William Blake Trust, July 1970. Distributed throughout the world by Bernard Quaritch Ltd., <hi rend="i">new address</hi> 5-8 Lower John Street, Golden Square, London W1V 6AB. Description and bibliographical statement by Sir Geoffrey Keynes.</p>
+                    <p>For a variety of reasons Blake’s early tractate, <hi rend="i">All Religions Are One</hi>, is of the greatest interest. There is only one known copy of the work in existence, the title-page coming to light only recently; this facsimile is therefore the first publication of this delightful and important little book. It consists of ten small etched plates, all printed in shades of green, touched here and there with brown or grey, averaging in size only 5.5 × 4 cm.: the frontispiece, depicting John the Baptist, a title-page, an "Argument" and seven "Principles." In these Principles Blake formulates some of the ideas to which he returned in <hi rend="i">The Marriage of Heaven and Hell.</hi> Blake identifies the Poetic Genius, that is God, with "Divine Humanity." Man is therefore uniform, yet with infinite variety in the individuals. All men, thus derived from a universal Poetic Genius, have but one religion, though each nation has its different beliefs according to its needs.</p>
+                    <p>Technically the background to the plates is most intriguing. They were almost certainly etched soon after the death, in 1787, of Blake’s brother, Robert, and just before those of the first illuminated book, <hi rend="i">Songs of Innocence</hi>, dated 1789. It was during this period that Blake was in doubt about the technique he should use for his "illuminated" printing and he received "instruction in a vision" from the spirit of his brother, Robert. These plates are therefore the first ones done by the illuminatedprinting technique Blake perfected in the great prophetic books.</p>
+                    <p>The reproduction in the facsimile is by two- and three-colour collotype, with the occasional addition, by hand, of water-colour washes through stencils. For all the
+<pb id="p04-34" n="34"/>
+plates, except the title-page, the Trianon Press worked from ektachromes supplied by the Henry E. Huntington Library and Art Gallery, corrected from artist’s colour-guides made at the library; the title-page was reproduced from the original, lent by Sir Geoffrey Keynes. To obtain a faithful reproduction, the entire text was silhouetted by hand on the collotype negatives. The Trianon Press facsimile is printed on pure Arches rag paper, matching the colour of the original, on leaves the size of the title-page, 30 × 23.5 cm., which is slightly smaller than the Huntington plates.</p>
+                    <p>There are 636 copies offered for sale:</p>
+                    <p>36 copies numbered I to XXXVI, each containing a set of proofs shewing the progressive stages of the collotype printing of the plates, with an extra set of the finished plates; bound in full morocco with a leather-edged slip-case covered in hand-marbled paper. £50 or $120</p>
+                    <p>600 copies numbered 1 to 600 bound in quarter morocco with hand-marbled paper sides and a matching slip-case. £18 or $43.20</p>
+                    <p>The Double Elephant Folio &amp; Quarto Co., Inc., and the San Vito Press of Seattle have published <hi rend="i">William Blake’s Illustrations to <hi rend="u">The Grave</hi>
+                        </hi> (1969; folio, paper covers, about $5.00). It contains in the following order (1) Cromek’s two-page "Advertisement" (but not Fuseli’s two-page introduction) and Blake’s dedicatory poem "To the Queen"; (2) the portrait of Blake painted by T. Phillips and Blake’s twelve designs for Blair’s <hi rend="i">The Grave</hi>, all executed by Schiavonetti; (3) Keynes’ text of "The Caverns of the Grave I’ve seen" (with a typographical error in line 17, "Far" for "For," to be found in Ruthven Todd’s <hi rend="i">Blake</hi> in the Dell Laurel Poetry Series), though the publishers nowhere indicate that the poem is from Blake’s Notebook and not from <hi rend="i">The Grave</hi>; (4) the notes "Of the Designs" that Damon attributes to Fuseli, Bentley and Nurmi (more probably) to B. H. Malkin; and finally, (5) a note from the publishers, who explain that their book "has been printed by photo-offset lithography from the original edition of 1804 [i.e., 1808]. It is number three in the Double Elephant-San Vito Press series." The reproductions were made from a copy of <hi rend="i">The Grave</hi> in the University of Washington Suzzallo Library. The order of the designs is that of the first edition--in his edition (Brown University Press, 1963) Damon followed the order stipulated by the writer of "Of the Designs"--except that the order of the last two designs is reversed without explanation.</p>
+                    <p>Holt, Rinehart and Winston, Inc., has published <hi rend="i">William Blake: <hi rend="u">Jerusalem</hi>, Selected Poems and Prose</hi>, edited with introduction, notes, and commentary by Hazard Adams, in the series of Rinehart Editions. There are xxxv + 747 pages, about 80 pages of which are the editor’s. The text is modernized except for capitalization. Two designs are reproduced, "Ezekiel’s Vision" on the cover and "Ancient of Days" as a frontispiece. $1.75.</p>
+            </div1>
+        </front>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <front>
+            <div1 id="BQ-04-2-0003">
+                <head>
+                    <title type="main">
+                            <hi rend="i">THE AMERICAN BLAKE FOUNDATION</hi>
+                        </title>
+                    </head>
+                    <byline>From <docAuthor>Roger</docAuthor> and <docAuthor>Kay <name>Easson</name>:</docAuthor>
+                    </byline>
+                    <p>The American Blake Foundation, a non-profit educational trust devoted to encouraging
+<pb id="p04-35" n="35"/>
+interest in the works of William Blake and his circle, was established July 7, 1970. The Foundation is moving to create a trust fund which will be used to finance national and international symposia, to award research grants, to give scholarships, and to create a research library. Funds will accrue from a projected reprint series of Blake’s illuminated works. Negotiations are currently underway to produce moderately priced full-color and black-and-white facsimiles which will be generally available to the student and scholar.</p>
+                    <p>Executive Board:<lb/>
+                        <lb/>
+Roger R. Easson<lb/>
+Kay Parkhurst Easson<lb/>
+Dale J. Briggs, Attorney-at-law</p>
+                    <p>Advisory Board of Directors:<lb/>
+                        <lb/>
+Stuart Curran, The University of Wisconsin<lb/>
+David V. Erdman, The New York Public Library<lb/>
+Robert F. Gleckner, University of California at Riverside<lb/>
+John E. Grant, University of Iowa<lb/>
+Jean Hagstrum, Northwestern University<lb/>
+Joseph Holland, Los Angeles, California<lb/>
+Karl Kroeber, Columbia University<lb/>
+Paul Miner, Seattle, Washington<lb/>
+E. J. Rose, University of Alberta, Canada<lb/>
+Rodger L. Tarr, Illinois State University<lb/>
+Robert R. Wark, Huntington Art Gallery<lb/>
+Winston Weathers, The University of Tulsa<lb/>
+Joseph A. Wittreich, Jr., The University of Wisconsin</p>
+                    <p>Inquiries and suggestions should be directed to:<lb/>
+                        <lb/>
+The American Blake Foundation<lb/>
+c/o <hi rend="i">Blake Studies</hi>
+                        <lb/>
+Department of English<lb/>
+Illinois State University<lb/>
+Normal, Illinois 61761</p>
+            </div1>
+        </front>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <front>
+            <div1 id="BQ-04-2-0003">
+                <head>
+                    <title type="main">
+                            <hi rend="i">TEACHING BLAKE</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>David <name>Erdman</name>
+                        </docAuthor> writes that</byline>
+                    <p>A semester Blake course is being given this fall in the SUNY CEH (Continuing Education in the Humanities) format, and seems to be going well. Thursdays at 7 p.m. Erdman holds forth, usually with slides, in one of the new lecture rooms--attendance of around 160 (half undergraduates, half schoolteachers); at 8:30 or earlier the class divides into five sections for "seminars" led by five dissertation-contemplating Teaching Assistants (dissertations on Blake, of course). The teaching group, with a few stray grad students who have joined the course, gather about 4 p.m. to start the conversation; it ends finally at 10 p.m., or later. One small knot continued past midnight. Then on Tuesday mornings we have a reading aloud of <hi rend="i">The Four Zoas</hi>, reaching Night the Eighth on Election Day. (The bureaucratic rubric for the course is "The Great Tradition. I.")</p>
+            </div1>
+        </front>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <front>
+            <pb id="p04-36" n="36"/>
+            <div1 id="BQ-04-2-0003">
+                <head>
+                    <title type="main">
+                            <hi rend="i">WORKS IN PROGRESS</hi>
+                        </title>
+                    </head>
+                    <p>Erdman, David (Stony Brook): "A group effort to read the Illuminations of <hi rend="i">The Marriage of Heaven and Hell</hi>, including all those minute hieroglyphics between the lines and in the margins, is well advanced. Marlene Van Meter is ‘Secretary’ of the group. We are aiming at publication in the spring.</p>
+                    <p>"Mrs. Van Meter is beginning a dissertation on the symbolism of the sun. Donald K. Moore is embarking on an edition of <hi rend="i">Europe</hi> for his dissertation. He has also been assisting me in work on the facsimile edition of Blake’s Notebook, now nearing completion and to be published by the Clarendon Press. I have finished a draft of an introductory study of the emblem drawings in the Notebook, which I’ve begun trying out on critical Blakists."</p>
+                    <p>Easson, Kay Parkhurst: "William Blake in the Twentieth Century," a book-length analysis of Blakean form and content in modern literature.</p>
+                    <p>Easson, Roger R. and Tarr, Rodger L.: "A Descriptive Bibliography of William Blake’s Works and Ana, 1920-1970; A Supplement and Addenda to Geoffrey Keynes’ <hi rend="i">Bibliography of William Blake.</hi>"</p>
+                    <p>Hagstrum, Jean: essays on the designs for <hi rend="i">The Four Zoas</hi> and for <hi rend="i">Tiriel.</hi> A study of the psychology of Blake.</p>
+                    <p>
+                        <hi rend="i">A correction: on page 30 of the August 1970 issue of the <hi rend="u">Newsletter</hi>, Cecil and Amelia Woolf are listed in "Works in Progress" as the authors of <hi rend="u">The Sports of Cruelty.</hi> Cecil and Amelia Woolf are the publishers. John Adlard is the author.</hi>
+                    </p>
+            </div1>
+        </front>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <body>
+            <div1 id="BQ-04-2-0003">
+				<pb id="p04-36" n="36"/>
+                <head>
+                    <title type="main">
+                            <hi rend="i">"THE COMPLAINT OF JOB"</hi><gap type="emend"/>
+                    </title>
+                </head>
+				<pb id="p04-61" n="61"/>
+                <figure>
+                        <head>The de Young Museum in San Francisco announces acquisition of <hi rend="i">The Complaint of Job</hi> (sepia wash on paper, 13 3/4" × 19") one of many items in the T. Edward Hanley Collection donated to the Museum by Mrs, Tullah Hanley.</head>
+                        <figDesc>According to Keynes and Wolf’s <hi rend="i">William Blake’s Illustrations to the Bible</hi>, this picture was sold at Christie’s in 1949. Its location is given by Keynes and Wolf as "Not traced (U.S.A.)."</figDesc>
+                </figure>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <pb id="p04-38" n="38"/>
+        <body>
+            <div1 id="BQ-04-2-0004">
+                <figure>
+                    <head>1 Drawing known as "The Dead Bad-Doers," recto.</head>
+                    <figDesc>In the collection of David Bindman.</figDesc>
+                </figure>
+                <figure>
+                    <head>2 "The Dead Bad-Doers," verso.</head>
+                </figure>
+                <pb id="p04-39" n="39"/>
+                <head>
+                    <title type="section">
+                        <hi rend="b">NOTES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>1. <docAuthor>
+                            <hi rend="i">DAVID</hi>
+                            <name>
+                                <hi rend="i">BINDMAN</hi>
+                            </name>:
+                        </docAuthor>
+                        <hi rend="i">WESTFIELD COLLEGE, LONDON</hi>
+                    </byline>
+                    <head>
+                        <title type="main">An Unpublished Blake Pencil Drawing of the Lambeth Period</title>
+                    </head>
+                    <p>A previously unpublished drawing by Blake appeared in a sale at Sotheby’s in London earlier this year and was bought by the present writer. The drawing was described as "The Dead Bad-Doers" and had been sold with the William Bell Scott collection under the same title in 1892.<ref target="n1" type="note">1</ref> It had more recently been in the collections of Lord Nathan, inserted in an extra-illustrated volume, and of Mr. F. L. Wilder. 
+                        <note id="n1">
+                            <hi rend="s">
+                                1
+                            </hi> W. B. Scott sale (14 July 1892), Sotheby’s, lot 135, bt. Ellis (£1.13.0).</note>
+                    </p>
+                    <p>The <hi rend="i">recto</hi> [1] shows a group of three figures floating on a cloud in various stages of wakefulness, and there is a rather faint inscription of probably four words in what is certainly Blake’s own formal script underneath the bearded figure. This was read by Bell Scott or the compiler of his sale catalogue as "The Dead Bad-Doers," but in fact only the first two words "The Dead" can be read clearly, and the words following could not be "Bad-Doers." They are now indecipherable despite prolonged attempts at reading them with ultra-violet light. A pencilled inscription "W. B." to the left of the inscription does not seem to be in Blake’s hand. The <hi rend="i">verso</hi> [2] contains a faint sketch which Mr. Martin Butlin has identified as a study in reverse for the titlepage of <hi rend="i">The Song of Los</hi>, of Urizen reclining with his hand on a skull.</p>
+                    <p>The drawing on the <hi rend="i">recto</hi> does not correspond to any known composition by Blake, but it does have a general similarity in atmosphere and style to some of the plates in <hi rend="i">The Book of Urizen</hi>, notably plate 17. The drawing is quite highly finished in parts, especially in the face of the Urizen-like bearded figure, which tends to suggest the first rather than the second half of the 1790’s. A date of about 1793-95 would seem to be about right on stylistic grounds. The inscription "The Dead" is an obvious clue to the subject, and the crouching position of the bearded figure as well as the struggles of the lower figure to disengage himself from a burial-shroud suggest that the drawing depicts the dead awakening from their slumber. In <hi rend="i">The Book of Urizen</hi>: "The dead heard the voice of the child / And began to awake from sleep / All things heard the voice of the child / And began to awake to life."<ref target="n2" type="note">2</ref> This passage occurs on plate 20, which has an illustration of the child Orc, and I can only suggest tentatively that the present drawing may have been intended initially to illustrate the passage but was rejected in the final version. This can only be a speculation, but the drawing does seem to point towards <hi rend="i">The Book of Urizen</hi>, and certainly towards a Prophetic Book rather than an independent composition. 
+                        <note id="n2">
+                            <hi rend="s">
+                                2
+                            </hi>
+                            <hi rend="i"> The Complete Writings of William Blake</hi>, ed. Geoffrey Keynes (London, 1957), p. 233.</note>
+                    </p>
+                    <p>There is no record of where William Bell Scott acquired the drawing, and his collection seems to have been gathered from various sources.<ref target="n3" type="note">3</ref> There is, however, some circumstantial evidence of its previous history. It would seem to correspond to drawing no. 116 in W. M. Rossetti’s list in the 1863 edition of Gilchrist’s <hi rend="i">Life</hi>, which is described as "A Dying Man crouching, with floating figures."<ref target="n4" type="note">4</ref> It is mentioned as being in the possession of "Mr. Evans," who is presumably the dealer to whom Tatham sold a number of Blake drawings,<ref target="n5" type="note">5</ref> and who also sold some Blake items to the British Museum in the 1850’s. "Mr. Evans" also owned the next drawing in the list, no. 117, "An Angel taking a huge stride in the air," which must be the drawing now in the Victoria and Albert Museum. Many of the uncoloured works that follow the above two drawings in the list are described as belonging to "Mr. Harvey," i.e., the dealer Harvey of Cockspur Street. A number of these drawings as well as the "Angel taking a huge stride" are now in the Victoria and Albert Museum, which purchased them in a bundle of twelve miscellaneous drawings from the dealer Parsons in 1881.<ref target="n6" type="note">6</ref> Most of the
+<pb id="p04-40" n="40"/>
+Victoria and Albert Museum drawings have, like the present example, a price scrawled on the <hi rend="i">verso</hi>, and in some cases crossed out and reduced. The present drawing has the price of two guineas reduced to one, and furthermore the word "guinea" is incorrectly spelt "guinie" as on some of the Victoria and Albert drawings. It is probable then that the prices were put on by Harvey, who must have sold the residue of his Blake drawings to Parsons, and they seem to have been priced according to the degree of finish. In the meantime he had sold a number of them previously to collectors, including a pencil drawing of "A Squatted Devil" (Rossetti, no. 123) to Bell Scott.<ref target="n7" type="note">7</ref> To sum up, the probable early provenance of the drawing is as follows: Mrs. Blake, Frederick Tatham, Evans by 1863, Harvey before 1880, William Bell Scott. Most of Blake’s miscellaneous drawings came through Tatham as Mrs. Blake’s executor so the provenance is hardly surprising, but if the scrawled prices on the back of many of Blake’s drawings can be established as that of the dealer Harvey then they could provide a link between existing drawings and the often cryptic descriptions in Rossetti’s list. 
+                        <note id="n3">
+                            <hi rend="s">
+                                3
+                            </hi> See W. B. Scott, <hi rend="i">William Blake: Etchings from his works</hi> (London, 1878).</note>
+                        <note id="n4">
+                            <hi rend="s">
+                                4
+                            </hi> Alexander Gilchrist, <hi rend="i">Life of William Blake, "Pictor Ignotus"</hi> (London and Cambridge, 1863), II, 250.</note>
+                        <note id="n5">
+                            <hi rend="s">
+                                5
+                            </hi> See Tatham’s letter to W. M. Rossetti of 6 November 1862 (W. M. Rossetti, <hi rend="i">Rossetti Papers</hi> [London, 1903], p. 16).</note>
+                        <note id="n6">
+                            <hi rend="s">
+                                6
+                            </hi> For example, Rossetti, nos. 121, 122, 143. The twelve drawings were bought from E. Parsons in 1881 for £7.14.0 (accession nos. 8761-65).</note>
+                        <note id="n7">
+                            <hi rend="s">
+                                7
+                            </hi> K. Preston, ed., <hi rend="i">The Blake Collection of W. Graham Robertson</hi> (London, 1952), p. 239, no. 126, lot 138 in the Bell Scott sale of 14 July 1892.</note>
+                	</p>
+                </div2>
+            </div1>  
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+        <body>
+            <div1>
+            	<div2>
+                    <byline>2. <docAuthor>
+                            <hi rend="i">MICHAEL</hi>
+                            <name>
+                                <hi rend="i">PHILLIPS</hi>
+                            </name>:
+                        </docAuthor>
+                        <hi rend="i">UNIVERSITY OF EDINBURGH</hi>
+                    <ref target="n0" type="note">*</ref></byline>
+                    <head>
+                        <title type="main">Blake’s Corrections in <hi rend="i">POETICAL SKETCHES</hi>
+                        </title>
+                    </head>
+                    <p>My primary purpose here is to provide a complete list of all corrections which Blake made in copies of <hi rend="i">Poetical Sketches.</hi> What is offered are the results of a systematic inspection and collation of the original emended copies of the poems. These findings anticipate a more comprehensive study which will provide detailed descriptions of the individual corrections that are present in each of the eight emended copies with photographs of the corrections in their varying states to complement my discussion. Remarks on the author’s changing attitude toward specific corrections and also an attempt to fix approximate dates to the various copies as to when they were corrected and presented will also be given, together with a discussion which will present new material regarding the printing of the poems. Before listing Blake’s corrections and their frequency of occurrence it will be of interest if a few introductory remarks are <note id="n0">
+                            <hi rend="i">Copyright</hi> © <hi rend="i">1970 by Michael C. Phillips.</hi>
+                        </note>
+                        <pb id="p04-41" n="41"/>
+made regarding Blake’s manner of proceeding with his poems following their return from the printer. I have also chosen to discuss Blake’s attitude toward <hi rend="i">Poetical Sketches</hi> after 1783. The attention that is given here to Blake’s corrections in <hi rend="i">Poetical Sketches</hi> owes much to the textual foundations established by Margaret Ruth Lowery and especially Sir Geoffrey Keynes in their respective studies of the poems. To Sir Geoffrey Keynes and to David V. Erdman I am particularly grateful for advice and opinion given at various stages in my researches.</p>
+                    <p>
+                        <hi rend="i">Poetical Sketches</hi> were returned to Blake from the printer in open sheets and probably in an edition of fifty copies as Sir Geoffrey Keynes has surmised.<ref target="n8" type="note">1</ref> At the time of printing and periodically thereafter Blake folded the sheets of his poems and hand-stitched them in plain blue-gray paper wrappers; copy B is extant as issued. He then emended his text with care and precision, usually employing what appears to be an India ink and frequently keeping the nib of his pen finely trimmed. During the course of his life Blake’s attitude toward a number of specific corrections changed as the corrections themselves vary in number and kind from copy to copy. For example, only two copies contain the same series of corrections. <note id="n8">
+                            <hi rend="s">
+                                1
+                            </hi>
+                            <hi rend="i"> Blake Studies</hi> (London, 1949), p. 25.</note>
+                    </p>
+                    <p>J. T. Smith recorded that <hi rend="i">Poetical Sketches</hi> were "given to Blake to sell to friends, or publish, as he might think proper."<ref target="n9" type="note">2</ref> Blake neither sold nor published his poems at any time; at least we have no evidence to suggest the occurrence of either possibility. At the time of Blake’s death there still remained in his possession a number of copies in their open unbound state.<ref target="n10" type="note">3</ref> This indicates that he must have bound and emended copies at a rate which corresponded with demand, that is, on the occasion when he wished to give a copy of his first poems to a newly-made friend or acquaintance. The suggestion that he only bound and emended a few copies at a time is substantiated by the variation in the number and nature of corrections that are present in the eight emended copies of the poems which have survived. <note id="n9">
+                            <hi rend="s">
+                                2
+                            </hi>
+                            <hi rend="i"> Nollekens and his Times</hi> (London, 1828), II, 457; reprinted in Bentley, <hi rend="i">Blake Records</hi> (Oxford, 1969), p. 457.</note>
+                        <note id="n10">
+                            <hi rend="s">
+                                3
+                            </hi> Three copies of <hi rend="i">Poetical Sketches</hi> (G, H and N) in their open unbound state were found by John Linnell in March 1890 in the house of Samuel Palmer; see <hi rend="i">Blake Studies</hi>, p. 36, notes to copy G.</note>
+                    </p>
+                    <p>During the period immediately following the return of the sheets from the printer Blake presented at least three emended copies of his poems to John Flaxman and his wife. Flaxman, of course, was almost certainly instrumental in having <hi rend="i">Poetical Sketches</hi> printed. Dr. William Long and William Hayley both received emended copies of <hi rend="i">Poetical Sketches</hi> (E and S) from Flaxman toward the end of April 1784,<ref target="n11" type="note">4</ref> and on 15 May of the same year Mrs. Flaxman presented a third copy (F) which had been emended by Blake. This third copy was almost certainly presented by Mrs. Flaxman to Isaac Reed, a close friend of both Long and Hayley. All three men possessed considerable influence in the literary world of the day, and this could well suggest the Flaxman’s purpose in bringing their attention to Blake’s first literary efforts. Although no evidence exists which would substantiate the presentation of additional copies during the period 1783-84, it would be reasonable to assume that at least a few other copies were presented at the time, probably to the Reverend and Mrs. A. S. Mathew and perhaps to Stothard, Fuseli and Barry. <note id="n11">
+                            <hi rend="s">
+                                4
+                            </hi> Refer to Flaxman’s letter to Hayley of 26 April 1784 as given in <hi rend="i">Blake Records</hi> and see Bentley’s note (p. 27, n. 3). Flaxman’s presentations in April 1784 could indicate that <hi rend="i">Poetical Sketches</hi> were printed very late in 1783, and perhaps not even returned from the printer until after the first of the year. Of course it would have taken Blake time to bind and then to carefully emend even a few copies in the midst of more pressing commercial tasks.</note>
+                    </p>
+                    <p>After the Flaxmans, George Cumberland and Thomas Butts are the earliest of Blake’s friends to whom copies of the poems can be traced. Copy D of <hi rend="i">Poetical Sketches</hi> (uncorrected) bears George Cumberland’s signature on the titlepage. Although the earliest extant letter that was written by Blake to Cumberland is dated 6 December 1795, their friendship evidently began some years before, possibly during the early 1780’s.<ref target="n12" type="note">5</ref> Blake met Thomas Butts during the early 1790’s<ref target="n13" type="note">6</ref> and it may have been during the first years of their long association that Blake presented Butts with his emended copy (B) of the poems. <note id="n12">
+                            <hi rend="s">
+                                5
+                            </hi> Geoffrey Keynes, "Some Uncollected Authors XLIV: George Cumberland 1754-1848," <hi rend="i">The Book Collector</hi>, 19 (Spring 1970), 31-65.</note>
+                        <note id="n13">
+                            <hi rend="s">
+                                6
+                            </hi> Alexander Gilchrist, <hi rend="i">Life of William Blake</hi>, ed. Ruthven Todd (London, 1942), p. 96.</note>
+                    </p>
+                    <p>The copy of <hi rend="i">Poetical Sketches</hi> (C) presented to Charles Tulk is distinguished by Blake’s personal inscription:
+<q>
+"Charles Tulk Esq<hi rend="s">re</hi> from William Blake"
+</q>
+                        <pb id="p04-42" n="42"/>
+Charles Augustus Tulk was born in 1786, three years after the printing of the poems. Tulk was educated at Westminster School and Trinity College, Cambridge, and returned to London in 1805 aged nineteen to read for the bar. It is probable that he did not become acquainted with Blake before 1810, when together with Flaxman he assisted in founding the London society for publishing Swedenborg’s works.<ref target="n14" type="note">7</ref> Blake also emended the copy of <hi rend="i">Poetical Sketches</hi> which he presented to Tulk. An emended copy (T) can also be traced to John Linnell, and it is well known that Blake first met Linnell at Rathbone Place in 1818.<ref target="n15" type="note">8</ref>
+                        <note id="n14">
+                            <hi rend="s">
+                                7
+                            </hi>
+                            <hi rend="i"> DNB</hi> LVII, 303-04.</note>
+                        <note id="n15">
+                            <hi rend="s">
+                                8
+                            </hi>
+                            <hi rend="i"> Blake Records</hi>, pp. 256 ff.</note>
+                    </p>
+                    <p>Unpublished entries in his diaries and correspondence disclose that Henry Crabb Robinson owned two copies of <hi rend="i">Poetical Sketches</hi>,<ref target="n16" type="note">9</ref> one of which may have been presented to him by the Flaxmans in 1810 and the second by Blake himself shortly after the two men first met at the dinner party that was given by Mrs. Charles Aders in December 1825. I believe one of these two copies to be that which is now in possession of University College London (copy W), which contains corrections and other MS. addenda a few of which are in Blake’s hand. This new knowledge of Crabb Robinson’s ownership of two copies of <hi rend="i">Poetical Sketches</hi>, the consequent implications regarding their availability to Robinson’s circle of friends, and his subsequent presentation of one of these copies to J. J. Garth Wilkinson, who in turn through Henry James, Sr., introduced a number of the poems to American readers for the first time, is the subject of a separate article which should be available shortly. <note id="n16">
+                            <hi rend="s">
+                                9
+                            </hi> Refer especially to entries and corresponding letters from 16 April 1848 to 24 May 1848; Henry Crabb Robinson MS. Diary, vol. XXI, "December 2, 1846-January 19, 1850," Dr. Williams’ Library, London.</note>
+                    </p>
+                    <p>We also know that Blake showed his first poems to Benjamin Heath Malkin and that with him he evidently discussed several of <hi rend="i">Poetical Sketches</hi> in detail. Their meeting and subsequent discussions probably took place in 1805, but possibly earlier.</p>
+                    <p>We can see that the presentations by Blake of just the copies which can be traced to their original owners are spread almost equally over the four decades of his life that followed the printing of the poems. The variation in corrections from copy to copy supports this and also manifests the care with which Blake reread his first poems at varying intervals during his later life. This clearly reverses the traditional view, which is still widely accepted by critics and scholars alike, that Blake abandoned or lost interest in <hi rend="i">Poetical Sketches</hi> either before or at any time after they were printed.</p>
+                    <p>For seventy pages of text Blake made only fifteen corrections in all, four of which are recorded here for the first time. I have also recorded two additional corrections, but there is some doubt still remaining as to whether they were made by the author. No single copy contains all of Blake’s corrections and only two copies (B and F) contain the same series in kind and number. In copies E and S, for example, which Blake gave to Flaxman in 1783-84, and who in turn presented them to Dr. Long and William Hayley, there occur five and six corrections respectively. In the copy presented by Mrs. Flaxman (F) less than a month following her husband’s presentations there occur only four corrections in Blake’s hand, but also present in this copy in four other hands are a number of suggestions for corrections together with a few sparse comments on individual poems written in adjacent margins. In the copy (B) which Blake presumably presented to Butts in the early 1790’s there also occur only four corrections. In all four of these copies (E, S, F and B) the same four corrections will be found, those made in "To Winter," "Fair Elenor" (p. 9, 1. 61), and the two in "Mad Song."</p>
+                    <p>In the copy which Blake presented to Tulk (C) probably after 1810 there are also only four corrections, but one of these appears in the Tulk copy for the first time. An even greater change in Blake’s attitude toward specific corrections is evident in the copy which can be traced to John Linnell (T). In the Linnell copy there occur six corrections in the author’s hand, but of these four are found for the first time. Indeed, the four corrections that are present in the Linnell copy are not known to exist in any other emended copy. In the University College London copy (W), which I believe to be one of the two copies owned by Henry Crabb Robinson, there occur only four corrections
+<pb id="p04-43" n="43"/>
+in Blake’s hand. As I have already suggested, it is probable that one of Robinson’s two copies was presented to him by the Flaxmans in 1810, and in the light of this probability it is interesting that the four corrections that are present in copy W are identical with those which are to be found in the three emended copies which Blake gave to the Flaxmans in 1783-84 to use for presentations.</p>
+                    <p>The most interesting and perplexing copy is that which is now in possession of the Preston Blake Library (Q). This copy contains ten corrections in Blake’s hand, three of which are unique. I believe this copy to have been emended by Blake toward the end of his life; it may be Robinson’s second copy, given to him by the author as late as 1825 or 1826. Until the original owner of copy Q is traced, however, we shall have to look (with due caution) to the corrections that are present in the Linnell copy (T) for what may be the author’s final judgements. However, the corrections which Blake was consistent and most assured in making will be apparent from the list of corrections that is given below, where their frequency of occurrence is recorded.</p>
+                    <p>In the light of the relatively small number of corrections and the nature of the corrections themselves it may be fairly deduced that Blake was pleased with the printed text and also that the text must have been relatively faithful to his original fair copies. For the poet himself I think that we can also say that his first poems evidently continued to hold a significant place in his esteem, probably as representing an integral and important stage in his own development and in the development of his canon.</p>
+                    <p>The findings that are given below have been obtained by my proceeding in the following manner. The eight extant copies of <hi rend="i">Poetical Sketches</hi> that Blake emended have been located and then carefully examined, either by myself, whenever possible, or by responsible scholars on my behalf. The handwriting of corrections has also been compared with corresponding examples of Blake’s hand present in his surviving manuscripts. If it has not been possible for me to examine a copy then photographs have been requested and the copy has been inspected in facsimile. Questions concerning erasures, inks that have been used and other factors that are not generally clear from a facsimile have then been clarified through correspondence. I should like to acknowledge here my gratitude to those who gave such assistance, particularly Professor D. F. McKenzie, who dealt expertly with the problems presented by copy F in possession of the Alexander Turnbull Library, Wellington, New Zealand.</p>
+                    <p>The following is a list of the eight extant copies of <hi rend="i">Poetical Sketches</hi> which have been emended by Blake. The ordering of these copies follows that of Sir Geoffrey Keynes in his "Census of Copies" published in <hi rend="i">Blake Studies</hi> (1949).</p>
+                    <table rows="8" cols="2">
+                        <row>
+                            <cell>B</cell>
+                            <cell>Thomas Butts copy. British Museum [Ashley No. 2366].</cell>
+                        </row>
+                        <row>
+                            <cell>C</cell>
+                            <cell>Charles Augustus Tulk copy. H. E. Huntington Library, San Marino, California [57432].</cell>
+                        </row>
+                        <row>
+                            <cell>E</cell>
+                            <cell>William Long copy. (Owner has asked to remain anonymous).<ref target="n17" type="note">10</ref>
+                                <note id="n17">
+                                    <hi rend="s">
+                                        10
+                                    </hi> Cf. <hi rend="i">Blake Records</hi>, p. 27, n. 4.</note>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>F</cell>
+                            <cell>Mrs. Anna Flaxman copy. Alexander Turnbull Library, Wellington, New Zealand.</cell>
+                        </row>
+                        <row>
+                            <cell>Q</cell>
+                            <cell>Graham Robertson copy. Preston Blake Library, City of Westminster Public Reference Library, London.</cell>
+                        </row>
+                        <row>
+                            <cell>S</cell>
+                            <cell>William Hayley copy. H. E. Huntington Library, San Marino, California [Dev. 80 30].</cell>
+                        </row>
+                        <row>
+                            <cell>T</cell>
+                            <cell>John Linnell copy. Lessing J. Rosenwald Collection, Alverthorpe Gallery, Jenkintown, Pennsylvania.</cell>
+                        </row>
+                        <row>
+                            <cell>W</cell>
+                            <cell>University College London copy. University College Library, London.</cell>
+                        </row>
+                    </table>
+                </div2>
+                <pb id="p04-44" n="44"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">BLAKE’S EMENDATIONS</hi>
+                        </title>
+                    </head>
+                    <p>Capital letters following individual corrections refer to the copies cited above in which the correction will be found. Page numbers refer to the 1783 text, line numbers correspond with those of the editions of Erdman, <hi rend="i">Poetry and Prose</hi> (1965) and Keynes, <hi rend="i">Complete Writings</hi> (1966). The descriptions of corrections given below are intended to be of a general nature, and it is to be allowed that the same correction will vary in detail from copy to copy with regard to the manner in which it has been accomplished. I have listed a few corrections present in copies F and W as being Blake’s, as I am convinced of their authenticity. However, it is only correct to state that with regard to the authenticity of these corrections in copies F and W, Sir Geoffrey Keynes remains "unconvinced" (letter to the author, 31 August 1967).</p>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>1.</label> "To Winter," p. 4, 1. 11: the word "in" has been deleted by pen from "and in his hand."</p>
+                            <p>B, C, E, F, Q, S, T, W total: 8</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>2.</label> "To the Evening Star," p. 5, 1. 2: the word "whilst" has been altered by pen to "while."</p>
+                            <p>Q total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>3.</label> "Fair Elenor," p. 7, 1. 6: the letter "s" in "cheeks" has been scraped away or deleted by pen.</p>
+                            <p>C, E, Q, S total: 4</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>4.</label> "Fair Elenor," p. 9, 1. 61: "I am" has been scraped away or partially scraped away and "behold" has been hand-lettered by pen in the text in imitation of the type.</p>
+                            <p>B, E, F, Q, S, W total: 6</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>5.</label> "Song," ("Love and harmony combine"), p. 12, 1. 16: the word "her" has been altered by pen to "his," or deleted and "his" has been written in above the line.</p>
+                            <p>C, Q total: 2</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>6.</label> "Mad Song," p. 15, 1. 4: the lefthand portion of the letter "u" of "unfold" has been scraped away and a dot added over the remainder altering the word to "infold."</p>
+                            <p>B, E, F, Q, S, W total: 6</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>7.</label> "Mad Song," p. 15, 1. 7: the word "beds" has been deleted by several fine strokes of the pen and the word "birds" has been very neatly penned immediately above the deletion.</p>
+                            <p>B, C, E, F, Q, S, W total: 7</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>8.</label> "An Imitation of Spencer," p. 24, 1. 14: the letter "s" in "others" has been deleted by several fine strokes of the pen.</p>
+                            <p>T total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>9.</label> "An Imitation of Spencer," p. 24, 1. 15: the letter "c" of the word "cares" has been altered by a single stroke of the pen to "e" changing the word to "eares."</p>
+                            <p>Q, T total: 2</p>
+                        </item>
+                        <pb id="p04-45" n="45"/>
+                        <item>
+                            <p>
+                                <label>10.</label> "An Imitation of Spencer," p. 25, 1. 44; "O warrior, maid invincible" has been altered by pen to read "O warrior maid, invincible." The comma following "warrior" has been deleted by pen and a comma has been penned in following "maid."</p>
+                            <p>Q total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>11.</label> "Blind-Man’s Buff," p. 28, 11. 64-65: the punctuation has been altered by pen from
+<q>
+"Who on the blinded man impose. Stand in his stead as long a-gone"
+</q>
+to
+<q>
+"Who on the blinded man impose, Stand in his stead; as long a-gone"
+</q>
+The alteration of the full stop to a comma and the insertion of a semi-colon following "stand" have been made very tidily in order to appear like printed type.</p>
+                            <p>Q total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>12.</label> "King Edward the Third," p. 29, sc. i: in the italic description of the scene, the words "before / it" have been struck out by pen.</p>
+                            <p>S total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>13.</label> "King Edward the Third," p. 44, sc. iii, 1. 236: the word "her" has been deleted by pen and "his" has been hand-lettered in imitation of the type in the adjacent margin.</p>
+                            <p>T total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>14.</label> "King Edward the Third," p. 46, sc. iii, 1. 292: the word "them" has been deleted by pen and the word "him" has been hand-lettered with pen in imitation of the type near the deletion.</p>
+                            <p>T total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>15.</label> "Contemplation," p. 64, 11. 37-39: in the line " . . . he followed me up and down in the house when I grew up; he was my school-fellow . . . " a colon has been penned in between the words "house" and "when" and the semi-colon between the words "up" and "he" has been deleted by pen. The emended line reads " . . . he followed me up and down in the house: when I grew up he was my school-fellow . . . "</p>
+                            <p>T total: 1</p>
+                        </item>
+                    </list>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">QUESTIONABLE EMENDATIONS</hi>
+                        </title>
+                    </head>
+                    <list type="ordered">
+                        <item>
+                            <p>
+                                <label>1.</label> "To Spring," p. 2, 1. 14: it would appear that the word "soft" in "Thy soft kisses" has been deleted by pen, but this could either be a perforation that has become discoloured or a genuine correction which has become discoloured. This correction, if genuine, is unique.</p>
+                            <p>T total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>2.</label> "Fair Elenor," p. 9, 1. 61: the "y" in the word "thy" has been partially scraped
+<pb id="p04-46" n="46"/>
+away, the paper being rubbed through immediately below; the rub mark is soiled. This may be a manifestation of Blake’s dissatisfaction with this line, viz., "I am" in the line altered in other copies to "behold."</p>
+                            <p>C total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>3.</label> "Mad Song," p. 15, 1. 7: the word "beds" has been deleted by pen and "birds" has been hand-printed by pen above the deletion. Some question still remains as to whether Blake made this correction.</p>
+                            <p>T total: 1</p>
+                        </item>
+                        <item>
+                            <p>
+                                <label>4.</label> "An Imitation of Spencer," p. 24, 1. 15: the letter "c" of the word "cares" appears to have been altered by a single stroke of the pen to "e" changing the word to "eares." The very small pen stroke that is involved here appears to have been smudged out.</p>
+                            <p>W total: 1</p>
+                        </item>
+                    </list>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">PROLEGOMENON</hi>
+                        </title>
+                    </head>
+                    <p>I should like to note here what remains to be accomplished if a definitive text of <hi rend="i">Poetical Sketches</hi> is to be established. There are at least fourteen copies of the poems which are known to be extant but which it is assumed that they do not contain any corrections by Blake. All of these copies must be carefully inspected again in the unlikely event that they do contain undiscovered corrections by the author or any other contemporary MS notes or markings which could be of interest. I have tried to accomplish these inspections whenever possible, but the location of several "uncorrected" copies is unknown, at least to me. May I suggest that if anyone knows of the present location of an original copy, regardless of how obvious that location may appear to be but given that it differs from the location given in Keynes’ census of 1949, would he please inform me so that arrangements for its inspection and the recording of findings can be made. This information will also greatly assist in bringing Sir Geoffrey Keynes’ "Census of Copies" of 1949 up to date.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+    	<body>
+            <pb id="p04-48" n="48"/>
+            <div1 id="BQ-04-2-0005">
+                <head>
+                    <title type="section">
+                        <hi rend="b">REVIEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">David V. Erdman. <hi rend="i">BLAKE: PROPHET AGAINST EMPIRE.</hi> 2nd ed. Princeton: Princeton University Press, 1969, Pp. xxix + 546. $12.50 (in paper covers, Garden City, N. Y.: Doubleday Anchor Books, 1969, $3.50).</title>
+                    </head>
+                    <byline>
+                        <hi rend="i">Reviewed by</hi>
+                        <docAuthor>
+                            <hi rend="i">E. J.</hi>
+                            <name>
+                                <hi rend="i">Rose</hi>
+                            </name>,
+                        </docAuthor>
+                        <hi rend="i">University of Alberta</hi>
+                    </byline>
+                    <p>In the <hi rend="i">Yale Review</hi> in 1954, Martin Price wrote that David Erdman had a tendency to convert "Blake’s irony too easily into mere expose" and went on to say that there was a kind of "‘conversion downwards’ that throughout the book seems in effect to invert Blake’s figural method into political pamphleteering." I doubt that it would be easy to find a critic of Blake more concerned with "Blake’s figural method" than I, but I did not and still do not share Price’s opinion. Price’s charge is really the only one that can be made on a broad scale against Erdman’s study. All other disagreements are of the kind that Erdman will defeat with additional evidence or include to extend his own interpretation.</p>
+                    <p>Were I asked to defend historical criticism I should cite <hi rend="i">Blake: Prophet Against Empire</hi> as the best example of that kind of criticism I could name; its author is not only not limited by the methods of the historical critic, he is able to use those methods to great effect. <hi rend="i">Blake: Prophet Against Empire</hi> is obviously more than a study of Blake’s historical allegory. The "ruthless allegorizing" Price found in Erdman’s book is still there, but the reader would have to be extremely dull to come away from a reading of it without having understood and appreciated Erdman’s rounded vision of Blake as a poet-prophet in continuing debate with not only his own times but all times. Like Thoreau, Blake does not simply read the "Times" he reads the Eternities.</p>
+                    <p>Erdman’s study of Blake deals thoroughly with one great wall of the poet-painter’s palace of art, but it is obvious that he has viewed that palace from other directions. Erdman’s overview of Blake is what prevents his detailing of the political ideas from becoming dry-as-dust. Many myopic Neoplatonic studies and thin but overly long "introductions" that neither possess Erdman’s scrupulosity nor his well-informed perspective on the whole Blake have been published since 1953: would to God that all Blake critics wrote <hi rend="i">Prophets.</hi>
+                    </p>
+                    <p>The revised edition of <hi rend="i">Blake: Prophet Against Empire</hi> leaves the book basically unchanged. Erdman has made corrections, alterations, minor changes, and a few elaborations in the text. He has also built much new information into the notes. While it is the destiny of a book of this kind to go encyclopaedic, it is to be regretted that so much of value interrupts necessarily the flow of the text. Reading <hi rend="i">Blake: Prophet Against Empire</hi> is like reading two books at once. Many of Erdman’s pages look like the heavily-annotated pages of undergraduate editions of <hi rend="i">Paradise Lost.</hi> The invitation is out continually, of course, to add and add, and between 1953 and 1969 Erdman harvested much from his continuing study of Blake and the contributions of others--all of which he acknowledges in proper fashion. I suspect Erdman already has more to add to the next revision.</p>
+                    <p>Future scholarship is bound to assume a talmudic relation to Erdman’s midrash on Blake. While some of Erdman’s interpretations and decipherings do not belong to the realm of "higher criticism," many others do. Critics who are not satisfied with "lower criticism" or with interpretations empirical in character, whether they are historical, biographical, bibliographical, or textual, will always mutter "caveat emptor." But Erdman hears the wing-beats of Blake’s spirit as it moves across the deeps of his
+<pb id="p04-49" n="49"/>
+works. In every chapter we get to know the whole Blake a little better through his rigorous explanation of the historical details. <hi rend="i">Blake: Prophet Against Empire</hi> makes good reading in combination with E. P. Thompson’s <hi rend="i">The Making of the English Working Class.</hi> In the two books the 1790’s come alive in a remarkable way and Blake is seen in the midst of it all laboring by the light of his fiery forge.</p>
+                    <p>Anagogical critics are still going to shake their collective heads at Rintrah as Pitt and similar identifications, but it is difficult, if not impossible, to quarrel with Erdman about any detail because he allows for other levels of interpretation while pressing his own. He, in fact, invites those other levels, perhaps more so in the revised edition than in the 1953 edition. What can one say about Erdman’s book but "Read it!" It stands with Frye’s <hi rend="i">Fearful Symmetry</hi> as one of the two great books on Blake.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+		<body>
+            <div1 id="BQ-04-2-0006">
+                <head>
+                    <title type="section">
+    					<hi rend="b">QUERIES</hi>
+                    </title>
+                </head>
+                <div2>
+                    <byline>1. <docAuthor>
+                            <hi rend="i">W. H.</hi>
+                            <name>
+                                <hi rend="i">STEVENSON</hi>
+                            </name>:
+                        </docAuthor>
+                        <hi rend="i">UNIVERSITY OF IBADAN</hi>
+                    </byline>
+                    <head>
+                        <title type="main">"Death’s Door"</title>
+                    </head>
+                    <p>I was in Coverdale--a long way away from Blake country, I admit--a couple of weeks ago, and I stopped to look at an old mine entrance. After I had stopped, its resemblance to Blake’s "Death’s Door," especially as it appears in <hi rend="i">America</hi> plate 12, struck me. That is, the entrance consisted of a stone doorway (though without an actual door), roofed over with a large slab. What brought the similarity to my mind was that a sizeable tree was growing above the slab, its roots twining round the entrance (which went into a sloping hillside). Is it possible that, besides the other associations of this image, Blake, having seen such mine entrances in his own area, thought of them as "entrances to death" in yet another connotation? I have not been able to check whether anyone else has thought of this, or whether Kent and Surrey yield similar doorways in fact; but someone closer to this area than I am at present may find the idea interesting.</p>
+                </div2>
+			</div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+		<body>
+            <div1 id="BQ-04-2-0006">
+                    <byline>2. <docAuthor>
+                            <hi rend="i">RUTHVEN</hi>
+                            <name>
+                                <hi rend="i">TODD</hi>
+                            </name>:
+                        </docAuthor>
+                        <hi rend="i">C’ AN BIELÓ, GALILEA, MALLORCA, SPAIN</hi>
+                    </byline>
+                    <head>
+                        <title type="main">Blake’s Copy of Dante</title>
+                    </head>
+                    <p>"An anonymous visitor," presumed to be William Carey, wrote an adulatory obituary of Blake in the <hi rend="i">Literary Gazette</hi>, 18 August 1827, in which he mentions that he saw Blake working from his copy of "Sessi Velutello’s Dante." Being more optimistic than anyone of my age has any right to be, I began to wonder what had happened to this copy. Unless it had been destroyed by fire or by "enemy action," it seemed unlikely to me that a 16th-century folio should have vanished from the face of the earth between 1827 and the present day. Probably, it seemed to me, either Mrs. Blake or Frederick Tatham, during a lean period, turned it into cash.</p>
+                    <pb id="p04-50" n="50"/>
+                    <p>Then it struck me that, working with the folio, it was more than likely that, besides inscribing his name upon the fly-leaf, Blake had annotated the volume. The obvious place to start asking was, of course, the British Museum.</p>
+                    <p>Miss Michèle Roberts, of the Bibliographical Service, after much hard work wrote to me that: "The British Museum possesses seven copies of <hi rend="i">Dante, con l’Espositioni di Christofero Landino et d’Alessandro Vellutello</hi>, two of the editions published in 1544, and one each of the editions published in 1551, 1564, 1571, 1578 and 1579 respectively. A copy with associations, such as the one you are looking for, would normally be indicated by a note in the Catalogue entry; although I checked each copy no trace of ownership or annotation by Blake was discernible in any of them." Miss Roberts further mentioned that the Bodleian Library possesses at least the 1544 edition.</p>
+                    <p>Although I have had no success so far, I have a feeling that some Dante scholar, somewhere, is nursing a copy of one of these editions and, being interested in the book only for his own purposes, may well be cursing the man who scribbled over the pages notes which, to him, appear arrant nonsense. As I live rather remotely on a Spanish island, I have written to my friend Professor Charles Singleton, of Johns Hopkins University, Baltimore, and have asked him, as a Dante expert, to spread word of my search in a world to which I myself have no other entry, and, to extend the search even farther, I would ask all Blakeians who come across any copy of any edition to check it carefully.</p>
+                    <p>In the course of different research, Miss Eunice Williams, of the Fogg Art Museum, Harvard University, told me that the Conservation Department had been examining the versos of the Dante drawings there. In addition to sketches, there are some most mysterious notes, such as, I pick at random, "N 18 next at p. 55." Since then, I have also received, from Dr. Ursula Hoff, transcriptions of the versos of all the Dante drawings in the National Gallery of Victoria, Melbourne, which have the same cryptic annotations.</p>
+                    <p>Of course, any investigation of these mysteries is quite outside my capabilities, but I started wondering whether, considering the elaborate commentary contained in the Vellutello editions, these notes might not be connected with one or another of them. By great good fortune, according to a letter from Mrs. E. I. Wicks, also of the Melbourne gallery, Mr. Nicholas Draffin, Assistant Curator, Prints and Drawings, is at present studying for twelve months at the British Museum.</p>
+                    <p>All I have been able to do so far is to try to pass on my suggestion about the notes being, in some way, related to one or another of the Vellutello editions to Mr. Draffin, and all I can do is to wish him success in cracking what, to me here on a mountainside, appears a code which would defy a computer or the best minds in the Pentagon.</p>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_04">
+		<body>
+            <pb id="p04-51" n="51"/>
+            <div1 id="BQ-04-2-0007">
+                <head>
+                    <title type="main">A CHECKLIST OF BLAKE SCHOLARSHIP/JUNE 1969-SEPTEMBER 1970</title>
+                </head>
+                <p>This, our third checklist of recent scholarship, covers the academic year 1969-70, with a bit of overlap on either side. We try, of course, to include as much as we can, but we make no claim to completeness. The checklist is useful mainly because it is timely. This year, however, we have added some new categories--films, phonograph records, and musical scores, for instance--and in those categories, especially, we have listed a number of items whose dates fall far outside our nominal 1969-70 boundary.</p>
+                <p>The chief compiler of this checklist was Laura Gorham; some items were furnished by Karen Walowit and Dolores Jordan.</p>
+                <p>We would appreciate all the correcting and adding our readers are willing to do.</p>
+                <p>
+                    <hi rend="i">The list is divided into these categories: Books/Articles/Reviews/Catalogues/Reproductions/Films and Television/Phonograph Records/Musical Scores.</hi>
+                </p>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">BOOKS</hi>
+                        </title>
+                    </head>
+                    <p>Adams, Hazard. <hi rend="i">Blake and Yeats: The Contrary Vision.</hi> 1955; rpt. New York: Russell and Russell, 1968.</p>
+                    <p>Beer, John. <hi rend="i">Blake’s Visionary Universe.</hi> Manchester: Manchester University Press, and New York: Barnes and Noble, 1969.</p>
+                    <p>Bentley, G. E., Jr. <hi rend="i">Blake Records.</hi> Oxford: Clarendon Press, 1969.</p>
+                    <p>Blake, William. <hi rend="i">All Religions Are One</hi> [facsimile]. London: Trianon Press for the William Blake Trust, 1970.</p>
+                    <p>—. <hi rend="i">Auguries of Innocence.</hi> Bronxville, N. Y.: V. Angelo, 1968.</p>
+                    <p>—. <hi rend="i">Auguries of Innocence</hi>, with wood engravings by Leonard Baskin. New York: Grossman, 1968.</p>
+                    <p>—. <hi rend="i">Blake’s <hi rend="u">Job</hi>: William Blake’s <hi rend="u">Illustrations of the Book of Job</hi>
+                        </hi>, introduction and commentary by S. Foster Damon. 1966; rpt. New York: Dutton, 1969.</p>
+                    <p>—. <hi rend="i">Europe, a Prophecy</hi>, ed. Geoffrey Keynes. London: Trianon Press for the William Blake Trust, 1969.</p>
+                    <p>—. <hi rend="i">
+                            <hi rend="u">Jerusalem</hi>, Selected Poems and Prose</hi>, ed. with introduction, notes and commentary by Hazard Adams. New York: Holt, 1970.</p>
+                    <p>—. <hi rend="i">Songs of Innocence and of Experience</hi>, ed. Margaret Bottrall. London: Macmillan, 1970.</p>
+                    <p>—. <hi rend="i">The Blake-Varley Sketchbook of 1819 in the collection of M. D. E. Clayton-Stamm</hi>, introduction and notes by Martin Butlin. 2 vols. London: Heinemann, 1969.</p>
+                    <p>—. <hi rend="i">The Complete Writings of William Blake with Variant Readings</hi>, ed.
+<pb id="p04-52" n="52"/>
+Geoffrey Keynes. Oxford: Clarendon Press, 1969.</p>
+                    <p>—. <hi rend="i">The Essential Blake</hi>, ed. Alfred Kazin. London: Chatto and Windus, 1968. [orig. pub. as <hi rend="i">The Portable Blake</hi> (Viking, 1946; rpt. 1968)]</p>
+                    <p>—. <hi rend="i">The Poems of William Blake</hi>, ed. W. B. Yeats. The Muses’ Library. 1905; rpt. Cambridge: Harvard University Press, and London: Routledge and Kegan Paul, 1970.</p>
+                    <p>—. <hi rend="i">The Poetry and Prose of William Blake</hi>, ed. David V. Erdman, commentary by Harold Bloom. 4th printing with revisions. Garden City, N. Y.: Doubleday, 1970.</p>
+                    <p>—. <hi rend="i">William Blake’s Illustrations to <hi rend="u">The Grave.</hi>
+                        </hi> Double Elephant-San Vito Press Series. Seattle: San Vito Press, 1969.</p>
+                    <p>Blondel, Jacques. <hi rend="i">William Blake, émerveillement et profanation.</hi> Archives des lettres modernes, no. 95, Paris: Lettres modernes, 1968.</p>
+                    <p>Bloom, Harold. <hi rend="i">Blake’s Apocalypse: A Study in Poetic Argument.</hi> 1963; rpt. New York: Cornell University Press, 1970.</p>
+                    <p>Bronowski, J. <hi rend="i">William Blake and the Age of Revolution.</hi> 1965 (rev. ed. of <hi rend="i">William Blake 1757-1827: Man without a Mask</hi>, 1943 [i. e. 1944]); rpt. New York and Evanston, Illinois: Harper and Row [Harper Colopon Books], 1969.</p>
+                    <p>Erdman, David V. <hi rend="i">Blake: Prophet Against Empire.</hi> 2nd ed. rev. Princeton: Princeton University Press, 1969. [in paper covers: Anchor Books. New York: Doubleday, 1969]</p>
+                    <p>Gardner, Stanley. <hi rend="i">Blake.</hi> New York: Arco, 1969.</p>
+                    <p>Gilchrist, Alexander. <hi rend="i">Life of William Blake.</hi> 2 vols. [1863?]; rpt. New York: Phaeton Press, 1969.</p>
+                    <p>Hamblen, Emily S. <hi rend="i">On the Minor Prophecies of William Blake.</hi> 1930; rpt. New York: Haskell House, 1968.</p>
+                    <p>Keynes, Geoffrey. <hi rend="i">A Bibliography of William Blake.</hi> 1921; rpt. Mamaroneck, N. Y.: Kraus Reprint Co., 1969.</p>
+                    <p>—. <hi rend="i">William Blake’s Illuminated Books: A Census.</hi> 1953; rpt. Mamaroneck, N. Y.: Kraus, 1969.</p>
+                    <p>Lister, Raymond. <hi rend="i">William Blake: An Introduction to the Man and to His Work.</hi> Foreword by G. E. Bentley, Jr. New York: Ungar, 1970.</p>
+                    <p>Paley, Morton D. <hi rend="i">Energy and the Imagination: A Study of the Development of Blake’s Thought.</hi> Oxford: Clarendon Press, 1970.</p>
+                    <p>Russell, Archibald G. B. <hi rend="i">The Engravings of William Blake.</hi> 1912; rpt. New York: Da Capo Press, 1969.</p>
+                    <p>Short, Ernest Henry. <hi rend="i">Blake.</hi> British Artists. 1925; rpt. New York: Haskell House, 1970.</p>
+                    <p>Weathers, Winston, ed. <hi rend="i">The Tyger.</hi> Columbus, Ohio: Merrill, 1969.</p>
+                    <p>Wilson, Mona. <hi rend="i">The Life of William Blake.</hi> [1927?]; rpt. New York: Cooper Square Publishers,
+<pb id="p04-53" n="53"/>
+1970.</p>
+                    <p>Wolf-Gumpold, K. <hi rend="i">William Blake.</hi> London: Rudolf Steiner Press, 1969.</p>
+                    <p>Wright, Thomas. <hi rend="i">The Life of William Blake.</hi> 1929; rpt. New York: Burt Franklin, 1969.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">ARTICLES</hi>
+                        </title>
+                    </head>
+                    <p>Adlard, John. "Triumphing Joyfulness: Blake, Boehme and the Tradition," <hi rend="i">Blake Studies</hi>, 1 (Spring 1969), 109-22.</p>
+                    <p>Allentuck, Marcia. "William Blake and William Bell Scott: Unpublished References to Blake’s Late Ninteenth-Century Reputation," <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 55-56.</p>
+                    <p>Anon. "Sketchbook of Work on Show at Tate Gallery (Blake)," London <hi rend="i">Times</hi>, 7 August 1969, p. 5, col. 1.</p>
+                    <p>Anon. "Some Anglo-American Divergences in the Appraisal of William Blake," <hi rend="i">Times Literary Supplement</hi>, 25 December 1969, pp. 1461-63.</p>
+                    <p>Anon. "T. V. Program on William Blake," London <hi rend="i">Times</hi>, 7 February 1969, p. 9, col. 5.</p>
+                    <p>Bayley, John. "The Batsman and the Bat," <hi rend="i">Spectator</hi>, 16 August 1969, pp. 207-08.</p>
+                    <p>Bentley, G. E., Jr. "A New Blake Document: The ‘Riddle’ Manuscript," <hi rend="i">Library</hi>, 5th series, 24 (December 1969), 337-43.</p>
+                    <p>—. "Byron, Shelley, Wordsworth, Blake and the Seaman’s Recorder," <hi rend="i">Studies in Romanticism</hi>, 9 (Winter 1970), 21-36.</p>
+                    <p>—. "William Blake, Samuel Butler, and George Richmond," <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 43-50.</p>
+                    <p>Bier, Jesse. "Put a Lion in Your Tank," <hi rend="i">Carleton Miscellany</hi>, 20 (Spring 1969), 86-94.</p>
+                    <p>Bogen, Nancy. "A New Look at Blake’s Tiriel," <hi rend="i">Bulletin of the New York Public Library</hi>, 74 (March 1970), 153-66.</p>
+                    <p>—. "William Blake, the Pars Brothers, and James Basire," <hi rend="i">Notes and Queries</hi>, 17 (August 1970), 313-14.</p>
+                    <p>Carner, F. "Printing House in Hell: William Blake’s Theory of Art," <hi rend="i">Artscanada</hi>, 26 (August 1969), 24.</p>
+                    <p>Corrigan, M. "Metaphor in William Blake: A Negative View," <hi rend="i">Journal of Aesthetics and Art Criticism</hi>, 28 (Winter 1969) 187-99.</p>
+                    <p>Curran, Stuart. "Detecting the Existential Blake," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 67-76.</p>
+                    <p>Curry, H. Wilson. "William Blake: Poet of Divine Forgiveness," <hi rend="i">Expository Times</hi> [Edinburgh], 80 (September 1969), 371-74.</p>
+                    <pb id="p04-54" n="54"/>
+                    <p>De Gruson, Eugene. "Bentley and Nurmi Addendum: Haldeman-Julius’ <hi rend="i">Blake</hi>," <hi rend="i">Blake Studies</hi>, 1 (Spring 1969), 203-05.</p>
+                    <p>De Luca, V. A. "Ariston’s Immortal Palace: Icon and Allegory in Blake’s Prophecies," <hi rend="i">Criticism</hi>, 12 (Winter 1970), 1-19.</p>
+                    <p>Doxey, William S. "William Blake and William Herschel: The Poet, the Astronomer, and ‘The Tyger,’ " <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 5-13.</p>
+                    <p>Duerksen, Roland A. "The Life-in-Death Theme in <hi rend="i">The Book of Thel</hi>," <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 15-22.</p>
+                    <p>England, Martha W. "The Satiric Blake: Apprenticeship at the Haymarket, Part I, " <hi rend="i">Bulletin of the New York Public Library</hi>, 73 (September 1969), 440-64.</p>
+                    <p>—. "The Satiric Blake: Apprenticeship at the Haymarket, Part II," <hi rend="i">Bulletin of the New York Public Library</hi>, 73 (October 1969), 531-50.</p>
+                    <p>Essick, Robert Newman. "The Art of William Blake’s Early Illuminated Books," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 89-90. [dissertation abstract]</p>
+                    <p>Fawcus, Arnold. "William Blake, Republican and Anti-imperialist: <hi rend="i">America, a Prophecy</hi>, and <hi rend="i">Europe, a Prophecy</hi>," <hi rend="i">Connoisseur</hi>, 172 (October 1969), 78-80.</p>
+                    <p>Fox, Susan C. "The Structure of a Moment: Parallelism in the Two Books of Blake’s <hi rend="i">Milton</hi>," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 21-35.</p>
+                    <p>Gould, T. "Four Levels of Reality in Plato, Spinoza, and Blake," <hi rend="i">Arion</hi>, 8 (Spring 1969), 20-50.</p>
+                    <p>Grant, John E. "You Can’t Write about Blake’s Pictures Like That," <hi rend="i">Blake Studies</hi>, 1 (Spring 1969), 193-202.</p>
+                    <p>Grool, H. B. de. "Ouroboros and the Romantic Poets: A Renaissance Emblem in Blake, Coleridge and Shelley," <hi rend="i">English Studies</hi>, 50 (December 1969), 553-64.</p>
+                    <p>Hagstrum, Jean H. "Rebuttal" [to Michael J. Tolley’s critique of Hagstrum’s reading of "The Fly"], <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 78-82.</p>
+                    <p>Hall, Mary S. "Blake’s <hi rend="i">Tiriel:</hi> A Visionary Form Pedantic," <hi rend="i">Bulletin of the New York Public Library</hi>, 74 (March 1970), 166-77.</p>
+                    <p>Helms, Randel. "Orc: The Id in Blake and Tolkien," <hi rend="i">Literatue and Psychology</hi>, 20 (no. 1, 1970), 31-35.</p>
+                    <p>Helmstadter, Thomas H. "Blake’s Night Thoughts: Interpretations of Edward Young," <hi rend="i">Texas Studies in Literatue and Language</hi>, 12 (Spring 1970), 27-55.</p>
+                    <p>Hull, Archibald A. "Imagery and Meaning: A Passage from Milton and from Blake," <hi rend="i">Texas Studies in Literature and Language</hi>, 11 (Fall 1969), 1093-1107.</p>
+                    <p>Johnson, Mary Lynn. "Beulah, ‘Mne Seraphim,’ and Blake’s Thel," <hi rend="i">Journal of English and Germanic Philology</hi>, 69 (April 1970), 258-78.</p>
+                    <p>Keane, Christopher. "Blake and O’Neill: A Prophecy," <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 23-34.</p>
+                    <p>Keynes, Geoffrey. "Some Uncollected Authors XLIV: George Cumberland 1754-1848," <hi rend="i">The</hi>
+                        <pb id="p04-55" n="55"/>
+                        <hi rend="i">Book Collector</hi>, 30 (Spring 1970), 31-65.</p>
+                    <p>—. "William Blake’s ‘Laughing Song’: A New Version; A Note by Geoffrey Keynes." Edinburgh: National Library of Scotland, 1969. [rpt. from <hi rend="i">Notes and Queries</hi>, 24 September 1910]</p>
+                    <p>Kiralis, Karl. "William Blake as an Intellectual and Spiritual Guide to Chaucer’s Canterbury Pilgrims," <hi rend="i">Blake Studies</hi>, 1 (Spring 1969), 139-90.</p>
+                    <p>Lister, Raymond. "W. B. Yeats as an Editor of William Blake," <hi rend="i">Blake Studies</hi>, 1 (Spring 1969), 123-38.</p>
+                    <p>Myrddin, Jones. "Blake’s ‘To Spring’: A Formative Source?" <hi rend="i">Notes and Queries</hi>, 17 (August 1970), 314-15.</p>
+                    <p>Parsons, C. O. "Blake’s ‘Tyger’ and Eighteenth-Century Animal Pictures," <hi rend="i">Art Quarterly</hi>, 31 (Autumn 1968), 296-312.</p>
+                    <p>Rose, Edward J. "Blake’s Illustrations for <hi rend="i">Paradise Lost, L’Allegro</hi>, and <hi rend="i">Il Penseroso:</hi> A Thematic Reading," <hi rend="i">Hartford Studies in Literature</hi> [University of Hartford], 2 (1970).</p>
+                    <p>Stevenson, W. H. "Circle, Centre and Circumference in Blake," <hi rend="i">Ibadan Studies in English</hi>, 1 (Spring 1970), 1956-65.</p>
+                    <p>—. "‘The Tyger’ as Artefact," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 5-19.</p>
+                    <p>Sutherland, J. "William Blake and Non-violence," <hi rend="i">Nation</hi>, 28 April 1969, pp. 542-44.</p>
+                    <p>Swingle, L. J. "Answers to Blake’s ‘Tyger’: A Matter of Reason or of Choice?" <hi rend="i">Concerning Poetry</hi>, 2 (Spring 1969), 61-71.</p>
+                    <p>Teitelbaum, Eve. "Form as Meaning in Blake’s <hi rend="i">Milton</hi>," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 37-62.</p>
+                    <p>Tolley, Michael J. "Blake’s Blind Man," <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 77-82. [critique of Jean H. Hagstrum’s reading of "The Fly" in <hi rend="i">William Blake: Essays for S. Foster Damon</hi>, ed. Alvin H. Rosenfeld (Providence, R. I.: Brown University Press, 1969), pp. 368-82]</p>
+                    <p>—. "Reply" [to Jean Hagstrum’s rebuttal of Tolley’s criticism of Hagstrum’s reading of "The Fly"], <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 86-88.</p>
+                    <p>Waldberg, Patrick. "André Masson ou le monde dans un grain de sable," <hi rend="i">XX<hi rend="s">e</hi> siècle</hi>, n. s. 32 (June 1969), 29-41. [Masson compared cursorily to Blake]</p>
+                    <p>Witke, Joanne. "<hi rend="i">Jerusalem</hi>: A Synoptic Poem," <hi rend="i">Comparative Literature</hi>, 22 (Summer 1970), 265-78.</p>
+                    <p>Wittreich, Joseph Anthony, Jr. "Blake in the Kitto Bible," <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 50-54.</p>
+                    <p>—. "Dylan Thomas’ Conception of Poetry: A Debt to Blake," <hi rend="i">English Language Notes</hi>, 6 (March 1969), 197-200.</p>
+                    <p>Woodworth, Mary K. "Blake’s Illustrations for Gray’s Poems," <hi rend="i">Notes and Queries</hi>, 17 (August 1970), 312-13.</p>
+                </div2>
+                <pb id="p04-56" n="56"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">REVIEWS (listed alphabetically by author of book reviewed)</hi>
+                        </title>
+                    </head>
+                    <p>Beer, John. <hi rend="i">Blake’s Visionary Universe.</hi> Reviewed by</p>
+                    <p>Anon. <hi rend="i">Economist</hi> [London], 17 January 1970, p. 50.</p>
+                    <p>Scott, R. E. <hi rend="i">Library Journal</hi>, 1 April 1970, p. 1370.</p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Gilbert</hi>
+                            </title>
+                        </head>
+                        <p>Bentley, G. E., Jr. <hi rend="i">Blake Records.</hi> Reviewed by</p>
+                        <p>[Peter, John]. <hi rend="i">The Malahat Review</hi>, no. 15 (July 1970), 121-22.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Gilbert</hi>
+                            </title>
+                        </head>
+                        <p>Blake, William. <hi rend="i">The Letters of William Blake</hi>, ed. Geoffrey Keynes. Reviewed by</p>
+                        <p>Weathers, Winston. <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 101-02.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Bentley</hi>
+                            </title>
+                        </head>
+                        <p>—. <hi rend="i">The Poems of William Blake</hi>, ed. W. B. Yeats. Reviewed by</p>
+                        <p>Anon. <hi rend="i">Choice</hi>, 6 (December 1969), 1390.</p>
+                        <p>Wren-Lewis, John. <hi rend="i">New Statesman</hi>, 22 August 1969, p. 249.</p>
+                        <p>—. <hi rend="i">The Gates of Paradise</hi> [Blake Trust facsimile]. Reviewed by</p>
+                        <p>L. W. <hi rend="i">Connoisseur</hi>, 171 (July 1969), 188.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Bentley</hi>
+                            </title>
+                        </head>
+                        <p>Dorfman, Deborah. <hi rend="i">Blake in the Nineteenth Century: His Reputation as a Poet from Gilchrist to Yeats.</hi> Reviewed by</p>
+                        <p>Harper, George Mills. <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 103-04.</p>
+                        <p>Johnson, Mary Lynn. <hi rend="i">Journal of English and Germanic Philology</hi>, 69 (July 1970), 525-28.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Gilbert</hi>
+                            </title>
+                        </head>
+                        <p>Lister, Raymond. <hi rend="i">William Blake: An Introduction to the Man and His Work.</hi> Reviewed by</p>
+                        <p>Douglas, Dennis. <hi rend="i">AUMLA</hi> [Australasian Universities Language and Literature Association], 33 (May 1970), 124-26.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">See below: Pinto</hi>
+                            </title>
+                        </head>
+                        <p>Raine, Kathleen. <hi rend="i">Blake and Tradition.</hi> Reviewed by</p>
+                        <p>Brendan, Kennelly. <hi rend="i">The Dublin Magazine</hi>, Spring 1970, pp. 104-07.</p>
+                        <p>Bronowski, J. <hi rend="i">Nation</hi>, 22 December 1969, pp. 700-01.</p>
+                        <pb id="p04-57" n="57"/>
+                        <p>Cruttwell, Patrick. "Blake, Tradition, and Miss Raine," <hi rend="i">Hudson Review</hi>, 23 (Spring 1970), 133-42.</p>
+                        <p>Hagstrum, Jean H. "Kathleen Raine’s Blake," <hi rend="i">Modern Philology</hi>, 68 (August 1970), 76-83.</p>
+                        <p>Miner, Paul. <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 57-60.</p>
+                        <p>Paley, Morton D. <hi rend="i">English Language Notes</hi>, 7 (June 1970), 304-11.</p>
+                        <p>Rosenfeld, Alvin H., ed. <hi rend="i">William Blake: Essays for S. Foster Damon.</hi> Reviewed by Stevenson, W. H. <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 91-97.</p>
+                        <p>Ryskamp, Charles. <hi rend="i">William Blake, Engraver: A Descriptive Catalogue of an Exhibition.</hi> Reviewed by Mosher, Fredric J. <hi rend="i">The Library Quarterly</hi>, 40 (July 1970), 361.</p>
+                        <p>Taylor, Thomas. <hi rend="i">Thomas Taylor the Platonist: Selected Writings</hi>, eds. Kathleen Raine and George Mills Harper. Reviewed by Callahan, Patrick. <hi rend="i">Blake Studies</hi>, 2 (Fall 1969), 98-100.</p>
+                        <p>Weathers, Winston, ed. <hi rend="i">The Tyger.</hi> Reviewed by Goodson, Lester, <hi rend="i">Blake Studies</hi>, 2 (Spring 1970), 61-62.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">More than one book about or by Blake were reviewed by the following (they are also referred to above):</hi>
+                            </title>
+                        </head>
+                        <p>Bentley, G. E., Jr. "Blake Scholars and Critics. The Texts," <hi rend="i">University of Toronto Quarterly</hi>, 39 (April 1970), 274-87. Review of <hi rend="i">The Letters of William Blake</hi>; <hi rend="i">The Gates of Paradise</hi>; <hi rend="i">Europe, a Prophecy</hi>; <hi rend="i">Songs of Innocence and of Experience</hi>, all by Blake and all edited by Geoffrey Keynes; Anne Malcolmson, ed., <hi rend="i">William Blake: An Introduction</hi>; David V. Erdman, ed., <hi rend="i">A Concordance to the Writings of William Blake.</hi>
+                        </p>
+                        <p>Gilbert, Thomas. <hi rend="i">English</hi>, 19 (Summer 1970), 66-67. Review of G. E. Bentley, Jr., <hi rend="i">Blake Records</hi>; Deborah Dorfman, <hi rend="i">Blake in the Nineteenth Century</hi>; John Beer, <hi rend="i">Blake’s Visionary Universe.</hi>
+                        </p>
+                        <p>Pinto, Vivian de Sola. <hi rend="i">Modern Language Review</hi>, 65 (January 1970), 153-55. Review of Raymond Lister, <hi rend="i">William Blake: An Introduction to the Man and His Work</hi>; S. Foster Damon, <hi rend="i">A Blake Dictionary: The Ideas and Symbols of William Blake</hi>; David Erdman, ed., <hi rend="i">A Concordance to the Writings of William Blake.</hi>
+                        </p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="i">The review of an art exhibit:</hi>
+                            </title>
+                        </head>
+                        <p>Mellow, J. R. New York <hi rend="i">Times</hi>, 19 July 1970, sec II, p. 19, col. 1. Review of a oneman art show called "[William Blake:] 21 Watercolors, Illustrations for the Story of Job" at the Morgan Library, New York.</p>
+                    </div3>
+                </div2>
+                <pb id="p04-58" n="58"/>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">CATALOGUES</hi>
+                        </title>
+                    </head>
+                    <p>National Library of Scotland. <hi rend="i">William Blake/Illuminated Books and Engravings</hi>, with foreword on the Blake Trust by Geoffrey Keynes; introduction by Isabel Henderson. Edinburgh: National Library of Scotland, 1969.</p>
+                    <p>New York Public Library. Exhibit "Pen and Brush: The Author as Artist," includes Blake through May 1970. <hi rend="i">Bulletin of the New York Public Library</hi>, 74 (April 1970).</p>
+                    <p>Princeton University Library. <hi rend="i">William Blake: Engraver/A Descriptive Catalogue of an Exhibition by Charles Ryskamp with an introductory Essay by Sir Geoffrey Keynes and preface by Charles Ryskamp.</hi> Princeton: Princeton University Library, 1969.</p>
+                    <p>Westminster City Libraries. <hi rend="i">William Blake: Catalogue of the Preston Blake Library Presented by Kerrison Preston in 1967.</hi> London: Westminster City Libraries, 1969.</p>
+                    <p>Whitworth Art Gallery. <hi rend="i">William Blake: Poet, Printer, Prophet.</hi> An exhibition of illuminated books arranged by the William Blake Trust and a selection of water colours and drawings formerly in the collection of W. Graham Robertson; 14 May to 21 June 1969, Whitworth Art Gallery. Manchester, Eng.: University of Manchester, 1969.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">REPRODUCTIONS</hi>
+                        </title>
+                    </head>
+                    <p>"Canterbury Pilgrims." <hi rend="i">Scottish Art Review</hi>, 12 (no. 3, 1970), 21.</p>
+                    <p>"Job’s Sacrifice," <hi rend="i">Studio</hi>, 177 (June 1969), 292.</p>
+                    <p>King, Horace Maybray. <hi rend="i">Songs in the Night: A Study of the Book of Job</hi>; with illustrations by William Blake and introduction by Arthur S. Herbert. Gerrards Cross: Smythe, 1968.</p>
+                    <p>"Lucia Carrying Dante in His Sleep" [drawing], <hi rend="i">Connoisseur</hi>, 170 (March 1969), 191.</p>
+                    <p>"Plate from the Illustrations to the Book of Job." <hi rend="i">Burlington Magazine</hi>, 111 (May 1969), xxii.</p>
+                    <p>"Satan, Sin and Death" [watercolor, 1807], <hi rend="i">Burlington Magazine</hi>, 112 (March 1970), 159.</p>
+                    <p>"Une des illustrations de la <hi rend="i">Divine comedie</hi> de Dante," <hi rend="i">Gazette des Beaux-Arts</hi>, 73 (16 February 1969).</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">FILMS AND TELEVISION</hi>
+                        </title>
+                    </head>
+                    <p>
+                        <hi rend="i">As a Man Is--So He Sees</hi> [television] on <hi rend="i">BBC 2</hi>, 1969. ["An essay by Adrian Malone on William Blake."]</p>
+                    <p>
+                        <hi rend="i">History of the Graphic Arts. Set 33: William Blake</hi> [filmstrip]. Budek Films and
+<pb id="p04-59" n="59"/>
+Slides of California, 1969.</p>
+                    <p>
+                        <hi rend="i">The Vision of William Blake</hi> [motion picture]. Blake Film Trust, London, in association with British Film Institute. Released in the U. S. by Contemporary Films/McGraw-Hill [196-?].</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">PHONOGRAPH RECORDS</hi>
+                        </title>
+                    </head>
+                    <p>Axelrod, David. <hi rend="i">Songs of Experience</hi> [arrangements for orchestra]. Capitol Stereo SKAO-338. ["An anthology of awareness after birth composed and arranged by David A. Axelrod based on the 18th century poems of William Blake."]</p>
+                    <p>Ginsberg, Allen. <hi rend="i">Allen Ginsberg/William Blake: "Songs of Innocence and Experience" by William Blake, tuned by Allen Ginsberg.</hi> MGM "Verve" FTS-3083.</p>
+                </div2>
+                <div2>
+                    <head>
+                        <title>
+                            <hi rend="i">MUSICAL SCORES</hi>
+                        </title>
+                    </head>
+                    <p>Antheil, George. <hi rend="i">Songs of Experience.</hi> 1948.</p>
+                    <p>Arnold, Malcolm. <hi rend="i">William Blake Songs.</hi> Five William Blake songs, op. 66, for contralto and string orchestra. London: British and Continental Music Agencies, 1966.</p>
+                    <p>Britten, Benjamin. <hi rend="i">Songs and Proverbs of William Blake for Band and Piano</hi>, op. 74. London: Faber and Faber; New York: Schirmer, 1965.</p>
+                    <p>Cowell, Henry. <hi rend="i">Daybreak</hi> [by] William Blake [and] Henry Cowell. 1946.</p>
+                    <p>—. <hi rend="i">The Little Black Boy.</hi> New York: C. F. Peters Corp., 1964.</p>
+                    <p>Jacobi, Frederick. <hi rend="i">Contemplation (to a poem by Blake)</hi>, for mixed chorus and piano, with second piano <hi rend="i">ad libitum.</hi> 1946.</p>
+                    <p>Karvonen, Paul Edwin. <hi rend="i">Concerto Overture, for Orchestra. The little black boy for soprano solo, string quartet, and clarinet to the poem of William Blake.</hi> Ann Arbor, Mich.: University Microfilms, 1960.</p>
+                    <p>Raskin, Ellen. <hi rend="i">Songs of Innocence</hi> [by] <hi rend="i">William Blake.</hi> Music and illustrations by Ellen Raskin. Guitar arrangement by Dick Weissman. [1st ed.] Garden City, N. Y.: Doubleday, 1966.</p>
+                    <p>Read, Gardner. <hi rend="i">Song of Innocence</hi>, op. 76, no. 3. Song, piano acc.; published as "Piping down the valleys wild," 1949.</p>
+                    <p>Rochberg, George. <hi rend="i">Blake Songs.</hi> Blake songs for soprano and chamber ensemble (1962). New York: Leeds Music Corp., 1963.</p>
+                    <pb id="p04-60" n="60"/>
+                    <pb id="p04-61" n="61"/>
+                    <figure>
+                        <head>The de Young Museum in San Francisco announces acquisition of <hi rend="i">The Complaint of Job</hi> (sepia wash on paper, 13 3/4" × 19") one of many items in the T. Edward Hanley Collection donated to the Museum by Mrs, Tullah Hanley.</head>
+                        <figDesc>According to Keynes and Wolf’s <hi rend="i">William Blake’s Illustrations to the Bible</hi>, this picture was sold at Christie’s in 1949. Its location is given by Keynes and Wolf as "Not traced (U.S.A.)."</figDesc>
+                    </figure>
+                </div2>
+            </div1>
+        </body>
+    </text>

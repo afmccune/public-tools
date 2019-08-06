@@ -1,0 +1,35 @@
+angel
+beak
+bird
+branch
+building
+carrying
+church
+coat
+cross
+curly hair
+door
+duck
+eyes closed
+facing left
+facing right
+flower
+grass
+grave
+hat
+hill
+holding
+leaf
+male
+mound
+plant
+standing
+striding
+text
+tombstone
+tree
+upper body
+upside down
+vine
+walking
+wing

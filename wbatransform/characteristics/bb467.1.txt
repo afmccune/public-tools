@@ -1,0 +1,60 @@
+arm bent
+arm braced
+arm extended
+armor
+arm raised
+arm raised horizontally
+bald
+beard
+branch
+coat
+collar
+crest
+curly hair
+Demosthenes
+eyes open
+facing down
+facing forward
+facing left
+facing right
+group of figures
+Hayley, Thomas
+head
+head up
+helmet
+holding
+inscription
+kneeling
+laurel
+leaf
+leg bent
+long hair
+looking
+loop
+lying
+male
+mouth open
+old
+palm upward
+Pericles
+plinth
+reclining
+ribbon
+robe
+rope
+scarf
+scroll
+shield
+shirt
+short hair
+soldier
+speaking
+spear
+standing
+statue
+string
+supine
+supporting
+text
+wall
+young

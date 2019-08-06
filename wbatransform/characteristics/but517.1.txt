@@ -1,0 +1,48 @@
+armor
+arm raised horizontally
+arms raised horizontally
+beard
+bending forward
+cloak
+cloud
+crouching
+crown
+curly hair
+dark
+Death
+facing away
+facing down
+facing forward
+facing left
+facing right
+facing up
+feather
+fire
+floating
+flying
+gown
+head bent back
+holding
+horse
+hovering
+kneeling
+leaping
+leg bent at knee
+leg extended backward
+legs bent
+legs drawn up
+legs extended
+long hair
+looking
+male
+mouth open
+old
+orb
+pointing
+riding
+scales
+scroll
+seen from behind
+sitting
+sun
+sword

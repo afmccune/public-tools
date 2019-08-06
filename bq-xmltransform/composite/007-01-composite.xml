@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<TEI.2>
+    <teiHeader type="BQ_Documents, vols. 1-43" status="new">
+        <idno>7.1.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>Summer 1973</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>1973</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Blake Newsletter/An Illustrated Quarterly</title>
+                        <biblScope unit="volIss">07.1</biblScope>
+                        <biblScope unit="volume">7</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Executive Editor</resp>
+                            <name>Morton D. Paley</name>
+                            <resp>Managing Editor</resp>
+                            <name>Morris Eaves</name>
+                            <resp>Associate Editor</resp>
+                            <name>Michael Phillips</name>
+                            <resp>Editorial Assistants for Production</resp>
+                            <name>Michael Davies</name>
+                            <name>Judith Wallick Page</name>
+                            <resp>Editorial Assistant for Subscriptions</resp>
+                            <name>Graham Conley</name>
+                            <resp>Bibliographer</resp>
+                            <name>Foster Foreman</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Department of English, University of New Mexico</publisher>
+                        <pubPlace>Albuquerque, NM, USA</pubPlace>
+                        <date when="1973"/>
+                        <authority>William Blake Archive</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+            <textDesc n="Scholarly journal">
+                <constitution type="composite"/>
+                <domain type="education"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_07">
+        <front>
+            <pb id="p07-2-3" n="1-3"/>
+            <div1 id="cover">
+                <figure n="cover.007.01.bqscan" rend="file">
+                    <figTranscr>BLAKE NEWSLETTER 25<lb/>
+                    AN ILLUSTRATED QUARTERLY<lb/>
+                    VOL. 7<lb/>
+                    NO. 1<lb/>
+                    SUMMER 1973</figTranscr>
+                </figure>
+            </div1>
+            <div1 id="BQ-07-1-0001">
+                <table id="contents" rows="12" cols="2">
+                	<row>
+            			<cell colspan="3">
+                			<head>
+                    			<title>
+                        		<supplied type="emend"><hi rend="b">Contents</hi></supplied>
+                    			</title>
+               				</head>
+            			</cell>
+        			</row>
+                    <row>
+                        <cell>
+                            <hi rend="b">Notes</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Martin Butlin, <ref type="article" issue="7.1.butlin">Five Blakes from a Nineteenth-Century Scottish Collection</ref></cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>Geoffrey Keynes, <ref type="article" issue="7.1.keynes">William Blake and Bart’s</ref></cell>
+                        <cell>9</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">Checklist</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="7.1.checklist">A Checklist of Recent Blake Scholarship, August 1972-September 1973, </ref>compiled by Gregory Candela, Marta Field, and Foster Foreman</cell>
+                        <cell>11</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="b">Reviews</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><ref type="article" issue="7.1.paley">BBC Blake: Morton D. Paley on two BBC films, <hi rend="i">Tyger, Tyger</hi> and <hi rend="i">William Blake</hi></ref>
+                        </cell>
+                        <cell>16</cell>
+                    </row>
+                    <row>
+                        <cell>Francis Wood Metcalf on <corr type="emend"><ref type="article" issue="7.1.metcalf">the Brown University Press-New York Public Library facsimile of <hi rend="i">The Book of Thel</hi> edited by Nancy <corr type="emend" rend="plain">Bogen</corr></ref></corr></cell>
+                        <cell>17</cell>
+                    </row>
+                    <row>
+                        <cell>Deirdre Toomey on <ref type="article" issue="7.1.toomey">the first volume of <hi rend="i">William Blake: Book Illustrator</hi> by Roger R. Easson and Robert N. Essick</ref></cell>
+                        <cell>19</cell>
+                    </row>
+                    <row>
+                        <cell>Morris Eaves on <ref type="article" issue="7.1.eaves">the York University videotapes about <hi rend="i">America</hi> and <hi rend="i">Visions of the Daughters of Albion</hi> produced and directed by Janet Warner, John Sutherland, and Robert Wallace</ref></cell>
+                        <cell>20</cell>
+                    </row>
+                    <row>
+                        <cell>Katharine M. Briggs on <ref type="article" issue="7.1.briggs"><hi rend="i">The Sports of Cruelty: Fairies, Folk-songs, Charms, and Other Country Matters in the Work of William Blake</hi> by John Adlard</ref></cell>
+                        <cell>22</cell>
+                    </row>
+                </table>
+                <note type="unreferenced" place="footer">Copyright ©1974 by Morton D. Paley and Morris Eaves</note>
+                <p>Published quarterly under the sponsorship of the Department of English of the University of New Mexico. Support for bibliographical assistance provided by the University of California, Berkeley.</p>
+                <p>Morton D. Paley, <hi rend="i">Executive Editor</hi>, University of California, Berkeley.</p>
+                <p>Morris Eaves, <hi rend="i">Managing Editor</hi>, University of New Mexico.</p>
+                <p>Michael Phillips, <hi rend="i">Associate Editor</hi>, University of Edinburgh.</p>
+                <p>Michael Davies and Judith Wallick Page, <hi rend="i">Editorial Assistants for Production</hi>, University of New Mexico.</p>
+                <p>Graham Conley, <hi rend="i">Editorial Assistant for Subscriptions</hi>, University of New Mexico.</p>
+                <p>Foster Foreman, <hi rend="i">Bibliographer</hi>, University of California, Berkeley.</p>
+                <p>Manuscripts are welcome. Send two copies either to Morton Paley, Dept. of English, Univ. of California, Berkeley, Ca. 94720, or to Morris Eaves, Dept. of English, Univ. of New Mexico, Albuquerque, N.M. 87131.</p>
+                <p>Subscriptions are $5 for one year, four issues; special rate for individuals, $4 for one year, surface mail; for those overseas who want to receive their issues by air mail, $8. U.S. currency if possible. Make checks payable to the <hi rend="i">Blake Newsletter.</hi> Address all subscription orders and related communications to Morris Eaves, Managing Editor.</p>
+                <p>Some back issues are available. Address Morris Eaves, Managing Editor. Prices: whole numbers 14, 15, and 21, $2 each. Whole numbers 17-18 (combined issue containing Robert Essick’s <hi rend="i">Finding List of Reproductions of Blake’s Art</hi>, 160 pages), $5. Whole number 20 (<hi rend="i">A Handlist of Works by William Blake in the Department of Prints &amp; Drawings of the British Museum</hi>, edited by G. E. Bentley, Jr.), $3.</p>
+                <p>The ISSN (International Standard Serial Number) of the <hi rend="i">Blake Newsletter</hi> is 0006-453X.</p>
+            </div1>
+        </front>
+    </text>
+</TEI.2>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-4" n="4"/>
+            <div1 id="BQ-07-1-0002">
+                <head>
+                    <title type="section">
+                        <hi rend="b">NOTES</hi>
+                    </title>
+                </head>
+                <figure>
+                    <head>1 "Pestilence," first version by Blake, c. 1779.</head>
+                    <figDesc>Pen and watercolor 5 7/16 × 7 5/16 in. (13.8 × 18.6 cm.). Donald Davidson collection.</figDesc>
+                </figure>
+                <figure>
+                    <head>2 Sketch for "War unchained by an Angel, Fire, Pestilence, and Famine following" by Blake, dated June 1783.</head>
+                    <figDesc>Pen and wash 7 × 8 11/16 in. (17.7 × 22.1 cm.). Donald Davidson collection.</figDesc>
+                </figure>
+                <pb id="p07-5" n="5"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">FIVE BLAKES FROM A 19TH-CENTURY SCOTTISH COLLECTION</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="b">Martin</hi>
+                            <name>
+                                <hi rend="b">Butlin</hi>
+                            </name>
+                        </docAuthor>
+                    <ref target="n0" type="note">*</ref></byline>
+                    <p>Five Blakes from the collection of Barron Grahame, FSA, of Morphie, Scotland (or "N.B." for North Britain, as it was called in other catalogues of sales from his collection), sold at Sotheby’s on 15 March 1878, have recently re-appeared in Scotland. Two now belong to Donald Davidson, three to David J. Black, all five coming from the collection of Robert Carfrae junr., whose father seems to have acquired them at the time of the Grahame sale, two examples being inscribed on the back with some variation of "B. Grahame sale London 1878" (see illus. 3).</p>
+                    <p>The Grahame sale included two lots containing works attributed to Blake. Lot 22 consisted of six "sketches in pencil, etc., of various subjects," and Lot 23 of "God Appearing to Adam and Eve, indian ink, fine, and another, pen and ink." Both lots were bought, for £2.11.0 and £5.7.6 respectively, by "Chalmers," possibly on commission for, or a pseudonym of, Robert Carfrae senr. Of the five works now known one is in pen and watercolor, one in pen and ink wash alone, and three in pencil, the first two being those belonging to Donald Davidson. Three, including the "God Appearing to Adam and Eve," are still missing.</p>
+                    <p>The watercolor (illus. 1) is what seems to be the earliest known version of "Pestilence" or "Plague," and is a sketch for the somewhat larger watercolor, at present untraced but known from a reproduction in <hi rend="i">The Connoisseur</hi>, 93 (1934), 209, where it is said to measure 10 ¾ × 7 ¼ in. (27.5 × 18.5 cm.). The newly re-discovered work, inscribed "WB" in the lower right-hand corner (not necessarily by Blake and partly lost through trimming) and "Lord have m<hi rend="s">
+                            <hi rend="u">er</hi>
+                        </hi> ["mercy"] on us" on the door shown on the left, measures 5 7/16 × 7 5/16 in. (13.8 × 18.6 cm.), the same size as the series of illustrations to English history of c. 1779, which it also resembles in style and technique. Blake’s list of English history subjects, written in his Notebook in 1793, but probably related to the project of c. 1779, includes "The Plague" immediately before "The Fire of London," presumably meaning the plague of 1665. David Bindman, in discussing this group of works in <hi rend="i">William Blake: Essays in honour of Sir Geoffrey Keynes</hi>, 1973 ("Blake’s ‘Gothicised Imagination’ and the History of England," p. 46), tentatively suggests that the "Plague," "Fire" and "Famine" of which versions were painted for Thomas Butts, in and about 1805, were originally an offshoot of the English history series; Mr. Davidson’s watercolor confirms this suggestion at least in the case of "Plague," of which there are in all no fewer than five versions, in which the composition evolves from a rather labored neo-classicism in the manner of Benjamin West to a much more economical example of Blake’s mature style.</p>
+                    <p>The recto of Mr. Davidson’s other drawing (illus. 2), in pen and wash, is similar in style and general subject though rather larger, 7 × 8 11/16 in. (17.7 × 22.1 cm.). It shows an angel, borne up by a heavy cloud, flying over a town square and brandishing a partly erased sword which seems to have set alight the temple in the background within which cower a group of inhabitants; in the foreground is a similar group, of father, mother and child, the last being apparently sick or dead. No other version of this composition is known today, but it is tempting to see it as the first sketch for the lost Royal Academy exhibit of 1784, no. 427, "War unchained by an Angel, Fire, Pestilence, and Famine following." The date "June 1783" in the lower right-hand corner (again partly lost through trimming) lends some support to this identification, though it is not definitely in Blake’s hand. The sketch is bolder and more accomplished than "The Plague," though Blake’s developing imaginative powers are not yet matched by his technique.</p>
+                    <p>On the reverse of this drawing in pen and wash are a number of studies in pencil, much more assured in technique though less imaginative and individual <note id="n0">
+                            <hi rend="i">Martin Butlin is Keeper of the British Collection at the Tate Gallery, London, and a specialist on the work of Blake and J. M. W. Turner. He is the author of</hi> William Blake: A Complete Catalogue of the Works in the Tate Gallery <hi rend="i">and of many articles on Blake that have appeared in the</hi> Newsletter. <hi rend="i">He is compiling a complete catalogue of Blake’s paintings, watercolors, and drawings.</hi>
+                        </note>
+                        <pb id="p07-6" n="6"/>
+                        <figure>
+                            <head>3 Verso of 2: studies by Blake for the frontispiece to Benjamin Malkin’s <hi rend="i">A Father’s Memoirs of his Child</hi>, published 1806.</head>
+                            <figDesc>Pencil on sheet 8 11/16 × 7 in. (22.1 × 17.7 cm.).</figDesc>
+                        </figure>
+                        <figure>
+                            <head>4 Study for <hi rend="i">Jerusalem</hi> plate 51 by Blake.</head>
+                            <figDesc>Pencil 6 5/16 × 13 ⅜ (16 × 34 cm.). David J. Black collection.</figDesc>
+                        </figure>
+                        <pb id="p07-7" n="7"/>
+                        <figure>
+                            <head>5 Study of Theotormon (?) by Blake.</head>
+                            <figDesc>Pencil 7 ⅞ × 6 7/16 in. (20 × 16.3 cm.). David J. Black collection.</figDesc>
+                        </figure>
+in style (illus. 3). They seem to relate to the frontispiece of Benjamin Heath Malkin’s <hi rend="i">A Father’s Memoirs of his Child</hi>, engraved by Cromek after Blake and published in 1806 (repro. G. E. Bentley, Jr., <hi rend="i">Blake Records</hi>, 1969, pl. 23; there is another sketch, for the composition as a whole, but differing considerably from the final engraving, in the British Museum, 1867-10-12-201; Lawrence Binyon, <hi rend="i">Catalogue of Drawings by British Artists . . . in the British Museum</hi>, I, 1898, no. 43 [5]). Two of the heads are close to that of the child shown taking leave of his mother and again in the medallion above. Others seem to reflect an unused idea for a putto flying down from the right. The sketches of feet, though not precisely followed by the feet of the angel and the child, could well have been done in preparation for them.</p>
+                    <p>Of the three pencil drawings belonging to David J. Black one (illus. 4) is a sketch for plate 51 of <hi rend="i">Jerusalem</hi>, very similar to it though in reverse, but with the fascinating addition of an extra figure on the left (that is, on the right had it been included in the engraving). It measures 6 5/16 × 13 ⅜ (16 × 34 cm.). The engraved plate shows Vala, Hyle and Skofield; the additional figure, to follow a suggestion of Morton D. Paley, is probably Hand. The paper shows signs of having been folded back twice, once to eliminate this extra figure, the other time to eliminate that of Skofield as well.</p>
+                    <p>Another of the pencil drawings (illus. 5) is similar in style and scale to a number of drawings associated with the illuminated books, particularly <hi rend="i">Jerusalem</hi>, but cannot be related to any one plate (see the drawing for <hi rend="i">Jerusalem</hi> pl. 37, repro. Sir Geoffrey Keynes, <hi rend="i">Drawings of William Blake</hi>, 1970, no. 55, and also his no. 50, for which see Frederic Cummings in exhibition catalogue, <hi rend="i">Romantic Art in Britain</hi>, Detroit and Philadelphia, 1968, Anne T. Kostelanetz’s review in the <hi rend="i">Blake Newsletter</hi>, 2 [1968-69], 5-6, and Frederic Cummings’ reply in same, pp. 46-48). It is a variant of a recurrent and particularly expressive motif in Blake’s art, the figure seen from the front but leaning forward so far that the hair falls away from the neck enabling one to see the bare neck and shoulders; examples are on page 68 of <hi rend="i">Vala</hi> and the figure of Eve in "The Body of Abel found by Adam and Eve" (repro. G. E. Bentley, Jr., <hi rend="i">William Blake: Vala or The Four Zoas</hi>, 1963, and Geoffrey Keynes, <hi rend="i">William Blake’s Illustrations to the Bible</hi>, 1957, pls. 15a and 15b). The figure in this drawing is particularly close to that in "Theotormon Woven," perhaps also to be associated with <hi rend="i">Jerusalem</hi> (see Morton D. Paley, "The Figure of the Garment in <hi rend="i">The Four Zoas, Milton</hi>, and <hi rend="i">Jerusalem</hi>" in Stuart Curran and Joseph Anthony Wittreich, Jr., <hi rend="i">Blake’s Sublime Allegory</hi>, 1973, p. 128, repro. pl. 2).</p>
+                    <p>In the upper right-hand corner of the sheet, which measures 7 ⅞ × 6 7/16 in. (20 × 16.3 cm.), there is a rather indistinct sketch, which seems to resemble the girl at the bottom of the pen and wash drawing for <hi rend="i">The Grave</hi> in the collection of Robert N. Essick, "The Soul exploring the Recesses of the Grave" of c. 1805 (repro. <hi rend="i">Blake Studies</hi>, 4 [Spring 1972], cover), and the suggestion of masonry behind the main figure on the sheet also recalls this composition. This variation on the theme of the expressive exposure of the back of the neck is particularly close to the figure of Grief in Fuseli’s "Melancholy," an illustration to <hi rend="i">Il Penseroso</hi> painted for Fuseli’s Milton Gallery between October 1799 and March 1800. This has been destroyed but is known from the engraving in <hi rend="i">Sharpe’s British Theatre</hi>, 1804 (see Gert Schiff, <hi rend="i">Johann Heinrich Fusslis Milton-Galerie</hi>, 1963, pp. 94, 161, the engraving repro. pl. 52). Fuseli repeated this figure on its own for his painting of "Silence," which was engraved by J. Burnet for the title-page of Fuseli’s <hi rend="i">Lectures on Painting</hi>, published in 1801 (repro. Schiff, pl. 53). It is often difficult to establish priorities as between Fuseli and Blake, whom Fuseli found it "damned good to steal from," but in this case Fuseli was probably the first. However, it seems to have been Blake who added the final emotive element of the bare neck to that of the hair hanging down to conceal the face.</p>
+                    <pb id="p07-8" n="8"/>
+                    <p>The third pencil drawing (illus. 6), 6 5/16 × 9 ½ in. (16 × 24.2 cm.), is a version of the drawing in pencil, partly finished in watercolor, in the British Museum with the tentative title of "Hamlet and the Ghost of his Father" (1874-12-12-130; Binyon <hi rend="i">Catalogue of Drawings</hi>, no. 43 [17], where it is suggested that the watercolor may be by William Blake’s younger brother Robert). The pencil drawing is more detailed and higher in quality than that underlying the British Museum watercolor and the work seems to be a genuine, if very early and immature, sketch by William.</p>
+                    <p>A clue to the identification of the subject of this drawing is tied up with the probable early history of all the Barron Grahame Blakes. These, it will be remembered, numbered eight in all, though only five are known at present. A single lot in the sale of the print-seller Joseph Hogarth at Southgate and Barrett’s, 7-30 June 1854, seems to have contained the same eight works. Lot 4624 on the eleventh evening of the sale was described as "The Destroying Angel, The Plague, Witch of Endor, etc. (8)" (meaning eight works in all). "The Plague" could well be the Donaldson version; none of the others has a better claim. "The Destroying Angel" is a good description of the drawing here identified as a sketch for "War unchained by an Angel. . . ." Although the Witch of Endor is not herself visible the composition of both David Black’s drawing and the version in the British Museum fulfills much of her description of what occurred when Saul asked her to evoke the ghost of Samuel: "I saw gods ascending out of the earth. . . . An old man cometh up; and he is covered with a mantle" (<hi rend="i">I Samuel</hi> 28: 13-14). The titles in the Hogarth sale catalogue are extremely inaccurate, but even if the identification of the subject of the two drawings as "The Witch of Endor" is not absolutely certain, it is preferable to "Hamlet and the Ghost of his Father" and close enough to reinforce the link between the Barron Grahame Blakes and the Hogarth sale. The eight works were bought, for 13/-, by "Cowieson," a name otherwise
+<figure>
+                            <head>6 "The Witch of Endor: Saul and the Ghost of Samuel" (?) by Blake.</head>
+                            <figDesc>Pencil 6 5/16 × 9 ½ in. (16 × 24.2 cm.). David J. Black collection.</figDesc>
+                        </figure>
+unknown in Blake provenances, and perhaps a pseudonym or agent for Grahame.</p>
+                    <p>Joseph Hogarth acquired his Blakes from Frederick Tatham (Bentley, <hi rend="i">Blake Records</hi>, p. 374), who had inherited the contents of Blake’s studio from the artist’s widow. An approximate date for Hogarth’s acquisition of his Blakes is suggested by two features of the Barron Grahame drawings. In the first place the three pencil drawings are mounted on paper watermarked "J WHATMAN 1843" or "J WHATMAN 1844". In the second place all five drawings are inscribed either on the back of the mount, or, in the case of the unmounted "War unchained by an Angel . . . ," on the back of the drawing itself, with a number in the 200’s followed by "Jan/47"; an example can be seen in illus. 3, the verso of "War unchained. . . . " Each inscription is perhaps some kind of stock number followed by the date when Hogarth acquired the work (as there were only seventy-nine Blakes in his sale it is probable that the count of over two hundred included works by other artists). There is a similar inscription on the verso of a drawing at McGill University, Montreal, which seems to be the "Children at the Grave of their Parent" in lot 237 on the first evening of the Hogarth sale (the verso is repro. as endpapers to Lawrence Lande, <hi rend="i">Credo and an Open Letter to a Scientist</hi>, Montreal 1950). On the other hand there is evidence that Hogarth already had some Blakes by about 1843, so perhaps it was he who mounted this group on acquiring them from Tatham and "Jan/47" was merely the date of the supposed stock-taking. John Ruskin’s largely abortive purchase of a portfolio of Blake from Hogarth is the subject of a letter to George Richmond, who had acted as intermediary, which can be dated to about 1843 on account of Ruskin’s reference to his father’s generosity in buying works by J. M. W. Turner for him, an activity that was at its height in the years 1842-44 (see E. T. Cook and Alexander Wedderburn, <hi rend="i">The Works of John Ruskin</hi>, XXXVI [1909], 32-33, and Luke Herrmann, <hi rend="i">Ruskin and Turner</hi> [1968], pp. 20-22).</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0002">
+                <pb id="p07-9" n="9"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">WILLIAM BLAKE &amp; BART’S</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <docAuthor>
+                            <hi rend="b">Geoffrey</hi>
+                            <name>
+                                <hi rend="b">Keynes</hi>
+                            </name>
+                        </docAuthor>
+                    <ref target="n2" type="note">*</ref></byline>
+                    <p>The recent identification by Leslie F. Chard (<hi rend="i">Blake Studies</hi>, 1973) of two plates executed by Blake for Sir James Earle’s <hi rend="i">Practical Observations on the Operation for the Stone</hi> (London, for J. Johnson, 1793) has interested me for several reasons. Earle was a predecessor of mine as Senior Surgeon at St. Bartholomew’s Hospital (otherwise known as <hi rend="i">Bart’s</hi>), founded in the year 1123 on its present site just outside the walls of the City of London. He was a distinguished practitioner born in 1755 and elected to the surgical staff of Bart’s in 1784, serving there to within two years of his death in 1817. He married the daughter of Percival Pott, an even more distinguished surgeon on the staff of Bart’s, and wrote a <hi rend="i">Life</hi> of his father-in-law. He was appointed surgeon-extraordinary to King George III, and his third son, Henry Earle, followed in his father’s footsteps as surgeon to Bart’s and as surgeon-extraordinary to Queen Victoria at her accession in 1837.</p>
+                    <p>Sir James Earle’s slender monograph on the technique of "cutting for the stone," or lithotomy, is an interesting contribution to our knowledge of surgical practice in 1793. Blake’s two plates, each signed <hi rend="i">Blake sc.</hi>, are very well executed. The first is a stark representation in line engraving of two instruments used for the operation; the second, wholly etched, is a beautiful rendering of four types of urinary calculi, or bladder stones; their intricate structure is well shown and Blake was evidently working from good drawings, perhaps made by Earle himself. It is to be noted that the book was published by Joseph Johnson, Blake’s frequent employer for making book illustrations in the 1790’s, and that Earle dedicated it to William Long (1747-1818), a surgical colleague on the staff of Bart’s, 1747-1807. This is of particular interest because it is probable that Blake was acquainted with Long. In a letter to William Hayley written on 16 March 1804 Blake mentioned that he was engraving a portrait of Romney, "which was lent by Mr. Long for the purpose of being engraved for the European Magne." No engraving of Romney published in the <hi rend="i">European Magazine</hi> or elsewhere is known, so that this reference has never been explained, but it strongly suggests that Blake and William Long met over this (apparently abortive) transaction, if not before. The probability is supported by the facts that Long was a friend of both Flaxman and Hayley and owned a copy of <hi rend="i">Poetical Sketches</hi> inscribed to him by Flaxman, who transmitted another copy to Hayley through Long as intermediary (Keynes, <hi rend="i">Blake Studies</hi>, 1971, pp. 42, 44). Long was also an amateur artist and tried to "improve" some of Romney’s pictures in his possession.</p>
+                    <p>I have examined the Bart’s copy of the second edition of Earle’s pamphlet, 1796, which has an Appendix and a third (folding) plate, giving further illustrations of the instruments used in the operation. I have not been able to see Professor Chard’s article, but he no doubt noticed that this third plate too was certainly executed by Blake. The engraving technique is the same as that of the first plate, and the lettering below corresponds with that done by Blake on the plates for George Cumberland’s <hi rend="i">Thoughts on Outline</hi>, 1796. Comparison of this edition with my copy of the first shows that the type was kept standing. The paper is of somewhat better quality and the text, apart from the title-page and the last page, has been printed from the same formes.</p>
+                    <p>I now wish to suggest that Blake was also acquainted with Sir James Earle and so had good connections with my Hospital. In my <hi rend="i">Catalogue Raisonnee of Blake’s Separate Plates</hi>, Dublin, 1956, I recorded as no. xxxvi a portrait of "Edmund Pitts Esq." executed in stippled lines. It is lettered <hi rend="i">ad viv: del: J. Earle:Armig. Guliel<hi rend="s">s</hi> Blake sculp.</hi> At that time I had no clue to the identity of Edmund Pitts and could find in the reference books on artists only the name of James Earle, and American portrait painter from Leicester, Massachusetts, who had exhibited at the Royal Academy, 1787-96, and at the Society of Arts in 1791. This seemed to be a reasonable identification, the only puzzle being why he styled himself <hi rend="i">Armiger</hi>, that is, bearer of a coat of arms. Blake’s association with Sir James Earle is evidence that Sir James was himself the draughtsman, this probability being strengthened by the fact that Edmund Pitts was yet another Bart’s <note id="n2">
+                            <hi rend="i">Sir Geoffrey Keynes, M.D., F.R.C.S., Consulting Surgeon (retired), is known by his years of work in textual criticism and bibliography to all students of Blake. Tribute was recently paid to him in a festschrift</hi>, William Blake: Essays in Honour of Sir Geoffrey Keynes <hi rend="i">(Oxford, 1973).</hi>
+                        </note>
+                        <pb id="p07-10" n="10"/>
+                        <figure/>
+surgeon from 1760 until his death in 1791. Blake’s plate is skillfully executed by his subtle technique of stippled lines, which can be exactly matched in the frontispieces done by him for <hi rend="i">The Poems of Catullus</hi>, 2 vols., London, for J. Johnson, 1795. In spite of this good style of engraving the print indicates the hand of an amateur draughtsman rather than that of a professional, as can be seen in the accompanying reproduction (the first that has been made, as far as I know [see illus. above]). I have remarked elsewhere ("Blake’s Engravings for Gay’s Fables," <hi rend="i">The Book Collector</hi>, Spring 1972, p. 61) on Blake’s tendency to "improve" amateur work when reproducing it on copperplates, and this portrait of Edmund Pitts indicates that he has tried to do so here, though the handicap was too great for the production of a convincing work of art.</p>
+                    <p>Sir James Earle was not knighted until 1802, when he was President of the Royal College of Surgeons, but is likely to have had the right to a coat of arms by reason of his birth, though this is not mentioned in the <hi rend="i">DNB.</hi> The possibility that the American artist of the same name was related to Sir James cannot be excluded, and he may have been working in England for at least four years before the death of Edmund Pitts, so that either Earle could have made the drawing "from the life," though the evidence seems to point to Sir James rather than to his namesake.</p>
+                    <p>The print is very uncommon and I know of only four impressions--those at the Royal College of Surgeons, in the British Museum, and in my collection, with one formerly in the W. E. Moss Collection sold at Sotheby’s, 2 March 1937, lot 218, bought by Rosenbach. It has been called a "private plate" and the evidence detailed above suggests that, after Blake’s contact with Sir James Earle over the lithotomy plates he undertook to execute the portrait to oblige his patron. Earle was a practiced writer and had published, besides a number of medical papers, a <hi rend="i">Life of Percival Pott</hi> and an account of Dr. William Austin, a Bart’s physician, 1786-93, prefixed to his lithotomy pamphlet. He might have contemplated writing a biography of his senior colleague, Edmund Pitts, to be illustrated by Blake’s plate from his own drawing. This must remain a matter of conjecture, but I propose that the print should be attributed to Sir James Earle as draughtsman and be dated c. 1793.</p>
+                    <p>[I am indebted to Dr. Nellie Kerling, Archivist to St. Bartholomew’s Hospital, for verification of dates, and to W. E. Thomson’s "William Long, F. R. C.," <hi rend="i">Annals of the College of Surgeons of England</hi>, IX (1951) 58-63, for other details. I am informed by Professor G. E. Bentley, Jr., that there is a print of the portrait of Edmund Pitts at McGill University. This may be the fourth example mentioned above.]</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0002">
+                <pb id="p07-11" n="11"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">A CHECKLIST OF RECENT BLAKE SCHOLARSHIP</hi>
+                        </title>
+                    </head>
+                    <byline>
+                        <hi rend="b">Compiled by</hi>
+                        <docAuthor>
+                            <hi rend="b">Gregory</hi>
+                            <name>
+                                <hi rend="b">Candela</hi>
+                            </name>
+                        </docAuthor>, <docAuthor>
+                            <hi rend="b">Marta</hi>
+                            <name>
+                                <hi rend="b">Field</hi>
+                            </name>
+                        </docAuthor>, <hi rend="b">and</hi>
+                        <docAuthor>
+                            <hi rend="b">Foster</hi>
+                            <name>
+                                <hi rend="b">Foreman</hi>
+                            </name>
+                        </docAuthor>
+                    <ref target="n4" type="note">*</ref></byline>
+                    <p>This is our fifth checklist, and the aim and format are basically the same as for the checklists of the past two years.<ref target="n3" type="note">*</ref> Again this year we have included entries for items that are not scholarly, and again we have listed items whose dates fall far outside our nominal August 1972-September 1973 boundaries.</p>
+                    <p>As always, we would appreciate corrections and additions from our readers. But we would especially like to appeal for help in compiling the checklist for next year. We do our best to cover all journals and other periodicals, but our comprehensiveness depends to a much greater extent on our readers than most of them realize, especially for out-of-the-way material. We want to list everything of interest, including newspaper articles, filmstrips, videotapes, and ephemera. We are particularly grateful to authors who send offprints for the checklist, because recent copies of journals can take a long time to reach the shelves of the library. Past experience shows that the categories we are most likely to miss are book reviews, sections of books whose titles do not mention Blake, and material in foreign languages. Please keep us in mind when you run across items that should be in the checklist. <note id="n3">
+                            <hi rend="i">The list is divided into these categories: New and Revised Books/Reprinted Books/Articles and Sections of Books/Reviews/Films/Phonograph Records.</hi>
+                        </note>
+                        <note id="n4">
+                            <hi rend="i">Gregory Candela and Marta Field are graduate students at the University of New Mexico and editorial assistants for the</hi> Newsletter. <hi rend="i">Foster Foreman is the bibliographer for the</hi> Newsletter <hi rend="i">at Berkeley.</hi>
+                        </note>
+                    </p>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">New and Revised Books</hi>
+                            </title>
+                        </head>
+                        <p>Blake, William. Songs of Innocence and of Experience. "Facsimile of sixteen original plates etched by William Blake." London: Academy Editions, 1971.</p>
+                        <p>Blake, William. William Blake’s Water-Colours: Illustrating the Poems of Thomas Gray. Intro. and commen. by Sir Geoffrey Keynes. Chicago: J. Philip O’Hara, Inc., 1972. $25.</p>
+                        <p>Blake, William. See also Bloom, Bredvold, Feldman.</p>
+                        <p>Bloom, Harold and Lionel Trilling, eds. The Oxford Anthology of English Literature (General eds., Frank Kermode and John Hollander). 2 vols. cloth and pa.; 6 vols. pa. only. N.Y.: Oxford Univ. Press, 1973. 2 vol. ed., cloth $9.95 each, paper $7.95 each; 6 vol. ed., $3.95 each. [175 illus.; Blake is in Vol. 2, 10-124, 2 vol. ed.; Vol. 4, 6 vol. ed.]</p>
+                        <p>Bredvold, Louis, et. al. Eighteenth Century Poetry and Prose. 3rd ed. N.Y.: Ronald Press, 1973. $11.50. [Includes Blake]</p>
+                        <p>Curran, Stuart and Joseph Anthony Wittreich, Jr., eds. Blake’s Sublime Allegory: Essays on <hi rend="i">The Four Zoas, Milton</hi>, and <hi rend="i">Jerusalem.</hi> Madison: Univ. of Wisconsin Press, 1973. $17.50. [38 illus.] The contents are as follows: Jerome J. McGann, "The Aim of Blake’s Prophecies and the Uses of Blake Criticism"; Joseph Anthony Wittreich, Jr., "Opening the Seals: Blake’s Epics and the Milton Tradition"; Ronald L. Grimes, "Time and Space in Blake’s Major Prophecies"; Edward J. Rose, "Los, Pilgrim of Eternity"; Jean H. Hagstrum, "Babylon Revisited, or the Story of Luvah and Vala"; Morton D. Paley, "The Figure of the Garment in <hi rend="i">The Four Zoas, Milton</hi>, and <hi rend="i">Jerusalem</hi>"; John E. Grant, "Visions in <hi rend="i">Vala</hi>: A Consideration of Some Pictures in the Manuscript"; Mary Lynn Johnson and Brian Wilkie, "On Reading <hi rend="i">The Four Zoas</hi>: Inscape and Analogy"; Irene Tayler, "Say First! What Mov’d Blake? Blake’s <hi rend="i">Comus</hi> Designs and <hi rend="i">Milton</hi>"; James Rieger, " ‘The Hem of Their Garments’: The Bard’s Song in <hi rend="i">Milton</hi>"; W. J. T. Mitchell, "Blake’s Radical Comedy: Dramatic Structure as Meaning in <hi rend="i">Milton</hi>"; Roger R. Easson, "William Blake and His Reader in <hi rend="i">Jerusalem</hi>"; Stuart Curran, "The Structures of <hi rend="i">Jerusalem</hi>"; Karl Kroeber, "Delivering <hi rend="i">Jerusalem.</hi>"</p>
+                        <p>Duncan, Robert. The Truth and Life of Myth: An Essay in Essential Autobiography. Fremont, Mich.: Sumac Press, 1968. [Blake is discussed; Blake’s "Ezekiel’s Vision" on cover]</p>
+                        <pb id="p07-12" n="12"/>
+                        <p>Essick, Robert N., ed. The Visionary Hand. Los Angeles: Hennessey and Ingalls, 1973. $7.95 paper. [A collection of essays on Blake’s art; contents not available for listing at press-time]</p>
+                        <p>Feldman, Burton and Robert D. Richardson. The Rise of Modern Mythology, 1680-1860. Bloomington: Indiana Univ. Press, 1972. [Anthology and critical history that includes Blake]</p>
+                        <p>Fletcher, Angus John Stewart. The Transcendental Masque: An Essay on Milton’s <hi rend="i">Comus.</hi> Ithaca, N.Y.: Cornell Univ. Press, 1972. [Blake’s illus. to <hi rend="i">Comus</hi> in eight scenes inserted between pp. 256-57]</p>
+                        <p>Gaunt, William. The Restless Century: Painting in Britain, 1800-1900. New York: Praeger-Phaidon, 1972. $25; £6.5. [171 pictures]</p>
+                        <p>Gillam, David George. William Blake. British Authors: Introductory Critical Series. London: Cambridge Univ. Press, 1973. £3.70, $12.95; pa. £1.30, $4.95.</p>
+                        <p>Grimes, Ronald L. The Divine Imagination: William Blake’s Major Prophetic Visions. ATLA Monograph Series, No. 1. Metuchen, N.J.: Scarecrow Press, 1972.</p>
+                        <p>Keynes, Sir Geoffrey. See Blake.</p>
+                        <p>Kremen, Kathryn R. The Imagination of the Resurrection: The Poetic Continuity of a Religious Motif in Donne, Blake, and Yeats. Lewisburg, Penn.: Bucknell Univ. Press, 1972. $15. [Illustrated]</p>
+                        <p>Nelson, Cary. The Incarnate Word: Literature as Verbal Space. Urbana: Univ. of Illinois Press, 1973. $10.00. [Includes Blake]</p>
+                        <p>Paley, Morton D. and Michael Phillips, eds. William Blake: Essays in Honour of Sir Geoffrey Keynes. Oxford: Clarendon Press, 1973. £10.50. [83 illus.] The contents of this volume are as follows: Michael Phillips, "Blake’s Early Poetry"; David Bindman, "Blake’s ‘Gothicised Imagination’ and the History of England"; Robert N. Essick, "The Altering Eye: Blake’s Vision in the <hi rend="i">Tiriel</hi> Designs"; F. R. Leavis, "Justifying One’s Valuation of Blake"; Josephine Miles, "Blake’s Frame of Language"; Michael J. Tolley, "Blake’s Songs of Spring"; Jean H. Hagstrum, "Christ’s Body": G. Wilson Knight, "The Chapel of Gold"; David V. Erdman with Tom Dargan and Marlene Deverell-Van Meter, "Reading the Illuminations of Blake’s <hi rend="i">Marriage of Heaven and Hell</hi>"; Janet Warner, "Blake’s Figures of Despair: Man in his Spectre’s Power"; Morris Eaves, "The Title-page of <hi rend="i">The Book of Urizen</hi>"; John Beer, "Blake, Coleridge, and Wordsworth: Some Cross-currents and Parallels, 1789-1805"; Morton D. Paley, "William Blake, The Prince of the Hebrews, and The Woman Clothed with the Sun"; Martin Butlin, "Blake, the Varleys, and the Graphic Telescope"; Raymond Lister, "References to Blake in Samuel Palmer’s Letters"; Suzanne R. Hoover, "William Blake in the Wilderness: A Closer Look at his Reputation, 1827-1863"; G. E. Bentley, Jr., "Geoffrey Keynes’s Work on Blake: <hi rend="i">Fons et Origo</hi>, and a Checklist of Writings on Blake by Geoffrey Keynes, 1910-1972."</p>
+                        <p>Sachs, Arieh, ed. The English Grotesque: An Anthology from Langland to Joyce. Jerusalem: Israel Universities Press, 1969. [Pp. 155-61: Memorable Fancies from <hi rend="i">MHH</hi>; "I Saw a Chapel All of Gold"; <hi rend="i">An Island in the Moon.</hi> Pls. 15 and 42: "Ghost of a Flea" and "Nebuchadnezzar." Blake also in Introduction]</p>
+                        <p>Tomory, Peter. <hi rend="i">The Life and Art of Henry Fuseli.</hi> N.Y.: Praeger, 1972. $25. [Illustrated]</p>
+                        <p>Wagenknecht, David. Blake’s Night: William Blake and the Idea of Pastoral. Cambridge, Mass.: Harvard Univ. Press; Belknap Press, 1973. $12.</p>
+                        <p>Wright, Andrew. Blake’s Job: A Commentary. Oxford: Clarendon Press, 1972. $9. [23 illustrations]</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">Reprinted Books</hi>
+                            </title>
+                        </head>
+                        <p>Berger, P. William Blake: Poet and Mystic, Studies in Blake Series, No. 3. 1914; rpt. N.Y.: Haskell House, 1969.</p>
+                        <p>Berger, Pierre. William Blake: Poet and Mystic, trans. D. H. Connor. 1914; rpt. Folcroft, Pa.: Folcroft, 1973.</p>
+                        <p>Binyon, Laurence. Followers of William Blake. 1925; rpt. N.Y.: Benjamin Blom, 1972.</p>
+                        <p>Blake, William. Blake’s Poetical Works. Ed. John Sampson. 1905; rpt. Kennebunkpart, Me.: Milford House, 1971.</p>
+                        <p>Blake, William. See also Campbell, Clarke, Keynes.</p>
+                        <p>Bronowski, J. William Blake: A Man without a Mask. 1947(?); rpt. N.Y.: Haskell House, 1969.</p>
+                        <p>Campbell, Kathleen W., ed. An Anthology of English Poetry: Dryden to Blake. 1930; rpt. Freeport, N.Y.: Books for Libraries, 1971.</p>
+                        <p>Clarke, John H. William Blake on the Lord’s Prayer: 1757-1827, Studies in Blake Series, No. 5. 1927; rpt. N.Y.: Haskell House, 1971.</p>
+                        <p>De Selincourt, Basil. William Blake. 1909; rpt. N.Y.: Cooper Square, 1972.</p>
+                        <p>De Selincourt, Basil. William Blake. 1909; rpt. Port Washington, N.Y.: Kennikat, 1971.</p>
+                        <p>Dutt, Sukumar. The Supernatural in English Romantic Poetry, 1780-1830. 1938; rpt. Folcroft, Pa.: Folcroft Library Editions, 1972.</p>
+                        <p>Ellis, Edwin J. The Real Blake. 1906; rpt. N.Y.: Haskell House, 1970.</p>
+                        <p>Garnett, Richard. William Blake: Painter and Poet, Studies in Blake Series, No. 3. 1895; rpt. N.Y.: Haskell House, 1970.</p>
+                        <p>Gilchrist, Alexander. The Life of William Blake. Ed. W. Graham Robertson. 1907; rpt. Folcroft, Pa.: Folcroft Library Editions, 1972.</p>
+                        <p>Gilchrist, Alexander. The Life of William Blake. 2 vols. 1880; rpt. N.Y.: Phaeton, 1969.</p>
+                        <p>Keynes, Sir Geoffrey. Blake Studies: Notes on His Life and Works in Seventeen Chapters. 1949; rpt. N.Y.: Haskell House, 1971.</p>
+                        <p>Keynes, Sir Geoffrey. William Blake’s Engravings. 1950; rpt. N.Y.: Cooper Square, 1972.</p>
+                        <p>Kortelling, Jacoming. Mysticism in Blake and Wordsworth, Studies in Poetry Series, No. 38. 1928; rpt. N.Y.: Haskell House, 1969.</p>
+                        <p>Lindsay, Jack. William Blake: Creative Will and the Poetic Imagination. 1929; rpt. N.Y.: Haskell House, 1970.</p>
+                        <p>Norman, Hubert J. Cowper and Blake. 1913; rpt. Folcroft, Pa.: Folcroft Library Editions, 1972.</p>
+                        <pb id="p07-13" n="13"/>
+                        <p>Rossetti, William Michael. Lives of Famous Poets. 1878; rpt. Folcroft, Pa.: Folcroft Library Editions, 1971.</p>
+                        <p>Rudd, Margaret. Organized Innocence: The Story of Blake’s Prophetic Books. 1956; rpt. Westport, Conn.: Greenwood Press, 1973.</p>
+                        <p>Singer, June K. The Unholy Bible. 1970; rpt. N.Y.: Harper, 1973. $2.95. [Paperback rpt.]</p>
+                        <p>Symons, Arthur. William Blake. 1907; rpt. N.Y.: Cooper Square, 1970.</p>
+                        <p>Wicksteed, Joseph H. Blake’s Vision of the Book of Job, Studies in Blake Series, No. 3. 1924; rpt. N.Y.: Haskell House, 1970.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">Articles</hi>
+                            </title>
+                        </head>
+                        <p>SEE ALSO THE COLLECTIONS OF ESSAYS LISTED ABOVE UNDER CURRAN, ESSICK, AND PALEY.</p>
+                        <p>Anon. "The Tate Gallery, London, Exhibit." Art and Artists, 6 (Jan. 1972), 46-47, 49. (Designs to Gray’s poems]</p>
+                        <p>Anon. "Two Shows at Yale." Art Journal, 31 (Spring 1973), 303. [Designs to Gray’s poems]</p>
+                        <p>Anon. "William Blake’s Watercolour Designs Illustrating Gray’s Poems--and Mr. Paul Mellon." Connoisseur, 179 (Jan. 1972), 10-14.</p>
+                        <p>Baine, Rodney. "Blake and Defoe." Blake Newsletter, 6 (Fall 1972), 51-53.</p>
+                        <p>Baine, Rodney. "Thel’s Northern Gate." Philological Quarterly, 51 (Oct. 1972), 957-61.</p>
+                        <p>Baird, Julian. "Swinburne, Sade, and Blake: The Pleasure-Pain Paradox." Victorian Poetry, 9 (Spring-Summer 1971), 49-75.</p>
+                        <p>Beer, John B. "Blake, Mr. Tolley and the Scholarly Imagination." Southern Review: An Australian Journal of Literary Studies, 4 (1971), 247-55.</p>
+                        <p>Beer, John. "Brief Riposte." Blake Newsletter, 6 (Summer 1972), 19-23.</p>
+                        <p>Bentley, G. E., Jr. "Blake’s <hi rend="i">Job</hi> Copperplates." Library, 26 (Sept. 1971), 234-41.</p>
+                        <p>Bentley, G. E., Jr. "A Handlist of Works by William Blake in the Department of Prints and Drawings of the British Museums." With supplementary notes. Blake Newsletter, 5 (Spring 1972), 223-58.</p>
+                        <p>Bentley, G. E., Jr. "A ‘New’ Blake Engraving in Lavater’s <hi rend="i">Physiognomy.</hi>" Blake Newsletter, 6 (Fall 1972), 48-49.</p>
+                        <p>Bentley, G. E., Jr. "The Thorne Blake Collection at the Pierpont Morgan Library, New York." Apollo, NS 94 (Nov. 1971), 416.</p>
+                        <p>Bishop, Morchard. "The Poet and the Attorney: The Story of a Legacy." The Book Collector, 21 (Summer 1972), 245-54. [A discussion of a painting by Romney whose subjects are Flaxman, Hayley, and Hayley’s son; the article mentions Blake, who was working for Hayley while Hayley was arguing with the attorney Thomas Greene for possession of the painting]</p>
+                        <p>Blake, William. "From the Note-Book" [pp. 68, 68-69, 69-70, 82-87]. Tree:1, Winter 1970. [Christopher Books, 1819 Sycamore, Canyon Rd., Santa Barbara, Ca.]</p>
+                        <p>Bloom, Harold. Yeats. N.Y.: Oxford Univ. Press, 1970. [Chapter 5, "Blake and Yeats"; Blake mentioned throughout]</p>
+                        <p>Bly, Robert. "Looking for Dragon Smoke." The Seventies, No. 1 (Spring 1972), 3-8.</p>
+                        <p>Brogan, Howard O. "Relevance in Literary Study." CEA Critic, 33 (May 1971), 23-24.</p>
+                        <p>Butlin, Martin. "A ‘Minute Particular’ Particularized: Blake’s Second Set of Illustrations to <hi rend="i">Paradise Lost.</hi>" Blake Newsletter, 6 (Fall 1972), 44-46.</p>
+                        <p>Butlin, Martin. "William Blake in the Hubert P. Horne Collection." Blake Newsletter, 6 (Summer 1972), 19-21.</p>
+                        <p>Chaffee, Alan J. "The Rendezvous of Mind." Wordsworth Circle, 3 (Autumn 1972), 196-203.</p>
+                        <p>Chayes, Irene. "Brief Riposte." Blake Newsletter, 6 (Summer 1972), 23-24.</p>
+                        <p>Curran, Stuart. "Blake and the Gnostic Hyle: A Double Negative." Blake Studies, 4 (Spring 1972), 117-33.</p>
+                        <p>DiSalvo, Jackie. "William Blake on the Unholy Alliance: Satanic Freedom and Godly Repression in Liberal Society." Wordsworth Circle, 3 (Autumn 1972), 212-22.</p>
+                        <p>Doherty, F. M. J. "Blake’s ‘The Tyger’ and Henry Needler." Philological Quarterly, 46 (Oct. 1967), 566-67.</p>
+                        <p>Eaves, Morris. "A Reading of Blake’s <hi rend="i">Marriage of Heaven and Hell</hi>, plates 17-20: On and Under the Estate of the West." Blake Studies, 4 (Spring 1972), 81-116.</p>
+                        <p>Essick, Robert N. "Blake and the Tradition of Reproductive Engraving." Blake Studies, 5 (Fall 1972), 59-103.</p>
+                        <p>Essick, Robert N. "A Preliminary Design for Blake’s <hi rend="i">Grave.</hi>" Blake Studies, 4 (Spring 1972), 9-13.</p>
+                        <p>Firestone, Evan R. "John Linnell and the Picture Merchants." The Connoisseur, 182 (Feb. 1973), 124-34.</p>
+                        <p>Fletcher, Ian. "The Ellis-Yeats-Blake Manuscript Cluster." The Book Collector, 21 (Spring 1972), 72-94. [4 plates]</p>
+                        <p>Freiberg, S. K. "The Fleece-Lined Clock: Time, Space, and the Artistic Experience in William Blake." Dalhousie Review, 49 (Autumn 1969), 404-15.</p>
+                        <p>Gage, S. "Blake’s Newton." Journal of Warburg and Courtauld Institute, 34 (1971), 372-77.</p>
+                        <p>Garnett, David. "The Appendix." The Book Collector, 21 (Spring 1972), 54-58. [On Sir Geoffrey Keynes]</p>
+                        <p>Gibson, William A. and Thomas L. Minnick. "William Blake and Henry Emlyn’s <hi rend="i">Proposition for a New Order in Architecture</hi>: A New Plate." Blake Newsletter, 6 (Summer 1972), 13-17.</p>
+                        <p>Grant, John E. "On Mary Ellen Reisner’s Locations of Copy U of <hi rend="i">Songs of Innocence</hi> and Copy D of <hi rend="i">Songs of Experience</hi> from <hi rend="i">Blake Newsletter</hi> 19." Blake Newsletter, 6 (Summer 1972), 22.</p>
+                        <p>Grant, John E. "The Visionary Perspective of Ezekiel." Blake Studies, 4 (Spring 1972), 153-57.</p>
+                        <p>Harper, George M. (Florida State). "The Odyssey of the Soul in Blake’s <hi rend="i">Jerusalem.</hi>" [A paper read at the 1971 South Atlantic Modern Language Association convention and reported in PMLA, Sept. 1972, p. 642]</p>
+                        <p>Hart-Davis, Rupert. "A Little Injudicious Levity." The Book Collector, 21 (Spring 1972), 51-53. [On Sir Geoffrey Keynes]</p>
+                        <pb id="p07-14" n="14"/>
+                        <p>Helmstadter, Thomas H. "Blake and the Age of Reason: Spectres in the <hi rend="i">Night Thoughts.</hi>" Blake Studies, 5 (Fall 1972), 105-39.</p>
+                        <p>Hoover, Suzanne R. "Pictures at the Exhibitions." Blake Newsletter, 6 (Summer 1972), 6-12.</p>
+                        <p>Horovitz, Michael. "Blake and the Voice of the Bard in Our Time." Books, 10 (Winter 1972), n.p.</p>
+                        <p>Horovitz, Michael. "The Need for the Non-Literary." Times Literary Supplement, 29 Dec. 1972, pp. 1582-83.</p>
+                        <p>James, G. Ingli. "Blake’s Woodcuts, Plain and Coloured." Times Literary Supplement, 18 May 1973, p. 564.</p>
+                        <p>Ketters, David. "New Worlds for Old: The Apocalyptic Imagination, Science, Fiction, and American Literature." Mosaic, 5 (Fall 1971), 37-57.</p>
+                        <p>Keynes, Geoffrey. "Blake’s Engravings for Gay’s Fables." The Book Collector, 21 (Spring 1972), 59-64. [12 plates included]</p>
+                        <p>King, James. "The Meredith Family, Thomas Taylor, and William Blake." Studies in Romanticism, 11 (Spring 1972), 153-57.</p>
+                        <p>Kjellberg, P. "Le primier coup d’audace des peintres anglais." Connaissance Arts, 240 (Feb. 1972), 87.</p>
+                        <p>Leary, D. J. "Shaw’s Blakean Vision: A Dialectical Approach to <hi rend="i">Heartbreak House.</hi>" Modern Drama, 15 (May 1972), 89-103.</p>
+                        <p>Lister, Raymond. "A Fragmentary Copy of <hi rend="i">Songs of Innocence and of Experience.</hi>" Blake Newsletter, 6 (Summer 1972), 19.</p>
+                        <p>Lister, Raymond. "Two Blake Drawings and a Letter from Samuel Palmer." Blake Newsletter, 6 (Fall 1972), 53-54.</p>
+                        <p>Lister, Raymond. "The Writings of Samuel Palmer." Gazette des Beaux-Arts, 81 (April 1973), 253-56.</p>
+                        <p>Lodge, David. " ‘Crow’ and the Cartoons." Critical Quarterly, 13 (Spring 1971), 37-42, 68.</p>
+                        <p>Merewether, Mary A. "<hi rend="i">The Burden of Tyre</hi> and Brennen’s <hi rend="i">Poems</hi> (1913)." Southerly, 30 (1970), 267-84. [A poem cycle showing influence of Blake]</p>
+                        <p>Metcalf, Francis Wood. "Reason and ‘Urizen’: The Pronunciation of Blakean Names." Blake Newsletter, 6 (Summer 1972), 17-18.</p>
+                        <p>Meynell, Francis. "A Reminiscence." The Book Collector, 21 (Spring 1972), 50. [On Sir Geoffrey Keynes]</p>
+                        <p>Minnick, Thomas L. See Gibson.</p>
+                        <p>Moss, John G. "Structural Form in Blake’s <hi rend="i">Visions of the Daughters of Albion.</hi>" Humanities Association Bulletin, 22 (Spring 1971), 9-18.</p>
+                        <p>Ower, John. "The Epic Mythologies of Shelley and Keats." Wascana Review, 4 (1969), 61-72.</p>
+                        <p>Raine, Kathleen. "Blake and the Education of Childhood." The Southern Review, 8 (Spring 1972), 253-72.</p>
+                        <p>Raine, Kathleen. "Blake: Maker of Myths." In Man, Myth and Magic: An Illustrated Encyclopedia of the Supernatural. Ed. Richard Cavendish. N.Y.: Marshall Cavendish Corp., 1970. II, 278-85 [Color illus. included; see also I, 3]</p>
+                        <p>Rose, Edward J. "Goodbye to Orc and All That." Blake Studies, 4 (Spring 1972), 135-51.</p>
+                        <p>Rose, Edward J. "Wheels within Wheels in Blake’s <hi rend="i">Jerusalem.</hi>" Studies in Romanticism, 11 (Winter 1972), 36-47.</p>
+                        <p>Rosenblum, Robert. "German Romantic Painting in International Perspective." Yale University Art Gallery Bulletin, 33 (Oct. 1972), 23-36.</p>
+                        <p>Sandler, Florence. "The Iconoclastic Enterprise: Blake’s Critique of ‘Milton’s Religion.’ " Blake Studies, 5 (Fall 1972), 13-57.</p>
+                        <p>Sharp, Dennis. "Blake Into Print." The Royal Institute of British Architects Journal, 80 (Feb. 1972), 80. [Designs for Gray’s poems: Tate Gallery exhibit]</p>
+                        <p>Siemens, Reynold. "Boarders in Blake’s <hi rend="i">The Little Girl Lost-Found.</hi>" Humanities Association Bulletin, 22 (Spring 1971), 35-43.</p>
+                        <p>Sutherland, John. "Blake: A Crisis of Love and Jealousy." PMLA, 87 (May 1972), 424-31.</p>
+                        <p>Tannenbaum, Leslie. "Blake’s Art of Crypsis: <hi rend="i">The Book of Urizen</hi> and Genesis." Blake Studies, 5 (Fall 1972), 141-64.</p>
+                        <p>Tayler, Irene. "Blake’s <hi rend="i">Comus</hi> Designs." Blake Studies, 4 (Spring 1972), 45-80.</p>
+                        <p>Todd, Ruthven. "<hi rend="i">The Battle of Ai.</hi>" Paul Grinke (London) Catalogue Five, 1972, pp. 17-19. [Illus.]</p>
+                        <p>Todd, Ruthven. "A Recollection of George Richmond by His Grandson." Blake Newsletter, 6 (Summer 1972), 24.</p>
+                        <p>Toomey, Deirdre. "The States of Plate 25 of <hi rend="i">Jerusalem.</hi>" Blake Newsletter, 6 (Fall 1972), 46-48.</p>
+                        <p>Walling, William. "The Death of God: William Blake’s Version." Dalhousie Review, 48 (Summer 1968), 237-50.</p>
+                        <p>Welch, Dennis G. "<hi rend="i">America</hi> and Atlantis: Blake’s Ambivalent Millenialism." Blake Newsletter, 6 (Fall 1972), 50.</p>
+                        <p>Whittaker, Edward Keith. "Sorrow and the Flea." Tri-Quarterly, 19 (Autumn 1970), 35-55. [Dahlberg compared to Blake]</p>
+                        <p>Wilton, Andrew. "Blake and the Antique." [A lecture given at the Victoria and Albert Lecture Theatre, 16 Nov. 1972]</p>
+                        <p>Wittreich, Joseph Anthony, Jr. "Blake and Tradition: A Prefatory Note." Blake Studies, 5 (Fall 1972), 7-11.</p>
+                        <p>Wittreich, Joseph Anthony, Jr. " ‘Sublime Allegory’: Blake’s Epic Manifesto and the Milton Tradition." Blake Studies, 4 (Spring 1972), 15-44.</p>
+                        <p>Wittreich, Joseph Anthony, Jr. "William Blake: Illustrator-Interpreter of <hi rend="i">Paradise Regained.</hi>" In Calm of Mind: Tercentenery Essays on Paradise Regained and Samson Agonistis. Cleveland: Case Western Reserve Univ. Press, 1971. Pp. 93-132. [Also Appendix A, "Illustrators of <hi rend="i">Paradise Regained</hi> and their Subjects: 1713-1816," pp. 309-29; Appendix B, "A Catalogue of Blake’s Illustrations to Milton," pp. 331-42]</p>
+                        <p>Won, Ko. "The Symbolists’ Influence on Japanese Poetry." Comparative Literature Studies, 8 (Sept. 1971), 254-65.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">Reviews</hi>
+                            </title>
+                        </head>
+                        <p>Adams, Hazard. William Blake: A Reading of the Shorter Poems. Reviewed by Henri Lemaitre, "A propos de William Blake," Etudes Anglaise, 20 (July-Sept. 1967), 289-96.</p>
+                        <p>Adams, Hazard, ed. William Blake: Jerusalem, Selected Poems and Prose. Reviewed by Thomas H. Helmstadter, Blake Studies, 4 (Spring 1972), 163-66.</p>
+                        <pb id="p07-15" n="15"/>
+                        <p>Beer, John B. Blake’s Visionary Universe. Reviewed by Michael J. Tolley, "A Superficial Vision," Southern Review: An Australian Journal of Literary Studies, 4 (1971), 242-46.</p>
+                        <p>Bentley, G. E., Jr. The Blake Collection of Mrs. Landon K. Thorne. Reviewed by Robert Essick, Blake Newsletter, 6 (Summer 1972), 26-28.</p>
+                        <p>Bentley, G. E., Jr. Vala or The Four Zoas. Reviewed by Henri Lemaitre, "A propos de William Blake," Etudes Anglaise, 20 (July-Sept. 1967), 289-96.</p>
+                        <p>Bindman, David. William Blake: Catalogue of the Collection in the Fitzwilliam Museum. Reviewed by Morchard Bishop, The Book Collector, 21 (Spring 1972), 133-34; Robert R. Wark, Blake Studies, 4 (Spring 1972), 160-62.</p>
+                        <p>Blake, William. See Adams, Bentley, Bindman, Bogan Butlin, Keynes, Stevenson, Wittreich.</p>
+                        <p>Bogan, Nancy, ed. The Book of Thel: A Facsimile and Critical Text. Reviewed by Andrew Wright, Blake Studies, 4 (Spring 1972), 162-63.</p>
+                        <p>Boutang, Pierre. William Blake. Reviewed by Simone Pignard, Blake Newsletter, 6 (Fall 1972), 55-56.</p>
+                        <p>Butlin, Martin, ed. Blake-Varley Sketchbook of 1818. Reviewed by D. Irwin, Burlington Magazine, 113 (June 1971), 341-42.</p>
+                        <p>Butlin, Martin. William Blake: A Complete Catalogue of Works in the Tate Gallery, 2nd ed. Reviewed by Michael J. Tolley, Blake Newsletter, 6 (Summer 1972), 28-31; Robert R. Wark, Blake Studies, 4 (Spring 1972), 160-62.</p>
+                        <p>DeMott, Benjamin. Blake and Manchild [tape recording]. Reviewed by Morris Eaves, Blake Newsletter, 6 (Summer 1972), 25-26.</p>
+                        <p>Denvir, B. "Sensibility and Cybernetics: Some Recent Books about Art." Art International, 16 (Feb. 1972), 64-66. [Some recent studies on Blake noted]</p>
+                        <p>Erdman, David V. and John E. Grant, eds. Visionary Forms Dramatic. Reviewed by Daniel Hughes, "The Luck of William Blake," Massachusetts Review, 13 (Autumn 1972), 707-25.</p>
+                        <p>Gillham, D. G. William Blake. Reviewed in Times Literary Supplement, 18 May 1973, p. 564.</p>
+                        <p>Hagstrum, Jean H. William Blake, Poet and Painter: An Introduction to the Illuminated Verse. Reviewed by Henri Lemaitre, "A propos de William Blake," Etudes Anglaise, 20 (July-Sept. 1967), 289-96.</p>
+                        <p>Hirsch, E. D. Innocence and Experience: An Introduction to Blake. Reviewed by Henri Lemaitre, "A propos de William Blake," Etudes Anglaise, 20 (July-Sept. 1967), 289-96.</p>
+                        <p>Keynes, Geoffrey, ed. All Religions Are One; There Is No Natural Religion (Trianon Press for the William Blake Trust). Reviewed by Kay Parkhurst Easson, Blake Studies, 5 (Fall 1972), 168-75.</p>
+                        <p>Keynes, Geoffrey. Blake Studies: Essays on His Life and Work, 2nd ed. Reviewed by Robert F. Gleckner, Blake Studies, 5 (Fall 1972), 165-68.</p>
+                        <p>Keynes, Geoffrey, ed. Songs of Innocence and of Experience: Shewing the Two Contrary States of the Human Soul. Reviewed by John E. Grant, Philological Quarterly, 47 (Oct. 1968), 571-80.</p>
+                        <p>Keynes, Geoffrey, ed. William Blake’s Water-Colour Designs for Gray’s Poems--A Commemorative Catalogue. Reviewed by Morton D. Paley, Blake Newsletter, 6 (Summer 1972), 33-34.</p>
+                        <p>Lister, Raymond. British Romantic Art. Reviewed in Times Literary Supplement, 4 May 1973, pp. 499-500.</p>
+                        <p>Paley, Morton D. Energy and Imagination. Reviewed by John E. Grant, English Language Notes, 9 (Mar. 1972), 210-16; Daniel Hughes, "The Luck of William Blake," Massachusetts Review, 13 (Autumn 1972), 717-25; J. Janssens, Dutch University Review (1972-73), 103.</p>
+                        <p>Raine, Kathleen. Blake and Tradition. Reviewed by C. Gellhar, Pantheon, 30 (July 1972), n.p.; Ants Oras, "Kathleen Raine, The Ancient Springs, and Blake," Saturday Review, 80 (Winter 1972), 200-11; D. Weeks, Journal of Aesthetics, 29 (Spring 1971), 424-25.</p>
+                        <p>Raine, Kathleen. William Blake. Reviewed by J. C. Battye, Art and Artists, 6 (July 1971), 68; Michael Tolley, Blake Newsletter, 6 (Summer 1972), 28-31.</p>
+                        <p>Singer, June K. The Unholy Bible: A Psychological Interpretation of William Blake. Reviewed by Robert L. Corey. Blake Studies, 4 (Spring 1972), 167-68.</p>
+                        <p>Stevenson, W. H., ed. The Poems of William Blake. Reviewed by Anne Kostelanetz Mellor, Blake Newsletter, 6 (Summer 1972), 32-33.</p>
+                        <p>Tayler, Irene. Blake’s Illustrations to the Poems of Gray. Reviewed by Hugh Honour, New York Review of Books, 25 Jan. 1973, pp. 34-35; Daniel Hughes, "The Luck of William Blake," Massachusetts Review, 13 (Autumn 1972), 717-25; W. J. T. Mitchell, Blake Studies, 4 (Spring 1972), 159-60; Morton D. Paley, Criticism, 14 (Winter 1972), 93-96.</p>
+                        <p>Todd, Ruthven. William Blake The Artist. Reviewed by K. Bazarov, Art &amp; Artists, 7 (May 1972), 56-57; H. R. Wackrill, Blake Studies, 4 (Spring 1972), 168-69.</p>
+                        <p>Tomory, Peter. The Life and Art of Henry Fuseli. Reviewed by Hugh Honour, New York Review of Books, 25 Jan. 1973, pp. 34-35; Times Literary Supplement, 4 May 1973, pp. 499-500.</p>
+                        <p>Vogler, Thomas A. Preludes to Vision: The Epic Venture in Blake, Wordsworth, Keats, and Hart Crane. Reviewed by Andy P. Antippas, Blake Newsletter, 6 (Summer 1972), 34-36; Jenijoy LaBelle, Blake Studies, 4 (Spring 1972), 163-64.</p>
+                        <p>Wittreich, Joseph Anthony, Jr. The Romantics on Milton: Formal Essays and Critical Asides. Reviewed by Andy P. Antippas, Blake Newsletter, 6 (Fall 1972), 55.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">Films</hi>
+                            </title>
+                        </head>
+                        <p>Tyger, Tyger. BBC-TV, London, 1969. 30 minutes, 16 mm. Released in the U.S. by Time-Life Films.</p>
+                    </div3>
+                    <div3>
+                        <head>
+                            <title>
+                                <hi rend="b">Records</hi>
+                            </title>
+                        </head>
+                        <p>Vaughan Williams, Ralph. Ten Blake Songs. England: Argo ZR6 732. [Robert Tea, tenor, Philip Ledger, piano, and Neil Black, oboe]</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <pb id="p07-16" n="16"/>
+            <div1 id="BQ-07-1-0003">
+                <head>
+                    <title type="section">
+                        <hi rend="b">REVIEWS</hi>
+                    </title>
+                </head>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="b">BBC Blake</hi>
+                        </title>
+                        <title type="main">
+                            <hi rend="i">Tyger, Tyger.</hi> BBC. Written and directed by Christopher Burstall. Black and white, 50 minutes.
+                        </title>
+                        <title type="main">
+                            <hi rend="i">William Blake.</hi> BBC. Narrated by Jacob Bronowski. Color, 50 minutes.
+                        </title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Morton D. <name>Paley</name>
+                        </docAuthor>
+                    <ref target="n5" type="note">*</ref></byline>
+                    <p>Two films about Blake made by the BBC are available in the United States. One, "Tyger, Tyger", written and directed by Christopher Burstall, is a black-and-white film about fifty minutes long; the other, "William Blake," is narrated by Jacob Bronowski, who is virtually the protagonist of the film, which is in color and is also about fifty minutes long. Information about both may be obtained from Time-Life Films, 1271 Avenue of the Americas, New York, N. Y. 10020.</p>
+                    <p>"Tyger, Tyger" is subtitled "An enquiry into the power of a familiar poem," and it is just that. People of many sorts are asked to discuss their feelings about the poem, with the camera cutting from one to another and back. The results are often delightful, always engaging, sometimes hilarious; and the production has a feeling of authenticity, that indefinable something which does so much to command the viewer’s attention. Among those interviewed are Robert Graves, George Goyder, Richard Hoggart, students of various ages including some very young children, a taxidermist (standing in front of an enormous stuffed tiger) who turns out to be George Richmond (great-grandson of the painter), a zoo keeper, Adrien Mitchell, a housewife, a civil servant, the theologian J. G. Davies, a psychiatrist, Stuart Hall, and Kathleen Raine. The views are, as one would expect, various. Richard Hoggart says that "The Tyger" is not an invocation but has "a rapt, trance-like quality"; George Goyder emphasizes its spiritual dimension; Graves says it was "written in a fit of extreme schizophrenia." The zoo keeper points out that tigers are often placid. Kathleen Raine says that the tyger was made by Satan or the demiurge, and she relates a vision of her own in which a hyacinth was transformed before her eyes. A small boy says he believes God must have made the tyger because Blake was a Christian. Now and again a real tiger snarls in a real forest.</p>
+                    <p>For all this, the movement of the film is not haphazard. It proceeds from one stanza to another and raises some particular questions along the way. Why did Blake draw a toy tyger? "I haven’t a clue," says Hoggart. Notebook revisions are discussed by school children and by Robert Graves (who makes the interesting suggestion that "what dread feet" may, as revised, refer to the smith who works the bellows with his foot). Graves’s simplified version of the poem is read: two stanzas have been eliminated and all verbs changed to past tense. Cut to a school-room:
+<q>
+                            <hi rend="i">Teacher</hi>--What’s he done to the poem?<lb/>
+                            <hi rend="i">Small girl</hi>--Ruined it.
+</q>
+J. G. Davies remarks that the "deeps or skies" are not a reference to hell and heaven. Stuart Hall sees the poem as a process in which God moves from the creation of the tyger to the recognition of it as an independent creature, and Adrien Mitchell contrasts the authority of Blake’s "daydreams or visions" with the "spurious authority" of drug experiences. A bevy of children’s drawings of tygers is seen in juxtaposition to Blake’s. In all, the result is highly successful, reminding us of the universality of the poem’s appeal and refreshing our own responses to it.</p>
+                    <p>The Bronowski film, produced by Adrien Malone, is sub-titled "As a Man Is--So He Sees." Dr. Bronowski sees molten metal, a great deal of it, pouring through troughs and into cauldrons. The first appearance of this image is striking and apposite, but after frequent repetition it loses its power. When we descend to find Bronowski, hard hat on head, declaiming in the slag heap, it becomes ludicrous. The view of Blake presented contains a partial truth, but through reiteration and repetition the partial truth becomes a positive distortion. Perhaps Blake <hi rend="i">was</hi> "the first modern poet," and we may well agree that "The decay of the craftsman in an industrial society was acted out in Blake’s own life," but the line between truth and truism is ready to give way with "The young rebel became the old revolutionary and became for us the new man." What can this mean?</p>
+                    <p>Parts of the film re-enact events in Blake’s life, with awkward results. The effects are like those of the films about the Washingtons and the Lincolns we had to sit through in grammar school: boring pieties unconvincingly represented. Besides, this Blake really does seem daft--raising his arms in invocation every time he sees some green turf, pushing a plough furiously about an empty field, leaping into the pulpit of Westminster Abbey. Besides the silliness of all this, there is the very real possibility of misinforming the potential audience. This film is unlikely to be shown to audiences familiar with Blake and it is likely to give others the idea that Blake really was given to declaiming the Preface to <hi rend="i">Milton</hi> in the Abbey when no one was around. Also, no effort is made to distinguish Blake’s own works from the engravings and other prints which are used to illustrate the social conditions of Blake’s time. This again seems an invitation to confuse matters. The most valuable thing about this film is the presentation of some of Blake’s own work in color. It’s a pity more time wasn’t spent on this and less on the Bessemer process. <note id="n5">
+                            <hi rend="i">Morton D. Paley (University of California, Berkeley) recently coedited with Michael Phillips</hi> William Blake: Essays in Honour of Sir Geoffrey Keynes, <hi rend="i">published by the Clarendon Press. He is Executive Editor of the</hi> Newsletter.</note>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0003">
+                <pb id="p07-17" n="17"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="i">William Blake: The Book of Thel--A Facsimile and a Critical Text.</hi> Edited and with an Introduction and Appendixes by Nancy Bogen. Providence: Brown University Press and the New York Public Library, 1971. Pp. xiv + 82, 11 plates. $10</title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Francis Wood <name>Metcalf</name>
+                        </docAuthor>
+                    <ref target="n6" type="note">*</ref></byline>
+                    <p>Nancy Bogen’s facsimile and critical text of <hi rend="i">The Book of Thel</hi> is a handsome and useful work which will find a home on the shelf of many a Blakist. Not only does it offer a good likeness of the copy of <hi rend="i">Thel</hi> in the Berg Collection of the New York Public Library, it also provides a new interpretation of the poem, a new ordering of extant copies more accurate than that of Keynes and Wolf, a running gloss on the designs which includes cross-references to other copies, abundant notes, and an attempt at a standardized text and punctuation. The one bad apple in this cornucopia of bookish delights is a section on prosody whose taint has infected the interpretive section to some extent also. Since much of what follows will deal with these blemishes and therefore seem to indict the work as a whole, I would like to affirm here its overall merit, which is based largely upon the success of its major part, the facsimile.</p>
+                    <p>The two most noticeable differences between original and facsimile are the latter’s greater intensity of color (mostly blue) and the generally darker tone of its "blank" spaces, or "ground." The original’s ground is truly blank, its light tan color that of the aged and perhaps never brilliant paper on which the designs were printed. The facsimile’s ground is not blank, however, but colored to resemble the blank original. This colored ground creates a powerful contrast with the brilliant white of the surrounding page that is not present in the original and that constitutes a major perceptual difference between the two versions. The darker tone of the facsimile’s ground may stem from this contrast more than from its actual pigmentation.</p>
+                    <p>The greater intensity of blue in the facsimile is not bothersome and may well be more "original" than the somewhat faded blue of its model. This raises a paradox of corruptible form. Which version is more original: the present one, faded and darkened by its voyage of two centuries; or some theoretical reconstruction of its pristine state? I have no knowledge of the printer’s calculations in this regard, nor of the techniques of color-reconstruction, but I hope the makers of facsimiles have considered this point before embalming bones of corruption.</p>
+                    <p>Some of the blue areas of the facsimile suffer from an unfortunate grainy or mottled effect, a smudgy contrast within the color that is not as pronounced in the original. There is also a darkness, heaviness, and diffusion of line, but with very little loss of fine detail. In its total impression the facsimile transcends these minor faults, however, and appears the image of pragmatic fidelity: pleasant, useful, and cheap.</p>
+                    <p>Bogen’s new interpretation of <hi rend="i">Thel</hi> is essentially that the heroine is a sympathetic character whose point of view is Blake’s own, and who is "a young girl, not a disembodied soul, who is not hypocritical or even self-deceiving but is as virtuous and transparent as the creatures with which she associates. . . . She seeks and eventually finds a meaningful role in life" (p. 21) as a "protester" (p. 30).</p>
+                    <p>The basis for this interpretation is "a survey of some of the literary traditions to which the poem appears to be related" (p. 21). Six such traditions are considered, and if a similar approach in the section on prosody were not such a critical failure, I might greet this survey without suspicion. As it is, I am uneasy with Bogen’s reliance upon her technique of forging links to various traditions and individual works in order to illuminate <hi rend="i">Thel</hi> indirectly. Specifically, I wonder whether she has been too selective, presenting as prime cuts a few supportive points from her vast, butchered <hi rend="i">corpus</hi> of traditions, but shunning as offal what might contradict her theory. Also I wonder whether one should so easily assume that Blake’s response to the traditions he used was free of irony or reversal. However, I mean only to warn the prospective reader, not to damn Bogen’s work without substance. Her new reading of <hi rend="i">Thel</hi> will be acclaimed by many, I am sure, and the rest will find it a challenge worth a spirited reply.</p>
+                    <p>Several specific readings in her analysis of the poem itself seem dubious, however, and contribute to my uneasiness with her interpretation as a whole. The one point I shall deal with here concerns the first half of Thel’s motto: "Does the Eagle know what is in the pit? / Or wilt thou go ask the Mole." According to Bogen, "the Eagle and the Mole of the motto probably symbolize double vision and ‘Single Vision.’ Double vision is represented by Thel, who sees more than meets the eye; single vision is represented by the other creatures of Har, whose reality seems limited to themselves and their milieu. Therefore, the motto’s first question is, Does Thel or one of the other creatures know what is in the pit? Since <hi rend="i">pit</hi> can signify both the grave and hell, the answer seems to be Thel, for she alone has visited the ‘land unknown.’ But that land is also the interior of the Clod’s house, and Thel’s experience there results from the Clod’s invitation; so the real answer is that both Thel and the Clod know what is in the pit, but their knowledge is of different orders" (p. 30).</p>
+                    <p>This argument’s premise, that the Eagle and Mole "probably symbolize double vision and ‘Single Vision,’ " is supported by a note to the famous letter to Butts of 22 November 1802. It would seem unwise, however, to leap forward across thirteen years of crucial intellectual development <note id="n6">
+                            <hi rend="i">Francis Wood Metcalf is writing a Ph.D. dissertation at New York University on rhetoric and style in the Prophetic Books and has contributed previously to the</hi> Newsletter.</note>
+                        <pb id="p07-18" n="18"/>
+in an effort to legitimize a reading retrospectively. Since apparently Blake had not evolved his concept of imaginative levels at the time he wrote <hi rend="i">Thel</hi>, Bogen’s interpretation seems groundless. At the very least she ought to have explained why the motto’s nearly contemporaneous echo in <hi rend="i">Visions of the Daughters of Albion</hi>--"Does not the eagle scorn the earth &amp; despise the treasures beneath? / But the mole knoweth what is there, &amp; the worm shall tell it thee" (5:39-40)--is not of interpretive value though obviously related in concept.</p>
+                    <p>Bogen supports a "no" answer for the rest of the motto by means of the following logic: "As for the second question of the motto--‘Can Wisdom be put in a silver rod? / Or Love in a golden bowl?’--from the way it is phrased the answer must be no. If Blake had wanted an affirmative answer he would have asked, Can Wisdom <hi rend="i">not</hi> be put in a silver rod <hi rend="i">nor</hi> Love in a golden bowl?" (pp. 30-31). I agree with her notion of the proper answer, but marvel that she did not apply similar logic to the preceding distich. On this basis, if Blake had wanted an affirmative answer he would have asked, Does the Eagle <hi rend="i">not</hi> know what is in the pit? As it is, the motto states in paraphrase that no, of course the Eagle doesn’t know what is in the pit because that’s the Mole’s turf, as it were. Bogen’s claim that the answer is yes, the Eagle (Thel) knows what is in the pit, and the Mole (the Clod) knows too, "but their knowledge is of different orders," rings with the special pleading of an argument stretched on the iron couch of a fixed theory.</p>
+                    <p>The weakness of the section on <hi rend="i">Thel</hi>’s prosody derives mainly from failures of judgment and accuracy. An example of the former occurs when in tracing harbingers of <hi rend="i">Thel</hi>’s long line in earlier Blakean works, Bogen observes that in <hi rend="i">King Edward the Third</hi> "several fourteen-syllable lines may be found" (p. 12); three, according to the notes. Since very many of this play’s 642 lines deviate wildly from the decasyllabic norm, I question the value of her observation. To seize upon the three lonely heptameters in this exotic company and to prick them out as precursors of <hi rend="i">Thel</hi>’s long line, suggesting not a random but a developmental connection, is surely to display myopic judgment.</p>
+                    <p>Bald inaccuracy joins bad judgment in Bogen’s next sentence: "Blake’s early attempts at measured prose might also be mentioned: <hi rend="i">Samson, The Couch of Death, Contemplation</hi>, and the <hi rend="i">Prologue to King John</hi> in <hi rend="i">Poetical Sketches</hi>; and the two unfinished pieces in manuscript, beginning ‘Woe cried the muse’ and ‘then She bore Pale Desire.’ " Analysis refutes the vague assertion that these works’ rhythmic form relates to <hi rend="i">Thel</hi>’s heptameters. The <hi rend="i">Prologue to King John</hi>, for example, contains thirteen pentameter periods, including seven in a row, but only a few heptameters. In "Woe cried the muse," sixteen of the first twenty rhythmic units are pentameters; two are heptameters. There is considerable rhythmic variation in and among the other works in Bogen’s list, but I am certain that no analysis would support the claim that they anticipate the septenary line.</p>
+                    <p>Bogen next considers, by a rough count, eighteen separate non-Blakean works and genres as possible prosodic influences. I admire the breadth of her research, but wish she had been as diligent to analyze and evaluate her material as she was to acquire it. For example, she speculates that "prose works of a rhythmical or lyrical nature may also have had some influence on Blake’s development of the long line" (p. 12); and "among" such works, six are listed. The evidence for a prosodic connection is this: "Hervey and Sherlock are referred to in <hi rend="i">An Island in the Moon</hi>; and Blake’s diction in <hi rend="i">Thel</hi> is similar in many respects to the diction of these works" (p. 13). What have diction and prior reference to do with prosody? Does the likelihood that Blake read a work in one mode constitute evidence that he somehow transferred its form to another? Bogen’s authority to suggest formal parallels was weakened by her inaccuracy with regard to Blake’s own works; here, unsupported by evidence, her suggestion is critically worthless.</p>
+                    <p>A singular instance of poor judgment occurs when Bogen attempts to link the long line with biblical style as discussed and translated by Robert Lowth. In quoting a passage from his <hi rend="i">Lectures on the Sacred Poetry of the Hebrews</hi>, she claims that Lowth "contended" (p. 13) what in fact he said by extrapolation "may at least be reasonably conjectured" (3rd ed. [London, 1835], p. 214); and the quotation itself--indeed her whole treatment of Lowth--supports a connection between the Bible and Blake of an almost desperate remoteness. Amazingly, Bogen has found here the needle of irrelevance in a haystack of material that may link Blake and the Bible after all. The essential content of Lowth’s few remarks on Hebrew meter is that we know next to nothing about it. His great discovery, which raced like chilly fire through the crypts of clerical Europe, was that inasmuch as Hebrew prosody could now be deciphered, it was based on a characteristic resemblance of sense-units, or parallelism. As Lowth put it, "in this peculiar conformation, or parallelism, of the sentences, I apprehend a considerable part of the Hebrew metre to consist; though it is not improbably that some regard was also paid to the numbers and feet. But of this particular we have at present so little information, that it is utterly impossible to determine, whether it was modulated by the ear alone, or according to any settled or definite rules of prosody" (Lowth, p. 214). It is therefore strange that Bogen gleans a few scattered crumbs about "numbers and feet" while ignoring the feast of parallelism spread before her. It is also strange that she overlooks the connections between Blakean style and biblical parallelism drawn by other scholars, one of whom she mentions at some length in her notes.<ref target="n1" type="note">1</ref> To include parallelism in a section on prosody would force a minor stretch of definition, but Lowth himself set precedent for this. <note id="n1"><hi rend="s">1</hi> Alicia Ostriker, <hi rend="i">Vision and Verse in William Blake</hi> (Madison: Univ. of Wisconsin Press, 1965), p. 127; and Murray Roston, <hi rend="i">Prophet and Poet: The Bible and the Growth of Romanticism</hi> (Evanston: Northwestern Univ. Press, 1965), pp. 164-66. Roston overstates the importance of parallelism in Blake: "parallelism forms the unifying metre of [the] later books" (p. 166); but there is much truth in his view that "to read modern critics discussing the metres of Blake’s prophetic books is to find oneself back in the seventeenth-century examination of biblical poetry before the discovery of parallelism" (p. 165).</note>
+                    </p>
+                    <p>Almost the final third of the section is devoted to the Sternhold-Hopkins metrical psalms, which Bogen favors as a prosodic influence on the basis of negligible evidence. In this instance, at least, she acknowledges both her bias and her lack of support for it: "to discover a positive connection between the long line of <hi rend="i">Thel</hi> and the Sternhold-Hopkins fourteener would be gratifying, but perhaps a closer comparison of the two is needed first" (p. 14). If this is so, and aside from the dubious critical values involved, an ethical question appears. Should one save for the rhetorically strong end-position of one’s commentary, and give the fullest treatment to, what is an admittedly flimsy pet notion? If not the specialist, will the defenseless "general reader," trusting the printed word, be left sagely nodding at this nonsense?</p>
+                    <p>Despite the weakness of the prosody section--which is, after all, only four pages long--Bogen’s book will be helpful to the student of <hi rend="i">Thel</hi> who needs a good facsimile. We need more such works of respectable quality and moderate cost, and according to David Erdman’s Foreword, Brown University Press and the New York Public Library will help to provide them. Ideally, perhaps, a facsimile’s concreteness and permanence should be left uncompromised by the more subjective and fallible types of criticism. But since the Spectre of completeness haunts us all, including publishers, I suggest that these future editions be produced by the collaboration of two or more scholars, each working in his area of greatest competence. If this had been the case with Bogen’s <hi rend="i">Thel</hi>, its weakness might have been avoided, and its strength maintained.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0003">
+                <pb id="p07-19" n="19"/>
+                <div2>
+                    <head>
+                        <title type="main">Roger R. Easson and Robert N. Essick. <hi rend="i">William Blake: Book Illustrator: A Bibliography and Catalogue of the Commercial Engravings.</hi> Normal, Illinois: The American Blake Foundation, 1972. Volume I: Plates Designed and Engraved by Blake. Pp. xvi + 58 + 82 pls. $8</title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Deirdre <name>Toomey</name>
+                        </docAuthor>
+                    <ref target="n7" type="note">*</ref></byline>
+                    <p>
+                        <hi rend="i">William Blake: Book Illustrator</hi>, Volume I, is the first in a series of three publications which will reproduce and catalogue all of Blake’s commercial engravings. The first volume deals with designs invented and engraved by Blake, the second will deal with designs invented but not engraved by Blake and the third with engravings by Blake after other artists. The editors, Roger R. Easson and Robert N. Essick, have been cautious in their acceptance of attributions: thus doubtful works such as the engravings in Bryant’s <hi rend="i">Mythology</hi>, Gough’s <hi rend="i">Sepulchral Monuments, Vetusta Monumenta</hi> and <hi rend="i">The Seaman’s Recorder</hi> have not been included in the first volume. They have also been cautious in their classifications: "Laocoon," the Wedgewood engravings and the non-pastoral engravings in Thornton’s <hi rend="i">Virgil</hi> have all been excluded from the first volume on the grounds--perhaps debatable in the case of the "Laocoon"--that they are not "original," being "essentially copies of another artist’s work." These have been relegated to the third volume.</p>
+                    <p>Clearly <hi rend="i">William Blake: Book Illustrator</hi> in its final form will be a very useful work of reference for Blake scholars. The unusually large amount of bibliographical data is helpful and this blending of "The descriptive bibliography and the print catalogue" is quite successful, although the seven pages of bibliographical description which accompany the one plate of Herries’ <hi rend="i">Bible</hi> are, at first sight, somewhat daunting. It is enlightening to see the commercial engravings, not just as isolated prints, but in the context of the books for which they were executed.</p>
+                    <p>The editors main purpose is, however, as they have said, "the complete reproduction of Blake’s commercial book illustrations" and their "prime concern is to assist the student of Blake’s art." Sadly the reproductions themselves are, for the most part, of rather low quality, and this may tend to modify the usefulness of <hi rend="i">William Blake: Book Illustrator</hi> as a work of reference. Some of the reproductions are highly inaccurate: those of the <hi rend="i">Night Thoughts</hi> engravings are particularly bad. Here the values are distorted to such an extent that some pages, in particular 33, 35 and 72, look as if they have been re-engraved by John Jackson. The thick black shadows that appear everywhere in the <hi rend="i">Night Thoughts</hi> reproductions are most unpleasing. This tendency towards excessive blackness is also apparent in Thornton’s <hi rend="i">Virgil</hi> and in the Cowper plate, in both cases obscuring areas of fine detail. The other reproductions are less positively bad, tending to omit detail rather than distort values. Thus in "The Hiding of Moses" whole areas of detail are missing from the left-hand side of the design. The same is true, to a lesser extent, of the fine detail in the Wollstonecraft illustrations. It is indeed most unfortunate that so useful a work should be marred by technical defects, and that such scrupulous and thorough editors as Roger Easson and Robert Essick should be so badly served by their reproductions. Yet, even with these defects <hi rend="i">William Blake: Book Illustrator</hi> remains a valuable work of reference and I look forward to seeing the next two volumes. <note id="n7">
+                            <hi rend="i">Deirdre Toomey is writing her doctoral thesis at the University of London. Her most recent contribution to the</hi> Newsletter <hi rend="i">was</hi> "<hi rend="i">The States of Plate 25 of</hi> Jerusalem" <hi rend="i">in #22.</hi>
+                        </note>
+                    </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0003">
+                <pb id="p07-20" n="20"/>
+                <div2>
+                    <head>
+                        <title type="main">Janet Warner, John Sutherland, and Robert Wallace, producers and directors. <hi rend="i">Blake’s "America."</hi> Toronto: York University, 1970. Videotape, 50 minutes.; Janet Warner, John Sutherland, and Robert Wallace, producers and directors. <hi rend="i">Blake’s "Visions of the Daughters of Albion."</hi> Toronto: York University, 1971. Videotape, 50 minutes.; <hi rend="i">In the United States both videotapes are distributed in all popular formats by Great Plains National Instructional Television Library, University of Nebraska, P. O. Box 80669, Lincoln, Nebraska 68501, and in Canada and elsewhere by the Department of Instructional Aid Resources, York University, 4700 Keele Street, Downsview, Ontario.</hi>
+                        </title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Morris <name>Eaves</name>
+                        </docAuthor>
+                    <ref target="n8" type="note">*</ref></byline>
+                    <p>At least in Blake studies, the two videotapes that have issued from York University in Toronto are pioneer efforts to make audiovisual aids for the classroom where Blake is being taught. In my opinion the results of these two experiments are mixed, but my review is written on the assumptions that television has a place in the classroom, and that Blake could be well served by it. Nothing that I have seen in the Warner-Sutherland-Wallace videotapes has given me reason to doubt my assumptions. When the tapes were shown in 1971 at the Blake Festival (Illinois State University) and at the MLA Annual Meeting in Chicago, I heard two kinds of objections that struck me as being of little use in evaluating the tapes. The first was theoretical and asked unanswerable questions, as for instance, whether Blake’s infinite vision is reduced to finitude by television. The second was critical and queried the tapes as though they were articles in a scholarly journal. In this review I have tried to be relentlessly practical, and, while looking at the tapes only as what I am sure they are designed to be, classroom tools, I have asked the same question over and over: how useful will they be in a classroom?</p>
+                    <p>I have seen each tape four times, twice outside the classroom, twice inside. I have shown the tapes to two different kinds of undergraduate classes: a class in Blake only, and a class in Romantic literature, in which Blake was one of six or seven writers read. The reactions in each class were essentially the same, though more emphatic in the Blake class. I state the opinions below as mine, but they were corroborated in every case (without prompting, of course) by the students who saw the tapes. Each class was intellectually mixed, both in abilities and interests (the Blake class, for instance, was not weighed down with English majors), and temperamentally sunny--not at all disposed to grumble and pass harsh judgments on things presented to them for evaluation.</p>
+                    <p>The first effort of the Warner-Sutherland-Wallace group was a videotape on <hi rend="i">America</hi> produced in 1970. I am sure that by now they regard their early work as inferior to their later work. But since many of the characteristics of the <hi rend="i">America</hi> tape carry over into the second tape, on <hi rend="i">Visions of the Daughters of Albion</hi>, it is convenient to start at the starting-place and describe the tape and its problems.</p>
+                    <p>The first thing that you notice is the stiffness that characterizes the movement of the tape. The camera seems to have a severely limited range of movement, and thus, for instance, the plates of <hi rend="i">America</hi> are consistently shown from awkward distances. When the producers try to compensate for a general lack of movement by using modern documentary techniques, the result is usually a flurry of still photos that unfortunately happens to create a stasis of its own. In fact, a difficult problem in making a moving-picture about a work that doesn’t move, such as <hi rend="i">America</hi>, or about an age that precedes cinema, such as the eighteenth century, is that you are forced to find movement somewhere besides the subject of the film being made. With enough resources you can make the whole business move by dramatizing it, and get a BBC <hi rend="i">Forsyte Saga.</hi> But otherwise you are left with a fairly small repertory of documentary techniques invented and used by professionals on small budgets. The techniques are based largely on precise and complicated film-editing, and videotapes are notoriously difficult to edit. That, I assume, was the corner the trio at York University was in when they started working on <hi rend="i">Blake’s "America."</hi>
+                    </p>
+                    <p>So the tapes are, both of them, always tending to grind to an everyday halt or wind up to a wild fury of static dynamism, equally monotonous.</p>
+                    <p>Finally the <hi rend="i">America</hi> tape falls back on the basic, time-proven and time-worn technique of all educational film-making, still photos with voice-over narration. But with that comes another problem: the suave, fatuous voice of the narrator whose professional unction has greased our sleepy way through a thousand newsreels and travelogues. The voice has the facile competence that can read Mrs. Browning one minute, Shakespeare the next, and Blake the next, but none of them with character, and always with the condescending tone of a lecturer. The script alternates explanatory narration with readings from <hi rend="i">America</hi>, and they become another obstruction, since the verse has a way of tricking a reader into his worst performance. The reader’s voice rises immediately to its highest, most intense, and most melodramatic pitch, never to fall again.</p>
+                    <p>The method of the tape is to use the plates of <hi rend="i">America</hi> and readings from them as a basic structure to depart from and return to after intervals of explanation. The plan sounds orderly, but the effect in practice is not so lucid for several reasons.</p>
+                    <p>There are four kinds of explanatory material interspersed with <hi rend="i">America</hi> itself: images and words from the period of the Revolutionary War; images <note id="n8">
+                            <hi rend="i">Morris Eaves (University of New Mexico) is Managing Editor of the</hi> Newsletter. <hi rend="i">An essay on</hi> The Book of Urizen <hi rend="i">recently appeared in</hi> William Blake: Essays in Honour of Sir Geoffrey Keynes, <hi rend="i">and a review-essay on Blake’s Job series in</hi> Eighteenth-Century Studies.</note>
+                        <pb id="p07-21" n="21"/>
+and words from recent history; works of graphic art from various periods; and interpretive commentary on <hi rend="i">America.</hi>
+                    </p>
+                    <p>The effect of the modern material--the hippies, war protesters, rioters, and starving Biafrans--is to date the film rather than to establish a solid point of comparison between the 1770’s and the 1970’s. Contemporary events are not contemporary for long, and five-year-old history is not quite history either, and therefore an unstable gray area is what we get in the videotape. Judging from the reactions of my students, some of whom were just entering high school when the modern film footage in the <hi rend="i">America</hi> tape was being shot, the effect is like seeing reruns of the television news.</p>
+                    <p>The other kind of history used in the tape is more effective, at least when used to illuminate the iconography of <hi rend="i">America</hi>, which is to say, when history becomes a part of art history. This sort of lesson in image-making is novel to students and instructive. But the rest of the historical material, the drummer boys and the Don’t-Tread-on-Me’s, are left to fend mostly for themselves as the unresurrected clichés of elementary-school American history. Even the most interesting parts of the historical graphics, the American emblems and portraits of Revolutionary-War soldiers, become almost ludicrous when they are shown to the tune of Blake’s <hi rend="i">America.</hi> The wild gnashing and groaning of the verse simply cannot be easily combined with those tame materials.</p>
+                    <p>The best part of both tapes is the lesson in iconography that they try to teach with comparative graphics. When they are clear, as they sometimes are, they are striking. Most of the comparisons are left implicit rather than made explicit, and many sound, implicit comparisons are woven into the tape, as, for instance, between the postures of crouching and rising figures. But often the point of the comparisons is not clear, as it is not in a series of statues shown while lines are being read about an eagle in Mexico and a lion in Peru. Moreover, when a plate from <hi rend="i">America</hi> is compared to other works by Blake, say a plate from <hi rend="i">The Marriage</hi>, many students would be hard put to say where one begins and the other leaves off. After it appears several times in the course of the tape, you might think that "Albion rises" is a plate from <hi rend="i">America.</hi> Finally, the comparisons are sometimes so loose that they seem gratuitous, as in the use made of Goya’s <hi rend="i">Disasters of War</hi> series.</p>
+                    <p>The narrator’s interpretive commentary on <hi rend="i">America</hi> is mostly psychoanalytical. Orc is defined as the representative of adolescent sexual energies, usually repressed, and plate 5 is called a diagram of the psyche, with the superego at the top, ego in the middle, and id at bottom. But the tack of the commentary doesn’t matter much because it gets lost in the other kinds of material on the tape. The narrator says at one point, for instance, that the designs in <hi rend="i">America</hi> repeat motifs of the four elements, but this observation is never followed up in the commentary on any of the plates.</p>
+                    <p>Many of the amateurish excesses in the first tape--such as the portraits of Blake that keep appearing for no apparent reason--are cut away in the second tape, on <hi rend="i">Visions of the Daughters of Albion</hi> ("an interpretation by Janet Warner and John Sutherland"), and with them goes at least one source of unnecessary confusion. Overall the second tape is a giant step ahead of the first. The camera and hence the camerawork are more flexible, the comparative graphics are clearer, and because more weight is given to significance than to pizzazz, a lot of fat is turned to lean.</p>
+                    <p>The historical documents are still present, but they are fewer, more interesting, and further from cliché, at least for the American viewer. Excerpts from Mary Wollstonecraft’s <hi rend="i">Vindication of the Rights of Women</hi> are read over pictures of eighteenth-century women in costume, and <hi rend="i">The Harlot’s Progress</hi> is used as a graphic depiction of the exploitation of women--not wildly original, but not "The Star-Spangled Banner" and the Spirit of ’76 either.</p>
+                    <p>There is a much firmer sense of direction in the comparative graphics. The comparative principle on which the tape is constructed is explicitly stated and explained, and the comparisons are more often solid and direct than merely suggestive. Clear use is made, for instance, of Stedman’s <hi rend="i">Narrative.</hi> There is less reading from the text of the work, which is a relief, the music is usually more appropriate, and more sense of the presence of a controlling interpretation.</p>
+                    <p>But there are also several large problems left over from the <hi rend="i">America</hi> tape, and a couple of new ones. The offensive male voice of the narrator off camera in <hi rend="i">America</hi> has been replaced by a slinky female who occasionally appears on camera. Her voice is slightly less offensive than the male’s, but somehow the appearance of a would-be twentieth-century Oothoon whose clothes and furniture seem to be <hi rend="i">Vogue</hi>’s vision of life rather than her own loses her more points than the bit of character in her voice can gain for her. The losses are doubled by a weak chorus that tries to imitate the Daughters of Albion.</p>
+                    <p>The comparative graphics begin to lose their force when we are shown a series of very slickly executed modern nudes in Oothoon poses that take us back to <hi rend="i">Vogue, Mademoiselle</hi>, and matching narrator. Moreover, the producers seem to have noticed the preponderance of still pictures in their <hi rend="i">America</hi> tape, and one of the attempted remedies in the <hi rend="i">Visions</hi> tape comes off as silly. The attempt to animate still pictures by moving them in front of the camera almost never works for anyone except the professional’s professional. Here it makes even slicker the slick <hi rend="i">Vogue</hi> nudes, and makes ridiculous the line "Bromion rent her" while a statue pulses in front of the camera. The <hi rend="i">Visions</hi> tape <hi rend="i">wants</hi> to move--something that can’t be said of the <hi rend="i">America</hi> tape--but attempts to make still photos move only remind the viewer of the limitations of the tape. This is also true of sound effects. In the <hi rend="i">America</hi> tape the rising wind and the puny trumpets playing the charge to the voice of Albion’s Angel shouting "Play, play my war trumpets" were jarring, and so are the reverberation effects used in the <hi rend="i">Visions</hi> tape. These kinds of effects require caution to keep them from being laughable. Reverberation is used more skillfully in soap operas.</p>
+                    <p>But finally, about halfway through <hi rend="i">Visions</hi> we slip back into the unfortunate groove of the <hi rend="i">America</hi> tape--a drone of readings accompanied by an endless stream of pictures, one more or less like another in unexplained juxtaposition and sequence. The lesson in iconography that I assume is intended is lost, and the graphics at last seem to function like the music, as a merely "appropriate" background.</p>
+                    <p>Something I learned from showing the York videotapes to students is that, despite McLuhan, television in the classroom is not an attentiongetter. Rooms are large, television screens are small, and students are restless. And he who will have television will also have its technical distractions--hum, hiss, click, roll, and wave. The videotape reel will be warped, or the machine will be on the blink. Hence the videotape must be aggressive. Long stretches of monologue, even the noisy hysterical kind in the <hi rend="i">America</hi> tape, shouted over pictures of battles, engravings from here, statues from there, and reclining nudes, all accompanied by routine music, only encourage the viewer to tune in to the TV hum and drift away in a semitrance.</p>
+                    <p>The only way to keep that from happening is to make the tape as lucid and substantial as possible. The only way to get <hi rend="i">that</hi> to happen is to have an absolutely firm sense of purpose. The York tapes get lost in their search for an audience. Sometimes they seem intended to teach students how to read poetry as well as how to read <hi rend="i">Visions of the Daughters of Albion</hi>, and yet other times they seem aimed at a much higher level. The level must be sought, found, and kept. Then continuity must be established and maintained without fail. The method of the York tapes in practice is too often interruptive and disruptive. Comparative material from art and history must be used with maximum efficiency. Otherwise the effect of these audiovisual "aids" is to display Blake’s work in a diminutive context. As the use of comparative material is decreased, the use of Blake material should be increased. One of the ways to make <hi rend="i">America</hi> more interesting is to look more closely at it; the way of the York tapes is often to shift attention from <hi rend="i">America</hi> to other things. By "look more closely" I mean, for example, explore Blake’s use of his medium more closely, the graphic and literary movement of the narrative, the music (in the serious, large sense) of his verse, the techniques of relief etching and watercoloring. And finally, the tapes should be shorter, not only because that would make them more effective, but also because they are now too long for the average classroom "hour." Fortyfive minutes is the outer limit, and forty would be better. Nothing ever goes quite right when you use a videotape in a classroom, and if you use one as seldom as I do, the time sacrificed to technological logistics will astound and amaze you.</p>
+                    <p>Warner, Sutherland, and Wallace have been extraordinarily brave, I think, to experiment with the teaching of Blake in a difficult new medium. And usually, I think, that is the way teaching improves: not with elephantine grants from government agencies whose support will be snatched away just as you start to get somewhere, but with small reserves of money and large reserves of talent and energy. The York University team will have to go further before we can tell how much talent they have, but they obviously have large reserves of energy to support whatever talent their work in videotape production eventually shows. I regard their first two tapes as a pair of instructive failures. Since the second is less a failure than the first, I am encouraged, and I hope they are, too, and will try yet again. If they just can’t rouse themselves for another go, then I hope someone else will pick up where they left off after a slow but still promising start.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+<?xml version="1.0"?>
+<text id="volume_07">
+        <body>
+            <div1 id="BQ-07-1-0003">
+                <pb id="p07-22" n="22"/>
+                <div2>
+                    <head>
+                        <title type="main">
+                            <hi rend="i">The Sports of Cruelty: Fairies, Folk-songs, Charms, and Other Country Matters in the Work of William Blake</hi> by John Adlard. London: Cecil and Amelia Woolf, 1972. £3.15</title>
+                    </head>
+                    <byline>Reviewed by <docAuthor>Katharine M. <name>Briggs</name>
+                        </docAuthor>
+                    <ref target="n9" type="note">*</ref></byline>
+                    <p>John Adlard has written several articles on folklore beliefs underlying some of Blake’s references, as, for instance, "Mr. Blake’s English Fairies" in <hi rend="i">The Bulletin of the Modern Language Society</hi> 2, LXV (Helsinki, 1964). He has now written at greater length about Blake’s attitude to folklore generally, and in particular to the fairies, by whom Blake appears, sometimes at least, to symbolize the cool provocativeness of a flirtatious woman, who titillates desire without fulfilling it. This interpretation, as John Adlard points out, is a development of Pope’s treatment of the sylphs in <hi rend="i">The Rape of the Lock.</hi> One passage, "A fairy leapt upon my knee" (p. 188 of the Keynes edition), is almost a quotation.</p>
+                    <p>The fairy element is not the only feature of the book in which every folklore reference by Blake is minutely examined by a scholar who shows a wide and far-ranging knowledge of his subject. Blake’s journals, letters, and conversation are analyzed to provide a clue to cryptic passages. For instance the germ of that passage in <hi rend="i">America</hi>--about the <note id="n9">
+                            <hi rend="i">Katharine M. Briggs is Vice-President of the Folklore Society (London). Her published writings include</hi> The Anatomy of Puck <hi rend="i">(1959)</hi>, Folktales of England <hi rend="i">(with Ruth L. Tongue, 1965)</hi>, The Fairies in Tradition and Literature <hi rend="i">(1967)</hi>, The Personnel of Fairyland <hi rend="i">(1969)</hi>, Englische Volksmarchen <hi rend="i">(1970), and contributions to</hi> A Dictionary of British Folktales in the English Language <hi rend="i">(1970-71).</hi>
+                        </note>
+                        <pb id="p07-23" n="23"/>
+mysterious palace built in Atlantean hills by Ariston for his stolen bride--might well have sprung from Cumberland’s meeting with Thomas Johnes of Haford, who had built among the Welsh Hills a castle, almost a palace, for his wife Jane, where they founded an idyllic community to surround a house and gardens embellished with every beauty which his imagination could conceive. The ruin of the house is still left, and in a recent article in <hi rend="i">Country Life</hi> the place was described.</p>
+                    <p>John Adlard further explores Blake’s references to dragons, folk customs and beliefs, folk songs, and dialect. The book should be of great use to Blake scholars, but the scattered and diffused matter on which it works has made it difficult to draw the whole subject into a unity, so that it reads rather like a series of excursions into literary detective work than a finished book. This, however, will not deter the specialist.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
