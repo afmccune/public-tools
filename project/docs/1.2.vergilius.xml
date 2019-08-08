@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>1.2.vergilius</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Laocoön</title>
+				<author n="Vergilius">Publius Vergilius Maro</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2019</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">01.2</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2019"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <body>
+            <pb id="p01-6" n="6"/>
+            <div1 id="BQ-01-2-0004">
+				<head>
+					<title type="main">Laocoön</title>
+				</head>
+				<byline><docAuthor>Publius <name>Vergilius</name> Maro</docAuthor></byline>
+                <p>Primus ibi ante omnis, magna comitante caterva,<lb/>
+				Laocoön ardens summa decurrit ab arce,<lb/>
+				et procul: “O miseri, quae tanta insania, cives?<lb/>
+				Creditis avectos hostis? Aut ulla putatis<lb/>
+				dona carere dolis Danaum? Sic notus Ulixes?<lb/>
+				aut hoc inclusi ligno occultantur Achivi,<lb/>
+				aut haec in nostros fabricata est machina muros<lb/>
+				inspectura domos venturaque desuper urbi,<lb/>
+				aut aliquis latet error; equo ne credite, Teucri.<lb/>
+				Quicquid id est, timeo Danaos et dona ferentis.”<lb/>
+				Sic fatus, validis ingentem viribus hastam<lb/>
+				in latus inque feri curvam compagibus alvum<lb/>
+				contorsit: stetit illa tremens, uteroque recusso<lb/>
+				insonuere cavae gemitumque dedere cavernae.<lb/>
+				Et, si fata deum, si mens non laeva fuisset,<lb/>
+				impulerat ferro Argolicas foedare latebras,<lb/>
+				Troiaque, nunc stares, Priamique arx alta, maneres.<lb/>
+				[...]<lb/>
+				
+				<figure n="thumb/b/bd/Laocoon_and_His_Sons.jpg/1280px-Laocoon_and_His_Sons.jpg" rend="db" width="445" height="400">
+					<figTranscr/>
+					<figDesc>Laocoön</figDesc>
+				</figure>
+					
+				Hic aliud maius miseris multoque tremendum<lb/>
+				obicitur magis, atque improvida pectora turbat.<lb/>
+				Laocoön, ductus Neptuno sorte sacerdos,<lb/>
+				sollemnis taurum ingentem mactabat ad aras.<lb/>
+				Ecce autem gemini a Tenedo tranquilla per alta—<lb/>
+				horresco referens—immensis orbibus angues<lb/>
+				incumbunt pelago, pariterque ad litora tendunt;<lb/>
+				pectora quorum inter fluctus arrecta iubaeque<lb/>
+				sanguineae superant undas; pars cetera pontum<lb/>
+				pone legit, sinuatque immensa volumine terga.<lb/>
+				Fit sonitus spumante salo; iamque arva tenebant,<lb/>
+				ardentisque oculos suffecti sanguine et igni,<lb/>
+				sibila lambebant linguis vibrantibus ora.<lb/>
+				Diffugimus visu exsangues: illi agmine certo<lb/>
+				Laocoönta petunt; et primum parva duorum<lb/>
+				corpora natorum serpens amplexus uterque<lb/>
+				implicat, et miseros morsu depascitur artus;<lb/>
+				post ipsum auxilio subeuntem ac tela ferentem<lb/>
+				corripiunt, spirisque ligant ingentibus; et iam<lb/>
+				bis medium amplexi, bis collo squamea circum<lb/>
+				terga dati, superant capite et cervicibus altis.<lb/>
+				Ille simul manibus tendit divellere nodos,<lb/>
+				perfusus sanie vittas atroque veneno,<lb/>
+				clamores simul horrendos ad sidera tollit:<lb/>
+				quales mugitus, fugit cum saucius aram<lb/>
+				taurus, et incertam excussit cervice securim.<lb/>
+				At gemini lapsu delubra ad summa dracones<lb/>
+				effugiunt saevaeque petunt Tritonidis arcem,<lb/>
+				sub pedibusque deae clipeique sub orbe teguntur.<lb/>
+				Tum vero tremefacta novus per pectora cunctis<lb/>
+				insinuat pavor, et scelus expendisse merentem<lb/>
+				Laocoönta ferunt, sacrum qui cuspide robur<lb/>
+				laeserit, et tergo sceleratam intorserit hastam.<lb/>
+				Ducendum ad sedes simulacrum orandaque divae<lb/>
+				numina conclamant.
+				</p>                
+            </div1>
+        </body>
+    </text>
+</TEI.2>

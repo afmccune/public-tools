@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>2.1.lucas</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Christus Natus Est</title>
+				<author n="Lucas">Lucas Evangelista</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2020</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">02.1</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2020"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <body>
+            <pb id="p01-2" n="2"/>
+            <div1>
+				<head>
+					<title type="main">Christus Natus Est</title>
+				</head>
+				<byline><docAuthor><name>Lucas</name> Evangelista</docAuthor></byline>
+                <p>Factum est autem in diebus illis, exiit edictum a Caesare Augusto ut describeretur universus orbis.
+                Haec descriptio prima facta est a praeside Syriae Cyrino:
+                et ibant omnes ut profiterentur singuli in suam civitatem.
+                Ascendit autem et Joseph a Galilaea de civitate Nazareth in Judaeam, 
+                	in civitatem David, quae vocatur Bethlehem: 
+                	eo quod esset de domo et familia David,
+                ut profiteretur cum Maria desponsata sibi uxore praegnante.
+                Factum est autem, cum essent ibi, impleti sunt dies ut pareret.
+                Et peperit filium suum primogenitum, et pannis eum involvit, 
+                	et reclinavit eum in praesepio: quia non erat eis locus in diversorio.</p>
+				<figure n="thumb/6/60/South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif/lossy-page1-417px-South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif.jpg" rend="db" width="417" height="600">
+					<figTranscr/>
+					<figDesc>Maria et Joseph</figDesc>
+				</figure>
+                <p>Et pastores erant in regione eadem vigilantes, et custodientes vigilias noctis super gregem suum.
+                Et ecce angelus Domini stetit juxta illos, et claritas Dei circumfulsit illos, et timuerunt timore magno.
+                Et dixit illis angelus: Nolite timere: ecce enim evangelizo vobis gaudium magnum, quod erit omni populo:
+                quia natus est vobis hodie Salvator, qui est Christus Dominus, in civitate David.
+                Et hoc vobis signum: invenietis infantem pannis involutum, et positum in praesepio.
+                Et subito facta est cum angelo multitudo militiae caelestis laudantium Deum, et dicentium:
+                Gloria in altissimis Deo, et in terra pax hominibus bonae voluntatis.
+                Et factum est, ut discesserunt ab eis angeli in caelum: pastores loquebantur ad invicem: 
+                	Transeamus usque Bethlehem, et videamus hoc verbum, quod factum est, quod Dominus ostendit nobis.
+				Et venerunt festinantes: et invenerunt Mariam, et Joseph, et infantem positum in praesepio.
+				Videntes autem cognoverunt de verbo, quod dictum erat illis de puero hoc.
+				Et omnes qui audierunt, mirati sunt: et de his quae dicta erant a pastoribus ad ipsos.
+				Maria autem conservabat omnia verba haec, conferens in corde suo.
+				Et reversi sunt pastores glorificantes et laudantes Deum in omnibus 
+					quae audierant et viderant, sicut dictum est ad illos.
+				Et postquam consummati sunt dies octo, ut circumcideretur puer, 
+					vocatum est nomen ejus Jesus, quod vocatum est ab angelo priusquam in utero conciperetur.
+				
+					
+				</p>                
+            </div1>
+        </body>
+    </text>
+</TEI.2>

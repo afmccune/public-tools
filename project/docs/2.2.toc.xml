@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>2.2.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>2020</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">02.2</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                         <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2020"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <front id="issue_01">
+            <pb id="p02-4" n="4"/>
+            <div1 id="cover">
+            	<figure n="9/9b/012.Abraham_and_the_Three_Angels.jpg" rend="db" width="258" height="324">
+					<figTranscr>G Doré<lb/>
+					N Ligny</figTranscr>
+				</figure>
+            </div1>
+            <div1>
+					<table id="contents" rows="3" cols="1">
+					  <row>
+						<cell><head><title>Contents</title></head></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="2.2.lucas">Paulus Athenis</ref><lb/>
+						<hi rend="i">Lucas Evangelista</hi></cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="2.2.fide">Fide</ref><lb/>
+						(Epistula ad Hebraeos)</cell>
+					  </row>
+					</table>
+			</div1>
+        </front>
+    </text>
+</TEI.2>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>1.2.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>2019</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">01.2</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2019"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <front>
+            <pb id="p01-4" n="4"/>
+            <div1 id="cover">
+                <figure n="0/02/Gruppo_del_laocoonte%2C_05.JPG" rend="db" width="258" height="309">
+                    <figTranscr></figTranscr>
+                </figure>
+            </div1>
+            <div1>
+					<table id="contents" rows="3" cols="1">
+					  <row>
+						<cell><head><title>Contents</title></head></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.2.horatius">Diffugere Nives</ref><lb/>
+						<hi rend="i">Quintus Horatius Flaccus</hi></cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.2.vergilius">Laocoön</ref><lb/>
+						<hi rend="i">Publius Vergilius Maro</hi></cell>
+					  </row>
+					</table>
+			</div1>
+        </front>
+    </text>
+</TEI.2>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
-require('include/functions.php');
+require_once('../../include.php');
+require_once('include/functions.php');
 
 header("Content-Type: text/html; charset=utf-8");
 ini_set("default_charset", 'utf-8');
@@ -122,11 +122,11 @@ $nl = "
 								
 								$fn_t['fn'] = $fn->getFilename();	
 								$fileParts = explode('.', $fn_t['fn']);
-								$fn_t['volIss'] = ($fileParts[0] == 'bonus') ? $fileParts[0] : $fileParts[0].'.'.$fileParts[1];
-								$fn_t['fileVol'] = ($fileParts[0] == 'bonus') ? '' : $fileParts[0];
-								$fn_t['fileIss'] = ($fileParts[0] == 'bonus') ? '' : $fileParts[1];
-								$fn_t['fileSplit'] = ($fileParts[0] == 'bonus') ? $fileParts[1] : $fileParts[2];
-								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);//$fileParts[2];
+								$fn_t['volIss'] = $fileParts[0].'.'.$fileParts[1];
+								$fn_t['fileVol'] = $fileParts[0];
+								$fn_t['fileIss'] = $fileParts[1];
+								$fn_t['fileSplit'] = $fileParts[1] : $fileParts[2];
+								$fn_t['file'] = str_replace('.html', '', $fn_t['fn']);
 													
 								$HTMLstring = file_get_contents($htmlDir.$fn_t['fn']);
 								preg_match( '@<meta\s+http-equiv="Content-Type"\s+content="([\w/]+)(;\s+charset=([^\s"]+))?@i', $HTMLstring, $matches );
@@ -159,7 +159,6 @@ $nl = "
 								$HTMLformat = getHtmlElementArray($FullHTML, 'meta[name=DC.Format]', 'content');
 								$fn_t['format'] = $HTMLformat[0];
 								$XMLauthors = getHtmlElementArray($FullHTML, 'meta[name=DC.Creator.PersonalName]', 'content');
-								$XMLauthors = ($XMLauthors == array('G. E. Bentley', 'Jr.')) ? $XMLauthors = array('G. E. Bentley, Jr.') : $XMLauthors;
 								$fn_t['author'] = implode(', ', $XMLauthors);
 								$XMLfirstAuthorNames = explode(' ', $XMLauthors[0]);
 								$fn_t['authorLast'] = (strpos($XMLauthors[0],', Jr.') !== false) ? str_replace(',', '', $XMLfirstAuthorNames[count($XMLfirstAuthorNames)-2]) : $XMLfirstAuthorNames[count($XMLfirstAuthorNames)-1]; // First author's last name

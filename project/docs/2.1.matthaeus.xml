@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>2.1.matthaeus</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Beati Qui Persecutionem Patiuntur</title>
+				<author n="Matthaeus">Matthaeus Evangelista</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2020</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">02.1</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2020"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <body>
+            <pb id="p01-3" n="3"/>
+            <div1>
+				<head>
+					<title type="main">Beati Qui Persecutionem Patiuntur</title>
+				</head>
+				<byline><docAuthor><name>Matthaeus</name> Evangelista</docAuthor></byline>
+                <p>Videns autem Jesus turbas, ascendit in montem, et cum sedisset, accesserunt ad eum discipuli ejus,
+                et aperiens os suum docebat eos dicens:<lb/>
+                Beati pauperes spiritu: quoniam ipsorum est regnum caelorum.<lb/>
+                Beati mites: quoniam ipsi possidebunt terram.<lb/>
+                Beati qui lugent: quoniam ipsi consolabuntur.<lb/>
+                Beati qui esuriunt et sitiunt justitiam: quoniam ipsi saturabuntur.<lb/>
+                Beati misericordes: quoniam ipsi misericordiam consequentur.<lb/>
+                Beati mundo corde: quoniam ipsi Deum videbunt.<lb/>
+                Beati pacifici: quoniam filii Dei vocabuntur.<lb/>
+                Beati qui persecutionem patiuntur propter justitiam: quoniam ipsorum est regnum caelorum.<lb/>
+                Beati estis cum maledixerint vobis, et persecuti vos fuerint, et dixerint omne malum adversum vos mentientes, propter me:
+                gaudete, et exsultate, quoniam merces vestra copiosa est in caelis. Sic enim persecuti sunt prophetas, qui fuerunt ante vos.</p>
+				<figure n="b/b5/Dore_Bible_Sermon_on_the_Mount.jpg" rend="db" width="371" height="500">
+					<figTranscr>Sermon on the Mount</figTranscr>
+					<figDesc>Ascendit in montem, et docebat eos</figDesc>
+				</figure>
+                <p></p>                
+            </div1>
+        </body>
+    </text>
+</TEI.2>

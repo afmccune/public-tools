@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>2.1.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>2020</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">02.1</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                         <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2020"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <front id="issue_01">
+            <pb id="p02-1" n="1"/>
+            <div1 id="cover">
+                <figure n="thumb/6/60/South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif/lossy-page1-417px-South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif.jpg" rend="db" width="258" height="371">
+                    <figTranscr></figTranscr>
+                </figure>
+            </div1>
+            <div1>
+					<table id="contents" rows="3" cols="1">
+					  <row>
+						<cell><head><title>Contents</title></head></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="2.1.lucas">Christus Natus Est</ref><lb/>
+						<hi rend="i">Lucas Evangelista</hi></cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="2.1.matthaeus">Beati Qui Persecutionem Patiuntur</ref><lb/>
+						<hi rend="i">Matthaeus Evangelista</hi></cell>
+					  </row>
+					</table>
+			</div1>
+        </front>
+    </text>
+</TEI.2>

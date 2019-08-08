@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>1.1.toc</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="toc">Contents</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>2019</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">01.1</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2019"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <front id="issue_01">
+			<pb id="p01-1" n="1"/>
+            <div1 id="cover">
+                <figure n="4/41/Cicero.PNG" rend="db" width="258" height="427">
+                    <figTranscr>CICERO</figTranscr>
+                </figure>
+            </div1>
+			<div1 id="BQ-01-1-0000">
+					<table id="contents" rows="3" cols="1">
+					  <row>
+						<cell><head><title>Contents</title></head></cell>
+						<cell/>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.1.cicero">Dolorem Ipsum</ref><lb/>
+						<hi rend="i">Marcus Tullius Cicero</hi></cell>
+					  </row>
+					  <row>
+						<cell><ref type="article" issue="1.1.caesar">Gallia</ref><lb/>
+						<hi rend="i">Gaius Julius Caesar</hi></cell>
+					  </row>
+					</table>
+			</div1>
+		</front>
+    </text>
+</TEI.2>

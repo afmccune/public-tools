@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>2.2.lucas</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Paulus Athenis</title>
+				<author n="Lucas">Lucas Evangelista</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2020</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">02.2</biblScope>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2020"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_02">
+        <body>
+            <pb id="p01-2" n="5"/>
+            <div1>
+				<head>
+					<title type="main">Paulus Athenis</title>
+				</head>
+				<byline><docAuthor><name>Lucas</name> Evangelista</docAuthor></byline>
+                <p>Paulus autem cum Athenis eos exspectaret, incitabatur spiritus ejus in ipso, videns idololatriae deditam civitatem.
+                Disputabat igitur in synagoga cum Judaeis et colentibus, et in foro, per omnes dies ad eos qui aderant.
+                Quidam autem epicurei et stoici philosophi disserebant cum eo, et quidam dicebant: 
+                	Quid vult seminiverbius hic dicere? 
+                	Alii vero: Novorum daemoniorum videtur annuntiator esse: 
+                	quia Jesum et resurrectionem annuntiabat eis.
+                Et apprehensum eum ad Areopagum duxerunt, dicentes: Possumus scire quae est haec nova, quae a te dicitur, doctrina?
+                nova enim quaedam infers auribus nostris: volumus ergo scire quidnam velint haec esse.
+                (Athenienses autem omnes, et advenae hospites, ad nihil aliud vacabant nisi aut dicere aut audire aliquid novi.)
+                </p>
+
+				<figure n="5/56/V%26A_-_Raphael%2C_St_Paul_Preaching_in_Athens_%281515%29.jpg" rend="db" width="500" height="385">
+					<figTranscr/>
+					<figDesc>Paulus Athenis</figDesc>
+				</figure>
+                
+                <p>Stans autem Paulus in medio Areopagi, ait: Viri Athenienses, per omnia quasi superstitiosiores vos video.
+                Praeteriens enim, et videns simulacra vestra, inveni et aram in qua scriptum erat: Ignoto Deo. 
+                	Quod ergo ignorantes colitis, hoc ego annuntio vobis.
+				Deus, qui fecit mundum, et omnia quae in eo sunt, hic caeli et terrae cum sit Dominus, non in manufactis templis habitat,
+				nec manibus humanis colitur indigens aliquo, cum ipse det omnibus vitam, et inspirationem, et omnia:
+				fecitque ex uno omne genus hominum inhabitare super universam faciem terrae, 
+					definiens statuta tempora, et terminos habitationis eorum,
+				quaerere Deum si forte attrectent eum, aut inveniant, quamvis non longe sit ab unoquoque nostrum.
+				<q>In ipso enim vivimus, et movemur, et sumus:</q>
+					sicut et quidam vestrorum poetarum dixerunt: 
+					<q>Ipsius enim et genus sumus.</q>
+				Genus ergo cum simus Dei, non debemus aestimare auro, aut argento, aut lapidi, 
+					sculpturae artis, et cogitationis hominis, divinum esse simile.
+				Et tempora quidem hujus ignorantiae despiciens Deus, nunc annuntiat hominibus ut omnes ubique poenitentiam agant,
+				eo quod statuit diem in quo judicaturus est orbem in aequitate, in viro in quo statuit, 
+					fidem praebens omnibus, suscitans eum a mortuis.
+				Cum audissent autem resurrectionem mortuorum, quidam quidem irridebant, quidam vero dixerunt: Audiemus te de hoc iterum.
+				Sic Paulus exivit de medio eorum.
+				Quidam vero viri adhaerentes ei, crediderunt: in quibus et Dionysius Areopagita, et mulier nomine Damaris, et alii cum eis.</p>
+            </div1>
+        </body>
+    </text>
+</TEI.2>

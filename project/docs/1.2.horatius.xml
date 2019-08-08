@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>1.2.horatius</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Diffugere Nives</title>
+				<author n="Horatius">Quintus Horatius Flaccus</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2019</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">01.2</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2019"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <body>
+            <pb id="p01-5" n="5"/>
+            <div1>
+                <div2>
+                    <head>
+                        <title type="main">Diffugere Nives</title>
+                    </head>
+                    <byline><docAuthor>Quintus <name>Horatius</name> Flaccus</docAuthor></byline>
+                    <p>Diffugere nives, redeunt iam gramina campis<lb/>
+					arboribusque comae;<lb/>
+					mutat terra vices et decrescentia ripas<lb/>
+					flumina praetereunt;
+					</p>
+					
+					<p>Gratia cum Nymphis geminisque sororibus audet<lb/>
+					ducere nuda choros:<lb/>
+					inmortalia ne speres, monet annus et almum<lb/>
+					quae rapit hora diem.
+					</p>
+
+					<p>frigora mitescunt Zephyris, ver proterit aestas<lb/>
+					interitura, simul<lb/>
+					pomifer autumnus fruges effuderit, et mox<lb/>
+					bruma recurrit iners.
+					</p>
+
+					<p>damna tamen celeres reparant caelestia lunae:<lb/>
+					nos ubi decidimus<lb/>
+					quo pius Aeneas, quo dives Tullus et Ancus,<lb/>
+					pulvis et umbra sumus.</p>
+
+					<p>quis scit an adiciant hodiernae crastina summae<lb/>
+					tempora di superi?<lb/>
+					cuncta manus avidas fugient heredis amico<lb/>
+					quae dederis animo.
+					</p>
+					
+					<figure n="b/b2/Inferno_Canto_5_line_4_Minos.jpg" rend="db" width="504" height="400">
+						<figTranscr>There Minos stands.<lb/>
+						Canto V., line 4.</figTranscr>
+						<figDesc>Minos</figDesc>
+					</figure>
+
+					<p>cum semel occideris et de te, splendida, Minos<lb/>
+					fecerit arbitria,<lb/>
+					non, Torquate, genus, non te facundia, non te<lb/>
+					restituet pietas;
+					</p>
+
+					<p>infernis neque enim tenebris Diana pudicum<lb/>
+					liberat Hippolytum<lb/>
+					nec Lethaea valet Theseus abrumpere caro<lb/>
+					vincula Pirithoo.
+                    </p>                    
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+    <teiHeader>
+        <idno>1.1.caesar</idno>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Gallia</title>
+				<author n="Caesar">Gaius Julius Caesar</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>2019</edition>
+            </editionStmt>
+            <publicationStmt>
+                <date>2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>dbqp</title>
+                        <biblScope unit="volIss">01.1</biblScope>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <respStmt>
+                            <resp>Editor</resp>
+                            <name>Adam McCune</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Adam McCune</publisher>
+                        <date value="2019"/>
+                        <authority>Public Tools</authority>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text id="volume_01">
+        <body>
+            <pb id="p01-3" n="3"/>
+            <div1 id="BQ-01-1-0004">
+                <head>
+                    <title type="main">Gallia</title>
+                </head>
+                <byline><docAuthor>Gaius Julius <name>Caesar</name></docAuthor></byline>
+                <p>Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, 
+                aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. 
+                Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis 
+                Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi 
+                sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime 
+                absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad 
+                effeminandos animos pertinent important, proximique sunt Germanis, qui trans 
+                Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii 
+                quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum 
+                Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum 
+                finibus bellum gerunt.
+                <figure n="4/4b/Kneeling_youthful_Gaul_Louvre_Ma324_n4.jpg" rend="db" width="300" height="399">
+                    <figTranscr/>
+                    <figDesc>Gallus</figDesc>
+                </figure>
+                [Eorum una, pars, quam Gallos obtinere dictum est, 
+                initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus 
+                Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad 
+                septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad 
+                inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. 
+                Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est 
+                ad Hispaniam pertinet; spectat inter occasum solis et septentriones.]</p>
+            </div1>
+        </body>
+    </text>
+</TEI.2>
