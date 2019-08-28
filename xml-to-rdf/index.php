@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 //require($mainDir.'include/functions.php');
 	
 $nl = "
@@ -51,7 +51,10 @@ function standardType($thisType) {
 */
 
 function issueCover($volIss) {
+	global $dir;
+
 	$tocXML = simplexml_load_file($dir.$volIss.'.toc.xml'); 
+	print $dir.$volIss.'.toc.xml';
 	$XMLimg = $tocXML->xpath('//div1[@id="cover"]/figure/@n');
 	return $XMLimg[0];
 }
@@ -108,11 +111,12 @@ function issueCover($volIss) {
 								$fn_t['seasonYear'] = $XMLseasonYear[0];
 								$XMLyear = $FullXML->xpath('//fileDesc/publicationStmt/date');
 								$fn_t['year'] = substr($XMLyear[0], 0, 4);
-								
+
 								$fn_t['issueCover'] = issueCover($fn_t['volIss']);
 								
 								$articles = $FullXML->xpath('//table//ref/@issue');
 								$fn_t['articles'] = $articles; // array
+								
 								
 								$fn_t['rdf']  = '<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"'.$nl;
 								$fn_t['rdf'] .= ' xmlns:'.$rdfCode.'="http://'.$mainServer.'/schema#"'.$nl;
@@ -158,8 +162,7 @@ function issueCover($volIss) {
 								$fn_t['rdf'] .= '		<collex:discipline>History</collex:discipline>'.$nl;
 								$fn_t['rdf'] .= '	</'.$rdfCode.':TEI.2>'.$nl;
 								$fn_t['rdf'] .= '</rdf:RDF>'.$nl;
-
-								
+							
 								file_put_contents('new/'.$fn_t['file'].'.rdf.xml', $fn_t['rdf']);
 									
 								echo '<p>Converted '.$fn_t['fn'].'</p>';

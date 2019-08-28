@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 require($mainDir.'include/functions.php');
 	
 $nl = "
@@ -52,6 +52,8 @@ function standardType($thisType) {
 }
 
 function issueCover($volIss) {
+	global $htmlDir;
+
 	$tocHTML = file_get_html($htmlDir.$volIss.'.toc.html'); 
 	$HTMLimg = getHtmlElementArray($tocHTML, 'div[id=issueCoverImage] img', 'src');
 	return $volIss.'/'.$HTMLimg[0];
@@ -72,6 +74,8 @@ function dateFromSeasonYear($date) {
 }
 
 function articlesFromToc($tocFile, $volIss) {
+	global $htmlDir;
+
 	// Prep HTML file
 	$HTML = file_get_html($htmlDir.$tocFile.'.html');
 	

@@ -1,0 +1,34 @@
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:="http:///schema#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:role="http://www.loc.gov/loc.terms/relators/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:collex="http://www.collex.org/schema#"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+
+	<:TEI.2 rdf:about="http:///2.1.matthaeus">
+		<collex:source_xml rdf:resource="http:///docs/2.1.matthaeus"/>
+		<rdfs:seeAlso rdf:resource="http:///2.1.matthaeus"/>
+		<dc:title>Beati Qui Persecutionem Patiuntur</dc:title>
+		<role:AUT>Matthaeus Evangelista</role:AUT>
+		<collex:genre>Criticism</collex:genre>
+		<collex:thumbnail rdf:resource="http:///img/illustrations/thumb/6/60/South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif/lossy-page1-417px-South_Italy%2C_Amalfi%2C_Romanesque_period%2C_12th_century_-_Plaque-_The_Journey_to_Bethlehem_-_1978.40_-_Cleveland_Museum_of_Art.tif.jpg.thumb.png"/>
+		<dc:date>
+			<collex:date>
+				<rdfs:label>2020</rdfs:label>
+				<rdf:value>2020</rdf:value>
+			</collex:date>
+		</dc:date>
+		
+		<dcterms:isPartOf rdf:resource="http:///2.1.toc"/>
+		<dc:type>Periodical</dc:type>
+		<dc:source>dbqp</dc:source>
+		<role:PBL>dbqp</role:PBL>
+		<collex:archive></collex:archive>
+		<collex:federation>NINES</collex:federation>
+		<collex:federation>18thConnect</collex:federation>
+		<collex:discipline>Literature</collex:discipline>
+		<collex:discipline>Art History</collex:discipline>
+		<collex:discipline>History</collex:discipline>
+	</:TEI.2>
+</rdf:RDF>

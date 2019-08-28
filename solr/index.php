@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <?php
-require_once('../../include.php');
-require_once('include/functions.php');
+require('../include.php');
+require('include/functions.php');
 
 header("Content-Type: text/html; charset=utf-8");
 ini_set("default_charset", 'utf-8');

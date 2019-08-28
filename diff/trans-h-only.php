@@ -22,7 +22,7 @@ $nl = "
 						<?php
 						
 						$docsHtml = array(); 
-						foreach (new DirectoryIterator("../bq-htmltransform/new/") as $fn) {
+						foreach (new DirectoryIterator("../htmltransform/new/") as $fn) {
 							if (preg_match('/.html/', $fn->getFilename())) {
 								$fn_t = array();
 								

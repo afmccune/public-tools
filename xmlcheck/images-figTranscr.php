@@ -1,5 +1,5 @@
 <?php
-require('../../include.php');
+require('../include.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,13 +43,7 @@ require('../../include.php');
     $nav .=		'<strong>Volumes:</strong> ';
     $nav .=		'<a href="images-figTranscr.php?vols=[1-5]">1-5</a> | ';
     $nav .=		'<a href="images-figTranscr.php?vols=[6-9]">6-9</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=1[0-5]">10-15</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=1[6-9]">16-19</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=2[0-5]">20-25</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=2[6-9]">26-29</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=3[0-5]">30-35</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=3[6-9]">36-39</a> | ';
-    $nav .=		'<a href="images-figTranscr.php?vols=4[0-4]">40-44</a>';
+    $nav .=		'<a href="images-figTranscr.php?vols=1[0-5]">10-15</a>';
     $nav .=		'<div class="clear"></div>';
     $nav .=	'</div>';
 	

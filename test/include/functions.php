@@ -1,5 +1,5 @@
 <?php
-   			require('../../include.php');
+   			require('../include.php');
    			include('include/simple_html_dom.php');
 			
 			$minVol = 33;

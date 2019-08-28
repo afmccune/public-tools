@@ -3,7 +3,7 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 	
 	require('include/functions.php');
 	require('include/head.php');
@@ -45,19 +45,19 @@
 					
 					$fn_t['errors'] = array();
 					
-					$WBAlinks = count($fn_t['id']);
-					$WBAimgs = 0;
+					$archiveLinks = count($fn_t['id']);
+					$archiveImgs = 0;
 					
 					foreach($fn_t['rend'] as $r) {
 						if($r == 'db') {
-							$WBAimgs = $WBAimgs + 1;
+							$archiveImgs = $archiveImgs + 1;
 						}
 					}
 					
-					$missing = $WBAimgs - $WBAlinks;
+					$missing = $archiveImgs - $archiveLinks;
 					
 					if($missing > 0) {
-						$fn_t['errors'][] = 'WBA images missing WBA link: '.$missing;
+						$fn_t['errors'][] = 'Archive images missing link to image archive: '.$missing;
 					} else {
 						//
 					}

@@ -3,7 +3,7 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 	
 	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
 	$base_url = ($_SERVER['SERVER_NAME'] == $mainServer) ? 'http://'.$mainServer.'/' : 'http://localhost:8888'.$url;
@@ -11,12 +11,8 @@
 	
 	$numMissing = 0;
 	$missingByDecade = array();
-	$missingByDecade['1960s'] = 0;
-	$missingByDecade['1970s'] = 0;
-	$missingByDecade['1980s'] = 0;
-	$missingByDecade['1990s'] = 0;
-	$missingByDecade['2000s'] = 0;
 	$missingByDecade['2010s'] = 0;
+	$missingByDecade['2020s'] = 0;
 
 	
 	require('include/functions.php');
@@ -116,17 +112,10 @@
 					$fn_t['errors'] = array();
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
-							$srcBase = '';
-							if(strpos($src, 'scan') !== false){
-								$srcBase = $src.'.png';
-							} else if (strpos($src, '.100') !== false || strpos($src, '.bonus') !== false) {
-								$srcBase = $src.'.jpg';
-							} else {
-								$srcBase = $src.'.300.jpg';
-							}
+							$srcBase = $src;
 							$srcFull = $base_path.'img/illustrations/'.$srcBase;
 							$srcLocalLink = $base_url_local.'img/illustrations/'.$srcBase;
-							$srcArchive = 'http://'.$imageArchiveServer.'/images/'.$srcBase;
+							$srcArchive = $archiveImageUrl.$srcBase;
 							if(file_exists($srcFull)) {
 								//echo '<p>'.$fn_t['file'].': Image found: <a href="'.$srcLocalLink.'">'.$srcFull.'</a></p>';
 							} else if(isImage($srcArchive)) {
@@ -157,12 +146,8 @@
 				}
 			}
 			
-			print '<h3>Missing images (1960s): '.$missingByDecade['1960s'].'</h3>';
-			print '<h3>Missing images (1970s): '.$missingByDecade['1970s'].'</h3>';
-			print '<h3>Missing images (1980s): '.$missingByDecade['1980s'].'</h3>';
-			print '<h3>Missing images (1990s): '.$missingByDecade['1990s'].'</h3>';
-			print '<h3>Missing images (2000s): '.$missingByDecade['2000s'].'</h3>';
 			print '<h3>Missing images (2010s): '.$missingByDecade['2010s'].'</h3>';
+			print '<h3>Missing images (2020s): '.$missingByDecade['2020s'].'</h3>';
 			print '<h3>Total missing images: '.$numMissing.'</h3>';
 			?>
 							

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 require('include/functions.php');
 
 header("Content-Type: text/html; charset=utf-8");

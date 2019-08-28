@@ -3,19 +3,15 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 	
 	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
 	$base_url_local = 'http://localhost:8888'.$url;
 	
 	$numMissing = 0;
 	$missingByDecade = array();
-	$missingByDecade['1960s'] = 0;
-	$missingByDecade['1970s'] = 0;
-	$missingByDecade['1980s'] = 0;
-	$missingByDecade['1990s'] = 0;
-	$missingByDecade['2000s'] = 0;
 	$missingByDecade['2010s'] = 0;
+	$missingByDecade['2020s'] = 0;
 
 	require('include/functions.php');
 	require('include/head.php');
@@ -134,7 +130,7 @@
 
 					if(count($fn_t['src']) > 0) {
 						foreach($fn_t['src'] as $src) {
-							if(strpos($src, 'http://') === false) {
+							if(strpos($src, 'http://') === false && strpos($src, 'https://') === false) {
 								$srcFull = $base_path.$src;
 								$srcLocalLink = $base_url_local.$src;
 								if(file_exists($srcFull)) {
@@ -175,12 +171,8 @@
 				}
 			}
 			
-			print '<h3>Missing images (1960s): '.$missingByDecade['1960s'].'</h3>';
-			print '<h3>Missing images (1970s): '.$missingByDecade['1970s'].'</h3>';
-			print '<h3>Missing images (1980s): '.$missingByDecade['1980s'].'</h3>';
-			print '<h3>Missing images (1990s): '.$missingByDecade['1990s'].'</h3>';
-			print '<h3>Missing images (2000s): '.$missingByDecade['2000s'].'</h3>';
 			print '<h3>Missing images (2010s): '.$missingByDecade['2010s'].'</h3>';
+			print '<h3>Missing images (2020s): '.$missingByDecade['2020s'].'</h3>';
 			print '<h3>Total missing images: '.$numMissing.'</h3>';
 			?>
 							

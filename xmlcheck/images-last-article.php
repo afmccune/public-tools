@@ -3,39 +3,15 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 	
 	require('include/functions.php');
 	require('include/head.php');
 	
 	$numBlank = 0;
 	$blankByDecade = array();
-	$blankByDecade['1960s'] = 0;
-	$blankByDecade['1970s'] = 0;
-	$blankByDecade['1980s'] = 0;
-	$blankByDecade['1990s'] = 0;
-	$blankByDecade['2000s'] = 0;
 	$blankByDecade['2010s'] = 0;
-	$blankByYear['1970'] = 0;
-	$blankByYear['1971'] = 0;
-	$blankByYear['1972'] = 0;
-	$blankByYear['1973'] = 0;
-	$blankByYear['1974'] = 0;
-	$blankByYear['1975'] = 0;
-	$blankByYear['1976'] = 0;
-	$blankByYear['1977'] = 0;
-	$blankByYear['1978'] = 0;
-	$blankByYear['1979'] = 0;
-	$blankByYear['1980'] = 0;
-	$blankByYear['1981'] = 0;
-	$blankByYear['1982'] = 0;
-	$blankByYear['1983'] = 0;
-	$blankByYear['1984'] = 0;
-	$blankByYear['1985'] = 0;
-	$blankByYear['1986'] = 0;
-	$blankByYear['1987'] = 0;
-	$blankByYear['1988'] = 0;
-	$blankByYear['1989'] = 0;
+	$blankByDecade['2020s'] = 0;
 	
 	?>
 	<body>
@@ -107,16 +83,10 @@
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing;
 						$numBlank = $numBlank + $missing;
 						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
-						if($fn_t['year'] > 1969 && $fn_t['year'] < 1990) {
-							$blankByYear[$fn_t['year']] = $blankByYear[$fn_t['year']] + $missing;
-						}
 					} else if($fn_t['type'] == 'review' && $missing > 0) {
 						$fn_t['errors'][] = 'Images missing filepath: '.$missing.' (review)';
 						$numBlank = $numBlank + $missing;
 						$blankByDecade[$decade] = $blankByDecade[$decade] + $missing;
-						if($fn_t['year'] > 1969 && $fn_t['year'] < 1990) {
-							$blankByYear[$fn_t['year']] = $blankByYear[$fn_t['year']] + $missing;
-						}
 					} else {
 						//
 					}
@@ -134,32 +104,8 @@
 				}
 			}
 			
-			print '<h3>Blank images (1960s): '.$blankByDecade['1960s'].'</h3>';
-			print '<h3>Blank images (1970s): '.$blankByDecade['1970s'].'</h3>';
-			print '<h4>Blank images (1970): '.$blankByYear['1970'].'</h4>';
-			print '<h4>Blank images (1971): '.$blankByYear['1971'].'</h4>';
-			print '<h4>Blank images (1972): '.$blankByYear['1972'].'</h4>';
-			print '<h4>Blank images (1973): '.$blankByYear['1973'].'</h4>';
-			print '<h4>Blank images (1974): '.$blankByYear['1974'].'</h4>';
-			print '<h4>Blank images (1975): '.$blankByYear['1975'].'</h4>';
-			print '<h4>Blank images (1976): '.$blankByYear['1976'].'</h4>';
-			print '<h4>Blank images (1977): '.$blankByYear['1977'].'</h4>';
-			print '<h4>Blank images (1978): '.$blankByYear['1978'].'</h4>';
-			print '<h4>Blank images (1979): '.$blankByYear['1979'].'</h4>';
-			print '<h3>Blank images (1980s): '.$blankByDecade['1980s'].'</h3>';
-			print '<h4>Blank images (1980): '.$blankByYear['1980'].'</h4>';
-			print '<h4>Blank images (1981): '.$blankByYear['1981'].'</h4>';
-			print '<h4>Blank images (1982): '.$blankByYear['1982'].'</h4>';
-			print '<h4>Blank images (1983): '.$blankByYear['1983'].'</h4>';
-			print '<h4>Blank images (1984): '.$blankByYear['1984'].'</h4>';
-			print '<h4>Blank images (1985): '.$blankByYear['1985'].'</h4>';
-			print '<h4>Blank images (1986): '.$blankByYear['1986'].'</h4>';
-			print '<h4>Blank images (1987): '.$blankByYear['1987'].'</h4>';
-			print '<h4>Blank images (1988): '.$blankByYear['1988'].'</h4>';
-			print '<h4>Blank images (1989): '.$blankByYear['1989'].'</h4>';
-			print '<h3>Blank images (1990s): '.$blankByDecade['1990s'].'</h3>';
-			print '<h3>Blank images (2000s): '.$blankByDecade['2000s'].'</h3>';
 			print '<h3>Blank images (2010s): '.$blankByDecade['2010s'].'</h3>';
+			print '<h3>Blank images (2020s): '.$blankByDecade['2020s'].'</h3>';
 			print '<h3>Total blank images: '.$numBlank.'</h3>';
 			?>
 							

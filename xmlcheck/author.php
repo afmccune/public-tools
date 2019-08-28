@@ -3,8 +3,7 @@
 	<?php
 	$pt = '';
 	
-	$dir = ''; // enter directory path
-	$url = ''; // enter url
+	require('../include.php');
 	
 	require('include/functions.php');
 	require('include/head.php');

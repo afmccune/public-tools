@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -75,7 +75,7 @@ function linkCmp(array $a, array $b) {
 											if(file_exists($mainDir.$link)) {
 												echo '(in archive: <a href="'.$url.$link.'.pdf">'.$link.'</a>)';
 											} else {
-												echo '(error: '.$link.' not downloaded to archive)';
+												echo '('.$link.' not downloaded locally)';
 											}
 											
 											echo '</p>';

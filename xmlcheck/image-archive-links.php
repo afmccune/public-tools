@@ -3,7 +3,7 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 
 	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer || $_SERVER['SERVER_NAME'] == $devServer) ? '' : $mainDir;
 	$base_url = ($_SERVER['SERVER_NAME'] == $mainServer) ? 'http://'.$mainServer.'/' : 'http://localhost:8888'.$url;

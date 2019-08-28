@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 require($mainDir.'include/functions.php');
 
 $nl = "

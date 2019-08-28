@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-require('../../include.php');
+require('../include.php');
 require('include/functions.php');
 
 $nl = "
@@ -61,7 +61,7 @@ function linkCmp(array $a, array $b) {
 											} else if(file_exists($illustrationDir.$fn_t['volIss'].'/'.$src)) {
 												echo '(in archive: <a href="'.$illustrationDir.$fn_t['volIss'].'/'.$src.'">'.$fn_t['volume'].'.'.$fn_t['issue'].'/'.$src.'</a>)';
 											} else {
-												echo '(error: '.$fn_t['volIss'].'/'.$src.' not downloaded to archive)';
+												echo '('.$fn_t['volIss'].'/'.$src.' not downloaded locally)';
 											}
 											
 											echo '</p>';

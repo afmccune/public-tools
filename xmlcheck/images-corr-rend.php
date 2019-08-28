@@ -3,7 +3,7 @@
 	<?php
 	$pt = '';
 	
-	require('../../include.php');
+	require('../include.php');
 
 	$base_path = ($_SERVER['SERVER_NAME'] == $mainServer) ? '' : $mainDir;
 	$base_url = ($_SERVER['SERVER_NAME'] == $mainServer) ? 'http://'.$mainServer.'/' : 'http://localhost:8888'.$url;
@@ -53,7 +53,7 @@
 		return false;
 	  }
 	
-	// trouble with this is the answer is always yes on the new WBA, which gives you a custom 404 page if the URL is wrong
+	// trouble with this is the answer is always yes if the image archive gives you a custom 404 page if the URL is wrong
 	function url_exists($url){
         $url = str_replace("http://", "", $url);
         if (strstr($url, "/")) {
@@ -84,8 +84,8 @@
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
 							<h1>Checking image for correct rend value</h1>
-							<p>If image exists both locally and on public WBA site, rend value may point to local file ("file") when it should point to WBA ("db").</p>
-							<p>(Note: filename converted to lowercase for comparison with WBA.)</p>
+							<p>If image exists both locally and on public image archive site, rend value may point to local file ("file") when it should point to image archive ("db").</p>
+							<p>(Note: filename converted to lowercase for comparison with image archive.)</p>
 						</div>
 					</div>
 					<div id="main">
