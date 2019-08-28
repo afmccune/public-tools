@@ -11,7 +11,9 @@ $(window).ready(function(){
 	maxVol = ($("#maxVol").text().length > 0) ? $("#maxVol").text() : maxVol;
 	maxIss = ($("#maxIss").text().length > 0) ? $("#maxIss").text() : maxIss;
 
+				
 	var pathname = window.location.pathname;	
+	var query = window.location.search;	
 	if(pathname.charAt(pathname.length-1) == '/' || pathname.search(/index.php/) != -1) {
 		// --- first section initially expanded:
 		$("h3.decadeHeading").toggler({initShow: "div.collapse:first"});
@@ -24,9 +26,9 @@ $(window).ready(function(){
 		//$("#all-content").expandAll({trigger: "h2.expand", ref: "div.demo",  speed: 300, oneSwitch: false});
 
 		$("#allIssues").css("display", "block");
-	} else if (pathname.search(/[0-9]{1,2}.[1-4][-a-z1-4]{0,2}.[a-zA-Z]*/) != -1) {
+	} else if (query.search(/[0-9]{1,2}.[1-4][-a-z1-4]{0,2}.[a-zA-Z]*/) != -1) {
 			$('.image-expand').fancybox({
-			});	
+			});
 	} else if(pathname.search(/Emend/) != -1) {
 			//Remove emendation entries for unpublished articles
             $('div#core div').each(function(index) {
