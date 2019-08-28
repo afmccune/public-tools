@@ -215,7 +215,7 @@ div#cover img {
 					$fn_t['HTML'] .= 		''.$fn_t['pAbbr'].' '.$fn_t['pageRange'].'</p>'.$nl;
 					$fn_t['HTML'] .= '		</div>'.$nl;
 					$fn_t['HTML'] .= '		<div id="cover">'.$nl;
-					$fn_t['HTML'] .= '			<img src="../'.$illustrationDir.$fn_t['cover'].'" width="160"/>'.$nl;
+					$fn_t['HTML'] .= '			<img src="'.$illustrationDir.$fn_t['cover'].'" width="160"/>'.$nl;
 					$fn_t['HTML'] .= '		</div>'.$nl;
 					$fn_t['HTML'] .= '	</body>'.$nl;
 					$fn_t['HTML'] .= '</html>'.$nl;
