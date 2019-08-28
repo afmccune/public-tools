@@ -6,11 +6,13 @@
 	$nl = '
 ';
 	
+	require('../include.php');
+	
 	require('include/functions.php');
 	require('include/head.php');
 			
 	function replaceInFile($key, $value, $filename) {
-		$XMLstring = file_get_contents('../../bq/docs/'.$filename);
+		$XMLstring = file_get_contents($dir.$filename);
 		$XMLstringNew = $XMLstring;
 		
 		$XMLstringNew = preg_replace("@".$key."@", "".$value."", $XMLstringNew);
@@ -29,8 +31,7 @@
 		$volTwoDig = str_pad($vol, 2, '0', STR_PAD_LEFT);
 		$pThreeDig = str_pad($p, 3, '0', STR_PAD_LEFT);
 		
-		//$dir = '/Applications/MAMP/htdocs/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
-		$pdfDir = '/bq-tools/bq-xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
+		$pdfDir = '/public-tools/xmltransform/pdf-rename/'.$vol.'.'.$iss.'/';
 		$fn = $volTwoDig.'.'.$iss.'.'.$pThreeDig.'.pdf';
 		
 		return $pdfDir.$fn;
@@ -54,7 +55,7 @@
 						<div id="articles-reviews-index">
 			<?php
 							
-			foreach (new DirectoryIterator("../../bq/docs/") as $fn) {
+			foreach (new DirectoryIterator($dir) as $fn) {
 				if (preg_match('/[0-9]{1,2}.[0-9]{1}[-a-z0-9]{0,3}.[-a-z0-9]{1,20}.xml/', $fn->getFilename()) && !in_array($fn->getFilename(), $filesList)) {
 					$fn_t = array();
 					$fn_t['fn'] = $fn->getFilename();	
@@ -67,7 +68,7 @@
 					$fn_t['issueShort'] = substr($fn_t['issueNum'], 0, 1);
 					$fn_t['fileSplit'] = $fileParts[2];
 
-					$FullXML = simplexml_load_file('../../bq/docs/'.$fn_t['fn']); 
+					$FullXML = simplexml_load_file($dir.$fn_t['fn']); 
 					$fn_t['pb'] = $FullXML->xpath('//pb/@n'); // array
 					$fn_t['pbHidden'] = $FullXML->xpath('//pb/@rend'); // array
 					$fn_t['pbHiddenFront'] = $FullXML->xpath('//front//pb/@rend'); // array
@@ -89,12 +90,12 @@
 							replaceInFile('([	 ]{0,})</body>', '	<pb id="p'.$volTwoDig.'-'.$next.'" n="'.$next.'" rend="hidden"/>'.$nl.'$1</body>', $fn_t['fn']);
 							$nextPdfLink = pdfForPage($fn_t['volNum'], $fn_t['issueNum'], $next);
 							print '<p>';
-							print '<a href="/bq/'.$fn_t['file'].'#'.$fn_t['lastNote'].'" target="_blank">OLD</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
+							print '<a href="'.$url.'xdoc.php?file='.$fn_t['file'].'#'.$fn_t['lastNote'].'" target="_blank">OLD</a> ';
+							print '<a href="/public-tools/xmltransform/pdf-merge/'.$fn_t['file'].'.pdf" target="_blank">PDF</a> ';
 							print '<a href="'.$nextPdfLink.'" target="_blank">(next page)</a> ';
-							print '<a href="/bq-tools/bq-diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">ADD PAGE</a> ';
-							print '<a href="/bq-tools/bq-xmltransform/notes-bottom-ok.php?l=notes-bottom-ok.txt&t='.$fn_t['file'].'.xml" target="_blank" style="color:red;">OK AS IS</a> ';
+							print '<a href="/public-tools/diff/trans-diff.php?file='.$fn_t['file'].'" target="_blank">DIFF</a> ';
+							print '<a href="/public-tools/xmltransform/move-to-bq.php?f='.$fn_t['file'].'.xml" target="_blank" style="color:red;">ADD PAGE</a> ';
+							print '<a href="/public-tools/xmltransform/notes-bottom-ok.php?l=notes-bottom-ok.txt&t='.$fn_t['file'].'.xml" target="_blank" style="color:red;">OK AS IS</a> ';
 							print '</p>';
 						} else {
 							//

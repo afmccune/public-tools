@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Convert Slideshow</title>
-		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <link rel="stylesheet" media="screen" href="../../bq/style.css"></link>
-        <!--
-		<script src="../../bq/js/expand.js"></script>
-		<script src="../../bq/js/bq.js"></script>
-		<link rel="stylesheet" media="screen" href="../../bq/js/fancybox/jquery.fancybox-1.3.4.css"></link>
-		<script type="text/javascript" src="../../bq/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-		-->
-	</head>
 	<?php
 	$pt = '';
 	$nl = '
 ';
 
-	//require('include/functions.php');
+	require('../include.php');
 	
 	?>
+	<head>
+		<title>Convert Slideshow</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" media="screen" href="<?php echo $mainDir; ?>style.css"></link>
+	</head>
 	<body>
        <div id="outer">
 			<div id="content">

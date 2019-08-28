@@ -3,7 +3,7 @@
 <?php
 $pt = '';
 
-require('../../include.php');
+require('../include.php');
 	
 $nl = '
 ';

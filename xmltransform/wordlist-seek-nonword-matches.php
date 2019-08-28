@@ -4,7 +4,7 @@
 //ini_set('memory_limit', '500M');
 ini_set('max_execution_time', 300); //300 seconds = 5 minutes
 
-require('../../include.php');
+require('../include.php');
 require('include/functions.php');
 	
 $nl = "

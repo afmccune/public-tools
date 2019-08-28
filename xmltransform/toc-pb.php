@@ -5,7 +5,7 @@
 	$nl = '
 ';
 	
-	require('../../include.php');
+	require('../include.php');
 	require('include/functions.php');
 	require('include/head.php');
 

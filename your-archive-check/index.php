@@ -13,7 +13,7 @@
 				<div id="content-inner">
 					<div id="issue-heading">
 						<div class="issue-heading-inner">
-							<h1>Illuminated Book: Object Matchup</h1>
+							<h1>Book: Object Matchup</h1>
 						</div>
 					</div>
 					<div id="main">
@@ -30,7 +30,7 @@
 
 					$fn_t['objIDs'] = array();
 					$fn_t['workID'] = '';
-					$fn_t['bentleyCodes'] = array();
+					$fn_t['bCodes'] = array();
 					
 					$FullXML = simplexml_load_file('./archive/'.$fn_t['fn']); 
 					
@@ -53,10 +53,10 @@
 					$objIDparts = (count($fn_t['objIDs']) > 0) ? explode('.', $fn_t['objIDs'][0]) : array('');
 					$fn_t['workID'] = $objIDparts[0];
 					
-					$bentleyCodes = $FullXML->xpath('//desc//objcode/@code[contains(.,"B")]'); // array
+					$bCodes = $FullXML->xpath('//desc//objcode/@code[contains(.,"B")]'); // array
 					
-					foreach($bentleyCodes as $bentleyCode) {
-						$stringCode = print_r($bentleyCode, true);
+					foreach($bCodes as $bCode) {
+						$stringCode = print_r($bCode, true);
 						$stringCode = str_replace('SimpleXMLElement Object', '', $stringCode);
 						$stringCode = str_replace('[@attributes] => Array', '', $stringCode);
 						$stringCode = str_replace('[code] =>', '', $stringCode);
@@ -64,15 +64,15 @@
 						$stringCode = str_replace(')', '', $stringCode);
 						$stringCode = preg_replace('/\r|\n/', '', $stringCode );
 						$stringCode = str_replace(' ', '', $stringCode);
-						$fn_t['bentleyCodes'][] = $stringCode;
+						$fn_t['bCodes'][] = $stringCode;
 					}
 					
-					for($i=0; $i<count($fn_t['bentleyCodes']); $i++) {
-						$workBentley = $fn_t['workID'].'('.$fn_t['bentleyCodes'][$i].')';
-						if(!$sorted[$workBentley]) {
-							$sorted[$workBentley] = array();
+					for($i=0; $i<count($fn_t['bCodes']); $i++) {
+						$workB = $fn_t['workID'].'('.$fn_t['bCodes'][$i].')';
+						if(!$sorted[$workB]) {
+							$sorted[$workB] = array();
 						}
-						$sorted[$workBentley][] = $fn_t['objIDs'][$i];
+						$sorted[$workB][] = $fn_t['objIDs'][$i];
 					}
 					
 				}
